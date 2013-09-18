@@ -1,4 +1,4 @@
-commotion-docs-i18n
+commotion-docs
 ===================
 
-Translation of Commotion web documentation
+This repository will contain Commotion's canonical website documentation.
