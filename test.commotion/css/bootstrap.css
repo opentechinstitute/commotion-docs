@@ -7134,11 +7134,14 @@ td.visible-print {
     display: block;
     float: right;
     margin-right: 2em;
+    list-style: none;
+    list-style-type: none;
 }
 .main-menu ul li {
     list-style: none;
     list-style-type: none;
     display: block;
+    float: right;
 }
 .main-menu ul li ul {
     display: none;
