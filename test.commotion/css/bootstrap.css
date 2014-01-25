@@ -7140,15 +7140,15 @@ ul.main-menu  {
 }
 ul.main-menu li,
 ul.main-menu li a {
-    width: 10%;
+    width: 20%;
     display: block;
     float: right;
 }
-.main-menu ul li {
+ul.main-menu ul li {
     list-style: none;
     list-style-type: none;
     display: block;
 }
-.main-menu ul li ul {
+ul.main-menu li ul {
     display: none;
 }
