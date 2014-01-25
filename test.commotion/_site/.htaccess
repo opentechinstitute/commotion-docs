@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Required. Access is provisioned by OTI Tech Team."
+AuthUserFile /usr/local/share/apache2passwd/passwords
+Require user critzo
