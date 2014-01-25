@@ -7130,3 +7130,16 @@ td.visible-print {
     width: 5%;
     float: left;
 }
+.main-menu ul {
+    display: block;
+    float: right;
+    margin-right: 2em;
+}
+.main-menu ul li {
+    list-style: none;
+    list-style-type: none;
+    display: block;
+}
+.main-menu ul li ul {
+    display: none;
+}
