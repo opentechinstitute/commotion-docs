@@ -7138,8 +7138,11 @@ ul.main-menu  {
     list-style: none;
     list-style-type: none;
 }
-ul.main-menu li {
-    width: 3em;
+ul.main-menu li,
+ul.main-menu li a {
+    width: 10%;
+    display: block;
+    float: right;
 }
 .main-menu ul li {
     list-style: none;
