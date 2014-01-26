@@ -19,6 +19,8 @@
     <![endif]-->
   </head>
 <body>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="boxes-box" id="boxes-box-top_colors">
     <div class="boxes-box-content">
@@ -36,19 +38,21 @@
     <div style="float: left; max-width:300px;">
     <img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" />
     </div>
-    <div style="float: right; width: 70%;">
-    <ul class="main-menu">
-      <li><a href="/about">About</a>
-        <ul>
-	  <li><a href="/about/faq">FAQ</a></li>
-	  <li><a href="/about/guiding-principles">Guiding Principles</a></li>
-	  <li><a href="/about/where-its-used">Where It&#039;s Used</a></li>
-	  <li><a href="/about/press">Press</a></li>
-	  <li><a href="/about/license-privacy">License &amp; Privacy</a></li>
-	  <li><a href="/jobs">Jobs</a></li>
-	  <li><a href="/contact">Contact</a></li>
+    <div class="dropdown" style="float: right; width: 70%;">
+    <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">About
+    <span class="caret"></span>
+    </button>
+    <ul class="main-menu dropdown-menu" role="menu" aria-labelledby="dropdownMenu1>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
 	</ul>
-      </li>
+      <ul>
       <li><a href="/blog" title="">Blog</a></li>
       <li><a href="/docs/get-started" title="">Get Help</a>
         <ul>
