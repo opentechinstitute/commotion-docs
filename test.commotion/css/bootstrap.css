@@ -3486,7 +3486,7 @@ input[type="button"].btn-block {
   margin: 2px 0 0;
   font-size: 14px;
   list-style: none;
-  background-color: #ffffff;
+  background-color: #00FFCF;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -3521,7 +3521,7 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:focus {
   color: #262626;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #E8FF00;
 }
 
 .dropdown-menu > .active > a,
@@ -4079,8 +4079,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #E8FF00;
+  margin-bottom: 0;
 }
 
 .nav > li.disabled > a {
@@ -4098,8 +4100,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #FF739C;
 }
 
 .nav .open > a .caret,
@@ -7129,4 +7130,52 @@ td.visible-print {
 .color4 {
     width: 5%;
     float: left;
+}
+ul.main-menu  {
+    display: block;
+    float: right;
+    width: 80%;
+    margin-right: 2em;
+    list-style: none;
+    list-style-type: none;
+}
+ul.main-menu li {
+    width: 20%;
+    display: block;
+    float: left;
+}
+ul.main-menu li a {
+    display: block;
+}
+ul.main-menu ul li {
+    list-style: none;
+    list-style-type: none;
+    display: block;
+}
+ul.main-menu li ul {
+    display: none;
+}
+li.dropdown a,
+li.dropdown a:visited,
+li.static-nodrop a,
+li.static-nodrop a:visited {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.promo {
+    width: 100%;
+    min-height: 10em;
+    position: relative;
+    z-index: 10;
+    margin-top: -5.5em; 
+}
+.contentcontainer {
+  background: url('/images/black_tri.png') center top no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-wrapper { 
+  background: url('/images/white_tri.png') no-repeat center top #00FFCF;
+  color: #000000;
 }
