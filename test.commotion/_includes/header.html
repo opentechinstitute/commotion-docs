@@ -34,15 +34,16 @@
 </div>
   <div class="container">
     <div style="float: left; max-width:300px;">
-    <img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" />
+    <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
     </div>
-    <div class="dropdown" style="float: right; width: 70%;">
-    <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
-    About
-    <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+    <div style="float: right; width: 70%;">
+    <ul class="nav nav-pills">
+      <li class="dropdown">
+	<a id="drop1" href="#" data-toggle="dropdown" role="button">
+	About
+	<b class="caret"></b>
+	</a>
+	<ul id="menu1" class="dropdown-menu" aria-labelledby="drop1" role="menu">
 	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
 	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
 	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
@@ -51,6 +52,7 @@
 	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
 	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
 	</ul>
+	</li>
 <!--
       <ul>
       <li><a href="/blog" title="">Blog</a></li>
