@@ -3486,7 +3486,7 @@ input[type="button"].btn-block {
   margin: 2px 0 0;
   font-size: 14px;
   list-style: none;
-  background-color: #ffffff;
+  background-color: #00FFCF;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -3521,7 +3521,7 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:focus {
   color: #262626;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #E8FF00;
 }
 
 .dropdown-menu > .active > a,
@@ -4100,8 +4100,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #FF739C;
 }
 
 .nav .open > a .caret,
@@ -7164,4 +7163,6 @@ li.static-nodrop a:visited {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.promo {
+    background: url('/images/black_tri.png') center top no-repeat #000000;
+}
