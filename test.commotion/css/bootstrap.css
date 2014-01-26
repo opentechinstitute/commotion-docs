@@ -4079,8 +4079,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #E8FF00;
+  margin-bottom: 0;
 }
 
 .nav > li.disabled > a {
@@ -7154,3 +7156,10 @@ ul.main-menu ul li {
 ul.main-menu li ul {
     display: none;
 }
+li.dropdown a,
+li.dropdown a:visited {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
