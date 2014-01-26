@@ -7164,5 +7164,9 @@ li.static-nodrop a:visited {
     text-transform: uppercase;
 }
 .promo {
-    background: url('/images/black_tri.png') center top no-repeat #000000;
+    width: 100%;
+    min-height: 3em;
+    position: relative;
+    top: 15em; 
+    background: url('/images/black_tri.png') center bottom no-repeat #000000;
 }
