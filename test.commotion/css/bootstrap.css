@@ -7165,8 +7165,17 @@ li.static-nodrop a:visited {
 }
 .promo {
     width: 100%;
-    min-height: 3em;
+    min-height: 10em;
     position: relative;
-    top: 15em; 
-    background: url('/images/black_tri.png') center bottom no-repeat #000000;
+    z-index: 10;
+    margin-top: -5.5em; 
+}
+.contentcontainer {
+  background: url('/images/black_tri.png') center top no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-wrapper { 
+  background: url('/images/white_tri.png') no-repeat center top #00FFCF;
+  color: #000000;
 }
