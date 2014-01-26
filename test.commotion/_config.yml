@@ -6,6 +6,5 @@ encoding: utf-8
 url: "test.commotionwireless.net"
 port: 80
 
-paginate: 10
 
 permalink: pretty 
