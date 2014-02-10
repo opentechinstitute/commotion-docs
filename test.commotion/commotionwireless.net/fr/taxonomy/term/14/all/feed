@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/14/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Detroit</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/14/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>PRESS RELEASE: New Tools Support Communities to Build Own Wireless Communications Infrastructure</title>
+    <link>http://commotionwireless.net/fr/blog/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img src=&quot;https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_general_intro.png?itok=6eRvcgMY&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;New America Foundation’s&amp;nbsp;&lt;a href=&quot;http://oti.newamerica.net/&quot;&gt;Open Technology Institute&lt;/a&gt;&amp;nbsp;(OTI) today released the first round of its &lt;a href=&quot;https://commotionwireless.net/docs/cck&quot;&gt;Commotion Construction Kit&lt;/a&gt;, a “do it ourselves” guide for building wireless communications infrastructure. The materials are part of the Commotion project, an open-source communications toolkit that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks and share local services.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 01 Oct 2013 15:06:24 +0000</pubDate>
+ <dc:creator>darbyhickey</dc:creator>
+ <guid isPermaLink="false">9678 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Video: Community, Technology, and Training</title>
+    <link>http://commotionwireless.net/fr/node/8727</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;A new video about the Open Technology Institute&#039;s approach to training, community, and technology, using the Commotion Wireless toolkit to support communities&#039; to take control of their own communications infrastructure. The video highlights the work of the Digital Stewards programs in&amp;nbsp;&lt;a href=&quot;http://inthetank.newamerica.net/podcast/2013/05/detroit-gone-wired&quot;&gt;Detroit&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;http://brooklyn.ny1.com/content/top_stories/179131/red-hook-group-bridges-digital-gap-left-by-storm&quot;&gt;Brooklyn&lt;/a&gt;, and the sharing of those training resources and the Commotion technology at a workshop in &lt;a href=&quot;https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop&quot;&gt;Dharamshala&lt;/a&gt;, India.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/aBzyH09DeLo?rel=0&quot; width=&quot;560&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 26 Jul 2013 19:40:32 +0000</pubDate>
+ <dc:creator>darbyhickey</dc:creator>
+ <guid isPermaLink="false">8727 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Building Community Controlled Digital Infrastructure in Detroit</title>
+    <link>http://commotionwireless.net/fr/blog/building-community-controlled-digital-infrastructure-detroit</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/articles/images/DS_classBW.jpg&quot; width=&quot;300px;&quot; /&gt;&lt;br /&gt;
+Community members launched two new wireless networks at the end of April in Detroit neighborhoods, with a third one still in the works. Built on the Commotion mesh wireless platform, these networks function as local communications infrastructure: they act as an intranet for community interactions, and connect to the global Internet.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Jun 2013 21:06:59 +0000</pubDate>
+ <dc:creator>georgia</dc:creator>
+ <guid isPermaLink="false">133 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Brainstorming how neighborhood power grids could work with community mesh networks</title>
+    <link>http://commotionwireless.net/fr/blog/brainstorming-how-neighborhood-power-grids-could-work-community-mesh-networks</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;A community wireless network can provide a reliable conduit for many types of communication. We might initially think of this communication within a human context — sharing music with your friend across town, spreading news to your city about an upcoming event, responding to an emergency, or asking questions of a local politician on a discussion forum. But, in a world that runs parallel to the Internet we use everyday, our communication networks are used by all sorts of machines to make our society an exponentially more productive and automated place.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">91 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Exploring &quot;meshaging&quot;</title>
+    <link>http://commotionwireless.net/fr/blog/exploring-meshaging</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Over the past few years, The Work Department has been active in building community wireless networks in Detroit. We have experimented with different types of hardware and software, and we have helped neighborhoods build useful networks to share internet connectivity and provide local file sharing. Something we haven’t had much of an opportunity to explore, though, is building more elaborate systems that leverage the unique traits of mesh networks.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 22 Aug 2012 17:56:55 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">81 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Neighborhood network builders: a summary</title>
+    <link>http://commotionwireless.net/fr/blog/neighborhood-network-builders-summary</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;As part of our research for the Commotion Human Interface Guidelines, we interviewed four people who have been involved in building community wireless networks around Detroit (see earlier blog posts for excerpts). Based on these interviews and our experience working with various users, we recommend that Commotion developers and organizers implement the following concepts:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building successful software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our interviews confirmed that users expect long-term reliability, speed, and ease of use when using wireless devices. The Commotion user interface should:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Walk a user through the setup process.&lt;/li&gt;
+  &lt;li&gt;Work well across platforms, browsers, and devices.&lt;/li&gt;
+  &lt;li&gt;Be as fast as using a non-mesh WiFi access point.&lt;/li&gt;
+  &lt;li&gt;Help users understand mesh network security.&lt;/li&gt;
+  &lt;li&gt;Allow for easy monitoring of network status in terms that users can understand.&lt;/li&gt;
+  &lt;li&gt;Offer troubleshooting suggestions when a network does not work correctly.&lt;/li&gt;
+&lt;/ol&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 08 May 2012 19:51:27 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">58 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/taxonomy/term/12/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Research</title>
+    <link>http://commotionwireless.net/taxonomy/term/12/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Warning Label Development, Part 2</title>
+    <link>http://commotionwireless.net/blog/warning-label-development-part-2</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In &lt;a href=&quot;https://commotionwireless.net/blog/warning-label-development-part-1&quot;&gt;Part 1&lt;/a&gt;, we came up with a list of security features Commotion lacked. We took this list of unimplemented security features and used OSHA&#039;s hazard communication guide to clarify our language[9]:&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 25 Feb 2013 19:23:08 +0000</pubDate>
+ <dc:creator>OTI</dc:creator>
+ <guid isPermaLink="false">123 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Warning Label Development, Part 1</title>
+    <link>http://commotionwireless.net/blog/warning-label-development-part-1</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Commotion is not currently a secure circumvention tool. At some point that statement will not be true, but until then this fact must be known by anyone who interacts with Commotion. With the increasing popularity of digital circumvention tools, news outlets have pointed to Commotion as a possible tool for creating safe local communication networks when the usual channels are compromised. When an unfinished project like Commotion enters the spotlight, it is important to warn potential users about the limitations of the tools in development.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 25 Feb 2013 19:19:41 +0000</pubDate>
+ <dc:creator>OTI</dc:creator>
+ <guid isPermaLink="false">122 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Case Study: Red Hook Initiative WiFi &amp; Tidepools</title>
+    <link>http://commotionwireless.net/blog/case-study-red-hook-initiative-wifi-tidepools</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;This Case Study will be published in the forthcoming edition of &lt;a href=&quot;http://wndw.net/&quot; rel=&quot;nofollow&quot;&gt;Wireless Networking in the Developing World&lt;/a&gt; and is cross-posted at &lt;a href=&quot;http://oti.newamerica.net/blogposts/2013/case_study_red_hook_initiative_wifi_tidepools-78575&quot; rel=&quot;nofollow&quot;&gt;oti.newamerica.net&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/imagecache/standard_node_image/articles/images/redhook_sign2.jpg&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 02 Feb 2013 05:21:50 +0000</pubDate>
+ <dc:creator>georgia</dc:creator>
+ <guid isPermaLink="false">119 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Building successful online community for open-source development</title>
+    <link>http://commotionwireless.net/blog/building-successful-online-community-open-source-development</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In order to help build the most effective Commotion online community, we’ve conducted basic research to gain an understanding of infrastructures that other software development communities use. We focused on open-source projects that are used widely. We found that, while a variety of communication strategies, governance structures, and social cultures exist, there are some shared elements that appear to make a community strong and effective.&lt;/p&gt;
+
+&lt;p&gt;In our full report to the Open Technology Initiative, we reviewed Drupal, Mozilla, Android, and Ubuntu Linux. In this post, we include a simplified comparison of those communities and share the conclusions we drew from our research.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 30 May 2012 18:45:32 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">55 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>An audit of current Commotion user interfaces</title>
+    <link>http://commotionwireless.net/blog/audit-current-commotion-user-interfaces</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;With the goal of creating both an intuitive and accessible user experience (UX) across a sampling of devices that will run Commotion, we surveyed and analyzed the current state of the existing interfaces. We deployed a test network using the three software components currently in development phases: Commotion on an Ubiquiti Picostation (router), The Guardian Project’s OLSR Mesh Tether on an Android handset (phone) and Commotion on Linux (laptop). In anticipation of The Serval Project’s forthcoming work around meshing mobile devices with Commotion, we also researched the current release of Serval Mesh. We documented each step with screenshots, &lt;a href=&quot;http://www.flickr.com/photos/24639042@N07/collections/72157629382917618/&quot; target=&quot;blank&quot;&gt;which are compiled here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After the initial audit, we compared and contrasted each workflow, documenting any issues that arose during the process and were then able to make recommendations on how to improve each of the interfaces and workflows and make them consistent across platforms.&lt;/p&gt;
+
+&lt;p&gt;Our process was unique in that our auditors represented a range of skill levels and backgrounds. We seek to represent this diversity when creating user interfaces that are intended for a broad range of users. For example, Auditor 1 is a self-taught web developer with advanced skills in networks and mesh networks specifically. Auditor 2 is a designer with intermediate knowledge of networks and some experience setting up networks. Auditor 3 is a designer with basic network skills and very little experience setting up a network. We feel that these varied levels of experience with networking are important. The advanced user can help guide the process for successful installation and the inexperienced users can communicate what is helpful while illuminating confusing aspects of the process.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 09 May 2012 17:49:42 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">57 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Neighborhood network builders: a summary</title>
+    <link>http://commotionwireless.net/blog/neighborhood-network-builders-summary</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;As part of our research for the Commotion Human Interface Guidelines, we interviewed four people who have been involved in building community wireless networks around Detroit (see earlier blog posts for excerpts). Based on these interviews and our experience working with various users, we recommend that Commotion developers and organizers implement the following concepts:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building successful software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our interviews confirmed that users expect long-term reliability, speed, and ease of use when using wireless devices. The Commotion user interface should:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Walk a user through the setup process.&lt;/li&gt;
+  &lt;li&gt;Work well across platforms, browsers, and devices.&lt;/li&gt;
+  &lt;li&gt;Be as fast as using a non-mesh WiFi access point.&lt;/li&gt;
+  &lt;li&gt;Help users understand mesh network security.&lt;/li&gt;
+  &lt;li&gt;Allow for easy monitoring of network status in terms that users can understand.&lt;/li&gt;
+  &lt;li&gt;Offer troubleshooting suggestions when a network does not work correctly.&lt;/li&gt;
+&lt;/ol&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 08 May 2012 19:51:27 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">58 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Integrating design and development to shape Commotion’s brand identity</title>
+    <link>http://commotionwireless.net/blog/integrating-design-and-development-shape-commotion%E2%80%99s-brand-identity</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;div class=&quot;field-content&quot;&gt;&lt;p&gt;At The Work Department, we’ve had the privilege of creating Commotion’s brand identity from conception to completion. If you haven’t heard about it yet, Commotion is an open, yet secure, circumvention tool to create decentralized mesh networks. We are collaboratively developing the tool with The New America Foundation’s Open Technology Initiative.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 01 May 2012 17:53:15 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">63 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

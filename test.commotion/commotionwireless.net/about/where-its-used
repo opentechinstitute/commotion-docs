@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/node/146" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/about/where-its-used" />
+<meta content="Where It&amp;#039;s Used" about="/about/where-its-used" property="dc:title" />
+  <title>Where It&#039;s Used | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_dF2OCmj2oSrnU2TeMN0EsDKlMnjoUgf1wXs5askr4Sk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_9Z3M12eYgeq5c7xt_NjpvLbD7wKJ-0PZsI4mchZBSJA.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kb","theme_token":"1ucoDfERYSMhxgjfz_SJkqQbV-PrZYNk1k3VBHMrWTw","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-146 node-type-page i18n-en context-about">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 active-trail first odd "><a href="/about">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146 active-trail  odd "><a href="/about/where-its-used" class="active-trail active">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/about/press">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434  even "><a href="/docs/cck">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/about/where-its-used" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-R_zeEaVsgsgXmkKiJnwOItRp29dmNppgb3hPvJ9JLS4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class="boxes-box-content"><hr />
+<h1 id="page-title" class="page_title">
+Where It&#039;s Used</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Where It&#039;s Used</h1>
+    </div>                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/about/where-its-used" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-gerety odd clearfix" id="node-page-146">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p class="bigger">The Commotion project has pilot networks in Detroit, Red Hook and has built event&nbsp;networks at conferences such as&nbsp;the <a href="http://amc.alliedmedia.org/">Allied Media Conference</a>,&nbsp;<a href="http://conference.freepress.net/">National Conference for Media Reform</a>, and <a href="http://wirelesssummit.org">International Summit for Community Wireless Networks</a>.</p>
+
+<h3>International Training in Sayada, Tunisia</h3>
+
+<p><img align="left" src="http://ubuntu.nizarus.tn/var/resizes/MeshSayada/WeekEnd-1/MeshSayada-1-122.JPG?m=1386588086" style="margin: 0px 20px;" width="200" />Open Technology Institute held a series of workshops on Commotion Wireless technology in Sayada, Tunisia in December 2013.</p>
+
+<p>Learn More:</p>
+
+<ul>
+	<li><a href="http://storify.com/gretabyrum/commotion-in-sayada">Storify Post</a></li>
+	<li><a href="http://ubuntu.nizarus.tn/MeshSayada">Photos</a></li>
+</ul>
+
+<h3>International Training in India</h3>
+
+<p><img align="left" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_two.png" style="margin: 0px 20px;" width="200" /> The Open Technology Institute traveled to Dharamshala, India in June 2013 for the first international Commotion Wireless workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.</p>
+
+<p>Learn More:</p>
+
+<ul>
+	<li><a href="http://oti.newamerica.net/blogposts/2013/commotion_travels_to_india_for_first_international_workshop-86838">Blog Post</a></li>
+	<li><a href="https://plus.google.com/photos/113632566131475824062/albums/5891649779649829441">Photos</a></li>
+</ul>
+
+<h3 class="bigger">Detroit</h3>
+
+<p><img align="left" src="/files/detroit.jpg" style="margin: 0px 20px;" width="200" /> Open Technology Institute (OTI) is actively working on a 20 node test network in the Cass Corridor section of Detroit, Michigan.</p>
+
+<p>Additionally, OTI is working with local organizations to develop a training program for wireless engineering and installation, which will make use of the network as an open air classroom. The prototype Commotion network connects low-income apartment buildings, community centers, churches and businesses in the Cass Corridor, with ties to similar networks in the North Corktown and 48217 neighborhoods.</p>
+
+<p>Learn More:</p>
+
+<ul>
+	<li><a href="http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570">Building Community Controlled Digital Infrastructure in Detroit</a></li>
+	<li><a href="http://colorlines.com/archives/2012/10/detroit_mesh_networks.html">A Tech Innovation in Detroit: Connect People, Not Computers</a></li>
+	<li><a href="http://newamerica.net/pressroom/2012/advisory_detroit_breaking_ground_as_lab_for_wireless_innovation">Press Release | Dec 18, 2012</a></li>
+	<li>Visit <a href="http://www.cassco.co">cassco.co</a>.</li>
+</ul>
+
+<h3>Red Hook, Brooklyn</h3>
+
+<p><img align="left" src="/files/redhook.jpg" style="margin: 0px 20px;" width="200" /></p>
+
+<p>Red Hook Initiative WiFi is a collaboratively designed mesh network. It provides Internet access to the Red Hook section of Brooklyn, NY, and serves as a platform for developing local applications and services. Red Hook Initiative has built the network in partnership with the Open Technology Institute, putting human-centered design and community engagement at the core of the project. The community expanded the network significantly following a natural disaster in Fall 2012.</p>
+
+<p>Learn More:</p>
+
+<ul>
+	<li><a href="https://commotionwireless.net/blog/case-study-red-hook-initiative-wifi-tidepools">Case Study: Red Hook Initiative WiFi &amp; Tidepools</a></li>
+	<li><a href="http://storify.com/georgiamoon/oti-site-visit-rhi-wifi/elements/5107ec029d1a9a4432008577">February 1, 2013 Site Visit Storify</a></li>
+	<li><a href="https://commotionwireless.net/taxonomy/term/30/all">Red Hook Blog Posts</a></li>
+	<li><a href="http://redhookwifi.org">Red Hook Wifi.org</a></li>
+</ul>
+
+<h3>Allied Media Conference</h3>
+
+<p><img align="left" src="/files/magicnet_0.png" style="margin: 0px 20px;" width="200" /> Since 1999, the Allied Media Conference (AMC) has gathered an array of community organizers, activists, technologists, artists, educators, policy wonks and others to collaboratively design and explore media-based strategies for transformative social movements. The 2012 and 2013 conferences provided an opportunity to test Commotion in an indoor conference setting with hundreds of simultaneous users.</p>
+
+<p>Seeking to expand the connective and interactive potential of the conference, the Open Technology Institute works with conference organizers from Allied Media Projects to install a wireless mesh network, providing conference attendees with improved Internet access and a suite of collaborative local applications and resources. The mesh network, MagicNet, successfully provides network access and interactive tools to hundreds of attendees over four days throughout the conference facilities.</p>
+
+<p>Learn More:</p>
+
+<ul>
+	<li><a href="http://oti.newamerica.net/blogposts/2013/the_2013_allied_media_conference_magicnet_powered_by_commotion-88051">Commotion Deployment Report: Allied Media Conference 2013</a></li>
+</ul>
+
+<h3>International Summit for Community Wireless Networks</h3>
+
+<p>The first <a href="http://wirelesssummit.org">IS4CWN</a> in 2004 launched what is now called the community broadband movement. Conversations and collaborations at the 2010 Summit in Vienna, Austria gave rise to two new multi-million dollar initiatives, the Commotion Wireless Project and <a href="http://confine-project.eu/">CONFINE</a>. Both partnerships focus on the development of next-generation community networking technologies. Commotion and CONFINE have received major grants from the United States and the European Union, respectively, to convene partners from around the globe. With its strong focus on social justice and human rights, IS4CWN brings together participants not just from these projects in the US and the EU but panelists from the developing world who are interested in building and expanding community wireless networks in their own countries.</p>
+
+<p>Learn More:</p>
+
+<ul>
+	<li><a href="http://storify.com/OTI/international-summit-for-community-wireless-networ">Storify on IS4CWN</a></li>
+</ul>
+
+<h3>Community Initiatives using Commotion</h3>
+
+<p>Recently, many communities have been exploring using Commotion for their wireless networks. Contact us if you'd like to get connected to some of these groups.</p>
+
+<p>United States</p>
+
+<ul>
+	<li><a href="http://www.metamesh.org/">MetaMesh - Pittsburgh, PA</a></li>
+	<li><a href="http://www.milemesh.com/">MileMesh - Hoboken, NJ</a></li>
+	<li><a href="http://columbiaheightscwn.net">Columbia Heights, Washington, DC</a></li>
+	<li>Mt. Pleasant, Washington, DC</li>
+	<li>Brookland, Washington, DC</li>
+	<li>ConnectMKE - Milwaukee, WI</li>
+	<li>Troy, NY</li>
+	<li>MidCoast Local Cloud - Maine</li>
+</ul>
+
+<p>International</p>
+
+<ul>
+	<li><a href="http://oti.newamerica.net/blogposts/2013/building_a_mesh_network_in_rural_somaliland-98554">Abaarso Tech, Somaliland</a></li>
+	<li>Dahanu, Maharashtra, India</li>
+	<li>Tumkur, Bangalore, India</li>
+	<li>Bhopal, India</li>
+	<li>Bangalore, India</li>
+	<li>Karnataka, India</li>
+</ul>
+
+<p>Many community wireless networks, running Commotion and other mesh software, can be found on this <a href="http://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region">Wikipedia</a> page. We encourage networks to add themselves to that list as well!</p>
+ </div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first active"><a href="/about/where-its-used" class="language-link active" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last"><a href="/fr/about/where-its-used" class="language-link" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-4 block-menu-block-4 even" id="block-menu-block-4">
+  <div class="block-inner clearfix">
+              <h2 class="block-title"><a href="/about" class="block-title-link" title="About">About</a></h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-227 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2082"><a href="/about/faq">FAQ</a></li>
+<li class="leaf menu-mlid-2083"><a href="/about/guiding-principles">Guiding Principles</a></li>
+<li class="leaf active-trail active menu-mlid-1950"><a href="/about/where-its-used" class="active-trail active">Where It&#039;s Used</a></li>
+<li class="leaf menu-mlid-235"><a href="/about/press">Press</a></li>
+<li class="leaf menu-mlid-237"><a href="/about/license-privacy">License &amp; Privacy</a></li>
+<li class="leaf menu-mlid-236"><a href="/jobs">Jobs</a></li>
+<li class="last leaf menu-mlid-714"><a href="/contact">Contact</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-feedback block-boxes-feedback odd block-without-title" id="block-boxes-feedback">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-feedback' class='boxes-box'><div class="boxes-box-content"> <p><a href="/contact">Send us feedback</a></p>
+ </div></div>    </div>
+  </div>
+</div><div class="block block-boxes block-boxes-simple block-bug block-boxes-bug even block-without-title" id="block-boxes-bug">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-bug' class='boxes-box'><div class="boxes-box-content"> <p><a href="/report">Report a bug</a></p> </div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/about/where-its-used" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-O3KlB29KZ2KbvxIVLQVHc2ztEamUdPu0BQTnECtQ0oA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/about/press" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-e79488967c2b7e2eef6a6af5427d81ba">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/blog/commotion-team-participates-dc-internet-freedom-hack-day">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/blog/commotion-r1-breaking-changes">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/blog/commotion-router-v1-release-notes">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/blog/building-mesh-network-rural-somaliland">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

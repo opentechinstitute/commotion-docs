@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/taxonomy/term/42/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>serval</title>
+    <link>http://commotionwireless.net/taxonomy/term/42/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Serval Mesh Extender Field Trial on the National Mall</title>
+    <link>http://commotionwireless.net/blog/serval-mesh-extender-field-trial-national-mall</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;On an uncharacteristically chilly May morning, members of the Commotion and Serval projects set out for the National Mall in Washington, DC to test Serval&#039;s latest piece of hardware: the Mesh Extender. &lt;a href=&quot;http://commotionwireless.net&quot;&gt;Commotion Wireless&lt;/a&gt; is an open-source toolkit of software, documentation, and training materials that strengthens communities by allowing them to build their own local communication infrastructure.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Jun 2013 19:49:23 +0000</pubDate>
+ <dc:creator>OTI</dc:creator>
+ <guid isPermaLink="false">132 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

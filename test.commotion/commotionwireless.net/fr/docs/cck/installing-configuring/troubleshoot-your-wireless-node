@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="fr" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/fr/node/10136" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" />
+<meta content="Troubleshoot Your Wireless Node" about="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" property="dc:title" />
+  <title>Troubleshoot Your Wireless Node | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_AtPANxj-0bhjPWUpF0EAkDn5UJko0suh-VcJLd70tHQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wey93epziQE2Jnmna51Dh9kIBOgCwV4S7LHj0bETYq8.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"kb","theme_token":"Njqumk6pJt28rPS3OL-U0ZnQVpJZcg5dwoon-ZrHN2s","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/commo_ck.js":1,"0":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/commo_ck.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-10136 node-type-commo-ck-page i18n-fr context-docs">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/fr" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/fr/node/9">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/fr/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/fr/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/fr/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/fr/node/10">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/fr/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/fr/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/fr/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/fr/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started active-trail  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434 active-trail  even "><a href="/fr/node/9434" class="active-trail">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/fr/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/fr/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/fr/node/145" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/fr/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/fr/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/fr/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/fr/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/fr/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/fr/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/fr/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-tndox-l1wvIh-BYdE39CPKUW3Ea3GT8FFNLbDXqGWLs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class='boxes-box-content'><hr /><h1 id='page-title' class=page_title'>Commotion Construction Kit</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Troubleshoot Your Wireless Node</h1>
+    </div>                    <section class="block block-menu-block block-13 block-menu-block-13 odd" id="block-menu-block-13">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Installing + Configuring</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-13 menu-name-main-menu parent-mlid-2605 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2606"><a href="/fr/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></li>
+<li class="leaf menu-mlid-2750"><a href="/fr/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+<li class="leaf menu-mlid-2751"><a href="/fr/docs/cck/installing-configuring/common-configurations" title="This document describes several common configurations for Commotion nodes other than the default.">Common Configurations</a></li>
+<li class="leaf active-trail active menu-mlid-2749"><a href="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" class="active-trail active">Troubleshoot Your Wireless Node</a></li>
+<li class="last leaf menu-mlid-2607"><a href="/fr/node/9511">Install and Recover with TFTP</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-system block-main block-system-main even block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" typeof="sioc:Item foaf:Document" class="node node-commo-ck-page node-published node-not-promoted node-not-sticky author-critzo odd clearfix" id="node-commo-ck-page-10136">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
+
+<h2>Troubleshoot Your Wireless Node</h2>
+
+<section id="introduction">
+<h3>Introduction</h3>
+
+<p>This document includes&nbsp;steps to identify and&nbsp;solve the most common problems that may arise with your Commotion router or wireless network. It includes:</p>
+
+<ul>
+	<li>Some examples of the most common network problems.</li>
+	<li>A step by step guide to assess and troubleshoot issues.</li>
+	<li>Some supplies you may need for troubleshooting issues.</li>
+	<li>Links to resources that may be needed while offline.</li>
+</ul>
+
+<p>Depending on the severity of the problem, it may take anywhere from <strong>five minutes to several hours</strong> to successfully troubleshoot the node or network.</p>
+</section>
+
+<section id="materials-and-supplies-needed">
+<h4>MATERIALS + SUPPLIES NEEDED</h4>
+
+<p>To troubleshoot your node, you will need the following items on-hand:</p>
+
+<ul>
+	<li>A print out of, or offline access to, this document (you can print this web page)</li>
+	<li>An extra Ethernet cable</li>
+	<li>A computer with an Ethernet port</li>
+	<li>The Commotion software image, if you need to start over</li>
+	<li>(Optional) A print out of, or offline access to, <a href="https://commotionwireless.net/docs/cck/installing-configuring/common-configuration">Common Configurations</a> and <a href="https://commotionwireless.net/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+	<li>(Optional) A backup router</li>
+</ul>
+</section>
+
+<section id="troubleshooting-overview">
+<h4>Overview of Common Problems</h4>
+
+<p>The most common problem a wireless network&nbsp;user will experience is not being able to connect to the network, or to the Internet. There could be many causes for common problems with the network. Issues with the router hardware, an Ethernet cable, a power adapter, electricity, the Internet Gateway, or the Commotion software could be a part of the problem. The troubleshooting process is to work through options, and rule out issues by seeing what is happening at each part of the network connection.</p>
+
+<p><b>Start troubeshooting by asking these questions&nbsp;and going&nbsp;to the first section where your answer is "no":</b></p>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__637 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_power_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><a href="#no-power">Is the router powered on?</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__638 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_visibleap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><a href="#no-visible-ap">Can you see the access point on your client device?</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__639 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_associateap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
+			<td><a href="#cant-connect-ap">Can you connect to the access point with your client device?</a></td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__640 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_splashed_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><a href="#no-splash-page">Are you not seeing the splash page after associating with the access point?</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__641 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_internet_question.png" style="width: 100px; height: 94px; margin: 16px 10px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><a href="#no-internet">Are you getting the splash page, but still cannot connect to the Internet?</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section id="no-power">
+<h3>Power Issues: If the router is not on<img alt="" class="media-image attr__typeof__foaf:Image img__fid__512 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" /></h3>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__714 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/troubleshooting_checkPOE.png?itok=XFS1ormf" style="width: 240px; height: 185px;" typeof="foaf:Image" /></p>
+			</td>
+			<td>
+			<p><strong>Does the Power over Ethernet (PoE) adapter have power?</strong></p>
+
+			<p>Make sure the PoE adapter is fully plugged-in to the electrical socket and that the power light on the PoE adapter is on.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__524 img__view_mode__media_large attr__format__media_large" height="262" src="https://commotionwireless.net/sites/commotionwireless.net/files/troubleshoot_checkoutlet.png" typeof="foaf:Image" width="237" /></p>
+			</td>
+			<td>
+			<p><strong>Does the outlet work?</strong></p>
+
+			<p>If the PoE does not turn on, check the electrical outlet with another electrical device that you know works. If that device also does not get power, try a different outlet.</p>
+
+			<p>If the power outlet works, the PoE adapter may be bad. Try replacing the PoE adapter.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<p><strong>Check the cables.</strong><br />
+			<img alt="" class="media-image attr__typeof__foaf:Image img__fid__525 img__view_mode__media_large attr__format__media_large" height="290" src="https://commotionwireless.net/sites/commotionwireless.net/files/troubleshoot_checkcables.png" typeof="foaf:Image" width="480" /><br />
+			If the PoE adapter has power but the router does not, it may be a problem with the Ethernet cable between the PoE and the router. Try a different Ethernet cable.</p>
+
+			<p>Check to be sure all cables are securely plugged-in, between the PoE adapter and router, between the PoE adapter’s LAN port and switch or Gateway modem (if applicable), and between the PoE adapter and electric outlet.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__526 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/troubleshoot_routerpower.png" typeof="foaf:Image" width="195" /></p>
+			</td>
+			<td>
+			<p><strong>If the router still does not have power…</strong></p>
+
+			<p>If the above steps do not solve the power problem, unplug and re-plug the PoE adapter to restart the adapter and router. Wait a minute or two to let the router reboot before attempting to login. If this does not work, then there is a problem with the router and you should replace it.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Power: Checked</h4>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
+<strong>At this point, you know the electricity supply for the router is good. Move on to the next troubleshooting section.</strong></p>
+</section>
+
+<section id="no-visible-ap">
+<h3>No visible Access Point: If you cannot see the AP<img alt="" class="media-image attr__typeof__foaf:Image img__fid__514 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" /></h3>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<p><strong>Are you near enough to the access point?</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__527 img__view_mode__media_large attr__format__media_large" height="110" src="https://commotionwireless.net/sites/commotionwireless.net/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
+
+			<p>Make sure you are close enough to the AP for it to be visible to your wireless device. Also, check if any environmental conditions around the node are blocking the signal.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__528 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_CCK_Hidden_AP.png" style="width: 250px; height: 91px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><strong>Is the access point hidden?</strong></p>
+
+			<p>If you know there is an AP and you are close to the router, but you still cannot see the AP on your client device, the network administrator may have set the AP to invisible. Try entering the AP name manually on your client device in its network manager.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<p><strong>Is the AP enabled on the node?</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__738 img__view_mode__media_large attr__format__media_large" height="213" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/adv_network_wifi.png?itok=fZX0pK5a" typeof="foaf:Image" width="480" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__530 img__view_mode__media_large attr__format__media_large" height="169" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshoot_enable_ap.png" typeof="foaf:Image" width="480" /></p>
+
+			<p>In the admin interface, go to <strong>Advanced -&gt; Network -&gt; WiFi</strong>&nbsp;and make sure the “Master” access point is enabled. If you change this setting, you may need to reboot your node.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>AP Visibility: Checked</h4>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
+<strong>The AP is visible.</strong></p>
+</section>
+
+<section id="cant-connect-ap">
+<h3>Cannot connect to the Access Point: Your device isn't holding a connection<img alt="" class="media-image attr__typeof__foaf:Image img__fid__516 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" /></h3>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<p><strong>Are you too far from the access point?</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__527 img__view_mode__media_large attr__format__media_large" height="110" src="https://commotionwireless.net/sites/commotionwireless.net/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
+
+			<p>Because nodes often have more signal strength than your client device, you may be able to see a strong signal on your client device, but your client device may not be powerful enough to communicate with the node from a distance.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__531 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshoot_device_powercycle.png" style="width: 175px; height: 300px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><strong>Restart wireless and/or your device.</strong></p>
+
+			<p>If you still cannot connect, try turning off and back on the Wi-Fi radio on your client device or restarting the device.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__532 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_CCK_Connect_AP.png" style="width: 240px; height: 65px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><strong>Make sure you are trying to connect to the AP, not to the ad-hoc (mesh) signal.</strong></p>
+
+			<p>Usually the difference between the two kinds of signals is indicated by their icon on your client device's network manager.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__533 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_CCK_Secure_AP.png" style="width: 240px; height: 122px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><strong>If the AP is secure, make sure you have the right network key, or password, for it.</strong></p>
+
+			<p>This is usually different from the root admin password.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__534 img__view_mode__media_large attr__format__media_large" height="109" src="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless_Interference_problem.png" typeof="foaf:Image" width="240" /></td>
+			<td>
+			<p><strong>Are there too many routers in the room?</strong></p>
+
+			<p>There may be too much interference on the same Wi-Fi channel. To reduce interference, try removing some routers, spacing the routers further apart, or turning down the power on some of the routers.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>AP Associated with Client: Checked</h4>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__713 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
+<strong>The client device is connected to the AP.</strong></p>
+</section>
+
+<section id="no-splash-page">
+<h3>No Welcome Page: If you are on the AP but aren’t&nbsp;directed to the landing page<img alt="" class="media-image attr__typeof__foaf:Image img__fid__518 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_splashed_no.png" style="width: 100px; height: 91px; float: right; margin: 19px 10px;" typeof="foaf:Image" /></h3>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__519 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshoot_notsplashed.png" style="width: 510px; height: 169px;" typeof="foaf:Image" /></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<p><strong>Check the status of the network.</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__537 img__view_mode__media_large attr__format__media_large" height="138" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_CCK_Broken_Mesh_Link.png" typeof="foaf:Image" width="480" /></p>
+
+			<p>If you are associated with an AP and you know there is an upstream Internet Gateway in the mesh, but you cannot get online, there may be a broken mesh link. Make sure that all the nodes are meshing properly to the Gateway. You can check the node’s routes list to see if it is connecting to any other nodes.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<p><strong>Check for a Gateway.</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__538 img__view_mode__media_large attr__format__media_large" height="395" src="https://commotionwireless.net/sites/commotionwireless.net/files/olsr_routes.png" typeof="foaf:Image" width="480" /></p>
+
+			<p>To see the routes list in the Commotion admin interface, go to<strong> </strong>the Status page and <strong>click on Nearby Mesh Devices.</strong> This lists any routes the node has in its table. If the node has an announced network entry of 0.0.0.0 anywhere in this table, then it knows there is a Gateway to the Internet somewhere in the network. If the node does not have a 0.0.0.0 route in the table, then it does not see a route to the Internet. Check the mesh network connections to make sure that all routers are meshing properly, and that the signal links are strong enough between nodes.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__539 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_CCK_plug_Ethernet_modem.png" style="width: 210px; height: 109px;" typeof="foaf:Image" /></td>
+			<td>
+			<p><strong>If you still cannot access the Internet, plug an Ethernet cable directly into the Gateway modem.</strong></p>
+
+			<p>If you can access the Internet this way, then the problem is with the Commotion node. If you cannot access the Internet this way, then there is a problem with the Internet connection, which is beyond the scope of this guide.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Welcome Page: Checked</h4>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__521 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
+<strong>The welcome page comes up on the client device.</strong></p>
+</section>
+
+<section id="no-internet">
+<h3>Welcome Page shown, but no Internet: If the welcome page comes up, but you can't&nbsp;get to the Internet<img alt="" class="media-image attr__typeof__foaf:Image img__fid__522 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/Troubleshooting_internet_no.png" style="width: 100px; height: 93px; float: right; margin: 17px 10px;" typeof="foaf:Image" /></h3>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<p><strong>If you are being directed to the landing page, but still can’t get to the Internet after you click the link, then there is likely a problem with the Gateway to the Internet.</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__739 img__view_mode__media_original attr__format__media_original" height="265" src="https://commotionwireless.net/sites/commotionwireless.net/files/welcomePage.png" typeof="foaf:Image" width="600" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong><span style="font-size:72px;">?</span></strong></p>
+			</td>
+			<td>Please see the advanced network troubleshooting guide to diagnose these issues.</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section id="bug-report">
+<h3>Report a Bug</h3>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__540 img__view_mode__media_large attr__format__media_large" height="100" src="https://commotionwireless.net/sites/commotionwireless.net/files/bug.png" typeof="foaf:Image" width="82" /></p>
+
+			<p><a href="https://commotionwireless.net/report">https://commotionwireless.net/report</a></p>
+			</td>
+			<td>
+			<p>If you believe there is a problem with the Commotion software,&nbsp;<a href="https://commotionwireless.net/report">visit this link and file a bug report</a>, describing your configuration and the problem you experience.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section id="section-definitions">
+<h3>Definitions</h3>
+
+<dl>
+	<dt>Ad-hoc Network / Device Network</dt>
+	<dd>On some devices, such as laptops, some network connections are shown as “computer to computer” networks. These are networks that may be mesh networks or point to point connections between computers—such as for file sharing. The term “ad-hoc” can also refer to unplanned, decentralized network connections.</dd>
+	<dt>Client Device</dt>
+	<dd>The device with a WiFi radio that you use to connect to a wireless access point, e.g. a computer, cell phone, or tablet device.</dd>
+	<dt>AP (Access Point)</dt>
+	<dd>A device that allows wireless devices to connect to a wired network using WiFi or related standards.</dd>
+	<dt>PoE (Power over Ethernet)</dt>
+	<dd>Describes systems which pass electrical power along with data on Ethernet cabling.</dd>
+	<dt>OLSR (Optimized Link State Routing)</dt>
+	<dd>The routing protocol used by Commotion. This protocol determines the routes for the nodes in the network.</dd>
+	<dt>Router</dt>
+	<dd>A device that determines how messages move through a computer network.</dd>
+	<dt>Image</dt>
+	<dd>Another name for the firmware or operating system software, like Commotion, that makes a router function.</dd>
+</dl>
+</section>
+
+<section class="related-information" id="section-related-information">
+<h3>Related Information</h3>
+
+<p>There are several other documents in the Commotion Construction Kit that hold related information on configuring and making changes to your node:</p>
+
+<ul>
+	<li><a href="https://commotionwireless.net/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+	<li><a href="https://commotionwireless.net/docs/cck/installing-configuring/common-configuration">Common Configurations</a></li>
+</ul>
+</section>
+
+<section class="related-information" id="section-external-resources">
+<h2>External Resources</h2>
+We recommend reading through Chapter 15 of <a href="http://wndw.net/">Wireless Networking in the Developing World</a>, on maintenance and troubleshooting.</section>
+ </div></div></div><a class="commo_ck-send-feedback" href="https://commotionwireless.net/contact"><div>Send us feedback</div></a>
+  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="en first last"><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li></ul></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first"><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last active"><a href="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" class="language-link active" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-10 block-menu-block-10 even" id="block-menu-block-10">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Get Help</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-10 menu-name-main-menu parent-mlid-2089 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2887"><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="leaf menu-mlid-2888"><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="leaf menu-mlid-2068"><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="expanded active-trail menu-mlid-2577"><a href="/fr/node/9434" class="active-trail">Commotion Construction Kit</a><ul class="menu"><li class="first collapsed menu-mlid-2600"><a href="/fr/node/9504">Planning</a></li>
+<li class="expanded active-trail menu-mlid-2605"><a href="/fr/node/9509" class="active-trail">Installing + Configuring</a><ul class="menu"><li class="first leaf menu-mlid-2606"><a href="/fr/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></li>
+<li class="leaf menu-mlid-2750"><a href="/fr/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+<li class="leaf menu-mlid-2751"><a href="/fr/docs/cck/installing-configuring/common-configurations" title="This document describes several common configurations for Commotion nodes other than the default.">Common Configurations</a></li>
+<li class="leaf active-trail active menu-mlid-2749"><a href="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" class="active-trail active-trail active">Troubleshoot Your Wireless Node</a></li>
+<li class="last leaf menu-mlid-2607"><a href="/fr/node/9511">Install and Recover with TFTP</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-2608"><a href="/fr/node/9513">Building + Mounting</a></li>
+<li class="last collapsed menu-mlid-2752"><a href="/fr/docs/cck/networking">Networking</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2328"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-cck-download-all block-boxes-cck-download-all odd block-without-title" id="block-boxes-cck-download-all">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-cck_download_all' class='boxes-box'><div class="boxes-box-content"><p><a href="http://commotionwireless.net/sites/commotionwireless.net/files/cck-1.0.zip" style="color: #FFF; text-transform:uppercase;"><img src="/sites/commotionwireless.net/files/CCK_allpdf.png" /><br /><span style="text-align:center; font-weight: bold; background: #000; display: block; padding: .2em;">Download all</span></a></p>
+</div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-68_Dwo147yVfbK52zpfxsEZXPlKmFGoW_rwi6WV5foU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/fr/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/fr/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/fr/node/10" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/fr/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-f4bf9a7887171a62f82e8f19f07d06c0">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/fr/node/12289">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/fr/node/12255">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/fr/node/12127">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/fr/node/11243">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/fr/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

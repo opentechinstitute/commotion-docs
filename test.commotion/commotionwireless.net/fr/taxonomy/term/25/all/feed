@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/25/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>routers</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/25/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>OTI&#039;s Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</title>
+    <link>http://commotionwireless.net/fr/blog/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/articles/tiwan_kathy_roofmount_0.JPG&quot; style=&quot;height: 400px; width: 300px;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Tiwan Burrus (RHI) and Katherine Ortiz (RHI) attaching a Pico Station to a roof mount.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A 20-computer public computer center hosted at the New York City Housing Authority’s (NYCHA) Miccio Recreation Center now has Internet access following a day of installations by young adults trained by the Open Technology Institute (OTI), the Red Hook Initiative (RHI) and Brooklyn Fiber. Five Red Hook “&lt;a href=&quot;http://oti.newamerica.net/blogposts/2013/new_video_community_technology_and_training-88639&quot;&gt;Digital Stewards&lt;/a&gt;,” young adults engaged in a New York City workforce development effort, installed 6 new wireless routers into the Red Hook WiFi network in the beginning of July 2013. The Stewards connected two new partner institutions to RHI’s existing Red Hook Network with these installations - adding a local school and the NYCHA Miccio Recreation Center to a set of partners including churches, local residents and the Red Hook Initiative’s building. The public areas surrounding these buildings now have access to the Internet as well as local applications running on the neighborhood website.&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 31 Jul 2013 02:43:40 +0000</pubDate>
+ <dc:creator>georgia</dc:creator>
+ <guid isPermaLink="false">8744 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Updating a Commotion package</title>
+    <link>http://commotionwireless.net/fr/blog/updating-commotion-package</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In our previous blog post, we walked through the process of creating an OpenWRT package to provide a ws-routing server. We&#039;ve since continued development on this, and would like to share our process for updating the OpenWRT package after making bugfixes. We&#039;d also like to introduce the commotion-chat package that puts the ws-routing server to use.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 01 Nov 2012 17:00:41 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">101 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Step-by-step: creating and installing a package for Commotion</title>
+    <link>http://commotionwireless.net/fr/blog/step-step-creating-and-installing-package-commotion</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Here at The Work Department, we&#039;ve been busy cooking up systems to experiment with applications that utilize node-to-node mesh connections and are eager to share them with you. In particular, some of the example applications that we proposed in our Exploring &quot;Meshaging&quot; post have been taking form. We want to offer you the tools to experiment with what is possible given the unique architecture of a mesh network.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 08 Oct 2012 19:05:07 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">97 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="fr" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/fr/node/133" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/fr/blog/building-community-controlled-digital-infrastructure-detroit" />
+<meta content="Building Community Controlled Digital Infrastructure in Detroit" about="/fr/blog/building-community-controlled-digital-infrastructure-detroit" property="dc:title" />
+  <title>Building Community Controlled Digital Infrastructure in Detroit | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_dF2OCmj2oSrnU2TeMN0EsDKlMnjoUgf1wXs5askr4Sk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_9Z3M12eYgeq5c7xt_NjpvLbD7wKJ-0PZsI4mchZBSJA.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"kb","theme_token":"A2my6JzwR6mRZLlAKY029Hzghr4LXvl9JGc9rNnJTN0","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-133 node-type-blog-post i18n-fr context-blog">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/fr" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/fr/node/9">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/fr/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/fr/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/fr/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/fr/node/10">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/fr/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/fr/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/fr/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/fr/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434  even "><a href="/fr/node/9434">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/fr/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/fr/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/fr/node/145" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/fr/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/fr/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/fr/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/fr/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/fr/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/fr/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/fr/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/blog/building-community-controlled-digital-infrastructure-detroit" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-wc9YVUfdVADlpeXAkqIupx5gAWmBnnjH3syIJ_6VHLo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class="boxes-box-content"><hr />
+<h1 id="page-title" class="page_title">
+Building Community Controlled Digital Infrastructure in Detroit</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Building Community Controlled Digital Infrastructure in Detroit</h1>
+    </div>                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="ds-1col node node-blog-post view-mode-full clearfix ">
+
+  
+  <div class="field field-name-date-author field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">June 5, 2013 - georgia</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/DS_classBW.jpg" width="600px;" /></p>
+<p><strong>Community members launched two new wireless networks at the end of April in Detroit neighborhoods, with a third one still in the works. Built on the Commotion mesh wireless platform, these networks function as local communications infrastructure: they act as an intranet for community interactions, and connect to the global Internet. </strong> Detroiters trained as technologists and community organizers — <a href="http://alliedmedia.org/news/2012/10/22/amp-partners-open-technology-institute-launch-digital-stewards-program" rel="nofollow">“Digital Stewards”</a> — are building these new networks with support from Detroit’s Allied Media Projects (AMP), the Open Technology Institute (OTI) at New America Foundation in Washington, DC, and the Detroit Digital Justice Coalition. AMP and OTI developed the Digital Stewards training program to grow local digital resources while also creating teaching tools that can be used in other contexts, such as <a href="http://brooklyn.ny1.com/content/top_stories/179131/red-hook-group-bridges-digital-gap-left-by-storm" rel="nofollow">Brooklyn</a> where OTI has partnered with another another community group to implement the Digital Stewards program. OTI plans to share the tools online so that any community globally can use them for a “do-it-ourselves” approach to building local wireless networks.</p>
+<p><em>Hear from the Stewards directly in an interview with the New America Foundation <a href="http://inthetank.newamerica.net/podcast/2013/05/detroit-gone-wired" rel="nofollow">here.</a></em></p>
+<p>Despite the ubiquity of digital technology — and its vital role in contemporary life — the skills necessary to govern these tools are not widespread. While formal schooling and training programs play an important role in addressing this gap between the tools we use and knowing how to fully utilize them, self-taught and peer-led models for expanding knowledge and increasing skills are also critical. To that end, OTI and AMP anchored their curriculum in the concepts of popular education. By involving “students” directly in the teaching/learning process, the training can include a diverse array of individuals with differing skill sets and levels. The popular education approach also makes the curriculum easy to adapt for self-guided learners and communities downloading the teaching tools from the Internet to use independently. Aside from the learning style, the content areas cover both technical as well as social skills; a community wireless network will only be as useful or effective as the network of people engaged with it. Digital Stewards learn about the mechanics of networks and the Internet, survey and research techniques, budgeting, basic construction skills, and much more.</p>
+<p><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/DS_needsasssesspic.jpg" width="400px;" /></p>
+<p>The Detroit Digital Stewards build upon already-existing <a href="http://www.mlive.com/business/detroit/index.ssf/2012/12/detroit_has_become_an_open-sou.html" rel="nofollow">digital and social resources</a> within their communities, such as public computer centers, block clubs, and community organizing initiatives. They learn how to nourish this ecosystem, adding in new capacity and technical skill to grow and sustain the community wireless network. Stewards have come from <a rel="nofollow"></a>Detroit Digital Justice Coalition member organizations, as well as other community-based groups, or are simply active in their neighborhoods. The Stewards from Morningside (in the eastern part of the city) come from a highly organized neighborhood full of block clubs. They had already established local partners for their network. The ECOSphere team — from Ewald Circle in northwest Detroit — has a background in technology and helping their block to access the Internet and understand the digital landscape. They wanted to expand this work throughout their neighborhood.</p>
+<p><a href="/fr/node/133/edit/0" rel="nofollow">edit</a></p>
+<h2>Installing the first nodes</h2>
+<p><a href="http://prezi.com/lhd-srijaohq/ecosphere/" rel="nofollow">ECOSphere</a> was the first team to begin installation of their network. The first site was one Steward’s house, which they hoped to eventually connect to a store down the street. Working from existing installation and configuration documentation generated for the Commotion wireless manual, and utilizing knowledge that they had gained in class, the two Stewards used basic tools to install a wireless node in about two hours, followed by another hour of troubleshooting. The key tools and materials for the installation were a power drill, a crimping tool, Ethernet cable, a laptop, a “J” mount, and a wireless node — in this case a Ubiquiti PicoStation M2. The steps for installation were straightforward:</p>
+<ul><li>Install the Commotion wireless software on the wireless node.</li>
+<p>
+</p><li>Drill a hole through the exterior wall on the top floor.</li>
+<p>
+</p><li>Attach the mounting hardware, and then the node to the J-mount on the building just outside the window.</li>
+<p>
+</p><li>Plug the Ethernet cable into the node.</li>
+<p>
+</p><li>Thread Ethernet cable through the hole to the interior and connect to Internet gateway (router or modem).</li>
+<p>
+</p><li>Test the connection — which an OTI staff member successfully did by tweeting:</li>
+</ul><p><a href="https://twitter.com/prestonrhea/status/327170272807501824" rel="nofollow"><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/prestonECOSphereTweet.jpg" /></a></p>
+<p>A few days later, the Morningside Stewards climbed on roofs to set up their first nodes. Like many folks across Detroit and in other cities, the Stewards identified a local church as a key resource in the community — both as a meeting site and services hub, and now as a spot to mount wireless nodes. The Spirit of Love church in Morningside was the site of the Stewards’ first installation, where they got onto the roof with the pastor’s help and mounted a wireless node high on the church’s chimney.</p>
+<p>Since the other planned node site was approximately three-quarters of a mile away, the Stewards would  need to use two directional nodes to cover the distance — in this case, NanoStation M2 units. The only downside of this is the limited coverage area of the signal — these nodes do not broadcast a signal 360 degrees around the device, but concentrate on a sending a narrower, but more powerful, cone-shaped signal in one direction. Future build-out of the network would likely include adding omnidirectional nodes near these initial installs to expand the coverage area.</p>
+<p><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/DS_MSroof.jpg" width="400px;" /><br /><em>Morningside Digital Stewards with the pastor (on left) of Spirit of Love church, after installing a wireless node on the church roof.</em></p>
+<p>The installation took approximately four hours, with two Stewards plus the church pastor and an OTI staff member on the roof and one Steward on the ground. Tools for this installation included a ladder, Ethernet cable, a laptop, a chimney wrap mount, an eight-foot steel mast/pipe, and the wireless node. The steps were similar as for the ECOSphere team:</p>
+<ul><li>Install the Commotion software on the nodes, and configure with custom settings  (Morningside chose to secure the network with a WPA2 password).</li>
+<p>
+</p><li>Climb on the roof and install the mounting hardware on the chimney.</li>
+<p>
+</p><li>Attach the node to the mast and plug in the Ethernet cable (after installing end-caps on the mast to keep bees out).</li>
+<p>
+</p><li>Attach the mast to the mount, using a compass to position the node in alignment with the other installation site.</li>
+<p>
+</p><li>Run and secure the Ethernet cable from the roof to the ground floor. The Stewards utilized existing phone line mounts on the exterior wall, and helped to clean up some other loose cabling while they were at it.</li>
+<p>
+</p><li>Run the cable through an existing hole where phone lines enter the building.</li>
+<p>
+</p><li>Connect the Ethernet cable to the Internet gateway (router or modem).</li>
+<p>
+</p><li>Then test the connection — the team walked down the street away from the church and successfully logged on!</li>
+<p></p></ul><p>The second Morningside node installation went much quicker, as the Commotion software had already been installed on the wireless node. In addition, the house where the node was to be installed had an existing antenna on the roof that served as a mounting point for the node. The installation steps were to:</p>
+<ul><li>Climb on the roof and mount the node to the existing mast, then position it using a compass.</li>
+<p>
+</p><li>Plug in the Ethernet cable to the wireless node, then run the cable and secure it along with other cables from the roof to the ground.</li>
+<p>
+</p><li>Drill a hole in the exterior wall, and thread the Ethernet cable through.</li>
+<p>
+</p><li>Terminate the Ethernet cable inside the house using an RJ45 jack and wall plate, rather than a connector.</li>
+<p>
+</p><li>Plug the node into the Internet connection, through the wall jack.</li>
+<p>
+</p><li>Test and log on!</li>
+</ul><p>Of course, the technical steps are just part of the process — the ECOSphere and Morningside teams are now focused on talking with neighbors about the wireless networks, identifying new sites for wireless nodes, and developing sustainability plans.</p>
+<p><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/IMG_20130430_124020.jpg" width="400px;" /><br /><em>Morningside Digital Steward installing a wireless node.</em></p>
+<p><a href="/fr/node/133/edit/1" rel="nofollow">edit</a></p>
+<h2>Networking nodes, networking people</h2>
+<p>Now that the Stewards have begun building their neighborhood networks, the final classes of the course will focus on how to maintain the network and expand it — both in human and technical terms. Budgeting, fundraising, and community organizing are key themes. For the Stewards, an important piece will be to facilitate a process of envisioning all of the ways to use a community network to strengthen neighborhoods and solve local problems, beyond simply gaining access to the global Internet. In the process, they will work to bring more of their neighbors into the project, leveraging existing resources and skills in addition to developing new ones. While the Digital Stewards model evolved from the <a href="http://oti.newamerica.net/pressroom/2012/advisory_detroit_breaking_ground_as_lab_for_wireless_innovation" rel="nofollow">ongoing work</a> in Detroit, it is also being used in Red Hook, Brooklyn, where the Stewards are already at this stage — they inherited a <a href="http://oti.newamerica.net/blogposts/2013/troubleshooting_red_hook_wireless_network_technical_physical_and_social_needs-79702" rel="nofollow">community network</a>.</p>
+<p>The two groups of Stewards will meet and share stories when they join up at the <a htef="http://amc.alliedmedia.org/" rel="nofollow">Allied Media Conference</a> in Detroit this summer. In fact, the Stewards will setup the wireless network used by thousands of attendees at the conference. OTI and partner organizations like AMP and Red Hook Initiative in Brooklyn will continue to learn about the most effective training methods that lead to more neighborhood technologists organizing for more community controlled infrastructure.</p>
+</div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/fr/tags/detroit" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Detroit</a></div><div class="field-item odd"><a href="/fr/tags/community-wireless" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">community wireless</a></div><div class="field-item even"><a href="/fr/tags/digital-stewards" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">digital stewards</a></div><div class="field-item odd"><a href="/fr/tags/mesh" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mesh</a></div><div class="field-item even"><a href="/fr/tags/amp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">amp</a></div><div class="field-item odd"><a href="/fr/tags/amc" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">amc</a></div></div></div></div>    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first"><a href="/blog/building-community-controlled-digital-infrastructure-detroit" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last active"><a href="/fr/blog/building-community-controlled-digital-infrastructure-detroit" class="language-link active" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-views block-blog-tags-block block-views-blog-tags-block even" id="block-views-blog-tags-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Tags</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog-tags view-id-blog_tags view-display-id-block tags view-dom-id-5c5d37351c2caad36d287480bcdc1983">
+        
+  
+  
+      <div class="view-content">
+      <div class="tag">      <h3><a href="/fr/tags/community-wireless">community wireless</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">10 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/mesh">mesh</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">8 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/research">Research</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">7 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/detroit">Detroit</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">6 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/applications">applications</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">5 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/red-hook">red hook</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">5 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/messaging">messaging</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">5 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/site-visits">site visits</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/digital-stewards">digital stewards</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/recommendations">recommendations</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/chat">chat</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/ui">UI</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/release">release</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">3 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/routers">routers</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">3 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/hardware">hardware</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">3 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/warning">warning</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/identity">Identity</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/label">label</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/branding">branding</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/maintenance">maintenance</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/troubleshooting">troubleshooting</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/ux">UX</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/cost">cost</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/security">security</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/visualization">visualization</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/anonymity">anonymity</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/privacy">privacy</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/development">development</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/r1">R1</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/battlemesh">BattleMesh</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/testing">Testing</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/drupal">Drupal</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/tools">tools</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/cck">CCK</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/energy">energy</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/git">git</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/upgrade">upgrade</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/amc">amc</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/gource">gource</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/olsr">OLSR</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/amp">amp</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/guest-post">Guest post</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/price">price</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/fr/tags/serval">serval</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/blog/building-community-controlled-digital-infrastructure-detroit" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-StFIeTeAEZmIwWKwvAA9YA-HUoq--C3UBcHrf_4uu0Q" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/fr/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/fr/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/fr/node/10" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/fr/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-4eebd495d77d39d5c5ecd807db5283f2">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/fr/node/12289">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/fr/node/12255">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/fr/node/12127">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/fr/node/11243">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/fr/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="fr" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/fr/node/10120" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/fr/docs/cck/planning/wireless-challenges" />
+<meta content="Wireless Challenges" about="/fr/docs/cck/planning/wireless-challenges" property="dc:title" />
+  <title>Wireless Challenges | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_AtPANxj-0bhjPWUpF0EAkDn5UJko0suh-VcJLd70tHQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wey93epziQE2Jnmna51Dh9kIBOgCwV4S7LHj0bETYq8.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"kb","theme_token":"60rhc-rQgICwNWTMgcshUbhjG5N_1QFKQYAClt5HOHY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/commo_ck.js":1,"0":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/commo_ck.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-10120 node-type-commo-ck-page i18n-fr context-docs">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/fr" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/fr/node/9">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/fr/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/fr/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/fr/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/fr/node/10">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/fr/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/fr/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/fr/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/fr/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started active-trail  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434 active-trail  even "><a href="/fr/node/9434" class="active-trail">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/fr/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/fr/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/fr/node/145" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/fr/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/fr/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/fr/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/fr/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/fr/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/fr/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/fr/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/docs/cck/planning/wireless-challenges" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-xkfFWV_MYyjQZmKHHZSnSRoi5-6JND--5PXzqlJ6XAI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class='boxes-box-content'><hr /><h1 id='page-title' class=page_title'>Commotion Construction Kit</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Wireless Challenges</h1>
+    </div>                    <section class="block block-menu-block block-11 block-menu-block-11 odd" id="block-menu-block-11">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Planning</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-2600 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2601"><a href="/fr/node/9505">Design your Network</a></li>
+<li class="leaf active-trail active menu-mlid-2748"><a href="/fr/docs/cck/planning/wireless-challenges" title="" class="active-trail active">Wireless Challenges</a></li>
+<li class="leaf menu-mlid-2602"><a href="/fr/content/survey-your-neighbors" title="">Survey Your Neighbors</a></li>
+<li class="leaf menu-mlid-2603"><a href="/fr/node/9507">Get the Word Out: Flyer Design</a></li>
+<li class="leaf menu-mlid-2746"><a href="/fr/content/identify-neighborhood-skills" title="">Identify Neighborhood Skills</a></li>
+<li class="leaf menu-mlid-2747"><a href="/fr/content/inventory-neighborhood" title="">Inventory the Neighborhood</a></li>
+<li class="last leaf menu-mlid-2604"><a href="/fr/node/9508">Construction Elements</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-system block-main block-system-main even block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/fr/docs/cck/planning/wireless-challenges" typeof="sioc:Item foaf:Document" class="node node-commo-ck-page node-published node-not-promoted node-not-sticky author-critzo odd clearfix" id="node-commo-ck-page-10120">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <style type="text/css">@media print {
+    #region-branding {
+        display: none !important;
+    }
+    #block-menu-block-11 {
+        display: none !important;
+    }
+}
+</style>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__499 img__view_mode__media_large attr__format__media_large" height="340" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic_0.png?itok=dlEkcfJY" typeof="foaf:Image" width="510" /></p>
+
+<h2>Conception de réseaux : les défis inhérents aux réseaux sans fil</h2>
+
+<section id="introduction">
+<h3>Introduction</h3>
+
+<p>Pour progresser dans le développement de vos réseaux, vous aurez à en savoir un peu plus sur le mode de fonctionnement des signaux sans fil. Les signaux sans fil peuvent être perturbés par les conditions environnantes, telles que les murs et les fenêtres de votre maison ou de votre bureau, d'autres signaux sans fil ou encore les fours à micro-ondes !</p>
+
+<p>Cet exercice se propose de vous familiariser avec quelques-unes des difficultés que vous pourrez résoudre tout seul ou en groupe. Il est prévu que ce module complémente le module <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>. Il peut également être consulté de façon autonome.</p>
+
+<p>Si vous comptez vous y prendre seul, cela vous prendra entre 20 et 40 ,minutes, selon le degré d'approfondissement que vous réserverez à chaque solution. Si vous travaillez en groupe, cela risque d'être plus long et peut vous prendre probablement une heure.</p>
+</section>
+
+<section id="materials-and-supplies-needed">
+<h4>MATERIEL + FOURNITURE REQUISE</h4>
+
+<p><a href="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Presentation.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe.<br />
+<a href="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Presentation.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__497 img__view_mode__media_large attr__format__media_large" height="392" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png?itok=bo_-W8iS" typeof="foaf:Image" width="510" /></a></p>
+
+<p><a href="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions.pdf">Supports visuels : problèmes et solutions</a> -Imprimés sur du papier A4.<br />
+<a href="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__498 img__view_mode__media_large attr__format__media_large" height="328" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png?itok=063rc3ap" typeof="foaf:Image" width="480" /></a></p>
+
+<p>(Facultatif) Les schémas de routage contenus dans le module <a href="/docs/cck/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>.</p>
+
+<p>Une surface de travail (de préférence une table, de façon à ce que les personnes à mobilité réduite puissent participer confortablement).</p>
+
+<p>Des stylos ou marqueurs de différentes couleurs.</p>
+</section>
+
+<section id="scenarios-and-flashcards">
+<h3>Des scénarios et autres supports visuels</h3>
+
+<p>Le présent manuel retrace les diverses difficultés auxquelles vous risquerez de faire face en développant vos réseaux sans fil. Chaque scénario est présenté sous forme de support visuel : le problème est exposé sur une page et la ou les solutions possibles sont illustrées sur la page qui suit.</p>
+
+<p>Vous pouvez vous servir de vos supports visuels de deux façons :</p>
+
+<div>
+<p><strong>1. Comme cas particulier, que vous explorerez et duquel vous tirerez des enseignements.</strong> Dans ce cas, vous aurez à imprimer la liste des problèmes et solutions et à les parcourir un à un. Pour chaque exemple, proposez la solution qui vous semble la plus appropriée au problème. Comparez ensuite votre réponse aux exemples proposés dans les pages suivantes.</p>
+
+<p><strong>2. Comme polycopes auxquels vous vous référerez pendant votre travail.</strong> Dans ce cas, vous aurez à imprimer plusieurs exemplaires de la liste des problèmes (en laissant, momentanément, les solutions de côté). Distribuez les supports visuels contenant la liste des problèmes et penchez-vous sur chaque problème, individuellement, en groupe, en plusieurs petits groupes ou par paires. Comparez les solutions proposées, d'abord, les unes avec les autres, puis à celles proposées dans l'exemple.</p>
+</div>
+
+<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Presentation_1.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas.</p>
+</section>
+
+<section id="what-are-the-wireless-challenges">
+<h3>Quels sont les défis auxquels sont confrontés les réseaux sans fil ?</h3>
+
+<p>Chaque scénario propose une difficulté ou un problème unique en son genre. Ils sont catégorisés comme suit :</p>
+
+<p><strong>La distance</strong>—En parcourant de longues distances, les signaux sans fil perdent en intensité, et ce quel que soit le type d'antenne utilisé.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__489 img__view_mode__media_large attr__format__media_large" height="288" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_distance.png?itok=kv12O9Rv" typeof="foaf:Image" width="510" /></p>
+
+<div style="page-break-after:always">&nbsp;</div>
+
+<p><strong>La ligne de vision</strong>—Les signaux sans fil peuvent rencontrer des obstacles qui altèrent la connexion.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__490 img__view_mode__media_large attr__format__media_large" height="241" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png?itok=0DxVvZup" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>Les obstacles</strong>—Les signaux sans fil perdent de leur intensité en croisant, sur leur trajectoire, des objets solides.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__491 img__view_mode__media_large attr__format__media_large" height="266" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_barriers.png?itok=piIjdMda" typeof="foaf:Image" width="510" /></p>
+
+<div style="page-break-after:always">&nbsp;</div>
+
+<p><strong>Les interférences</strong>—Les routeurs trop bruyants ont du mal à écouter les autres routeurs.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__492 img__view_mode__media_large attr__format__media_large" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png?itok=kpQcrmLZ" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>Le climat</strong>—Les conditions climatiques peuvent perturber les signaux sans fil.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__493 img__view_mode__media_large attr__format__media_large" height="471" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_weather.png?itok=cR0poPeN" typeof="foaf:Image" width="510" /></p>
+
+<div style="page-break-after:always">&nbsp;</div>
+
+<p><strong>Les problèmes liés à l'électricité</strong>—La stabilité de l'électricité est nécessaire au bon fonctionnement des routeurs.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__494 img__view_mode__media_large attr__format__media_large" height="330" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png?itok=TpauekjH" typeof="foaf:Image" width="510" /></p>
+</section>
+
+<section id="going-through-the-wireless-challenges">
+<h3>Les défis auxquels sont confrontés les réseaux sans fil</h3>
+
+<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="https://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions.pdf">Problèmes et Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie !</p>
+
+<p>Si vous travaillez en groupe, nous vous suggérons de suivre les tâches suivantes :</p>
+
+<ul>
+	<li>N'imprimez que les pages ''Problèmes'' ou mettez les pages ''Solutions'' momentanément de côté.</li>
+	<li>Vous pouvez travailler individuellement, en petits sous-groupes ou en paires.</li>
+	<li>Le sous-groupes inscrivent les solutions sur chaque support visuel et les gardent de côté jusqu'à ce que tout le monde ait terminé.</li>
+	<li>Suite à quoi, les groupes comparent les solutions, d'abord, les unes aux autres, puis à celles proposées dans l'exemple.</li>
+</ul>
+
+<p>Ayez à l'esprit qu'il existe plusieurs solutions possibles aux difficultés soulevées par ce document, qui ne propose que deux ou trois cas de figure. Si vous parvenez à une solution innovante ou si vous estimez que nous avons commis une erreur, nous vous prions de bien vouloir nous le faire savoir ! Vous pouvez nous contacter en vous servant<a href="https://commotionwireless.net/contact">du formulaire de feedback.</a>.</p>
+</section>
+
+<section id="rules-for-solving-the-challenges">
+<h3>Les règles à suivre pour la résolution des difficultés</h3>
+
+<p>Pour traiter les difficultés que peuvent rencontrer les réseaux sans fil, il est nécessaire de savoir comment lire les connexions entre différents nœuds et comment établir votre propre connexion.</p>
+
+<p><strong>La qualité des liaisons sans fil</strong>—Les lignes illustrent l'intensité de la liaison entre deux nœuds, selon qu'elles soient continues ou pointillées. Une ligne verte continue est synonyme de forte intensité. Une ligne jaune pointillée veut dire que la liaison est acceptable. Une ligne pointillée rouge ou rose veut dire que la liaison est mauvaise ou qu'elle a été interrompue.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__500 img__view_mode__media_original attr__format__media_original" height="249" src="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_Wireless_Challenges_signal_quality_rules.png" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>L'intensité du signal sans fil</strong>—Les routeurs sont dotés de différentes intensités d'écoute et d'émission.<br/>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__676 img__view_mode__media_large attr__format__media_large" height="295" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2_2_0.png?itok=NPPV18Fj" typeof="foaf:Image" width="480" /></p>
+
+<p><strong>Des niveaux de puissance adéquats</strong>—Il est primordial de bien choisir son routeur, en fonction des puissances d'émission et d'écoute. Il est important d'utiliser un routeur qui soit à la fois peu gourmand en énergie et en mesure d'assurer une bonne liaison. Le recours à des routeurs à grande puissance d'émission peut donner lieu à des interférences.<br/>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__504 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_Wireless_Challenges_power_levels_rules.png" style="width: 490px; height: 450px;" typeof="foaf:Image" /></p>
+
+<p><strong>Les liaisons sur de longues distances</strong>—Certaines liaisons nécessitent des routeurs très puissants, pour plus de portée.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__505 img__view_mode__media_original attr__format__media_original" height="242" src="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_Wireless_Challenges_distance_rules.png" typeof="foaf:Image" width="510" /></p>
+</section>
+
+<section id="section-definitions">
+<h3>Définitions</h3>
+
+<dl>
+	<dt>Interférence</dt>
+	<dd>Tout ce qui pourrait modifier ou perturber un signal le long de sa trajectoire, entre un émetteur et un récepteur. Dans le cas des réseaux sans fil, les interférences se réfèrent généralement à tout autre signal ou bruit que le routeur aura à filtrer quand il écoute d'autres signaux.</dd>
+</dl>
+</section>
+
+<section class="related-information" id="section-related-information">
+<h3>Informations Connexes</h3>
+
+<p>Il est prévu que ce modèle soit consulté immédiatement après le module <a href="/docs/cck/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>. Il vous prépare à l'assimilation du module : <u>Tout ce que vos devez savoir sur les réseaux sans fil</u>Le séquençage des modules est conçu de façon à accompagner les personnes et les groupes, de la planification réseau aux difficultés qu'ils auront à gérer, passant par la particularité du fonctionnement des équipements et des signaux sans fil.</p>
+</section>
+ </div></div></div><a class="commo_ck-send-feedback" href="https://commotionwireless.net/contact"><div>Send us feedback</div></a>
+<div class="field field-name-field-files-cck field-type-file field-label-above"><div class="field-label">Files:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Presentation.pdf" type="application/pdf; length=1046994">Wireless Challenges Presentation.pdf</a></span></div><div class="field-item odd"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://commotionwireless.net/sites/commotionwireless.net/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions.pdf" type="application/pdf; length=2247362">Wireless Challenges Scenarios - Problems and Solutions.pdf</a></span></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="en first last"><a href="/docs/cck/planning/wireless-challenges" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li></ul></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first"><a href="/docs/cck/planning/wireless-challenges" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last active"><a href="/fr/docs/cck/planning/wireless-challenges" class="language-link active" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-10 block-menu-block-10 even" id="block-menu-block-10">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Get Help</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-10 menu-name-main-menu parent-mlid-2089 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2887"><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="leaf menu-mlid-2888"><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="leaf menu-mlid-2068"><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="expanded active-trail menu-mlid-2577"><a href="/fr/node/9434" class="active-trail">Commotion Construction Kit</a><ul class="menu"><li class="first expanded active-trail menu-mlid-2600"><a href="/fr/node/9504" class="active-trail">Planning</a><ul class="menu"><li class="first leaf menu-mlid-2601"><a href="/fr/node/9505">Design your Network</a></li>
+<li class="leaf active-trail active menu-mlid-2748"><a href="/fr/docs/cck/planning/wireless-challenges" title="" class="active-trail active-trail active">Wireless Challenges</a></li>
+<li class="leaf menu-mlid-2602"><a href="/fr/content/survey-your-neighbors" title="">Survey Your Neighbors</a></li>
+<li class="leaf menu-mlid-2603"><a href="/fr/node/9507">Get the Word Out: Flyer Design</a></li>
+<li class="leaf menu-mlid-2746"><a href="/fr/content/identify-neighborhood-skills" title="">Identify Neighborhood Skills</a></li>
+<li class="leaf menu-mlid-2747"><a href="/fr/content/inventory-neighborhood" title="">Inventory the Neighborhood</a></li>
+<li class="last leaf menu-mlid-2604"><a href="/fr/node/9508">Construction Elements</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-2605"><a href="/fr/node/9509">Installing + Configuring</a></li>
+<li class="collapsed menu-mlid-2608"><a href="/fr/node/9513">Building + Mounting</a></li>
+<li class="last collapsed menu-mlid-2752"><a href="/fr/docs/cck/networking">Networking</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2328"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-cck-download-all block-boxes-cck-download-all odd block-without-title" id="block-boxes-cck-download-all">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-cck_download_all' class='boxes-box'><div class="boxes-box-content"><p><a href="http://commotionwireless.net/sites/commotionwireless.net/files/cck-1.0.zip" style="color: #FFF; text-transform:uppercase;"><img src="/sites/commotionwireless.net/files/CCK_allpdf.png" /><br /><span style="text-align:center; font-weight: bold; background: #000; display: block; padding: .2em;">Download all</span></a></p>
+</div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/docs/cck/planning/wireless-challenges" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-iZfJ05tBJ0sBP2oVhujlWRdNMqyGjmOgeov8XZ3OaBU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/fr/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/fr/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/fr/node/10" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/fr/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-a39a76b6d4e3bfabf03505150b367806">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/fr/node/12289">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/fr/node/12255">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/fr/node/12127">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/fr/node/11243">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/fr/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

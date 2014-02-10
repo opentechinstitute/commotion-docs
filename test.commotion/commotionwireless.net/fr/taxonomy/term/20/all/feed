@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/20/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Drupal</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/20/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>The making of...</title>
+    <link>http://commotionwireless.net/fr/blog/making</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;This site has been in the making for months and we’re excited to share it with the public! It’s intended to be the online home for the Commotion project — connecting both developers and users to mesh networking tools. We’ve been working with the Open Technology Institute (OTI) and the Commotion community of developers for over a year and this marks a major milestone in our collaborative relationship. Many steps have brought us to this point and many minds have contributed to the process. We’d like to share those key steps with you.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">85 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

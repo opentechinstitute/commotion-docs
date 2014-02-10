@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/blog/integrating-design-and-development-shape-commotion%25E2%2580%2599s-brand-identity" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog</title>
+    <link>http://commotionwireless.net/fr/blog/integrating-design-and-development-shape-commotion%25E2%2580%2599s-brand-identity</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>Commotion Team participates in DC Internet Freedom Hack Day</title>
+    <link>http://commotionwireless.net/fr/node/12289</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img alt=&quot;Commotion card sort activity from the DC Internet Freedom Hack Day, 1/11/2014&quot; class=&quot;media-image attr__typeof__foaf:Image img__fid__746 img__view_mode__media_original attr__format__media_original&quot; src=&quot;https://commotionwireless.net/sites/commotionwireless.net/files/uihackday-011114.jpeg&quot; style=&quot;width: 250px; height: 249px; float: right;&quot; typeof=&quot;foaf:Image&quot; /&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 14 Jan 2014 19:45:53 +0000</pubDate>
+ <dc:creator>critzo</dc:creator>
+ <guid isPermaLink="false">12289 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion R1 Breaking Changes</title>
+    <link>http://commotionwireless.net/fr/node/12255</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;The latest Commotion release, &lt;a href=&quot;https://commotionwireless.net/download/routers&quot;&gt;R1 “Grumpy Cat”&lt;/a&gt;, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about. These changes affect the basic networking components of Commotion, and have been longstanding development priorities.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 10 Jan 2014 17:05:41 +0000</pubDate>
+ <dc:creator>danstaples</dc:creator>
+ <guid isPermaLink="false">12255 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion Router v1 Release Notes</title>
+    <link>http://commotionwireless.net/fr/node/12127</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;These are the release notes for Commotion Router v1 &quot;Grumpy Cat&quot;, &lt;strong&gt;&lt;a href=&quot;/download/routers&quot;&gt;available for download now&lt;/a&gt;&lt;/strong&gt;. This is the first full version of the &lt;a href=&quot;http://openwrt.org&quot;&gt;OpenWRT&lt;/a&gt;-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 31 Dec 2013 00:19:40 +0000</pubDate>
+ <dc:creator>jking</dc:creator>
+ <guid isPermaLink="false">12127 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Building a Mesh Network in Rural Somaliland</title>
+    <link>http://commotionwireless.net/fr/node/11243</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/articles/idiris.saeed_.hamse%20%28768x1024%29.jpg&quot; style=&quot;width:400px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;I had heard about mesh networking before I arrived in Somaliland, but had never been in the position to actually build a mesh network. When I accepted the position as ICT instructor at&lt;a href=&quot;http://www.abaarsoschool.org&quot; style=&quot;text-decoration:none;&quot;&gt; &lt;u&gt;Abaarso School of Science and Technology&lt;/u&gt;&lt;/a&gt; in Abaarso, Somaliland, I figured this may be my chance. I knew that the Open Technology Institute (OTI) had been developing a mesh firmware called &lt;a href=&quot;https://commotionwireless.net/&quot; style=&quot;text-decoration:none;&quot;&gt;&lt;u&gt;Commotion&lt;/u&gt;&lt;/a&gt;, suitable for remote locations. Upon arriving in Somaliland I decided that building a mesh network using Commotion would be one of my top priorities.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 12 Dec 2013 18:51:44 +0000</pubDate>
+ <dc:creator>critzo</dc:creator>
+ <guid isPermaLink="false">11243 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Building Pop-up Mesh Networks</title>
+    <link>http://commotionwireless.net/fr/blog/building-popup-mesh-networks</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;media-image attr__typeof__foaf:Image img__fid__548 img__view_mode__media_large attr__format__media_large&quot; height=&quot;222&quot; src=&quot;https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/title_image.png?itok=uhJC0pqH&quot; typeof=&quot;foaf:Image&quot; width=&quot;480&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Open Technology Institute recently conducted a training on how to build pop-up mesh networks using Commotion. Our goal was to quickly deploy a flexible and mobile mesh network across several square blocks using portable battery-powered routers carried in backpacks. Commotion’s dynamic routing allows a network to shift and transform with the movements of the people, creating a highly resilient temporary infrastructure that can distribute Internet access throughout an area or support local area communications and data sharing.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 30 Oct 2013 18:34:22 +0000</pubDate>
+ <dc:creator>gerety</dc:creator>
+ <guid isPermaLink="false">10012 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>PRESS RELEASE: New Tools Support Communities to Build Own Wireless Communications Infrastructure</title>
+    <link>http://commotionwireless.net/fr/blog/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img src=&quot;https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_general_intro.png?itok=6eRvcgMY&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;New America Foundation’s&amp;nbsp;&lt;a href=&quot;http://oti.newamerica.net/&quot;&gt;Open Technology Institute&lt;/a&gt;&amp;nbsp;(OTI) today released the first round of its &lt;a href=&quot;https://commotionwireless.net/docs/cck&quot;&gt;Commotion Construction Kit&lt;/a&gt;, a “do it ourselves” guide for building wireless communications infrastructure. The materials are part of the Commotion project, an open-source communications toolkit that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks and share local services.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 01 Oct 2013 15:06:24 +0000</pubDate>
+ <dc:creator>darbyhickey</dc:creator>
+ <guid isPermaLink="false">9678 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion Field Test: Pop-up mesh network, downtown Washington, DC</title>
+    <link>http://commotionwireless.net/fr/blog/commotion-field-test-pop-mesh-network-downtown-washington-dc</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/gqOZBVtarMc&quot; width=&quot;420&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;During a lunch hour in downtown Washington, DC, the Open Technology Institute set up a proof of concept network for distributing Internet service to a public space using a mesh network of multiple mobile routers. Such a network would be useful where there is a sudden need for Internet connectivity, such as a spontaneous event, or conditions that prevent permanent network installation for a planned event. The same network configuration would work for a mobile event, such as a march, although the deployment team did not test for that scenario in this instance.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 29 Sep 2013 17:54:57 +0000</pubDate>
+ <dc:creator>georgia</dc:creator>
+ <guid isPermaLink="false">9527 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion DR2 Release Notes</title>
+    <link>http://commotionwireless.net/fr/blog/commotion-dr2-release-notes</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Developer Release 2 is the latest stable release of the Commotion platform. It features a focus on improved features around network management, including initial compatibility with external visualization tools and internationalization support.&lt;/p&gt;
+
+&lt;h2&gt;What is a Commotion release?&lt;/h2&gt;
+
+&lt;p&gt;Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 19 Sep 2013 15:48:55 +0000</pubDate>
+ <dc:creator>jking</dc:creator>
+ <guid isPermaLink="false">9417 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>OTI&#039;s Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</title>
+    <link>http://commotionwireless.net/fr/blog/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/articles/tiwan_kathy_roofmount_0.JPG&quot; style=&quot;height: 400px; width: 300px;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Tiwan Burrus (RHI) and Katherine Ortiz (RHI) attaching a Pico Station to a roof mount.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A 20-computer public computer center hosted at the New York City Housing Authority’s (NYCHA) Miccio Recreation Center now has Internet access following a day of installations by young adults trained by the Open Technology Institute (OTI), the Red Hook Initiative (RHI) and Brooklyn Fiber. Five Red Hook “&lt;a href=&quot;http://oti.newamerica.net/blogposts/2013/new_video_community_technology_and_training-88639&quot;&gt;Digital Stewards&lt;/a&gt;,” young adults engaged in a New York City workforce development effort, installed 6 new wireless routers into the Red Hook WiFi network in the beginning of July 2013. The Stewards connected two new partner institutions to RHI’s existing Red Hook Network with these installations - adding a local school and the NYCHA Miccio Recreation Center to a set of partners including churches, local residents and the Red Hook Initiative’s building. The public areas surrounding these buildings now have access to the Internet as well as local applications running on the neighborhood website.&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 31 Jul 2013 02:43:40 +0000</pubDate>
+ <dc:creator>georgia</dc:creator>
+ <guid isPermaLink="false">8744 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Video: Community, Technology, and Training</title>
+    <link>http://commotionwireless.net/fr/node/8727</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;A new video about the Open Technology Institute&#039;s approach to training, community, and technology, using the Commotion Wireless toolkit to support communities&#039; to take control of their own communications infrastructure. The video highlights the work of the Digital Stewards programs in&amp;nbsp;&lt;a href=&quot;http://inthetank.newamerica.net/podcast/2013/05/detroit-gone-wired&quot;&gt;Detroit&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;http://brooklyn.ny1.com/content/top_stories/179131/red-hook-group-bridges-digital-gap-left-by-storm&quot;&gt;Brooklyn&lt;/a&gt;, and the sharing of those training resources and the Commotion technology at a workshop in &lt;a href=&quot;https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop&quot;&gt;Dharamshala&lt;/a&gt;, India.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/aBzyH09DeLo?rel=0&quot; width=&quot;560&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 26 Jul 2013 19:40:32 +0000</pubDate>
+ <dc:creator>darbyhickey</dc:creator>
+ <guid isPermaLink="false">8727 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

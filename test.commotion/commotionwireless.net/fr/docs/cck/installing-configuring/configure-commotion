@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="fr" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/fr/node/10205" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/fr/docs/cck/installing-configuring/configure-commotion" />
+<meta content="Configurer Commotion" about="/fr/docs/cck/installing-configuring/configure-commotion" property="dc:title" />
+  <title>Configurer Commotion | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_AtPANxj-0bhjPWUpF0EAkDn5UJko0suh-VcJLd70tHQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wey93epziQE2Jnmna51Dh9kIBOgCwV4S7LHj0bETYq8.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"kb","theme_token":"wL2D8Wm6rbKCJq1ivFODMYOfwgQ6koMPkDJelJzcVhA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/commo_ck.js":1,"0":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/commo_ck.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-10205 node-type-commo-ck-page i18n-fr context-docs">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/fr" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/fr/node/9">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/fr/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/fr/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/fr/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/fr/node/10">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/fr/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/fr/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/fr/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/fr/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started active-trail  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434 active-trail  even "><a href="/fr/node/9434" class="active-trail">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/fr/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/fr/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/fr/node/145" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/fr/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/fr/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/fr/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/fr/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/fr/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/fr/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/fr/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/docs/cck/installing-configuring/configure-commotion" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-K8LZLKkCGixDO10rQLy-uYx3__WU5gtaOdSKJ1mSw5U" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class='boxes-box-content'><hr /><h1 id='page-title' class=page_title'>Commotion Construction Kit</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Configurer Commotion</h1>
+    </div>                    <section class="block block-menu-block block-13 block-menu-block-13 odd" id="block-menu-block-13">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Installing + Configuring</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-13 menu-name-main-menu parent-mlid-2605 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2606"><a href="/fr/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></li>
+<li class="leaf active-trail active menu-mlid-2750"><a href="/fr/docs/cck/installing-configuring/configure-commotion" class="active-trail active">Configure Commotion</a></li>
+<li class="leaf menu-mlid-2751"><a href="/fr/docs/cck/installing-configuring/common-configurations" title="This document describes several common configurations for Commotion nodes other than the default.">Common Configurations</a></li>
+<li class="leaf menu-mlid-2749"><a href="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a></li>
+<li class="last leaf menu-mlid-2607"><a href="/fr/node/9511">Install and Recover with TFTP</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-system block-main block-system-main even block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/fr/docs/cck/installing-configuring/configure-commotion" typeof="sioc:Item foaf:Document" class="node node-commo-ck-page node-published node-not-promoted node-not-sticky author-critzo odd clearfix" id="node-commo-ck-page-10205">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <style type="text/css">@media print {
+    #region-branding {
+        display: none !important;
+    }
+    #block-menu-block-13 {
+        display: none !important;
+    }
+}
+</style>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__605 img__view_mode__media_original attr__format__media_original" height="496" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_Configure_intro_graphic_0.png" typeof="foaf:Image" width="510" /></p>
+
+<h2>Configurer Commotion</h2>
+
+<section id="introduction">
+<h3>Introduction</h3>
+
+<p>Dans ce manuel, vous trouverez des instructions sur la façon de configurer un nœud sans fil de Commotion via QuickStart et l'interface d'administration. Cette étape est essentielle au déploiement et à l'ajout de nœuds à un réseau sans fil communautaire utilisant Commotion, comme moyen de garantir la compatibilité de ces nouveaux nœuds avec le réseau. Si vous n'avez pas encore installé Commotion sur un routeur, veuillez consulter le manuel <a href="/docs/cck/install-ubiquiti-router">Installer sur un routeur Ubiquiti</a> avant d'utiliser ce guide.</p>
+
+<ol class="rteindent1">
+	<li><a href="#Get-Ready-to-Run-Quickstart">Recueillir des informations nécessaires pour configurer votre nœud</a></li>
+	<li><a href="#Run-Quickstart">Exécuter Commotion Quickstart</a></li>
+	<li><a href="#Access-Administration-interface">Accéder à l'interface administrateur de Commotion</a></li>
+	<li><a href="#Configure-common-options-through-the-Administrator-interface">Définir les options de configuration générales dans l'interface d'administration de Commotion</a></li>
+	<li><a href="#Advanced-Commotion-mesh-settings">Paramètres de configuration avancés de Commotion</a></li>
+	<li><a href="#Finish-Configuring">Une feuille de travail pour vous aider à enregistrer les informations importantes concernant vos nœuds et votre réseau, ainsi qu'un test pratique pour tester votre compréhension</a></li>
+</ol>
+
+<p>La configuration des routeurs ne devrait pas prendre plus de 30 minutes.</p>
+</section>
+
+<section id="materials-and-supplies-needed">
+<h4>Matériel et équipement nécessaires</h4>
+
+<p>1. Un routeur installé avec Commotion, connecté au port Ethernet de votre ordinateur.</p>
+
+<p>2. Une copie de <a href="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_worksheet_0.pdf">la feuille de travail</a> à la fin du présent document pour garder une trace des paramètres.</p>
+
+<p>3. (Facultatifl) Une version imprimée ou une copie hors-ligne <a href="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_Hands-on_0.pdf">du test pratique</a> figurant à la fin du présent document.</p>
+</section>
+
+<section id="Get-Ready-to-Run-Quickstart">
+<h3>Se préparer à exécuter QuickStart</h3>
+
+<p>Si le nouveau nœud s'ajoute à un réseau existant, il est conseillé de vous renseigner sur les paramètres du réseau avant d'exécuter QuickStart sur le routeur. Si le maillage est chiffré, vous aurez besoin de connaître le mot de passe de la liaison maillée. Ensuite, commencez par la première section « Réseau existant ».</p>
+
+<p>Si vous créez un nouveau réseau, vous devez consulter votre communauté avant d'exécuter QuickStart. Passez donc à la section « Nouveau réseau ».</p>
+
+<h4>Réseau existant</h4>
+
+<p>Obtenez le informations suivantes auprès d'un organisateur de réseau :</p>
+
+<p>1. Nom du reseau (SSID), BSSID, Canal Wi-Fi et le mot de passe de la laison maillée (si utilisé).</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__563 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_ssid.png?itok=rb-VU3m5" typeof="foaf:Image" width="341" /></p>
+
+<p>2. Paramètres de point d'accès :</p>
+
+<ul>
+	<li>Les points d'accès utilisent-ils un mot de passe ?</li>
+	<li>Si oui, y a-t-il un mot de passe unique à chaque nœud ou y a-t-il un mot de passe commun ?</li>
+	<li>Existe-t-il un système de générer ou partager les mots de passe?</li>
+</ul>
+
+<p>3. Système de nommage de nœuds : y a-t-il une façon particulière de nommer les nœuds ou peut-on les nommer de n'importe quelle façon ?</p>
+
+<p>4. Le mot de passe administrateur est-il partagé au sein du réseau ou est-il possible de choisir son propre mot de passe ? Passez à la section « Exécuter QuickStart ».</p>
+
+<h4>Nouveau réseau</h4>
+
+<p>Il faut d'abord s'entendre sur les informations de base du réseau. Discutez-en avec votre communauté.</p>
+
+<ul>
+	<li>Comment nommer le réseau et les nœuds ?</li>
+	<li>Comment nommer les points d'accès ? Seront-ils sécurisés ou ouverts ?</li>
+	<li>Comment créer et stocker les mots de passe (administrateur, liaison maillée, et peut-être AP) ?</li>
+</ul>
+
+<p>Passez à «&nbsp;Exécuter QuickStart&nbsp;» lorsque vous avez décidé comment les mots de passe seront définis et comment les nœuds seront nommés.</p>
+</section>
+
+<section id="Run-Quickstart">
+<h3>Exécuter QuickStart</h3>
+
+<p>Avant de commencer, <strong>192.168.1.254</strong> IP statique et . <strong>192.168.1.20</strong> .</p>
+
+<p>Assurez-vous d'enregistrer toutes les informations que vous saisissez lors du processus QuickStart :</p>
+
+<ul>
+	<li>Nom du nœud ou nom d'hôte</li>
+	<li>Mot de passe administrateur</li>
+	<li>Mot de passe de la liaison maillée</li>
+	<li>Mot de passe du point d'accès (si vous en avez défini un).</li>
+</ul>
+
+<p>Ne révélez vos mots de passe ou d'autres informations à personne, sauf si vous lui faites confiance sur le réseau !</p>
+
+<p>1. Lancez QuickStart en cliquant sur le lien dans la barre jaune ou bien à la fin de la page :</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__564 img__view_mode__media_large attr__format__media_large" height="295" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_welcome-page.png?itok=n4jqi7Qq" typeof="foaf:Image" width="480" /></p>
+
+<p>2. Remplissez les champs dans QuickStart en utilisant les informations que vous avez obtenues ou que vous avez déterminées précédemment.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__565 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_settings-page.png?itok=jY5mMdwR" style="width: 275px; height: 257px;" typeof="foaf:Image" /></td>
+			<td>
+			<p>a. Mot de passe de la liaison maillée : Partagé entre les nœuds afin de sécuriser les liaisons entre les nœuds.</p>
+
+			<p>b. Nom du nœud : L'identifiant pour le nœud actuel. Celui ci est aussi le nom donné au point d'accès.</p>
+
+			<p>c. Mot de passe Wi-Fi : Si vous souhaitez que le point d'accès soit protégé, cliquez sur le bouton et entrez un mot de passe.</p>
+
+			<p>d. Mot de passe administrateur : Un mot de passe fort pour verrouiller la configuration du nœud.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>3. Quand vous finissez le processus QuickStart, le nœud sera réinitialisé. Cela va prendre quelques minutes - soyez patient. Quand le nœud redémarre, il se connecte automatiquement à d'autres nœuds dans la region possédant la même information concernant la liaison maillée que le nœud lui-même.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__566 img__view_mode__media_large attr__format__media_large" height="272" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_finish-page.png?itok=FqI1Jw67" typeof="foaf:Image" width="480" /></p>
+</section>
+
+<section id="Access-Administration-interface">
+<h3>Accéder à l'interface d'administration</h3>
+
+<p>Maintenant, accéder à la configuration administrateur. Après QuickStart, votre navigateur web vous emmènera à la page d'administration automatiquement. Sinon, tapez <strong>192.168.1.20</strong> ou <strong>thisnode/</strong> dans la barre d'adresse de votre navigateur web et cliquez sur « Entrée » .</p>
+
+<p class="tip">Vous verrez un avertissement. Acceptez-le et procédez.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__665 img__view_mode__media_original attr__format__media_original" height="199" src="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_CertError.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Cliquez sur «&nbsp;Administration&nbsp;» et saisissez « root » pour le nom d'utilisateur et le mot de passe du nœud (tels que vous les avez définis en utilisant QuickStart).</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__567 img__view_mode__media_large attr__format__media_large" height="475" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_login.png?itok=OhqZXCK_" typeof="foaf:Image" width="480" /></p>
+</section>
+
+<section id="Configure-common-options-through-the-Administrator-interface">
+<h3>Configurer les options communes via l'interface administrateur</h3>
+
+<p>Bien que vous ayez défini les paramètres de base pendant QuickStart, il y a encore quelques paramètres qui doivent être modifiés. Suivez les instructions suivantes pour en savoir plus. Cliquez ci-dessous ou défilez vers le bas.</p>
+
+<ul>
+	<li><a href="#admin-password">Changer le mot de passse administrateur</a></li>
+	<li><a href="#change-hostname">Changer le nom d'hôte</a></li>
+	<li><a href="#ap-information">Changer les informations du point d'accès</a></li>
+	<li><a href="#splash-page">Changer les informations affichées sur le splash screen</a></li>
+	<li><a href="#bandwidth-qos">Configurer les limites de bande passante et les paramètres de qualité de service</a></li>
+	<li><a href="#get-mesh-ip">Comment obtenir l'adresse IP de votre nœud pour le réseau maillé</a></li>
+	<li><a href="#see-mesh-connections">Voir les connexions sur le réseau maillé</a></li>
+	<li><a href="#set-gateway-node">Créer un noeud de passerelle</a></li>
+	<li><a href="#upgrading-commotion">Mettre à jour vers la nouvelle version du logiciel Commotion</a></li>
+</ul>
+
+<p class="tip">Si, à un moment quelconque, l'interface affiche le message suivant : «&nbsp;L'interface CGI n'a produit aucune réponse&nbsp;», attendez une minute et essayez de recharger la page. Quand vous vous reconnectez, vérifiez que toute modification apportée est enregistrée.<br />
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__568 img__view_mode__media_large attr__format__media_large" height="103" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_CGIinterface.png?itok=q6CCtqAQ" typeof="foaf:Image" width="395" /></p>
+
+<h4><a id="admin-password">Changer le mot de passse administrateur</a></h4>
+
+<p>Ce mot de passe est pour l'administrateur «&nbsp;root&nbsp;» du système. Ceci est nécessaire pour modifier d'autres paramètres. Vous l'avez défini pendant QuickStart.</p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Système</strong> -&gt; <strong>Administration</strong>.</li>
+	<li>Dans la section «&nbsp;Mot de passe routeur&nbsp;», saisissez un nouveau mot de passe dans les champs «&nbsp;Mot de passe&nbsp;» et «&nbsp;Confirmation&nbsp;».</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour. Cela peut prendre jusqu'à deux minutes !</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__569 img__view_mode__media_large attr__format__media_large" height="443" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_systemadmin.png?itok=FH36TPTG" typeof="foaf:Image" width="480" /></p>
+
+<h4><a id="change-hostname">Changer le nom d'hôte</a></h4>
+
+<p>Ceci change l'identification système du nœud sur le réseau et non le nom du point d'accès.</p>
+
+<p class="tip">Assurez-vous de ne pas réutiliser ou dupliquer les noms d'hôte. Cela va créer des problèmes !</p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Système</strong> -&gt; <strong>Système</strong>.</li>
+	<li>Dans la section «&nbsp;Propriétés système&nbsp;», saisissez un nouveau nom pour le nœud dans le champ «&nbsp;Nom d'hôte&nbsp;».</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__570 img__view_mode__media_large attr__format__media_large" height="374" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_systemsys.png?itok=vgWtAVsR" typeof="foaf:Image" width="480" /></p>
+
+<h4><a id="ap-information">Changer les informations du point d'accès</a></h4>
+
+<p>Trois paramètres sont communs aux points d'accès (AP) sur un nœud Commotion : si le point d'accès est activé ou désactivé, le SSID (le nom de l'AP), et la sécurité (si l'AP est protégé par un mot de passe. Si oui, le mot de passe).</p>
+
+<p class="tip">Assurez-vous d'enregistrer ces paramètres. Vous pourriez en avoir besoin plus tard.</p>
+
+<p>Pour toutes ces étapes, d'abord :</p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Réseau -&gt; Wi-Fi</strong>.</li>
+	<li>Choisissez «&nbsp;radio0: Master [nom par défaut d'AP]&nbsp;».</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__571 img__view_mode__media_large attr__format__media_large" height="284" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_APsettings.png?itok=iBnzbyY-" typeof="foaf:Image" width="480" /></p>
+
+<p><strong>Pour activer/désactiver le point d'accès :</strong></p>
+
+<ol class="rteindent1" type="1|a|A|i|I">
+	<li>Consultez la section «&nbsp;Configuration d'appareil » :
+	<ul>
+		<li>Si l'AP est actif, il est activé. Pour le désactiver, cliquez sur « Désactiver&nbsp;».</li>
+		<li>Si l'AP est actuellement inactif, il est désactivé. Pour l'activer, cliquez sur «&nbsp;Activer&nbsp;».</li>
+	</ul>
+	</li>
+</ol>
+
+<p class="tip">Cela pourrait rendre le nœud instable. Pour éviter les problèmes, redémarrez l'appareil après avoir modifié cette fonction.</p>
+&nbsp;
+
+<p><strong>Afin de changer le nom du point d'accès :</strong></p>
+
+<ol class="rteindent1">
+	<li>Dans la section « Configuration interface&nbsp;», entrez un nouveau nom dans le champ «&nbsp;ESSID&nbsp;».</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour. (Si vous êtes connecté au nœud sans fil, vous devrez vous reconnecter au nouveau nom SSID).</li>
+</ol>
+&nbsp;
+
+<p><strong>Pour activer un mot de passe pour l'AP:</strong></p>
+
+<ol class="rteindent1">
+	<li>Dans la section « Configuration interface », cliquez sur l'onglet «&nbsp;Sécurité sans fil&nbsp;».</li>
+	<li>Dans le menu déroulant «&nbsp;Chiffrement&nbsp;», sélectionnez «&nbsp;WPA2-PSK ».</li>
+	<li>Dans le menu déroulant «&nbsp;Chiffrement&nbsp;», sélectionnez «&nbsp;Automatique&nbsp;» s'il n'est pas encore sélectionné.</li>
+	<li>Dans le champ «&nbsp;Clé&nbsp;», saisissez le mot de passe pour cet AP.</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+
+<p><strong>Pour désactiver le mot de passe pour l'AP :</strong></p>
+
+<ol class="rteindent1">
+	<li>Dans la section « Configuration interface », cliquez sur l'onglet «&nbsp;Sécurité sans fil&nbsp;».</li>
+	<li>Dans le menu déroulant «&nbsp;Chiffrement&nbsp;», sélectionnez «&nbsp;Pas de chiffrement&nbsp;».</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__572 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_APsettings2.png?itok=4kLAtRDA" typeof="foaf:Image" width="442" /></p>
+
+<h4><a id="splash-page">Changer les informations affichées sur le splash screen</a></h4>
+
+<p>Lorsque les utilisateurs se connectent au point d'accès, il se peut qu'ils soient redirigés vers un splash screen (également appelé portail captif). Vous avez le choix de l'activer ou de le désactiver, de personnaliser le texte sur cet écran et de déterminer le nombre d'heures qui doivent s'écouler avant qu'un utilisateur soit tenu d'accepter de nouveau les conditions du splash screen.</p>
+
+<p class="tip">En cas d'absence d'une passerelle (seule une connexion intranet et pas d'Internet) sur le réseau, il n'y aura aucun splash screen.</p>
+
+<p>D'abord, naviguez à <strong>Services -&gt; Portail captif</strong>.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__573 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_Captive.png?itok=qnh0vP9U" typeof="foaf:Image" width="422" /></p>
+
+<p><strong>Afin de changer le texte affiché sur le splash screen :</strong></p>
+
+<ol class="rteindent1">
+	<li>Selectionnez «&nbsp;Splashtext&nbsp;» en haut de la page.</li>
+	<li>Modifiez le code HTML dans le grand champ de texte pour afficher les informations que vous voulez, comme le nom du réseau et les contacts.</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Soumettre&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+&nbsp;
+
+<p><strong>Pour changer le nombre d'heures qui doivent s'écouler avant qu'un utilisateur se reconnecte via le splash screen :</strong></p>
+
+<ol class="rteindent1">
+	<li>Dans la la section « Généralités », définissez le nombre d'heures pour le « Temps de validation », par exemple 12 ou 24 heures.</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+&nbsp;
+
+<p><strong>Pour activer/désactiver le splash screen :</strong></p>
+
+<ol class="rteindent1" type="1|a|A|i|I">
+	<li>Dans la section «&nbsp;Interfaces&nbsp;», utilisez le menu déroulant <strong> soit</strong> pour :
+
+	<ul>
+		<li>Sélectionner la ligne vide en haut du menu déroulant si vous souhaitez désactiver le splash screen.</li>
+		<li>Sélectionner «&nbsp;secAp&nbsp;» ou «&nbsp;ap&nbsp;» si vous souhaitez que les utilisateurs soivent dirigés vers le splash screen lors de la connexion au point d'accès sécurisé, ou au point d'accès non sécurisé, respectivement.</li>
+	</ul>
+	</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__574 img__view_mode__media_large attr__format__media_large" height="464" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_splashenable.png?itok=t6F1Lvw_" typeof="foaf:Image" width="480" /></p>
+
+<h4><a id="bandwidth-qos">Configurer les limites de bande passante et les paramètres de qualité de service</a></h4>
+
+<p>Si vous hébergez un noeud passerelle (partage d'Internet avec le reste du réseau), vous pouvez limiter la bande passante permise au reste du réseau en utilisant le concept de Qualité de Service (QdS).</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__575 img__view_mode__media_large attr__format__media_large" height="251" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_networkqos.png?itok=VjvxzCUl" typeof="foaf:Image" width="480" /></p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Réseau -&gt; QdS</strong>.</li>
+	<li>Cochez les cases «&nbsp;Activer&nbsp;» et «&nbsp;Calculer les coûts&nbsp;».</li>
+	<li>Dans le champ « Vitesse de téléchargement&nbsp;», définissez la totalité de la bande passante descendante à fournir au maillage (en kilobits par seconde - tapez 5000 pour environ 5 Mbps).</li>
+	<li>Dans le champ «Vitesse d'upload », définissez la totalité de la bande passante ascendante à fournir au maillage (en kilobits par seconde - tapez 1000 pour environ 1 Mbps).</li>
+	<li>Allez à la fin de la page et cliquez sur «&nbsp;Enregistrer et appliquer&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__576 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_networkqos2.png?itok=Or0-GMO3" typeof="foaf:Image" width="363" /></p>
+
+<h4><a id="get-mesh-ip">Comment obtenir l'adresse IP de votre nœud dans le maillage</a></h4>
+
+<p>Il convient de noter l'adresse IP de votre nœud dans le maillage.</p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Statut -&gt; OLSR</strong>.</li>
+	<li>Cliquez sur «&nbsp;Interfaces&nbsp;» sous «&nbsp;Vue d'ensemble des interfaces&nbsp;».</li>
+	<li>Trouvez l'adresse source commençant par le chiffre 5. Ceci est l'adresse IP de votre nœud dans le maillage.</li>
+</ol>
+
+<h4><a id="see-mesh-connections">Voir les connexions sur le réseau maillé</a></h4>
+
+<p>Il y a deux façons de voir si le nœud est connecté avec succès à d'autres nœuds du maillage.</p>
+
+<ol class="rteindent1">
+	<li>Si vous n'êtes pas connecté, passez votre souris sur « Vue d'ensemble » au-dessus du logo Commotion sur la première page du site et cliquez sur «&nbsp;OSLR-Viz&nbsp;».</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__577 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_oslrviz.png?itok=uAeY9UNm" typeof="foaf:Image" width="386" /></p>
+
+<p><strong>ou </strong></p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Statut -&gt; OSLR</strong>.</li>
+	<li>Clicquez sur «&nbsp;OSLR-Viz&nbsp;».</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__578 img__view_mode__media_large attr__format__media_large" height="265" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_COnfigureRouters_oslrviz2.png?itok=yS8Uhu3s" typeof="foaf:Image" width="480" /></p>
+
+<h4><a id="set-gateway-node">Créer un nœud de passerelle</a></h4>
+
+<p>Si vous souhaitez partager votre bande passante avec le réseau, désignez votre nœud comme une passerelle. Avant de procéder, ce serait peut-être bon de configurer d'autres paramètres, par exemple ceux relatifs à la qualité de service, indiqués ci-dessus.</p>
+
+<ol class="rteindent1">
+	<li>Branchez le port LAN de l'adaptateur Power over Ethernet à votre routeur/modem connecté à l'Internet.</li>
+	<li>Naviguez à <strong>Système -&gt; Redémarrer</strong> pour redémarrer le nœud.</li>
+	<li>Cliquez sur « Redémarrer&nbsp;» et attendez le redémarrage du nœud.</li>
+	<li>Le nœud se configure automatiquement comme une passerelle et fournit la bande passante au réseau au redémarrage.</li>
+	<li>Confirmez que le nœud est une passerelle en naviguant à <strong>Statut -&gt; OLSR</strong>.
+	<ul>
+		<li>Cliquez sur «&nbsp;HNA&nbsp;».</li>
+		<li>Si vous voyez 0.0.0.0/0 dans le tableau à côté de l'adresse IP de votre nœud dans le maillage, vous savez alors que le nœud a été configuré comme une passerelle.</li>
+	</ul>
+	</li>
+</ol>
+
+<h4><a id="upgrading-commotion">Mettre à jour vers la nouvelle version du logiciel Commotion</a></h4>
+
+<p>De temps en temps, des nouvelles versions du logiciel Commotion sont mises à la disposition des usagers à l'adresse <strong>commotionwireless.net</strong>. Veuillez télécharger la version « sysupgrade » et suivez ces instructions.</p>
+
+<p class="tip">Vous trouverez des informations importantes sur la procédure de vérification de vos téléchargements à <strong>https://commotionwireless.net/download/verify-signatures</strong>.</p>
+N'oubliez pas d'enregistrer vos paramètres du noeud et du réseau pour pouvoir les utiliser lorsque vous exécuter QuickStart avec la prochaine version du logiciel.
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Système -&gt; Sauvegarder / Flasher le firmware</strong>.</li>
+	<li>Dans la section «&nbsp;Flasher la nouvelle image de firmware&nbsp;», décochez l'option «&nbsp;Conserver les paramètres&nbsp;».</li>
+	<li>Pour passer à une nouvelle version du logiciel, cliquez dans le champ rectangulaire au-dessous et sélectionnez le fichier que vous avez téléchargé. Cliquez sur «&nbsp;Flasher l'image... ».</li>
+	<li>A la page suivante, attendez jusqu'à ce que le fichier soit uploadé. Puis, cliquez sur «&nbsp;Procéder&nbsp;».</li>
+	<li>Patientez jusqu'à ce que le système soit mis à jour.</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__579 img__view_mode__media_large attr__format__media_large" height="313" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_systembackup.png?itok=PCtOF-9M" typeof="foaf:Image" width="480" /></p>
+</section>
+
+<section id="Advanced-Commotion-mesh-settings">
+<h3>Paramètres de maillage avancés de Commotion</h3>
+
+<p>Vous pouvez modifier la configuration d'un routeur sur le réseau maillé que vous avez définie lors du processus QuickStart. Cela peut être utile pour le séparer du réseau maillé ou pour changer l'identité du réseau.</p>
+
+<ol class="rteindent1">
+	<li>Naviguez à <strong>Commotion -&gt; Configuration manuelle du maillage</strong>.</li>
+	<li>Sélectionnez le canal WiFi pour votre réseau : soit «&nbsp;canal 2 GHz&nbsp;», soit « canal 5 GHz&nbsp;» selon les capacités de votre nœud sans fil. Ce canal devrait être uniforme dans l'ensemble du réseau.</li>
+	<li>Dans le champ «&nbsp;Mesh SSID&nbsp;», entrez le nom de votre réseau. Ce nom devrait être identitique pour chaque nœud sur le réseau.</li>
+	<li>Si vous souhaitez définir une nouvelle adresse BSSID pour le réseau maillé, entrez-le dans le champ « Mesh BSSID&nbsp;». Cette adresse devrait être une adresse MAC valide et devrait également être identique pour chaque nœud sur le réseau. Veuillez consulter le site web de Commotion pour trouver des exemples.</li>
+</ol>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__580 img__view_mode__media_large attr__format__media_large" height="480" src="https://dev.commotionwireless.net/sites/dev.commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_meshconfig.png?itok=e2abRNoz" typeof="foaf:Image" width="461" /></p>
+</section>
+
+<section id="Finish-Configuring">
+<h3>Pour terminer</h3>
+
+<p>Lorsque vous avez terminé la configuration, débranchez le câble Ethernet de l'ordinateur. Si vous désirez héberger une passerelle (partage d'Internet avec le reste du réseau), branchez-le à votre routeur/modem passrelle. Sinon, sauvegardez-le aux fins de configuration et de dépannage plus tard.</p>
+
+<p>Pour les informations plus détaillées concernant les nœuds, le maillage et la sécurité AP, consultez le module Sécuriser le réseau (Matériel et Logiciel). En cas de problèmes avec un nœud ou le réseau, consultez le module <a href="https://dev.commotionwireless.net/content/troubleshoot-commotion-node-hosts">Dépanner&nbsp;des nœuds hôtes</a>.</p>
+</section>
+
+<section id="Check-your-understanding">
+<h3>Vérifier votre compréhension</h3>
+
+<p>Donné ci-dessous est un test pratique pour vous aider à explorer l'interface administrateur de tout nœud Commotion. Vous n'êtes pas obligé de prendre ce test pour mettre en place un nœud sur un réseau. Il peut toutefois vous aider à comprendre comment trouver des informations importantes dont les administrateurs réseau ont besoin afin d'assurer que le réseau continue à fonctionner normalement. Si d'autres personnes participent avec vous dans la configuration de plusieurs nœuds, vous pouvez tous explorer ces détails en passant par ce test et en répondant aux questions.</p>
+
+<p><a href="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_Hands-on_0.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__592 img__view_mode__media_large attr__format__media_large" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" style="width: 371px; height: 480px;" typeof="foaf:Image" /></a></p>
+</section>
+
+<section id="Record-important-information">
+<h3>Enregistrer les informations importantes</h3>
+
+<p>N'oubliez pas d'enregistrer toutes les données pendant que vous vérifiez et modifiez ces paramètres. Servez-vous de cette feuille de travail si vous le trouvez utile.</p>
+
+<p><a href="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_worksheet_0.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__593 img__view_mode__media_large attr__format__media_large" height="480" src="https://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" width="371" /></a></p>
+</section>
+
+<section id="section-definitions">
+<h3>Définitions</h3>
+
+<dl>
+	<dt>Point d'accès (AP) :</dt>
+	<dd>Un appareil qui permet aux clients sans fil (ordinateurs portables, smartphones, etc.) de se connecter à un reseau en utilisant WiFi.</dd>
+	<dt>BSSID (Basic Service Set Identifier) :</dt>
+	<dd>L'adresse servant à l'identification d'un réseau maillé spécifique. Elle est utilisée par l'appareil de liaison maillée sans fil.</dd>
+	<dt>Passerelle :</dt>
+	<dd>Une connexion à un autre reseau, généralement Internet. Un ou plusieurs nœuds d'un réseau peuvent servir de passerelles.</dd>
+	<dt>Nom d'hôte :</dt>
+	<dd>Le nom d'un nœud; un surnom correspondant à l'adresse d'un dispositif connecté à un réseau. Le nom d'hôte et le SSID d'un point d'accès peuvent être identiques, similaires ou différents.</dd>
+	<dt>Adresse IP :</dt>
+	<dd>Une étiquette numérique attribuée à chaque dispositif (ordinateurs, imprimantes, routeurs, etc.) d'un réseau qui utilise le protocole Internet pour la communication.</dd>
+	<dt>Adresse MAC :</dt>
+	<dd>Un identifiant physique unique attribué à interface réseau.</dd>
+	<dt>Réseau maillé :</dt>
+	<dd>Un type de réseau dans lequel chaque nœud peut servir d'un routeur autonome et peut se connecter à plusieurs nœuds en même temps.</dd>
+	<dt>Nœud :</dt>
+	<dd>Un routeur connecté à un réseau maillé.</dd>
+	<dt>OLSR (Optimized Link State Routing Protocol) :</dt>
+	<dd>un protocole de routage IP optimisés pour les réseaux mobiles ad hoc.</dd>
+	<dt>Root :</dt>
+	<dd>Un compte utilisateur utilisé pour l'administration des systèmes.</dd>
+	<dt>Splash screen ou portail captif :</dt>
+	<dd>Une page web qui s'affiche la première fois que les utilisateurs se connectent au réseau via un point d'accès. Celle-ci nécessite l'acceptation des conditions de service afin d'accéder à Internet.</dd>
+	<dt>SSID (Service Set Identifier) :</dt>
+	<dd>Un nom identifiant de façon unique un réseau local sans fil. Le plus souvent, c'est le nom d'un point d'acces. Le nom est lisible par l'homme et peut comporter jusqu'à 32 caractères.</dd>
+</dl>
+</section>
+
+<section class="related-information" id="section-related-information">
+<h3>Informations connexes</h3>
+
+<p>Modules à finir avant de commencer le module actuel</p>
+
+<ul>
+	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Installer sur un routeur Ubiquiti</a></li>
+	<li><a href="/docs/cck/install-and-recover-tftp">Installer et récupérer avec TFTP</a></li>
+</ul>
+
+<p>D'autres modules cités dans le module actuel</p>
+
+<ul>
+	<li>Sécuriser le réseau (matériel et logiciel)</li>
+	<li>Dépanner des noeuds hôtes</li>
+</ul>
+
+<p>Modules susceptibles de suivre le module actuel</p>
+
+<ul>
+	<li>Dépanner des noeuds hôtes</li>
+</ul>
+
+<p>Modules connexes dans d'autres unités</p>
+
+<ul>
+	<li>Gestion de réseaux : Apprendre les bases</li>
+</ul>
+</section>
+ </div></div></div><a class="commo_ck-download-pdf-link" href="http://commotionwireless.net/sites/commotionwireless.net/files/2-Configure%20Commotion%20%7C%20Commotion.pdf"><div>Download PDF</div></a>
+<a class="commo_ck-send-feedback" href="https://commotionwireless.net/contact"><div>Send us feedback</div></a>
+<div class="field field-name-field-files-cck field-type-file field-label-above"><div class="field-label">Files:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_Hands-on_0.pdf" type="application/pdf; length=11495">CCK_ConfigureRouters_Hands-on.pdf</a></span></div><div class="field-item odd"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://commotionwireless.net/sites/commotionwireless.net/files/CCK_ConfigureRouters_worksheet_0.pdf" type="application/pdf; length=25089">CCK_ConfigureRouters_worksheet.pdf</a></span></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="en first last"><a href="/docs/cck/installing-configuring/configure-commotion" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li></ul></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first"><a href="/docs/cck/installing-configuring/configure-commotion" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last active"><a href="/fr/docs/cck/installing-configuring/configure-commotion" class="language-link active" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-10 block-menu-block-10 even" id="block-menu-block-10">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Get Help</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-10 menu-name-main-menu parent-mlid-2089 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2887"><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="leaf menu-mlid-2888"><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="leaf menu-mlid-2068"><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="expanded active-trail menu-mlid-2577"><a href="/fr/node/9434" class="active-trail">Commotion Construction Kit</a><ul class="menu"><li class="first collapsed menu-mlid-2600"><a href="/fr/node/9504">Planning</a></li>
+<li class="expanded active-trail menu-mlid-2605"><a href="/fr/node/9509" class="active-trail">Installing + Configuring</a><ul class="menu"><li class="first leaf menu-mlid-2606"><a href="/fr/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></li>
+<li class="leaf active-trail active menu-mlid-2750"><a href="/fr/docs/cck/installing-configuring/configure-commotion" class="active-trail active-trail active">Configure Commotion</a></li>
+<li class="leaf menu-mlid-2751"><a href="/fr/docs/cck/installing-configuring/common-configurations" title="This document describes several common configurations for Commotion nodes other than the default.">Common Configurations</a></li>
+<li class="leaf menu-mlid-2749"><a href="/fr/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a></li>
+<li class="last leaf menu-mlid-2607"><a href="/fr/node/9511">Install and Recover with TFTP</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-2608"><a href="/fr/node/9513">Building + Mounting</a></li>
+<li class="last collapsed menu-mlid-2752"><a href="/fr/docs/cck/networking">Networking</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2328"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-cck-download-all block-boxes-cck-download-all odd block-without-title" id="block-boxes-cck-download-all">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-cck_download_all' class='boxes-box'><div class="boxes-box-content"><p><a href="http://commotionwireless.net/sites/commotionwireless.net/files/cck-1.0.zip" style="color: #FFF; text-transform:uppercase;"><img src="/sites/commotionwireless.net/files/CCK_allpdf.png" /><br /><span style="text-align:center; font-weight: bold; background: #000; display: block; padding: .2em;">Download all</span></a></p>
+</div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/docs/cck/installing-configuring/configure-commotion" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-2SWOo5SzuXnWx052S42TavsfobIsmR6bA32_WR0ec6M" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/fr/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/fr/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/fr/node/10" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/fr/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-e8e1867c6b02b2b552dee6d2e60550fd">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/fr/node/12289">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/fr/node/12255">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/fr/node/12127">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/fr/node/11243">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/fr/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

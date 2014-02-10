@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>{{ site.name }}{% if page.title %} | {{ page.title }} {% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Detects if there's a defined page description, includes it if so, and otherwise includes the first 160 characters of the page content. We could do categories instead, or use truncatewords:30 and probably still be within character limit -->
+    <meta name="description" content="
+    {% if page.description %}{{ page.description }}
+    {% elsif post.content %}{{ post.content | strip_html | truncate:160}}
+    {% endif %}">
+
+    {% if site.author.name %}<meta name="author" content="{{ site.author.name }}">{% endif %}
+
+<!-- Detects if page tags exist, and if so, includes them as a comma-delineated string. If not, displays nothing. -->
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | array_to_sentence_string }}">{% endif %}
+
+
+    <link href="/css/new.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- SOCIAL AND FAVICON -->
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Commotion Wireless ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Commotion Wireless RSS Feed">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+<header>
+<!-- TOP COLOR BAR -->
+    <div class="colorbar">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+    </div>
+
+<!-- LOGO AND TOP NAV -->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="https://commotionwireless.net/">{{ site.name }}</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- SLIDER, but only on index -->
+<!-- OPTION ONE - UNFINISHED! -->
+  {% if index %}
+    <div class="slidercase">
+      <ul class="slider">
+        <!-- only show 5 most recent posts tagged "slider" -->
+        {% for post in site.tags.slider limit:5 %}
+            <!-- SETTING FEATURED IMAGE TO SLIDER BG -->
+            <li style="background: #000 {% if post.feature %} cover url({{ post.feature }}{% endif %})">
+                <!-- POST TITLE -->
+                <h3><a href="{{ site.baseurl }}{{ post.url }}" target="_top">{{ post.title }}</a></h3>
+                <!-- POST DESCRIPTION -->
+                <h4>{% if page.description %}{{ page.description }}
+    {% elsif post.content %}{{ post.content | strip_html | truncatewords:30}}...
+    {% endif %}</h4>
+                <!-- STILL NEED SLIDE SELECTOR AND NEXT/PREV BUTTONS -->
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+<!-- END SLIDER -->
+
+<!-- SLIDER, but only on index -->
+<!-- OPTION TWO - UNFINISHED! -->
+
+  {% if index %}
+    <div class="slidercase">
+          
+        {% assign count = '0' %}
+        {% assign idx = '0' %}
+        {% for post in site.posts limit:5 %}
+	        {% if post.slider == slider %}
+		        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+		        {% if post.url == page.url %}
+			        {% capture idx %}{{count}}{% endcapture %}
+		        {% endif %}
+	        {% endif %}
+        {% endfor %}
+
+    <!-- THIS IS ITERATING TWICE ON PURPOSE. TRUST ME, I'M AN INTERNET DOCTOR. -->
+	    <ul>
+	    {% assign count = '0' %}
+	    {% for post in site.posts limit:5 %}
+	    {% if post.slider == slider %}
+		    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                <h3><a href="{{ site.baseurl }}{{ post.url }}" target="_top">{{ post.title }}</a></h3>
+                <!-- POST DESCRIPTION -->
+                <h4>{% if page.description %}{{ page.description }}
+                {% elsif post.content %}
+                {{ post.content | strip_html | truncatewords:30}}...
+                {% endif %}</h4>
+	    {% endif %}
+	    {% endfor %}
+	    </ul>
+    </div>
+  {% endif %} <!-- ends the "if index" above -->
+<!-- END SLIDER 2 -->
+
+<!-- FEATURED IMAGE/VIDEO/MAP/TITLE, not on index -->
+    {% if post.feature %}
+      <div class="feature">
+        <img src="{{ post.feature }}" />
+      </div>
+    {% elsif post.map %}
+      <div class="map"">
+        <iframe src="{{ post.map }}" height="{{ post.map.height }}" width="{{ post.map.width }} frameborder="0" background="transparent" />
+      </div>
+    {% elsif post.video %}
+      <div class="video"">
+        <video height="{{ post.video.height }}" width="{{ post.video.width }}" controls>
+          {% if post.video.mp4 %}<source src="{{ post.video.mp4 }}" type="video/mp4">{% endif %}
+          {% if post.video.ogg %}<source src="{{ post.video.ogg }}" type="video/ogg">{% endif %}
+          {% if post.video.subtitles %}<track src="{{post.video.subtitles}}" kind="subtitles" label="Captions"> {% endif %}
+        Your browser does not support the video tag. Upgrade!
+        </video>
+        <div class="videocaption">{{ post.video.caption }}</div>
+        <h1>{{page.title}}</h1>
+      </div>
+    {% else %}
+      <div class="pagetitle">
+        <h1>{{page.title}}</h1>
+      </div>
+    {% endif %}
+<!-- END FEATURED IMAGE -->
+</header>
+
+<!-- CONTENT CONTAINER -->
+
+    <div class="container">
+
+<!-- content-->
+	<div class="content"> 
+      {{ content }}
+	</div> <!-- end content -->
+
+<!-- sidebar -->
+	<div class="sidebar">
+
+	</div> <!-- end sidebar -->
+
+    </div> <!-- END CONTAINER -->
+
+<footer>
+    <img class="arrow" src="images/whitearrow.png" />
+
+    <ul class="menu">
+        <li><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li><a href="/contact.html" title="">Contact</a></li>
+        <li><a href="/jobs.html" title="">Jobs</a></li>
+        <li><a href="/press.html" title="">Press</a></li>
+        <li><a href="/license.html" title="">License</a></li>
+        <li><a href="/privacy.html" title="">Privacy</a></li>
+    </ul>
+    <p><img src="images/cc_footer.png"> {{ site.time | date: '%Y' }} <a href="https://opentechinstitute.org/">Open Technology Institute</a></p>
+
+</footer>
+
+</div> <!-- END WRAPPER -->
+
+<!-- analytics code? -->
+
+  </body>
+</html>

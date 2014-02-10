@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+{% for page in site.posts %}
+  <url>
+    <loc>https://commotionwireless.net{{ page.url }}</loc>
+      {% if post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if post.sitemap.changefreq %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+    {% if post.sitemap.priority %}
+    <priority>{{ post.sitemap.priority }}</priority>
+    {% else %}
+    <priority>0.5</priority>
+    {% endif %}
+    <news:news>
+      <news:publication>
+        <news:name>Open Technology Institute</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:genres>PressRelease, Blog</news:genres>
+      <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+      <news:title>{{ page.title }} | Commotion Wireless</news:title>
+    {% if page.tags %}
+      <news:keywords>Commotion Wireless, {{ page.tags | array_to_sentence_string }}</news:keywords>
+    {% endif %}
+    {% if post.sitemap.geoloc %}
+      <geo_locations>{{ post.sitemap.geoloc }}</geo_locations>
+    {% else %}
+      <geo_locations>Washington, DC</geo_locations>
+    {% endif %}
+    </news:news>
+   </url>
+{% endfor %}
+{% for page in site.pages %}
+  <url>
+    <loc>https://commotionwireless.net{{ page.url }}</loc>
+      {% if post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if post.sitemap.changefreq %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+    {% if post.sitemap.priority %}
+    <priority>{{ post.sitemap.priority }}</priority>
+    {% else %}
+    <priority>0.7</priority>
+    {% endif %}
+    <news:news>
+      <news:publication>
+        <news:name>Open Technology Institute</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:genres>PressRelease</news:genres>
+      <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+      <news:title>{{ page.title }} | Commotion Wireless</news:title>
+    {% if page.tags %}
+      <news:keywords>Commotion Wireless, {{ page.tags | array_to_sentence_string }}</news:keywords>
+    {% endif %}
+    {% if post.sitemap.geoloc %}
+      <geo_locations>{{ post.sitemap.geoloc }}</geo_locations>
+    {% else %}
+      <geo_locations>Washington, DC</geo_locations>
+    {% endif %}
+    </news:news>
+   </url>
+{% endfor %}
+</urlset>

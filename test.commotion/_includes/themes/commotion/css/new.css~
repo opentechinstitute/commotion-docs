@@ -1,0 +1,88 @@
+html {
+    
+}
+
+body {
+    background: #ffffff;
+}
+
+.wrapper {
+    width: 100%
+    margin: 0;
+    padding: 0;
+}
+
+/* Color bar */
+.colorbar {
+    height: 20px;
+    margin: 0;
+    width: 100%;
+    clear: both;
+}
+.color0 {
+    background-color: #FE739B;
+    float: left;
+    width: 5%;
+}
+.color1 {
+    background-color: #00FFCF;
+    float: left;
+    width: 43.5%;
+}
+.color2 {
+    background-color: #C7BA38;
+    float: left;
+    width: 3%;
+}
+.color3 {
+    background-color: #E8FF00;
+    float: left;
+    width: 43.5%;
+}
+.color4 {
+    width: 5%;
+    float: left;
+    background-color: #877AED;
+}
+
+/* Arrow divider */
+
+img .arrow {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 38px;
+    height: 27px;
+    padding-bottom: 15px;
+    clear: both;
+}
+
+/* CONTENT CONTAINER */
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.sidebar {
+    width: 30%;
+    min-width: 220px;
+    max-width: 350px;
+}
+
+.post {
+    width: 69%;
+    
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+}
+
+footer ul .menu {
+    display: inline;
+    width: 50%;
+    min-width: 220px;
+}
+
+

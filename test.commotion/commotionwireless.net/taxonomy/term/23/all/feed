@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/taxonomy/term/23/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>chat</title>
+    <link>http://commotionwireless.net/taxonomy/term/23/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Serval Mesh Extender Field Trial on the National Mall</title>
+    <link>http://commotionwireless.net/blog/serval-mesh-extender-field-trial-national-mall</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;On an uncharacteristically chilly May morning, members of the Commotion and Serval projects set out for the National Mall in Washington, DC to test Serval&#039;s latest piece of hardware: the Mesh Extender. &lt;a href=&quot;http://commotionwireless.net&quot;&gt;Commotion Wireless&lt;/a&gt; is an open-source toolkit of software, documentation, and training materials that strengthens communities by allowing them to build their own local communication infrastructure.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Jun 2013 19:49:23 +0000</pubDate>
+ <dc:creator>OTI</dc:creator>
+ <guid isPermaLink="false">132 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Updating a Commotion package</title>
+    <link>http://commotionwireless.net/blog/updating-commotion-package</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In our previous blog post, we walked through the process of creating an OpenWRT package to provide a ws-routing server. We&#039;ve since continued development on this, and would like to share our process for updating the OpenWRT package after making bugfixes. We&#039;d also like to introduce the commotion-chat package that puts the ws-routing server to use.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 01 Nov 2012 17:00:41 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">101 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Step-by-step: creating and installing a package for Commotion</title>
+    <link>http://commotionwireless.net/blog/step-step-creating-and-installing-package-commotion</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Here at The Work Department, we&#039;ve been busy cooking up systems to experiment with applications that utilize node-to-node mesh connections and are eager to share them with you. In particular, some of the example applications that we proposed in our Exploring &quot;Meshaging&quot; post have been taking form. We want to offer you the tools to experiment with what is possible given the unique architecture of a mesh network.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 08 Oct 2012 19:05:07 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">97 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Diving deeper into &quot;meshaging&quot;</title>
+    <link>http://commotionwireless.net/blog/diving-deeper-meshaging</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In our recent blog post about messaging, we introduced our “meshaging” (basic chat) application and explained some of the plans for our future work with it. We are still working on this project and have diagrammed how exactly communication happens in the application. This has improved our internal process and we think it&#039;s beneficial to share.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 08 Oct 2012 18:36:44 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">95 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

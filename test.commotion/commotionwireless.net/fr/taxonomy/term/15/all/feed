@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/15/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>UX</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/15/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>Diving deeper into &quot;meshaging&quot;</title>
+    <link>http://commotionwireless.net/fr/blog/diving-deeper-meshaging</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In our recent blog post about messaging, we introduced our “meshaging” (basic chat) application and explained some of the plans for our future work with it. We are still working on this project and have diagrammed how exactly communication happens in the application. This has improved our internal process and we think it&#039;s beneficial to share.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 08 Oct 2012 18:36:44 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">95 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>An audit of current Commotion user interfaces</title>
+    <link>http://commotionwireless.net/fr/blog/audit-current-commotion-user-interfaces</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;With the goal of creating both an intuitive and accessible user experience (UX) across a sampling of devices that will run Commotion, we surveyed and analyzed the current state of the existing interfaces. We deployed a test network using the three software components currently in development phases: Commotion on an Ubiquiti Picostation (router), The Guardian Project’s OLSR Mesh Tether on an Android handset (phone) and Commotion on Linux (laptop). In anticipation of The Serval Project’s forthcoming work around meshing mobile devices with Commotion, we also researched the current release of Serval Mesh. We documented each step with screenshots, &lt;a href=&quot;http://www.flickr.com/photos/24639042@N07/collections/72157629382917618/&quot; target=&quot;blank&quot;&gt;which are compiled here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After the initial audit, we compared and contrasted each workflow, documenting any issues that arose during the process and were then able to make recommendations on how to improve each of the interfaces and workflows and make them consistent across platforms.&lt;/p&gt;
+
+&lt;p&gt;Our process was unique in that our auditors represented a range of skill levels and backgrounds. We seek to represent this diversity when creating user interfaces that are intended for a broad range of users. For example, Auditor 1 is a self-taught web developer with advanced skills in networks and mesh networks specifically. Auditor 2 is a designer with intermediate knowledge of networks and some experience setting up networks. Auditor 3 is a designer with basic network skills and very little experience setting up a network. We feel that these varied levels of experience with networking are important. The advanced user can help guide the process for successful installation and the inexperienced users can communicate what is helpful while illuminating confusing aspects of the process.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 09 May 2012 17:49:42 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">57 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

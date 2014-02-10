@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/48/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>visualization</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/48/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>Commotion Development Progress Visualized</title>
+    <link>http://commotionwireless.net/fr/blog/commotion-development-progress-visualized</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;One challenge of working on a software project is showing a non-developer the vibrancy of the code base. Since Commotion is being developed on multiple platforms and through a variety of interacting packages on each platform, we can&#039;t even point at a specific code repository or downloadable to show what work has taken place. We recently became aware of &lt;a href=&quot;https://code.google.com/p/gource/&quot;&gt;Gource&lt;/a&gt;, a open-source project that aims to make this possible. As described on Gource&#039;s website, &quot;Software projects are displayed by Gource as an animated tree with the root directory of the project at its center. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.&quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;281&quot; mozallowfullscreen=&quot;&quot; src=&quot;//player.vimeo.com/video/70121378&quot; webkitallowfullscreen=&quot;&quot; width=&quot;500&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 11 Jul 2013 15:56:47 +0000</pubDate>
+ <dc:creator>s2e</dc:creator>
+ <guid isPermaLink="false">7163 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion Travels to India for first International Workshop</title>
+    <link>http://commotionwireless.net/fr/blog/commotion-travels-india-first-international-workshop</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG&quot; style=&quot;width:300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Open Technology Institute traveled to Dharamshala, India the first week of June for the first international Commotion Wireless workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 01 Jul 2013 15:55:25 +0000</pubDate>
+ <dc:creator>gerety</dc:creator>
+ <guid isPermaLink="false">7162 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

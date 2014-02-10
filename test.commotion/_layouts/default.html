@@ -1,3 +1,6 @@
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+---
+theme :
+  name : twitter
+---
+{% include JB/setup %}
+{% include themes/twitter/default.html %}
