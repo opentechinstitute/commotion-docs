@@ -1,0 +1,765 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/node/9514" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment" />
+<meta content="Gather Tools and Wireless Equipment" about="/docs/cck/building-mounting/gather-tools-and-wireless-equipment" property="dc:title" />
+  <title>Gather Tools and Wireless Equipment | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_AtPANxj-0bhjPWUpF0EAkDn5UJko0suh-VcJLd70tHQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wey93epziQE2Jnmna51Dh9kIBOgCwV4S7LHj0bETYq8.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kb","theme_token":"eqBi30K9E3Vf7qPkuobVk3LWDWJRcenOaYs7oAtiiMk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/commo_ck.js":1,"0":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/commo_ck.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-9514 node-type-commo-ck-page i18n-en context-docs">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/about">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/about/press">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started active-trail  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434 active-trail  even "><a href="/docs/cck" class="active-trail">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/node/9514" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-mCOh7k0NauThfAJtIZh6z9b64LuAN3SOtmRM7MypgTc" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class='boxes-box-content'><hr /><h1 id='page-title' class=page_title'>Commotion Construction Kit</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Gather Tools and Wireless Equipment</h1>
+    </div>                    <section class="block block-menu-block block-12 block-menu-block-12 odd" id="block-menu-block-12">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Building + Mounting</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-2608 menu-level-1">
+  <ul class="menu"><li class="first leaf active-trail active menu-mlid-2609"><a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment" class="active-trail active">Gather Tools and Equipment</a></li>
+<li class="leaf menu-mlid-2610"><a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a></li>
+<li class="leaf menu-mlid-2611"><a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a></li>
+<li class="last leaf menu-mlid-2612"><a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-system block-main block-system-main even block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/docs/cck/building-mounting/gather-tools-and-wireless-equipment" typeof="sioc:Item foaf:Document" class="node node-commo-ck-page node-published node-not-promoted node-not-sticky author-critzo odd clearfix" id="node-commo-ck-page-9514">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <style type="text/css">@media print {
+    #region-branding {
+        display: none !important;
+    }
+    #block-menu-block-12 {
+        display: none !important;
+    }
+}
+</style>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__375 img__view_mode__media_original attr__format__media_original" height="330" src="https://commotionwireless.net/sites/commotionwireless.net/files/gather_tools_and_equipment_support_001.png" typeof="foaf:Image" width="510" /></p>
+
+<h1>Gather Tools and Wireless Equipment</h1>
+
+<section id="section-introduction">
+<h2>Introduction</h2>
+
+<p>In this document you will find a list of suggested tools and equipment for wireless installations. It includes many common hand and power tools that you or someone you know may already have, so do not feel that you have to go and purchase all of these! Some items are also listed as optional — these may make some installations easier, but are not required. There is also a list of some wireless routers and mounting kits, but you should pick one based on the specific installation you are performing.</p>
+
+<p>How to use this document: Read through the material and determine if you need to go purchase any tools, hardware or equipment. This should take less than an hour. Finding some of the items may take some more time. We have included specific part numbers for some harder-to-find items, but keep in mind items are occasionally discontinued or renumbered.</p>
+
+<p>This document should be considered a companion to Prep and Install Rooftop Nodes, Learn about Rooftop Mounts, and Learn Rooftop Basics There are many references in those documents to tools and equipment in this module.</p>
+
+<p><strong>Time required: less than 1 hour.</strong></p>
+</section>
+
+<section id="section-tool-bag">
+<h2>Tool Bag</h2>
+
+<p>Everything below is recommended for your tool bag, but items with an asterisk* are optional — you may not need them for your specific installation.</p>
+
+<p>All prices are listed in US Dollars (USD).</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Item</th>
+			<th>&nbsp;</th>
+			<th>Detail</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="100" src="https://commotionwireless.net/sites/commotionwireless.net/files/tool_bag.png" typeof="foaf:Image" width="100" /></td>
+			<td>Tool Bag</td>
+			<td>Any 18” tool bag should be large enough</td>
+			<td>$45</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__691 img__view_mode__media_original attr__format__media_original" height="84" src="https://commotionwireless.net/sites/commotionwireless.net/files/first_aid_kit.png" typeof="foaf:Image" width="100" /></td>
+			<td>First Aid Kit</td>
+			<td>Any compact, portable first aid kit</td>
+			<td>$30</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__426 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/RJ45_crimper.png" typeof="foaf:Image" width="100" /></td>
+			<td>RJ-45 Crimper</td>
+			<td>EZ-RJPRO HD from Platinum Tools</td>
+			<td>$70</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/screwdriver_6_in_1.png" style="width: 100px; height: 60px;" typeof="foaf:Image" /></td>
+			<td>6-in-1 Screwdriver</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__294 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/box_wrench_8_inch.png" typeof="foaf:Image" width="100" /></td>
+			<td>8” Adjustible Box wrench</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__431 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/utility_knife.png" typeof="foaf:Image" width="100" /></td>
+			<td>Utility knife (box cutter)</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__296 img__view_mode__media_original attr__format__media_original" height="85" src="https://commotionwireless.net/sites/commotionwireless.net/files/edge_cutters.png" typeof="foaf:Image" width="100" /></td>
+			<td>Edge cutters</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__297 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/measuring_tape.png" typeof="foaf:Image" width="100" /></td>
+			<td>Measuring tape</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__298 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/glasses_eye_protection.png" typeof="foaf:Image" width="100" /></td>
+			<td>Eye protection glasses</td>
+			<td>&nbsp;</td>
+			<td>$5</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__299 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/ear_plugs.png" typeof="foaf:Image" width="100" /></td>
+			<td>Ear plugs</td>
+			<td>&nbsp;</td>
+			<td>$5</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__300 img__view_mode__media_original attr__format__media_original" height="55" src="https://commotionwireless.net/sites/commotionwireless.net/files/flashlight.png" typeof="foaf:Image" width="100" /></td>
+			<td>Flashlight or headlamp</td>
+			<td>&nbsp;</td>
+			<td>$15</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__301 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/cable_stripper.png" typeof="foaf:Image" width="100" /></td>
+			<td>Cable stripper*</td>
+			<td>CAT5 cable jacket stripper, part # 15015</td>
+			<td>$14</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__690 img__view_mode__media_original attr__format__media_original" height="71" src="https://commotionwireless.net/sites/commotionwireless.net/files/pliers_side_cutting_box_1.png" typeof="foaf:Image" width="100" /></td>
+			<td>8” Side-cutting box pliers*</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/pliers_needle_nose.png" typeof="foaf:Image" width="100" /></td>
+			<td>8” Needle-nose<br />
+			pliers*</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__692 img__view_mode__media_original attr__format__media_original" height="70" src="https://commotionwireless.net/sites/commotionwireless.net/files/level_magnetic.png" typeof="foaf:Image" width="100" /></td>
+			<td>Small magnetic level*</td>
+			<td>&nbsp;</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__305 img__view_mode__media_original attr__format__media_original" height="80" src="https://commotionwireless.net/sites/commotionwireless.net/files/staple_gun.png" typeof="foaf:Image" width="100" /></td>
+			<td>Cable tacker<br />
+			staple gun*</td>
+			<td>Arrow Fastener T59 Wiring Tacker</td>
+			<td>$40</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" rowspan="1">Subtotal for hand tools:</td>
+			<td>$329</td>
+		</tr>
+	</tfoot>
+</table>
+</section>
+
+<section id="section-drilling-tools">
+<h2>Drilling Tools</h2>
+
+<p>Often cables must be run through masonry or brick walls, and mounting hardware must be installed on outdoor masonry walls.<strong> Items with an asterisk* are optional</strong>.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Item</th>
+			<th>&nbsp;</th>
+			<th>Detail</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__307 img__view_mode__media_original attr__format__media_original" height="80" src="https://commotionwireless.net/sites/commotionwireless.net/files/drill_hammer_corded.png" typeof="foaf:Image" width="100" /></td>
+			<td>Hammer drill (corded)</td>
+			<td>Less expensive option - standard corded drill</td>
+			<td>$70</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src="https://commotionwireless.net/sites/commotionwireless.net/files/drill_bits_masonry.png" typeof="foaf:Image" width="100" /></td>
+			<td>Masonry drill bits</td>
+			<td>For concrete, brick or stone (Note: not SDS bits)</td>
+			<td>$20</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__309 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/drill_bits_regular.png" typeof="foaf:Image" width="100" /></td>
+			<td>Regular drill bits</td>
+			<td>Any set of wood / metal drill bits are fine</td>
+			<td>$15</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__310 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/driver_bits_heavy_duty.png" typeof="foaf:Image" width="100" /></td>
+			<td>Heavy-duty driver bits</td>
+			<td>Standard flathead and Phillips driver bits</td>
+			<td>$5</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__311 img__view_mode__media_original attr__format__media_original" height="80" src="https://commotionwireless.net/sites/commotionwireless.net/files/drill_hammer_cordless.png" typeof="foaf:Image" width="100" /></td>
+			<td>Hammer drill (cordless)*</td>
+			<td>More expensive - 18V cordless or equiv.</td>
+			<td>$200</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src="https://commotionwireless.net/sites/commotionwireless.net/files/drill_bits_masonry.png" typeof="foaf:Image" width="100" /></td>
+			<td>12” or longer masonry bit*</td>
+			<td>½” bit for thick walls - rated for concrete, brick or stone (Note: not SDS bits)</td>
+			<td>$10</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" rowspan="1">Subtotal for drilling tools:</td>
+			<td>$320</td>
+		</tr>
+	</tfoot>
+</table>
+</section>
+
+<section id="section-consumables">
+<h2>Consumables</h2>
+
+<p>These items are used to attach or fasten equipment or cabling in place. You will use them up as time goes on, and will need to purchase more.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Item</th>
+			<th>&nbsp;</th>
+			<th>Detail</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__318 img__view_mode__media_original attr__format__media_original" height="70" src="https://commotionwireless.net/sites/commotionwireless.net/files/screws_masonry.png" typeof="foaf:Image" width="100" /></td>
+			<td>Masonry screws</td>
+			<td>Box of 75 for $21. Note that you will drop and lose many screws</td>
+			<td>$0.30</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__319 img__view_mode__media_original attr__format__media_original" height="70" src="https://commotionwireless.net/sites/commotionwireless.net/files/clamps_hose.png" typeof="foaf:Image" width="100" /></td>
+			<td>2” Hose clamps</td>
+			<td>To attach router to mast</td>
+			<td>$5</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__320 img__view_mode__media_original attr__format__media_original" height="70" src="https://commotionwireless.net/sites/commotionwireless.net/files/zip_ties.png" typeof="foaf:Image" width="100" /></td>
+			<td>Zip ties</td>
+			<td>Set of 6” and 12” UV-rated ties</td>
+			<td>$25</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__321 img__view_mode__media_original attr__format__media_original" height="62" src="https://commotionwireless.net/sites/commotionwireless.net/files/staples_cable_tacker.png" typeof="foaf:Image" width="100" /></td>
+			<td>Cable tacker staples</td>
+			<td>Arrow Fastener 591189 - 5/16” insulated staples</td>
+			<td>$8</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" rowspan="1">Subtotal for consumables:</td>
+			<td>$50</td>
+		</tr>
+	</tfoot>
+</table>
+
+<p><strong>Total for Hand and Drilling Tools: $675</strong></p>
+</section>
+
+<section id="section-wireless-equipment">
+<h2>Wireless Equipment</h2>
+
+<p>The section below details different types of wireless equipment and the mounting hardware you can use to attach it to the roof of a building. The diagram below shows how all the various elements go together, but for determining what equipment and mounts are best for a specific home or building, please see <a class="module">Determine Installation Needs</a>, <a class="module">Learn about Rooftop Mounts</a>, and <a class="module">Learn Rooftop Basics</a>.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__376 img__view_mode__media_original attr__format__media_original" height="454" src="https://commotionwireless.net/sites/commotionwireless.net/files/wireless_node.png" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>1. WIRELESS NODE</strong></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__377 img__view_mode__media_original attr__format__media_original" height="454" src="https://commotionwireless.net/sites/commotionwireless.net/files/roof_mount.png" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>2. ROOF MOUNT.</strong> For specific hardware, consult the <a class="module">Learn about Rooftop Mounts</a> module.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__378 img__view_mode__media_original attr__format__media_original" height="370" src="https://commotionwireless.net/sites/commotionwireless.net/files/ethernet_cable.png" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>3. ETHERNET CABLE.</strong> Spool of 1000 feet is around $150. A single install may use only 50-100 feet of a spool.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__379 img__view_mode__media_original attr__format__media_original" height="333" src="https://commotionwireless.net/sites/commotionwireless.net/files/poe.png" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>4. POE (POWER OVER ETHERNET).</strong> Comes with wireless node.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__380 img__view_mode__media_original attr__format__media_original" height="300" src="https://commotionwireless.net/sites/commotionwireless.net/files/indoor_router.png" typeof="foaf:Image" width="510" /></p>
+
+<p><strong>5. INDOOR ROUTER</strong> (Optional) This item is provided by the community member.</p>
+
+<p>For a standard installation, select one of the Ubiquiti routers per site. Add an indoor router to extend coverage inside the building. Estimate the number of feet of cabling to connect the routers to each other and the Ubiquiti router to the power source, with two RJ-45 ends per cable (plus some extra, just in case).</p>
+
+<p class="tip">There are two possible ways to connect this router to the Internet:<br />
+<br />
+If the Commotion node is plugged in to the router's LAN (inside network) port, and there is a modem or connection to the Internet plugged in to the WAN port, an Internet connection will be provided to the neighborhood mesh.<br />
+<br />
+If the Commotion node is plugged in to the router's WAN (Internet) port, the connection to the Internet will be provided by the neighborhood mesh. This requires your neighbors to be donating one or more connections to the mesh. If there is no connection to the Internet, you can use the network as a local "Intranet" or local network.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Item</th>
+			<th>&nbsp;</th>
+			<th>Detail</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_short_range_omnidirectional.png" style="width: 100px; height: 90px;" typeof="foaf:Image" /></td>
+			<td>Short range, omnidirectional router</td>
+			<td>Ubiquiti PicoStation</td>
+			<td>$45</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="120" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_medium_range_directional.png" typeof="foaf:Image" width="100" /></td>
+			<td>Medium range, directional router</td>
+			<td>Ubiquiti NanoStation</td>
+			<td>$30</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="100" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_long_range_high_power_antenna.png" typeof="foaf:Image" width="100" /></td>
+			<td>Long range, high power router with antenna options</td>
+			<td>Ubiquiti Rocket + Antenna</td>
+			<td>$70</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="100" src="https://commotionwireless.net/sites/commotionwireless.net/files/RJ45_ends.png" typeof="foaf:Image" width="100" /></td>
+			<td>RJ-45 Ends</td>
+			<td>CAT5/5e 100-piece jar, $60,<br />
+			part # 202003J</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="72" src="https://commotionwireless.net/sites/commotionwireless.net/files/ethernet_cable_spool.png" typeof="foaf:Image" width="100" /></td>
+			<td>Spool of Ethernet cable</td>
+			<td>Outdoor CAT5e, Ubiquiti TC-PRO, (spool of 1000 feet)</td>
+			<td>$65</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="80" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_basic_indoor.png" typeof="foaf:Image" width="100" /></td>
+			<td>Basic indoor router</td>
+			<td>Linksys WRT54GL</td>
+			<td>$50</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" rowspan="1">Subtotal, per building:</td>
+			<td>$80-$140</td>
+		</tr>
+	</tfoot>
+</table>
+</section>
+
+<section id="section-mounting-hardware">
+<h2>Mounting Hardware</h2>
+
+<p>Typically you will need one mast, two hose clamps, and one mounting kit per building that has exterior equipment. For more information on specific types of mounts, please see <a href="/construction/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Item</th>
+			<th>&nbsp;</th>
+			<th>Detail</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__331 img__view_mode__media_original attr__format__media_original" height="90" src="https://commotionwireless.net/sites/commotionwireless.net/files/steel_mast.png" typeof="foaf:Image" width="100" /></td>
+			<td>5’ steel mast</td>
+			<td>Radio Shack - Antennacraft 5’ 18-gauge mast</td>
+			<td>$14</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" height="130" src="https://commotionwireless.net/sites/commotionwireless.net/files/chimney_mount_kit.png" typeof="foaf:Image" width="100" /></td>
+			<td>Chimney mount kit</td>
+			<td>Winegard CM-2012 kit (Wraps around chimney.)</td>
+			<td>$25</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__333 img__view_mode__media_original attr__format__media_original" height="80" src="https://commotionwireless.net/sites/commotionwireless.net/files/wall_mount_kit.png" typeof="foaf:Image" width="100" /></td>
+			<td>Wall mount kit</td>
+			<td>Channel Master CM-9034 (Requires drilling holes and using masonry screws.)</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__334 img__view_mode__media_original attr__format__media_original" height="63" src="https://commotionwireless.net/sites/commotionwireless.net/files/eaves_mounting_kit.png" typeof="foaf:Image" width="100" /></td>
+			<td>Eaves mounting kit</td>
+			<td>Winegard SW-0012 (For the edge of a roof.)</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__335 img__view_mode__media_original attr__format__media_original" height="120" src="https://commotionwireless.net/sites/commotionwireless.net/files/non_penatrating_mount.png" typeof="foaf:Image" width="100" /></td>
+			<td>Non-penetrating mount</td>
+			<td>VMP FRM-125 (For flat roofs.)</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__336 img__view_mode__media_original attr__format__media_original" height="35" src="https://commotionwireless.net/sites/commotionwireless.net/files/rubber_mat.png" typeof="foaf:Image" width="100" /></td>
+			<td>Rubber mat</td>
+			<td>NPRMAT8 (To protect roofs under non-penetrating mount.)</td>
+			<td>$10</td>
+		</tr>
+		<tr>
+			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__337 img__view_mode__media_original attr__format__media_original" height="60" src="https://commotionwireless.net/sites/commotionwireless.net/files/cinder_block.png" typeof="foaf:Image" width="100" /></td>
+			<td>Cinder blocks</td>
+			<td>Required as ballast for non-penetrating mount.</td>
+			<td>$10</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" rowspan="1">Subtotal, per building:</td>
+			<td>$30-$120</td>
+		</tr>
+	</tfoot>
+</table>
+</section>
+
+<section id="section-definitions">
+<h2>Definitions</h2>
+
+<dl>
+	<dt>PoE</dt>
+	<dd>Power over Ethernet. Systems which pass electrical power along with data on Ethernet cabling.</dd>
+	<dt>LAN</dt>
+	<dd>Local Area Network. In this case, a computer network covering a small local area, such as a home or office with Ethernet cables or wireless signals.</dd>
+	<dt>WAN</dt>
+	<dd>Wide Area Network. In this case, this signifies the connection to the global Internet.</dd>
+</dl>
+</section>
+
+<section class="related-information" id="section-related-information">
+<h2>Related Information</h2>
+
+<p>To calculate the cost of your installation, use this spreadsheet: "Gather Tools and Equipment Spreadsheet." You can either print the spreadsheet out or use it on your computer.</p>
+
+<p>This module should be considered a companion to <a class="module">Prep and Install Rooftop Nodes</a>, <a class="module">Learn about Rooftop Mounts</a>, and <a class="module">Learn Rooftop Basics</a>.</p>
+</section>
+ </div></div></div><a class="commo_ck-download-pdf-link" href="http://commotionwireless.net/sites/commotionwireless.net/files/gather_tools_and_wireless_equipment_CCK_0.pdf"><div>Download PDF</div></a>
+<a class="commo_ck-send-feedback" href="https://commotionwireless.net/contact"><div>Send us feedback</div></a>
+  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first active"><a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment" class="language-link active" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last"><a href="/fr/node/9514" class="language-link" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-10 block-menu-block-10 even" id="block-menu-block-10">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Get Help</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-10 menu-name-main-menu parent-mlid-2089 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2887"><a href="/docs/get-started">Get Started</a></li>
+<li class="leaf menu-mlid-2888"><a href="/docs/get-involved">Get Involved</a></li>
+<li class="leaf menu-mlid-2068"><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="expanded active-trail menu-mlid-2577"><a href="/docs/cck" class="active-trail">Commotion Construction Kit</a><ul class="menu"><li class="first collapsed menu-mlid-2600"><a href="/docs/cck/planning">Planning</a></li>
+<li class="collapsed menu-mlid-2605"><a href="/docs/cck/installing-configuring">Installing + Configuring</a></li>
+<li class="expanded active-trail menu-mlid-2608"><a href="/docs/cck/building-mounting" class="active-trail">Building + Mounting</a><ul class="menu"><li class="first leaf active-trail active menu-mlid-2609"><a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment" class="active-trail active-trail active">Gather Tools and Equipment</a></li>
+<li class="leaf menu-mlid-2610"><a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a></li>
+<li class="leaf menu-mlid-2611"><a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a></li>
+<li class="last leaf menu-mlid-2612"><a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a></li>
+</ul></li>
+<li class="last collapsed menu-mlid-2752"><a href="/docs/cck/networking">Networking</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2328"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-cck-download-all block-boxes-cck-download-all odd block-without-title" id="block-boxes-cck-download-all">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-cck_download_all' class='boxes-box'><div class="boxes-box-content"><p><a href="http://commotionwireless.net/sites/commotionwireless.net/files/cck-1.0.zip" style="color: #FFF; text-transform:uppercase;"><img src="/sites/commotionwireless.net/files/CCK_allpdf.png" /><br /><span style="text-align:center; font-weight: bold; background: #000; display: block; padding: .2em;">Download all</span></a></p>
+</div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/node/9514" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-4VKAk23qXJz0ltHqybIWo66hrf_5bfQG0KuQ7y_H5WY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/about/press" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-dda9288220f0b995d7e68ea719cbad26">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/blog/commotion-team-participates-dc-internet-freedom-hack-day">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/blog/commotion-r1-breaking-changes">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/blog/commotion-router-v1-release-notes">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/blog/building-mesh-network-rural-somaliland">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

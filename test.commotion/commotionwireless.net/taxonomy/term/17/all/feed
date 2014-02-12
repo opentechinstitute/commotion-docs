@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/taxonomy/term/17/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>recommendations</title>
+    <link>http://commotionwireless.net/taxonomy/term/17/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Commotion Travels to India for first International Workshop</title>
+    <link>http://commotionwireless.net/blog/commotion-travels-india-first-international-workshop</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;img src=&quot;http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG&quot; style=&quot;width:300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Open Technology Institute traveled to Dharamshala, India the first week of June for the first international Commotion Wireless workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 01 Jul 2013 15:55:25 +0000</pubDate>
+ <dc:creator>gerety</dc:creator>
+ <guid isPermaLink="false">7162 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Building successful online community for open-source development</title>
+    <link>http://commotionwireless.net/blog/building-successful-online-community-open-source-development</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;In order to help build the most effective Commotion online community, we’ve conducted basic research to gain an understanding of infrastructures that other software development communities use. We focused on open-source projects that are used widely. We found that, while a variety of communication strategies, governance structures, and social cultures exist, there are some shared elements that appear to make a community strong and effective.&lt;/p&gt;
+
+&lt;p&gt;In our full report to the Open Technology Initiative, we reviewed Drupal, Mozilla, Android, and Ubuntu Linux. In this post, we include a simplified comparison of those communities and share the conclusions we drew from our research.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 30 May 2012 18:45:32 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">55 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>User interface prototype: what Commotion software could look like</title>
+    <link>http://commotionwireless.net/blog/user-interface-prototype-what-commotion-software-could-look</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;As part of our work to support the Commotion development process, we’ve created a user interface prototype to spark more community conversation. This is a starting point – not a final product. It’s a compilation of some of our ideas around creating the most effective and accessible Commotion experience, based on our neighborhood deployment and research with users and developers. We’d like to get your feedback on the ideas presented below. Your input will drive our next phase, in which we will draft Human Interface Guidelines for Commotion. Take a look and submit your comments at the end of this post!&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 09 May 2012 20:15:05 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">56 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Neighborhood network builders: a summary</title>
+    <link>http://commotionwireless.net/blog/neighborhood-network-builders-summary</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;As part of our research for the Commotion Human Interface Guidelines, we interviewed four people who have been involved in building community wireless networks around Detroit (see earlier blog posts for excerpts). Based on these interviews and our experience working with various users, we recommend that Commotion developers and organizers implement the following concepts:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building successful software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our interviews confirmed that users expect long-term reliability, speed, and ease of use when using wireless devices. The Commotion user interface should:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Walk a user through the setup process.&lt;/li&gt;
+  &lt;li&gt;Work well across platforms, browsers, and devices.&lt;/li&gt;
+  &lt;li&gt;Be as fast as using a non-mesh WiFi access point.&lt;/li&gt;
+  &lt;li&gt;Help users understand mesh network security.&lt;/li&gt;
+  &lt;li&gt;Allow for easy monitoring of network status in terms that users can understand.&lt;/li&gt;
+  &lt;li&gt;Offer troubleshooting suggestions when a network does not work correctly.&lt;/li&gt;
+&lt;/ol&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 08 May 2012 19:51:27 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">58 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/node/56" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/blog/user-interface-prototype-what-commotion-software-could-look" />
+<meta content="User interface prototype: what Commotion software could look like" about="/blog/user-interface-prototype-what-commotion-software-could-look" property="dc:title" />
+  <title>User interface prototype: what Commotion software could look like | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_dF2OCmj2oSrnU2TeMN0EsDKlMnjoUgf1wXs5askr4Sk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_9Z3M12eYgeq5c7xt_NjpvLbD7wKJ-0PZsI4mchZBSJA.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kb","theme_token":"8MWUz-LkVWHUmwuhyTcXV1JFWpqNC14SWTyKkBzNopk","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-56 node-type-blog-post i18n-en context-blog">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/about">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/about/press">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434  even "><a href="/docs/cck">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/blog/user-interface-prototype-what-commotion-software-could-look" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-6CdXuEXvsk9IosJWq3dBTpqWKo2XcSl0elYSjzP8iuQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class="boxes-box-content"><hr />
+<h1 id="page-title" class="page_title">
+User interface prototype: what Commotion software could look like</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">User interface prototype: what Commotion software could look like</h1>
+    </div>                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="ds-1col node node-blog-post view-mode-full clearfix ">
+
+  
+  <div class="field field-name-field-media field-type-file field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/files/styles/large/public/browserscreen_0.png?itok=2rPKGsqK" width="480" height="480" alt="" /></div></div></div><div class="field field-name-date-author field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">May 9, 2012 - The Work Department</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <div class="field-content"><p>As part of our work to support the Commotion development process, we&rsquo;ve created a user interface prototype to spark more community conversation. This is a starting point &ndash; not a final product. It&rsquo;s a compilation of some of our ideas around creating the most effective and accessible Commotion experience, based on our neighborhood deployment and research with users and developers. We&rsquo;d like to get your feedback on the ideas presented below. Your input will drive our next phase, in which we will draft Human Interface Guidelines for Commotion. Take a look and submit your comments at the end of this post!</p><p><strong>Design Overview</strong></p><p>These prototypes utilize the graphic elements from the Commotion brand identity with the goal of creating an accessible, functional, clear and trustworthy graphic user interface (UI) for OpenWRT and OLSRd. The design is responsive and meets the needs of both a desktop and a mobile user. The graphic aesthetic is flexible and accommodating for as many users as possible through the use of large typography, white space and action icons. The workflow is streamlined to meet the needs of a beginner whose goal is to either set up a new mesh network or join an existing mesh network. This process is intended to facilitate the base configuration without cluttering the interface with developer or administrator functionality. However, the proposed interface also includes direct pathways to advanced functions and does not prohibit a beginning user from learning more. Overall, we wish to create a basic humanistic setup without deterring a beginner from experimenting with the deeper configuration or withholding necessary technical vernacular.</p><p>From a selection of our initial local user interviews, we confirmed that users expect long-term reliability, speed, and ease of use when using wireless devices. The Commotion user interface should:</p><ol><li>Walk a user through the setup process</li><li>Work well across platforms, browsers, and devices</li><li>Allow for easy monitoring of network status in terms that users can understand</li><li>Help users understand mesh network security</li><li>Offer troubleshooting suggestions when a network does not work correctly</li><li>Be as fast as using a non-mesh WiFi access point</li></ol><p>At this stage, the following prototypes address points 1-3 listed above.</p><p><strong>Common Language</strong></p><p>A successful UI running on multiple devices must share appropriate, accessible and common language. Our Commotion UI mockups demonstrate an initial core set of terms in the context of the interface design. These ideas are intended to act as conversational prompts. A broader lexicon will be designed and compiled through the Commotion project team. We hope this lexicon can evolve over time as the Commotion community contributes through the forthcoming knowledgebase. It is also worthwhile to consider leveraging existing terms and resources, such as those found at <a href="http://wirelessafrica.meraka.org.za/wiki/index.php/DIY_Mesh_Guide" target="blank">http://wirelessafrica.meraka.org.za/wiki/index.php/DIY_Mesh_Guide</a> and <a href="http://en.wikibooks.org/wiki/Wireless_Mesh_Networks" target="blank">http://en.wikibooks.org/wiki/Wireless_Mesh_Networks</a>.</p><p>The common language is based around the following four themes (examples listed below core concepts):</p><p><strong>General Project Descriptions</strong></p><ul><li>Commotion</li><li>Mesh Network</li></ul><p><strong>States</strong></p><ul><li>Link</li><li>Looking for Networks</li></ul><p><strong>Actions</strong></p><ul><li>Join a Mesh Network</li><li>Create a Mesh Network</li></ul><p><strong>Technical Terms</strong></p><ul><li>Mesh Network Name (SSID)</li><li>Node Name</li><li>Network Channel</li><li>Access Point</li><li>Client</li><li>OLSR</li><li>IP<span id="cke_bm_219E" style="display: none;">&nbsp;</span></li></ul><p>Commotion&rsquo;s user base will be diverse. Therefore, we recommend implementing a blend of technical and non-technical terms through the use of inline documentation. The initial UI configuration is geared toward a beginning user -- someone who has no experience and requires an interface that is clear, direct and accessible. The first tier of inline documentation falls within the core form fields, directly below the element. The second tier of inline documentation takes the form of a tooltip. Whether on a mobile or a desktop device, the user can click or hover over question mark icons next to elements requiring deeper documentation than what would fit into the first tier of inline documentation.</p><p><a href="http://www.flickr.com/photos/24639042@N07/7129538047/in/set-72157629570342842/" target="blank"><img border="1" src="http://farm8.staticflickr.com/7206/7129538047_556f76f0e1.jpg" /></a></p><p><a href="http://www.flickr.com/photos/24639042@N07/6983030326/" target="blank"><img border="1" src="http://farm9.staticflickr.com/8027/6983030326_ca41a8c494.jpg" /></a></p><p>These mockups also explore more dynamic, friendly and action-oriented language on the UI buttons. In our UI audit, we found most of the language reflected staid commands and passive requests for actions, like:</p><ul><li>I Agree</li><li>Cancel</li><li>Accept/Decline</li><li>Start</li></ul><p>We propose to investigate engaging language that is encouraging, informative and humanistic, like the following examples:</p><ul><li>Link Up</li><li>Create New Network</li><li>Connecting</li><li>Apply Changes</li><li>Ok, I understand</li></ul><p>Additionally, key user actions are often led by explanatory messages to introduce the process or step. An example of this can be found below where the user reads a friendly detection message &ldquo;It looks like there is a mesh network you can join! Choose a network from the list below:&rdquo; This language includes the use of &ldquo;you&rdquo; which is personable and allows the user to identify with the behaviors and get a clear understanding of what is happening.</p><p><a href="http://www.flickr.com/photos/24639042@N07/7129115115/" target="blank"><img alt="05dreamUI_join" border="1" height="500" src="http://farm8.staticflickr.com/7253/7129115115_412fbe508c.jpg" width="299" /></a></p><p><strong>Workflow Hierarchy</strong></p><p>These prototypes outline a clear workflow hierarchy that makes it clear that there are three essential elements required to configure a mesh network once a router has been flashed -- naming the Node, choosing a Mesh Network Name (SSID), and choosing a Network Channel. After an initial network detection animation, a user is directed to either create a new network or join an existing network. Whether a user creates a new network or joins an existing network, they see a clear validation of their actions -- a step that was missing in our <a href="/node/57" target="blank">audit of the existing interfaces</a>. <a href="http://www.flickr.com/photos/24639042@N07/7129167293/in/set-72157629570342842/lightbox/" target="blank">The workflow wireframe can be viewed here.</a></p><p><a href="http://www.flickr.com/photos/24639042@N07/6986293486/" target="blank"><img alt="01dreamUI_detection" height="446" src="http://farm8.staticflickr.com/7136/6986293486_6e0cc44825.jpg" width="500" /></a></p><p><a href="http://www.flickr.com/photos/24639042@N07/7129115165/" target="blank"><img alt="02dreamUI_create_new" height="500" src="http://farm8.staticflickr.com/7214/7129115165_7b99e89550.jpg" width="353" /></a></p><p><a href="http://www.flickr.com/photos/24639042@N07/7129115115/" target="blank"><img alt="05dreamUI_join" height="500" src="http://farm8.staticflickr.com/7253/7129115115_412fbe508c.jpg" width="299" /></a></p><p>While the basic setup is prioritized, there are persistent links (symbolized through a second tier of icons) in the footer which create pathways to Advanced User settings, the Knowledgebase for self education and About for a general project description.</p><p><strong>Connectivity and Configuration Validation</strong></p><p>A positive message and validation is essential to reassure a user&rsquo;s successful setup. We propose that unique animations are created for both network detection and network configuration.</p><p><a href="http://www.flickr.com/photos/24639042@N07/6986293486/" target="blank"><img alt="01dreamUI_detection" height="446" src="http://farm8.staticflickr.com/7136/6986293486_6e0cc44825.jpg" width="500" /></a></p><p><a href="http://www.flickr.com/photos/24639042@N07/7132377685/" target="blank"><img alt="04dreamUI_validation_animation" height="443" src="http://farm8.staticflickr.com/7224/7132377685_f117488629.jpg" width="500" /></a></p><p>Similar to a progress wheel, each unique validation would incorporate the kinetic characteristics of Commotion&rsquo;s identity. This includes the use of connecting, flexible nodes and the respective iconography. Once a the process is complete, the user will be taken to a new interface where they will observe network status and clear options of the next, necessary steps (if any).</p><p><a href="http://www.flickr.com/photos/24639042@N07/7129115239/" target="blank"><img alt="06dreamUI_validation_status" height="500" src="http://farm8.staticflickr.com/7259/7129115239_f30107318e.jpg" width="289" /></a></p><p><strong>Visual Language</strong></p><p>There are five types of visual language in our mockups:</p><ol><li>Descriptive Language</li><li>Action Language</li><li>Learning Language</li><li>Warning Language</li><li>In-progress Language</li></ol><p><strong>1. Descriptive Language</strong> <a href="http://www.flickr.com/photos/24639042@N07/6986376162/in/set-72157629570342842" target="blank">(See a sample)</a> is the content contained in the black bar often located at the top of the UI. This language explains the step in the process and creates a guiding framework. This approach to the framework blends instructional and narrative content. Descriptive language is themed in black or black text on a white background.</p><p><strong>2. Action Language</strong> <a href="http://www.flickr.com/photos/24639042@N07/6986376162/in/set-72157629570342842" target="blank">(See a sample)</a> is content that appears in pink and requires action, whether it&rsquo;s a form field or button to apply a configuration setting. Action-oriented icons should have a pink frame, as demonstrated.</p><p><strong>3. Learning Language</strong> <a href="http://www.flickr.com/photos/24639042@N07/6986376162/in/set-72157629570342842" target="blank">(See a sample)</a> is content that appears within one of the two documentation tiers -- inline above fields in grey or as a grey and purple tooltip.</p><p><strong>4. Warning Language</strong> <a href="http://www.flickr.com/photos/24639042@N07/6986376442/in/set-72157629570342842" target="blank">(See a sample)</a> is content that is very important and notes a serious change in settings, like the pop-up that appears when a user attempts to change the mesh network name or mesh network channel within an existing mesh network.</p><p><strong>5. In-progress Language</strong> <a href="http://www.flickr.com/photos/24639042@N07/7132460719/in/set-72157629570342842" target="blank">(See a sample)</a> is content that is attached to either the validation or detection process points, as demonstrated. The animation overrides the UI with a predominantly white background with a message in purple. This language only appears in two places throughout the program.</p><p>We&rsquo;ve also create a preliminary action set to match the fundamental icons. Icons associated with actions are always created in pink while learning-based icons are created in black. All iconography share a similar interior graphic language.</p><p><a href="http://www.flickr.com/photos/24639042@N07/7132653685/" target="blank"><img alt="Iconography" height="418" src="http://farm9.staticflickr.com/8022/7132653685_4055c78bd9.jpg" width="500" /></a></p><p><strong>Mobile First</strong></p><p>We designed the UI to be mobile first and responsive to browser size. Because of the diverse audience, some may only be accessing the software through a mobile device, making it important to make the UI easy-to-use on a small screen but also translating to a large screen. This is why the UI is a narrow and centered design. The tooltips on a large screen would appear to the left of the main elements, but on a small screen they would pop-up under the active elements. The responsive design would detect the user&rsquo;s screen size so that the appropriate elements would be present with no action needed from the user.</p></div><p>&nbsp;</p> </div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tags/ui" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">UI</a></div><div class="field-item odd"><a href="/tags/recommendations" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recommendations</a></div><div class="field-item even"><a href="/tags/identity" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Identity</a></div><div class="field-item odd"><a href="/tags/community-wireless" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">community wireless</a></div></div></div></div>    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first active"><a href="/blog/user-interface-prototype-what-commotion-software-could-look" class="language-link active" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last"><a href="/fr/blog/user-interface-prototype-what-commotion-software-could-look" class="language-link" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-views block-blog-tags-block block-views-blog-tags-block even" id="block-views-blog-tags-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Tags</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog-tags view-id-blog_tags view-display-id-block tags view-dom-id-22166e3d91a25e8e1dd0e383ffceaf6a">
+        
+  
+  
+      <div class="view-content">
+      <div class="tag">      <h3><a href="/tags/community-wireless">community wireless</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">10 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/mesh">mesh</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">8 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/research">Research</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">7 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/detroit">Detroit</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">6 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/red-hook">red hook</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">5 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/messaging">messaging</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">5 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/applications">applications</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">5 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/chat">chat</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/ui">UI</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/site-visits">site visits</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/digital-stewards">digital stewards</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/recommendations">recommendations</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">4 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/release">release</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">3 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/routers">routers</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">3 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/hardware">hardware</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">3 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/branding">branding</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/maintenance">maintenance</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/troubleshooting">troubleshooting</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/cost">cost</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/security">security</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/ux">UX</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/visualization">visualization</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/anonymity">anonymity</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/privacy">privacy</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/warning">warning</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/identity">Identity</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/label">label</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">2 items</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/drupal">Drupal</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/tools">tools</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/cck">CCK</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/energy">energy</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/git">git</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/amc">amc</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/gource">gource</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/olsr">OLSR</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/upgrade">upgrade</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/amp">amp</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/guest-post">Guest post</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/price">price</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/serval">serval</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/development">development</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/r1">R1</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/battlemesh">BattleMesh</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div><div class="tag">      <h3><a href="/tags/testing">Testing</a></h3>
+    <ul>          <li class="">  
+          <div class="tag-count">1 item</div>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/blog/user-interface-prototype-what-commotion-software-could-look" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Bca9bG7QTx_cvxA9v8SJgtIUEpShZSs1vTeu3sxnSVM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/about/press" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-bae7bfe199dc0ffe3712c13b4a73887c">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/blog/commotion-team-participates-dc-internet-freedom-hack-day">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/blog/commotion-r1-breaking-changes">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/blog/commotion-router-v1-release-notes">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/blog/building-mesh-network-rural-somaliland">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

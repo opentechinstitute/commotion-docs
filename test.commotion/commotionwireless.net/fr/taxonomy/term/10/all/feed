@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/10/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Identity</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/10/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>User interface prototype: what Commotion software could look like</title>
+    <link>http://commotionwireless.net/fr/blog/user-interface-prototype-what-commotion-software-could-look</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;As part of our work to support the Commotion development process, we’ve created a user interface prototype to spark more community conversation. This is a starting point – not a final product. It’s a compilation of some of our ideas around creating the most effective and accessible Commotion experience, based on our neighborhood deployment and research with users and developers. We’d like to get your feedback on the ideas presented below. Your input will drive our next phase, in which we will draft Human Interface Guidelines for Commotion. Take a look and submit your comments at the end of this post!&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 09 May 2012 20:15:05 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">56 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Integrating design and development to shape Commotion’s brand identity</title>
+    <link>http://commotionwireless.net/fr/blog/integrating-design-and-development-shape-commotion%E2%80%99s-brand-identity</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;div class=&quot;field-content&quot;&gt;&lt;p&gt;At The Work Department, we’ve had the privilege of creating Commotion’s brand identity from conception to completion. If you haven’t heard about it yet, Commotion is an open, yet secure, circumvention tool to create decentralized mesh networks. We are collaboratively developing the tool with The New America Foundation’s Open Technology Initiative.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 01 May 2012 17:53:15 +0000</pubDate>
+ <dc:creator>The Work Department</dc:creator>
+ <guid isPermaLink="false">63 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+Host: commotionwireless.net
+Sitemap: https://commotionwireless.net/sitemap.xml
+
+# Define seconds between fetching pages (good for preventing maliciousness false-positives)
+User-agent: *
+Crawl-delay: 60
+
+User-agent: *
+Disallow: /hypnotoad/
+
+# Explicitly allowing Internet Archive
+User-agent: ia_archiver
+Allow: /
+
+# disallow adsense bot - it's not useful
+User-agent: Mediapartners-Google
+Disallow: / 
+
+# Yahoo bot is evil.
+User-agent: Slurp
+Disallow: /
+Allow: /*.html
+
+# Yahoo Pipes is for feeds only, so disallow everything else.
+User-agent: Yahoo Pipes 1.0
+Disallow: /
+Allow: /atom.xml
+Allow: /rss.xml
+
+# Disallow icons for reasons
+User-agent: Googlebot-Image
+Disallow: /images/icons/*
+
+# Disallowing common annoyances
+User-agent: *Nmap*
+Disallow: /
+
+User-agent: *curl*
+Disallow: /
+
+User-agent: *wget*
+Disallow: /
+
+User-agent: Meterpreter*
+Disallow: /
+
+User-agent: *httrack*
+Disallow: /
+
+User-agent: *HTTrack*
+Disallow: /

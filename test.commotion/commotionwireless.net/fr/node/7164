@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="fr" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/fr/node/7164" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/fr/about/faq" />
+<meta content="FAQ" about="/fr/about/faq" property="dc:title" />
+  <title>FAQ | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_dF2OCmj2oSrnU2TeMN0EsDKlMnjoUgf1wXs5askr4Sk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_9Z3M12eYgeq5c7xt_NjpvLbD7wKJ-0PZsI4mchZBSJA.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"kb","theme_token":"Gj0IiqyMVzemssJPjak0tZ3YFirNUWr2iDd4mqS888U","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-7164 node-type-page i18n-fr context-about">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/fr" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 active-trail first odd "><a href="/fr/node/9">About</a><ul><li class="menu-2082 menu-path-node-7164 active-trail first odd "><a href="/fr/about/faq" class="active-trail active">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/fr/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/fr/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/fr/node/10">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/fr/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/fr/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/fr/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/fr/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/fr/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/fr/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/fr/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434  even "><a href="/fr/node/9434">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/fr/node/9092">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/fr/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/fr/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/fr/node/145" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/fr/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/fr/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/fr/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/fr/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/fr/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/fr/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/fr/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/node/7164" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-UB_iDyJhbBRmLsbDPAGcSz6yOhtE3piLwLHukFXfMh8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class="boxes-box-content"><hr />
+<h1 id="page-title" class="page_title">
+FAQ</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">FAQ</h1>
+    </div>                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/fr/about/faq" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-critzo odd clearfix" id="node-page-7164">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <h2>Questions générales</h2>
+
+<p><strong>Qu'est-ce que Commotion ?</strong><br>Commotion est une trousse de communication open source qui utilise des téléphones portables, des ordinateurs et d'autres appareils sans fil pour créer des réseaux maillés décentralisés et partager des services locaux.  </p>
+
+<p><strong>Comment Commotion fournit-elle l’accès Internet ?</strong><br>La suite logicielle Commotion ne donne pas accès à l'Internet. Au lieu de cela, elle relie des appareils locaux et fait partager la connexion Internet parmi les utilisateurs du réseau.  </p>
+
+<p><strong>Comment fonctionne Commotion ?</strong><br>Commotion est un logiciel qui crée des réseaux de communications pair à pair (maillés) parmi les téléphones portables, les smartphones, les ordinateurs dotés de la technologie Wi-Fi, les routeurs sans fil et autres appareils personnels sans fil. Commotion intègre et élargit plusieurs projets dans un kit facile à monter de manière que même des utilisateurs n'ayant que des connaissances techniques limitées puissent créer des réseaux maillés. Les composants principaux de Commotion sont: OLSRd (le protocole de routage maillé sur lequel est construite Commotion), OpenWRT (la distribution Linux embarquée employée pour installer Commotion sur des routeurs); OpenBTS (le logiciel qui rend possible le fonctionnement de GSM sur Commotion) et Serval (qui permet de sécuriser le routage et les applications distribuées et maillées).</p>
+
+<p><strong>Serait-il possible d’accéder aux services et sites web bloqués par un fournisseur d'accès à Internet  local à l'aide de ce service ?</strong><br>Ce service est neutre au type de trafic réseau qu'il fournit. Il ne bloque aucun site par défaut, mais il peut faire l'objet de restrictions en place sur une connexion Internet. Les utilisateurs qui ont un accès à Internet non-censuré peuvent partager cette connexion avec d'autres utilisateurs du réseau. Ils peuvent également échanger des informations entre eux et conserver les données jusqu'à ce qu'ils aient un accès à Internet non-censuré.</p>
+
+<p><strong>Est-ce vrai que cette technologie ne comprend que le logiciel qui permettrait de relier des modems sans fil dans les  maisons avoisinantes?</strong><br>La portée de ce projet est beaucoup plus vaste que cela. Cette technologie relierait des téléphones portables et des appareils Wi-Fi (par exemple, des smartphones, des ordinateurs portables, des routeurs domestiques, etc.), et permettrait tout appareil connecté à Internet de partager l’accès avec d'autres appareils dans le réseau. Étant donné la disponibilité du matériel spécialisé, elle peut même fournir accès aux services vocaux et SMS aux téléphones portables GSM non-modifiés.</p>
+
+<p><strong>Comment rester au courant des développements chez Commotion ?</strong><br>En plus de ce site web du projet, il y a 3 listes de diffusion selon les niveaux d’intérêt variés :</p>
+
+<ul>
+<li>
+<a href="https://lists.chambana.net/mailman/listinfo/commotion-announce">commotion-announce</a> : Liste dédiée aux communications officielles avec de brèves discussions.</li>
+	<li>
+<a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">commotion-discuss</a> : Liste pour les personnes qui veulent utiliser Commotion sans rentrer dans des discussions trop techniques.</li>
+	<li>
+<a href="https://lists.chambana.net/mailman/listinfo/commotion-dev">commotion-dev</a> : Liste pour les personnes qui veulent discuter des améliorations à apporter à Commotion. </li>
+</ul>
+<p>Vous pouvez aussi nous rejoindre sur IRC. Serveur: freenode.net. Canal: #commotion.</p>
+
+<h2>Accès et Installation</h2>
+
+<p><strong>Quel équipement faut-il pour pouvoir utiliser cette technologie ?</strong><br>Au minimum, il faut deux ou plusieurs appareils Wi-Fi, comme des ordinateurs portables, des routeurs ou des smartphones pour mettre en place un réseau autonome. De nouveaux utilisateurs peuvent se joindre à un réseau existant à l'aide d'autres appareils Wi-Fi ou des téléphones portables GSM. </p>
+
+<p><strong>Qui peut télécharger et utiliser ce logiciel ?</strong><br>Commotion est un projet open source conçu pour s’exécuter sur une vaste gamme d'appareils. L'un des buts principaux de l'équipe du projet est de garantir sa disponibilité à ceux qui en ont besoin, son bon fonctionnement sur le matériel disponible et son élargissement afin de répondre aux besoins locaux. Nous essayons de le rendre facilement accessible et distribuable.</p>
+
+<p><strong>Les utilisateurs devront-ils payer pour ce service ?</strong><br>Le logiciel sera toujours disponible gratuitement. Les réseaux eux aussi peuvent être opérés sans frais. Cependant, l’opération d'un réseau dépend en grande partie de la communauté qui le déploie. En outre, il se peut qu'il y ait des frais pour une connexion au Internet public fourni par un fournisseur local. Ces coûts devraient être pris en charge.</p>
+
+<p><strong>Est-ce possible d’acquérir les différents composants au niveau local et puis télécharger le logiciel de quelque part ?</strong><br>Bien sûr. La manière dont ce projet est conçu, il peut fonctionner avec le matériel disponible dans la plupart des endroits.</p>
+
+<p> </p>
+
+<h2>Sécurité</h2>
+
+<p><strong>Qu'en est-il de la sécurité de Commotion ?</strong><br>Les éléments de sécurité de Commotion sont en constante évolution. Pour avoir des informations à jour concernant le modèle de sécurité de Commotion et ses caractéristiques, veuillez consulter: <a href="https://commotionwireless.net/understanding-commotions-warning-label"><u>https://commotionwireless.net/understanding-commotions-warning-label</u></a><span style="background-color:transparent; color:#000000; font-family:arial; font-size:15px"> </span></p>
+
+<p><strong>Comment faire la distinction entre les faux réseaux Commotion et les réseaux maillés légitimes ?</strong><br>De nouveaux réseaux, qu'ils soient basés sur Commotion ou autrement, devraient être traités avec la confiance qu'ils méritent. Il faut que les utilisateurs ne choisissent que des réseaux auxquels ils font confiance. Si la fiabilité d'un réseau n'est pas satisfaisante, il faut utiliser le protocole HTTPS ou d'autres protocoles de cryptage de bout en bout. </p>
+
+<h2>Caractéristiques et capacités</h2>
+
+<p><strong>Quelle vitesse de connexion d'Internet fournira ce service ?</strong><br>La vitesse de connexion dépend des capacités des appareils comprenant le réseau et de la bande passante disponible. En ce moment, le logiciel de routage surpasse de loin les capacités de transmission de données sans fil. </p>
+
+<p><strong>Ce service est-il capable de soutenir un volume intense de trafic ?</strong><br>La capacité générale est dictée par le nombre, la distribution et le type d'appareils employés et, dans le cas de l’accès à Internet, par la bande passante disponible dans le réseau. Le logiciel est efficace en ce qui concerne la distribution de la charge dans l'ensemble du réseau. </p>
+
+<p><strong>Des téléphones portables Wi-Fi peuvent-ils accéder à ce service ?</strong><br>Un réseau Commotion est comme toute autre réseau Wi-Fi. Toutes sortes de dispositifs Wi-Fi peuvent se joindre à un réseau s'ils choisissent de le faire.  </p>
+
+<p><strong>Quelle est la taille maximale d'une zone qui peut être couvrir en utilisant ce service ?</strong><br>Ce genre de service peut facilement s’élargir. La façon dont Commotion est conçue, elle ne requiert pas d'installation fastidieuse ni de connaissance techniques pour opérer efficacement. Dans la plupart des régions urbaines, une population considérable est susceptible de posséder un téléphone portable ou un dispositif Wi-Fi qui sont capables d’élargir un réseau. Néanmoins, les soins et la planification sont nécessaires au fonctionnement harmonieux des réseaux suffisamment large. Combien un réseau maille peut s’élargir dépend du matériel utilise, du tracé du réseau et l'environnement physique du réseau. Bien qu'ils n'utilisent pas le logiciel Commotion, deux exemples de de grands réseaux maillés sont: Athens Wireless Metropolitan Network (AWMN) ayant plus de 1100 nœuds et plus de 2400 ordinateurs client et  Guifi.net en Espagne qui a plus de 19,000 nœuds.</p>
+
+<p><strong>Combien d'utilisateurs peuvent se connecter à un seul nœud ?</strong><br>Cela dépend de la capacité de chaque appareil, tant en termes de connexions sans fil simultanées que de bande passante consommée par chaque utilisateur. </p>
+
+<p><strong>Comment fonctionne le service téléphone de ce projet: utilise-t-il des cartes SIM, Skype ou une autre technique ?</strong><br>Le réseau interconnecte avec les smartphones Wi-Fi via Wi-Fi et avec les téléphones portables via GSM. Si les services VoIP sont disponibles que ce soit sur l'Internet ou localement, les utilisateurs peuvent faire des appels avec Skype, Jitsy or des services VoIP locaux. S'il y a un dispositif GSM doté de Commotion à proximité, les utilisateurs peuvent faire des appels sur le réseau Commotion. </p>
+
+<h2>Développement</h2>
+
+<p><strong>Avez-vous déjà évalué ce projet dans un projet pilote ou est-ce qu'il est encore au stade d'hypothèse ?</strong><br>Toutes ces technologies sont déjà utilisées dans différentes villes autour du monde. </p>
+
+<p><strong>Comment se-déroule la programmation de ce projet ?</strong>
+<br>Ce projet est structuré sous forme d'un projet classique open source. Nous sommes en train de coordonner et intégrer plusieurs projets open source actifs dans ce domaine.</p>
+
+<p><strong>Quels systèmes d'exploitation sont supportés par Commotion ?</strong><br>Le projet Commotion vise actuellement les versions raisonnablement à jour de Windows, Mac, GNU/Linux, Android, des routeurs embarqués et des plate-formes OpenBTS. De plus, tout appareil peut se connecter à un point d'accès standard fourni par le réseau en s'identifiant comme un client. Il est donc possible d'utiliser ce réseau sans exécuter le logiciel et sans en faire partie.</p>
+
+<p>Les images logicielles officiellement supportées se trouvent sur la page <a href="https://commotionwireless.net/download">Commotion Download</a>. Des renseignements concernant des plateformes en cours d'aménagement actif sont disponibles dans la section <a href="/developer/resources">For Developers</a> de ce site. </p>
+
+<h2>Technologies similaires</h2>
+
+<p><strong>En supposant que Commotion est mise en œuvre avec succès, comment les utilisateurs peuvent-ils être suivis ? S'il est impossible de localiser les utilisateurs, Commotion ne deviendra-t-elle pas un outil utile entre les mains de criminels ?</strong><br>La sécurité absolue et l'anonymat complet n'existent pas. Quand même nous essayons de rendre le réseau aussi sûr et anonyme que possible tout en informant clairement les utilisateurs sur les points forts, les points faibles et les conséquences liées a l'utilisation du réseau. Une telle technologie est un outil puissant entre les mains de tout individu et toute communauté qui l'utilise. Il n'y a pas de bon ou de mauvais logiciel et chaque logiciel est capable d’être utilisé à des fins différentes. Des activistes dans un régime oppressif pourraient être considérés comme criminels par le gouvernement auquel ils s'opposent.</p>
+
+<p><strong>Ce projet ne serait-il accessible que durant les périodes d'agitation ?</strong><br>Cette technologie n'est pas temporaire. En fait, de nombreuses composantes sont déjà utilisées partout dans le monde afin de relier les communautés.  </p>
+
+<p><strong>Quel avantage présente cette méthode par rapport à Internet par satellite ?</strong><br>Commotion est une suite d'outils conçue pour tirer parti de tout service Internet par satellite qui soit disponible et qui peut être partager avec qui que soit sur le réseau. Même si aucune connexion Internet n'est disponible, les utilisateurs du réseau peuvent avoir des communications sécurisées et de manière anonyme les uns avec les autres. En fin, le réseau est capable d'autorétablissement, permettant aux utilisateurs de joindre et quitter le réseau selon leurs besoins. </p>
+ </div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="en first last"><a href="/about/faq" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li></ul></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first"><a href="/about/faq" class="language-link" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last active"><a href="/fr/about/faq" class="language-link active" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-4 block-menu-block-4 even" id="block-menu-block-4">
+  <div class="block-inner clearfix">
+              <h2 class="block-title"><a href="/fr/node/9" class="block-title-link" title="About">About</a></h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-227 menu-level-1">
+  <ul class="menu"><li class="first leaf active-trail active menu-mlid-2082"><a href="/fr/about/faq" class="active-trail active">FAQ</a></li>
+<li class="leaf menu-mlid-2083"><a href="/fr/about/guiding-principles">Guiding Principles</a></li>
+<li class="leaf menu-mlid-1950"><a href="/fr/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="leaf menu-mlid-235"><a href="/fr/node/10">Press</a></li>
+<li class="leaf menu-mlid-237"><a href="/fr/about/license-privacy">License &amp; Privacy</a></li>
+<li class="leaf menu-mlid-236"><a href="/fr/jobs">Jobs</a></li>
+<li class="last leaf menu-mlid-714"><a href="/fr/contact">Contact</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-feedback block-boxes-feedback odd block-without-title" id="block-boxes-feedback">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-feedback' class='boxes-box'><div class="boxes-box-content"> <p><a href="/contact">Send us feedback</a></p>
+ </div></div>    </div>
+  </div>
+</div><div class="block block-boxes block-boxes-simple block-bug block-boxes-bug even block-without-title" id="block-boxes-bug">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-bug' class='boxes-box'><div class="boxes-box-content"> <p><a href="/report">Report a bug</a></p> </div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/fr/node/7164" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-vVBi_rdp_vanNUs47rjnte5TyVF-ohsGR0yM7y9dfHA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/fr/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/fr/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/fr/node/10" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/fr/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-8ed26e1890d475c9fdf1af9bf8d357d3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/fr/node/12289">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/fr/node/12255">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/fr/node/12127">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/fr/node/11243">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/fr/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

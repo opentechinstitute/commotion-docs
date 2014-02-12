@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<link rel="shortlink" href="/node/9511" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/docs/cck/installing-configuring/install-and-recover-tftp" />
+<meta content="Install and Recover with TFTP" about="/docs/cck/installing-configuring/install-and-recover-tftp" property="dc:title" />
+  <title>Install and Recover with TFTP | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_AtPANxj-0bhjPWUpF0EAkDn5UJko0suh-VcJLd70tHQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wey93epziQE2Jnmna51Dh9kIBOgCwV4S7LHj0bETYq8.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kb","theme_token":"T4ik713H8Fu4cvE2Lmk0IgER_ev9Of_S-RJ89tHJT5U","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/commo_ck.js":1,"0":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/commo_ck.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-9511 node-type-commo-ck-page i18n-en context-docs">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/about">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/about/press">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started active-trail  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434 active-trail  even "><a href="/docs/cck" class="active-trail">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/node/9511" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-1zm60bkk0p7kPaOXM28zIOl40nllXws793lPBnvdjRc" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class='boxes-box-content'><hr /><h1 id='page-title' class=page_title'>Commotion Construction Kit</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">Install and Recover with TFTP</h1>
+    </div>                    <section class="block block-menu-block block-13 block-menu-block-13 odd" id="block-menu-block-13">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Installing + Configuring</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-13 menu-name-main-menu parent-mlid-2605 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2606"><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></li>
+<li class="leaf menu-mlid-2750"><a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+<li class="leaf menu-mlid-2751"><a href="/docs/cck/installing-configuring/common-configurations" title="This document describes several common configurations for Commotion nodes other than the default.">Common Configurations</a></li>
+<li class="leaf menu-mlid-2749"><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a></li>
+<li class="last leaf active-trail active menu-mlid-2607"><a href="/docs/cck/installing-configuring/install-and-recover-tftp" class="active-trail active">Install and Recover with TFTP</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-system block-main block-system-main even block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/docs/cck/installing-configuring/install-and-recover-tftp" typeof="sioc:Item foaf:Document" class="node node-commo-ck-page node-published node-not-promoted node-not-sticky author-critzo odd clearfix" id="node-commo-ck-page-9511">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__354 img__view_mode__media_original attr__format__media_original" height="486" src="https://commotionwireless.net/sites/commotionwireless.net/files/install_with_TFTP_support003_0.png" typeof="foaf:Image" width="510" /></p>
+
+<h1>Install and Recover with TFTP</h1>
+
+<section id="section-introduction">
+<h2>Introduction</h2>
+
+<p>This document is designed to help you install the Commotion software if the Install on a Ubiquiti Device instructions did not work, or if your router has malfunctioning software and needs to be installed again or updated. It contains instructions on using a protocol called Trivial File Transfer Protocol (TFTP) to install the software.</p>
+
+<p>Start these instructions after you have prepared your computer and gathered your supplies, but before you get to installing the software. You will find instructions specific to the operating system you are running on your computer - either Windows, Mac OSX, or Linux. Please proceed to the section for your operating system below.</p>
+
+<p><strong>This process takes longer than the basic instructions. Add another half hour to an hour for the additional setup steps on these pages.</strong></p>
+
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
+
+<p>Same materials and supplies block as in the <a class="module">Install on a Ubiquiti Device</a>.</p>
+
+<h2>Setup for all platforms</h2>
+
+<p>Configure your computer's wired connection with the address 192.168.1.254.</p>
+
+<h2>Instructions for Windows</h2>
+
+<h3>GETTING STARTED</h3>
+
+<p>This guide should work with any version of Microsoft Windows from Windows XP on. If you aren't sure what version of Windows you have, click on the Start Menu and type <code>winver</code> in to the Run menu or the Search box. The most likely responses are Windows XP, Windows Vista, or Windows 7</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__284 img__view_mode__media_original attr__format__media_original" height="350" src="https://commotionwireless.net/sites/commotionwireless.net/files/install_with_TFTP_support001.png" typeof="foaf:Image" width="510" /></p>
+
+<h3>PREPARE YOUR COMPUTER FOR TFTP</h3>
+
+<p>The Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
+
+<p>1. If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</p>
+
+<p>2. Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable<br />
+plugs in.</p>
+
+<p>3. While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</p>
+
+<p>4. While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance:</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__285 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance01.png" typeof="foaf:Image" width="510" /></p>
+
+<p>1. The two middle lights, one orange and one green, will light continuously, then go out.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__286 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance02.png" typeof="foaf:Image" width="510" /></p>
+
+<p>2. The lights from left to right will light up in order: red, orange, green, and green again.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__287 img__view_mode__media_original attr__format__media_original" height="232" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance03.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__288 img__view_mode__media_original attr__format__media_original" height="232" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance04.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__289 img__view_mode__media_original attr__format__media_original" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance05.png" typeof="foaf:Image" width="510" /></p>
+
+<p>3. The 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance06.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance07.png" typeof="foaf:Image" width="510" /></p>
+
+<p>When this happens, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute passes and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__292 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance08.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Note that the recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
+
+<h3>INSTALL THE SOFTWARE ON THE ROUTER</h3>
+
+<p>You can either install the Commotion software onto your router with a graphical user interface (GUI) program for TFTP, or by using the command line. We recommend the GUI option if you are new to this process.</p>
+
+<p><strong>Using a GUI Interface</strong></p>
+
+<p>There are a few graphical user interface (GUI) programs to facilitate TFTP transfer on Windows. This guide discusses TFTP2.</p>
+
+<p><strong>TFTP2</strong></p>
+
+<p>TFTP2 is a very simple TFTP client that includes only the settings necessary to install the software. You can download TFTP2 from our developer site and install the program.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__293 img__view_mode__media_original attr__format__media_original" height="411" src="https://commotionwireless.net/sites/commotionwireless.net/files/TFTP2_1_0.png" typeof="foaf:Image" width="510" /></p>
+
+<ol>
+	<li>Enter 192.168.1.20, the router’s IP address, in the “Server” field.</li>
+	<li>Leave the “Password” field blank</li>
+	<li>Open the file broswer, navigate to where you downloaded the Commotion software file, and select it.</li>
+	<li>Put the router in TFTP mode as described above, and immediately after, click “Upgrade.”</li>
+	<li>If your router is ready and the IP addresses are properly configured, a blue progress bar will appear. When it is finished, you will see this screen (ignore the “Retry” line).</li>
+</ol>
+
+<p>Once you have installed TFTP2, make sure your computer's IP address is set correctly as discussed above in <a class="module">Install on a Ubiquiti Device. Then, prepare your router and open TFTP2.</a></p>
+
+<h3>USING THE COMMAND LINE</h3>
+
+<p><strong>Windows XP</strong></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__294 img__view_mode__media_original attr__format__media_original" height="206" src="https://commotionwireless.net/sites/commotionwireless.net/files/WinXP-Run-CMD_0.png" typeof="foaf:Image" width="510" /></p>
+
+<p>This version of Windows has a TFTP client built-in. You will just need to browse to your Command Prompt by clicking the Start Menu, selecting Run, and typing <code>cmd</code>.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__295 img__view_mode__media_original attr__format__media_original" height="298" src="https://commotionwireless.net/sites/commotionwireless.net/files/16-XP_command_prompt_0.png" typeof="foaf:Image" width="510" /></p>
+
+<p>You should get a window titled <code>&quot;C:\WINDOWS\system32\cmd.exe&quot;</code>, or similar.</p>
+
+<p>This program will give you a text interface to your Windows system, where we can execute the TFTP program. It should look something like:</p>
+
+<p><code>C:\Documents and Settings\your user name&gt;</code></p>
+
+<p>First, we need to navigate to the folder where you saved the Commotion image file.</p>
+
+<p>To do that, type in: <code>
+  cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
+
+<p>This may look something like <strong>cd Desktop</strong> or <strong>cd Downloads</strong> - or something else. If you aren't sure, you can use the Windows Explorer file browser to find the file, and then click in the top address bar. The full directory path should appear. You can then type this in to the Command Prompt after the <code>cd command</code>.</p>
+
+<p><once address="" all="" an="" and="" are="" can="" client.="" command="" file="" go.="" have="" image="" in="" ip="" it="" name="" of="" one="" option="" p="" proper="" run="" set="" tftp="" the="" to="" type="" you=""> </once></p>
+
+<p>It should look something like this: <code>  C:\your\path\tftp -i 192.168.1.20 put exact-name-of-file.bin</code></p>
+
+<p><strong>The command breaks down in to these parts:</strong></p>
+
+<p><code>tftp</code><br />
+The name of the actual program we are running</p>
+
+<p><code>-i</code><br />
+Sets this to binary mode, which is required since we are sending a file and not text.</p>
+
+<p><code>192.168.1.20</code><br />
+The address of the router we are working on.</p>
+
+<p><code>put</code><br />
+The command to the TFTP program to send a file from the PC to the device.</p>
+
+<p><code>exact-name-of-file.bin</code><br />
+The Commotion image for our hardware, as mentioned in the document <a class="module">Install on a Ubiquiti Device</a></p>
+
+<p>Once you have executed that command, there should be some text or a progress indicator that lets you know if the file transferred to the device correctly. If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then head back to the Install on a Ubiquiti Device document and finish installing Commotion.</p>
+
+<p><strong>Windows Vista and Windows 7</strong></p>
+
+<p>These versions of Windows don't come with a TFTP client by default, but it can be installed fairly easily in the "Add Windows components" menu. In order to find this menu:</p>
+
+<p>Click the Start Menu, then Control Panel.</p>
+
+<p>In the window that opens, select the "Programs" option.</p>
+
+<p>There should be an option to "Turn Windows features on or off", select this.</p>
+
+<p>A "Windows Features" menu should appear - scroll until you see the "TFTP Client" option, then select it and hit Ok or Apply.</p>
+
+<p>The TFTP client should install.</p>
+
+<p>From here, you can use the Windows XP instructions above, since everything should work identically once the client is installed.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__296 img__view_mode__media_original attr__format__media_original" height="270" src="https://commotionwireless.net/sites/commotionwireless.net/files/install_with_TFTP_support002.png" typeof="foaf:Image" width="510" /></p>
+</section>
+
+<section id="instructions-for-mac-osx">
+<h2>Instructions for Mac OSX</h2>
+
+<p>This guide should work with any version of Mac OSX.</p>
+
+<h3>PREPARE YOUR COMPUTER FOR TFTP</h3>
+
+<p>The Ubiquiti device is listening for a TFTP connection on a specific address. For your computer to connect, it will need an IP address with the following settings:</p>
+
+<p>Static IP address: <code>192.168.1.254</code><br />
+Subnet mask: <code>255.255.255.0</code><br />
+Gateway: <code>192.168.1.1</code></p>
+
+<p>If you need help assigning a static IP address for your Mac computer, check out this guide.</p>
+
+<p>There is a command line or a graphical user interface (GUI) option to install the Commotion software onto your router. Both methods are discussed in detail below, but we recommend following the GUI method. You can download the GUI program MacTFTP Client and install it on your computer. You can download the program from <a href="http://mactechnologies.com" target="_blank">mactechnologies.com</a>.</p>
+
+<h3>PREPARE THE ROUTER FOR RECOVERY MODE</h3>
+
+<p>The Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
+
+<p>1. If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</p>
+
+<p>2. Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</p>
+
+<p>3. While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</p>
+
+<p>4. While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance:</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__284 img__view_mode__media_original attr__format__media_original" height="350" src="https://commotionwireless.net/sites/commotionwireless.net/files/install_with_TFTP_support001.png" typeof="foaf:Image" width="510" /></p>
+
+<p>1. The two middle lights, one orange and one green, will light continuously, then go out.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__286 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance02.png" typeof="foaf:Image" width="510" /></p>
+
+<p>2. The lights from left to right will light up in order: red, orange, green, and green again.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__287 img__view_mode__media_original attr__format__media_original" height="232" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance03.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__288 img__view_mode__media_original attr__format__media_original" height="232" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance04.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__289 img__view_mode__media_original attr__format__media_original" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance05.png" typeof="foaf:Image" width="510" /></p>
+
+<p>3. The 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance06.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance07.png" typeof="foaf:Image" width="510" /></p>
+
+<p>When this happens, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute passes and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__292 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance08.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Note that the recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
+
+<h3>INSTALL THE SOFTWARE ON THE ROUTER</h3>
+
+<p>You can either install the Commotion software onto your router using a graphical user interface (GUI) program for TFTP, or using the command line. We recommend the GUI option if you are new to this process.</p>
+
+<p><strong>Using a GUI Interface</strong></p>
+
+<p>This guide discusses a client called MacTFTP Client by MacTechnologies Consulting.</p>
+
+<p><strong>MacTFTP Client (GUI)</strong></p>
+
+<p>The MacTFTP Client includes only the settings necessary to install the software on a device. You can download it from mactechnologies.com and install the program.</p>
+
+<p>Once you have installed MacTFTP Client, make sure your computer's IP address is set correctly as mentioned above in Prepare your Computer for TFTP. Then prepare your router and open the MacTFTP Client.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__297 img__view_mode__media_original attr__format__media_original" height="336" src="https://commotionwireless.net/sites/commotionwireless.net/files/MacTFTP_1_0.png" typeof="foaf:Image" width="510" /></p>
+
+<ol>
+	<li>Make sure the “Send” button is highlighted.</li>
+	<li>Enter 192.168.1.20, the router’s IP address, in the “Address” field.</li>
+	<li>Leave the “Password” field blank.</li>
+	<li>Open the file broswer, navigate to where you downloaded the Commotion image, and select it. Put the router in TFTP mode, and immediately after.</li>
+	<li>Click “Start”</li>
+</ol>
+
+<p>If your router is ready in TFTP mode and the IP addresses are properly configured, a blue progress bar will appear. When it is finished, you will see this screen.</p>
+
+<h3>USING THE COMMAND LINE</h3>
+
+<p>All versions of Macintosh OSX should have a TFTP client installed. It is accessible from the Terminal program, which is a text-based interface to the OSX system. You can find this program by navigating from the Applications folder to the Utilities folder.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__298 img__view_mode__media_original attr__format__media_original" height="314" src="https://commotionwireless.net/sites/commotionwireless.net/files/OSX_screengrab_2_0.png" typeof="foaf:Image" width="510" /></p>
+
+<p>From there, launch the program titled "Terminal", it should open a command line interface titled "Terminal - bash", or something similar.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__300 img__view_mode__media_original attr__format__media_original" height="314" src="https://commotionwireless.net/sites/commotionwireless.net/files/OSX_screengrab_3_1.png" typeof="foaf:Image" width="510" /></p>
+
+<p>The window may look different, depending on the version of OSX you are using. You should see a prompt that looks something like:</p>
+
+<p><code>computername:~ username$</code></p>
+
+<p>First, we need to navigate to the folder where you saved the Commotion image file. To do that, type <code>cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
+
+<p>This may look something like <strong>cd Desktop</strong> or <strong>cd Downloads</strong> - or something else. If you aren't sure, you can use the Finder to browse to the file, and then hit <code>command I</code>. The "Get Info" dialog should appear, where you can find the full path under the General tab, labeled "Where:". You can then type this in to the Terminal after the <code>cd command</code>. To verify the files are in your current directory, you can type ls, which should display a listing of files.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__301 img__view_mode__media_original attr__format__media_original" height="314" src="https://commotionwireless.net/sites/commotionwireless.net/files/OSX_screengrab_4-1.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Once you are in the proper directory, you can run the TFTP client. To do this, just type <code>tftp</code> at the prompt and hit enter. Your command line should change to the following:</p>
+
+<p><code>tftp&gt;</code></p>
+
+<p>From here, enter these commands in sequence:</p>
+
+<p><code>connect 192.168.1.20</code>- Instructs the client to talk to the router.</p>
+
+<p><code>verbose</code>- Instructs the client to provide more detailed reports on what it is doing.</p>
+
+<p><code>binary</code>- Since we are transferring a file, and not text, this is required.</p>
+
+<p><code>put exact-name-of-file.bin</code></p>
+
+<p>You should see some numbers flash by, then a line that states something like "<code>Sent ### bytes in ##.# seconds [### bits per second]</code>". You can then type quit at the prompt, and your terminal will change back to the normal mode.</p>
+
+<p>If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then head back to <a class="module">Install on a Ubiquiti Device</a>.</p>
+</section>
+
+<section id="instructions-for-linux">
+<h2>Instructions for Linux</h2>
+
+<p>Depending on your distribution of Linux, you may or may not not have a TFTP client installed by default. You can check this at the terminal, and if it turns out you do not TFTP installed, it will be possible to install a client at the terminal, then use it.</p>
+
+<p>First, open the Terminal application:</p>
+
+<p>If you use Gnome as your window manager, you should be able to find a terminal program in the main menu, under Accessories &gt; Terminal.</p>
+
+<p>If you use KDE as your window manager, you should be able to access the terminal program in the KMenu, under System &gt; Konsole.</p>
+
+<p>If you use another window manager, chances are you know how to access the terminal already.</p>
+
+<p>If you aren't sure, or don't have a window manager, just go to a terminal by pressing ALT, CTRL and the number 1 or 2. This should bring up a full screen terminal. You will most likely have to log in using whatever credentials you first set up on the computer.</p>
+
+<p>From here, you will see a prompt similar to: <code>  computername:~ $</code></p>
+
+<p>Type <code>which tftp </code> at this prompt and hit enter. This will return one of two things: the location of the tftp program if you have it installed, or it will return an error.</p>
+
+<p>If you have a tftp client, the output should look like: <code>
+  /usr/bin/tftp</code></p>
+
+<p>If you don't have one, the output will look something like: <code>
+  which: no tftp in (/path...</code></p>
+
+<p>If you have a TFTP client installed, you can skip down a few steps. If you don't have one, you will need to install a client before moving on. How you install this is dependent on which distribution of Linux you are using. We will detail the commands to type for the few most common distributions below. The commands are shown at the normal prompt we started from above. You will need to know the administrator (root) password you set up when the system was first installed.</p>
+
+<p>Ubuntu:<br />
+<code> $ sudo aptitude install tftp</code></p>
+
+<p>Debian:<br />
+<code> $ sudo apt-get install tftp</code></p>
+
+<p>Arch:<br />
+<code> $ sudo pacman -Ss tftp-hpa</code></p>
+
+<p>Fedora:<br />
+<code> $ sudo rpm -i tftp</code></p>
+
+<p>Since we can't cover every distribution of Linux, if you aren't sure how to install the TFTP client package on your computer, use Google!</p>
+
+<p>After typing in the correct command for your distribution, you should see a confirmation on the screen that your package was installed. To verify, you can type <code>which tftp</code> at the prompt again. If you receive a single path response, as show above, you should be good to go.</p>
+
+<h3>PREPARE YOUR COMPUTER FOR TFTP</h3>
+
+<p>The Ubiquiti device is listening for a TFTP connection from only a single source, or computer with a specific address. You will need to set the IP address of your computer with the following settings:</p>
+
+<p>Static IP address: <code>192.168.1.254</code><br />
+Subnet mask: <code>255.255.255.0</code><br />
+Gateway: <code>192.168.1.1</code></p>
+
+<p>If you need help assigning a static IP address for your Linux computer, check out this guide.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__284 img__view_mode__media_original attr__format__media_original" height="350" src="https://commotionwireless.net/sites/commotionwireless.net/files/install_with_TFTP_support001.png" typeof="foaf:Image" width="510" /></p>
+
+<h3>PREPARE THE ROUTER FOR RECOVERY MODE</h3>
+
+<p>The Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
+
+<p>1. If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</p>
+
+<p>2. Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</p>
+
+<p>3. While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</p>
+
+<p>4. While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance:</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__285 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance01.png" typeof="foaf:Image" width="510" /></p>
+
+<p>1. The two middle lights, one orange and one green, will light continuously, then go out.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__286 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance02.png" typeof="foaf:Image" width="510" /></p>
+
+<p>2. The lights from left to right will light up in order: red, orange, green, and green again.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__287 img__view_mode__media_original attr__format__media_original" height="232" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance03.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__288 img__view_mode__media_original attr__format__media_original" height="232" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance04.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__289 img__view_mode__media_original attr__format__media_original" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance05.png" typeof="foaf:Image" width="510" /></p>
+
+<p>3. The 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" height="237" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance06.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance07.png" typeof="foaf:Image" width="510" /></p>
+
+<p>When this happens, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute passes and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
+
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__292 img__view_mode__media_original attr__format__media_original" height="235" src="https://commotionwireless.net/sites/commotionwireless.net/files/router_dance08.png" typeof="foaf:Image" width="510" /></p>
+
+<p>Note that the recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
+
+<h3>INSTALL THE SOFTWARE ON THE ROUTER</h3>
+
+<p>Now we need to navigate to the folder where you saved the Commotion image file, as mentioned in the document <a class="module">Install on a Ubiquiti Device</a>.</p>
+
+<p>To do that, type in: <code>
+  cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
+
+<p>This may look something like <strong>cd ~/Desktop</strong> or <strong>cd ~/Downloads</strong> - or something else. If you aren't sure, you can use Nautilus in Gnome to browse to the file, and hit Control-L. This should display the path to the directory you are viewing. Using Konqueror in KDE, browse to the file, and then read the path in the top statusbar.</p>
+
+<p>Once you are in the proper directory, you can run the TFTP client. To do this, just type <code>tftp</code> at the prompt and hit enter. Some cilents will ask you (to), at which point you put in the IP address 192.168.1.20. Your command line should change to the following:<br />
+<code>tftp&gt;</code></p>
+
+<p>From here, enter these commands in sequence:</p>
+
+<p><code>connect 192.168.1.20  </code>- If you didn't put it in at the (to) prompt. Instructs the client to talk to the router.</p>
+
+<p><code>verbose </code>- Instructs the client to provide more detailed reports on what it is doing.</p>
+
+<p><code>binary</code>- Since we are transferring a file, and not text, this is required.</p>
+
+<p><code>put exact-name-of-file.bin</code>- The Commotion image for the hardware, as mentioned in the document "Installing Commotion on Wireless Nodes".</p>
+
+<p>You should see some numbers flash by, then a line that states something like "<code>Sent ### bytes in ##.# seconds [### bits per second]</code>". You can then type quit at the prompt, and your terminal will change back to the normal mode.</p>
+
+<p>If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then head back to Install on a Ubiquiti Device and finish installing Commotion.</p>
+</section>
+
+<section id="section-definitions">
+<h2>Definitions</h2>
+
+<dl>
+	<dt>TFTP</dt>
+	<dd>a file transfer protocol notable for its simplicity. It is generally used for automated transfer of configuration or boot files between machines in a local environment.</dd>
+	<dt>Firmware</dt>
+	<dd>the combination of persistent memory and program code and data stored in it. In other words, a very small and basic operating system for devices like appliances, computers, digital watches, digital cameras, mobile phones, and more.</dd>
+</dl>
+</section>
+
+<section class="related-information" id="section-related-information">
+<h2>Related Information</h2>
+
+<p class="related-information">This module is a companion document to <a class="module" href="https://commotionwireless.net/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Device</a>. It should be consulted for an overview of the process!</p>
+</section>
+
+<section class="external-resources" id="section-external-resources">
+<h2>External Resources</h2>
+
+<p class="external-resources">For Graphical User Interfaces (GUIs) to help with the TFTP process:</p>
+
+<p class="external-resources">Windows: <a href="https://code.commotionwireless.net/attachments/download/272/tftp2.exe" target="_blank">https://code.commotionwireless.net/attachments/download/272/tftp2.exe</a></p>
+
+<p class="external-resources">Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">http://www.mactechnologies.com/index.php?page=downloads#tftpclient</a></p>
+</section>
+ </div></div></div><a class="commo_ck-download-pdf-link" href="http://commotionwireless.net/sites/commotionwireless.net/files/5-Install%20and%20Recover%20with%20TFTP%20%7C%20Commotion.pdf"><div>Download PDF</div></a>
+<a class="commo_ck-send-feedback" href="https://commotionwireless.net/contact"><div>Send us feedback</div></a>
+  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first active"><a href="/docs/cck/installing-configuring/install-and-recover-tftp" class="language-link active" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last"><a href="/fr/node/9511" class="language-link" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div><section class="block block-menu-block block-10 block-menu-block-10 even" id="block-menu-block-10">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Get Help</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-10 menu-name-main-menu parent-mlid-2089 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2887"><a href="/docs/get-started">Get Started</a></li>
+<li class="leaf menu-mlid-2888"><a href="/docs/get-involved">Get Involved</a></li>
+<li class="leaf menu-mlid-2068"><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="expanded active-trail menu-mlid-2577"><a href="/docs/cck" class="active-trail">Commotion Construction Kit</a><ul class="menu"><li class="first collapsed menu-mlid-2600"><a href="/docs/cck/planning">Planning</a></li>
+<li class="expanded active-trail menu-mlid-2605"><a href="/docs/cck/installing-configuring" class="active-trail">Installing + Configuring</a><ul class="menu"><li class="first leaf menu-mlid-2606"><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></li>
+<li class="leaf menu-mlid-2750"><a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+<li class="leaf menu-mlid-2751"><a href="/docs/cck/installing-configuring/common-configurations" title="This document describes several common configurations for Commotion nodes other than the default.">Common Configurations</a></li>
+<li class="leaf menu-mlid-2749"><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a></li>
+<li class="last leaf active-trail active menu-mlid-2607"><a href="/docs/cck/installing-configuring/install-and-recover-tftp" class="active-trail active-trail active">Install and Recover with TFTP</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-2608"><a href="/docs/cck/building-mounting">Building + Mounting</a></li>
+<li class="last collapsed menu-mlid-2752"><a href="/docs/cck/networking">Networking</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-2328"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-boxes block-boxes-simple block-cck-download-all block-boxes-cck-download-all odd block-without-title" id="block-boxes-cck-download-all">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-cck_download_all' class='boxes-box'><div class="boxes-box-content"><p><a href="http://commotionwireless.net/sites/commotionwireless.net/files/cck-1.0.zip" style="color: #FFF; text-transform:uppercase;"><img src="/sites/commotionwireless.net/files/CCK_allpdf.png" /><br /><span style="text-align:center; font-weight: bold; background: #000; display: block; padding: .2em;">Download all</span></a></p>
+</div></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/node/9511" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-FF7NNb1udlNTpfFNjkcUa5LEWYWFgH_jp3Cz-GrI1o0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/about/press" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-e0603fe30d91166a7a54029d051134cb">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/blog/commotion-team-participates-dc-internet-freedom-hack-day">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/blog/commotion-r1-breaking-changes">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/blog/commotion-router-v1-release-notes">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/blog/building-mesh-network-rural-somaliland">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

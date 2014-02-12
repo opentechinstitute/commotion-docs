@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://commotionwireless.net/fr/taxonomy/term/49/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>release</title>
+    <link>http://commotionwireless.net/fr/taxonomy/term/49/all</link>
+    <description></description>
+    <language>fr</language>
+          <item>
+    <title>Commotion Router v1 Release Notes</title>
+    <link>http://commotionwireless.net/fr/node/12127</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;These are the release notes for Commotion Router v1 &quot;Grumpy Cat&quot;, &lt;strong&gt;&lt;a href=&quot;/download/routers&quot;&gt;available for download now&lt;/a&gt;&lt;/strong&gt;. This is the first full version of the &lt;a href=&quot;http://openwrt.org&quot;&gt;OpenWRT&lt;/a&gt;-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 31 Dec 2013 00:19:40 +0000</pubDate>
+ <dc:creator>jking</dc:creator>
+ <guid isPermaLink="false">12127 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion DR2 Release Notes</title>
+    <link>http://commotionwireless.net/fr/blog/commotion-dr2-release-notes</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Developer Release 2 is the latest stable release of the Commotion platform. It features a focus on improved features around network management, including initial compatibility with external visualization tools and internationalization support.&lt;/p&gt;
+
+&lt;h2&gt;What is a Commotion release?&lt;/h2&gt;
+
+&lt;p&gt;Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 19 Sep 2013 15:48:55 +0000</pubDate>
+ <dc:creator>jking</dc:creator>
+ <guid isPermaLink="false">9417 at http://commotionwireless.net</guid>
+  </item>
+  <item>
+    <title>Commotion DR1 Stable Release Notes (DR1.1)</title>
+    <link>http://commotionwireless.net/fr/blog/commotion-dr1-stable-release-notes-dr11</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.&lt;/p&gt;
+
+&lt;h2&gt;What is a Commotion release?&lt;/h2&gt;
+
+&lt;p&gt;Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Jun 2013 19:41:51 +0000</pubDate>
+ <dc:creator>andrew</dc:creator>
+ <guid isPermaLink="false">131 at http://commotionwireless.net</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link ref="image_src" href="https://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link rel="shortcut icon" href="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_fav.png" type="image/png" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>All Recent Activity | Commotion</title>  
+  <link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_aD1kqV4BlGC6cRVpLGhSYi6EYiC_dBbkFqae0jIaMhs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_EA0c-9oQ9tMYdcSH9be7Pn0_HwWyuyrRdTmEU_yrgjg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_LUdfiOKXg5gYFv-o0cNzW3n82vQXGmgAv3ftcmEluDY.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_TQrjnN_neafftylSNJapOIzfNCwp6FnBbdVSLxTRMDs.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://commotionwireless.net/sites/commotionwireless.net/files/css/css_9r43JCkWNEPcH6idrIjJmnch2zoze5p4FtUqP7fBbAc.css" media="all" />
+<!--<![endif]-->
+  <script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_5CNdhEuPKxrzGfv7uYSGV-TPNYl8NZAGPwMtrUxk_x4.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_9Z3M12eYgeq5c7xt_NjpvLbD7wKJ-0PZsI4mchZBSJA.js"></script>
+<script type="text/javascript" src="http://commotionwireless.net/sites/commotionwireless.net/files/js/js_wl59wJzaqHEALSLf_Op-dfhYPQDiRxPPjVnTy8Jx_-g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kb","theme_token":"2fnsMu_b7hpruDLxT6CQ64eQb57Mge9vPnA-zipCu_Q","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/www.google.com\/jsapi":1,"sites\/commotionwireless.net\/themes\/kb\/js\/jquery.timeago.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/commotionwireless.net\/themes\/kb\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/commotionwireless.net\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/commotionwireless.net\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/commotionwireless.net\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views\/css\/views.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/commotionwireless.net\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/commotionwireless.net\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/commotionwireless.net\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/commotionwireless.net\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/commotionwireless.net\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/commotionwireless.net\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"modules\/locale\/locale.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/commotionwireless.net\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/fonts.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/global.css":1,"sites\/commotionwireless.net\/themes\/kb\/css\/supersimple.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"ie::normal::sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"narrow::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-narrow.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default.css":1,"normal::sites\/commotionwireless.net\/themes\/kb\/css\/kb-alpha-default-normal.css":1,"sites\/commotionwireless.net\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"nice_menus_options":{"delay":"800","speed":"slow"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-recent-activity i18n-en context-recent-activity">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-12 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-boxes block-boxes-simple block-top-colors block-boxes-top-colors odd block-without-title" id="block-boxes-top-colors">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-top_colors' class='boxes-box'><div class="boxes-box-content"> <div class="navbar-inners">
+        <div class="color0"></div>
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div> </div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-3 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title=""><img src="http://commotionwireless.net/sites/commotionwireless.net/files/commotion_kbabout_measure-03_0_0.png" alt="" id="logo" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-227 menuparent  menu-path-node-9 first odd "><a href="/about">About</a><ul><li class="menu-2082 menu-path-node-7164 first odd "><a href="/about/faq">FAQ</a></li>
+<li class="menu-2083 menu-path-node-7165  even "><a href="/about/guiding-principles">Guiding Principles</a></li>
+<li class="menu-1950 menu-path-node-146  odd "><a href="/about/where-its-used">Where It&#039;s Used</a></li>
+<li class="menu-235 menu-path-node-10  even "><a href="/about/press">Press</a></li>
+<li class="menu-237 menu-path-node-12  odd "><a href="/about/license-privacy">License &amp; Privacy</a></li>
+<li class="menu-236 menu-path-node-11  even "><a href="/jobs">Jobs</a></li>
+<li class="menu-714 menu-path-node-76  odd last"><a href="/contact">Contact</a></li>
+</ul></li>
+<li class="menu-240 menu-path-blog  even "><a href="/blog" title="">Blog</a></li>
+<li class="menu-2089 menuparent  menu-path-scommotionwirelessnet-docs-get-started  odd "><a href="https://commotionwireless.net/docs/get-started" title="">Get Help</a><ul><li class="menu-2887 menu-path-node-11145 first odd "><a href="/docs/get-started">Get Started</a></li>
+<li class="menu-2888 menu-path-node-11146  even "><a href="/docs/get-involved">Get Involved</a></li>
+<li class="menu-2068 menu-path-node-4698  odd "><a href="/docs/supported-devices">Supported Devices</a></li>
+<li class="menu-2577  menu-path-node-9434  even "><a href="/docs/cck">Commotion Construction Kit</a></li>
+<li class="menu-2328 menu-path-node-9092  odd last"><a href="/docs/localization">Commotion Localization</a></li>
+</ul></li>
+<li class="menu-1654 menuparent  menu-path-node-100  even "><a href="/download" title="Download Commotion">Download</a><ul><li class="menu-2065 menu-path-node-147 first odd "><a href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+<li class="menu-2066 menu-path-node-145  even "><a href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+<li class="menu-2081 menu-path-node-3525  odd "><a href="/download/computers">Computers</a></li>
+<li class="menu-2067 menu-path-node-144  even "><a href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<li class="menu-2064 menu-path-node-134  odd last"><a href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+</ul></li>
+<li class="menu-1926 menuparent  menu-path-node-138  odd last"><a href="/developer/resources">For Developers</a><ul><li class="menu-1927 menu-path-node-138 first odd "><a href="/developer/resources" title="">Developer Resources</a></li>
+<li class="menu-1928 menu-path-node-11  even "><a href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+<li class="menu-1929 menu-path-swikicommotionwirelessnet  odd "><a href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+<li class="menu-1930 menu-path-sgithubcom-organizations-opentechinstitute-dashboard-issues-reposdirectiondescstateopen  even "><a href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+<li class="menu-1931 menu-path-sgithubcom-opentechinstitute  odd "><a href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+<li class="menu-663  menu-path-node-1  even last"><a href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+</ul></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/recent-activity?page=29" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-4bWo1vtulGg7WQTxM_HOJXpgLdcwArXYBveCAGFtUL8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-boxes block-boxes-simple block-page-title block-boxes-page-title odd block-without-title" id="block-boxes-page-title">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id='boxes-box-page_title' class='boxes-box'><div class="boxes-box-content"><hr />
+<h1 id="page-title" class="page_title">
+All Recent Activity</h1></div></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            <div class="element-invisible">    <h1 class="title" id="page-title">All Recent Activity</h1>
+    </div>                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-activity-feed view-id-activity_feed view-display-id-page_1 view-dom-id-61da7fdbae1ef2eb23e4197991f7bdd2">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/olsrd/pull/16#issuecomment-31117387">dismantl commented on pull request opentechinstitute/olsrd#16</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>dismantl </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-23T07:49:27-05:00">Monday, December 23, 2013 - 07:49</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/olsrd/pull/16#issuecomment-31114273">dismantl commented on pull request opentechinstitute/olsrd#16</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>dismantl </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-23T06:23:05-05:00">Monday, December 23, 2013 - 06:23</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/olsrd/pull/16">hawkinswnaf opened pull request opentechinstitute/olsrd#16</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>hawkinswnaf </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T23:49:10-05:00">Sunday, December 22, 2013 - 23:49</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/47#issuecomment-31099402">elationfoundation commented on issue opentechinstitute/luci-commotion-apps#47</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T19:00:36-05:00">Sunday, December 22, 2013 - 19:00</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/47#issuecomment-31099128">areynold commented on issue opentechinstitute/luci-commotion-apps#47</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>areynold </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T18:45:41-05:00">Sunday, December 22, 2013 - 18:45</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-theme-commotion/issues/9#issuecomment-31097761">critzo commented on issue opentechinstitute/luci-theme-commotion#9</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T17:31:37-05:00">Sunday, December 22, 2013 - 17:31</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-theme-commotion/issues/10#issuecomment-31097680">critzo commented on issue opentechinstitute/luci-theme-commotion#10</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T17:28:39-05:00">Sunday, December 22, 2013 - 17:28</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-theme-commotion/pull/12">critzo opened pull request opentechinstitute/luci-theme-commotion#12</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T17:28:14-05:00">Sunday, December 22, 2013 - 17:28</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-theme-commotion/compare/usability-issue10">critzo created branch usability-issue10  at opentechinstitute/luci-theme-commotion</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T17:26:10-05:00">Sunday, December 22, 2013 - 17:26</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/47#issuecomment-31097237">elationfoundation commented on issue opentechinstitute/luci-commotion-apps#47</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T17:08:39-05:00">Sunday, December 22, 2013 - 17:08</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/compare/8172fafe36...e4a76d4bda">elationfoundation pushed to usability at opentechinstitute/luci-commotion-apps</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T17:07:21-05:00">Sunday, December 22, 2013 - 17:07</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-theme-commotion/issues/11#issuecomment-31097049">critzo commented on issue opentechinstitute/luci-theme-commotion#11</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T16:59:58-05:00">Sunday, December 22, 2013 - 16:59</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/pull/48">critzo opened pull request opentechinstitute/luci-commotion-apps#48</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T16:59:10-05:00">Sunday, December 22, 2013 - 16:59</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/compare/uability-add-app-11">critzo created branch uability-add-app-11  at opentechinstitute/luci-commotion-apps</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>critzo </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T16:57:14-05:00">Sunday, December 22, 2013 - 16:57</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion/compare/dd106d0213...14ed5bbe0e">elationfoundation pushed to usability at opentechinstitute/luci-commotion</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T16:53:38-05:00">Sunday, December 22, 2013 - 16:53</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-theme-commotion/issues/11#issuecomment-31095884">areynold commented on issue opentechinstitute/luci-theme-commotion#11</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>areynold </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T16:03:44-05:00">Sunday, December 22, 2013 - 16:03</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/47">areynold opened issue opentechinstitute/luci-commotion-apps#47</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>areynold </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T15:21:19-05:00">Sunday, December 22, 2013 - 15:21</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion/issues/94">elationfoundation closed issue opentechinstitute/luci-commotion#94</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T15:18:07-05:00">Sunday, December 22, 2013 - 15:18</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/44#issuecomment-31094890">elationfoundation commented on issue opentechinstitute/luci-commotion-apps#44</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T15:16:23-05:00">Sunday, December 22, 2013 - 15:16</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/compare/bc46429a68...8172fafe36">elationfoundation pushed to usability at opentechinstitute/luci-commotion-apps</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T15:14:02-05:00">Sunday, December 22, 2013 - 15:14</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/compare/5929b400e1...bc46429a68">elationfoundation pushed to usability at opentechinstitute/luci-commotion-apps</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T15:03:16-05:00">Sunday, December 22, 2013 - 15:03</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion/compare/fcee405d76...dd106d0213">elationfoundation pushed to usability at opentechinstitute/luci-commotion</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>elationfoundation </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T14:48:04-05:00">Sunday, December 22, 2013 - 14:48</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/46">areynold closed issue opentechinstitute/luci-commotion-apps#46</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>areynold </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T14:41:31-05:00">Sunday, December 22, 2013 - 14:41</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/luci-commotion-apps/issues/46#issuecomment-31094240">areynold commented on issue opentechinstitute/luci-commotion-apps#46</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>areynold </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T14:41:30-05:00">Sunday, December 22, 2013 - 14:41</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+          <li class="views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://github.com/opentechinstitute/commotiond/pull/68#issuecomment-31094217">areynold commented on pull request opentechinstitute/commotiond#68</a></span>  </div>  
+  <span class="views-field views-field-field-author">        <span class="field-content"><em>areynold </em></span>  </span>  
+  <div class="views-field views-field-field-updated-date-time">        <div class="field-content"><em><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-12-22T14:40:33-05:00">Sunday, December 22, 2013 - 14:40</span> </em></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><hr><br /></span>  </div></li>
+      </ul>    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/recent-activity">« first</a></li><li class="pager-previous"><a title="Go to previous page" href="/recent-activity?page=28">‹ previous</a></li><li class="pager-ellipsis">…</li><li class="pager-item"><a title="Go to page 28" href="/recent-activity?page=27">28</a></li><li class="pager-item"><a title="Go to page 29" href="/recent-activity?page=28">29</a></li><li class="pager-current">30</li><li class="pager-item"><a title="Go to page 31" href="/recent-activity?page=30">31</a></li><li class="pager-item"><a title="Go to page 32" href="/recent-activity?page=31">32</a></li><li class="pager-ellipsis">…</li><li class="pager-last"><a title="Go to last page" href="/recent-activity?page=149">last »</a></li><li class="pager-next last"><a title="Go to next page" href="/recent-activity?page=30">next ›</a></li></ul></div>  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-locale block-language-content block-locale-language-content odd block-without-title" id="block-locale-language-content">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first active"><a href="/recent-activity" class="language-link active" lang="en"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></a></li><li class="fr last"><a href="/fr/recent-activity" class="language-link" lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://commotionwireless.net/sites/commotionwireless.net/modules/contrib/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /></a></li></ul>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-4 prefix-8 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-search block-form block-search-form--2 odd block-without-title" id="block-search-form--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/recent-activity?page=29" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-IEYosj3B-n4jkcqbNfpkxfJmxMHt7945cDOx2EehN-4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-2044"><a href="/jobs" title="">Jobs</a></li>
+<li class="leaf menu-mlid-2045"><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+<li class="leaf menu-mlid-2046"><a href="/about/press" title="">Press</a></li>
+<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-6 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-views block-blog-block-1 block-views-blog-block-1 odd" id="block-views-blog-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">New from the Blog</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-blog view-id-blog view-display-id-block_1 view-dom-id-4d5a98a75240b7b94c20e98c0ad252d5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/blog/commotion-team-participates-dc-internet-freedom-hack-day">Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+<div class="author-date">January 14, 2014 - critzo</div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/blog/commotion-r1-breaking-changes">Commotion R1 Breaking Changes</a><br />
+<div class="author-date">January 10, 2014 - danstaples</div>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/blog/commotion-router-v1-release-notes">Commotion Router v1 Release Notes</a><br />
+<div class="author-date">December 30, 2013 - jking</div>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/blog/building-mesh-network-rural-somaliland">Building a Mesh Network in Rural Somaliland</a><br />
+<div class="author-date">December 12, 2013 - critzo</div>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="/blog/building-popup-mesh-networks">Building Pop-up Mesh Networks</a><br />
+<div class="author-date">October 30, 2013 - gerety</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.opentechinstitute.org/" : "http://piwik.opentechinstitute.org/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".commotionwireless.net"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

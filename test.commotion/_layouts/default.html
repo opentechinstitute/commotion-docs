@@ -1,3 +1,6 @@
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+---
+theme :
+  name : commotion
+---
+{% include JB/setup %}
+{% include themes/commotion/default.html %}
