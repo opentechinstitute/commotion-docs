@@ -12,10 +12,10 @@ paginate: 5
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Commotion Wireless | {{page.title}}
+title : Commotion Wireless
 tagline: 
-author : Open Technology Institute
-  name : Commotion Wireless
+author : 
+  name: Open Technology Institute
   email : griffin@opentechinstitute.org
   github : opentechinstitute
   twitter : OTI
