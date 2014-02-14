@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Commotion Wireless</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="description goes here">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/css/reveal/reveal.min.css">
+    <link rel="stylesheet" href="/css/reveal/theme/default.css" id="theme">
     <link href="/css/bootstrap.css" rel="stylesheet">
     <style>
   	body {
@@ -50,32 +53,27 @@
 </div>
 <div class="container">
 
-<div style='background-image:url(&apos;images/commotion_kbabout_measure-03_0_0.png&apos;) left top no-repeat;' /><h2>Commotion Wireless</h2><p>is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</p><div style='width: 100%; margin: 0 auto;'>
-  <div style='width: 100%; margin: .4em auto;'>
-	<h2>textextetxtext</h2> 
+<div class='reveal'>
+  <div class='slides'>
+   <section data-autoslide='7000'>
+	<h2><a href='/blog/commotion-router-v1-release-notes'>Commotion 1.0</a></h2>
+	<p>Our groundbreaking mesh networking toolkit, is now available.<br />
+	<a href='/download/routers'>Download</a> | <a href='/docs/get-started'>Get Started</a> | <a href='/about/faq'>Learn More</a> </p>
+   </section>
+   <section data-autoslide='7000'>
+	<p>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</p>
+   </section>
+   <section data-autoslide='7000'>
+   <p>Interested in trying Commotion or learning more?  Our <a href='/docs/get-started'>Get Started</a> guide will explain how.</p> 
+   </section>
+   <section data-autoslide='7000'>
+	<p>Are you interested in contributing to Commotion? <a href='/docs/get-involved'>Get Involved!</a></p>
+   </section>
+   <section data-autoslide='7000'>
+	<p>Have Questions about Commotion? Our <a href='/about/faq'>Frequently Asked Questionsi</a> covers many of them</p>
+   </section>
   </div>
-  <div style='float:left; width: 30%; margin:.4em;'>
-	<h3>H3tag</h3> 
-	<p>textextetxtext</p> 
-	<h3>H3tag</h3>  
-	<p>textextetxtext</p> 
-	<p>textextetxtext</p> 
-	<h4>H4tag</h4>  
-	<p>textextetxtext</p> 
-  </div>
-  <div style='float:right; width: 60%; margin:.4em;'>
-	<h3>H3tag</h3> 
-	<p>textextetxtext</p> 
-	<h3>H3tag</h3>  
-	<p>textextetxtext</p> 
-	<p>textextetxtext</p> 
-	<h4>H4tag</h4>  
-	<p>textextetxtext</p> 
-  </div>
-  <div style='width: 100%; margin: .4em auto;'>
-	<h2>textextetxtext</h2> 
-  </div>
-</div>
+ </div>
 <footer id="section-footer" class="section section-footer">
  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
   <div id="zone-footer" class="zone zone-footer clearfix container-12">
@@ -112,6 +110,43 @@
 </footer>
 
 </div> <!-- end container -->
+
+<script src="/js/reveal/lib/js/head.min.js"></script>
+<script src="/js/reveal/js/reveal.min.js"></script>
+
+<script>
+
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+	controls: true,
+	progress: true,
+	history: false,
+	embedded: true,
+	center: true,
+	loop: true,
+	autoslide: 7000,
+	width: 960,
+	height: 300,
+
+	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+	transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+	// Parallax scrolling
+	// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+	// parallaxBackgroundSize: '2100px 900px',
+
+	// Optional libraries used to extend on reveal.js
+	dependencies: [
+		{ src: '/js/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: '/js/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: '/js/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: '/js/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: '/js/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: '/js/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+	]
+});
+
+</script>
   </body> 
 </html>
 
