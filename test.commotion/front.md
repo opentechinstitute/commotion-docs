@@ -6,9 +6,8 @@ lang: en
  <div class="reveal">
   <div class="slides">
    <section data-autoslide="7000">
-	<h2><a href="/blog/commotion-router-v1-release-notes">Commotion 1.0</a></h2>
-	<p>Our groundbreaking mesh networking toolkit, is now available.<br />
-	<a href="/download/routers">Download</a> | <a href="/docs/get-started">Get Started</a> | <a href="/about/faq">Learn More</a> </p>
+	<p><a href="/blog/commotion-router-v1-release-notes">Commotion 1.0</a><br />
+	Our groundbreaking mesh networking toolkit, is now available for <a href="/download/routers">download</a>.</p>
    </section>
    <section data-autoslide="7000">
 	<p>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</p>

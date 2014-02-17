@@ -50,13 +50,17 @@ body {
 }
 
 a {
+  color: #E8FF00;
   background: transparent;
+  display: block;
+  padding: 10px 15px;
 }
 
+a:hover,
 a:focus {
-  outline: thin dotted;
+  border-bottom: 3px solid #E8FF00;
+  margin-bottom: 0;
 }
-
 a:active,
 a:hover {
   outline: 0;
@@ -7188,17 +7192,34 @@ li.static-nodrop a:visited {
   background: url('/images/white_tri.png') no-repeat scroll center top #00FFCF;
   color: #000000;
   padding: 20px 0;
-  height: 100%;
+  height: auto;
+}
+.footer-wrapper ul.menu {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+.footer-wrapper a:link,
+.footer-wrapper a:visited {
+  color: #000000;
+  padding: 3px 2px 2px;
+  text-decoration: none;
+}
+.footer-wrapper a:hover {
+  color: #FFFFFF;
+  background: #000000;
+  text-decoration: none;
 }
 .left-third {
   width: 25%;
   float: left;
-  margin-top: 35px;
+  margin-top: 2em;
   margin: .3em;
 }
 .right-twothird {
   width: 70%;
   float: right;
-  margin-top: 35px;
+  margin-top: 2em;
   margin: .3em;
 }

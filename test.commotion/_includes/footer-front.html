@@ -2,10 +2,19 @@
 <div class="contentcontainer">
   <div class="container">
     <div class="left-third">
-      Content, left-third class.
+      <a class="twitter-timeline"  href="https://twitter.com/search?q=%23commotion+%40OTI"  data-widget-id="435507392806023168">Tweets about "#commotion @OTI"</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
     <div class="right-twothird">
-      Content, right-twothird class.
+	<h3>Recent Blog Posts</h3>
+	{% for post in site.posts %}
+	  <p class="blog-teasers">
+	    <a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a><br />
+	    {{ post.date | date: "%B %d, %Y" }}-{{ post.post_author }}<br />
+	  <span class="blog-excerpt">{{ post.content | split:'<!--more-->' | first }}</span>
+	  </p>
+	<hr>
+	  {% endfor %}
     </div>
   </div>
 </div>

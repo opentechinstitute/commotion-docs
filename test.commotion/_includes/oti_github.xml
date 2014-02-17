@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="githubfeed.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/organizations/opentechinstitute/critzo.private</id>
+  <title>Private Feed for the opentechinstitute Organization</title>
+  <updated>2014-02-17T15:38:03Z</updated>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1983226376</id>
+    <published>2014-02-17T15:38:03Z</published>
+    <updated>2014-02-17T15:38:03Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-theme-commotion/pull/20"/>
+    <title type="html">xbmi opened pull request opentechinstitute/luci-theme-commotion#20</title>
+    <author>
+      <name>xbmi</name>
+      <uri>https://github.com/xbmi</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4865ac84c8f04350d0a0a58d8d94d4a1?d=https%3A%2F%2Fidenticons.github.com%2Ff22b5949a17a961bde41046ae840b117.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-17T15:38:03Z&quot; title=&quot;2014-02-17 15:38:03&quot;&gt;February 17, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/xbmi&quot;&gt;xbmi&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/luci-theme-commotion/pull/20&quot;&gt;opentechinstitute/luci-theme-commotion#20&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/xbmi&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;6422580&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/4865ac84c8f04350d0a0a58d8d94d4a1?d=https%3A%2F%2Fidenticons.github.com%2Ff22b5949a17a961bde41046ae840b117.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;Remove wrong end tag&lt;/blockquote&gt;
+      &lt;div class=&quot;pull-info&quot;&gt;
+        &lt;span class=&quot;octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+        &lt;em&gt;1&lt;/em&gt; commit with
+        &lt;em&gt;0&lt;/em&gt; additions and
+        &lt;em&gt;1&lt;/em&gt; deletion
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ForkEvent/1983216131</id>
+    <published>2014-02-17T15:31:08Z</published>
+    <updated>2014-02-17T15:31:08Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/xbmi/luci-theme-commotion"/>
+    <title type="html">xbmi forked opentechinstitute/luci-theme-commotion to xbmi/luci-theme-commotion</title>
+    <author>
+      <name>xbmi</name>
+      <uri>https://github.com/xbmi</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4865ac84c8f04350d0a0a58d8d94d4a1?d=https%3A%2F%2Fidenticons.github.com%2Ff22b5949a17a961bde41046ae840b117.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/xbmi&quot;&gt;xbmi&lt;/a&gt; &lt;span&gt;forked&lt;/span&gt; &lt;a href=&quot;https://github.com/opentechinstitute/luci-theme-commotion&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/luci-theme-commotion&lt;/a&gt; to &lt;a href=&quot;https://github.com/xbmi/luci-theme-commotion&quot; class=&quot;css-truncate css-truncate-target&quot; title=&quot;xbmi/luci-theme-commotion&quot;&gt;xbmi/luci-theme-commotion&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-17T15:31:08Z&quot; title=&quot;2014-02-17 15:31:08&quot;&gt;February 17, 2014&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1981481720</id>
+    <published>2014-02-14T23:11:34Z</published>
+    <updated>2014-02-14T23:11:34Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-client/compare/4c29b31040...85fe472b1b"/>
+    <title type="html">elationfoundation pushed to master at opentechinstitute/commotion-client</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-14T23:11:34Z&quot; title=&quot;2014-02-14 23:11:34&quot;&gt;February 14, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-client/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-client&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-client&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/85fe472b1b1bdfd2681ed0bba298e732a9c834c4&quot;&gt;85fe472&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              added a logging stanza to differentiate the final main-window close e…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/f2bc9733127d6f6e55b4433dd0cf8eff93f9cc63&quot;&gt;f2bc973&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              removed headless option because the client requires at least one wind…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/a18b554d7fbdf29f44a05b0505f35dcea16b6396&quot;&gt;a18b554&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              cleaned up variable names to make them pep-8 compliant.
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;https://github.com/opentechinstitute/commotion-client/compare/4c29b31040...85fe472b1b&quot;&gt;View comparison for these 3 commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1981315299</id>
+    <published>2014-02-14T20:47:18Z</published>
+    <updated>2014-02-14T20:47:18Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-client/compare/deb9717ca6...4c29b31040"/>
+    <title type="html">elationfoundation pushed to master at opentechinstitute/commotion-client</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-14T20:47:18Z&quot; title=&quot;2014-02-14 20:47:18&quot;&gt;February 14, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-client/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-client&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-client&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/4c29b31040f0ff07c84b19852d1c4134b96eae3c&quot;&gt;4c29b31&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              added force option to hide_main_window which causes a removal and re-…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1981306771</id>
+    <published>2014-02-14T20:39:59Z</published>
+    <updated>2014-02-14T20:39:59Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-client/compare/0814e90f6a...deb9717ca6"/>
+    <title type="html">elationfoundation pushed to master at opentechinstitute/commotion-client</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-14T20:39:59Z&quot; title=&quot;2014-02-14 20:39:59&quot;&gt;February 14, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-client/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-client&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-client&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/deb9717ca60e04a24ea65586a91dd5d11cb0dbcc&quot;&gt;deb9717&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              moved most of the app creation out of the main loop and into an app c…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/85bc988b9acd5ff8c2496f4c83adf158e97f6ba2&quot;&gt;85bc988&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Fixed argParser checks to correctly check for arguments. argParser.pa…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/84610ad24c3a3dc1b900ec7042578f5824057f14&quot;&gt;84610ad&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              added a full close function that does not close the application.
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;https://github.com/opentechinstitute/commotion-client/compare/0814e90f6a...deb9717ca6&quot;&gt;View comparison for these 3 commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1981010781</id>
+    <published>2014-02-14T16:41:40Z</published>
+    <updated>2014-02-14T16:41:40Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/compare/46e942dc53...442a0c94b7"/>
+    <title type="html">critzo pushed to draft-docs at opentechinstitute/commotion-docs</title>
+    <author>
+      <name>critzo</name>
+      <uri>https://github.com/critzo</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-14T16:41:40Z&quot; title=&quot;2014-02-14 16:41:40&quot;&gt;February 14, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;critzo&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-docs/tree/draft-docs&quot;&gt;draft-docs&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-docs&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;&lt;img alt=&quot;critzo&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;4633345&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;critzo&quot;&gt;
+            &lt;img alt=&quot;critzo&quot; class=&quot; js-avatar&quot; data-user=&quot;4633345&quot; height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-docs/commit/442a0c94b7002a14aaff6da0f0c79dda90926b7b&quot;&gt;442a0c9&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              integrated reveal.js into front template
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1980873519</id>
+    <published>2014-02-14T15:02:07Z</published>
+    <updated>2014-02-14T15:02:07Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-client/compare/02d20bb3d5...0814e90f6a"/>
+    <title type="html">elationfoundation pushed to master at opentechinstitute/commotion-client</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-14T15:02:07Z&quot; title=&quot;2014-02-14 15:02:07&quot;&gt;February 14, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-client/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-client&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-client&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/0814e90f6a1a8a50d121b20e6dbc1bd1316c3e21&quot;&gt;0814e90&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              bundled status&#39; into one variable and added some parens to increase r…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/f82f16edf090517474ec1fd6a00d0f08d7a98778&quot;&gt;f82f16e&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              split out argument parsing into its own function, because that is whe…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-client/commit/1907bb4a0a4148c31953748d493b7aed6e8dd30c&quot;&gt;1907bb4&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              added a restart signal to avoid the segmentation faults and OS errors…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;https://github.com/opentechinstitute/commotion-client/compare/02d20bb3d5...0814e90f6a&quot;&gt;5 more commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1979867629</id>
+    <published>2014-02-13T20:17:03Z</published>
+    <updated>2014-02-13T20:17:03Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/pull/14"/>
+    <title type="html">critzo closed pull request opentechinstitute/commotion-docs#14</title>
+    <author>
+      <name>critzo</name>
+      <uri>https://github.com/critzo</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T20:17:03Z&quot; title=&quot;2014-02-13 20:17:03&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;critzo&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs/pull/14&quot;&gt;opentechinstitute/commotion-docs#14&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;&lt;img alt=&quot;critzo&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;4633345&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;Local testing files to debug&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1979867628</id>
+    <published>2014-02-13T20:17:03Z</published>
+    <updated>2014-02-13T20:17:03Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/pull/14#issuecomment-35020894"/>
+    <title type="html">critzo commented on pull request opentechinstitute/commotion-docs#14</title>
+    <author>
+      <name>critzo</name>
+      <uri>https://github.com/critzo</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T20:17:03Z&quot; title=&quot;2014-02-13 20:17:03&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;critzo&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on pull request &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs/pull/14#issuecomment-35020894&quot; title=&quot;Local testing files to debug&quot;&gt;opentechinstitute/commotion-docs#14&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;&lt;img alt=&quot;critzo&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;4633345&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Doing some additional tests with this branch on the staging server. Will be pushing some updated commits based on jekyll build errors.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1979840637</id>
+    <published>2014-02-13T19:58:32Z</published>
+    <updated>2014-02-13T19:58:32Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/pull/14"/>
+    <title type="html">glamrock opened pull request opentechinstitute/commotion-docs#14</title>
+    <author>
+      <name>glamrock</name>
+      <email>griffin@cryptolab.net</email>
+      <uri>https://github.com/glamrock</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T19:58:32Z&quot; title=&quot;2014-02-13 19:58:32&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;glamrock&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs/pull/14&quot;&gt;opentechinstitute/commotion-docs#14&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;&lt;img alt=&quot;Griffin Boyce&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;452041&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;Local testing files to debug&lt;/blockquote&gt;
+      &lt;div class=&quot;pull-info&quot;&gt;
+        &lt;span class=&quot;octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+        &lt;em&gt;25&lt;/em&gt; commits with
+        &lt;em&gt;620&lt;/em&gt; additions and
+        &lt;em&gt;502&lt;/em&gt; deletions
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1979839331</id>
+    <published>2014-02-13T19:57:37Z</published>
+    <updated>2014-02-13T19:57:37Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/pull/13"/>
+    <title type="html">glamrock closed pull request opentechinstitute/commotion-docs#13</title>
+    <author>
+      <name>glamrock</name>
+      <email>griffin@cryptolab.net</email>
+      <uri>https://github.com/glamrock</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T19:57:37Z&quot; title=&quot;2014-02-13 19:57:37&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;glamrock&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs/pull/13&quot;&gt;opentechinstitute/commotion-docs#13&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;&lt;img alt=&quot;Griffin Boyce&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;452041&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;Local testing files to debug&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1979839330</id>
+    <published>2014-02-13T19:57:37Z</published>
+    <updated>2014-02-13T19:57:37Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/pull/13#issuecomment-35018918"/>
+    <title type="html">glamrock commented on pull request opentechinstitute/commotion-docs#13</title>
+    <author>
+      <name>glamrock</name>
+      <email>griffin@cryptolab.net</email>
+      <uri>https://github.com/glamrock</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T19:57:37Z&quot; title=&quot;2014-02-13 19:57:37&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;glamrock&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on pull request &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs/pull/13#issuecomment-35018918&quot; title=&quot;Local testing files to debug&quot;&gt;opentechinstitute/commotion-docs#13&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;&lt;img alt=&quot;Griffin Boyce&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;452041&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;(wrong branch, closing)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1979619336</id>
+    <published>2014-02-13T17:22:55Z</published>
+    <updated>2014-02-13T17:22:55Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-feed/compare/ae920fdd2f...b157ef4d39"/>
+    <title type="html">elationfoundation pushed to i18n-issue-5 at opentechinstitute/commotion-feed</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T17:22:55Z&quot; title=&quot;2014-02-13 17:22:55&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-feed/tree/i18n-issue-5&quot;&gt;i18n-issue-5&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-feed&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-feed&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-feed/commit/b157ef4d392ea82d7b3ff9de5fffc54e1dea649d&quot;&gt;b157ef4&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              fixed some shell escaping bugs and added some code comments.... 8 dol…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1979228110</id>
+    <published>2014-02-13T12:41:40Z</published>
+    <updated>2014-02-13T12:41:40Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34974348"/>
+    <title type="html">andygunn commented on issue opentechinstitute/commotion-router#93</title>
+    <author>
+      <name>andygunn</name>
+      <uri>https://github.com/andygunn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://1.gravatar.com/avatar/b08838ab0f06d44426729784a084748e?d=https%3A%2F%2Fidenticons.github.com%2Fc87343e28bb19824610d90ce279942ee.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T12:41:40Z&quot; title=&quot;2014-02-13 12:41:40&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/andygunn&quot;&gt;andygunn&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34974348&quot; title=&quot;Access point and mesh connections not coming up post-setup wizard&quot;&gt;opentechinstitute/commotion-router#93&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/andygunn&quot;&gt;&lt;img alt=&quot;andygunn&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;6462133&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b08838ab0f06d44426729784a084748e?d=https%3A%2F%2Fidenticons.github.com%2Fc87343e28bb19824610d90ce279942ee.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;No worries - thanks for doing that! I just want to make sure y&#39;all have
+all the info (though I am pretty sure you have identified all the issues
+at…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1978711223</id>
+    <published>2014-02-13T01:53:42Z</published>
+    <updated>2014-02-13T01:53:42Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34940622"/>
+    <title type="html">critzo commented on issue opentechinstitute/commotion-router#93</title>
+    <author>
+      <name>critzo</name>
+      <uri>https://github.com/critzo</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-13T01:53:42Z&quot; title=&quot;2014-02-13 01:53:42&quot;&gt;February 13, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;critzo&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34940622&quot; title=&quot;Access point and mesh connections not coming up post-setup wizard&quot;&gt;opentechinstitute/commotion-router#93&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/critzo&quot;&gt;&lt;img alt=&quot;critzo&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;4633345&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/98f5172e25a6e1d807a33dcd4dcd5904?d=https%3A%2F%2Fidenticons.github.com%2Fa7430fdc227470e045ce43610eb244b2.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/andygunn&quot; class=&quot;user-mention&quot;&gt;@andygunn&lt;/a&gt; I&#39;ll dig them up and repost. Sorry for the mixup.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1978560362</id>
+    <published>2014-02-12T23:20:31Z</published>
+    <updated>2014-02-12T23:20:31Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34930832"/>
+    <title type="html">andygunn commented on issue opentechinstitute/commotion-router#93</title>
+    <author>
+      <name>andygunn</name>
+      <uri>https://github.com/andygunn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://1.gravatar.com/avatar/b08838ab0f06d44426729784a084748e?d=https%3A%2F%2Fidenticons.github.com%2Fc87343e28bb19824610d90ce279942ee.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T23:20:31Z&quot; title=&quot;2014-02-12 23:20:31&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/andygunn&quot;&gt;andygunn&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34930832&quot; title=&quot;Access point and mesh connections not coming up post-setup wizard&quot;&gt;opentechinstitute/commotion-router#93&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/andygunn&quot;&gt;&lt;img alt=&quot;andygunn&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;6462133&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b08838ab0f06d44426729784a084748e?d=https%3A%2F%2Fidenticons.github.com%2Fc87343e28bb19824610d90ce279942ee.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This is actually the wrong text for the bug, I submitted three or four bugs in a short span of time - this one is referring to a user interface ele…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1978524786</id>
+    <published>2014-02-12T22:52:09Z</published>
+    <updated>2014-02-12T22:52:09Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34928399"/>
+    <title type="html">dismantl commented on issue opentechinstitute/commotion-router#93</title>
+    <author>
+      <name>dismantl</name>
+      <uri>https://github.com/dismantl</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/a50f7699ae5a3eef73cd720a2bb272e2?d=https%3A%2F%2Fidenticons.github.com%2Ffb03d4c24a70a880ef3e3642e1b1f13a.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T22:52:09Z&quot; title=&quot;2014-02-12 22:52:09&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/dismantl&quot;&gt;dismantl&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/opentechinstitute/commotion-router/issues/93#issuecomment-34928399&quot; title=&quot;Access point and mesh connections not coming up post-setup wizard&quot;&gt;opentechinstitute/commotion-router#93&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/dismantl&quot;&gt;&lt;img alt=&quot;Dan Staples&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;2007008&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/a50f7699ae5a3eef73cd720a2bb272e2?d=https%3A%2F%2Fidenticons.github.com%2Ffb03d4c24a70a880ef3e3642e1b1f13a.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;has this been fixed by &lt;a href=&quot;https://github.com/opentechinstitute/commotiond/pull/82&quot; class=&quot;issue-link&quot; title=&quot;Fixes bug where bssid generation causes ad-hoc network startup to fail&quot;&gt;opentechinstitute/commotiond#82&lt;/a&gt;?&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1978382343</id>
+    <published>2014-02-12T21:11:57Z</published>
+    <updated>2014-02-12T21:11:57Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-feed/compare/25fcc95add...ae920fdd2f"/>
+    <title type="html">elationfoundation pushed to i18n-issue-5 at opentechinstitute/commotion-feed</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T21:11:57Z&quot; title=&quot;2014-02-12 21:11:57&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-feed/tree/i18n-issue-5&quot;&gt;i18n-issue-5&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-feed&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-feed&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-feed/commit/ae920fdd2f3fc63fb4d8e3c4a8994536c0ab701e&quot;&gt;ae920fd&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              added bundled language configuration option which pulls in luci po fi…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1978363301</id>
+    <published>2014-02-12T20:58:57Z</published>
+    <updated>2014-02-12T20:58:57Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-i18n-commotion/compare/issue-5"/>
+    <title type="html">elationfoundation created branch issue-5 at opentechinstitute/luci-i18n-commotion</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-merge&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;created&lt;/span&gt; branch &lt;a href=&quot;/opentechinstitute/luci-i18n-commotion/tree/issue-5&quot; class=&quot;css-truncate css-truncate-target branch-link&quot; title=&quot;issue-5&quot;&gt;&lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;issue-5&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/luci-i18n-commotion&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/luci-i18n-commotion&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T20:58:57Z&quot; title=&quot;2014-02-12 20:58:57&quot;&gt;February 12, 2014&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1978223355</id>
+    <published>2014-02-12T19:24:28Z</published>
+    <updated>2014-02-12T19:24:28Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-feed/compare/i18n-issue-5"/>
+    <title type="html">elationfoundation created branch i18n-issue-5 at opentechinstitute/commotion-feed</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-merge&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;created&lt;/span&gt; branch &lt;a href=&quot;/opentechinstitute/commotion-feed/tree/i18n-issue-5&quot; class=&quot;css-truncate css-truncate-target branch-link&quot; title=&quot;i18n-issue-5&quot;&gt;&lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;i18n-issue-5&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-feed&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-feed&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T19:24:28Z&quot; title=&quot;2014-02-12 19:24:28&quot;&gt;February 12, 2014&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1977953950</id>
+    <published>2014-02-12T16:24:47Z</published>
+    <updated>2014-02-12T16:24:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/pull/13"/>
+    <title type="html">glamrock opened pull request opentechinstitute/commotion-docs#13</title>
+    <author>
+      <name>glamrock</name>
+      <email>griffin@cryptolab.net</email>
+      <uri>https://github.com/glamrock</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T16:24:47Z&quot; title=&quot;2014-02-12 16:24:47&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;glamrock&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs/pull/13&quot;&gt;opentechinstitute/commotion-docs#13&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;&lt;img alt=&quot;Griffin Boyce&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;452041&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;Local testing files to debug&lt;/blockquote&gt;
+      &lt;div class=&quot;pull-info&quot;&gt;
+        &lt;span class=&quot;octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+        &lt;em&gt;2&lt;/em&gt; commits with
+        &lt;em&gt;324,608&lt;/em&gt; additions and
+        &lt;em&gt;113&lt;/em&gt; deletions
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1977952001</id>
+    <published>2014-02-12T16:23:36Z</published>
+    <updated>2014-02-12T16:23:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/commotion-docs/compare/9469ddad2f...8379145390"/>
+    <title type="html">glamrock pushed to gtest at opentechinstitute/commotion-docs</title>
+    <author>
+      <name>glamrock</name>
+      <email>griffin@cryptolab.net</email>
+      <uri>https://github.com/glamrock</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T16:23:36Z&quot; title=&quot;2014-02-12 16:23:36&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;glamrock&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/commotion-docs/tree/gtest&quot;&gt;gtest&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/commotion-docs&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/commotion-docs&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/glamrock&quot;&gt;&lt;img alt=&quot;Griffin Boyce&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;452041&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;glamrock&quot;&gt;
+            &lt;img alt=&quot;Griffin Boyce&quot; class=&quot; js-avatar&quot; data-user=&quot;452041&quot; height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4fafe5d0b2dadfe48539f3519b44d687?d=https%3A%2F%2Fidenticons.github.com%2F2226e78cf3e6b08885e7c0bbb610e44e.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/commotion-docs/commit/8379145390171785b61fc1f73cfc095cea28406f&quot;&gt;8379145&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              files
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1977900017</id>
+    <published>2014-02-12T15:52:02Z</published>
+    <updated>2014-02-12T15:52:02Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-commotion/issues/141"/>
+    <title type="html">elationfoundation closed issue opentechinstitute/luci-commotion#141</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:52:02Z&quot; title=&quot;2014-02-12 15:52:02&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; issue &lt;a href=&quot;https://github.com/opentechinstitute/luci-commotion/issues/141&quot; title=&quot;better check for network fields in header.htm&quot;&gt;opentechinstitute/luci-commotion#141&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      better check for network fields in header.htm
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1977900016</id>
+    <published>2014-02-12T15:52:02Z</published>
+    <updated>2014-02-12T15:52:02Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-commotion/issues/141#issuecomment-34881924"/>
+    <title type="html">elationfoundation commented on issue opentechinstitute/luci-commotion#141</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:52:02Z&quot; title=&quot;2014-02-12 15:52:02&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/opentechinstitute/luci-commotion/issues/141#issuecomment-34881924&quot; title=&quot;better check for network fields in header.htm&quot;&gt;opentechinstitute/luci-commotion#141&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Closed per pull request 17 being accepted&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:DeleteEvent/1977899621</id>
+    <published>2014-02-12T15:51:47Z</published>
+    <updated>2014-02-12T15:51:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/"/>
+    <title type="html">elationfoundation deleted branch issue-141-luci-commotion at opentechinstitute/luci-theme-commotion</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-circle-slash&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;deleted&lt;/span&gt; branch issue-141-luci-commotion at &lt;a href=&quot;https://github.com/opentechinstitute/luci-theme-commotion&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/luci-theme-commotion&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:51:47Z&quot; title=&quot;2014-02-12 15:51:47&quot;&gt;February 12, 2014&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1977899175</id>
+    <published>2014-02-12T15:51:31Z</published>
+    <updated>2014-02-12T15:51:31Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-theme-commotion/pull/17"/>
+    <title type="html">elationfoundation merged pull request opentechinstitute/luci-theme-commotion#17</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:51:31Z&quot; title=&quot;2014-02-12 15:51:31&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;merged&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/luci-theme-commotion/pull/17&quot;&gt;opentechinstitute/luci-theme-commotion#17&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;added checks for ipv4 addresses table and address value before calling t...&lt;/blockquote&gt;
+      &lt;div class=&quot;pull-info&quot;&gt;
+        &lt;span class=&quot;octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+        &lt;em&gt;1&lt;/em&gt; commit with
+        &lt;em&gt;4&lt;/em&gt; additions and
+        &lt;em&gt;3&lt;/em&gt; deletions
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1977899171</id>
+    <published>2014-02-12T15:51:31Z</published>
+    <updated>2014-02-12T15:51:31Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-theme-commotion/compare/9397f02b2e...4e867b2ce2"/>
+    <title type="html">elationfoundation pushed to master at opentechinstitute/luci-theme-commotion</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:51:31Z&quot; title=&quot;2014-02-12 15:51:31&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/opentechinstitute/luci-theme-commotion/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/opentechinstitute/luci-theme-commotion&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;opentechinstitute/luci-theme-commotion&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/luci-theme-commotion/commit/4e867b2ce28f8f1b0b7f5ddf95c0f1fac207ab8e&quot;&gt;4e867b2&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Merge pull request #17 from opentechinstitute/issue-141-luci-commotion
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;elationfoundation&quot;&gt;
+            &lt;img alt=&quot;Seamus Tuohy&quot; class=&quot; js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/opentechinstitute/luci-theme-commotion/commit/781b56627f927642639da8cb1ae0e2d454921b26&quot;&gt;781b566&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              added checks for ipv4 addresses table and address value before callin…
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;https://github.com/opentechinstitute/luci-theme-commotion/compare/9397f02b2e...4e867b2ce2&quot;&gt;View comparison for these 2 commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1977895891</id>
+    <published>2014-02-12T15:49:34Z</published>
+    <updated>2014-02-12T15:49:34Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-commotion/issues/142#issuecomment-34881657"/>
+    <title type="html">elationfoundation commented on issue opentechinstitute/luci-commotion#142</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:49:34Z&quot; title=&quot;2014-02-12 15:49:34&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/opentechinstitute/luci-commotion/issues/142#issuecomment-34881657&quot; title=&quot;Removing Mesh Encryption in &amp;quot;Security&amp;quot; Tab Fails&quot;&gt;opentechinstitute/luci-commotion#142&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Closed per pull request above.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1977895890</id>
+    <published>2014-02-12T15:49:34Z</published>
+    <updated>2014-02-12T15:49:34Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-commotion/issues/142"/>
+    <title type="html">elationfoundation closed issue opentechinstitute/luci-commotion#142</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:49:34Z&quot; title=&quot;2014-02-12 15:49:34&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; issue &lt;a href=&quot;https://github.com/opentechinstitute/luci-commotion/issues/142&quot; title=&quot;Removing Mesh Encryption in &amp;quot;Security&amp;quot; Tab Fails&quot;&gt;opentechinstitute/luci-commotion#142&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Removing Mesh Encryption in &amp;quot;Security&amp;quot; Tab Fails
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1977884038</id>
+    <published>2014-02-12T15:42:14Z</published>
+    <updated>2014-02-12T15:42:14Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/opentechinstitute/luci-commotion/pull/152"/>
+    <title type="html">elationfoundation closed pull request opentechinstitute/luci-commotion#152</title>
+    <author>
+      <name>elationfoundation</name>
+      <email>s2e@opentechinstitute.org</email>
+      <uri>https://github.com/elationfoundation</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;r=x&amp;s=30"/>
+    <content type="html">&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; data-title-format=&quot;YYYY-MM-DD HH:mm:ss&quot; datetime=&quot;2014-02-12T15:42:14Z&quot; title=&quot;2014-02-12 15:42:14&quot;&gt;February 12, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;elationfoundation&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; pull request &lt;a href=&quot;https://github.com/opentechinstitute/luci-commotion/pull/152&quot;&gt;opentechinstitute/luci-commotion#152&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/elationfoundation&quot;&gt;&lt;img alt=&quot;Seamus Tuohy&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1226247&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/37884c17c658da9156d206237239d1f5?d=https%3A%2F%2Fidenticons.github.com%2Fb5bcdebfb633e8a07f6c321bd910ba7f.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;added validation checks on the back end of the name input value as well ...&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
