@@ -7179,3 +7179,26 @@ li.static-nodrop a:visited {
   background: url('/images/white_tri.png') no-repeat center top #00FFCF;
   color: #000000;
 }
+.slideshow {
+  height: 12em;
+  background: none repeat scroll 0 0 #000000;
+  margin-top: -3em;
+}
+.footer-wrapper {
+  background: url('/images/white_tri.png') no-repeat scroll center top #00FFCF;
+  color: #000000;
+  padding: 20px 0;
+  height: 100%;
+}
+.left-third {
+  width: 25%;
+  float: left;
+  margin-top: 35px;
+  margin: .3em;
+}
+.right-twothird {
+  width: 70%;
+  float: right;
+  margin-top: 35px;
+  margin: .3em;
+}

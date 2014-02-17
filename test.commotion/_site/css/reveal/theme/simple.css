@@ -11,15 +11,15 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: white;
-  background-color: white; }
+  background: black;
+  background-color: black; }
 
 .reveal {
   font-family: "Lato", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: black; }
+  color: white; }
 
 ::selection {
   color: white;
