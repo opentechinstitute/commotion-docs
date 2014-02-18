@@ -1,35 +1,33 @@
 ---
-title: "Commotion Wireless"
 layout: default
-lang: en
+title: Get Help
+categories: [{categories}]
+created: 2013-07-15
+changed: 2014-01-02
+post_author: critzo
+lang: fr
 ---
-<div style="background-image:url('images/commotion_kbabout_measure-03_0_0.png') left top no-repeat;" /> 
-<h2>Commotion Wireless</h2>
-<p>is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</p>
+  <p>Commotion is an evolving project that includes many parts. The documentation available below has been created by the Commotion community to aid users and developers. It is often updated and we encourage you to get involved in improving these documents.</p>
 
-<div style="width: 100%; margin: 0 auto;">
-  <div style="width: 100%; margin: .4em auto;">
-	<h2>textextetxtext</h2> 
-  </div>
-  <div style="float:left; width: 30%; margin:.4em;">
-	<h3>H3tag</h3> 
-	<p>textextetxtext</p> 
-	<h3>H3tag</h3>  
-	<p>textextetxtext</p> 
-	<p>textextetxtext</p> 
-	<h4>H4tag</h4>  
-	<p>textextetxtext</p> 
-  </div>
-  <div style="float:right; width: 60%; margin:.4em;">
-	<h3>H3tag</h3> 
-	<p>textextetxtext</p> 
-	<h3>H3tag</h3>  
-	<p>textextetxtext</p> 
-	<p>textextetxtext</p> 
-	<h4>H4tag</h4>  
-	<p>textextetxtext</p> 
-  </div>
-  <div style="width: 100%; margin: .4em auto;">
-	<h2>textextetxtext</h2> 
-  </div>
+<p>We encourage you to <a href="/about/faq">read our frequently asked questions</a> to get started.</p>
+
+<p>Also, explore the <a href="/docs/cck">Commotion Construction Kit</a> for tips on community organizing, site preparation, software installation and more!</p>
+
+<div id="connect" style="width:100%;">
+<h2>Connect with the Commotion community</h2>
+
+<p>Use our "<a href="/contact">Contact</a>" or "<a href="/report">Report a Bug</a>" forms on this website.</p>
+
+<p>Subscribe to one or more of our listservs:</p>
+
+<ul>
+	<li><a href="https://lists.chambana.net/mailman/listinfo/commotion-announce">commotion-announce</a>: only official announcements with minimal discussion</li>
+	<li><a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">commotion-discuss</a>: for those who want to use Commotion without getting too technical</li>
+	<li><a href="https://lists.chambana.net/mailman/listinfo/commotion-dev">commotion-dev</a>: for those who want to discuss improvements the Commotion software</li>
+</ul>
+
+<p>You can also join us using your chat program on IRC in the #commotion channel on the irc.freenode.net server.</p>
+
+<p>Learn more about <a href="http://freenode.net/using_the_network.shtml" target="_blank">using IRC</a>.</p>
 </div>
+ <div class="tags">Tags: {{ page.categories }}</div>
