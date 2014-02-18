@@ -68,8 +68,8 @@ img.arrow {
 /* CONTENT CONTAINER */
 
 .container {
-    width: 100%;
-    margin: 0;
+    width: 920px;
+    margin: 0 auto;
 }
 
 .sidebar {
@@ -84,14 +84,16 @@ img.arrow {
 }
 
 /* FOOTER */
-.footer {
+footer {
     width: 100%;
+    background: #00FFCF;
 }
 
-ul .menu li {
+ul.menu li {
     display: inline;
     width: 50%;
     min-width: 220px;
+    padding: 10px;
 }
 
 
