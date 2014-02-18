@@ -7222,6 +7222,14 @@ li.static-nodrop a:visited {
   margin-top: 2em;
   margin: .3em;
 }
+.right-twothird p {
+  margin-left: 1.3em;
+}
+.right-twothird hr {
+  color: #FE739B;
+  height: 2px;
+  width: 55%;
+}
 .right-third {
   width: 25%;
   float: right;
@@ -7234,3 +7242,13 @@ li.static-nodrop a:visited {
   margin-top: 2em;
   margin: .3em;
 }
+.blog-pubdata {
+  margin-left: 1.3em;
+}
+.blog-teaser-title {
+
+}
+.blog-excerpt {
+
+}
+

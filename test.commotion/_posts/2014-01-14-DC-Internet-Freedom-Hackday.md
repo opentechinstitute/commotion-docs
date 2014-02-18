@@ -5,7 +5,6 @@ lang: en
 categories: UI/UX collaboration
 post_author: Chris Ritzo
 ---
-{{ date }}, {{ page.post_author }}
 
 On Saturday, January 11, 2014, members of the Commotion team joined two other open source projects, Cupcake and Cryptocat, at the DC Internet Freedom Hack Day, hosted by CommunityRED and OpenITP at 1776 in Washington, DC. The focus of the hack day was to improve the user interface of these tools, which present unique design challenges.<!--more--> Activists, developers, security experts, journalists, designers and UI/UX specialists gathered to learn about Commotion, Cupcake and Cryptocat, and to work on discrete tasks to help make our projects better. Check out this Storify about the day from the Open Technology Institute.
 

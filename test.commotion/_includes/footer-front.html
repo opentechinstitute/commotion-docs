@@ -8,11 +8,9 @@
     <div class="right-twothird">
 	<h3>Recent Blog Posts</h3>
 	{% for post in site.posts %}
-	  <p class="blog-teasers">
-	    <a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a><br />
-	    {{ post.date | date: "%B %d, %Y" }}-{{ post.post_author }}<br />
-	  <span class="blog-excerpt">{{ post.content | split:'<!--more-->' | first }}</span>
-	  </p>
+	    <h4><a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a></h4>
+	  <p class="blog-pubdata">{{ post.date | date: "%B %d, %Y" }} {{ post.post_author }}</p>
+	  <p class="blog-excerpt">{{ post.content | split:'<!--more-->' | first }}</p>
 	<hr>
 	  {% endfor %}
     </div>
@@ -36,6 +34,15 @@
 
 <script src="/js/reveal/lib/js/head.min.js"></script>
 <script src="/js/reveal/js/reveal.min.js"></script>
+
+<script>
+Reveal.configure({
+	keyboard: {
+	  38: null,
+	  40: null
+	}
+});
+</script>
 
 <script>
 
