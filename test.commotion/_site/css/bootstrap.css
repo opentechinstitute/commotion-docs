@@ -52,7 +52,6 @@ body {
 a {
   color: #E8FF00;
   background: transparent;
-  display: block;
   padding: 10px 15px;
 }
 
@@ -7220,6 +7219,18 @@ li.static-nodrop a:visited {
 .right-twothird {
   width: 70%;
   float: right;
+  margin-top: 2em;
+  margin: .3em;
+}
+.right-third {
+  width: 25%;
+  float: right;
+  margin-top: 2em;
+  margin: .3em;
+}
+.left-twothird {
+  width: 70%;
+  float: left;
   margin-top: 2em;
   margin: .3em;
 }
