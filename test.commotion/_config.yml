@@ -28,7 +28,7 @@ author :
   twitter : OTI
 
 # Pagination - denotes how many items to display on a given page
-paginate: 5
+# paginate: 5
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

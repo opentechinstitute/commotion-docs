@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.description }}">
 
+<!-- Detects if there's a defined page description, includes it if so, and otherwise includes the first 160 characters of the page content. We could do categories instead, or use truncatewords:30 and probably still be within character limit -->
+    <meta name="description" content="
+    {% if page.description %}{{ page.description }}
+    {% elsif post.content %}{{ post.content | strip_html | truncate:160}}
+    {% endif %}">
+
+    {% if site.author.name %}<meta name="author" content="{{ site.author.name }}">{% endif %}
+
+<!-- Detects if page tags exist, and if so, includes them as a comma-delineated string. If not, displays nothing. -->
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | array_to_sentence_string }}">{% endif %}
+
+
+    <link href="/css/new.css" rel="stylesheet">
+
+
     <link href="/css/bootstrap.css" rel="stylesheet">
     <style>
   	body {
@@ -17,6 +32,19 @@
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+<!-- SOCIAL AND FAVICON -->
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Commotion Wireless ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Commotion Wireless RSS Feed">
+
+
   </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -99,8 +127,41 @@
   </div> 
  </div>
 </div>
-<div class="promo">
-  <h1>{{ page.title }}</h1>
-</div>
+
+
+<header class="promo">
+
+<!-- FEATURED IMAGE/VIDEO/MAP/TITLE, not on index -->
+<!-- note, only one of these should be used at a time -->
+    {% if post.feature %}
+      <div class="feature">
+        <img src="{{ post.feature }}" />
+      </div>
+    {% elsif post.map %}
+      <div class="map"">
+        <iframe src="{{ post.map }}" height="{{ post.map.height }}" width="{{ post.map.width }} frameborder="0" background="transparent" />
+      </div>
+    {% elsif post.video %}
+      <div class="video"">
+        <video height="{{ post.video.height }}" width="{{ post.video.width }}" controls>
+          {% if post.video.mp4 %}<source src="{{ post.video.mp4 }}" type="video/mp4">{% endif %}
+          {% if post.video.ogg %}<source src="{{ post.video.ogg }}" type="video/ogg">{% endif %}
+          {% if post.video.subtitles %}<track src="{{post.video.subtitles}}" kind="subtitles" label="Captions"> {% endif %}
+        Your browser does not support the video tag. Upgrade!
+        </video>
+        <div class="videocaption">{{ post.video.caption }}</div>
+        <h1>{{page.title}}</h1>
+      </div>
+    {% else %}
+      <div class="pagetitle">
+        <h1>{{page.title}}</h1>
+      </div>
+    {% endif %}
+<!-- END FEATURED IMAGE -->
+
+</header>
+    <img class="arrow" src="images/blackarrow.png" />
+
+
 <div class="containercontent">
   <div class="container">
