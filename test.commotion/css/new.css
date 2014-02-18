@@ -45,14 +45,23 @@ body {
     background-color: #877AED;
 }
 
+/* Black headline bar */
+
+.promo {
+    background: #000;
+    color: #fff;
+}
+
 /* Arrow divider */
 
-img .arrow {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+img.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 38px;
     height: 27px;
-    padding-bottom: 15px;
+    margin-top: -10px;
+    margin-bottom: 5px;
     clear: both;
 }
 
@@ -79,10 +88,11 @@ img .arrow {
     width: 100%;
 }
 
-footer ul .menu {
+ul .menu li {
     display: inline;
     width: 50%;
     min-width: 220px;
 }
+
 
 
