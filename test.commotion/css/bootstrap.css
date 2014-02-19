@@ -7187,6 +7187,21 @@ li.static-nodrop a:visited {
   background: none repeat scroll 0 0 #000000;
   margin-top: -3em;
 }
+.pageheadings {
+  height: 100px;
+  background: none repeat scroll 0 0 #000000;
+}
+h1.pageheadings {
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 2.5em;
+  margin: 1.3em 3em;
+  padding-top: 0.8em;
+}
+.pageheadings hr {
+  background-color: #FF739C;
+  max-width: 460px; 
+}
 .footer-wrapper {
   background: url('/images/white_tri.png') no-repeat scroll center top #00FFCF;
   color: #000000;
@@ -7213,14 +7228,12 @@ li.static-nodrop a:visited {
 .left-third {
   width: 25%;
   float: left;
-  margin-top: 2em;
-  margin: .3em;
+  margin: .3em 2em;
 }
 .right-twothird {
   width: 70%;
   float: right;
-  margin-top: 2em;
-  margin: .3em;
+  margin: .3em 2em;
 }
 .right-twothird p {
   margin-left: 1.3em;
@@ -7233,14 +7246,12 @@ li.static-nodrop a:visited {
 .right-third {
   width: 25%;
   float: right;
-  margin-top: 2em;
-  margin: .3em;
+  margin: .3em 2em;
 }
 .left-twothird {
   width: 70%;
   float: left;
-  margin-top: 2em;
-  margin: .3em;
+  margin: .3em 2em;
 }
 .blog-pubdata {
   margin-left: 1.3em;
