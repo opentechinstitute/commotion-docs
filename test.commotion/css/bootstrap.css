@@ -7231,9 +7231,9 @@ h1.pageheadings {
   margin: .3em 2em;
 }
 .right-twothird {
-  width: 70%;
+  width: 65%;
   float: right;
-  margin: .3em 2em;
+  margin: 1em;
 }
 .right-twothird p {
   margin-left: 1.3em;
