@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Troubleshoot Your Wireless Node
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-04
 changed: 2013-12-23
 post_author: critzo
@@ -358,4 +358,4 @@ lang: en
 <section class="related-information" id="section-external-resources">
 <h2>External Resources</h2>
 We recommend reading through Chapter 15 of <a href="http://wndw.net/">Wireless Networking in the Developing World</a>, on maintenance and troubleshooting.</section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grounding and Lightning Protection
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-30
 changed: 2013-08-05
 post_author: critzo
@@ -68,4 +68,4 @@ lang: en
 </ul>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__248 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/outdoor_surge_arrestor.jpg?itok=Y4k9Cgr-" style="width: 250px; height: 165px; float: right;" typeof="foaf:Image" />The outdoor arrestor should be installed directly below the rooftop Router, as close to the ground as possible. This is to minimize the length of wire between the arrestor and the ground rod or ground conductor, since they should be installed in the ground or in the basement. It should mount with two short screws to the wood, concrete or brick base of the building.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion R1 Breaking Changes
-categories: [R1,upgrade]
+categories: R1,upgrade
 created: 2014-01-10
 changed: 2014-01-10
 post_author: danstaples
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p>The latest Commotion release, <a href="https://commotionwireless.net/download/routers">R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about. These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we'll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.</p>
+  <p>The latest Commotion release, <a href="https://commotionwireless.net/download/routers">R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about. These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we'll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.</p>
 
 <p>&nbsp;</p>
 
@@ -45,4 +42,4 @@ lang: en
 <p>After upgrading to R1, your nodes now have the ability to save their settings during future upgrades. To do this, you can keep the “Save settings” option checked when using the sysupgrade method.</p>
 
 <p>Have you given R1 a try? <a href="https://commotionwireless.net/contact">Let us know what you think</a> in our feedback form.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

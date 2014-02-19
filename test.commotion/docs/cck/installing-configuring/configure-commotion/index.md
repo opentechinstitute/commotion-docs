@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configure Commotion
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-05
 changed: 2014-01-13
 post_author: critzo
@@ -488,4 +488,4 @@ Be sure to record your node and network settings so that you can re-enter them w
 	<li>Networking: Learn Networking Basics</li>
 </ul>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

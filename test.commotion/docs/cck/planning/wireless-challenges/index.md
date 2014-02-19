@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wireless Challenges
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-04
 changed: 2013-11-27
 post_author: critzo
@@ -141,4 +141,4 @@ lang: fr
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

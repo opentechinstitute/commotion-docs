@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Install on a Ubiquiti Router
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2014-01-13
 post_author: critzo
@@ -215,4 +215,4 @@ DNS:</br />(blank)</code></p>
 	<li>You can also perform an Internet search for your specific operating system to find more information, or other guides.</li>
 </ul>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

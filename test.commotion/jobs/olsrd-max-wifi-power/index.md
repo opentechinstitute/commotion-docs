@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Request for Development Proposals - OLSRd wifi_max_power Plugin
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-03
 changed: 2013-07-03
 post_author: critzo
@@ -81,4 +81,4 @@ Special consideration will be given to projects that make efficient use of&nbsp;
 For the past decade, OTI’s team has pioneered wireless mesh networking. OTI staff include the experts and technologists from the Champaign-Urbana Community Wireless Network and the co-founder of the Ile Sans Fil wireless network in Montreal, Canada. Further, OTI staff have developed wireless technologies deployed domestically in cities like Austin, Texas; New York, New York; and Champaign-Urbana, Illinois as well as internationally in cities like Vienna, Austria; Berlin, Germany; Paris, France; and London, England. OTI has also advised or assisted with organizing and developing locally sustainable wireless projects in Chiang Mai, Thailand; Akwapim, Ghana; Maelodi, South Africa; Philadelphia, Pennsylvania; Detroit, Michigan; and Washington, D.C.<br />
 <br />
 Our expertise can be demonstrated through our deployment and development as well as the extensive relationships we have fostered in the open source wireless community.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Identify Neighborhood Skills
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
@@ -181,4 +181,4 @@ Paper</p>
 <section class="related-information" id="section-related-information">
 <h3>Related Information</h3>
 </section>
---> <div class="tags">Tags: {{ page.categories }}</div>
+--> 

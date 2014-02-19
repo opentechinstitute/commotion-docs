@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Updating these guidelines
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-03
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -19,4 +19,4 @@ lang: en
 	<li>Should additional log details be available?</li>
 	<li>How should users avoid creating duplicate node names?</li>
 </ol>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

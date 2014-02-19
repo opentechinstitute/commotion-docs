@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download Commotion for Desktop/Laptop Computers
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-06
 changed: 2013-12-31
 post_author: critzo
@@ -61,4 +61,4 @@ sudo apt-get install -f sudo dpkg -i *.debi</pre>
 <h2>Windows</h2>
 
 <p>The Commotion client for Windows operating systems is currently in development and is unsupported. You can follow development and find instructions on compiling the Commotion Windows client on our <a href="https://github.com/opentechinstitute/commotion-winmesh">Github Project, commotion-winmesh</a>.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

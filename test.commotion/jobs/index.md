@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Jobs
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-16
 changed: 2013-12-15
 post_author: admin
@@ -18,4 +18,4 @@ lang: en
 <ul>
 	<li><a href="/jobs/commotion-dashboard">Commotion Network Dashboard</a></li>
 </ul>
---> <div class="tags">Tags: {{ page.categories }}</div>
+--> 

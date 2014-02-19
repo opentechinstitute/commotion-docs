@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Localization
-categories: [{categories}]
+categories: {categories}
 created: 2013-08-29
 changed: 2013-09-20
 post_author: critzo
@@ -65,4 +65,4 @@ lang: en
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

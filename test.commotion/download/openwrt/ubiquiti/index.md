@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download Commotion OpenWRT - Ubiquiti
-categories: [{categories}]
+categories: {categories}
 created: 2013-06-28
 changed: 2013-07-06
 post_author: grady
@@ -110,4 +110,4 @@ lang: en
 <p><a class="button" href="https://github.com/opentechinstitute/commotion-openwrt" id="openwrt-source-btn">Source Code</a></p>
 
 <p>In addition to the main source code repository above, source code for all of the individual Commotion-OpenWRT components can be found on our <a href="https://github.com/opentechinstitute">Github page</a>.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

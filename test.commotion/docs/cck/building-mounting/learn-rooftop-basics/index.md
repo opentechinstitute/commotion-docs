@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Construction Kit - Learn Rooftop Basics
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -111,4 +111,4 @@ lang: en
 
 <p>Make sure to bring any other printouts you might need on the rooftop - such as the "<a class="module">Make an Ethernet Cable</a>" module, the instructions for putting together the rooftop mounts, maps of your neighborhood, or anything else you think is useful!</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

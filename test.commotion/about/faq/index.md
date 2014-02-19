@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-14
 changed: 2013-12-23
 post_author: critzo
@@ -113,4 +113,4 @@ This technology is permanent. In fact, many of the underlying components are cur
 
 <p><strong>What advantage does this method have over satellite internet?</strong><br />
 Commotion is a suite of tools designed to take advantage of any available satellite Internet service, and that connection may be shared with anyone on the network. If no Internet connection is available, network users may still communicate securely and anonymously with each other. Finally, the network is designed to be self-healing, allowing users to join and leave the network as needed.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

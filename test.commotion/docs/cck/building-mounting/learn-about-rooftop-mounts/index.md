@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn about Rooftop Mounts
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -173,4 +173,4 @@ lang: en
 	<li>Non-Penetrating Mount: Search for "non-penetrating roof mount," "VMP FRM-125," "Perfect Vision NPR6B," or "NPR-18C3." Order a rubber mat to protect the roof under the non-penetrating mounting hardware as well - search for: "non-penetrating roof mount mat," or "NPRMAT8"</li>
 </ul>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

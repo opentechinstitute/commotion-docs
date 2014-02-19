@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion Team participates in DC Internet Freedom Hack Day
-categories: [{categories}]
+categories: {categories}
 created: 2014-01-14
 changed: 2014-01-15
 post_author: critzo
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><img alt="Commotion card sort activity from the DC Internet Freedom Hack Day, 1/11/2014" class="media-image attr__typeof__foaf:Image img__fid__746 img__view_mode__media_original attr__format__media_original" src="/files/uihackday-011114.jpeg" style="width: 250px; height: 249px; float: right;" typeof="foaf:Image" /></p>
+  <p><img alt="Commotion card sort activity from the DC Internet Freedom Hack Day, 1/11/2014" class="media-image attr__typeof__foaf:Image img__fid__746 img__view_mode__media_original attr__format__media_original" src="/files/uihackday-011114.jpeg" style="width: 250px; height: 249px; float: right;" typeof="foaf:Image" /></p>
 
 <p>On Saturday, January 11, 2014, members of the Commotion team joined two other open source projects, <a href="http://cupcakebridge.com/">Cupcake</a> and <a href="https://crypto.cat/">Cryptocat</a>, at the <a href="https://www.openitp.org/blog/dc-hackathon-for-security-privacy-tools-on-jan-11-2014.html">DC Internet Freedom Hack Day</a>, hosted by <a href="http://www.communityred.org/">CommunityRED</a> and <a href="https://openitp.org/">OpenITP</a>&nbsp;at 1776 in Washington, DC. The focus of the hack day was to improve the user interface of these tools, which present unique design challenges. Activists, developers, security experts, journalists, designers and UI/UX specialists gathered to learn about Commotion, Cupcake and Cryptocat, and to work on discrete tasks to help make our projects better. <a href="http://storify.com/OTI/dc-internet-freedom-hackathon">Check out this Storify</a> about the day from the Open Technology Institute.</p>
 
@@ -20,4 +17,4 @@ lang: en
 <em>Norman and @wbend are putting the Commotion Construction Kit through its paces #dcnethack #commotion</em></p>
 
 <p>Events like the DC Internet Freedom Hack Day give our team opportunities to connect with other organizations as well. CommunityRED, OpenITP and 1776 were great hosts and brought out lots of new people from the community in DC and the internet freedom community broadly! Commotion learned a lot from the hack day and will be incorporating the ideas that were generated into our development and documentation.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

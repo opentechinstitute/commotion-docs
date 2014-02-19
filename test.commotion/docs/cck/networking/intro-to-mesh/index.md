@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction to Mesh
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-11
 changed: 2013-12-02
 post_author: critzo
@@ -178,4 +178,4 @@ lang: fr
 
 <p>Once you have an understanding about the basics of mesh, try putting your knowledge into practice with the <a href="/docs/cck/planning/design-your-network-every-network-tells-story"><strong>Every Network Tells a Story</strong></a> module.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

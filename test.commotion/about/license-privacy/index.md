@@ -1,7 +1,7 @@
 ---
 layout: default
 title: License & Privacy
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-16
 changed: 2013-07-19
 post_author: admin
@@ -49,4 +49,4 @@ Copyright (C) 2013 Josh King</p>
 <p>If you wish to discontinue receiving communications from us at any time, please let us know by e-mailing, calling or writing us (see the Contact page). Users who choose to not accept cookies are welcome to use our Web site, but certain features may not be fully available.</p>
 
 <p>We also respect do-not-track preferences available in major web browsers. We also attempt to design our site using progressive enhancement techniques, providing users who choose to block javascript, flash, etc. a full experience of our site while also respecting this choice.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get Started
-categories: [{categories}]
+categories: {categories}
 created: 2013-12-11
 changed: 2013-12-17
 post_author: critzo
@@ -45,4 +45,4 @@ lang: en
 	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Installing Commotion on Wireless Routers</a></li>
 	<li><a href="/docs/cck/installing-configuring/configure-commotion">Configuring Commotion on your Router</a></li>
 </ul>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

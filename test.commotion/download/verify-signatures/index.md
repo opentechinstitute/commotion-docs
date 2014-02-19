@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-categories: [{categories}]
+categories: {categories}
 created: 2013-06-10
 changed: 2013-09-20
 post_author: OTI
@@ -63,4 +63,4 @@ gpg --verify /Users/Alice/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.
 <hr /><p>Most Linux distributions come with gpg pre-installed, so users who want to verify their Commotion download can just follow along with the instructions above for "Mac OS X".</p>
 <p>See <a href="http://www.gnupg.org/documentation/">http://www.gnupg.org/documentation/</a> to learn more about GPG.</p>
 <hr /><p>This tutorial borrows heavily from documentation created by the <a href="https://www.torproject.org/docs/verifying-signatures.html.en" target="_blank">Tor Project</a>.</p>
-<div class="tags">Tags: {{ page.categories }}</div>
+

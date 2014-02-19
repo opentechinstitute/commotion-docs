@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Survey Your Neighbors
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-11-27
 post_author: critzo
@@ -270,4 +270,4 @@ Internet access (optional)</p>
 
 <p><a href="http://surveymonkey.com" target="_blank">surveymonkey.com</a> has some good resources on how to create and administer surveys.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

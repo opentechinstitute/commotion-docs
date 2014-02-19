@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Developer Resources
-categories: [{categories}]
+categories: {categories}
 created: 2013-06-28
 changed: 2013-12-31
 post_author: critzo
@@ -31,4 +31,4 @@ lang: en
 <p>Commotion developers rely on a combination of tools and intuition to debug. We use gdb, ddms and unit testing. Read more about our <a href="https://wiki.commotionwireless.net/doku.php?id=testing_procedures_and_methodologies">testing procedures and methodologies</a> and procedures for <a href="https://wiki.commotionwireless.net/doku.php?id=lab_environment_testing">lab testing</a> on the Developer Wiki.</p>
 
 <p>Read more about <a href="https://wiki.commotionwireless.net/doku.php?id=debugging_resources">common debugging procedures</a> we use on the Developer Wiki. To report bugs and submit fixes, use our <a href="https://github.com/opentechinstitute">issue tracker</a>.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

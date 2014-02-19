@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Install and Recover with TFTP
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2014-01-13
 post_author: critzo
@@ -430,4 +430,4 @@ Gateway: <code>192.168.1.1</code></p>
 
 <p class="external-resources">Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">http://www.mactechnologies.com/index.php?page=downloads#tftpclient</a></p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inventory the Neighborhood
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
@@ -158,4 +158,4 @@ lang: fr
 
 <p>Use <strong><a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>&nbsp;</strong>module to make a flyer to show people if they want to know more about the project.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

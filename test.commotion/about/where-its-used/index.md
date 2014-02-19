@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Where It's Used
-categories: [{categories}]
+categories: {categories}
 created: 2013-06-28
 changed: 2013-12-18
 post_author: gerety
@@ -112,4 +112,4 @@ lang: en
 </ul>
 
 <p>Many community wireless networks, running Commotion and other mesh software, can be found on this <a href="http://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region">Wikipedia</a> page. We encourage networks to add themselves to that list as well!</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

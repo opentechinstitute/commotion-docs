@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Updating a Commotion package
-categories: [chat,applications,routers,,messaging]
+categories: chat,applications,routers,,messaging
 created: 2012-11-01
 changed: 2012-11-06
 post_author: The Work Department
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p>In our previous blog post, we walked through the process of creating an OpenWRT package to provide a ws-routing server. We&#39;ve since continued development on this, and would like to share our process for updating the OpenWRT package after making bugfixes. We&#39;d also like to introduce the commotion-chat package that puts the ws-routing server to use.</p><p>After we fixed the bug in the ws-routing server code, we needed to update the OpenWRT package to reference the most recent Git revision. Below, you can find a quick guide on how to update an OpenWRT package.</p><p>First, you need to update the Git revision. Do this by editing the package&#39;s Makefile and changing a variable:</p>
+  <p>In our previous blog post, we walked through the process of creating an OpenWRT package to provide a ws-routing server. We&#39;ve since continued development on this, and would like to share our process for updating the OpenWRT package after making bugfixes. We&#39;d also like to introduce the commotion-chat package that puts the ws-routing server to use.</p><p>After we fixed the bug in the ws-routing server code, we needed to update the OpenWRT package to reference the most recent Git revision. Below, you can find a quick guide on how to update an OpenWRT package.</p><p>First, you need to update the Git revision. Do this by editing the package&#39;s Makefile and changing a variable:</p>
 <pre linenumbers="off">
 cd commotion-examples/ws-routing # get in the package
 vim Makefile # edit the makefile, increment PKG_RELEASE, and update the PKG_REV to the latest commit&#39;s hash
@@ -43,4 +40,4 @@ cd bin/ar71xx/packages
 # start a webserver so your openwrt router can download the new package 
 python -m SimpleHTTPServer 8080 
 # if you don&#39;t have python installed, you can pursue other means of installing the package :)</pre>
-<p>Then, follow the same workflow described above for the ws-routing package to install commotion-chat on your router.</p><p>After installing these packages, you may need to reboot the router. Hover over &quot;<strong>System</strong>,&quot; and click &quot;<strong>Reboot</strong>.&quot; Confirm, wait a few minutes, and then try visiting your router&#39;s splash page. If you installed/updated commotion-ws-routing and commotion-chat successfully, you can now click on the &quot;<strong>Chat</strong>&quot; menu item under &quot;<strong>Applications</strong>&quot; and try out the chat app!</p> <div class="tags">Tags: {{ page.categories }}</div>
+<p>Then, follow the same workflow described above for the ws-routing package to install commotion-chat on your router.</p><p>After installing these packages, you may need to reboot the router. Hover over &quot;<strong>System</strong>,&quot; and click &quot;<strong>Reboot</strong>.&quot; Confirm, wait a few minutes, and then try visiting your router&#39;s splash page. If you installed/updated commotion-ws-routing and commotion-chat successfully, you can now click on the &quot;<strong>Chat</strong>&quot; menu item under &quot;<strong>Applications</strong>&quot; and try out the chat app!</p> 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design Principles
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-03
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -63,4 +63,4 @@ lang: en
 <p>Commotion mobile apps, web applications and websites should be responsive to screen or browser size.</p>
 
 <p>Mobile developers should be especially sensitive to screen orientation. Users can rotate mobile devices at any time and for a variety of reasons. Sometimes a task may feel most natural in a certain orientation -- portrait or landscape. If a device is rotated for any reason, Commotion should respond appropriately and maintain its focus on the primary task at hand. The app should start in the same orientation as the app menu that launches it. On Android phones that have a physical keyboard, the app menu is often in landscape orientation when the keyboard is open.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

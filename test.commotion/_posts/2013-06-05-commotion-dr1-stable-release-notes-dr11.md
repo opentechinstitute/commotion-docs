@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion DR1 Stable Release Notes (DR1.1)
-categories: [release]
+categories: release
 created: 2013-06-05
 changed: 2013-07-26
 post_author: andrew
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.</p>
+  <p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.</p>
 
 <h2>What is a Commotion release?</h2>
 
@@ -50,4 +47,4 @@ lang: en
 	<li><a href="https://github.com/opentechinstitute/olsrd/tree/release-0.6.5.4/lib/mdp">olsrd-mdp v0.1</a>: Plugin for signing OLSR mesh traffic</li>
 	<li><a href="https://github.com/opentechinstitute/serval-crypto">serval-crypto v2.0</a>: Cryptographic libraries and API for signing mDNS service advertisements</li>
 </ul>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prep and Install Rooftop Nodes
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-10-01
 post_author: critzo
@@ -209,4 +209,4 @@ lang: en
 
 <p>Consult the Commotion Wireless website commotionwireless.net for more information or documentation on installing the software on your devices.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

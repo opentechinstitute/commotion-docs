@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download Commotion
-categories: [{categories}]
+categories: {categories}
 created: 2012-10-18
 changed: 2014-01-02
 post_author: otiadmin
@@ -51,4 +51,4 @@ lang: fr
 </div>
 
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

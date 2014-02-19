@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Mountain-top repeaters and solar-powered Wi-Fi: Guest Post from Nepal Wireless
-categories: [Guest post,community wireless]
+categories: Guest post,community wireless
 created: 2013-07-26
 changed: 2013-12-19
 post_author: 
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><em>The Open Technology Institute convened over a dozen community&nbsp;technologists from across India and Nepal for the first <a href="https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop">international&nbsp;Commotion Wireless workshop</a> in June. Over the next several weeks, we&nbsp;will be highlighting their innovative grassroots community technology&nbsp;projects on our blog. Our first guest post is from&nbsp;<strong>Mahabir Pun</strong>, co-founder of&nbsp;<a href="http://www.nepalwireless.net/index.php">Nepal Wireless Networking Project</a>.</em></p>
+  <p><em>The Open Technology Institute convened over a dozen community&nbsp;technologists from across India and Nepal for the first <a href="https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop">international&nbsp;Commotion Wireless workshop</a> in June. Over the next several weeks, we&nbsp;will be highlighting their innovative grassroots community technology&nbsp;projects on our blog. Our first guest post is from&nbsp;<strong>Mahabir Pun</strong>, co-founder of&nbsp;<a href="http://www.nepalwireless.net/index.php">Nepal Wireless Networking Project</a>.</em></p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__236 img__view_mode__media_large attr__format__media_large" height="360" src="/files/styles/large/public/IMG_0759.JPG?itok=wKot-CrU" typeof="foaf:Image" width="480" /></p>
 
@@ -35,4 +32,4 @@ lang: en
 <p>However, the main goal of the project is to bridge the digital divide. Therefore the project is focused more on connecting as many rural schools as possible and providing computer training to the students, school teachers, and villagers. Every year we send university students from Nepal and abroad as volunteers to provide computer training to the people in rural areas. The second area of focus is to provide health services to the villagers of remote areas through tele-medicine. We found this to be urgent because there are no clinics and medical doctors in the remote villages. The project has connected ten rural clinics to a hospital in Kathmandu on the network. The rural health workers communicate with the medical doctors in the city hospital to help the patients in the villages. It runs computer training for the health workers and teaches them how to use computers to connect to the city hospital through video conferencing.</p>
 
 <p>Now the main focus of Nepal Wireless Networking Project is to help the villages located in remote Himalayan valleys get connected to the Internet, where no commercial service providers have reached. Nepal Wireless Networking Project has come a long way, but we are still learning how to provide maximum benefit of information technology to poor people living in rural areas.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

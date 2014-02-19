@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion DR2 Release Notes
-categories: [release]
+categories: release
 created: 2013-09-19
 changed: 2013-09-19
 post_author: jking
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p>Developer Release 2 is the latest stable release of the Commotion platform. It features a focus on improved features around network management, including initial compatibility with external visualization tools and internationalization support.</p>
+  <p>Developer Release 2 is the latest stable release of the Commotion platform. It features a focus on improved features around network management, including initial compatibility with external visualization tools and internationalization support.</p>
 
 <h2>What is a Commotion release?</h2>
 
@@ -54,4 +51,4 @@ lang: en
 	<li><a href="https://github.com/opentechinstitute/olsrd/tree/release-0.6.5.4/lib/mdp">olsrd-mdp v0.2</a>: Plugin for signing OLSR mesh traffic</li>
 	<li><a href="https://github.com/opentechinstitute/serval-crypto">serval-crypto v2.1</a>: Cryptographic libraries and API for signing mDNS service advertisements</li>
 </ul>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

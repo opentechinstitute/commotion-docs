@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Key Concepts
-categories: [{categories}]
+categories: {categories}
 created: 2012-06-25
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -100,4 +100,4 @@ Commotion documentation should clearly discuss any issues of privacy and data re
 <img alt="" src="/files/HIG_25b.png" style="border-style:solid; border-width:1px; height:113px; margin-bottom:5px; margin-top:5px; width:419px" /></p>
 
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

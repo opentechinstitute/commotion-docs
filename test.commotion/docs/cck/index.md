@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Construction Kit
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-20
 changed: 2014-01-06
 post_author: critzo
@@ -65,4 +65,4 @@ lang: en
 
 <p class="rtecenter"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Commotion Construction Kit</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
 Please share any derivative works with the Commotion community by emailing the <a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">Commotion-discuss list</a>, or Tweeting with the hashtag #commotion.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

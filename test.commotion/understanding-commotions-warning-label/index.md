@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Understanding Commotion's Warning Label
-categories: [{categories}]
+categories: {categories}
 created: 2013-02-14
 changed: 2013-02-21
 post_author: s2e
@@ -48,4 +48,4 @@ The current stable release of Commotion has its mesh traffic encrypted (WPA-None
 <p><strong>Why Commotion Can't</strong><br />
 Wireless connections use radio waves broadcast across the air to communicate with each other. Each country determines which types of radio waves can be used for free in their country. This usually means that the most weak and easily disrupted radio waves are given to the public. Radio jamming over a small range is a cheap and simple process that can be done in a variety of ways. If you experience radio jamming, the best option is simply to move in order to connect to another part of the mesh that is not being jammed and transmit your data there. Below is a short overview of radio jamming. </p>
 <ul><li> <a href="https://en.wikipedia.org/wiki/Wireless_signal_jammer">https://en.wikipedia.org/wiki/Wireless_signal_jammer</a> </li>
-</ul><div class="tags">Tags: {{ page.categories }}</div>
+</ul>

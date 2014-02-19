@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get Involved
-categories: [{categories}]
+categories: {categories}
 created: 2013-12-11
 changed: 2013-12-12
 post_author: critzo
@@ -43,4 +43,4 @@ When you run into a problem with the software, report the bug so we can address 
 <h2>Promote the Project</h2>
 
 <p>Even if you’re not a programmer, you can still help the project grow by spreading the word among your community. Share our blog entries and encourage your friends to get involved and try out Commotion tools. Learn how to set up your own community network by reading our <a href="/docs/get-started">Get Started guide</a>.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

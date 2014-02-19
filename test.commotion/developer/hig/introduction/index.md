@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Human Interface Guidelines
-categories: [{categories}]
+categories: {categories}
 created: 2012-06-25
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -77,4 +77,4 @@ lang: en
 <p>Building a community, either online or offline, requires effective social and cultural organizing. Learning and trust play a key role in creating a neighborhood network that can benefit a wide array of individuals. Commotion software should facilitate positive human interactions that build a social network while building a mesh network.</p>
 
 <p>If a Commotion application allows the user to build or maintain a network, it should reference relevant Commotion documentation regarding neighborhood network building and organizing. You might include some of this content inline in the software and some as links to online sources.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

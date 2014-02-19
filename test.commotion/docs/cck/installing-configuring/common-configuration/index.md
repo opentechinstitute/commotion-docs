@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Common Configurations
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-06
 changed: 2014-01-12
 post_author: critzo
@@ -256,4 +256,4 @@ lang: en
 	<li>Wireless channel</li>
 </ul>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get the Word Out: Flyer Design
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-10-07
 post_author: critzo
@@ -141,4 +141,4 @@ lang: en
 
 <p>Attribution: "Scissor" symbol from thenounproject.com collection.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion Field Test: Pop-up mesh network, downtown Washington, DC
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-29
 changed: 2013-11-04
 post_author: georgia
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/gqOZBVtarMc" width="420"></iframe></p>
+  <p><iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/gqOZBVtarMc" width="420"></iframe></p>
 
 <h3><b>Introduction:</b></h3>
 
@@ -105,4 +102,4 @@ lang: en
 <p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/13.png" style="height: 342px; width: 500px;" /></p>
 
 <p><em>OLSR-Viz shows the four access points in an “L” shape to the right side of the gateway node. The two other nodes&nbsp;forming a smaller mesh network to the left side of the gateway node are access points located in the OTI office on the same mesh network. </em></p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

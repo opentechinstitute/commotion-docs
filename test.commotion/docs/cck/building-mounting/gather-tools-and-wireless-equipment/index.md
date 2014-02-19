@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gather Tools and Wireless Equipment
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-11-22
 post_author: critzo
@@ -446,4 +446,4 @@ If the Commotion node is plugged in to the router's WAN (Internet) port, the con
 
 <p>This module should be considered a companion to <a class="module">Prep and Install Rooftop Nodes</a>, <a class="module">Learn about Rooftop Mounts</a>, and <a class="module">Learn Rooftop Basics</a>.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

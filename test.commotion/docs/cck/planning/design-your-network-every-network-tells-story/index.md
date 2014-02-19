@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design your Network: Every Network Tells a Story
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -247,4 +247,4 @@ lang: en
 
 <p>Alternatively, get ready to talk to your neighbors about your proposed network by making a flyer (<a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>) or conducting a survey to see who's willing to contribute (<a href="/docs/cck/planning/survey-your-neighbors">Survey Your Neighbors</a>)</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download Commotion Andoid
-categories: [{categories}]
+categories: {categories}
 created: 2013-06-28
 changed: 2013-12-31
 post_author: grady
@@ -66,4 +66,4 @@ lang: en
 </table>
 
 <p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Source Code</a></p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

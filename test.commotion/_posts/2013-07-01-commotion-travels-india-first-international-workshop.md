@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion Travels to India for first International Workshop
-categories: [mesh,site visits,gource,git,visualization,troubleshooting,recommendations]
+categories: mesh,site visits,gource,git,visualization,troubleshooting,recommendations
 created: 2013-07-01
 changed: 2013-12-19
 post_author: gerety
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG" style="height:344px; width:400px" /></p>
+  <p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG" style="height:344px; width:400px" /></p>
 
 <p><span style="font-family:helvetica,arial,nimbus sans l,sans-serif">The Open Technology Institute traveled to Dharamshala, India the first week of June for the first international&nbsp;</span><a href="http://commotionwireless.net/" style="color: rgb(76, 120, 136); font-family: Helvetica, Arial, 'Nimbus Sans L', sans-serif;">Commotion Wireless</a><span style="font-family:helvetica,arial,nimbus sans l,sans-serif">&nbsp;workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.</span></p>
 
@@ -72,4 +69,4 @@ lang: en
 <p><span style="font-family:helvetica,arial,nimbus sans l,sans-serif">This theme continued throughout the workshop when the network needed troubleshooting or equipment did not work as expected. The process of troubleshooting and experimentation was an important component of the learning, and led to the discovery of a few bugs in the newest DR1.1 release. Even more valuable was the feedback from participants, which will continue to inform the direction of the Commotion project. The ideas and lessons coming out of the workshop are already being applied in the office to the Commotion code, to the training tools we use in our work, and in the networks we partner with in&nbsp;</span><a href="http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570" style="font-family: Helvetica, Arial, 'Nimbus Sans L', sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);">Detroit</a><span style="font-family:helvetica,arial,nimbus sans l,sans-serif">&nbsp;and&nbsp;</span><a href="http://oti.newamerica.net/blogposts/2013/troubleshooting_red_hook_wireless_network_technical_physical_and_social_needs-79702" style="font-family: Helvetica, Arial, 'Nimbus Sans L', sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);">Brooklyn</a><span style="font-family:helvetica,arial,nimbus sans l,sans-serif">.</span></p>
 
 <p>At the end of the week-long workshop the network was working well, and demonstrated the properties of a dynamic mesh by allowing us to connect a portable node as we moved through a grassy field, down the dirt path to a rooftop restaurant to toast our successes and future collaborations.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download Commotion Router
-categories: [{categories}]
+categories: {categories}
 created: 2013-06-28
 changed: 2014-01-06
 post_author: grady
@@ -152,4 +152,4 @@ lang: en
 <h2>Nightly Builds</h2>
 
 <p>Our nightly builds are back! Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href="http://downloads.commotionwireless.net/nightly/">downloads.commotionwireless.net/nightly</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

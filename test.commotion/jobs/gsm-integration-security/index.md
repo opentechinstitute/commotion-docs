@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Request for Development Proposals - GSM Integration and Security
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-03
 changed: 2013-07-03
 post_author: critzo
@@ -93,4 +93,4 @@ For the past decade, OTI’s team has pioneered wireless mesh networking. OTI st
 <br />
 Our expertise can be demonstrated through our deployment and development as well as the extensive relationships we have fostered in the open source wireless community.<br />
 &nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

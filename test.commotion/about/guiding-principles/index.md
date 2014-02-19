@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guiding Principles
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-14
 changed: 2013-07-18
 post_author: critzo
@@ -20,4 +20,4 @@ lang: en
 	&nbsp;</li>
 	<li>New members may contribute to existing Commotion projects by collaborating with active developers. Each Commotion subproject will maintain an active version-controlled code repository. Guidelines for contribution will be managed by each project’s active developers, and will be posted on each project’s development page.</li>
 </ul>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

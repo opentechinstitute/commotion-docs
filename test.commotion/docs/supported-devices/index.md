@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Supported Devices
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-07
 changed: 2013-12-28
 post_author: critzo
@@ -171,4 +171,4 @@ lang: fr
 	</tbody>
 </table>
 </div>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

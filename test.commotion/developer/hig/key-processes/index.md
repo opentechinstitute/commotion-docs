@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Key Processes
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-03
 changed: 2013-07-14
 post_author: michael@theworkdept.com
@@ -98,4 +98,4 @@ lang: en
 <p><img alt="" src="/files/join%20as%20a%20client.png" /></p>
 
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

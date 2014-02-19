@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: PRESS RELEASE: New Tools Support Communities to Build Own Wireless Communications Infrastructure
-categories: [community wireless,Detroit,red hook,tools,CCK,digital stewards]
+categories: community wireless,Detroit,red hook,tools,CCK,digital stewards
 created: 2013-10-01
 changed: 2013-12-19
 post_author: darbyhickey
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><img src="/files/styles/large/public/CCK_general_intro.png?itok=6eRvcgMY"/></p>
+  <p><img src="/files/styles/large/public/CCK_general_intro.png?itok=6eRvcgMY"/></p>
 
 <p>WASHINGTON, DC&nbsp;— New America Foundation’s&nbsp;<a href="http://oti.newamerica.net/">Open Technology Institute</a>&nbsp;(OTI) today released the first round of its <a href="https://commotionwireless.net/docs/cck">Commotion Construction Kit</a>, a “do it ourselves” guide for building wireless communications infrastructure. The materials are part of the Commotion project, an open-source communications toolkit that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks and share local services.</p>
 
@@ -23,4 +20,4 @@ lang: en
 <p>Like the Commotion software, these materials are open source, which means development on them continues and community involvement is critical. This first wave of modules represents a work in progress. OTI welcomes all feedback on these materials and will collaboratively expand and update them.</p>
 
 <p>View and download the Commotion Construction Kit on the&nbsp;<a href="http://commotionwireless.net/docs/cck">Commotion website</a>.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

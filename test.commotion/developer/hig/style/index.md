@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Style
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-03
 changed: 2013-09-04
 post_author: michael@theworkdept.com
@@ -120,4 +120,4 @@ lang: en
 <p>“You're connected to <strong>Sparkles</strong> mesh network. Your node name is <strong>Josh21</strong> and you are using <strong>Channel 5</strong>. You're connected to 5 nodes and 2 clients are connected to you. You aren't connected to the internet.”</p>
 
 <p>"There aren't any nearby mesh networks. Would you like to create a new mesh network?"</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

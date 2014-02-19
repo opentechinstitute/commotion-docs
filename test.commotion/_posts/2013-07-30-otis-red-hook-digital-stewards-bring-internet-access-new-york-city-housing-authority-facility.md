@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility
-categories: [red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance]
+categories: red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance
 created: 2013-07-30
 changed: 2013-07-30
 post_author: georgia
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/tiwan_kathy_roofmount_0.JPG" style="height: 400px; width: 300px;" /><br />
+  <p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/tiwan_kathy_roofmount_0.JPG" style="height: 400px; width: 300px;" /><br />
 <em>Tiwan Burrus (RHI) and Katherine Ortiz (RHI) attaching a Pico Station to a roof mount.</em></p>
 
 <p>A 20-computer public computer center hosted at the New York City Housing Authority’s (NYCHA) Miccio Recreation Center now has Internet access following a day of installations by young adults trained by the Open Technology Institute (OTI), the Red Hook Initiative (RHI) and Brooklyn Fiber. Five Red Hook “<a href="http://oti.newamerica.net/blogposts/2013/new_video_community_technology_and_training-88639">Digital Stewards</a>,” young adults engaged in a New York City workforce development effort, installed 6 new wireless routers into the Red Hook WiFi network in the beginning of July 2013. The Stewards connected two new partner institutions to RHI’s existing Red Hook Network with these installations - adding a local school and the NYCHA Miccio Recreation Center to a set of partners including churches, local residents and the Red Hook Initiative’s building. The public areas surrounding these buildings now have access to the Internet as well as local applications running on the neighborhood website.</p>
@@ -29,4 +26,4 @@ lang: en
 
 <p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/tiwan-cable_0.JPG" style="height: 400px; width: 300px;" /><br />
 <em>Tiwan Burrus (RHI) stringing out cable for a router.</em></p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get Help
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-15
 changed: 2014-01-02
 post_author: critzo
@@ -30,4 +30,4 @@ lang: fr
 
 <p>Learn more about <a href="http://freenode.net/using_the_network.shtml" target="_blank">using IRC</a>.</p>
 </div>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

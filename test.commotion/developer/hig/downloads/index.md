@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Downloads
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-03
 changed: 2013-07-06
 post_author: michael@theworkdept.com
@@ -33,4 +33,4 @@ lang: en
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design your Network: Construction Elements
-categories: [{categories}]
+categories: {categories}
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -50,4 +50,4 @@ lang: en
 
 <p><a href="http://thenounproject.com" target="_blank">thenounproject.com</a> has a graphics that you can use along with these Elements.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

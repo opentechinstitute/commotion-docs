@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Commotion Router v1 Release Notes
-categories: [release]
+categories: release
 created: 2013-12-30
 changed: 2013-12-31
 post_author: jking
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p>These are the release notes for Commotion Router v1 "Grumpy Cat", <strong><a href="/download/routers">available for download now</a></strong>. This is the first full version of the <a href="http://openwrt.org">OpenWRT</a>-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools. For clarity, the Commotion firmware distribution for wireless routers will now be referred to as Commotion Router, rather than Commotion-OpenWRT or CommotionWRT.</p>
+  <p>These are the release notes for Commotion Router v1 "Grumpy Cat", <strong><a href="/download/routers">available for download now</a></strong>. This is the first full version of the <a href="http://openwrt.org">OpenWRT</a>-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools. For clarity, the Commotion firmware distribution for wireless routers will now be referred to as Commotion Router, rather than Commotion-OpenWRT or CommotionWRT.</p>
 
 <h3>A Note About Releases</h3>
 
@@ -50,4 +47,4 @@ lang: en
 	<li><a href="http://openwrt.org">OpenWRT Linux 12.09.1 "Attitude Adjustment"</a>: Extensible Linux distribution for embedded devices.</li>
 	<li><a href="http://luci.subsignal.org">LuCI v0.11</a>: Lua-based model-view-controller web framework for embedded devices.</li>
 </ul>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Building a Mesh Network in Rural Somaliland
-categories: [{categories}]
+categories: {categories}
 created: 2013-12-12
 changed: 2013-12-19
 post_author: critzo
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><strong>Posted on behalf of Daniel Hastings</strong></p>
+  <p><strong>Posted on behalf of Daniel Hastings</strong></p>
 
 <p>I had heard about mesh networking before I arrived in Somaliland, but had never been in the position to actually build a mesh network. When I accepted the position as ICT instructor at<a href="http://www.abaarsoschool.org" style="text-decoration:none;"> <u>Abaarso School of Science and Technology</u></a> in Abaarso, Somaliland, I figured this may be my chance. I knew that the Open Technology Institute (OTI) had been developing a mesh firmware called <a href="https://commotionwireless.net/" style="text-decoration:none;"><u>Commotion</u></a>, suitable for remote locations. Upon arriving in Somaliland I decided that building a mesh network using Commotion would be one of my top priorities.</p>
 
@@ -76,4 +73,4 @@ I repeatedly told my students that some of the greatest makers and technologists
 <p>I would like to give my sincere gratitude to the Commotion Wireless Project for the support they gave me along with providing me with necessary tools to build this network. Not only did the students at Abaarso School get extremely enthused about mesh networking and learn the meaning of community technology, but now another small part of a country that, technically, does not even exist is more connected to the rest of the world.<br />
 <br />
 <img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/ahmed.abdirahiim%20%28768x1024%29.jpg" style="width:600px" /></p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

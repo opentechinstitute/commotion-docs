@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: blog
 title: Building Pop-up Mesh Networks
-categories: [{categories}]
+categories: {categories}
 created: 2013-10-30
 changed: 2013-12-19
 post_author: gerety
 lang: en
 ---
- <div class="meta">
-  <span class="author">{{page.created}} - {{ page.post_author }}</span>
-</div>
- <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__548 img__view_mode__media_large attr__format__media_large" height="222" src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" typeof="foaf:Image" width="480" /></p>
+  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__548 img__view_mode__media_large attr__format__media_large" height="222" src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" typeof="foaf:Image" width="480" /></p>
 
 <p>The Open Technology Institute recently conducted a training on how to build pop-up mesh networks using Commotion. Our goal was to quickly deploy a flexible and mobile mesh network across several square blocks using portable battery-powered routers carried in backpacks. Commotion’s dynamic routing allows a network to shift and transform with the movements of the people, creating a highly resilient temporary infrastructure that can distribute Internet access throughout an area or support local area communications and data sharing.</p>
 
@@ -92,4 +89,4 @@ lang: en
 <p>The Commotion project is currently working on the <a href="https://commotionwireless.net/docs/cck">Commotion Construction Kit,</a> a set of tools that the Open Technology Institute has used in trainings around the world and at home. It is a “do it ourselves” guide to building wireless mesh networks. They are a work in progress, so check back frequently for updates. We welcome feedback and experimentation!</p>
 
 <p>These field experiments were conducted using <a href="https://commotionwireless.net/download/routers">Commotion Developer Release 2</a>, and&nbsp;the network was configured&nbsp;to use WPA2-PSK to encrypt the traffic.</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

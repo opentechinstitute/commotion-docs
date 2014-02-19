@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rooftop Mounting Guide
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-30
 changed: 2013-07-30
 post_author: critzo
@@ -97,4 +97,4 @@ lang: en
 <h3>Conclusion</h3>
 
 <p>As a home owner or building owner, use whichever method above you are most comfortable with. It’s your house! Read through your options above and see what works best for you. If you are still not sure, ask around your neighborhood. See what your neighbors use to mount their satellite dishes, TV antennas, or wireless equipment. Ask around, maybe they can help you install it as well! Also keep in mind there might already be something on your roof that you could use to mount a wireless router to. Generally a pipe or antenna mast should be around 1½” in diameter to best fit the equipment. If you can get to the existing mount safely, by all means use it. One last note: <strong>be safe!</strong></p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Request for Development Proposals - Serval Key Management
-categories: [{categories}]
+categories: {categories}
 created: 2013-07-14
 changed: 2013-07-14
 post_author: critzo
@@ -67,4 +67,4 @@ Our expertise can be demonstrated through our deployment and development as well
 <hr />
 <hr />
 <p>&nbsp;</p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

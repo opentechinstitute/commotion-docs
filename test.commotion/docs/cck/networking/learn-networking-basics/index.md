@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn Networking Basics
-categories: [{categories}]
+categories: {categories}
 created: 2013-11-07
 changed: 2013-11-26
 post_author: critzo
@@ -190,4 +190,4 @@ and write down the IP address it reports: ____________________
 
 <p>This module is intended to provide some helpful background on networking. We recommend reading the upcoming (but not finished!) Learn about Wireless after this guide.</p>
 </section>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 

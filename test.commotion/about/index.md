@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Commotion
-categories: [{categories}]
+categories: {categories}
 created: 2012-07-16
 changed: 2013-12-18
 post_author: admin
@@ -34,4 +34,4 @@ lang: en
 <p>Commotion is led by the <a href="http://oti.newamerica.net" target="_blank">Open Technology Institute</a>.</p>
 
 <p><a href="http://oti.newamerica.net"><img alt="Open Technology Institute logo" src="/files/OTI-Institute-CMYK%20%5BConverted%5D-01.png" style="height:90px; width:300px" title="Open Technology Institute logo" /></a></p>
- <div class="tags">Tags: {{ page.categories }}</div>
+ 
