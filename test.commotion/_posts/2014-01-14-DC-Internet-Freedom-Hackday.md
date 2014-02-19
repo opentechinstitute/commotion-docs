@@ -1,6 +1,6 @@
 ---
 title: "Commotion Team participates in DC Internet Freedom Hack Day"
-layout: default
+layout: blog
 lang: en
 categories: UI/UX collaboration
 post_author: Chris Ritzo
@@ -10,4 +10,3 @@ On Saturday, January 11, 2014, members of the Commotion team joined two other op
 
 The Commotion Wireless team was excited to bring our 1.0 release of Commotion Router to the event because it provided an opportunity to expose Commotion to people from a variety of backgrounds. We got great feedback on the user interface of Commotion Router and Commotion Website, suggestions on improving our Commotion Construction Kit, had Commotion put through some security testing, and refined ideas for our general communications about Commotion.
 
-Tags: {{ page.categories }} 

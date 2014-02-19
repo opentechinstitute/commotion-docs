@@ -7244,14 +7244,30 @@ h1.pageheadings {
   width: 55%;
 }
 .right-third {
-  width: 25%;
+  width: 20%;
   float: right;
-  margin: .3em 2em;
+  margin: 2em;
+}
+.right-third a {
+  line-height: 2em;
+  text-decoration: underline;
+}
+.right-third a:hover,
+.left-twothird a:hover {
+  color: #E8FF00;
+  background: #000000;
+  border-bottom: none;
 }
 .left-twothird {
   width: 70%;
   float: left;
   margin: .3em 2em;
+}
+.left-twothird h2 {
+  margin-left: 0;
+}
+.left-twothird a {
+  text-decoration: underline;
 }
 .blog-pubdata {
   margin-left: 1.3em;
