@@ -6,5 +6,4 @@ encoding: utf-8
 url: "staging.commotionwireless.net"
 port: 80
 
-
 permalink: /blog/:year/:month/:day/:title

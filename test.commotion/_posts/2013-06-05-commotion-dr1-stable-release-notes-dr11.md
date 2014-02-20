@@ -7,37 +7,23 @@ changed: 2013-07-26
 post_author: andrew
 lang: en
 ---
-  <p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.</p>
-
-
+  Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.
 <h2>What is a Commotion release?</h2>
-
-<p>Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.</p>
-
-
+Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.
 <h2>Platform Availability</h2>
-
-<p>Currently, only the OpenWRT-based router firmware is DR1 compatible. Other platforms are under active development and are being brought up to feature parity. Current platform revisions can be found on the <a href="https://code.commotionwireless.net/projects/commotion/wiki/Official_Version_Feature_Targets">Official Version Feature Targets</a> page. Pre-compiled software images are available on the <a href="https://commotionwireless.net/download">Commotion Download</a> page.</p>
-
-
+Currently, only the OpenWRT-based router firmware is DR1 compatible. Other platforms are under active development and are being brought up to feature parity. Current platform revisions can be found on the <a href="https://code.commotionwireless.net/projects/commotion/wiki/Official_Version_Feature_Targets">Official Version Feature Targets</a> page. Pre-compiled software images are available on the <a href="https://commotionwireless.net/download">Commotion Download</a> page.
 <h2>Features:</h2>
-
 <ul>
-	<li><strong>Easy-to-use setup wizard:</strong> The Commotion Quickstart wizard provides a simple, one-step interface for setting up a Commotion node.</li>
-	<li><strong>Local applications:</strong> The Commotion Apps Portal is an interface for creating and browsing for local network applications.</li>
-	<li><strong>Common platform for managing settings:</strong> The Commotion Daemon provides a common management interface for maintaining the configurations of different community networks.</li>
-	<li><strong>Encryption tools:</strong> Commotion configures industry-standard IBSS-RSN encryption by default, and provides the Serval crypto API to aid developers in creating secure applications.</li>
-	<li><strong>Consistent visual style:</strong> New Commotion releases are all styled in accordance with the Commotion Human Interface Guidelines (http://commotionwireless.net/docs/hig/introduction).</li>
-	<li><strong>Simplified debugging:</strong> A new Commotion Debugging Helper tool makes it easy to retrieve useful troubleshooting information from a node in the event of a network problem.</li>
+	<li>**Easy-to-use setup wizard:** The Commotion Quickstart wizard provides a simple, one-step interface for setting up a Commotion node.</li>
+	<li>**Local applications:** The Commotion Apps Portal is an interface for creating and browsing for local network applications.</li>
+	<li>**Common platform for managing settings:** The Commotion Daemon provides a common management interface for maintaining the configurations of different community networks.</li>
+	<li>**Encryption tools:** Commotion configures industry-standard IBSS-RSN encryption by default, and provides the Serval crypto API to aid developers in creating secure applications.</li>
+	<li>**Consistent visual style:** New Commotion releases are all styled in accordance with the Commotion Human Interface Guidelines (http://commotionwireless.net/docs/hig/introduction).</li>
+	<li>**Simplified debugging:** A new Commotion Debugging Helper tool makes it easy to retrieve useful troubleshooting information from a node in the event of a network problem.</li>
 </ul>
-
 <h2>Fixes</h2>
-
-<p>Innumerable fixes and changes went into this release since <a href="https://code.commotionwireless.net/projects/commotion/wiki/Developer_Pre-Release_%28PR3%29_Feature_Targets">Preview Release 3 (PR3)</a>, the previous stable branch. A complete list can be found on the Commotion project site's <a href="https://code.commotionwireless.net/projects/commotion/issues?set_filter=1&amp;f[]=status_id&amp;op[status_id]=!&amp;v[status_id][]=1&amp;f[]=fixed_version_id&amp;op[fixed_version_id]=%3D&amp;v[fixed_version_id][]=2&amp;f[]=&amp;c[]=tracker&amp;c[]=status&amp;c[]=priority&amp;c[]=subject&amp;c[]=assigned_to&amp;c[]=updated_on&amp;group_by=">issue tracker</a>.</p>
-
-
+Innumerable fixes and changes went into this release since <a href="https://code.commotionwireless.net/projects/commotion/wiki/Developer_Pre-Release_%28PR3%29_Feature_Targets">Preview Release 3 (PR3)</a>, the previous stable branch. A complete list can be found on the Commotion project site's <a href="https://code.commotionwireless.net/projects/commotion/issues?set_filter=1&amp;f[]=status_id&amp;op[status_id]=!&amp;v[status_id][]=1&amp;f[]=fixed_version_id&amp;op[fixed_version_id]=%3D&amp;v[fixed_version_id][]=2&amp;f[]=&amp;c[]=tracker&amp;c[]=status&amp;c[]=priority&amp;c[]=subject&amp;c[]=assigned_to&amp;c[]=updated_on&amp;group_by=">issue tracker</a>.
 <h2>Included Components</h2>
-
 <ul>
 	<li><a href="https://github.com/opentechinstitute/avahi-client">avahi-client v0.1</a>: Provides automatic network service discovery</li>
 	<li><a href="https://github.com/opentechinstitute/commotion-apps/">commotion-apps v1.1</a>: Web-based local application portal for Commotion-OpenWRT</li>

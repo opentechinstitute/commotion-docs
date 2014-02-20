@@ -7,31 +7,20 @@ changed: 2013-12-31
 post_author: jking
 lang: en
 ---
-  <p>These are the release notes for Commotion Router v1 "Grumpy Cat", <strong><a href="/download/routers">available for download now</a></strong>. This is the first full version of the <a href="http://openwrt.org">OpenWRT</a>-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools. For clarity, the Commotion firmware distribution for wireless routers will now be referred to as Commotion Router, rather than Commotion-OpenWRT or CommotionWRT.</p>
-
-
+  These are the release notes for Commotion Router v1 "Grumpy Cat", **<a href="/download/routers">available for download now</a>**. This is the first full version of the <a href="http://openwrt.org">OpenWRT</a>-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools. For clarity, the Commotion firmware distribution for wireless routers will now be referred to as Commotion Router, rather than Commotion-OpenWRT or CommotionWRT.
 <h3>A Note About Releases</h3>
-
-<p>For version 1, we are changing our versioning scheme, and deprecating all "Preview Release," "Developer Release" style designations. From version 1 forward, we are using whole number versions for each release, analagous to projects such as Firefox and Chrome. So, for instance, this will be release 1, and the next will be release 2, and so on. If critical bugfixes are required, we may put out point releases such as 1.1, 1.2, 2.1, etc. These versions are for each platform; there will be a Commotion Router v1, a Commotion Android v1, and so on. These version numbers will not necessarily be synchronized between platforms. Also, for some platforms, like Commotion Router, we may have release names based on internet memes. Individual software components will continue to be versions according to <a href="http://semver.org">Semantic Versioning</a>.</p>
-
-
+For version 1, we are changing our versioning scheme, and deprecating all "Preview Release," "Developer Release" style designations. From version 1 forward, we are using whole number versions for each release, analagous to projects such as Firefox and Chrome. So, for instance, this will be release 1, and the next will be release 2, and so on. If critical bugfixes are required, we may put out point releases such as 1.1, 1.2, 2.1, etc. These versions are for each platform; there will be a Commotion Router v1, a Commotion Android v1, and so on. These version numbers will not necessarily be synchronized between platforms. Also, for some platforms, like Commotion Router, we may have release names based on internet memes. Individual software components will continue to be versions according to <a href="http://semver.org">Semantic Versioning</a>.
 <h3>New Features</h3>
-
 <ul>
-	<li><strong>New user interface:</strong> We have conducted an extensive usability review that has contributed to a complete overhaul of the Commotion user interface. The result is that our user interfaces are easier to use, more powerful, and more closely integrated with the rest of the software. We plan on revisiting the usability review process on a regular basis in order to keep our interfaces friendly and current.</li>
-	<li><strong>Multi-interface support:</strong> We now support more flexible configurations of devices that include multiple wired and wireless interfaces. This allows us to support more routers, and allows for the deployment of more complex networks.</li>
-	<li><strong>Greater stability, fewer resources:</strong> Work on reducing our processing and storage overhead on embedded platforms has resulted in greater stability and smaller software images.</li>
-	<li><strong>Better Serval mesh support:</strong> The <a href="http://servalproject.org">Serval</a> encrypted overlay mesh is now more closely integrated throughout our software, and provides an API for developers to create truly end-to-end encrypted applications on top of a mesh network. Developer docs and an example messaging application forthcoming.</li>
-	<li><strong>Easier upgrades:</strong> Commotion now supports retaining configuration between upgrades, so that you do not have to reconfigure your device each time. We intend to retain upgrade compatibility as much as possible from this point forward.</li>
+	<li>**New user interface:** We have conducted an extensive usability review that has contributed to a complete overhaul of the Commotion user interface. The result is that our user interfaces are easier to use, more powerful, and more closely integrated with the rest of the software. We plan on revisiting the usability review process on a regular basis in order to keep our interfaces friendly and current.</li>
+	<li>**Multi-interface support:** We now support more flexible configurations of devices that include multiple wired and wireless interfaces. This allows us to support more routers, and allows for the deployment of more complex networks.</li>
+	<li>**Greater stability, fewer resources:** Work on reducing our processing and storage overhead on embedded platforms has resulted in greater stability and smaller software images.</li>
+	<li>**Better Serval mesh support:** The <a href="http://servalproject.org">Serval</a> encrypted overlay mesh is now more closely integrated throughout our software, and provides an API for developers to create truly end-to-end encrypted applications on top of a mesh network. Developer docs and an example messaging application forthcoming.</li>
+	<li>**Easier upgrades:** Commotion now supports retaining configuration between upgrades, so that you do not have to reconfigure your device each time. We intend to retain upgrade compatibility as much as possible from this point forward.</li>
 </ul>
-
 <h3>Bug Fixes</h3>
-
-<p>Countless fixes and improvements have gone into this release. Most notably, we have moved from our legacy non-standard IP subnets that we retained for compatibility with another project to new private subnets in order to alleviate routing issues when connected to the internet.</p>
-
-
+Countless fixes and improvements have gone into this release. Most notably, we have moved from our legacy non-standard IP subnets that we retained for compatibility with another project to new private subnets in order to alleviate routing issues when connected to the internet.
 <h3>Included Components</h3>
-
 <ul>
 	<li><a href="https://github.com/opentechinstitute/commotion-service-manager">commotion-service-manager v0.3</a>: Provides automatic network service discovery</li>
 	<li><a href="https://github.com/opentechinstitute/luci-commotion-apps/">luci-commotion-apps v2.0</a>: Web-based local application portal for Commotion-OpenWRT</li>
