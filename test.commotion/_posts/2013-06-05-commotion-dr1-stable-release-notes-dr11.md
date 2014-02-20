@@ -7,15 +7,18 @@ changed: 2013-07-26
 post_author: andrew
 lang: en
 ---
-  <p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.</p>
+  <p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.</p>
+
 
 <h2>What is a Commotion release?</h2>
 
-<p>Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.</p>
+<p>Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.</p>
+
 
 <h2>Platform Availability</h2>
 
-<p>Currently, only the OpenWRT-based router firmware is DR1 compatible. Other platforms are under active development and are being brought up to feature parity. Current platform revisions can be found on the <a href="https://code.commotionwireless.net/projects/commotion/wiki/Official_Version_Feature_Targets">Official Version Feature Targets</a> page. Pre-compiled software images are available on the <a href="https://commotionwireless.net/download">Commotion Download</a> page.</p>
+<p>Currently, only the OpenWRT-based router firmware is DR1 compatible. Other platforms are under active development and are being brought up to feature parity. Current platform revisions can be found on the <a href="https://code.commotionwireless.net/projects/commotion/wiki/Official_Version_Feature_Targets">Official Version Feature Targets</a> page. Pre-compiled software images are available on the <a href="https://commotionwireless.net/download">Commotion Download</a> page.</p>
+
 
 <h2>Features:</h2>
 
@@ -30,7 +33,8 @@ lang: en
 
 <h2>Fixes</h2>
 
-<p>Innumerable fixes and changes went into this release since <a href="https://code.commotionwireless.net/projects/commotion/wiki/Developer_Pre-Release_%28PR3%29_Feature_Targets">Preview Release 3 (PR3)</a>, the previous stable branch. A complete list can be found on the Commotion project site's <a href="https://code.commotionwireless.net/projects/commotion/issues?set_filter=1&amp;f[]=status_id&amp;op[status_id]=!&amp;v[status_id][]=1&amp;f[]=fixed_version_id&amp;op[fixed_version_id]=%3D&amp;v[fixed_version_id][]=2&amp;f[]=&amp;c[]=tracker&amp;c[]=status&amp;c[]=priority&amp;c[]=subject&amp;c[]=assigned_to&amp;c[]=updated_on&amp;group_by=">issue tracker</a>.</p>
+<p>Innumerable fixes and changes went into this release since <a href="https://code.commotionwireless.net/projects/commotion/wiki/Developer_Pre-Release_%28PR3%29_Feature_Targets">Preview Release 3 (PR3)</a>, the previous stable branch. A complete list can be found on the Commotion project site's <a href="https://code.commotionwireless.net/projects/commotion/issues?set_filter=1&amp;f[]=status_id&amp;op[status_id]=!&amp;v[status_id][]=1&amp;f[]=fixed_version_id&amp;op[fixed_version_id]=%3D&amp;v[fixed_version_id][]=2&amp;f[]=&amp;c[]=tracker&amp;c[]=status&amp;c[]=priority&amp;c[]=subject&amp;c[]=assigned_to&amp;c[]=updated_on&amp;group_by=">issue tracker</a>.</p>
+
 
 <h2>Included Components</h2>
 

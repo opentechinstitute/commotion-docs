@@ -7,17 +7,22 @@ changed: 2013-11-04
 post_author: georgia
 lang: en
 ---
-  <p><iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/gqOZBVtarMc" width="420"></iframe></p>
+  <p><iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/gqOZBVtarMc" width="420"></iframe></p>
+
 
 <h3><b>Introduction:</b></h3>
 
-<p>During a lunch hour in downtown Washington, DC, the Open Technology Institute set up a proof of concept network for distributing Internet service to a public space using a mesh network of multiple mobile routers. Such a network would be useful where there is a sudden need for Internet connectivity, such as a spontaneous event, or conditions that prevent permanent network installation for a planned event. The same network configuration would work for a mobile event, such as a march, although the deployment team did not test for that scenario in this instance.</p>
+<p>During a lunch hour in downtown Washington, DC, the Open Technology Institute set up a proof of concept network for distributing Internet service to a public space using a mesh network of multiple mobile routers. Such a network would be useful where there is a sudden need for Internet connectivity, such as a spontaneous event, or conditions that prevent permanent network installation for a planned event. The same network configuration would work for a mobile event, such as a march, although the deployment team did not test for that scenario in this instance.</p>
 
-<p>The deployment team used the 25-Sep-2013 Nightly build of Commotion OpenWRT running on Ubiquiti’s omnidirectional Picostation router, with four routers powered by Energizer XP8000 battery packs. The team connected one router to the Internet in OTI’s office at 1899 L St NW and placed it in the south-facing 5th floor window. Team members took the battery-powered routers to nearby intersections to assess the functionality of the firmware, the link quality between the nodes, and the quality of the Internet service at the far point in the network, which was four hops from the gateway (see illustration below).</p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/2013-09-25 Pico Popup.svg_.2013_09_26_14_46_00.0.png" style="height: 318px; width: 400px;" /></p>
+<p>The deployment team used the 25-Sep-2013 Nightly build of Commotion OpenWRT running on Ubiquiti’s omnidirectional Picostation router, with four routers powered by Energizer XP8000 battery packs. The team connected one router to the Internet in OTI’s office at 1899 L St NW and placed it in the south-facing 5th floor window. Team members took the battery-powered routers to nearby intersections to assess the functionality of the firmware, the link quality between the nodes, and the quality of the Internet service at the far point in the network, which was four hops from the gateway (see illustration below).</p>
 
-<p><i>Approximate location of nodes in the pop-up network. The ad hoc mesh network delivered Internet connectivity to Farragut Square Park from the Open Technology Institute’s 5th floor office several blocks away.</i></p>
+
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/2013-09-25 Pico Popup.svg_.2013_09_26_14_46_00.0.png" style="height: 318px; width: 400px;" /></p>
+
+
+<p><i>Approximate location of nodes in the pop-up network. The ad hoc mesh network delivered Internet connectivity to Farragut Square Park from the Open Technology Institute’s 5th floor office several blocks away.</i></p>
+
 
 <h3><strong>Results and Observations: </strong></h3>
 
@@ -28,7 +33,8 @@ lang: en
 
 <h3><strong>Equipment details: </strong></h3>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/battpackrouter.png" style="width: 500px; height: 245px;" /></p>
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/battpackrouter.png" style="width: 500px; height: 245px;" /></p>
+
 
 <ul>
 	<li>4 Ubiquiti Picostations HP (6dBi) Omnidirectional routers (<a href="http://dl.ubnt.com/pico2hp_ds.pdf">spec</a>)</li>
@@ -57,49 +63,72 @@ lang: en
 
 <h3><strong>Steps followed in the Pop-up Test:</strong></h3>
 
-<p>OTI team installed a gateway node on the 5th floor glass window of the office building.</p>
+<p>OTI team installed a gateway node on the 5th floor glass window of the office building.</p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/IMG_1152.JPG" style="height: 225px; width: 300px;" /></p>
 
-<p>Then, four team members connected their four respective picostations to battery packs and carried them in backpacks and purses.</p>
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/IMG_1152.JPG" style="height: 225px; width: 300px;" /></p>
 
-<p>The team left the first member of the team with the first router, or node, 33 feet away from the gateway node at 1828 L St NW at ground level. They was able to access the Internet through the mesh network at this point.</p>
 
-<p>The remaining team members then walked south towards K St NW along 19th St NW to leave the next team member with the second node 500 feet away from the first node. The team ran “<a href="http://www.overlooksoft.com/features">Fing</a>”, a network toolkit, on their phones/mobile devices to note if they were able to ping each other’s nodes. The team was also able to access the Internet on their phones through the mesh at this point.</p>
+<p>Then, four team members connected their four respective picostations to battery packs and carried them in backpacks and purses.</p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-00-42.png" style="width: 300px; height: 500px;" /></p>
 
-<p><em>Splash page when the team accessed the Internet using the mesh network </em></p>
+<p>The team left the first member of the team with the first router, or node, 33 feet away from the gateway node at 1828 L St NW at ground level. They was able to access the Internet through the mesh network at this point.</p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-20-56.png" style="width: 281px; height: 500px;" /></p>
 
-<p><em>Using Fing, the team can monitor details of the access point and users of the access point </em></p>
+<p>The remaining team members then walked south towards K St NW along 19th St NW to leave the next team member with the second node 500 feet away from the first node. The team ran “<a href="http://www.overlooksoft.com/features">Fing</a>”, a network toolkit, on their phones/mobile devices to note if they were able to ping each other’s nodes. The team was also able to access the Internet on their phones through the mesh at this point.</p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-09-56.png" style="width: 281px; height: 500px;" /></p>
 
-<p><em>Using Fing, the team can ping other users of the mesh network. </em></p>
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-00-42.png" style="width: 300px; height: 500px;" /></p>
 
-<p>The remaining team walked east on K St NW towards 18th St NW, and left the third member with the third node 250 feet away from the second node at 1801 K St NW. The team was still able to get to the Internet using the mesh network which was now three hops (nodes) away from the gateway node.</p>
 
-<p>Finally, the team continued east towards Farragut Square on K St NW, with the fourth node in the team member’s purse, 0.1 miles away from the third node. The devices were still connected to each other via the mesh network but the signals were weaker, now that we were four hops and 0.3 miles away from the gateway node on a very busy street. When we raised the fourth access point to a higher level, the connection between nodes three and four improved.</p>
+<p><em>Splash page when the team accessed the Internet using the mesh network </em></p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-29-08.png" style="width: 281px; height: 500px;" /></p>
 
-<p><em>Using OLSR-Viz, we see that the connection between the access points is weaker when 4 hops and 0.3 miles away. </em></p>
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-20-56.png" style="width: 281px; height: 500px;" /></p>
 
-<p>&nbsp;</p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/IMG_1182.JPG" style="width: 400px; height: 533px;" /></p>
+<p><em>Using Fing, the team can monitor details of the access point and users of the access point </em></p>
 
-<p><em>The fourth access point is now raised in position at Farragut Square park </em></p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-28-42.png" style="width: 281px; height: 500px;" /></p>
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-09-56.png" style="width: 281px; height: 500px;" /></p>
 
-<p><em>OLSR-Viz shows that the connection gets better when the fourth Picostation is raised so there is better line of sight between the third access point and itself. </em></p>
 
-<p>At Farragut square park, getting to the Internet was more challenging and slower. At one point during the experiment, all the connections on the mesh network were captured on OLSR-Viz (image below).</p>
+<p><em>Using Fing, the team can ping other users of the mesh network. </em></p>
 
-<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/13.png" style="height: 342px; width: 500px;" /></p>
 
-<p><em>OLSR-Viz shows the four access points in an “L” shape to the right side of the gateway node. The two other nodes&nbsp;forming a smaller mesh network to the left side of the gateway node are access points located in the OTI office on the same mesh network. </em></p>
+<p>The remaining team walked east on K St NW towards 18th St NW, and left the third member with the third node 250 feet away from the second node at 1801 K St NW. The team was still able to get to the Internet using the mesh network which was now three hops (nodes) away from the gateway node.</p>
+
+
+<p>Finally, the team continued east towards Farragut Square on K St NW, with the fourth node in the team member’s purse, 0.1 miles away from the third node. The devices were still connected to each other via the mesh network but the signals were weaker, now that we were four hops and 0.3 miles away from the gateway node on a very busy street. When we raised the fourth access point to a higher level, the connection between nodes three and four improved.</p>
+
+
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-29-08.png" style="width: 281px; height: 500px;" /></p>
+
+
+<p><em>Using OLSR-Viz, we see that the connection between the access points is weaker when 4 hops and 0.3 miles away. </em></p>
+
+
+<p>&nbsp;</p>
+
+
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/IMG_1182.JPG" style="width: 400px; height: 533px;" /></p>
+
+
+<p><em>The fourth access point is now raised in position at Farragut Square park </em></p>
+
+
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/Screenshot_2013-09-25-14-28-42.png" style="width: 281px; height: 500px;" /></p>
+
+
+<p><em>OLSR-Viz shows that the connection gets better when the fourth Picostation is raised so there is better line of sight between the third access point and itself. </em></p>
+
+
+<p>At Farragut square park, getting to the Internet was more challenging and slower. At one point during the experiment, all the connections on the mesh network were captured on OLSR-Viz (image below).</p>
+
+
+<p><img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/13.png" style="height: 342px; width: 500px;" /></p>
+
+
+<p><em>OLSR-Viz shows the four access points in an “L” shape to the right side of the gateway node. The two other nodes&nbsp;forming a smaller mesh network to the left side of the gateway node are access points located in the OTI office on the same mesh network. </em></p>
+
  
