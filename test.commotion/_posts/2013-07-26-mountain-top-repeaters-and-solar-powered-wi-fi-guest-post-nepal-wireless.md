@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Mountain-top repeaters and solar-powered Wi-Fi: Guest Post from Nepal Wireless
+title: Mountain-top repeaters and solar-powered Wi-Fi - Guest Post from Nepal Wireless
 categories: Guest post,community wireless
 created: 2013-07-26
 changed: 2013-12-19

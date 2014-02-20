@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Step-by-step: creating and installing a package for Commotion
+title: Step-by-step - creating and installing a package for Commotion
 categories: chat,applications,routers,,messaging
 created: 2012-10-08
 changed: 2012-11-21

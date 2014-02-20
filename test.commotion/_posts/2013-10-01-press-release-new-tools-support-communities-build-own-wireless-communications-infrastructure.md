@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: PRESS RELEASE: New Tools Support Communities to Build Own Wireless Communications Infrastructure
+title: PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure
 categories: community wireless,Detroit,red hook,tools,CCK,digital stewards
 created: 2013-10-01
 changed: 2013-12-19

@@ -33,11 +33,11 @@ In the third field trial, participants deployed a network to cover a larger stre
 <i>Map 3: 8 node field trial with 7 people remaining relatively stationary and two people moving throughout the area.</i>
 In this configuration, node 50 moved throughout the network while other nodes remained relatively stationary. Nodes 37 and 182 occasionally had difficulty maintaining connections to the rest of the network. This was both because it was difficult to stand within line of sight, and because those participants had less field experience adjusting their position to improve network performance.
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__553 img__view_mode__media_large attr__format__media_large" height="276" src="/files/styles/large/public/olsrviz4.png?itok=hYCCbEeN" typeof="foaf:Image" width="475" />
-<i>Image 1: Network visualized with ETX values at point [4] (the last digits of the IP address correspond to the numbers in the map).</i>
+<i>Image 1: Network visualized with ETX values at point \[4\] (the last digits of the IP address correspond to the numbers in the map).</i>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__554 img__view_mode__media_large attr__format__media_large" height="240" src="/files/styles/large/public/olsrviz6.png?itok=RtTLCP_Y" typeof="foaf:Image" width="480" />
-<i>Image 2: Network visualized with ETX values at point [6] (the last digits of the IP address correspond to the numbers in the map). </i>
+<i>Image 2: Network visualized with ETX values at point \[6\] (the last digits of the IP address correspond to the numbers in the map). </i>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__555 img__view_mode__media_large attr__format__media_large" height="216" src="/files/styles/large/public/olsrviz7.png?itok=oxbB0fsK" typeof="foaf:Image" width="480" />
-<i>Image 3: Network visualized with ETX values at point [7] (the last digits of the IP address correspond to the numbers in the map).</i>
+<i>Image 3: Network visualized with ETX values at point \[7\] (the last digits of the IP address correspond to the numbers in the map).</i>
 In this field trial, we did not have an available Internet gateway, but instead, used <a href="https://github.com/danstaples/MediaGrid">MediaGrid</a> to facilitate local secure communications across the mesh network. During this exercise, we had MediaGrid running on a single laptop in the network. However, MediaGrid has the ability to sync across multiple laptops, which increases the resilience of the network. MediaGrid has a chat feature that allowed the deployment team to discuss changes to the network node position and report link quality and signal strength over the local area network.
 <table border="0" cellpadding="0" cellspacing="0" style="width: 338px;" width="338px">
 	<tbody>

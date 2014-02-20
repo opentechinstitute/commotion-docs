@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Design your Network: Construction Elements
+title: Design your Network- Construction Elements
 categories: {categories}
 created: 2013-09-27
 changed: 2013-09-28

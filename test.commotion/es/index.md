@@ -1,9 +1,8 @@
 ---
-title: "Commotion Wireless"
+title: Commotion Wireless
 layout: default
 lang: es
-categories:
-	- es
+categories: es
 ---
 <div style="background-image:url('images/commotion_kbabout_measure-03_0_0.png') left top no-repeat;" /> 
 <h2>Commotion Wireless</h2>

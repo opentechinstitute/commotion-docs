@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Neighborhood network builders: a summary
+title: Neighborhood network builders- a summary
 categories: UI,Detroit,community wireless,Research,recommendations,
 created: 2012-05-08
 changed: 2013-07-26

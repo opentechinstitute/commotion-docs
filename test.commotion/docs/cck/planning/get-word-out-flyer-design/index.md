@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Get the Word Out: Flyer Design
-categories: {categories}
+title: Get the Word Out - Flyer Design
+categories: 
 created: 2013-09-27
 changed: 2013-10-07
 post_author: critzo

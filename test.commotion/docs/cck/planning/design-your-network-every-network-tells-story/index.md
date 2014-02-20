@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Design your Network: Every Network Tells a Story
-categories: {categories}
+title: Design your Network - Every Network Tells a Story
+categories: 
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo

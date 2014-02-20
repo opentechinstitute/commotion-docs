@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Commotion Field Test: Pop-up mesh network, downtown Washington, DC
+title: Commotion Field Test - Pop-up mesh network, downtown Washington, DC
 categories: {categories}
 created: 2013-09-29
 changed: 2013-11-04
