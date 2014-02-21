@@ -7,3 +7,92 @@ url: "staging.commotionwireless.net"
 port: 80
 
 permalink: /blog/:year/:month/:day/:title
+
+menus:
+	main:
+	- About: 
+	    - /about
+	    - FAQ: /about/faq
+	    - Guiding Principles: /about/guiding-principles
+	    - Where It's Used: /about/where-its-used
+	    - Press: /about/press
+	    - License and Privacy: /about/license-privacy
+	    - Jobs: /jobs
+	    - Contact: /contact
+	- Blog: /blog
+	- Get Help:
+	    - /docs/get-started
+	    - Get Started: /docs/get-started
+	    - Get Involved: /docs/get-involved
+	    - Supported Devices: /docs/supported-devices
+	    - Commotion Construction Kit: /docs/cck
+	    - Commotion Localization: /docs/localization
+	- Download:
+	    - /download
+	    - Routers: /download/routers
+	    - Phones: /download/android
+	    - Computers: /download/computers
+	    - Cellular Networks: /download/openbts
+	    - Verifying Downloads: /download/verify-signatures
+	- For Developers:
+	    - /developer/resources
+	    - Developer Resources: /developer/resources
+	    - Requests for Proposals: /jobs
+	    - Wiki: https://wiki.commotionwireless.net
+	    - Issue Tracker: https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&state=open
+	    - Source Code: https://github.com/opentechinstitute
+	    - Human Interface Guidelines: /developer/hig/introduction
+	About: 
+	    - /about
+            - FAQ: /about/faq
+            - Guiding Principles: /about/guiding-principles
+            - Where It's Used: /about/where-its-used
+            - Press: /about/press
+            - License and Privacy: /about/license-privacy
+            - Jobs: /jobs
+            - Contact: /contact
+	Get Help:
+            - /docs/get-started
+            - Get Started: /docs/get-started
+            - Get Involved: /docs/get-involved
+            - Supported Devices: /docs/supported-devices
+            - Commotion Construction Kit: /docs/cck
+		- Planning: /docs/cck/planning
+		    - Design Your Network: /docs/cck/planning/design-your-network-every-network-tells-story
+		    - Wireless Challenges: /docs/cck/planning/wireless-challenges
+		    - Survey Your Neighbors: /docs/cck/planning/survey-your-neighbors
+		    - Get the Word Out: /docs/cck/planning/get-word-out-flyer-design 
+		    - Identify Neighborhood Skills: /docs/cck/planning/identify-neighborhood-skills
+		    - Inventory the Neighborhood: /docs/cck/planning/inventory-the-neighborhood
+		    - Construction Elements: /docs/cck/planning/design-your-network-construction-elements	
+		- Installing + Configuring: /docs/cck/installing-configuring
+		    - Install on a Ubiquity Router: /docs/cck/installing-configuring/install-ubiquiti-router
+		    - Configure Commotion: /docs/cck/installing-configuring/configure-commotion
+		    - Common Configurations: /docs/cck/installing-configuring/common-configuration
+		    - Troubleshooting Your Wireless Node: /docs/cck/installing-configuring/troubleshoot-your-wireless-node
+		    - Install and Recover with TFTP: /docs/cck/installing-configuring/install-and-recover-tftp
+		- Building + Mounting: /docs/cck/building-mounting
+		    - Gather Tools and Equipment: /docs/cck/building-mounting/gather-tools-and-wireless-equipment
+		    - Learn Rooftop Basics: /docs/cck/building-mounting/learn-rooftop-basics
+		    - Learn About Rooftop Mounts: /docs/cck/building-mounting/learn-about-rooftop-mounts
+		    - Prep and Install Rooftop Nodes: /docs/cck/building-mounting/prep-install-rooftop-nodes
+		- Networking: /docs/cck/networking
+		    - Learn Networking Basics: /docs/cck/networking/learn-networking-basics
+		    - Introduction to Mesh: /docs/cck/networking/intro-to-mesh 
+            - Commotion Localization: /docs/localization
+       Download:
+            - /download
+            - Routers: /download/routers
+            - Phones: /download/android
+            - Computers: /download/computers
+            - Cellular Networks: /download/openbts
+            - Verifying Downloads: /download/verify-signatures
+       For Developers:
+            - /developer/resources
+            - Developer Resources: /developer/resources
+            - Requests for Proposals: /jobs
+            - Wiki: https://wiki.commotionwireless.net
+            - Issue Tracker: https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&state=open
+            - Source Code: https://github.com/opentechinstitute
+            - Human Interface Guidelines: /developer/hig/introduction
+
