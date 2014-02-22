@@ -7,13 +7,12 @@
     </div>
     <div class="right-twothird">
 	<h3>Recent Blog Posts</h3>
-	{% for post in site.posts limit:3 %}
+	{% for post in site.posts %}
 	    <h4><a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a></h4>
 	  <p class="blog-pubdata">{{ post.date | date: "%B %d, %Y" }} {{ post.post_author }}</p>
 	  <p class="blog-excerpt">{{ post.content | split:'<!--more-->' | first }}</p>
 	<hr>
 	  {% endfor %}
-	<a href="/blog">Read More</a> <img src="/images/feed.png" alt="RSS Feed icon" />
     </div>
   </div>
 </div>
@@ -30,7 +29,7 @@
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 
 <script src="/js/reveal/lib/js/head.min.js"></script>
