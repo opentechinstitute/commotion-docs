@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion Development Progress Visualized
-categories: development,visualization
+categories: [development,visualization]
 created: 2013-07-11
 changed: 2013-12-19
 post_author: s2e

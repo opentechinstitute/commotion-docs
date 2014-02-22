@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Diving deeper into "meshaging"
-categories: messaging,chat,UX,applications
+categories: [messaging,chat,UX,applications]
 created: 2012-10-08
 changed: 2012-10-29
 post_author: The Work Department

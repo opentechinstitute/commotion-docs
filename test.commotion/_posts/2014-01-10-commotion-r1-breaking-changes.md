@@ -1,13 +1,13 @@
 ---
 layout: blog
 title: Commotion R1 Breaking Changes
-categories: R1,upgrade
+categories: [R1,upgrade]
 created: 2014-01-10
 changed: 2014-01-10
 post_author: danstaples
 lang: en
 ---
-  The latest Commotion release, <a href="https://commotionwireless.net/download/routers">R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about. These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we'll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.
+  The latest Commotion release, <a href="https://commotionwireless.net/download/routers">R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about.<!--more--> These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we'll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.
  
 **IP Addressing**
 The first change is the IP addressing schema we use. If you've used previous releases of Commotion, you might have noticed that devices on the mesh network assign themselves IP addresses somewhere in the 5.0.0.0/8 range. Additionally, if you've connected to a Commotion router running a previous release, your client device would have gotten a 101.x.x.x, 102.x.x.x, or 103.x.x.x IP address. Readers experienced in computer networking will realize that all of these IP address ranges are technically public space, and using them for Commotion could potentially break routing to devices assigned these IP addresses on the public internet.
