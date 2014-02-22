@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,11 +8,7 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-  	body {
-    	  padding-top:60px;
-    	}
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -33,84 +30,88 @@
     </div>
   </div>
 </div>
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="float: right; width: 70%; position:relative; z-index:500;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-	<a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
-	About
-	<b class="caret"></b>
-	</a>
-	<ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-	</ul>
-	</li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-	<a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
-	Get Help
-	<b class="caret"></b>
-	</a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-	  <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-	</ul>
-      </li>
-      <li class="dropdown">
-	<a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
-	Download
-	<b class="caret"></b>
-	</a>
-	<ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-	  <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-	</ul>
-      </li>
-      <li class="dropdown">
-	<a id="developersMenu" href="#" data-toggle="dropdown" role="button">
-	For Developers
-	<b class="caret"></b>
-	</a>
-	<ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-	  <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-	  <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-	</ul>
-      </li>
-    </ul>
-  </div> 
- </div>
+
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
 </div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
+        About
+        <b class="caret"></b>
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
+        Get Help
+        <b class="caret"></b>
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
+        Download
+        <b class="caret"></b>
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
+        For Developers
+        <b class="caret"></b>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Developer Resources</h1>
   <hr>
+  <h1 class="pageheadings">Developer Resources</h1>
 </div>
+ 
 <div class="contentcontainer">
   <div class="container">
+ 
     <div class="right-third">
         Right column content...
     </div>
-    <div class="left-twothird">
 
+<div class="left-twothird">
 
 <h2>Platforms</h2><p>Commotion runs on multiple software and hardware platforms: Embedded routers, smart phones, desktops and laptops, and open source GSM basestations. Development on each of these platforms occurs in parallel. Where possible, a common set of tools are used to develop Commotion, no matter the platform. However, there are certain platforms where unique tools are required.</p><ul>
 	<li><a href='#'>Embedded router developer tools</a></li>
@@ -118,6 +119,11 @@
 	<li>Desktop/laptop developer tools: <a href='https://code.commotionwireless.net/projects/commotion/wiki/Linux_client_dev_notes'>Linux</a> - <a href='https://code.commotionwireless.net/projects/commotion/wiki/MacClient_'>Mac</a></li>
 	<li><a href='https://wiki.commotionwireless.net/doku.php?id=general_openbts_notes'>GSM developer tools</a></li>
 </ul><h2>Architectures</h2><p>All Commotion platforms share a common core: a shared network medium (usually ad-hoc Wifi, known as <a href='http://en.wikipedia.org/wiki/Independent_Basic_Service_Set'>IBSS</a>) and an IP routing protocol (<a href='http://www.olsr.org'>OLSRd</a>). Read more about the <a href='https://wiki.commotionwireless.net/doku.php?id=commotion_architecture'>Commotion architecture</a> and how it varies across platforms on the Developer Wiki.</p><h2>Code</h2><p>Commotion is written in a combination of C, Lua, Javascript, Python, Java, shell, Objective-C, PHP. All of our source code is hosted on <a href='http://github.org/opentechinstitute'>Github</a>. To see the relationship between code repositories and the Commotion architecture, read the architecture documents above.</p><h2>Debugging Tools</h2><p>Commotion developers rely on a combination of tools and intuition to debug. We use gdb, ddms and unit testing. Read more about our <a href='https://wiki.commotionwireless.net/doku.php?id=testing_procedures_and_methodologies'>testing procedures and methodologies</a> and procedures for <a href='https://wiki.commotionwireless.net/doku.php?id=lab_environment_testing'>lab testing</a> on the Developer Wiki.</p><p>Read more about <a href='https://wiki.commotionwireless.net/doku.php?id=debugging_resources'>common debugging procedures</a> we use on the Developer Wiki. To report bugs and submit fixes, use our <a href='https://github.com/opentechinstitute'>issue tracker</a>.</p>
+    </div>
+
+  </div>
+</div>
+ 
     </div>
   </div>
 </div>
@@ -132,8 +138,9 @@
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
   </body> 
 </html>
