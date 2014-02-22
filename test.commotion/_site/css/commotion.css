@@ -192,11 +192,13 @@ div.pageheadings hr {
 }
 .left-third {
   width: 25%;
+  min-width: 200px;
   float: left;
   margin: .3em 2em;
 }
 .right-twothird {
   width: 65%;
+  min-width: 400px;
   float: right;
   margin: 1em;
 }
@@ -210,6 +212,7 @@ div.pageheadings hr {
 }
 .right-third {
   width: 20%;
+  min-width: 200px;
   float: right;
   margin: 2em;
 }
@@ -225,6 +228,7 @@ div.pageheadings hr {
 }
 .left-twothird {
   width: 65%;
+  min-width: 400px;
   float: left;
   margin: .3em 2em;
 }
@@ -308,4 +312,7 @@ div.pageheadings hr {
   float:right;
   width: 25%;
   margin: 40px 0 20px 20px;
+}
+.RSS-icon {
+  float: right;
 }
