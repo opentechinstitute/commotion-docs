@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Get Help
+site_section: help
 categories: {categories}
 created: 2013-07-15
 changed: 2014-01-02
 post_author: critzo
-lang: fr
+lang: en
 ---
   <p>Commotion is an evolving project that includes many parts. The documentation available below has been created by the Commotion community to aid users and developers. It is often updated and we encourage you to get involved in improving these documents.</p>
 

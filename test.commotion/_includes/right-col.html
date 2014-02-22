@@ -1,3 +1,10 @@
     <div class="right-third">
-        Right column content...
+{% case page.site_section %}
+{% when 'about' %}
+<a  href="/about">About</a><br />
+{% when 'help' %}
+<a  href="/docs">Get Help</a><br />
+{% else %}
+... else ...
+{% endcase %}
     </div>
