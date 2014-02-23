@@ -316,3 +316,42 @@ div.pageheadings hr {
 .RSS-icon {
   float: right;
 }
+#subsection-menu {
+  background-color: #00FFCF;
+}
+#subsection-menu h3 {
+  background-color: #00FFCF;
+  color: #000000;
+  font-family: AsapBold;
+  font-size: 13px;
+  margin: 0;
+  padding: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#subsection-menu h3 a:link,
+#subsection-menu h3 a:visited,
+#subsection-menu h3 a:hover {
+  border-bottom:none;
+  color: #000000;
+  background: none;
+}
+#subsection-menu ul,
+#subsection-menu ul li {
+  background-color: #00FFCF;
+  list-style-type: none;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#subsection-menu ul li a:link,
+#subsection-menu ul li a:visited {
+  color: #000000;
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+}
+#subsection-menu ul li a:hover {
+  background-color: #E8FF00;
+}
