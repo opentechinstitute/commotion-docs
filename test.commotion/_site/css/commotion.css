@@ -348,9 +348,11 @@ div.pageheadings hr {
 #subsection-menu ul li a:visited {
   color: #000000;
   display: block;
-  padding: 0;
+  padding-left: 0.5em;
   text-decoration: none;
   width: 100%;
+  border-bottom: none;
+  font-weight: normal;
 }
 #subsection-menu ul li a:hover {
   background-color: #E8FF00;
