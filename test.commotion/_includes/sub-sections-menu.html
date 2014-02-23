@@ -1,0 +1,13 @@
+{% case page.site_section %}
+{% when 'about' %}
+{% include about_menu.html %}
+{% when 'help' %}
+{% include help_menu.html %}
+{% when 'blog' %}
+{% include blog_menu.html %}
+{% when 'downloads' %}
+{% include downloads_menu.html %}
+{% when 'developers' %}
+{% include developers_menu.html %}
+{% else %}
+{% endcase %}

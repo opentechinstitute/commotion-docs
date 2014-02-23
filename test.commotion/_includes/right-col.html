@@ -1,9 +1,11 @@
     <div class="right-third">
 {% case page.site_section %}
 {% when 'about' %}
-<a  href="/about">About</a><br />
+<h3><a  href="/about">About</a></h3>
+<% include about_menu.html %}
 {% when 'help' %}
-<a  href="/docs">Get Help</a><br />
+<h3><a href="/docs">Get Help</a></h3>
+<% include help_menu.html %}
 {% else %}
 ... else ...
 {% endcase %}
