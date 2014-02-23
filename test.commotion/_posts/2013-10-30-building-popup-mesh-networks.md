@@ -1,14 +1,14 @@
 ---
 layout: blog
 title: Building Pop-up Mesh Networks
-categories: {categories}
+categories: [pop-up mesh, urban]
 created: 2013-10-30
 changed: 2013-12-19
-post_author: gerety
+post_author: Ryan Gerety
 lang: en
 ---
   <img alt="" class="media-image attr__typeof__foaf:Image img__fid__548 img__view_mode__media_large attr__format__media_large" height="222" src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" typeof="foaf:Image" width="480" />
-The Open Technology Institute recently conducted a training on how to build pop-up mesh networks using Commotion. Our goal was to quickly deploy a flexible and mobile mesh network across several square blocks using portable battery-powered routers carried in backpacks. Commotion’s dynamic routing allows a network to shift and transform with the movements of the people, creating a highly resilient temporary infrastructure that can distribute Internet access throughout an area or support local area communications and data sharing.
+The Open Technology Institute recently conducted a training on how to build pop-up mesh networks using Commotion. Our goal was to quickly deploy a flexible and mobile mesh network across several square blocks using portable battery-powered routers carried in backpacks. <!--more-->Commotion’s dynamic routing allows a network to shift and transform with the movements of the people, creating a highly resilient temporary infrastructure that can distribute Internet access throughout an area or support local area communications and data sharing.
 In this blogpost, we describe three field trials conducted by participants during the training. In the field trials we used Ubiquiti omnidirectional PicoStation M2 routers and Energizer XP8000 battery packs. These battery packs are compact and able to provide 3-4 hours of power to the routers, but any battery pack that meets the power requirements of the router would suffice - for example, the PicoStations can run on voltages from 15 to 24 volts. The battery packs supply 20 volts. Refer to the voltage markings on your router's power supply before choosing a battery.
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__561 img__view_mode__media_large attr__format__media_large" height="161" src="/files/styles/large/public/equipment_0.png?itok=HPlApBYr" typeof="foaf:Image" width="480" />
 At the beginning of the training, participants learned how to install and configure Commotion, mesh several routers together and assess link quality. With these skills, participants went outside and tested the potential reach of the signal at street level of two routers powered by portable battery packs.

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Gather Tools and Wireless Equipment
-categories: {categories}
+site_section: help
+sub_section: [cck,cck-building]
+categories: 
 created: 2013-09-27
 changed: 2013-11-22
 post_author: critzo

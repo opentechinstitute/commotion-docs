@@ -7,16 +7,12 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-        body {
-          padding-top:60px;
-        }
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 <body>
@@ -29,219 +25,236 @@
         <div class="color2">&nbsp;</div>
         <div class="color3">&nbsp;</div>
         <div class="color4">&nbsp;</div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="position:relative; z-index:10000;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-        <a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
         About
         <b class="caret"></b>
-        </a>
-        <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-        </ul>
-        </li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-        <a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
         Get Help
         <b class="caret"></b>
-        </a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-        </ul>
-      </li>
-     <li class="dropdown">
-        <a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
         Download
         <b class="caret"></b>
-        </a>
-        <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a id="developersMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
         For Developers
         <b class="caret"></b>
-        </a>
-        <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
- </div>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
-
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Mountain-top repeaters and solar-powered Wi-Fi - Guest Post from Nepal Wireless</h1>
   <hr>
+  <h1 class="pageheadings">Mountain-top repeaters and solar-powered Wi-Fi - Guest Post from Nepal Wireless</h1>
 </div>
-
+ 
 <div class="contentcontainer">
   <div class="container">
+ 
+<div class="left-twothird">
+
+ <h2 class="blog-pubdata">2013-07-26 / </h2>
+
+<p><em>The Open Technology Institute convened over a dozen community technologists from across India and Nepal for the first <a href='https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop'>international Commotion Wireless workshop</a> in June. Over the next several weeks, we will be highlighting their innovative grassroots community technology projects on our blog. Our first guest post is from <strong>Mahabir Pun</strong>, co-founder of <a href='http://www.nepalwireless.net/index.php'>Nepal Wireless Networking Project</a>.</em></p>
+
+<p><img alt='' class='media-image attr__typeof__foaf:Image img__fid__236 img__view_mode__media_large attr__format__media_large' height='360' src='/files/styles/large/public/IMG_0759.JPG?itok=wKot-CrU' typeof='foaf:Image' width='480' /></p>
+
+<p><em>Girish Adhikari (l.) and Subash Gurung from Nepal Wireless install a router during the Commotion workshop in Dharamshala.</em></p>
+
+<p>Nepal Wireless Networking Project was started in the Nangi village of Nepal. Nangi is an isolated village with about 800 residents. People of the village are subsistence farmers and they use primitive farming tools such as wooden plows, iron spades, axes, and sickles etc. Villagers carry all kinds of loads such as supplies, firewood, building materials, composts and others on their back, which they have been doing for centuries. Before 2001, no villager had any idea as what an Internet was or what a computer looked like. There was no telephone or electricity in the villages. The villagers had to walk five to eight hours to the nearest city just to make outside telephone calls. In the absence of modern communication and transportation means, villagers had to use human messengers to send messages from one village to another. In 2001, when the plan was made to connect Nangi village to Pokhara city through Wi-Fi to bring the Internet, the responses from expert communication engineers were negative. Their main concern was with the simple Wi-Fi equipment that we proposed to use, which had transmit power of 60 mW and maximum outdoor range of 100 meters as specified in the manual. The total aerial distance between Nangi and Pokhara was 40 kilometers. Therefore, the communication engineers concluded that it was impossible to connect Nangi village to Pokhara with Wi-Fi. In spite of the negative feedback, the team members of Nepal Wireless decided to continue the experiment. The experiment was conducted for more than a year and was successful to the surprise of the technical experts, who had been skeptical of the project. As for the power needed at the repeater stations, solar panels and wind generators were used to charge the storage batteries. Thus Nepal Wireless Networking Project was born informally in 2002 by connecting a small village using simple Wi-Fi devices and home built antennas. Technically, we were running the network illegally because we had not gotten the licenses that the government of Nepal required at that time. It was almost impossible to import wireless equipment from abroad – we smuggled all the equipment from Singapore and the US. Moreover it was very risky to our lives to bring the equipment and build the network during that period of political conflict in Nepal. We might have been killed or tortured either by the government or insurgent forces if something had gone wrong. Luckily, we survived. In 2006, the political situation stabilized, followed by de-licensing key wireless bands. The team members of the project at the beginning had planned to connect only six villages of one district. However, the demand for the wireless network came from many villages. Therefore we expanded the network to many villages in a time span of over ten years and it is still growing. Now it has connected more than 160 villages of 15 districts of Nepal. The villages that are connected to the network get Internet and intranet services via servers in big cities like Kathmandu and Pokhara, where internet service providers are available. The servers in Kathmandu and Pokhara (200 kilometers apart) are linked through a leased optical fiber line. A series of mountaintop repeater stations relay the signal from the cities up into the mountain villages. Some of the relay stations are built at 4,000 meters or higher in the mountains. There are also access points at the mountaintop relay stations to distribute Internet to end users in the neighboring villages. Villages are connected to the access points using point-to-point or point-to-multipoint wireless. The high-speed backhaul radios at the relay stations operate on a dedicated core local area network (LAN) that reaches from the base stations (Pokhara and Kathmandu) to different areas through relay stations. The longest point-to-point link of the project is 59 kilometers from one mountaintop to another. The distance of the villages from the access points ranges from two kilometers to eighteen kilometers. The districts connected to the network are divided into different subnets in order to manage the network smoothly. Thus the villages in each of the network’s coverage areas from the relay stations operate on separate local LANs through VLAN switches. Routers at each of the relay stations provide DHCP services to the end users. Step by step, we introduced services through different applications such as e-learning, tele-medicine, tele-teaching, tele-training and e-commerce. Many villagers have built communication centers to learn and use the Internet. People are using the Internet for money transfer services because many young people from the villages go to work abroad and send money to their families on a regular basis. Additionally, Nepal Wireless is working with different research groups to monitor glacial lakes, weather, and climate change in the Himalayas. Nepal Wireless is doing some research and development work with different technical groups to develop applications that will be useful for rural people – such as building simple ECG machines for rural clinics, building poacher tracking system in a national park, and implementing systems for the safety of trekkers travelling on the mountain trails . However, the main goal of the project is to bridge the digital divide. Therefore the project is focused more on connecting as many rural schools as possible and providing computer training to the students, school teachers, and villagers. Every year we send university students from Nepal and abroad as volunteers to provide computer training to the people in rural areas. The second area of focus is to provide health services to the villagers of remote areas through tele-medicine. We found this to be urgent because there are no clinics and medical doctors in the remote villages. The project has connected ten rural clinics to a hospital in Kathmandu on the network. The rural health workers communicate with the medical doctors in the city hospital to help the patients in the villages. It runs computer training for the health workers and teaches them how to use computers to connect to the city hospital through video conferencing. Now the main focus of Nepal Wireless Networking Project is to help the villages located in remote Himalayan valleys get connected to the Internet, where no commercial service providers have reached. Nepal Wireless Networking Project has come a long way, but we are still learning how to provide maximum benefit of information technology to poor people living in rural areas.</p>
+ <h4>Tags:</h4>
+
+ <a href="/tags/siteindex#guest post">guest post</a>&nbsp;
+
+ <a href="/tags/siteindex#community wireless">community wireless</a>&nbsp;
+
+
+    </div>
 
     <div class="right-third">
 
 
  <h3>Tags:</h3>
 
- <a href="/tags/siteindex#ui,branding,identity,research">ui,branding,identity,research</a><br />
+ <a href="/tags/siteindex#ui">ui</a><br />
 
- <a href="/tags/siteindex#ui,detroit,community">ui,detroit,community</a><br />
+ <a href="/tags/siteindex#branding">branding</a><br />
 
- <a href="/tags/siteindex#wireless,research,recommendations,">wireless,research,recommendations,</a><br />
+ <a href="/tags/siteindex#identity">identity</a><br />
 
- <a href="/tags/siteindex#ui,ux,research">ui,ux,research</a><br />
+ <a href="/tags/siteindex#research">research</a><br />
 
- <a href="/tags/siteindex#recommendations,research">recommendations,research</a><br />
+ <a href="/tags/siteindex#detroit">detroit</a><br />
 
- <a href="/tags/siteindex#messaging,detroit">messaging,detroit</a><br />
+ <a href="/tags/siteindex#community wireless">community wireless</a><br />
 
- <a href="/tags/siteindex#drupal,branding">drupal,branding</a><br />
+ <a href="/tags/siteindex#recommendations">recommendations</a><br />
 
- <a href="/tags/siteindex#messaging,chat,ux,applications">messaging,chat,ux,applications</a><br />
+ <a href="/tags/siteindex#ux">ux</a><br />
 
- <a href="/tags/siteindex#chat,applications,routers,,messaging">chat,applications,routers,,messaging</a><br />
+ <a href="/tags/siteindex#messaging">messaging</a><br />
 
- <a href="/tags/siteindex#chat,applications,routers,messaging">chat,applications,routers,messaging</a><br />
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a><br />
 
- <a href="/tags/siteindex#community">community</a><br />
+ <a href="/tags/siteindex#drupal">drupal</a><br />
 
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a><br />
+ <a href="/tags/siteindex#chat">chat</a><br />
 
- <a href="/tags/siteindex#mesh,cost,price,hardware">mesh,cost,price,hardware</a><br />
+ <a href="/tags/siteindex#applications">applications</a><br />
 
- <a href="/tags/siteindex#red">red</a><br />
+ <a href="/tags/siteindex#routers">routers</a><br />
 
- <a href="/tags/siteindex#hook,hardware,cost,community">hook,hardware,cost,community</a><br />
+ <a href="/tags/siteindex#energy">energy</a><br />
 
- <a href="/tags/siteindex#wireless,applications,research,mesh">wireless,applications,research,mesh</a><br />
+ <a href="/tags/siteindex#mesh">mesh</a><br />
 
- <a href="/tags/siteindex#hook,hardware,community">hook,hardware,community</a><br />
+ <a href="/tags/siteindex#cost">cost</a><br />
 
- <a href="/tags/siteindex#wireless,mesh,troubleshooting,site">wireless,mesh,troubleshooting,site</a><br />
+ <a href="/tags/siteindex#price">price</a><br />
 
- <a href="/tags/siteindex#visits,maintenance">visits,maintenance</a><br />
+ <a href="/tags/siteindex#hardware">hardware</a><br />
 
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a><br />
+ <a href="/tags/siteindex#red hook">red hook</a><br />
 
- <a href="/tags/siteindex#battlemesh,mesh,olsr,testing">battlemesh,mesh,olsr,testing</a><br />
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a><br />
 
- <a href="/tags/siteindex#detroit,community">detroit,community</a><br />
+ <a href="/tags/siteindex#site visits">site visits</a><br />
 
- <a href="/tags/siteindex#wireless,digital">wireless,digital</a><br />
+ <a href="/tags/siteindex#maintenance">maintenance</a><br />
 
- <a href="/tags/siteindex#stewards,mesh,amp,amc">stewards,mesh,amp,amc</a><br />
+ <a href="/tags/siteindex#warning">warning</a><br />
+
+ <a href="/tags/siteindex#label">label</a><br />
+
+ <a href="/tags/siteindex#security">security</a><br />
+
+ <a href="/tags/siteindex#anonymity">anonymity</a><br />
+
+ <a href="/tags/siteindex#privacy">privacy</a><br />
+
+ <a href="/tags/siteindex#battlemesh">battlemesh</a><br />
+
+ <a href="/tags/siteindex#olsr">olsr</a><br />
+
+ <a href="/tags/siteindex#testing">testing</a><br />
+
+ <a href="/tags/siteindex#digital stewards">digital stewards</a><br />
+
+ <a href="/tags/siteindex#amp">amp</a><br />
+
+ <a href="/tags/siteindex#amc">amc</a><br />
 
  <a href="/tags/siteindex#release">release</a><br />
 
- <a href="/tags/siteindex#messaging,applications,chat,site">messaging,applications,chat,site</a><br />
+ <a href="/tags/siteindex#serval">serval</a><br />
 
- <a href="/tags/siteindex#visits,serval">visits,serval</a><br />
+ <a href="/tags/siteindex#gource">gource</a><br />
 
- <a href="/tags/siteindex#mesh,site">mesh,site</a><br />
+ <a href="/tags/siteindex#git">git</a><br />
 
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a><br />
+ <a href="/tags/siteindex#visualization">visualization</a><br />
 
- <a href="/tags/siteindex#development,visualization">development,visualization</a><br />
+ <a href="/tags/siteindex#development">development</a><br />
 
- <a href="/tags/siteindex#guest">guest</a><br />
+ <a href="/tags/siteindex#guest post">guest post</a><br />
 
- <a href="/tags/siteindex#post,community">post,community</a><br />
+ <a href="/tags/siteindex#tools">tools</a><br />
 
- <a href="/tags/siteindex#wireless">wireless</a><br />
+ <a href="/tags/siteindex#cck">cck</a><br />
 
- <a href="/tags/siteindex#digital">digital</a><br />
+ <a href="/tags/siteindex#pop-up mesh">pop-up mesh</a><br />
 
- <a href="/tags/siteindex#stewards,community">stewards,community</a><br />
+ <a href="/tags/siteindex#urban">urban</a><br />
 
- <a href="/tags/siteindex#wireless,mesh,detroit,red">wireless,mesh,detroit,red</a><br />
+ <a href="/tags/siteindex#somaliland">somaliland</a><br />
 
- <a href="/tags/siteindex#hook">hook</a><br />
+ <a href="/tags/siteindex#rural">rural</a><br />
 
- <a href="/tags/siteindex#hook,community">hook,community</a><br />
+ <a href="/tags/siteindex#r1">r1</a><br />
 
- <a href="/tags/siteindex#wireless,mesh,site">wireless,mesh,site</a><br />
+ <a href="/tags/siteindex#upgrade">upgrade</a><br />
 
- <a href="/tags/siteindex#visits,digital">visits,digital</a><br />
-
- <a href="/tags/siteindex#stewards,routers,maintenance">stewards,routers,maintenance</a><br />
-
- <a href="/tags/siteindex#wireless,detroit,red">wireless,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook,tools,cck,digital">hook,tools,cck,digital</a><br />
-
- <a href="/tags/siteindex#stewards">stewards</a><br />
-
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a><br />
-
-
-    </div>
-
-    <div class="left-twothird">
-
- <h2 class="blog-pubdata">2013-07-26 / </h2>
-
-<em>The Open Technology Institute convened over a dozen community technologists from across India and Nepal for the first <a href='https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop'>international Commotion Wireless workshop</a> in June. Over the next several weeks, we will be highlighting their innovative grassroots community technology projects on our blog. Our first guest post is from **Mahabir Pun**, co-founder of <a href='http://www.nepalwireless.net/index.php'>Nepal Wireless Networking Project</a>.</em><img alt='' class='media-image attr__typeof__foaf:Image img__fid__236 img__view_mode__media_large attr__format__media_large' height='360' src='/files/styles/large/public/IMG_0759.JPG?itok=wKot-CrU' typeof='foaf:Image' width='480' /><em>Girish Adhikari (l.) and Subash Gurung from Nepal Wireless install a router during the Commotion workshop in Dharamshala.</em>
-<p>Nepal Wireless Networking Project was started in the Nangi village of Nepal. Nangi is an isolated village with about 800 residents. People of the village are subsistence farmers and they use primitive farming tools such as wooden plows, iron spades, axes, and sickles etc. Villagers carry all kinds of loads such as supplies, firewood, building materials, composts and others on their back, which they have been doing for centuries. Before 2001, no villager had any idea as what an Internet was or what a computer looked like. There was no telephone or electricity in the villages. The villagers had to walk five to eight hours to the nearest city just to make outside telephone calls. In the absence of modern communication and transportation means, villagers had to use human messengers to send messages from one village to another. In 2001, when the plan was made to connect Nangi village to Pokhara city through Wi-Fi to bring the Internet, the responses from expert communication engineers were negative. Their main concern was with the simple Wi-Fi equipment that we proposed to use, which had transmit power of 60 mW and maximum outdoor range of 100 meters as specified in the manual. The total aerial distance between Nangi and Pokhara was 40 kilometers. Therefore, the communication engineers concluded that it was impossible to connect Nangi village to Pokhara with Wi-Fi. In spite of the negative feedback, the team members of Nepal Wireless decided to continue the experiment. The experiment was conducted for more than a year and was successful to the surprise of the technical experts, who had been skeptical of the project. As for the power needed at the repeater stations, solar panels and wind generators were used to charge the storage batteries. Thus Nepal Wireless Networking Project was born informally in 2002 by connecting a small village using simple Wi-Fi devices and home built antennas. Technically, we were running the network illegally because we had not gotten the licenses that the government of Nepal required at that time. It was almost impossible to import wireless equipment from abroad &#8211; we smuggled all the equipment from Singapore and the US. Moreover it was very risky to our lives to bring the equipment and build the network during that period of political conflict in Nepal. We might have been killed or tortured either by the government or insurgent forces if something had gone wrong. Luckily, we survived. In 2006, the political situation stabilized, followed by de-licensing key wireless bands. The team members of the project at the beginning had planned to connect only six villages of one district. However, the demand for the wireless network came from many villages. Therefore we expanded the network to many villages in a time span of over ten years and it is still growing. Now it has connected more than 160 villages of 15 districts of Nepal. The villages that are connected to the network get Internet and intranet services via servers in big cities like Kathmandu and Pokhara, where internet service providers are available. The servers in Kathmandu and Pokhara (200 kilometers apart) are linked through a leased optical fiber line. A series of mountaintop repeater stations relay the signal from the cities up into the mountain villages. Some of the relay stations are built at 4,000 meters or higher in the mountains. There are also access points at the mountaintop relay stations to distribute Internet to end users in the neighboring villages. Villages are connected to the access points using point-to-point or point-to-multipoint wireless. The high-speed backhaul radios at the relay stations operate on a dedicated core local area network (LAN) that reaches from the base stations (Pokhara and Kathmandu) to different areas through relay stations. The longest point-to-point link of the project is 59 kilometers from one mountaintop to another. The distance of the villages from the access points ranges from two kilometers to eighteen kilometers. The districts connected to the network are divided into different subnets in order to manage the network smoothly. Thus the villages in each of the network&#8217;s coverage areas from the relay stations operate on separate local LANs through VLAN switches. Routers at each of the relay stations provide DHCP services to the end users. Step by step, we introduced services through different applications such as e-learning, tele-medicine, tele-teaching, tele-training and e-commerce. Many villagers have built communication centers to learn and use the Internet. People are using the Internet for money transfer services because many young people from the villages go to work abroad and send money to their families on a regular basis. Additionally, Nepal Wireless is working with different research groups to monitor glacial lakes, weather, and climate change in the Himalayas. Nepal Wireless is doing some research and development work with different technical groups to develop applications that will be useful for rural people &#8211; such as building simple ECG machines for rural clinics, building poacher tracking system in a national park, and implementing systems for the safety of trekkers travelling on the mountain trails . However, the main goal of the project is to bridge the digital divide. Therefore the project is focused more on connecting as many rural schools as possible and providing computer training to the students, school teachers, and villagers. Every year we send university students from Nepal and abroad as volunteers to provide computer training to the people in rural areas. The second area of focus is to provide health services to the villagers of remote areas through tele-medicine. We found this to be urgent because there are no clinics and medical doctors in the remote villages. The project has connected ten rural clinics to a hospital in Kathmandu on the network. The rural health workers communicate with the medical doctors in the city hospital to help the patients in the villages. It runs computer training for the health workers and teaches them how to use computers to connect to the city hospital through video conferencing. Now the main focus of Nepal Wireless Networking Project is to help the villages located in remote Himalayan valleys get connected to the Internet, where no commercial service providers have reached. Nepal Wireless Networking Project has come a long way, but we are still learning how to provide maximum benefit of information technology to poor people living in rural areas.</p>
- <h4>Tags:</h4>
-
- <a href="/tags/siteindex#guest">guest</a>&nbsp;
-
- <a href="/tags/siteindex#post,community">post,community</a>&nbsp;
-
- <a href="/tags/siteindex#wireless">wireless</a>&nbsp;
+ <a href="/tags/siteindex#hack day">hack day</a><br />
 
 
     </div>
 
   </div>
 </div>
-
+ 
+    </div>
+  </div>
+</div>
 <div class="footer-wrapper">
   <div class="container">
-        <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-        <li class=""><a href="/jobs" title="">Jobs</a></li>
-        <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-        <li class=""><a href="/about/press" title="">Press</a></li>
-        <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-        </ul>
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
-  </body>
+  </body> 
 </html>
 

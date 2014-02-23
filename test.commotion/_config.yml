@@ -7,3 +7,4 @@ url: "staging.commotionwireless.net"
 port: 80
 
 permalink: /blog/:year/:month/:day/:title
+

@@ -7,16 +7,12 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-        body {
-          padding-top:60px;
-        }
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 <body>
@@ -29,197 +25,112 @@
         <div class="color2">&nbsp;</div>
         <div class="color3">&nbsp;</div>
         <div class="color4">&nbsp;</div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="position:relative; z-index:10000;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-        <a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
         About
         <b class="caret"></b>
-        </a>
-        <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-        </ul>
-        </li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-        <a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
         Get Help
         <b class="caret"></b>
-        </a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-        </ul>
-      </li>
-     <li class="dropdown">
-        <a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
         Download
         <b class="caret"></b>
-        </a>
-        <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a id="developersMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
         For Developers
         <b class="caret"></b>
-        </a>
-        <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
- </div>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
-
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Commotion DR1 Stable Release Notes (DR1.1)</h1>
   <hr>
+  <h1 class="pageheadings">Commotion DR1 Stable Release Notes (DR1.1)</h1>
 </div>
-
+ 
 <div class="contentcontainer">
   <div class="container">
-
-    <div class="right-third">
-
-
- <h3>Tags:</h3>
-
- <a href="/tags/siteindex#ui,branding,identity,research">ui,branding,identity,research</a><br />
-
- <a href="/tags/siteindex#ui,detroit,community">ui,detroit,community</a><br />
-
- <a href="/tags/siteindex#wireless,research,recommendations,">wireless,research,recommendations,</a><br />
-
- <a href="/tags/siteindex#ui,ux,research">ui,ux,research</a><br />
-
- <a href="/tags/siteindex#recommendations,research">recommendations,research</a><br />
-
- <a href="/tags/siteindex#messaging,detroit">messaging,detroit</a><br />
-
- <a href="/tags/siteindex#drupal,branding">drupal,branding</a><br />
-
- <a href="/tags/siteindex#messaging,chat,ux,applications">messaging,chat,ux,applications</a><br />
-
- <a href="/tags/siteindex#chat,applications,routers,,messaging">chat,applications,routers,,messaging</a><br />
-
- <a href="/tags/siteindex#chat,applications,routers,messaging">chat,applications,routers,messaging</a><br />
-
- <a href="/tags/siteindex#community">community</a><br />
-
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a><br />
-
- <a href="/tags/siteindex#mesh,cost,price,hardware">mesh,cost,price,hardware</a><br />
-
- <a href="/tags/siteindex#red">red</a><br />
-
- <a href="/tags/siteindex#hook,hardware,cost,community">hook,hardware,cost,community</a><br />
-
- <a href="/tags/siteindex#wireless,applications,research,mesh">wireless,applications,research,mesh</a><br />
-
- <a href="/tags/siteindex#hook,hardware,community">hook,hardware,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,troubleshooting,site">wireless,mesh,troubleshooting,site</a><br />
-
- <a href="/tags/siteindex#visits,maintenance">visits,maintenance</a><br />
-
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a><br />
-
- <a href="/tags/siteindex#battlemesh,mesh,olsr,testing">battlemesh,mesh,olsr,testing</a><br />
-
- <a href="/tags/siteindex#detroit,community">detroit,community</a><br />
-
- <a href="/tags/siteindex#wireless,digital">wireless,digital</a><br />
-
- <a href="/tags/siteindex#stewards,mesh,amp,amc">stewards,mesh,amp,amc</a><br />
-
- <a href="/tags/siteindex#release">release</a><br />
-
- <a href="/tags/siteindex#messaging,applications,chat,site">messaging,applications,chat,site</a><br />
-
- <a href="/tags/siteindex#visits,serval">visits,serval</a><br />
-
- <a href="/tags/siteindex#mesh,site">mesh,site</a><br />
-
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a><br />
-
- <a href="/tags/siteindex#development,visualization">development,visualization</a><br />
-
- <a href="/tags/siteindex#guest">guest</a><br />
-
- <a href="/tags/siteindex#post,community">post,community</a><br />
-
- <a href="/tags/siteindex#wireless">wireless</a><br />
-
- <a href="/tags/siteindex#digital">digital</a><br />
-
- <a href="/tags/siteindex#stewards,community">stewards,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,detroit,red">wireless,mesh,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook">hook</a><br />
-
- <a href="/tags/siteindex#hook,community">hook,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,site">wireless,mesh,site</a><br />
-
- <a href="/tags/siteindex#visits,digital">visits,digital</a><br />
-
- <a href="/tags/siteindex#stewards,routers,maintenance">stewards,routers,maintenance</a><br />
-
- <a href="/tags/siteindex#wireless,detroit,red">wireless,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook,tools,cck,digital">hook,tools,cck,digital</a><br />
-
- <a href="/tags/siteindex#stewards">stewards</a><br />
-
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a><br />
-
-
-    </div>
-
-    <div class="left-twothird">
+ 
+<div class="left-twothird">
 
  <h2 class="blog-pubdata">2013-06-05 / andrew</h2>
 
-<p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release. <h2>What is a Commotion release?</h2> Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features. <h2>Platform Availability</h2> Currently, only the OpenWRT-based router firmware is DR1 compatible. Other platforms are under active development and are being brought up to feature parity. Current platform revisions can be found on the <a href='https://code.commotionwireless.net/projects/commotion/wiki/Official_Version_Feature_Targets'>Official Version Feature Targets</a> page. Pre-compiled software images are available on the <a href='https://commotionwireless.net/download'>Commotion Download</a> page. <h2>Features:</h2> <ul>
+<p>Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.</p>
+<h2>What is a Commotion release?</h2>
+<p> Commotion release versions represent a target set of features for the entire project. Software packages for individual platforms (Linux, Windows, etc.) may be in different stages of development, and are labeled according to their supported features.</p>
+<h2>Platform Availability</h2>
+<p> Currently, only the OpenWRT-based router firmware is DR1 compatible. Other platforms are under active development and are being brought up to feature parity. Current platform revisions can be found on the <a href='https://code.commotionwireless.net/projects/commotion/wiki/Official_Version_Feature_Targets'>Official Version Feature Targets</a> page. Pre-compiled software images are available on the <a href='https://commotionwireless.net/download'>Commotion Download</a> page.</p>
+<h2>Features:</h2>
+<p></p>
+<ul>
 	<li>**Easy-to-use setup wizard:** The Commotion Quickstart wizard provides a simple, one-step interface for setting up a Commotion node.</li>
 	<li>**Local applications:** The Commotion Apps Portal is an interface for creating and browsing for local network applications.</li>
 	<li>**Common platform for managing settings:** The Commotion Daemon provides a common management interface for maintaining the configurations of different community networks.</li>
 	<li>**Encryption tools:** Commotion configures industry-standard IBSS-RSN encryption by default, and provides the Serval crypto API to aid developers in creating secure applications.</li>
 	<li>**Consistent visual style:** New Commotion releases are all styled in accordance with the Commotion Human Interface Guidelines (http://commotionwireless.net/docs/hig/introduction).</li>
 	<li>**Simplified debugging:** A new Commotion Debugging Helper tool makes it easy to retrieve useful troubleshooting information from a node in the event of a network problem.</li>
-</ul> <h2>Fixes</h2> Innumerable fixes and changes went into this release since <a href='https://code.commotionwireless.net/projects/commotion/wiki/Developer_Pre-Release_%28PR3%29_Feature_Targets'>Preview Release 3 (PR3)</a>, the previous stable branch. A complete list can be found on the Commotion project site&#8217;s <a href='https://code.commotionwireless.net/projects/commotion/issues?set_filter=1&amp;f\[\]=status_id&amp;op\[status_id\]=!&amp;v\[status_id\]\[\]=1&amp;f\[\]=fixed_version_id&amp;op\[fixed_version_id\]=%3D&amp;v\[fixed_version_id\]\[\]=2&amp;f\[\]=&amp;c\[\]=tracker&amp;c\[\]=status&amp;c\[\]=priority&amp;c\[\]=subject&amp;c\[\]=assigned_to&amp;c\[\]=updated_on&amp;group_by='>issue tracker</a>. <h2>Included Components</h2> <ul>
+</ul>
+<p></p>
+<h2>Fixes</h2>
+<p> Innumerable fixes and changes went into this release since <a href='https://code.commotionwireless.net/projects/commotion/wiki/Developer_Pre-Release_%28PR3%29_Feature_Targets'>Preview Release 3 (PR3)</a>, the previous stable branch. A complete list can be found on the Commotion project site’s <a href='https://code.commotionwireless.net/projects/commotion/issues?set_filter=1&amp;f\[\]=status_id&amp;op\[status_id\]=!&amp;v\[status_id\]\[\]=1&amp;f\[\]=fixed_version_id&amp;op\[fixed_version_id\]=%3D&amp;v\[fixed_version_id\]\[\]=2&amp;f\[\]=&amp;c\[\]=tracker&amp;c\[\]=status&amp;c\[\]=priority&amp;c\[\]=subject&amp;c\[\]=assigned_to&amp;c\[\]=updated_on&amp;group_by='>issue tracker</a>.</p>
+<h2>Included Components</h2>
+<p></p>
+<ul>
 	<li><a href='https://github.com/opentechinstitute/avahi-client'>avahi-client v0.1</a>: Provides automatic network service discovery</li>
 	<li><a href='https://github.com/opentechinstitute/commotion-apps/'>commotion-apps v1.1</a>: Web-based local application portal for Commotion-OpenWRT</li>
 	<li><a href='https://github.com/opentechinstitute/commotion-bug-info'>commotion-debug-helper v0.1</a>: A LuCI-based reporting tool to simplify the process of router troubleshooting</li>
@@ -231,7 +142,7 @@
 	<li><a href='https://github.com/opentechinstitute/olsrd/tree/release-0.6.5.4/lib/dnssd'>olsrd-dnssd v0.1</a>: Propagates multicast DNS (mDNS) service discovery advertisements (DNSSD) over an OLSR mesh network</li>
 	<li><a href='https://github.com/opentechinstitute/olsrd/tree/release-0.6.5.4/lib/mdp'>olsrd-mdp v0.1</a>: Plugin for signing OLSR mesh traffic</li>
 	<li><a href='https://github.com/opentechinstitute/serval-crypto'>serval-crypto v2.0</a>: Cryptographic libraries and API for signing mDNS service advertisements</li>
-</ul></p>
+</ul>
  <h4>Tags:</h4>
 
  <a href="/tags/siteindex#release">release</a>&nbsp;
@@ -239,23 +150,135 @@
 
     </div>
 
+    <div class="right-third">
+
+
+ <h3>Tags:</h3>
+
+ <a href="/tags/siteindex#ui">ui</a><br />
+
+ <a href="/tags/siteindex#branding">branding</a><br />
+
+ <a href="/tags/siteindex#identity">identity</a><br />
+
+ <a href="/tags/siteindex#research">research</a><br />
+
+ <a href="/tags/siteindex#detroit">detroit</a><br />
+
+ <a href="/tags/siteindex#community wireless">community wireless</a><br />
+
+ <a href="/tags/siteindex#recommendations">recommendations</a><br />
+
+ <a href="/tags/siteindex#ux">ux</a><br />
+
+ <a href="/tags/siteindex#messaging">messaging</a><br />
+
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a><br />
+
+ <a href="/tags/siteindex#drupal">drupal</a><br />
+
+ <a href="/tags/siteindex#chat">chat</a><br />
+
+ <a href="/tags/siteindex#applications">applications</a><br />
+
+ <a href="/tags/siteindex#routers">routers</a><br />
+
+ <a href="/tags/siteindex#energy">energy</a><br />
+
+ <a href="/tags/siteindex#mesh">mesh</a><br />
+
+ <a href="/tags/siteindex#cost">cost</a><br />
+
+ <a href="/tags/siteindex#price">price</a><br />
+
+ <a href="/tags/siteindex#hardware">hardware</a><br />
+
+ <a href="/tags/siteindex#red hook">red hook</a><br />
+
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a><br />
+
+ <a href="/tags/siteindex#site visits">site visits</a><br />
+
+ <a href="/tags/siteindex#maintenance">maintenance</a><br />
+
+ <a href="/tags/siteindex#warning">warning</a><br />
+
+ <a href="/tags/siteindex#label">label</a><br />
+
+ <a href="/tags/siteindex#security">security</a><br />
+
+ <a href="/tags/siteindex#anonymity">anonymity</a><br />
+
+ <a href="/tags/siteindex#privacy">privacy</a><br />
+
+ <a href="/tags/siteindex#battlemesh">battlemesh</a><br />
+
+ <a href="/tags/siteindex#olsr">olsr</a><br />
+
+ <a href="/tags/siteindex#testing">testing</a><br />
+
+ <a href="/tags/siteindex#digital stewards">digital stewards</a><br />
+
+ <a href="/tags/siteindex#amp">amp</a><br />
+
+ <a href="/tags/siteindex#amc">amc</a><br />
+
+ <a href="/tags/siteindex#release">release</a><br />
+
+ <a href="/tags/siteindex#serval">serval</a><br />
+
+ <a href="/tags/siteindex#gource">gource</a><br />
+
+ <a href="/tags/siteindex#git">git</a><br />
+
+ <a href="/tags/siteindex#visualization">visualization</a><br />
+
+ <a href="/tags/siteindex#development">development</a><br />
+
+ <a href="/tags/siteindex#guest post">guest post</a><br />
+
+ <a href="/tags/siteindex#tools">tools</a><br />
+
+ <a href="/tags/siteindex#cck">cck</a><br />
+
+ <a href="/tags/siteindex#pop-up mesh">pop-up mesh</a><br />
+
+ <a href="/tags/siteindex#urban">urban</a><br />
+
+ <a href="/tags/siteindex#somaliland">somaliland</a><br />
+
+ <a href="/tags/siteindex#rural">rural</a><br />
+
+ <a href="/tags/siteindex#r1">r1</a><br />
+
+ <a href="/tags/siteindex#upgrade">upgrade</a><br />
+
+ <a href="/tags/siteindex#hack day">hack day</a><br />
+
+
+    </div>
+
   </div>
 </div>
-
+ 
+    </div>
+  </div>
+</div>
 <div class="footer-wrapper">
   <div class="container">
-        <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-        <li class=""><a href="/jobs" title="">Jobs</a></li>
-        <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-        <li class=""><a href="/about/press" title="">Press</a></li>
-        <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-        </ul>
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
-  </body>
+  </body> 
 </html>
 

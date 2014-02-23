@@ -7,16 +7,12 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-        body {
-          padding-top:60px;
-        }
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 <body>
@@ -29,220 +25,236 @@
         <div class="color2">&nbsp;</div>
         <div class="color3">&nbsp;</div>
         <div class="color4">&nbsp;</div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="position:relative; z-index:10000;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-        <a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
         About
         <b class="caret"></b>
-        </a>
-        <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-        </ul>
-        </li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-        <a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
         Get Help
         <b class="caret"></b>
-        </a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-        </ul>
-      </li>
-     <li class="dropdown">
-        <a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
         Download
         <b class="caret"></b>
-        </a>
-        <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a id="developersMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
         For Developers
         <b class="caret"></b>
-        </a>
-        <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
- </div>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
-
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Commotion R1 Breaking Changes</h1>
   <hr>
+  <h1 class="pageheadings">Commotion R1 Breaking Changes</h1>
 </div>
-
+ 
 <div class="contentcontainer">
   <div class="container">
-
-    <div class="right-third">
-
-
- <h3>Tags:</h3>
-
- <a href="/tags/siteindex#ui,branding,identity,research">ui,branding,identity,research</a><br />
-
- <a href="/tags/siteindex#ui,detroit,community">ui,detroit,community</a><br />
-
- <a href="/tags/siteindex#wireless,research,recommendations,">wireless,research,recommendations,</a><br />
-
- <a href="/tags/siteindex#ui,ux,research">ui,ux,research</a><br />
-
- <a href="/tags/siteindex#recommendations,research">recommendations,research</a><br />
-
- <a href="/tags/siteindex#messaging,detroit">messaging,detroit</a><br />
-
- <a href="/tags/siteindex#drupal,branding">drupal,branding</a><br />
-
- <a href="/tags/siteindex#messaging,chat,ux,applications">messaging,chat,ux,applications</a><br />
-
- <a href="/tags/siteindex#chat,applications,routers,,messaging">chat,applications,routers,,messaging</a><br />
-
- <a href="/tags/siteindex#chat,applications,routers,messaging">chat,applications,routers,messaging</a><br />
-
- <a href="/tags/siteindex#community">community</a><br />
-
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a><br />
-
- <a href="/tags/siteindex#mesh,cost,price,hardware">mesh,cost,price,hardware</a><br />
-
- <a href="/tags/siteindex#red">red</a><br />
-
- <a href="/tags/siteindex#hook,hardware,cost,community">hook,hardware,cost,community</a><br />
-
- <a href="/tags/siteindex#wireless,applications,research,mesh">wireless,applications,research,mesh</a><br />
-
- <a href="/tags/siteindex#hook,hardware,community">hook,hardware,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,troubleshooting,site">wireless,mesh,troubleshooting,site</a><br />
-
- <a href="/tags/siteindex#visits,maintenance">visits,maintenance</a><br />
-
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a><br />
-
- <a href="/tags/siteindex#battlemesh,mesh,olsr,testing">battlemesh,mesh,olsr,testing</a><br />
-
- <a href="/tags/siteindex#detroit,community">detroit,community</a><br />
-
- <a href="/tags/siteindex#wireless,digital">wireless,digital</a><br />
-
- <a href="/tags/siteindex#stewards,mesh,amp,amc">stewards,mesh,amp,amc</a><br />
-
- <a href="/tags/siteindex#release">release</a><br />
-
- <a href="/tags/siteindex#messaging,applications,chat,site">messaging,applications,chat,site</a><br />
-
- <a href="/tags/siteindex#visits,serval">visits,serval</a><br />
-
- <a href="/tags/siteindex#mesh,site">mesh,site</a><br />
-
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a><br />
-
- <a href="/tags/siteindex#development,visualization">development,visualization</a><br />
-
- <a href="/tags/siteindex#guest">guest</a><br />
-
- <a href="/tags/siteindex#post,community">post,community</a><br />
-
- <a href="/tags/siteindex#wireless">wireless</a><br />
-
- <a href="/tags/siteindex#digital">digital</a><br />
-
- <a href="/tags/siteindex#stewards,community">stewards,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,detroit,red">wireless,mesh,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook">hook</a><br />
-
- <a href="/tags/siteindex#hook,community">hook,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,site">wireless,mesh,site</a><br />
-
- <a href="/tags/siteindex#visits,digital">visits,digital</a><br />
-
- <a href="/tags/siteindex#stewards,routers,maintenance">stewards,routers,maintenance</a><br />
-
- <a href="/tags/siteindex#wireless,detroit,red">wireless,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook,tools,cck,digital">hook,tools,cck,digital</a><br />
-
- <a href="/tags/siteindex#stewards">stewards</a><br />
-
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a><br />
-
-
-    </div>
-
-    <div class="left-twothird">
+ 
+<div class="left-twothird">
 
  <h2 class="blog-pubdata">2014-01-10 / danstaples</h2>
 
-<p>The latest Commotion release, <a href='https://commotionwireless.net/download/routers'>R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about. These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we&#8217;ll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.</p>
+<p>The latest Commotion release, <a href='https://commotionwireless.net/download/routers'>R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about.<!--more--> These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we’ll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.</p>
 
-<p><strong>IP Addressing</strong> The first change is the IP addressing schema we use. If you&#8217;ve used previous releases of Commotion, you might have noticed that devices on the mesh network assign themselves IP addresses somewhere in the 5.0.0.0/8 range. Additionally, if you&#8217;ve connected to a Commotion router running a previous release, your client device would have gotten a 101.x.x.x, 102.x.x.x, or 103.x.x.x IP address. Readers experienced in computer networking will realize that all of these IP address ranges are technically public space, and using them for Commotion could potentially break routing to devices assigned these IP addresses on the public internet. These address ranges were originally selected to maintain compatibility with one of Commotion&#8217;s predecessors. Before Commotion existed in its current form, the Open Technology Institute was working on a project to supplement an existing community wireless network with new mesh routers. The custom software that was written for those devices was created to be backward-compatible with the routers already in place, which were running a version of the <a href='http://robin.forumup.it' target='_blank'>R.O.B.I.N. firmware</a>. The default IP address ranges of the R.O.B.I.N. firmware were adopted for our custom software, and that project eventually became the seed of what would become Commotion. For R1, we have moved away from publicly allocatable IP addresses and are now using private ranges. But this introduces another problem: most residential and commercial IPv4 networks use the same handful of private address ranges due to the shortage of public IPv4 addresses. If we use one of these common private address ranges for Commotion, we run the risk of interfering with upstream gateway networks and thus causing routing problems. To solve this problem, we have chosen to use the Carrier-Grade NAT shared address space (<a href='http://tools.ietf.org/search/rfc6598' target='_blank'>RFC6598</a>) for all mesh devices. This allows us to use IP addresses in the range 100.64.0.0/10. In addition, all client networks are now bridged and use the <a href='http://tools.ietf.org/html/rfc1918' target='_blank'>RFC1918</a> private address range 10.0.0.0/8. Another approach to the problem of IPv4 address collision would be to move to a fully IPv6 address space. However, in order to better support the largest variety of hardware possible, we decided to stay with a default IPv4 network for now, while looking into supporting IPv6 in future releases.</p>
+<p><strong>IP Addressing</strong> The first change is the IP addressing schema we use. If you’ve used previous releases of Commotion, you might have noticed that devices on the mesh network assign themselves IP addresses somewhere in the 5.0.0.0/8 range. Additionally, if you’ve connected to a Commotion router running a previous release, your client device would have gotten a 101.x.x.x, 102.x.x.x, or 103.x.x.x IP address. Readers experienced in computer networking will realize that all of these IP address ranges are technically public space, and using them for Commotion could potentially break routing to devices assigned these IP addresses on the public internet. These address ranges were originally selected to maintain compatibility with one of Commotion’s predecessors. Before Commotion existed in its current form, the Open Technology Institute was working on a project to supplement an existing community wireless network with new mesh routers. The custom software that was written for those devices was created to be backward-compatible with the routers already in place, which were running a version of the <a href='http://robin.forumup.it' target='_blank'>R.O.B.I.N. firmware</a>. The default IP address ranges of the R.O.B.I.N. firmware were adopted for our custom software, and that project eventually became the seed of what would become Commotion. For R1, we have moved away from publicly allocatable IP addresses and are now using private ranges. But this introduces another problem: most residential and commercial IPv4 networks use the same handful of private address ranges due to the shortage of public IPv4 addresses. If we use one of these common private address ranges for Commotion, we run the risk of interfering with upstream gateway networks and thus causing routing problems. To solve this problem, we have chosen to use the Carrier-Grade NAT shared address space (<a href='http://tools.ietf.org/search/rfc6598' target='_blank'>RFC6598</a>) for all mesh devices. This allows us to use IP addresses in the range 100.64.0.0/10. In addition, all client networks are now bridged and use the <a href='http://tools.ietf.org/html/rfc1918' target='_blank'>RFC1918</a> private address range 10.0.0.0/8. Another approach to the problem of IPv4 address collision would be to move to a fully IPv6 address space. However, in order to better support the largest variety of hardware possible, we decided to stay with a default IPv4 network for now, while looking into supporting IPv6 in future releases.</p>
 
 <p><strong>Adhoc Wireless Settings</strong> Previous versions of Commotion came preconfigured with default values for the adhoc/mesh wireless network settings. We chose “commotionwireless.net” as the SSID, “02:CA:FF:EE:BA:BE” as the BSSID (a BSSID commonly used in wireless mesh networks), and a default channel of 5. In the R1 version of Commotion, users are asked to choose a channel and SSID during setup, so the old defaults are no longer relevant. The more significant change concerns the adhoc BSSID, a value that, like the adhoc SSID, must be shared by all devices in a particular mesh network. Instead of asking the user to choose a BSSID, which is a string of six bytes represented as twelve hexadecimal characters, we opted to use deterministic BSSID generation. This means that the BSSID is now generated as a hash of the adhoc SSID and channel, an idea originally suggested by frequent Commotion contributors Hans-Christoph Steiner and Sean McIntyre. This change will help to prevent certain wireless drivers from ignoring the requested BSSID and roaming to a matching SSID. In R1, Commotion nodes with the same BSSID always have the same SSID and channel, and vice versa. This also has the added benefit of not bothering the user with an unnecessary technical detail.</p>
 
 <p><strong>Backward Compatibility</strong> The unfortunate side effect of these changes is that Commotion R1 is not backward compatible with previous releases. In order to upgrade your pre-R1 Commotion network, we recommend flashing all the nodes on your network to R1 via <a href='https://commotionwireless.net/docs/cck/installing-configuring/install-and-recover-tftp'>factory reset</a> or the sysupgrade method (<strong>be sure to <em>uncheck</em> “Save settings” when sysupgrading to R1</strong>). After flashing the nodes, follow the Setup Wizard to set the relevant settings for the node. Once that is finished, you should be all set! After upgrading to R1, your nodes now have the ability to save their settings during future upgrades. To do this, you can keep the “Save settings” option checked when using the sysupgrade method. Have you given R1 a try? <a href='https://commotionwireless.net/contact'>Let us know what you think</a> in our feedback form.</p>
  <h4>Tags:</h4>
 
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a>&nbsp;
+ <a href="/tags/siteindex#r1">r1</a>&nbsp;
+
+ <a href="/tags/siteindex#upgrade">upgrade</a>&nbsp;
+
+
+    </div>
+
+    <div class="right-third">
+
+
+ <h3>Tags:</h3>
+
+ <a href="/tags/siteindex#ui">ui</a><br />
+
+ <a href="/tags/siteindex#branding">branding</a><br />
+
+ <a href="/tags/siteindex#identity">identity</a><br />
+
+ <a href="/tags/siteindex#research">research</a><br />
+
+ <a href="/tags/siteindex#detroit">detroit</a><br />
+
+ <a href="/tags/siteindex#community wireless">community wireless</a><br />
+
+ <a href="/tags/siteindex#recommendations">recommendations</a><br />
+
+ <a href="/tags/siteindex#ux">ux</a><br />
+
+ <a href="/tags/siteindex#messaging">messaging</a><br />
+
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a><br />
+
+ <a href="/tags/siteindex#drupal">drupal</a><br />
+
+ <a href="/tags/siteindex#chat">chat</a><br />
+
+ <a href="/tags/siteindex#applications">applications</a><br />
+
+ <a href="/tags/siteindex#routers">routers</a><br />
+
+ <a href="/tags/siteindex#energy">energy</a><br />
+
+ <a href="/tags/siteindex#mesh">mesh</a><br />
+
+ <a href="/tags/siteindex#cost">cost</a><br />
+
+ <a href="/tags/siteindex#price">price</a><br />
+
+ <a href="/tags/siteindex#hardware">hardware</a><br />
+
+ <a href="/tags/siteindex#red hook">red hook</a><br />
+
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a><br />
+
+ <a href="/tags/siteindex#site visits">site visits</a><br />
+
+ <a href="/tags/siteindex#maintenance">maintenance</a><br />
+
+ <a href="/tags/siteindex#warning">warning</a><br />
+
+ <a href="/tags/siteindex#label">label</a><br />
+
+ <a href="/tags/siteindex#security">security</a><br />
+
+ <a href="/tags/siteindex#anonymity">anonymity</a><br />
+
+ <a href="/tags/siteindex#privacy">privacy</a><br />
+
+ <a href="/tags/siteindex#battlemesh">battlemesh</a><br />
+
+ <a href="/tags/siteindex#olsr">olsr</a><br />
+
+ <a href="/tags/siteindex#testing">testing</a><br />
+
+ <a href="/tags/siteindex#digital stewards">digital stewards</a><br />
+
+ <a href="/tags/siteindex#amp">amp</a><br />
+
+ <a href="/tags/siteindex#amc">amc</a><br />
+
+ <a href="/tags/siteindex#release">release</a><br />
+
+ <a href="/tags/siteindex#serval">serval</a><br />
+
+ <a href="/tags/siteindex#gource">gource</a><br />
+
+ <a href="/tags/siteindex#git">git</a><br />
+
+ <a href="/tags/siteindex#visualization">visualization</a><br />
+
+ <a href="/tags/siteindex#development">development</a><br />
+
+ <a href="/tags/siteindex#guest post">guest post</a><br />
+
+ <a href="/tags/siteindex#tools">tools</a><br />
+
+ <a href="/tags/siteindex#cck">cck</a><br />
+
+ <a href="/tags/siteindex#pop-up mesh">pop-up mesh</a><br />
+
+ <a href="/tags/siteindex#urban">urban</a><br />
+
+ <a href="/tags/siteindex#somaliland">somaliland</a><br />
+
+ <a href="/tags/siteindex#rural">rural</a><br />
+
+ <a href="/tags/siteindex#r1">r1</a><br />
+
+ <a href="/tags/siteindex#upgrade">upgrade</a><br />
+
+ <a href="/tags/siteindex#hack day">hack day</a><br />
 
 
     </div>
 
   </div>
 </div>
-
+ 
+    </div>
+  </div>
+</div>
 <div class="footer-wrapper">
   <div class="container">
-        <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-        <li class=""><a href="/jobs" title="">Jobs</a></li>
-        <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-        <li class=""><a href="/about/press" title="">Press</a></li>
-        <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-        </ul>
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
-  </body>
+  </body> 
 </html>
 

@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Supported Devices
+site_section: help
 categories: {categories}
 created: 2013-07-07
 changed: 2013-12-28
 post_author: critzo
-lang: fr
+lang: en
 ---
   <p>Commotion is supported on a variety of devices and platforms. We list devices as "supported" after active testing on the latest release of our software. We're constantly testing new devices and documenting our work on our developer site, <a href="https://wiki.commotionwireless.net">wiki.commotionwireless.net</a>.</p>
 

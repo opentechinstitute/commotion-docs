@@ -1,6 +1,7 @@
 ---
 layout: default
 title: License & Privacy
+site_section: about
 categories: {categories}
 created: 2012-07-16
 changed: 2013-07-19

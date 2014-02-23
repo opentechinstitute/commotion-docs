@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Commotion Construction Kit
-categories: {categories}
+site_section: help
+sub_section: [cck]
+categories: 
 created: 2013-09-20
 changed: 2014-01-06
 post_author: critzo

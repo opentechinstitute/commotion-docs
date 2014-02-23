@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install and Recover with TFTP
+site_section: help
+sub_section: [cck,cck-installing]
 categories: {categories}
 created: 2013-09-27
 changed: 2014-01-13
