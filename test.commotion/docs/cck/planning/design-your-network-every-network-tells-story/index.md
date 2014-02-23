@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Design your Network - Every Network Tells a Story
+site_section: help
+sub_section: [cck,cck-planning]
 categories: 
 created: 2013-09-27
 changed: 2013-09-28
