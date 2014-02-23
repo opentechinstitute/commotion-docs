@@ -344,6 +344,12 @@ div.pageheadings hr {
   margin: 0;
   padding: 0;
 }
+#subsection-menu ul li.active {
+  background-color: #E8FF00;
+}
+#subsection-menu ul ul.submenu li.active {
+  background-color: #E8FF00;
+}
 #subsection-menu ul li a:link,
 #subsection-menu ul li a:visited {
   color: #000000;
@@ -356,4 +362,19 @@ div.pageheadings hr {
 }
 #subsection-menu ul li a:hover {
   background-color: #E8FF00;
+}
+#subsection-menu ul.submenu {
+  background: none repeat scroll 0 0 #CCCCCC;
+  border-left: 0.3em solid #FF739C;
+  padding-left: 0.5em;
+}
+#subsection-menu ul.submenu li {
+  background: none repeat scroll 0 0 #CCCCCC;
+}
+#subsection-menu ul.submenu li a:link,
+#subsection-menu ul.submenu li a:visited {
+
+}
+#subsection-menu ul.submenu li a:hover {
+
 }

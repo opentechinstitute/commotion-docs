@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Style
-categories: {categories}
+site_section: developers
+sub_section: [hig]
+categories: 
 created: 2012-07-03
 changed: 2013-09-04
 post_author: michael@theworkdept.com
