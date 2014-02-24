@@ -1,0 +1,7 @@
+{% for post in site.categories.release limit:1 %}
+<h4><a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a></h4>
+<p class="blog-pubdata">{{ post.date | date: "%B %d, %Y" }} {{ post.post_author }}</p>
+<p class="blog-excerpt">{{ post.content | split:'<!--miniteaser-->' | first }}</p>
+<hr>
+{% endfor %}
+

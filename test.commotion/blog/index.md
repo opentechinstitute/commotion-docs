@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog-front
 title: Commotion Blog
 categories: 
 created: 2014-01-14
