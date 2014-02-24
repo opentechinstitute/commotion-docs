@@ -3,7 +3,7 @@ layout: default
 title: Troubleshoot Your Wireless Node
 site_section: help
 sub_section: [cck,cck-installing]
-categories: {categories}
+categories: 
 created: 2013-11-04
 changed: 2013-12-23
 post_author: critzo

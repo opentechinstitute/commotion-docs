@@ -3,7 +3,7 @@ layout: default
 title: Configure Commotion
 site_section: help
 sub_section: [cck,cck-installing]
-categories: {categories}
+categories: 
 created: 2013-11-05
 changed: 2014-01-13
 post_author: critzo

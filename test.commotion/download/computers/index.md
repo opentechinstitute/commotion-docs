@@ -1,7 +1,7 @@
 ---
 layout: downloads
 title: Download Commotion for Desktop/Laptop Computers
-categories: {categories}
+categories: 
 created: 2013-07-06
 changed: 2013-12-31
 post_author: critzo

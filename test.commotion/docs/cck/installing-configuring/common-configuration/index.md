@@ -3,7 +3,7 @@ layout: default
 title: Common Configurations
 site_section: help
 sub_section: [cck,cck-installing]
-categories: {categories}
+categories: 
 created: 2013-11-06
 changed: 2014-01-12
 post_author: critzo

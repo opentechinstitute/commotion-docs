@@ -2,7 +2,7 @@
 layout: default
 title: Press
 site_section: about
-categories: {categories}
+categories: 
 created: 2012-07-16
 changed: 2013-09-21
 post_author: admin

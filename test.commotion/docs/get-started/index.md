@@ -2,7 +2,7 @@
 layout: default
 title: Get Started
 site_section: help
-categories: {categories}
+categories: 
 created: 2013-12-11
 changed: 2013-12-17
 post_author: critzo

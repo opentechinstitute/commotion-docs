@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Commotion
-categories: {categories}
+categories: 
 created: 2013-12-11
 changed: 2013-12-11
 post_author: critzo

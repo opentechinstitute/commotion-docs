@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get Involved
-categories: {categories}
+categories: 
 created: 2013-12-11
 changed: 2013-12-12
 post_author: critzo

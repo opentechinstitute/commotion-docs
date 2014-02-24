@@ -1,7 +1,7 @@
 ---
 layout: downloads
 title: Download Commotion Andoid
-categories: {categories}
+categories: 
 created: 2013-06-28
 changed: 2013-12-31
 post_author: grady

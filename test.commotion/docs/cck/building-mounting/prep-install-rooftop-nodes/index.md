@@ -3,7 +3,7 @@ layout: default
 title: Prep and Install Rooftop Nodes
 site_section: help
 sub_section: [cck,cck-building]
-categories: {categories}
+categories: 
 created: 2013-09-27
 changed: 2013-10-01
 post_author: critzo

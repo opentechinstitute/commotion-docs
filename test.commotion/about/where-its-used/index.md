@@ -2,7 +2,7 @@
 layout: default
 title: Where It's Used
 site_section: about
-categories: {categories}
+categories: 
 created: 2013-06-28
 changed: 2013-12-18
 post_author: gerety

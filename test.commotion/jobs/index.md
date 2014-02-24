@@ -2,7 +2,7 @@
 layout: default
 title: Jobs
 site_section: about
-categories: {categories}
+categories: 
 created: 2012-07-16
 changed: 2013-12-15
 post_author: admin

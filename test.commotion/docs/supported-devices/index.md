@@ -2,7 +2,7 @@
 layout: default
 title: Supported Devices
 site_section: help
-categories: {categories}
+categories: 
 created: 2013-07-07
 changed: 2013-12-28
 post_author: critzo

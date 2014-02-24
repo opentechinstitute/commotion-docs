@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grounding and Lightning Protection
-categories: {categories}
+categories: 
 created: 2013-07-30
 changed: 2013-08-05
 post_author: critzo

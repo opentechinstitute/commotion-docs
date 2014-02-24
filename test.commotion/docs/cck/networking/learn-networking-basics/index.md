@@ -3,7 +3,7 @@ layout: default
 title: Learn Networking Basics
 site_section: help
 sub_section: [cck,cck-networking]
-categories: {categories}
+categories: 
 created: 2013-11-07
 changed: 2013-11-26
 post_author: critzo

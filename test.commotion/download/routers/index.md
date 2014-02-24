@@ -1,7 +1,7 @@
 ---
 layout: downloads
 title: Download Commotion Router
-categories: {categories}
+categories: 
 created: 2013-06-28
 changed: 2014-01-06
 post_author: grady

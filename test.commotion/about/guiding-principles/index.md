@@ -2,7 +2,7 @@
 layout: default
 title: Guiding Principles
 site_section: about
-categories: {categories}
+categories: 
 created: 2013-07-14
 changed: 2013-07-18
 post_author: critzo

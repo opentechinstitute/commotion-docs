@@ -2,7 +2,7 @@
 layout: default
 title: About Commotion
 site_section: about
-categories: {categories}
+categories: 
 created: 2012-07-16
 changed: 2013-12-18
 post_author: admin

@@ -2,7 +2,7 @@
 layout: default
 title: Commotion Localization
 site_section: help
-categories: {categories}
+categories: 
 created: 2013-08-29
 changed: 2013-09-20
 post_author: critzo

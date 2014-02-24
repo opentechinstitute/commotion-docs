@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rooftop Mounting Guide
-categories: {categories}
+categories: 
 created: 2013-07-30
 changed: 2013-07-30
 post_author: critzo

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: #commotion IRC chat
-categories: {categories}
+categories: 
 created: 2013-07-07
 changed: 2013-08-26
 post_author: critzo

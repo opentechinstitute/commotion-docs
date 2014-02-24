@@ -3,7 +3,7 @@ layout: default
 title: Design your Network- Construction Elements
 site_section: help
 sub_section: [cck,cck-planning]
-categories: {categories}
+categories: 
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo

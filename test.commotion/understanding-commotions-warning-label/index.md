@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Understanding Commotion's Warning Label
-categories: {categories}
+categories: 
 created: 2013-02-14
 changed: 2013-02-21
 post_author: s2e

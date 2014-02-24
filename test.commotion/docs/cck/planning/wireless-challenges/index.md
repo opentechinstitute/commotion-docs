@@ -3,7 +3,7 @@ layout: default
 title: Wireless Challenges
 site_section: help
 sub_section: [cck,cck-planning]
-categories: {categories}
+categories: 
 created: 2013-11-04
 changed: 2013-11-27
 post_author: critzo
