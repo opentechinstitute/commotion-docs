@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Case Study - Red Hook Initiative WiFi & Tidepools
+title: Case Study - Red Hook Initiative WiFi and Tidepools
 categories: [red hook,hardware,cost,community wireless,applications,Research,mesh]
 created: 2013-02-02
 changed: 2013-07-26

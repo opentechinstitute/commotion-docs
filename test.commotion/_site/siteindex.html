@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Commotion Wireless</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/commotion.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<div class="navbar navbar-inverse">
+  <div class="boxes-box" id="boxes-box-top_colors">
+    <div class="boxes-box-content">
+      <div class="navbar-inners">
+        <div class="color0">&nbsp;</div>
+        <div class="color1">&nbsp;</div>
+        <div class="color2">&nbsp;</div>
+        <div class="color3">&nbsp;</div>
+        <div class="color4">&nbsp;</div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
+        About
+        <b class="caret"></b>
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
+        Get Help
+        <b class="caret"></b>
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
+        Download
+        <b class="caret"></b>
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
+        For Developers
+        <b class="caret"></b>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</div>
+ 
+ 
+<div class="containercontent pageheadings">
+  <hr>
+  <h1 class="pageheadings">Commotion Wireless</h1>
+</div>
+ 
+<div class="contentcontainer">
+  <div class="container">
+ 
+<div class="right-third">
+
+
+
+
+
+</div>
+
+<div class="left-twothird">
+
+<p><a href='#ui' /></p>
+<h2>ui</h2><ul>
+   
+    <li>critzo<a href='/blog/2014/01/14/commotion-team-participates-dc-internet-freedom-hack-day'>Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+    January 14, 2014 / critzo</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/09/audit-current-commotion-user-interfaces'>An audit of current Commotion user interfaces</a><br />
+    May 09, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/08/neighborhood-network-builders-summary'>Neighborhood network builders- a summary</a><br />
+    May 08, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/01/integrating-design-and-development-shape-commotion%E2%80%99s-brand-identity'>Integrating design and development to shape Commotion’s brand identity</a><br />
+    May 01, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#branding' /></p>
+<h2>branding</h2><ul>
+   
+    <li>The Work Department<a href='/blog/2012/09/19/making'>The making of...</a><br />
+    September 19, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/01/integrating-design-and-development-shape-commotion%E2%80%99s-brand-identity'>Integrating design and development to shape Commotion’s brand identity</a><br />
+    May 01, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#identity' /></p>
+<h2>identity</h2><ul>
+   
+    <li>The Work Department<a href='/blog/2012/05/01/integrating-design-and-development-shape-commotion%E2%80%99s-brand-identity'>Integrating design and development to shape Commotion’s brand identity</a><br />
+    May 01, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#research' /></p>
+<h2>research</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-2'>Warning Label Development, Part 2</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-1'>Warning Label Development, Part 1</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/30/building-successful-online-community-open-source-development'>Building successful online community for open-source development</a><br />
+    May 30, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/09/audit-current-commotion-user-interfaces'>An audit of current Commotion user interfaces</a><br />
+    May 09, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/08/neighborhood-network-builders-summary'>Neighborhood network builders- a summary</a><br />
+    May 08, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/01/integrating-design-and-development-shape-commotion%E2%80%99s-brand-identity'>Integrating design and development to shape Commotion’s brand identity</a><br />
+    May 01, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#detroit' /></p>
+<h2>detroit</h2><ul>
+   
+    <li>darbyhickey<a href='/blog/2013/10/01/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure'>PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure</a><br />
+    October 01, 2013 / darbyhickey</li> 
+   
+    <li>darbyhickey<a href='/blog/2013/07/26/video-community-technology-and-training'>Video- Community, Technology, and Training</a><br />
+    July 26, 2013 / darbyhickey</li> 
+   
+    <li>georgia<a href='/blog/2013/06/05/building-community-controlled-digital-infrastructure-detroit'>Building Community Controlled Digital Infrastructure in Detroit</a><br />
+    June 05, 2013 / georgia</li> 
+   
+    <li>The Work Department<a href='/blog/2012/11/06/brainstorming-how-neighborhood-power-grids-could-work-community-mesh-networks'>Brainstorming how neighborhood power grids could work with community mesh networks</a><br />
+    November 06, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/08/22/exploring-meshaging'>Exploring "meshaging"</a><br />
+    August 22, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/08/neighborhood-network-builders-summary'>Neighborhood network builders- a summary</a><br />
+    May 08, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#community wireless' /></p>
+<h2>community wireless</h2><ul>
+   
+    <li>darbyhickey<a href='/blog/2013/10/01/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure'>PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure</a><br />
+    October 01, 2013 / darbyhickey</li> 
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>darbyhickey<a href='/blog/2013/07/26/video-community-technology-and-training'>Video- Community, Technology, and Training</a><br />
+    July 26, 2013 / darbyhickey</li> 
+   
+    <li><a href='/blog/2013/07/26/mountain-top-repeaters-and-solar-powered-wi-fi-guest-post-nepal-wireless'>Mountain-top repeaters and solar-powered Wi-Fi - Guest Post from Nepal Wireless</a><br />
+    July 26, 2013 / </li> 
+   
+    <li>georgia<a href='/blog/2013/06/05/building-community-controlled-digital-infrastructure-detroit'>Building Community Controlled Digital Infrastructure in Detroit</a><br />
+    June 05, 2013 / georgia</li> 
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+   
+    <li>The Work Department<a href='/blog/2012/11/06/brainstorming-how-neighborhood-power-grids-could-work-community-mesh-networks'>Brainstorming how neighborhood power grids could work with community mesh networks</a><br />
+    November 06, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/08/neighborhood-network-builders-summary'>Neighborhood network builders- a summary</a><br />
+    May 08, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#recommendations' /></p>
+<h2>recommendations</h2><ul>
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/30/building-successful-online-community-open-source-development'>Building successful online community for open-source development</a><br />
+    May 30, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/08/neighborhood-network-builders-summary'>Neighborhood network builders- a summary</a><br />
+    May 08, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#ux' /></p>
+<h2>ux</h2><ul>
+   
+    <li>critzo<a href='/blog/2014/01/14/commotion-team-participates-dc-internet-freedom-hack-day'>Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+    January 14, 2014 / critzo</li> 
+   
+    <li>The Work Department<a href='/blog/2012/10/08/diving-deeper-meshaging'>Diving deeper into "meshaging"</a><br />
+    October 08, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/05/09/audit-current-commotion-user-interfaces'>An audit of current Commotion user interfaces</a><br />
+    May 09, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#messaging' /></p>
+<h2>messaging</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/06/05/serval-mesh-extender-field-trial-national-mall'>Serval Mesh Extender Field Trial on the National Mall</a><br />
+    June 05, 2013 / OTI</li> 
+   
+    <li>The Work Department<a href='/blog/2012/11/01/updating-commotion-package'>Updating a Commotion package</a><br />
+    November 01, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/10/08/diving-deeper-meshaging'>Diving deeper into "meshaging"</a><br />
+    October 08, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/08/22/exploring-meshaging'>Exploring "meshaging"</a><br />
+    August 22, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#drupal' /></p>
+<h2>drupal</h2><ul>
+   
+    <li>The Work Department<a href='/blog/2012/09/19/making'>The making of...</a><br />
+    September 19, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#chat' /></p>
+<h2>chat</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/06/05/serval-mesh-extender-field-trial-national-mall'>Serval Mesh Extender Field Trial on the National Mall</a><br />
+    June 05, 2013 / OTI</li> 
+   
+    <li>The Work Department<a href='/blog/2012/11/01/updating-commotion-package'>Updating a Commotion package</a><br />
+    November 01, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/10/08/diving-deeper-meshaging'>Diving deeper into "meshaging"</a><br />
+    October 08, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#applications' /></p>
+<h2>applications</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/06/05/serval-mesh-extender-field-trial-national-mall'>Serval Mesh Extender Field Trial on the National Mall</a><br />
+    June 05, 2013 / OTI</li> 
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+   
+    <li>The Work Department<a href='/blog/2012/11/01/updating-commotion-package'>Updating a Commotion package</a><br />
+    November 01, 2012 / The Work Department</li> 
+   
+    <li>The Work Department<a href='/blog/2012/10/08/diving-deeper-meshaging'>Diving deeper into "meshaging"</a><br />
+    October 08, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#routers' /></p>
+<h2>routers</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>The Work Department<a href='/blog/2012/11/01/updating-commotion-package'>Updating a Commotion package</a><br />
+    November 01, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#energy' /></p>
+<h2>energy</h2><ul>
+   
+    <li>The Work Department<a href='/blog/2012/11/06/brainstorming-how-neighborhood-power-grids-could-work-community-mesh-networks'>Brainstorming how neighborhood power grids could work with community mesh networks</a><br />
+    November 06, 2012 / The Work Department</li> 
+  
+ </ul>
+<p><a href='#mesh' /></p>
+<h2>mesh</h2><ul>
+   
+    <li>Dan Hastings<a href='/blog/2013/12/12/building-mesh-network-rural-somaliland'>Building a Mesh Network in Rural Somaliland</a><br />
+    December 12, 2013 / Dan Hastings</li> 
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>darbyhickey<a href='/blog/2013/07/26/video-community-technology-and-training'>Video- Community, Technology, and Training</a><br />
+    July 26, 2013 / darbyhickey</li> 
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+   
+    <li>georgia<a href='/blog/2013/06/05/building-community-controlled-digital-infrastructure-detroit'>Building Community Controlled Digital Infrastructure in Detroit</a><br />
+    June 05, 2013 / georgia</li> 
+   
+    <li>s2e<a href='/blog/2013/03/28/open-technology-institute-endorses-battle-mesh-v6'>The Open Technology Institute endorses the Battle of the Mesh v6</a><br />
+    March 28, 2013 / s2e</li> 
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+   
+    <li>s2e<a href='/blog/2012/11/14/cost-mesh-networks'>The Cost of Mesh Networks</a><br />
+    November 14, 2012 / s2e</li> 
+  
+ </ul>
+<p><a href='#cost' /></p>
+<h2>cost</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+   
+    <li>s2e<a href='/blog/2012/11/14/cost-mesh-networks'>The Cost of Mesh Networks</a><br />
+    November 14, 2012 / s2e</li> 
+  
+ </ul>
+<p><a href='#price' /></p>
+<h2>price</h2><ul>
+   
+    <li>s2e<a href='/blog/2012/11/14/cost-mesh-networks'>The Cost of Mesh Networks</a><br />
+    November 14, 2012 / s2e</li> 
+  
+ </ul>
+<p><a href='#hardware' /></p>
+<h2>hardware</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+   
+    <li>s2e<a href='/blog/2012/11/14/cost-mesh-networks'>The Cost of Mesh Networks</a><br />
+    November 14, 2012 / s2e</li> 
+  
+ </ul>
+<p><a href='#red hook' /></p>
+<h2>red hook</h2><ul>
+   
+    <li>darbyhickey<a href='/blog/2013/10/01/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure'>PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure</a><br />
+    October 01, 2013 / darbyhickey</li> 
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>darbyhickey<a href='/blog/2013/07/26/video-community-technology-and-training'>Video- Community, Technology, and Training</a><br />
+    July 26, 2013 / darbyhickey</li> 
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+   
+    <li>georgia<a href='/blog/2013/02/02/case-study-red-hook-initiative-wifi-tidepools'>Case Study - Red Hook Initiative WiFi and Tidepools</a><br />
+    February 02, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#troubleshooting' /></p>
+<h2>troubleshooting</h2><ul>
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#site visits' /></p>
+<h2>site visits</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+   
+    <li>OTI<a href='/blog/2013/06/05/serval-mesh-extender-field-trial-national-mall'>Serval Mesh Extender Field Trial on the National Mall</a><br />
+    June 05, 2013 / OTI</li> 
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#maintenance' /></p>
+<h2>maintenance</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>georgia<a href='/blog/2013/02/25/troubleshooting-wireless-network-technical-physical-and-social-needs'>Troubleshooting a Wireless Network - Technical, Physical and Social Needs</a><br />
+    February 25, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#warning' /></p>
+<h2>warning</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-2'>Warning Label Development, Part 2</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-1'>Warning Label Development, Part 1</a><br />
+    February 25, 2013 / OTI</li> 
+  
+ </ul>
+<p><a href='#label' /></p>
+<h2>label</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-2'>Warning Label Development, Part 2</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-1'>Warning Label Development, Part 1</a><br />
+    February 25, 2013 / OTI</li> 
+  
+ </ul>
+<p><a href='#security' /></p>
+<h2>security</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-2'>Warning Label Development, Part 2</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-1'>Warning Label Development, Part 1</a><br />
+    February 25, 2013 / OTI</li> 
+  
+ </ul>
+<p><a href='#anonymity' /></p>
+<h2>anonymity</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-2'>Warning Label Development, Part 2</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-1'>Warning Label Development, Part 1</a><br />
+    February 25, 2013 / OTI</li> 
+  
+ </ul>
+<p><a href='#privacy' /></p>
+<h2>privacy</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-2'>Warning Label Development, Part 2</a><br />
+    February 25, 2013 / OTI</li> 
+   
+    <li>OTI<a href='/blog/2013/02/25/warning-label-development-part-1'>Warning Label Development, Part 1</a><br />
+    February 25, 2013 / OTI</li> 
+  
+ </ul>
+<p><a href='#battlemesh' /></p>
+<h2>battlemesh</h2><ul>
+   
+    <li>s2e<a href='/blog/2013/03/28/open-technology-institute-endorses-battle-mesh-v6'>The Open Technology Institute endorses the Battle of the Mesh v6</a><br />
+    March 28, 2013 / s2e</li> 
+  
+ </ul>
+<p><a href='#olsr' /></p>
+<h2>olsr</h2><ul>
+   
+    <li>s2e<a href='/blog/2013/03/28/open-technology-institute-endorses-battle-mesh-v6'>The Open Technology Institute endorses the Battle of the Mesh v6</a><br />
+    March 28, 2013 / s2e</li> 
+  
+ </ul>
+<p><a href='#testing' /></p>
+<h2>testing</h2><ul>
+   
+    <li>s2e<a href='/blog/2013/03/28/open-technology-institute-endorses-battle-mesh-v6'>The Open Technology Institute endorses the Battle of the Mesh v6</a><br />
+    March 28, 2013 / s2e</li> 
+  
+ </ul>
+<p><a href='#digital stewards' /></p>
+<h2>digital stewards</h2><ul>
+   
+    <li>darbyhickey<a href='/blog/2013/10/01/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure'>PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure</a><br />
+    October 01, 2013 / darbyhickey</li> 
+   
+    <li>georgia<a href='/blog/2013/07/30/otis-red-hook-digital-stewards-bring-internet-access-new-york-city-housing-authority-facility'>OTI's Red Hook Digital Stewards Bring Internet Access to New York City Housing Authority Facility</a><br />
+    July 30, 2013 / georgia</li> 
+   
+    <li>darbyhickey<a href='/blog/2013/07/26/video-community-technology-and-training'>Video- Community, Technology, and Training</a><br />
+    July 26, 2013 / darbyhickey</li> 
+   
+    <li>georgia<a href='/blog/2013/06/05/building-community-controlled-digital-infrastructure-detroit'>Building Community Controlled Digital Infrastructure in Detroit</a><br />
+    June 05, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#amp' /></p>
+<h2>amp</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/06/05/building-community-controlled-digital-infrastructure-detroit'>Building Community Controlled Digital Infrastructure in Detroit</a><br />
+    June 05, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#amc' /></p>
+<h2>amc</h2><ul>
+   
+    <li>georgia<a href='/blog/2013/06/05/building-community-controlled-digital-infrastructure-detroit'>Building Community Controlled Digital Infrastructure in Detroit</a><br />
+    June 05, 2013 / georgia</li> 
+  
+ </ul>
+<p><a href='#release' /></p>
+<h2>release</h2><ul>
+   
+    <li>Josh King<a href='/blog/2013/12/30/commotion-router-v1-release-notes'>Commotion Router v1 Release Notes</a><br />
+    December 30, 2013 / Josh King</li> 
+   
+    <li>jking<a href='/blog/2013/09/19/commotion-dr2-release-notes'>Commotion DR2 Release Notes</a><br />
+    September 19, 2013 / jking</li> 
+   
+    <li>andrew<a href='/blog/2013/06/05/commotion-dr1-stable-release-notes-dr11'>Commotion DR1 Stable Release Notes (DR1.1)</a><br />
+    June 05, 2013 / andrew</li> 
+  
+ </ul>
+<p><a href='#serval' /></p>
+<h2>serval</h2><ul>
+   
+    <li>OTI<a href='/blog/2013/06/05/serval-mesh-extender-field-trial-national-mall'>Serval Mesh Extender Field Trial on the National Mall</a><br />
+    June 05, 2013 / OTI</li> 
+  
+ </ul>
+<p><a href='#gource' /></p>
+<h2>gource</h2><ul>
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+  
+ </ul>
+<p><a href='#git' /></p>
+<h2>git</h2><ul>
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+  
+ </ul>
+<p><a href='#visualization' /></p>
+<h2>visualization</h2><ul>
+   
+    <li>s2e<a href='/blog/2013/07/11/commotion-development-progress-visualized'>Commotion Development Progress Visualized</a><br />
+    July 11, 2013 / s2e</li> 
+   
+    <li>gerety<a href='/blog/2013/07/01/commotion-travels-india-first-international-workshop'>Commotion Travels to India for first International Workshop</a><br />
+    July 01, 2013 / gerety</li> 
+  
+ </ul>
+<p><a href='#development' /></p>
+<h2>development</h2><ul>
+   
+    <li>s2e<a href='/blog/2013/07/11/commotion-development-progress-visualized'>Commotion Development Progress Visualized</a><br />
+    July 11, 2013 / s2e</li> 
+  
+ </ul>
+<p><a href='#guest post' /></p>
+<h2>guest post</h2><ul>
+   
+    <li><a href='/blog/2013/07/26/mountain-top-repeaters-and-solar-powered-wi-fi-guest-post-nepal-wireless'>Mountain-top repeaters and solar-powered Wi-Fi - Guest Post from Nepal Wireless</a><br />
+    July 26, 2013 / </li> 
+  
+ </ul>
+<p><a href='#tools' /></p>
+<h2>tools</h2><ul>
+   
+    <li>darbyhickey<a href='/blog/2013/10/01/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure'>PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure</a><br />
+    October 01, 2013 / darbyhickey</li> 
+  
+ </ul>
+<p><a href='#cck' /></p>
+<h2>cck</h2><ul>
+   
+    <li>darbyhickey<a href='/blog/2013/10/01/press-release-new-tools-support-communities-build-own-wireless-communications-infrastructure'>PRESS RELEASE - New Tools Support Communities to Build Own Wireless Communications Infrastructure</a><br />
+    October 01, 2013 / darbyhickey</li> 
+  
+ </ul>
+<p><a href='#pop-up mesh' /></p>
+<h2>pop-up mesh</h2><ul>
+   
+    <li>Ryan Gerety<a href='/blog/2013/10/30/building-popup-mesh-networks'>Building Pop-up Mesh Networks</a><br />
+    October 30, 2013 / Ryan Gerety</li> 
+  
+ </ul>
+<p><a href='#urban' /></p>
+<h2>urban</h2><ul>
+   
+    <li>Ryan Gerety<a href='/blog/2013/10/30/building-popup-mesh-networks'>Building Pop-up Mesh Networks</a><br />
+    October 30, 2013 / Ryan Gerety</li> 
+  
+ </ul>
+<p><a href='#somaliland' /></p>
+<h2>somaliland</h2><ul>
+   
+    <li>Dan Hastings<a href='/blog/2013/12/12/building-mesh-network-rural-somaliland'>Building a Mesh Network in Rural Somaliland</a><br />
+    December 12, 2013 / Dan Hastings</li> 
+  
+ </ul>
+<p><a href='#rural' /></p>
+<h2>rural</h2><ul>
+   
+    <li>Dan Hastings<a href='/blog/2013/12/12/building-mesh-network-rural-somaliland'>Building a Mesh Network in Rural Somaliland</a><br />
+    December 12, 2013 / Dan Hastings</li> 
+  
+ </ul>
+<p><a href='#r1' /></p>
+<h2>r1</h2><ul>
+   
+    <li>danstaples<a href='/blog/2014/01/10/commotion-r1-breaking-changes'>Commotion R1 Breaking Changes</a><br />
+    January 10, 2014 / danstaples</li> 
+  
+ </ul>
+<p><a href='#upgrade' /></p>
+<h2>upgrade</h2><ul>
+   
+    <li>danstaples<a href='/blog/2014/01/10/commotion-r1-breaking-changes'>Commotion R1 Breaking Changes</a><br />
+    January 10, 2014 / danstaples</li> 
+  
+ </ul>
+<p><a href='#hack day' /></p>
+<h2>hack day</h2><ul>
+   
+    <li>critzo<a href='/blog/2014/01/14/commotion-team-participates-dc-internet-freedom-hack-day'>Commotion Team participates in DC Internet Freedom Hack Day</a><br />
+    January 14, 2014 / critzo</li> 
+  
+ </ul>
+    </div>
+
+  </div>
+</div>
+ 
+    </div>
+  </div>
+</div>
+<div class="footer-wrapper">
+  <div class="container">
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
+  </div>
+</div>
+
+<script src="/js/jquery-2.1.0.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.opentechinstitute.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+  </body> 
+</html>
+
