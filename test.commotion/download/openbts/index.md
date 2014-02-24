@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Download Commotion OpenBTS
 categories: {categories}
 created: 2013-06-28
@@ -8,12 +8,6 @@ post_author: grady
 lang: en
 ---
   <h2>Commotion OpenBTS</h2>
-
-<p><strong>Warning: this is completely experimental and has not been tested!</strong> It is for development use only.</p>
-
-<p>Commotion-OpenBTS is packaged as a custom Linux live distro that you can run from a USB flashdrive or CD.</p>
-
-<p><strong>You must have compatible GSM hardware in order to use it</strong>. See the <a href="https://github.com/opentechinstitute/commotion-openbts/blob/master/README">README</a> file for more information.</p>
 
 <div class="warning-label">
 <div class="warning-top">
@@ -31,6 +25,12 @@ lang: en
 </ul>
 <a href="https://commotionwireless.net/understanding-commotions-warning-label">For More Info Click Here</a></div>
 </div>
+
+<p><strong>Warning: this is completely experimental and has not been tested!</strong> It is for development use only.</p>
+
+<p>Commotion-OpenBTS is packaged as a custom Linux live distro that you can run from a USB flashdrive or CD.</p>
+
+<p><strong>You must have compatible GSM hardware in order to use it</strong>. See the <a href="https://github.com/opentechinstitute/commotion-openbts/blob/master/README">README</a> file for more information.</p>
 
 <p>&nbsp;</p>
 

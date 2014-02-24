@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Download Commotion Andoid
 categories: {categories}
 created: 2013-06-28
@@ -7,6 +7,8 @@ changed: 2013-12-31
 post_author: grady
 lang: en
 ---
+## Commotion Android
+
   <div class="warning-label">
 <div class="warning-top">
 <h2>WARNING</h2>
@@ -23,8 +25,6 @@ lang: en
 </ul>
 <a href="https://commotionwireless.net/understanding-commotions-warning-label">For More Info Click Here</a></div>
 </div>
-
-<h2>Android</h2>
 
 <p>Here you can find pre-built downloads for the Commotion android devices we currently support.</p>
 
