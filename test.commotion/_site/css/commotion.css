@@ -378,3 +378,7 @@ div.pageheadings hr {
 #subsection-menu ul.submenu li a:hover {
 
 }
+.blog-post-promo {
+  background: #00FFCF;
+  padding: .5em;
+}

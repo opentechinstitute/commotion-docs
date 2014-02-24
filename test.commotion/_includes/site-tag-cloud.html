@@ -1,4 +1,4 @@
- <h3>Tags:</h3>
-{% for category in site.categories %}
- <a href="/tags/siteindex#{{ category[0] }}">{{ category[0] }}</a><br />
+<h3>Tags:</h3>
+{% for category in site.categories | sort %}
+ <a href="/tags/siteindex#{{ category[0] }}">{{ category[0] }}</a> ({{ category[1].size }})<br />
 {% endfor %}
