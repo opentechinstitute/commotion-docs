@@ -5,6 +5,9 @@ encoding: utf-8
 
 url: "staging.commotionwireless.net"
 port: 80
+piwik:
+  base_url: piwik.opentechinstitute.org
+  site_id: 1
 
 permalink: /blog/:year/:month/:day/:title
 pagination: 3

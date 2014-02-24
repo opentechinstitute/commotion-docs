@@ -452,4 +452,6 @@ div#download-button-block .download-button a.button {
   background: #00FFCF;
   padding: .5em;
 }
-
+.blog-container {
+  width: 100%;
+}

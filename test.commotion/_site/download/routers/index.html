@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,7 +16,7 @@
     <![endif]-->
   </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse">
   <div class="boxes-box" id="boxes-box-top_colors">
     <div class="boxes-box-content">
       <div class="navbar-inners">
@@ -30,6 +29,7 @@
     </div>
   </div>
 </div>
+
 
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
@@ -106,9 +106,37 @@
  
 <div class="contentcontainer">
   <div class="container">
- 
-<div class="left-twothird">
 
+<div id="downloads-nav">
+  
+    <span class="tab first active"><a href="/download/routers"><img style="height: 80px; width: 80px;" src="/files/router3.png" alt="Routers"></a></span>
+  
+  
+    <span class="tab"><a href="/download/android/"><img style="height: 80px; width: 80px;" src="/files/cellPhone3.png" alt="phones"></a></span>
+  
+  
+    <span class="tab"><a href="/download/computers"><img style="height: 80px; width: 80px;" src="/files/laptop3.png" alt="Computers"></a></span>
+  
+  
+    <span class="tab last"><a href="/download/openbts"><img style="height: 80px; width: 80px;" src="/files/cellTower3.png" alt="OpenBTS"></a></span>
+  
+</div>
+ 
+<div class="verifying-downloads-block">
+  <h4>Verifying Downloads</h4>
+  <div>
+    <p>We use the best practice of using GPG signatures to sign our downloads. This allows you to verify that the files you download here were released by us if you choose to.</p>
+
+    <p>To verify our downloads (optional), you'll need the<br />
+      <br />
+      <a class="button" href="http://downloads.commotionwireless.net/DR2/CE994850.asc" target="_blank">Commotion Signing Key</a><br />
+      <br />
+      and the GPG signature for the downloaded file. This image links to each download's GPG signature: <img src="/images/seal.png" /></p>
+
+    <p><a href="/download/verify-signatures">Find out more</a> on our <a href="/download/verify-signatures">Verifying Downloads</a> page.</p>
+  </div>
+</div>
+ 
 <h2>Commotion Router</h2><div class='warning-label'>
 <div class='warning-top'>
 <h2>WARNING</h2>
@@ -125,10 +153,11 @@
 </ul>
 <a href='/understanding-commotions-warning-label'>For More Info Click Here</a></div>
 </div><p>Commotion Router is a distribution of OpenWRT Linux that supports the wireless routers listed by vendor below. If you're not sure which file to download, check the full list of&nbsp; <a href='/docs/supported-devices'>devices we currently support</a>.</p><p>Don't see your device listed? Check the <a href='https://wiki.commotionwireless.net/doku.php?id=hardware_in_testing'>Commotion Router Developer Hardware in testing wiki page</a> for a full list of devices being tested with Commotion OpenWRT.</p><p><strong>Current Release</strong>&nbsp;= v1.0 "Grumpy Cat"</p><p>At this time, the Commotion team recommends using factory install images for v1.0 to take full advantage of all new features in the 1.0 release.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2>Commotion Router Downloads</h2><h3>Version 1.0</h3><p>Commotion version 1.0 was released in December 2013. Official software images are posted here.</p><p>If you are interested in trying the newest features of Commotion Router, check out our <a href='https://downloads.commotionwireless.net/nightly/ar71xx/'>nightly builds</a> and <a href='/contact'>contact us</a> for support questions.<br />
-&nbsp;</p><table class='files list' summary='Commotion OpenWRT Downloads by Manufacturer'>
+&nbsp;</p>
+<h4 id="manufacturer_ubiquiti_">Manufacturer: Ubiquiti <a name='ubiquiti'> </a></h4>
+<table class='files list' summary='Commotion OpenWRT Downloads by Manufacturer'>
 	<thead>
 		<tr>
-			<th scope='col'>Manufacturer</th>
 			<th scope='col'>Router</th>
 			<th scope='col'>MD5</th>
 			<th scope='col'>Date</th>
@@ -136,15 +165,7 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Ubiquiti</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
 		<tr class='file odd'>
-			<td>&nbsp;</td>
 			<td>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin' title='openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin'><strong>Ubiquiti Picostation M2 and Ubiquiti Bullet M2/M5 -- Factory Install</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin.asc'>(sig)</a></p>
 			</td>
@@ -153,7 +174,6 @@
 			<td>5.2 MB</td>
 		</tr>
 		<tr class='file even'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin' title='openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin'><strong>Ubiquiti Picostation M2 and Ubiquiti Bullet M2/M5 -- Upgrade</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin.asc'>(sig)</a></p>
 			</td>
@@ -162,7 +182,6 @@
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
 		<tr class='file odd'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin' title='openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin'><strong>Ubiquiti Nanostation M2/M5 -- Factory Install</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin.asc'>(sig)</a></p>
 			</td>
@@ -171,7 +190,6 @@
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
 		<tr class='file even'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin' title='openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin'><strong>Ubiquiti Nanostation M2/M5 -- Upgrade</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin.asc'>(sig)</a></p>
 			</td>
@@ -180,7 +198,6 @@
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
 		<tr class='file odd'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin' title='openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin'><strong>Ubiquiti Rocket M2/M5 -- Factory Install</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin.asc'>(sig)</a></p>
 			</td>
@@ -189,7 +206,6 @@
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
 		<tr class='file odd'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin' title='openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin'><strong>Ubiquiti Rocket M2/M5 -- Upgrade</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin.asc'>(sig)</a></p>
 			</td>
@@ -198,7 +214,6 @@
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
 		<tr class='file even'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin' title='openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin'><strong>Ubiquiti Unifi Outdoor -- Factory Install</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin.asc'>(sig)</a></p>
 			</td>
@@ -207,7 +222,6 @@
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
 		<tr class='file odd'>
-			<th class='rteleft' scope='row'>&nbsp;</th>
 			<td class='rteleft'>
 			<p><a href='http://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin' title='openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin'><strong>Ubiquiti Unifi Outdoor -- Upgrade</strong></a> | <a class='signature' href='https://downloads.commotionwireless.net/router/1.0/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin.asc'>(sig)</a></p>
 			</td>
@@ -215,6 +229,11 @@
 			<td class='rteleft'>12/30/2013</td>
 			<td class='rteleft'>5.2 MB</td>
 		</tr>
+	</tbody>
+</table>
+<h4 id="manufacturer_tp_link_">Manufacturer: TP Link <a name='tplink'> </a></h4>
+<table class='files list' summary='Commotion OpenWRT Downloads by Manufacturer'>
+  <tbody>
 		<tr class='file even'>
 			<th class='rteleft' scope='row'>TP Link</th>
 			<td class='rteleft'><strong>TL-WDR4300 - COMING SOON!</strong></td>
@@ -223,17 +242,9 @@
 			<td>&nbsp;</td>
 		</tr>
 	</tbody>
-</table><h2>Nightly Builds</h2><p>Our nightly builds are back! Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href='http://downloads.commotionwireless.net/nightly/'>downloads.commotionwireless.net/nightly</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
-    </div>
-
-    <div class="right-third">
-
-
-
-
-
-    </div>
-
+</table>
+<h3 id="nightly_builds_">Nightly Builds <a name='nightly'> </a></h3>
+<p>Our nightly builds are back! Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href='http://downloads.commotionwireless.net/nightly/'>downloads.commotionwireless.net/nightly</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
   </div>
 </div>
  
@@ -254,6 +265,21 @@
 <script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 <script src="/js/commotion.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.opentechinstitute.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
 
   </body> 
 </html>

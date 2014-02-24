@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,7 +16,7 @@
     <![endif]-->
   </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse">
   <div class="boxes-box" id="boxes-box-top_colors">
     <div class="boxes-box-content">
       <div class="navbar-inners">
@@ -30,6 +29,7 @@
     </div>
   </div>
 </div>
+
 
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
@@ -106,10 +106,38 @@
  
 <div class="contentcontainer">
   <div class="container">
- 
-<div class="left-twothird">
 
-<h2>Commotion OpenBTS</h2><p><strong>Warning: this is completely experimental and has not been tested!</strong> It is for development use only.</p><p>Commotion-OpenBTS is packaged as a custom Linux live distro that you can run from a USB flashdrive or CD.</p><p><strong>You must have compatible GSM hardware in order to use it</strong>. See the <a href='https://github.com/opentechinstitute/commotion-openbts/blob/master/README'>README</a> file for more information.</p><div class='warning-label'>
+<div id="downloads-nav">
+  
+    <span class="tab first"><a href="/download/routers"><img style="height: 80px; width: 80px;" src="/files/router3.png" alt="Routers"></a></span>
+  
+  
+    <span class="tab"><a href="/download/android/"><img style="height: 80px; width: 80px;" src="/files/cellPhone3.png" alt="phones"></a></span>
+  
+  
+    <span class="tab"><a href="/download/computers"><img style="height: 80px; width: 80px;" src="/files/laptop3.png" alt="Computers"></a></span>
+  
+  
+    <span class="tab last active"><a href="/download/openbts"><img style="height: 80px; width: 80px;" src="/files/cellTower3.png" alt="OpenBTS"></a></span>
+  
+</div>
+ 
+<div class="verifying-downloads-block">
+  <h4>Verifying Downloads</h4>
+  <div>
+    <p>We use the best practice of using GPG signatures to sign our downloads. This allows you to verify that the files you download here were released by us if you choose to.</p>
+
+    <p>To verify our downloads (optional), you'll need the<br />
+      <br />
+      <a class="button" href="http://downloads.commotionwireless.net/DR2/CE994850.asc" target="_blank">Commotion Signing Key</a><br />
+      <br />
+      and the GPG signature for the downloaded file. This image links to each download's GPG signature: <img src="/images/seal.png" /></p>
+
+    <p><a href="/download/verify-signatures">Find out more</a> on our <a href="/download/verify-signatures">Verifying Downloads</a> page.</p>
+  </div>
+</div>
+ 
+<h2>Commotion OpenBTS</h2><div class='warning-label'>
 <div class='warning-top'>
 <h2>WARNING</h2>
 </div>
@@ -124,7 +152,7 @@
 	<li><a href='http://commotionwireless.net/understanding-commotions-warning-label#jamming'>Can be jammed with radio/data-interference</a></li>
 </ul>
 <a href='https://commotionwireless.net/understanding-commotions-warning-label'>For More Info Click Here</a></div>
-</div><p>&nbsp;</p><p>&nbsp;</p><p><a class='button' href='http://pool.sks-keyservers.net:11371/pks/lookup?op=vindex&amp;search=0x55A525F8EFE57820BA2A40F7D3F54B1ED01D01F1&amp;fingerprint=on&amp;exact=on' target='_blank'>Commotion Signing Key</a></p><p><img src='/files/download-signature.png' /> = GPG signature (<a href='/how-verify-signatures-downloads'>what's this?</a>)</p><h3>Unstable Builds:</h3><table class='files list'>
+</div><p><strong>Warning: this is completely experimental and has not been tested!</strong> It is for development use only.</p><p>Commotion-OpenBTS is packaged as a custom Linux live distro that you can run from a USB flashdrive or CD.</p><p><strong>You must have compatible GSM hardware in order to use it</strong>. See the <a href='https://github.com/opentechinstitute/commotion-openbts/blob/master/README'>README</a> file for more information.</p><p>&nbsp;</p><p>&nbsp;</p><p><a class='button' href='http://pool.sks-keyservers.net:11371/pks/lookup?op=vindex&amp;search=0x55A525F8EFE57820BA2A40F7D3F54B1ED01D01F1&amp;fingerprint=on&amp;exact=on' target='_blank'>Commotion Signing Key</a></p><p><img src='/files/download-signature.png' /> = GPG signature (<a href='/how-verify-signatures-downloads'>what's this?</a>)</p><h3>Unstable Builds:</h3><table class='files list'>
 	<thead>
 		<tr>
 			<th>File</th>
@@ -142,16 +170,6 @@
 		</tr>
 	</tbody>
 </table><p><a class='button' href='https://github.com/opentechinstitute/commotion-openbts' id='openbts-source-btn'>Source Code</a></p>
-    </div>
-
-    <div class="right-third">
-
-
-
-
-
-    </div>
-
   </div>
 </div>
  
@@ -172,6 +190,21 @@
 <script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 <script src="/js/commotion.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.opentechinstitute.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
 
   </body> 
 </html>

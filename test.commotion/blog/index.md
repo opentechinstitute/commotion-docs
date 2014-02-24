@@ -8,4 +8,3 @@ post_author: Chris Ritzo
 lang: en
 ---
  <h2>Recent Blog Posts</h2>
-

@@ -5,6 +5,7 @@ categories: [ui,ux,hack day]
 created: 2014-01-14
 changed: 2014-01-15
 post_author: critzo
+teaser_image: uihackday-011114.jpeg
 lang: en
 ---
   <img alt="Commotion card sort activity from the DC Internet Freedom Hack Day, 1/11/2014" class="media-image attr__typeof__foaf:Image img__fid__746 img__view_mode__media_original attr__format__media_original" src="/files/uihackday-011114.jpeg" style="width: 250px; height: 249px; float: right;" typeof="foaf:Image" />

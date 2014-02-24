@@ -16,7 +16,7 @@
     <![endif]-->
   </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse">
   <div class="boxes-box" id="boxes-box-top_colors">
     <div class="boxes-box-content">
       <div class="navbar-inners">
@@ -29,6 +29,7 @@
     </div>
   </div>
 </div>
+
 
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
@@ -106,21 +107,7 @@
 <div class="contentcontainer">
   <div class="container">
  
-<div class="left-twothird">
-
- <h2 class="blog-pubdata">2012-08-23 / Hans-Christoph Steiner</h2>
-
-<p>Commotion MeshTether is an Android app that aims to make it possible to connect to OLSR meshes with a single click of a button. It comes configured for the Commotion mesh by default, but can be entirely configured, and can have multiple mesh &quot;profiles&quot; to choose from. There are two information tabs: Links and Info. Links shows all of the first-hop links and Info shows the entire wifi config and olsrd.conf settings. Additionally, you can share/email debug information from the app's menu. Its working pretty well on the Nexus One I'm using for testing. I've also tried the HTC Wildfire, Motorola Droid, and HTC myTouch 3G. The mesh profiles are implemented like this:</p>
-<ul><li>(default) uses the wifi/ip settings from the preferences and the olsrd.conf that is included in the app</li><li>the rest are scanned from the file system in two places:<ul><li>in the app&#39;s app_bin/ folder</li><li>/mnt/sdcard/MeshTether (i.e. the MeshTether folder on the SD card)</li></ul></li><li>the scanner looks in those folders for *.properties files and takes the filename as the profile name (i.e. myprofile.properties will be linked to the &quot;myprofile&quot; item in the profiles menu)</li><li>if there is also a myprofile.conf next to the myprofile.properties then it will use that as the olsrd.conf. otherwise, it&#39;ll use the included olsrd.conf</li><li>the properties options are:<br />ssid=commotionwireless.net<br />bssid=02:CA:FF:EE:BA:BE<br />channel=5<br />ip=172.29.0.0<br />ipgenerate=true<br />netmask=255.255.0.0<br />dns=8.8.8.8</li><li>all are required, except &#39;ipgenerate&#39;, which marks the &#39;ip&#39; as the root for the IP generation algorithm. If &#39;ipgenerate&#39; is unset or not &#39;true&#39;, then the &#39;ip&#39; is used as is.</li></ul>
-<p>Here's a test apk: <a href='https://guardianproject.info/builds/CommotionMeshTether/2012-08-22/' target='_blank'>https://guardianproject.info/builds/CommotionMeshTether/2012-08-22/</a><br />md5: 176008560f00d8cef65f0e3e781884e1<br />sha1: b9151fb635185880007411fd49e8ab5b254ad750 Give it a whirl and let us know how it works for you!</p>
- <h4>Tags:</h4>
-
- <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a>&nbsp;
-
-
-    </div>
-
-    <div class="right-third">
+<div class="right-third">
 
 
 <h3>Tags:</h3>
@@ -226,6 +213,20 @@
  <a href="/tags/siteindex#hack day">hack day</a> (1)<br />
 
 
+</div>
+
+<div class="left-twothird">
+
+ <h2 class="blog-pubdata">2012-08-23 / Hans-Christoph Steiner</h2>
+
+<p>Commotion MeshTether is an Android app that aims to make it possible to connect to OLSR meshes with a single click of a button. It comes configured for the Commotion mesh by default, but can be entirely configured, and can have multiple mesh &quot;profiles&quot; to choose from. There are two information tabs: Links and Info. Links shows all of the first-hop links and Info shows the entire wifi config and olsrd.conf settings. Additionally, you can share/email debug information from the app's menu. Its working pretty well on the Nexus One I'm using for testing. I've also tried the HTC Wildfire, Motorola Droid, and HTC myTouch 3G. The mesh profiles are implemented like this:</p>
+<ul><li>(default) uses the wifi/ip settings from the preferences and the olsrd.conf that is included in the app</li><li>the rest are scanned from the file system in two places:<ul><li>in the app&#39;s app_bin/ folder</li><li>/mnt/sdcard/MeshTether (i.e. the MeshTether folder on the SD card)</li></ul></li><li>the scanner looks in those folders for *.properties files and takes the filename as the profile name (i.e. myprofile.properties will be linked to the &quot;myprofile&quot; item in the profiles menu)</li><li>if there is also a myprofile.conf next to the myprofile.properties then it will use that as the olsrd.conf. otherwise, it&#39;ll use the included olsrd.conf</li><li>the properties options are:<br />ssid=commotionwireless.net<br />bssid=02:CA:FF:EE:BA:BE<br />channel=5<br />ip=172.29.0.0<br />ipgenerate=true<br />netmask=255.255.0.0<br />dns=8.8.8.8</li><li>all are required, except &#39;ipgenerate&#39;, which marks the &#39;ip&#39; as the root for the IP generation algorithm. If &#39;ipgenerate&#39; is unset or not &#39;true&#39;, then the &#39;ip&#39; is used as is.</li></ul>
+<p>Here's a test apk: <a href='https://guardianproject.info/builds/CommotionMeshTether/2012-08-22/' target='_blank'>https://guardianproject.info/builds/CommotionMeshTether/2012-08-22/</a><br />md5: 176008560f00d8cef65f0e3e781884e1<br />sha1: b9151fb635185880007411fd49e8ab5b254ad750 Give it a whirl and let us know how it works for you!</p>
+ <h4>Tags:</h4>
+
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a>&nbsp;
+
+
     </div>
 
   </div>
@@ -248,6 +249,21 @@
 <script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 <script src="/js/commotion.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.opentechinstitute.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
 
   </body> 
 </html>

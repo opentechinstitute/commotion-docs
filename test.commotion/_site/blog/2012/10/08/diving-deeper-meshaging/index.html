@@ -16,7 +16,7 @@
     <![endif]-->
   </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse">
   <div class="boxes-box" id="boxes-box-top_colors">
     <div class="boxes-box-content">
       <div class="navbar-inners">
@@ -29,6 +29,7 @@
     </div>
   </div>
 </div>
+
 
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
@@ -106,25 +107,7 @@
 <div class="contentcontainer">
   <div class="container">
  
-<div class="left-twothird">
-
- <h2 class="blog-pubdata">2012-10-08 / The Work Department</h2>
-
-<p>In our recent <a href='https://commotionwireless.net/blog/exploring-meshaging' target='_blank'>blog post about messaging</a>, we introduced our “meshaging” (basic chat) application and explained some of the plans for our future work with it. We are still working on this project and have diagrammed how exactly communication happens in the application. This has improved our internal process and we think it's beneficial to share. Compared to centralized, server-based systems, decentralized networking applications are a bit messy: with the benefit of decentralization comes the cost of increased complexity. Maintaining consistency of data across a mesh network is a hard problem to solve, and there are plenty of interesting approaches to address this problem. As designers, we became interested in embracing inconsistency: what systems could exist, or even thrive, in a network of inconsistent connections or transient devices? This is important to consider because a mesh network could be constantly changing. To explore the subject of decentralized communication, we decided to work through the design of a mesh network chat application in which nodes would serve as chat hubs. We considered what a decentralized chat application would look like with varying levels of message-sharing or replication between neighbor nodes. We used the analogy of a chat application because of its simplicity and its generality, but you can replace “chats” with any sort of one-to-many message. Actually, as an exercise, you really <em>should</em> try and think of other types of messages that might be transported over a mesh network! Imagine a network of thermometers in a greenhouse, or a network of motion sensors that trigger floodlights, or many other possibilities. <img alt='' class='decoded' src='/files/basic_chat_diagrams_for_blog_Artboard_1_0.png' style='width: 540px; height: 485px;' /> <strong>Diagram 1</strong> (above) illustrates a chat application in which nodes broadcast messages only to locally connected clients (zero hops). The numbers 1, 2, and 3 represent nodes connected to the mesh network, and the little people icons designated with letters represent the people connected to each of those nodes. In this scenario, users can chat with other users on the same node. For example, Person H can chat with Person J because they are both connected to Node 2. They cannot however chat with Person K or Person D, because those users, though connected to the mesh network, are on different nodes. <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_2_0.png' /> <strong>Diagram 2</strong>(above) illustrates users on Node 1 communicating (zero-hop/no-broadcast chat system). <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_3_0.png' /> <strong>Diagram 3</strong> (above) illustrates a next-neighbor broadcast chat system, in which nodes would broadcast all messages to nodes within a one-hop distance. This system would allow a person to chat with people connected to their own node or their next neighbors, but not nodes two or more hops away. In Diagram 3, Person G can chat with Person C because they are both connected to Node 1. But in this stage Person G can also chat with Person J because J is connected to G’s next neighbor, Node 2. Person G could not chat with Person L though, because Node 3, which Person L is connected to, is two hops away. <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_4.png' /> <strong>Diagram 4</strong> (above) shows the next-neighbor broadcast chat system, illustrating users on Node 1 communicating with each other and users on Node 2. We hope that these diagrams can help spur conversations about decentralized application development. Stay tuned for more meshages.</p>
- <h4>Tags:</h4>
-
- <a href="/tags/siteindex#messaging">messaging</a>&nbsp;
-
- <a href="/tags/siteindex#chat">chat</a>&nbsp;
-
- <a href="/tags/siteindex#ux">ux</a>&nbsp;
-
- <a href="/tags/siteindex#applications">applications</a>&nbsp;
-
-
-    </div>
-
-    <div class="right-third">
+<div class="right-third">
 
 
 <h3>Tags:</h3>
@@ -230,6 +213,24 @@
  <a href="/tags/siteindex#hack day">hack day</a> (1)<br />
 
 
+</div>
+
+<div class="left-twothird">
+
+ <h2 class="blog-pubdata">2012-10-08 / The Work Department</h2>
+
+<p>In our recent <a href='https://commotionwireless.net/blog/exploring-meshaging' target='_blank'>blog post about messaging</a>, we introduced our “meshaging” (basic chat) application and explained some of the plans for our future work with it. We are still working on this project and have diagrammed how exactly communication happens in the application. This has improved our internal process and we think it's beneficial to share. Compared to centralized, server-based systems, decentralized networking applications are a bit messy: with the benefit of decentralization comes the cost of increased complexity. Maintaining consistency of data across a mesh network is a hard problem to solve, and there are plenty of interesting approaches to address this problem. As designers, we became interested in embracing inconsistency: what systems could exist, or even thrive, in a network of inconsistent connections or transient devices? This is important to consider because a mesh network could be constantly changing. To explore the subject of decentralized communication, we decided to work through the design of a mesh network chat application in which nodes would serve as chat hubs. We considered what a decentralized chat application would look like with varying levels of message-sharing or replication between neighbor nodes. We used the analogy of a chat application because of its simplicity and its generality, but you can replace “chats” with any sort of one-to-many message. Actually, as an exercise, you really <em>should</em> try and think of other types of messages that might be transported over a mesh network! Imagine a network of thermometers in a greenhouse, or a network of motion sensors that trigger floodlights, or many other possibilities. <img alt='' class='decoded' src='/files/basic_chat_diagrams_for_blog_Artboard_1_0.png' style='width: 540px; height: 485px;' /> <strong>Diagram 1</strong> (above) illustrates a chat application in which nodes broadcast messages only to locally connected clients (zero hops). The numbers 1, 2, and 3 represent nodes connected to the mesh network, and the little people icons designated with letters represent the people connected to each of those nodes. In this scenario, users can chat with other users on the same node. For example, Person H can chat with Person J because they are both connected to Node 2. They cannot however chat with Person K or Person D, because those users, though connected to the mesh network, are on different nodes. <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_2_0.png' /> <strong>Diagram 2</strong>(above) illustrates users on Node 1 communicating (zero-hop/no-broadcast chat system). <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_3_0.png' /> <strong>Diagram 3</strong> (above) illustrates a next-neighbor broadcast chat system, in which nodes would broadcast all messages to nodes within a one-hop distance. This system would allow a person to chat with people connected to their own node or their next neighbors, but not nodes two or more hops away. In Diagram 3, Person G can chat with Person C because they are both connected to Node 1. But in this stage Person G can also chat with Person J because J is connected to G’s next neighbor, Node 2. Person G could not chat with Person L though, because Node 3, which Person L is connected to, is two hops away. <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_4.png' /> <strong>Diagram 4</strong> (above) shows the next-neighbor broadcast chat system, illustrating users on Node 1 communicating with each other and users on Node 2. We hope that these diagrams can help spur conversations about decentralized application development. Stay tuned for more meshages.</p>
+ <h4>Tags:</h4>
+
+ <a href="/tags/siteindex#messaging">messaging</a>&nbsp;
+
+ <a href="/tags/siteindex#chat">chat</a>&nbsp;
+
+ <a href="/tags/siteindex#ux">ux</a>&nbsp;
+
+ <a href="/tags/siteindex#applications">applications</a>&nbsp;
+
+
     </div>
 
   </div>
@@ -252,6 +253,21 @@
 <script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 <script src="/js/commotion.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.opentechinstitute.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
 
   </body> 
 </html>
