@@ -455,3 +455,6 @@ div#download-button-block .download-button a.button {
 .blog-container {
   width: 100%;
 }
+.floatright {
+  float: right;
+}
