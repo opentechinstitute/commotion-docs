@@ -190,6 +190,7 @@ div#slideshow li.bjqs-prev a, div#slideshow li.bjqs-next a {
 }
 div#slideshow .bjqs-prev a:hover, div#slideshow .bjqs-next a:hover {
   color: #FE739B;
+}
 div.pageheadings {
   min-height: 100px;
   background: none repeat scroll 0 0 #000000;
