@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Developer Resources
-categories: {categories}
+site_section: developers
+categories: 
 created: 2013-06-28
 changed: 2013-12-31
 post_author: critzo

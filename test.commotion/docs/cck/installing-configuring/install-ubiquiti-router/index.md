@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Install on a Ubiquiti Router
+site_section: help
+sub_section: [cck,cck-installing]
 categories: {categories}
 created: 2013-09-27
 changed: 2014-01-13
 post_author: critzo
-lang: fr
+lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__441 img__view_mode__media_large attr__format__media_large" height="388" src="/files/styles/large/public/install_on_ubiquiti_title.png?itok=uO0IFY4K" typeof="foaf:Image" width="510" /></p>
 

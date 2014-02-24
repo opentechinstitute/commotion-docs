@@ -7,16 +7,12 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-        body {
-          padding-top:60px;
-        }
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 <body>
@@ -29,214 +25,264 @@
         <div class="color2">&nbsp;</div>
         <div class="color3">&nbsp;</div>
         <div class="color4">&nbsp;</div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="position:relative; z-index:10000;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-        <a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
         About
         <b class="caret"></b>
-        </a>
-        <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-        </ul>
-        </li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-        <a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
         Get Help
         <b class="caret"></b>
-        </a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-        </ul>
-      </li>
-     <li class="dropdown">
-        <a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
         Download
         <b class="caret"></b>
-        </a>
-        <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a id="developersMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
         For Developers
         <b class="caret"></b>
-        </a>
-        <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
- </div>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
-
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Warning Label Development, Part 1</h1>
   <hr>
+  <h1 class="pageheadings">Warning Label Development, Part 1</h1>
 </div>
-
+ 
 <div class="contentcontainer">
   <div class="container">
+ 
+<div class="left-twothird">
+
+ <h2 class="blog-pubdata">2013-02-25 / OTI</h2>
+
+<p>Commotion is not currently a secure circumvention tool. At some point that statement will not be true, but until then this fact must be known by anyone who interacts with Commotion. With the increasing popularity of digital circumvention tools, news outlets have pointed to Commotion as a possible tool for creating safe local communication networks when the usual channels are compromised. When an unfinished project like Commotion enters the spotlight, it is important to warn potential users about the limitations of the tools in development. In the circumvention and cryptography communities, this is usually done with a warning. This post will walk through our process for developing a warning label. We hope it will help new projects who face this same dilemma. We decided to frame our search for a warning by asking two questions. What information is important for a potential user of Commotion to have to make an informed decision? How do we ensure the &quot;ability of the individual reading [the warning] to understand the information sufficiently to take the desired action&quot;[1] for their specific situation? We brainstormed country-specific warnings that identified local threats from internet rights watchdogs[2] to create customized warnings for various levels of threat. But with location anonymizing tools[3] and individual variability in threats, we decided to create a unified warning that focuses on what Commotion can't do. Broadly, Commotion is a tool-kit that allows wireless routers, laptop and desktop computers, rooted android phones, and software-defined cell phone basestations to find and communicate with and through each other. What Commotion is unable to do is a trickier question. Commotion is unable to do many things. It cannot ride a bike or do my taxes. But, most users will not expect these things. In order to tell potential users what Commotion cannot do, we needed to find out the potential set of functionality users expect of Commotion. To discover possible expectations, we poured over our own outreach and the press we have received to see what it conveyed to those who read it. Here is a collection of salient snippets, and what functionality we gleaned from them. Secure independent wireless for conflicts and disasters:</p>
+<blockquote>&quot;\[The\] Internet in a Suitcase is basically a software program aimed at giving people in conflict or disaster zones the ability to establish a secure, independent wireless network over their computers and cell phones.&quot; \[4\]</blockquote>
+<p> Device and centralized infrastructure-independent tool which eliminates surveillance and monitoring while ensuring the identity of those you communicate with:</p>
+<blockquote>&quot;This is a completely ad hoc network, there&#39;s no dependency of any device on any other device and that eliminates a central point for command and control surveillance and monitoring,&quot; said Meinrath. &quot;We also have authentication between each hop on the network and encryption across each hop.&quot; \[4\]</blockquote>
+<p> Free phone calls:</p>
+<blockquote>&quot;The killer app that I talk with a lot of folks about is, if you have a system like this, there&#39;s no reason you would ever need to pay for local phone calls again&quot; once you&#39;ve downloaded the software allowing your device to join the wifi network, &quot;because you&#39;re just pinging machine to machine over a local network,&quot; said Meinrath. \[4\]</blockquote>
+<p> Cheap tech for routers and Android phones for dissidents to evade censorship:</p>
+<blockquote>&quot;He and a team of software engineers are developing open-source software to turn cheap wireless access points and Android smartphones into nodes on the network, which could then be used by dissidents to evade censorship and to spread low-cost connections everywhere around the world.&quot; \[6\]</blockquote>
+<p> Easy to install and set up:</p>
+<blockquote>&rdquo;The firmware provides auto-configuration capabilities,&rdquo; said Brian Duggan, one of the engineers on the Internet in a Suitcase project, &ldquo;so you don&rsquo;t need to be an engineer&rdquo; to install it. &ldquo;You flash as many nodes as you want, or pick up previous ones.&rdquo; \[6\]</blockquote>
+<p> Delay tolerant access to the Internet:</p>
+<blockquote>&ldquo;You could have a delay-tolerant Twitter, where people on the local network could see your tweets and then when a connection is restored it could get pushed to the internet,&rdquo; Meinrath said. &ldquo;We are in the very infancy of this kind of intranet.&rdquo; \[6\]</blockquote>
+<p> We're rock stars (totally true):</p>
+<blockquote>&quot;One operation out of a spy novel in a fifth-floor shop on L Street in Washington, where a group of young entrepreneurs who look as if they could be in a garage band are fitting deceptively innocent-looking hardware into a prototype &ldquo;Internet in a suitcase.&rdquo; \[5\]</blockquote>
+<p> Separate from existing infrastructure, impossible to shut down, control, and surveil:</p>
+<blockquote>&ldquo;We&rsquo;re going to build a separate infrastructure where the technology is nearly impossible to shut down, to control, to surveil.&rdquo; \[5\]</blockquote>
+<p> Decentralized network using phones, computers:</p>
+<blockquote>&quot;Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.&quot; \[7\]</blockquote>
+<p> Share the internet:</p>
+<blockquote>&quot;Commotion software also allows users on a mesh network to share access to the Internet. The software does not provide Internet access, but it does allow multiple devices to share their connections.&quot; \[7\]</blockquote>
+<p> Robust network that ensures anonymity and circumvents censorship even when other communication systems have failed:</p>
+<blockquote>&quot;Commotion is a flexible set of tools that can work well in many different scenarios. They can grow, shrink, and move as necessary and according to available resources. Commotion is organized and maintained by community members to fit their needs. It can act as a backbone for last-mile infrastructure, a local community network, a circumvention and anonymity ensuring communication channel, or a local emergency communications infrastructure when existing systems are severed.&quot; \[7\]</blockquote>
+<p> This set of quotes gave us an idea of what we have presented as the current and future states of Commotion, and therefore, what users may expect from Commotion when they go to download it. We took these quotes and compiled a list of what the current release of Commotion is NOT yet able to do. Commotion does not:</p>
+<ul><li>Provide anonymity</li><li>Provide delay tolerant communications</li><li>Prevent monitoring of your internet use</li><li>Allow you to call to non-Commotion enabled phones</li><li>Provide a simple user interface for installation or customization</li><li>Prevent monitoring of Commotion mesh communication</li><li>Prevent jamming/DoS attacks against a Commotion mesh</li><li>Provide access without power</li><li>Provide strong encryption</li><li>Provide protection from malware on devices</li></ul>
+<p>With this list in hand we narrowed down to the points that increase the ability of a potential user to make an informed decision about their security. Commotion does not:</p>
+<ul><li>Provide anonymity</li><li>Prevent monitoring of internet traffic</li><li>Provide strong security over the mesh</li><li>Resist jamming or DDoS attacks</li><li>Protect your device from Malware</li></ul>
+<p>In <a href='https://commotionwireless.net/blog/warning-label-development-part-2'>Part 2</a>, we'll go over how we used this list of unimplemented security features to develop a warning label.</p>
+ <h4>Tags:</h4>
+
+ <a href="/tags/siteindex#warning">warning</a>&nbsp;
+
+ <a href="/tags/siteindex#label">label</a>&nbsp;
+
+ <a href="/tags/siteindex#security">security</a>&nbsp;
+
+ <a href="/tags/siteindex#anonymity">anonymity</a>&nbsp;
+
+ <a href="/tags/siteindex#privacy">privacy</a>&nbsp;
+
+ <a href="/tags/siteindex#research">research</a>&nbsp;
+
+
+    </div>
 
     <div class="right-third">
 
 
- <h3>Tags:</h3>
+<h3>Tags:</h3>
 
- <a href="/tags/siteindex#ui,branding,identity,research">ui,branding,identity,research</a><br />
+ <a href="/tags/siteindex#ui">ui</a> (4)<br />
 
- <a href="/tags/siteindex#ui,detroit,community">ui,detroit,community</a><br />
+ <a href="/tags/siteindex#branding">branding</a> (2)<br />
 
- <a href="/tags/siteindex#wireless,research,recommendations,">wireless,research,recommendations,</a><br />
+ <a href="/tags/siteindex#identity">identity</a> (1)<br />
 
- <a href="/tags/siteindex#ui,ux,research">ui,ux,research</a><br />
+ <a href="/tags/siteindex#research">research</a> (7)<br />
 
- <a href="/tags/siteindex#recommendations,research">recommendations,research</a><br />
+ <a href="/tags/siteindex#detroit">detroit</a> (6)<br />
 
- <a href="/tags/siteindex#messaging,detroit">messaging,detroit</a><br />
+ <a href="/tags/siteindex#community wireless">community wireless</a> (9)<br />
 
- <a href="/tags/siteindex#drupal,branding">drupal,branding</a><br />
+ <a href="/tags/siteindex#recommendations">recommendations</a> (3)<br />
 
- <a href="/tags/siteindex#messaging,chat,ux,applications">messaging,chat,ux,applications</a><br />
+ <a href="/tags/siteindex#ux">ux</a> (3)<br />
 
- <a href="/tags/siteindex#chat,applications,routers,,messaging">chat,applications,routers,,messaging</a><br />
+ <a href="/tags/siteindex#messaging">messaging</a> (4)<br />
 
- <a href="/tags/siteindex#chat,applications,routers,messaging">chat,applications,routers,messaging</a><br />
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a> (4)<br />
 
- <a href="/tags/siteindex#community">community</a><br />
+ <a href="/tags/siteindex#drupal">drupal</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a><br />
+ <a href="/tags/siteindex#chat">chat</a> (3)<br />
 
- <a href="/tags/siteindex#mesh,cost,price,hardware">mesh,cost,price,hardware</a><br />
+ <a href="/tags/siteindex#applications">applications</a> (4)<br />
 
- <a href="/tags/siteindex#red">red</a><br />
+ <a href="/tags/siteindex#routers">routers</a> (2)<br />
 
- <a href="/tags/siteindex#hook,hardware,cost,community">hook,hardware,cost,community</a><br />
+ <a href="/tags/siteindex#energy">energy</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,applications,research,mesh">wireless,applications,research,mesh</a><br />
+ <a href="/tags/siteindex#mesh">mesh</a> (9)<br />
 
- <a href="/tags/siteindex#hook,hardware,community">hook,hardware,community</a><br />
+ <a href="/tags/siteindex#cost">cost</a> (2)<br />
 
- <a href="/tags/siteindex#wireless,mesh,troubleshooting,site">wireless,mesh,troubleshooting,site</a><br />
+ <a href="/tags/siteindex#price">price</a> (1)<br />
 
- <a href="/tags/siteindex#visits,maintenance">visits,maintenance</a><br />
+ <a href="/tags/siteindex#hardware">hardware</a> (3)<br />
 
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a><br />
+ <a href="/tags/siteindex#red hook">red hook</a> (5)<br />
 
- <a href="/tags/siteindex#battlemesh,mesh,olsr,testing">battlemesh,mesh,olsr,testing</a><br />
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a> (2)<br />
 
- <a href="/tags/siteindex#detroit,community">detroit,community</a><br />
+ <a href="/tags/siteindex#site visits">site visits</a> (4)<br />
 
- <a href="/tags/siteindex#wireless,digital">wireless,digital</a><br />
+ <a href="/tags/siteindex#maintenance">maintenance</a> (2)<br />
 
- <a href="/tags/siteindex#stewards,mesh,amp,amc">stewards,mesh,amp,amc</a><br />
+ <a href="/tags/siteindex#warning">warning</a> (2)<br />
 
- <a href="/tags/siteindex#release">release</a><br />
+ <a href="/tags/siteindex#label">label</a> (2)<br />
 
- <a href="/tags/siteindex#messaging,applications,chat,site">messaging,applications,chat,site</a><br />
+ <a href="/tags/siteindex#security">security</a> (2)<br />
 
- <a href="/tags/siteindex#visits,serval">visits,serval</a><br />
+ <a href="/tags/siteindex#anonymity">anonymity</a> (2)<br />
 
- <a href="/tags/siteindex#mesh,site">mesh,site</a><br />
+ <a href="/tags/siteindex#privacy">privacy</a> (2)<br />
 
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a><br />
+ <a href="/tags/siteindex#battlemesh">battlemesh</a> (1)<br />
 
- <a href="/tags/siteindex#development,visualization">development,visualization</a><br />
+ <a href="/tags/siteindex#olsr">olsr</a> (1)<br />
 
- <a href="/tags/siteindex#guest">guest</a><br />
+ <a href="/tags/siteindex#testing">testing</a> (1)<br />
 
- <a href="/tags/siteindex#post,community">post,community</a><br />
+ <a href="/tags/siteindex#digital stewards">digital stewards</a> (4)<br />
 
- <a href="/tags/siteindex#wireless">wireless</a><br />
+ <a href="/tags/siteindex#amp">amp</a> (1)<br />
 
- <a href="/tags/siteindex#digital">digital</a><br />
+ <a href="/tags/siteindex#amc">amc</a> (1)<br />
 
- <a href="/tags/siteindex#stewards,community">stewards,community</a><br />
+ <a href="/tags/siteindex#release">release</a> (3)<br />
 
- <a href="/tags/siteindex#wireless,mesh,detroit,red">wireless,mesh,detroit,red</a><br />
+ <a href="/tags/siteindex#serval">serval</a> (1)<br />
 
- <a href="/tags/siteindex#hook">hook</a><br />
+ <a href="/tags/siteindex#gource">gource</a> (1)<br />
 
- <a href="/tags/siteindex#hook,community">hook,community</a><br />
+ <a href="/tags/siteindex#git">git</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,mesh,site">wireless,mesh,site</a><br />
+ <a href="/tags/siteindex#visualization">visualization</a> (2)<br />
 
- <a href="/tags/siteindex#visits,digital">visits,digital</a><br />
+ <a href="/tags/siteindex#development">development</a> (1)<br />
 
- <a href="/tags/siteindex#stewards,routers,maintenance">stewards,routers,maintenance</a><br />
+ <a href="/tags/siteindex#guest post">guest post</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,detroit,red">wireless,detroit,red</a><br />
+ <a href="/tags/siteindex#tools">tools</a> (1)<br />
 
- <a href="/tags/siteindex#hook,tools,cck,digital">hook,tools,cck,digital</a><br />
+ <a href="/tags/siteindex#cck">cck</a> (1)<br />
 
- <a href="/tags/siteindex#stewards">stewards</a><br />
+ <a href="/tags/siteindex#pop-up mesh">pop-up mesh</a> (1)<br />
 
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a><br />
+ <a href="/tags/siteindex#urban">urban</a> (1)<br />
 
+ <a href="/tags/siteindex#somaliland">somaliland</a> (1)<br />
 
-    </div>
+ <a href="/tags/siteindex#rural">rural</a> (1)<br />
 
-    <div class="left-twothird">
+ <a href="/tags/siteindex#r1">r1</a> (1)<br />
 
- <h2 class="blog-pubdata">2013-02-25 / OTI</h2>
+ <a href="/tags/siteindex#upgrade">upgrade</a> (1)<br />
 
-<p>Commotion is not currently a secure circumvention tool. At some point that statement will not be true, but until then this fact must be known by anyone who interacts with Commotion. With the increasing popularity of digital circumvention tools, news outlets have pointed to Commotion as a possible tool for creating safe local communication networks when the usual channels are compromised. When an unfinished project like Commotion enters the spotlight, it is important to warn potential users about the limitations of the tools in development. In the circumvention and cryptography communities, this is usually done with a warning. This post will walk through our process for developing a warning label. We hope it will help new projects who face this same dilemma. We decided to frame our search for a warning by asking two questions. What information is important for a potential user of Commotion to have to make an informed decision? How do we ensure the &#34;ability of the individual reading [the warning] to understand the information sufficiently to take the desired action&#34;[1] for their specific situation? We brainstormed country-specific warnings that identified local threats from internet rights watchdogs[2] to create customized warnings for various levels of threat. But with location anonymizing tools[3] and individual variability in threats, we decided to create a unified warning that focuses on what Commotion can&#39;t do. Broadly, Commotion is a tool-kit that allows wireless routers, laptop and desktop computers, rooted android phones, and software-defined cell phone basestations to find and communicate with and through each other. What Commotion is unable to do is a trickier question. Commotion is unable to do many things. It cannot ride a bike or do my taxes. But, most users will not expect these things. In order to tell potential users what Commotion cannot do, we needed to find out the potential set of functionality users expect of Commotion. To discover possible expectations, we poured over our own outreach and the press we have received to see what it conveyed to those who read it. Here is a collection of salient snippets, and what functionality we gleaned from them. Secure independent wireless for conflicts and disasters: <blockquote>&quot;\[The\] Internet in a Suitcase is basically a software program aimed at giving people in conflict or disaster zones the ability to establish a secure, independent wireless network over their computers and cell phones.&quot; \[4\]</blockquote> Device and centralized infrastructure-independent tool which eliminates surveillance and monitoring while ensuring the identity of those you communicate with: <blockquote>&quot;This is a completely ad hoc network, there&#39;s no dependency of any device on any other device and that eliminates a central point for command and control surveillance and monitoring,&quot; said Meinrath. &quot;We also have authentication between each hop on the network and encryption across each hop.&quot; \[4\]</blockquote> Free phone calls: <blockquote>&quot;The killer app that I talk with a lot of folks about is, if you have a system like this, there&#39;s no reason you would ever need to pay for local phone calls again&quot; once you&#39;ve downloaded the software allowing your device to join the wifi network, &quot;because you&#39;re just pinging machine to machine over a local network,&quot; said Meinrath. \[4\]</blockquote> Cheap tech for routers and Android phones for dissidents to evade censorship: <blockquote>&quot;He and a team of software engineers are developing open-source software to turn cheap wireless access points and Android smartphones into nodes on the network, which could then be used by dissidents to evade censorship and to spread low-cost connections everywhere around the world.&quot; \[6\]</blockquote> Easy to install and set up: <blockquote>&rdquo;The firmware provides auto-configuration capabilities,&rdquo; said Brian Duggan, one of the engineers on the Internet in a Suitcase project, &ldquo;so you don&rsquo;t need to be an engineer&rdquo; to install it. &ldquo;You flash as many nodes as you want, or pick up previous ones.&rdquo; \[6\]</blockquote> Delay tolerant access to the Internet: <blockquote>&ldquo;You could have a delay-tolerant Twitter, where people on the local network could see your tweets and then when a connection is restored it could get pushed to the internet,&rdquo; Meinrath said. &ldquo;We are in the very infancy of this kind of intranet.&rdquo; \[6\]</blockquote> We&#39;re rock stars (totally true): <blockquote>&quot;One operation out of a spy novel in a fifth-floor shop on L Street in Washington, where a group of young entrepreneurs who look as if they could be in a garage band are fitting deceptively innocent-looking hardware into a prototype &ldquo;Internet in a suitcase.&rdquo; \[5\]</blockquote> Separate from existing infrastructure, impossible to shut down, control, and surveil: <blockquote>&ldquo;We&rsquo;re going to build a separate infrastructure where the technology is nearly impossible to shut down, to control, to surveil.&rdquo; \[5\]</blockquote> Decentralized network using phones, computers: <blockquote>&quot;Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.&quot; \[7\]</blockquote> Share the internet: <blockquote>&quot;Commotion software also allows users on a mesh network to share access to the Internet. The software does not provide Internet access, but it does allow multiple devices to share their connections.&quot; \[7\]</blockquote> Robust network that ensures anonymity and circumvents censorship even when other communication systems have failed: <blockquote>&quot;Commotion is a flexible set of tools that can work well in many different scenarios. They can grow, shrink, and move as necessary and according to available resources. Commotion is organized and maintained by community members to fit their needs. It can act as a backbone for last-mile infrastructure, a local community network, a circumvention and anonymity ensuring communication channel, or a local emergency communications infrastructure when existing systems are severed.&quot; \[7\]</blockquote> This set of quotes gave us an idea of what we have presented as the current and future states of Commotion, and therefore, what users may expect from Commotion when they go to download it. We took these quotes and compiled a list of what the current release of Commotion is NOT yet able to do. Commotion does not: <ul><li>Provide anonymity</li><li>Provide delay tolerant communications</li><li>Prevent monitoring of your internet use</li><li>Allow you to call to non-Commotion enabled phones</li><li>Provide a simple user interface for installation or customization</li><li>Prevent monitoring of Commotion mesh communication</li><li>Prevent jamming/DoS attacks against a Commotion mesh</li><li>Provide access without power</li><li>Provide strong encryption</li><li>Provide protection from malware on devices</li></ul>With this list in hand we narrowed down to the points that increase the ability of a potential user to make an informed decision about their security. Commotion does not: <ul><li>Provide anonymity</li><li>Prevent monitoring of internet traffic</li><li>Provide strong security over the mesh</li><li>Resist jamming or DDoS attacks</li><li>Protect your device from Malware</li></ul>In <a href='https://commotionwireless.net/blog/warning-label-development-part-2'>Part 2</a>, we&#39;ll go over how we used this list of unimplemented security features to develop a warning label.</p>
- <h4>Tags:</h4>
-
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a>&nbsp;
+ <a href="/tags/siteindex#hack day">hack day</a> (1)<br />
 
 
     </div>
 
   </div>
 </div>
-
+ 
+    </div>
+  </div>
+</div>
 <div class="footer-wrapper">
   <div class="container">
-        <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-        <li class=""><a href="/jobs" title="">Jobs</a></li>
-        <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-        <li class=""><a href="/about/press" title="">Press</a></li>
-        <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-        </ul>
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
-  </body>
+  </body> 
 </html>
 

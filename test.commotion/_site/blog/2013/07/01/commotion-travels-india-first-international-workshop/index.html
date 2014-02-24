@@ -7,16 +7,12 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-        body {
-          padding-top:60px;
-        }
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 <body>
@@ -29,231 +25,262 @@
         <div class="color2">&nbsp;</div>
         <div class="color3">&nbsp;</div>
         <div class="color4">&nbsp;</div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="position:relative; z-index:10000;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-        <a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
         About
         <b class="caret"></b>
-        </a>
-        <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-        </ul>
-        </li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-        <a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
         Get Help
         <b class="caret"></b>
-        </a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-        </ul>
-      </li>
-     <li class="dropdown">
-        <a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
         Download
         <b class="caret"></b>
-        </a>
-        <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a id="developersMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
         For Developers
         <b class="caret"></b>
-        </a>
-        <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
- </div>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
-
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Commotion Travels to India for first International Workshop</h1>
   <hr>
+  <h1 class="pageheadings">Commotion Travels to India for first International Workshop</h1>
 </div>
-
+ 
 <div class="contentcontainer">
   <div class="container">
-
-    <div class="right-third">
-
-
- <h3>Tags:</h3>
-
- <a href="/tags/siteindex#ui,branding,identity,research">ui,branding,identity,research</a><br />
-
- <a href="/tags/siteindex#ui,detroit,community">ui,detroit,community</a><br />
-
- <a href="/tags/siteindex#wireless,research,recommendations,">wireless,research,recommendations,</a><br />
-
- <a href="/tags/siteindex#ui,ux,research">ui,ux,research</a><br />
-
- <a href="/tags/siteindex#recommendations,research">recommendations,research</a><br />
-
- <a href="/tags/siteindex#messaging,detroit">messaging,detroit</a><br />
-
- <a href="/tags/siteindex#drupal,branding">drupal,branding</a><br />
-
- <a href="/tags/siteindex#messaging,chat,ux,applications">messaging,chat,ux,applications</a><br />
-
- <a href="/tags/siteindex#chat,applications,routers,,messaging">chat,applications,routers,,messaging</a><br />
-
- <a href="/tags/siteindex#chat,applications,routers,messaging">chat,applications,routers,messaging</a><br />
-
- <a href="/tags/siteindex#community">community</a><br />
-
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a><br />
-
- <a href="/tags/siteindex#mesh,cost,price,hardware">mesh,cost,price,hardware</a><br />
-
- <a href="/tags/siteindex#red">red</a><br />
-
- <a href="/tags/siteindex#hook,hardware,cost,community">hook,hardware,cost,community</a><br />
-
- <a href="/tags/siteindex#wireless,applications,research,mesh">wireless,applications,research,mesh</a><br />
-
- <a href="/tags/siteindex#hook,hardware,community">hook,hardware,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,troubleshooting,site">wireless,mesh,troubleshooting,site</a><br />
-
- <a href="/tags/siteindex#visits,maintenance">visits,maintenance</a><br />
-
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a><br />
-
- <a href="/tags/siteindex#battlemesh,mesh,olsr,testing">battlemesh,mesh,olsr,testing</a><br />
-
- <a href="/tags/siteindex#detroit,community">detroit,community</a><br />
-
- <a href="/tags/siteindex#wireless,digital">wireless,digital</a><br />
-
- <a href="/tags/siteindex#stewards,mesh,amp,amc">stewards,mesh,amp,amc</a><br />
-
- <a href="/tags/siteindex#release">release</a><br />
-
- <a href="/tags/siteindex#messaging,applications,chat,site">messaging,applications,chat,site</a><br />
-
- <a href="/tags/siteindex#visits,serval">visits,serval</a><br />
-
- <a href="/tags/siteindex#mesh,site">mesh,site</a><br />
-
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a><br />
-
- <a href="/tags/siteindex#development,visualization">development,visualization</a><br />
-
- <a href="/tags/siteindex#guest">guest</a><br />
-
- <a href="/tags/siteindex#post,community">post,community</a><br />
-
- <a href="/tags/siteindex#wireless">wireless</a><br />
-
- <a href="/tags/siteindex#digital">digital</a><br />
-
- <a href="/tags/siteindex#stewards,community">stewards,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,detroit,red">wireless,mesh,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook">hook</a><br />
-
- <a href="/tags/siteindex#hook,community">hook,community</a><br />
-
- <a href="/tags/siteindex#wireless,mesh,site">wireless,mesh,site</a><br />
-
- <a href="/tags/siteindex#visits,digital">visits,digital</a><br />
-
- <a href="/tags/siteindex#stewards,routers,maintenance">stewards,routers,maintenance</a><br />
-
- <a href="/tags/siteindex#wireless,detroit,red">wireless,detroit,red</a><br />
-
- <a href="/tags/siteindex#hook,tools,cck,digital">hook,tools,cck,digital</a><br />
-
- <a href="/tags/siteindex#stewards">stewards</a><br />
-
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a><br />
-
-
-    </div>
-
-    <div class="left-twothird">
+ 
+<div class="left-twothird">
 
  <h2 class="blog-pubdata">2013-07-01 / gerety</h2>
 
-<img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG' style='height:344px; width:400px' />
-<p>The Open Technology Institute traveled to Dharamshala, India the first week of June for the first international <a href='http://commotionwireless.net/'>Commotion Wireless</a> workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI&#8217;s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology. Some important ideas from the field, conversation, and debate that we brought home with us included: <ul>
+<p><img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG' style='height:344px; width:400px' /></p>
+
+<p>The Open Technology Institute traveled to Dharamshala, India the first week of June for the first international <a href='http://commotionwireless.net/'>Commotion Wireless</a> workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology. Some important ideas from the field, conversation, and debate that we brought home with us included:</p>
+<ul>
 	<li>Good community technology is defined by the ability of that community to break and repair it themselves.</li>
 	<li>Successful technology training and adoption needs a clear and common use in the participant's life. If they don't use it regularly, they won't retain the information, or use the technology.</li>
 	<li>Internet access is not always the most important consideration - a local network can and should provide a local application first and foremost.</li>
 	<li>Strong, lasting networks are built through participatory planning and community engagement.</li>
-</ul> Over the course of the five day workshop, participants built a pilot Commotion network, developed plans for future networks and rallied around a common belief that communities should be able to build and govern their own communications infrastructure. The workshop took place the first week of June at the beautiful <a href='http://tnp.org/nuns/dolmaling/'>Dolma Ling Nunnery</a>, and was co-hosted by <a href='http://main.airjaldi.com/'>AirJaldi</a>, which has partnered on experimental technologies and workshops for many years. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blogpost4.png' style='height:334px; width:500px' /> The diverse group of participants included network engineers, broadcast engineers, community organizers, educators and policy advocates from AirJaldi, <a href='http://www.defindia.net/'>Digital Empowerment Foundation</a>, <a href='http://beta.metastudio.org/'>Gnowledge</a>, <a href='http://www.osvswa.org/ict_development.html'>IRMA</a>, <a href='http://janastu.org/'>Janastu</a>, <a href='http://www.mahiti.org/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Mahiti</a>, <a href='http://mojolab.org/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Mojolab</a>, <a href='http://www.nepalwireless.net/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Nepal Wireless</a>, <a href='http://nomadindia.net/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Nomad</a>, and <a href='http://okfn.org/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Open Knowledge Foundation</a>. Attendees at the workshop brought visions for community technology, a desire to use mesh wireless in their work, and network plans to solidify. On the first day, we established a common view that building a network is a complex social process, not only (or even primarily) a technical challenge, and that community governance and training are critical components of this process. In addition, by the end of that first day, participants had installed the Commotion software on <a href='http://ubnt.com/' style='color: rgb(76, 120, 136);'>Ubiquiti</a> wireless routers, learned to configure and mesh those nodes, and then set off on their own to create a mesh network in and around their hotels, linking to the Commotion-powered node installed on the workshop rooftop across town. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_two.png' style='height:376px; width:500px' /><br /> <em>Using a shared visual language to plan and design a network.</em> The second day focused on planning mesh networks. Participants used a common visual language developed in our training programs in Detroit to draw plans for the networks they would like to build with Commotion. Later in the day, we went outside to experiment with <a href='http://servalproject.org/' style='color: rgb(76, 120, 136);'>Serval</a>messaging (on Android devices), <a href='https://github.com/danstaples/MediaGrid' style='color: rgb(76, 120, 136);'>MediaGrid</a>, and Commotion Linux on a mesh network created with battery-powered nodes. We learned a few good lessons about doing too many experimental things at once! On the third and fourth days, the participants split into two teams and went into the field to build a nine node pilot network, combining three medium-distance links with a denser omni-directional mesh in the town of Norbulingka. The AirJaldi network provided two network gateways for Internet access. During the construction and testing process, we found that, even for a small network, there were many interesting complexities. After spending hours in the sun, OTI staff and the participants returned to the workshop space to experiment with <a href='http://osmocom.org/' style='color: rgb(76, 120, 136);'>Osmocom</a>, an open implementation of the GSM standard for mobile telephony, and other technologies. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_1.png' style='height:375px; width:500px' /><br /> <em>We spent so long trying to get the right angle for the long-distance link, we did not even realize it was working, and we had completed the mesh network.</em> The last day involved more experimentation as well as discussions about the regulatory environment in India, and the possibilities for using mesh technology in crisis response. By the end of the workshop, some participants successfully installed Commotion Linux on their laptops, a participant meshed his <a href='http://www.raspberrypi.org/' style='color: rgb(76, 120, 136);'>Raspberry Pi</a> device, and several maps and plans for new networks hung on the wall. We returned with invaluable suggestions for improvements to Commotion, including a list of accessible and affordable routers that we should actively test and support. The workshop discussions were full of memorable visions for the Internet, community technology, and mesh wireless networks, where different groups of participants envisioned: <ul>
+</ul>
+<p> Over the course of the five day workshop, participants built a pilot Commotion network, developed plans for future networks and rallied around a common belief that communities should be able to build and govern their own communications infrastructure. The workshop took place the first week of June at the beautiful <a href='http://tnp.org/nuns/dolmaling/'>Dolma Ling Nunnery</a>, and was co-hosted by <a href='http://main.airjaldi.com/'>AirJaldi</a>, which has partnered on experimental technologies and workshops for many years. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blogpost4.png' style='height:334px; width:500px' /> The diverse group of participants included network engineers, broadcast engineers, community organizers, educators and policy advocates from AirJaldi, <a href='http://www.defindia.net/'>Digital Empowerment Foundation</a>, <a href='http://beta.metastudio.org/'>Gnowledge</a>, <a href='http://www.osvswa.org/ict_development.html'>IRMA</a>, <a href='http://janastu.org/'>Janastu</a>, <a href='http://www.mahiti.org/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Mahiti</a>, <a href='http://mojolab.org/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Mojolab</a>, <a href='http://www.nepalwireless.net/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Nepal Wireless</a>, <a href='http://nomadindia.net/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Nomad</a>, and <a href='http://okfn.org/' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Open Knowledge Foundation</a>. Attendees at the workshop brought visions for community technology, a desire to use mesh wireless in their work, and network plans to solidify. On the first day, we established a common view that building a network is a complex social process, not only (or even primarily) a technical challenge, and that community governance and training are critical components of this process. In addition, by the end of that first day, participants had installed the Commotion software on <a href='http://ubnt.com/' style='color: rgb(76, 120, 136);'>Ubiquiti</a> wireless routers, learned to configure and mesh those nodes, and then set off on their own to create a mesh network in and around their hotels, linking to the Commotion-powered node installed on the workshop rooftop across town. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_two.png' style='height:376px; width:500px' /><br /> <em>Using a shared visual language to plan and design a network.</em> The second day focused on planning mesh networks. Participants used a common visual language developed in our training programs in Detroit to draw plans for the networks they would like to build with Commotion. Later in the day, we went outside to experiment with <a href='http://servalproject.org/' style='color: rgb(76, 120, 136);'>Serval</a>messaging (on Android devices), <a href='https://github.com/danstaples/MediaGrid' style='color: rgb(76, 120, 136);'>MediaGrid</a>, and Commotion Linux on a mesh network created with battery-powered nodes. We learned a few good lessons about doing too many experimental things at once! On the third and fourth days, the participants split into two teams and went into the field to build a nine node pilot network, combining three medium-distance links with a denser omni-directional mesh in the town of Norbulingka. The AirJaldi network provided two network gateways for Internet access. During the construction and testing process, we found that, even for a small network, there were many interesting complexities. After spending hours in the sun, OTI staff and the participants returned to the workshop space to experiment with <a href='http://osmocom.org/' style='color: rgb(76, 120, 136);'>Osmocom</a>, an open implementation of the GSM standard for mobile telephony, and other technologies. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_1.png' style='height:375px; width:500px' /><br /> <em>We spent so long trying to get the right angle for the long-distance link, we did not even realize it was working, and we had completed the mesh network.</em> The last day involved more experimentation as well as discussions about the regulatory environment in India, and the possibilities for using mesh technology in crisis response. By the end of the workshop, some participants successfully installed Commotion Linux on their laptops, a participant meshed his <a href='http://www.raspberrypi.org/' style='color: rgb(76, 120, 136);'>Raspberry Pi</a> device, and several maps and plans for new networks hung on the wall. We returned with invaluable suggestions for improvements to Commotion, including a list of accessible and affordable routers that we should actively test and support. The workshop discussions were full of memorable visions for the Internet, community technology, and mesh wireless networks, where different groups of participants envisioned:</p>
+<ul>
 	<li>“The internet as a free, secure, decentralized, and inclusive media for all communities to overcome economic marginalization and local problems.”</li>
 	<li>Community-owned networks “that are built with low-cost devices, equally accessed, and resistant to blackouts.”</li>
 	<li>Community technology that is “by communities, for communities and integrating across various devices and technologies,” “peer-to-peer without centralized control or surveillance,” and “enabling local content creation and consumption and in the local context and language.”</li>
-</ul> <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blogpost3.png' style='height:375px; width:500px' /><br /> <em>You never know when you might need a router and a battery pack!</em> Another common thread throughout the workshop was a shared approach to community tech education. Small groups brainstormed the following guidelines: <ul>
+</ul>
+<p> <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/blogpost3.png' style='height:375px; width:500px' /><br /> <em>You never know when you might need a router and a battery pack!</em> Another common thread throughout the workshop was a shared approach to community tech education. Small groups brainstormed the following guidelines:</p>
+<ul>
 	<li>engage in peer-to-peer learning because it helps demystify technology </li>
 	<li>create a level of comfort around technology </li>
 	<li>build an awareness in communities about the available technology, so they can build from the knowledge and resources available</li>
 	<li>above all, break the fear of technology and show users that technology can be taken apart and put back together.</li>
-</ul> To this last point, one participant threw his phone to the ground, picked it up and put it back together - all to highlight the need for people to be able to break and fix the technology they rely on. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/map1.png' style='height:200px; width:251px' /> <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/map2.png' style='height:200px; width:242px' /> This theme continued throughout the workshop when the network needed troubleshooting or equipment did not work as expected. The process of troubleshooting and experimentation was an important component of the learning, and led to the discovery of a few bugs in the newest DR1.1 release. Even more valuable was the feedback from participants, which will continue to inform the direction of the Commotion project. The ideas and lessons coming out of the workshop are already being applied in the office to the Commotion code, to the training tools we use in our work, and in the networks we partner with in <a href='http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Detroit</a> and <a href='http://oti.newamerica.net/blogposts/2013/troubleshooting_red_hook_wireless_network_technical_physical_and_social_needs-79702' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Brooklyn</a>. At the end of the week-long workshop the network was working well, and demonstrated the properties of a dynamic mesh by allowing us to connect a portable node as we moved through a grassy field, down the dirt path to a rooftop restaurant to toast our successes and future collaborations.</p>
+</ul>
+<p> To this last point, one participant threw his phone to the ground, picked it up and put it back together - all to highlight the need for people to be able to break and fix the technology they rely on. <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/map1.png' style='height:200px; width:251px' /> <img alt='' src='http://oti.newamerica.net/sites/newamerica.net/files/articles/map2.png' style='height:200px; width:242px' /> This theme continued throughout the workshop when the network needed troubleshooting or equipment did not work as expected. The process of troubleshooting and experimentation was an important component of the learning, and led to the discovery of a few bugs in the newest DR1.1 release. Even more valuable was the feedback from participants, which will continue to inform the direction of the Commotion project. The ideas and lessons coming out of the workshop are already being applied in the office to the Commotion code, to the training tools we use in our work, and in the networks we partner with in <a href='http://oti.newamerica.net/blogposts/2013/building_community_controlled_digital_infrastructure_in_detroit-84570' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Detroit</a> and <a href='http://oti.newamerica.net/blogposts/2013/troubleshooting_red_hook_wireless_network_technical_physical_and_social_needs-79702' style='font-family: Helvetica, Arial, &apos;Nimbus Sans L&apos;, sans-serif; line-height: 1.538em; color: rgb(76, 120, 136);'>Brooklyn</a>. At the end of the week-long workshop the network was working well, and demonstrated the properties of a dynamic mesh by allowing us to connect a portable node as we moved through a grassy field, down the dirt path to a rooftop restaurant to toast our successes and future collaborations.</p>
  <h4>Tags:</h4>
 
- <a href="/tags/siteindex#mesh,site">mesh,site</a>&nbsp;
+ <a href="/tags/siteindex#mesh">mesh</a>&nbsp;
 
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a>&nbsp;
+ <a href="/tags/siteindex#site visits">site visits</a>&nbsp;
+
+ <a href="/tags/siteindex#gource">gource</a>&nbsp;
+
+ <a href="/tags/siteindex#git">git</a>&nbsp;
+
+ <a href="/tags/siteindex#visualization">visualization</a>&nbsp;
+
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a>&nbsp;
+
+ <a href="/tags/siteindex#recommendations">recommendations</a>&nbsp;
+
+
+    </div>
+
+    <div class="right-third">
+
+
+<h3>Tags:</h3>
+
+ <a href="/tags/siteindex#ui">ui</a> (4)<br />
+
+ <a href="/tags/siteindex#branding">branding</a> (2)<br />
+
+ <a href="/tags/siteindex#identity">identity</a> (1)<br />
+
+ <a href="/tags/siteindex#research">research</a> (7)<br />
+
+ <a href="/tags/siteindex#detroit">detroit</a> (6)<br />
+
+ <a href="/tags/siteindex#community wireless">community wireless</a> (9)<br />
+
+ <a href="/tags/siteindex#recommendations">recommendations</a> (3)<br />
+
+ <a href="/tags/siteindex#ux">ux</a> (3)<br />
+
+ <a href="/tags/siteindex#messaging">messaging</a> (4)<br />
+
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a> (4)<br />
+
+ <a href="/tags/siteindex#drupal">drupal</a> (1)<br />
+
+ <a href="/tags/siteindex#chat">chat</a> (3)<br />
+
+ <a href="/tags/siteindex#applications">applications</a> (4)<br />
+
+ <a href="/tags/siteindex#routers">routers</a> (2)<br />
+
+ <a href="/tags/siteindex#energy">energy</a> (1)<br />
+
+ <a href="/tags/siteindex#mesh">mesh</a> (9)<br />
+
+ <a href="/tags/siteindex#cost">cost</a> (2)<br />
+
+ <a href="/tags/siteindex#price">price</a> (1)<br />
+
+ <a href="/tags/siteindex#hardware">hardware</a> (3)<br />
+
+ <a href="/tags/siteindex#red hook">red hook</a> (5)<br />
+
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a> (2)<br />
+
+ <a href="/tags/siteindex#site visits">site visits</a> (4)<br />
+
+ <a href="/tags/siteindex#maintenance">maintenance</a> (2)<br />
+
+ <a href="/tags/siteindex#warning">warning</a> (2)<br />
+
+ <a href="/tags/siteindex#label">label</a> (2)<br />
+
+ <a href="/tags/siteindex#security">security</a> (2)<br />
+
+ <a href="/tags/siteindex#anonymity">anonymity</a> (2)<br />
+
+ <a href="/tags/siteindex#privacy">privacy</a> (2)<br />
+
+ <a href="/tags/siteindex#battlemesh">battlemesh</a> (1)<br />
+
+ <a href="/tags/siteindex#olsr">olsr</a> (1)<br />
+
+ <a href="/tags/siteindex#testing">testing</a> (1)<br />
+
+ <a href="/tags/siteindex#digital stewards">digital stewards</a> (4)<br />
+
+ <a href="/tags/siteindex#amp">amp</a> (1)<br />
+
+ <a href="/tags/siteindex#amc">amc</a> (1)<br />
+
+ <a href="/tags/siteindex#release">release</a> (3)<br />
+
+ <a href="/tags/siteindex#serval">serval</a> (1)<br />
+
+ <a href="/tags/siteindex#gource">gource</a> (1)<br />
+
+ <a href="/tags/siteindex#git">git</a> (1)<br />
+
+ <a href="/tags/siteindex#visualization">visualization</a> (2)<br />
+
+ <a href="/tags/siteindex#development">development</a> (1)<br />
+
+ <a href="/tags/siteindex#guest post">guest post</a> (1)<br />
+
+ <a href="/tags/siteindex#tools">tools</a> (1)<br />
+
+ <a href="/tags/siteindex#cck">cck</a> (1)<br />
+
+ <a href="/tags/siteindex#pop-up mesh">pop-up mesh</a> (1)<br />
+
+ <a href="/tags/siteindex#urban">urban</a> (1)<br />
+
+ <a href="/tags/siteindex#somaliland">somaliland</a> (1)<br />
+
+ <a href="/tags/siteindex#rural">rural</a> (1)<br />
+
+ <a href="/tags/siteindex#r1">r1</a> (1)<br />
+
+ <a href="/tags/siteindex#upgrade">upgrade</a> (1)<br />
+
+ <a href="/tags/siteindex#hack day">hack day</a> (1)<br />
 
 
     </div>
 
   </div>
 </div>
-
+ 
+    </div>
+  </div>
+</div>
 <div class="footer-wrapper">
   <div class="container">
-        <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-        <li class=""><a href="/jobs" title="">Jobs</a></li>
-        <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-        <li class=""><a href="/about/press" title="">Press</a></li>
-        <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-        </ul>
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
-  </body>
+  </body> 
 </html>
 

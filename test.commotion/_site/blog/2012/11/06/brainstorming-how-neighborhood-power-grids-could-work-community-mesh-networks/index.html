@@ -7,16 +7,12 @@
     <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
 
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-        body {
-          padding-top:60px;
-        }
-    </style>
+    <link href="/css/commotion.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 <body>
@@ -29,216 +25,232 @@
         <div class="color2">&nbsp;</div>
         <div class="color3">&nbsp;</div>
         <div class="color4">&nbsp;</div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div style="float: left; max-width:300px;">
-    <a href="/" style="border-bottom: none;"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo" style="float:left; position:relative; z-index: 1000; max-width:350px; height: 12em; margin-left: .5em; margin-right: .5em;" /></a>
-  </div>
-  <div style="position:relative; z-index:10000;">
-    <ul class="nav nav-pills">
-      <li class="dropdown">
-        <a id="aboutMenu" href="#" data-toggle="dropdown" role="button">
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
         About
         <b class="caret"></b>
-        </a>
-        <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
-        </ul>
-        </li>
-      <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
-      <li class="dropdown">
-        <a id="getHelpMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
         Get Help
         <b class="caret"></b>
-        </a>
-        <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
-        </ul>
-      </li>
-     <li class="dropdown">
-        <a id="downloadMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
         Download
         <b class="caret"></b>
-        </a>
-        <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a id="developersMenu" href="#" data-toggle="dropdown" role="button">
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
         For Developers
         <b class="caret"></b>
-        </a>
-        <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
- </div>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
-
+</div>
+ 
+ 
 <div class="containercontent pageheadings">
-  <h1 class="pageheadings">Brainstorming how neighborhood power grids could work with community mesh networks</h1>
   <hr>
+  <h1 class="pageheadings">Brainstorming how neighborhood power grids could work with community mesh networks</h1>
 </div>
-
+ 
 <div class="contentcontainer">
   <div class="container">
+ 
+<div class="left-twothird">
+
+ <h2 class="blog-pubdata">2012-11-06 / The Work Department</h2>
+
+<p>A community wireless network can provide a reliable conduit for many types of communication. We might initially think of this communication within a human context — sharing music with your friend across town, spreading news to your city about an upcoming event, responding to an emergency, or asking questions of a local politician on a discussion forum. But, in a world that runs parallel to the Internet we use everyday, our communication networks are used by all sorts of machines to make our society an exponentially more productive and automated place. These “robots” in our communities, all of those appliances and devices with embedded computers, could also benefit from a community mesh network. Moving into the future, we’ll be inspired to redesign some of these helpful robots and algorithms to be more decentralized and useful on hyperlocal levels. In Detroit, we’re thinking more about what role a community wireless network could play in organizing automated communication to better sustain our human neighborhoods and communities. For example, a house produces a never-ending stream of usage data ranging from kilowatt-hours of electricity to gallons of water to cubic-feet of gas. Hobbyists have taken an interest in this data, <a class='external' href='http://hackaday.com/2012/03/06/monitoring-home-electricity-usage-via-a-tidy-wall-display/' target='_blank'>especially electrical usage</a>. The current trend of home energy information technology is inspirational yet clearly <a class='external' href='http://www.wired.com/insights/2012/05/smart-meter/' target='_blank'>missing some components that would increase democratic control.</a> Energy companies have certainly accumulated a wealth of innovative and efficient systems for large-scale electricity distribution, but what if we came up with simple systems that enable neighbors to easily share power grid information over a community wireless network? Here, we enter the realm of local energy sharing and distribution built on locally owned and controlled data systems. Beyond the benefits of each home knowing its impact on the energy use of the community, this distributed monitoring could be useful to people who use alternative energy sources like wind or solar power. These energy systems require a charge controller and other electronics which often have data sharing systems or APIs similar to usage monitors. This software could use community wireless networks to manage energy sharing. For example, a house with solar panels could share energy with its neighbor with wind turbines on sunny days, and the neighbor with wind turbines could share energy with the solar house on windy days. On days that are both windy and sunny, both houses could contribute to a shared pool of batteries or donate the excess power to local community services at no cost to themselves. Household energy usage data could be aggregated within applications like <a href='http://www.tidepools.co/' target='_blank'>Tidepools</a> so community members could compare location-specific energy consumption. And, because of the self-healing nature of mesh networks, these energy-sharing systems could be more resilient during times of disaster or failing infrastructure. In Detroit, the team at The Work Department has also been brainstorming with two community projects: <a href='http://www.powerhouseproductions.org/index.php?/network/power-house/' target='_blank'>Power House Productions</a> and <a href='http://www.mtelliottmakerspace.com/' target='_blank'>Mt. Elliott Makerspace</a>. Whether through youth workshops or architectural installations, these groups work to introduce people to alternative energy and neighborhood-level systems — concepts that can be related to community wireless networks. We're also keeping tabs on an exciting project called the “<a href='http://www.kickstarter.com/projects/alex9000/the-solar-pocket-factory-an-invention-adventure/' target='_blank'>Solar Pocket Factory</a>” because small-scale solar technology could play a crucial role in letting a delay-tolerant mesh network scale. As our conversations progress, we’ll post more notes on this blog.</p>
+ <h4>Tags:</h4>
+
+ <a href="/tags/siteindex#community wireless">community wireless</a>&nbsp;
+
+ <a href="/tags/siteindex#energy">energy</a>&nbsp;
+
+ <a href="/tags/siteindex#detroit">detroit</a>&nbsp;
+
+
+    </div>
 
     <div class="right-third">
 
 
- <h3>Tags:</h3>
+<h3>Tags:</h3>
 
- <a href="/tags/siteindex#ui,branding,identity,research">ui,branding,identity,research</a><br />
+ <a href="/tags/siteindex#ui">ui</a> (4)<br />
 
- <a href="/tags/siteindex#ui,detroit,community">ui,detroit,community</a><br />
+ <a href="/tags/siteindex#branding">branding</a> (2)<br />
 
- <a href="/tags/siteindex#wireless,research,recommendations,">wireless,research,recommendations,</a><br />
+ <a href="/tags/siteindex#identity">identity</a> (1)<br />
 
- <a href="/tags/siteindex#ui,ux,research">ui,ux,research</a><br />
+ <a href="/tags/siteindex#research">research</a> (7)<br />
 
- <a href="/tags/siteindex#recommendations,research">recommendations,research</a><br />
+ <a href="/tags/siteindex#detroit">detroit</a> (6)<br />
 
- <a href="/tags/siteindex#messaging,detroit">messaging,detroit</a><br />
+ <a href="/tags/siteindex#community wireless">community wireless</a> (9)<br />
 
- <a href="/tags/siteindex#drupal,branding">drupal,branding</a><br />
+ <a href="/tags/siteindex#recommendations">recommendations</a> (3)<br />
 
- <a href="/tags/siteindex#messaging,chat,ux,applications">messaging,chat,ux,applications</a><br />
+ <a href="/tags/siteindex#ux">ux</a> (3)<br />
 
- <a href="/tags/siteindex#chat,applications,routers,,messaging">chat,applications,routers,,messaging</a><br />
+ <a href="/tags/siteindex#messaging">messaging</a> (4)<br />
 
- <a href="/tags/siteindex#chat,applications,routers,messaging">chat,applications,routers,messaging</a><br />
+ <a href="/tags/siteindex#{"categories"=>nil}">{"categories"=>nil}</a> (4)<br />
 
- <a href="/tags/siteindex#community">community</a><br />
+ <a href="/tags/siteindex#drupal">drupal</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a><br />
+ <a href="/tags/siteindex#chat">chat</a> (3)<br />
 
- <a href="/tags/siteindex#mesh,cost,price,hardware">mesh,cost,price,hardware</a><br />
+ <a href="/tags/siteindex#applications">applications</a> (4)<br />
 
- <a href="/tags/siteindex#red">red</a><br />
+ <a href="/tags/siteindex#routers">routers</a> (2)<br />
 
- <a href="/tags/siteindex#hook,hardware,cost,community">hook,hardware,cost,community</a><br />
+ <a href="/tags/siteindex#energy">energy</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,applications,research,mesh">wireless,applications,research,mesh</a><br />
+ <a href="/tags/siteindex#mesh">mesh</a> (9)<br />
 
- <a href="/tags/siteindex#hook,hardware,community">hook,hardware,community</a><br />
+ <a href="/tags/siteindex#cost">cost</a> (2)<br />
 
- <a href="/tags/siteindex#wireless,mesh,troubleshooting,site">wireless,mesh,troubleshooting,site</a><br />
+ <a href="/tags/siteindex#price">price</a> (1)<br />
 
- <a href="/tags/siteindex#visits,maintenance">visits,maintenance</a><br />
+ <a href="/tags/siteindex#hardware">hardware</a> (3)<br />
 
- <a href="/tags/siteindex#warning,label,security,anonymity,privacy,research">warning,label,security,anonymity,privacy,research</a><br />
+ <a href="/tags/siteindex#red hook">red hook</a> (5)<br />
 
- <a href="/tags/siteindex#battlemesh,mesh,olsr,testing">battlemesh,mesh,olsr,testing</a><br />
+ <a href="/tags/siteindex#troubleshooting">troubleshooting</a> (2)<br />
 
- <a href="/tags/siteindex#detroit,community">detroit,community</a><br />
+ <a href="/tags/siteindex#site visits">site visits</a> (4)<br />
 
- <a href="/tags/siteindex#wireless,digital">wireless,digital</a><br />
+ <a href="/tags/siteindex#maintenance">maintenance</a> (2)<br />
 
- <a href="/tags/siteindex#stewards,mesh,amp,amc">stewards,mesh,amp,amc</a><br />
+ <a href="/tags/siteindex#warning">warning</a> (2)<br />
 
- <a href="/tags/siteindex#release">release</a><br />
+ <a href="/tags/siteindex#label">label</a> (2)<br />
 
- <a href="/tags/siteindex#messaging,applications,chat,site">messaging,applications,chat,site</a><br />
+ <a href="/tags/siteindex#security">security</a> (2)<br />
 
- <a href="/tags/siteindex#visits,serval">visits,serval</a><br />
+ <a href="/tags/siteindex#anonymity">anonymity</a> (2)<br />
 
- <a href="/tags/siteindex#mesh,site">mesh,site</a><br />
+ <a href="/tags/siteindex#privacy">privacy</a> (2)<br />
 
- <a href="/tags/siteindex#visits,gource,git,visualization,troubleshooting,recommendations">visits,gource,git,visualization,troubleshooting,recommendations</a><br />
+ <a href="/tags/siteindex#battlemesh">battlemesh</a> (1)<br />
 
- <a href="/tags/siteindex#development,visualization">development,visualization</a><br />
+ <a href="/tags/siteindex#olsr">olsr</a> (1)<br />
 
- <a href="/tags/siteindex#guest">guest</a><br />
+ <a href="/tags/siteindex#testing">testing</a> (1)<br />
 
- <a href="/tags/siteindex#post,community">post,community</a><br />
+ <a href="/tags/siteindex#digital stewards">digital stewards</a> (4)<br />
 
- <a href="/tags/siteindex#wireless">wireless</a><br />
+ <a href="/tags/siteindex#amp">amp</a> (1)<br />
 
- <a href="/tags/siteindex#digital">digital</a><br />
+ <a href="/tags/siteindex#amc">amc</a> (1)<br />
 
- <a href="/tags/siteindex#stewards,community">stewards,community</a><br />
+ <a href="/tags/siteindex#release">release</a> (3)<br />
 
- <a href="/tags/siteindex#wireless,mesh,detroit,red">wireless,mesh,detroit,red</a><br />
+ <a href="/tags/siteindex#serval">serval</a> (1)<br />
 
- <a href="/tags/siteindex#hook">hook</a><br />
+ <a href="/tags/siteindex#gource">gource</a> (1)<br />
 
- <a href="/tags/siteindex#hook,community">hook,community</a><br />
+ <a href="/tags/siteindex#git">git</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,mesh,site">wireless,mesh,site</a><br />
+ <a href="/tags/siteindex#visualization">visualization</a> (2)<br />
 
- <a href="/tags/siteindex#visits,digital">visits,digital</a><br />
+ <a href="/tags/siteindex#development">development</a> (1)<br />
 
- <a href="/tags/siteindex#stewards,routers,maintenance">stewards,routers,maintenance</a><br />
+ <a href="/tags/siteindex#guest post">guest post</a> (1)<br />
 
- <a href="/tags/siteindex#wireless,detroit,red">wireless,detroit,red</a><br />
+ <a href="/tags/siteindex#tools">tools</a> (1)<br />
 
- <a href="/tags/siteindex#hook,tools,cck,digital">hook,tools,cck,digital</a><br />
+ <a href="/tags/siteindex#cck">cck</a> (1)<br />
 
- <a href="/tags/siteindex#stewards">stewards</a><br />
+ <a href="/tags/siteindex#pop-up mesh">pop-up mesh</a> (1)<br />
 
- <a href="/tags/siteindex#r1,upgrade">r1,upgrade</a><br />
+ <a href="/tags/siteindex#urban">urban</a> (1)<br />
 
+ <a href="/tags/siteindex#somaliland">somaliland</a> (1)<br />
 
-    </div>
+ <a href="/tags/siteindex#rural">rural</a> (1)<br />
 
-    <div class="left-twothird">
+ <a href="/tags/siteindex#r1">r1</a> (1)<br />
 
- <h2 class="blog-pubdata">2012-11-06 / The Work Department</h2>
+ <a href="/tags/siteindex#upgrade">upgrade</a> (1)<br />
 
-<p>A community wireless network can provide a reliable conduit for many types of communication. We might initially think of this communication within a human context &#8212; sharing music with your friend across town, spreading news to your city about an upcoming event, responding to an emergency, or asking questions of a local politician on a discussion forum. But, in a world that runs parallel to the Internet we use everyday, our communication networks are used by all sorts of machines to make our society an exponentially more productive and automated place. These &#8220;robots&#8221; in our communities, all of those appliances and devices with embedded computers, could also benefit from a community mesh network. Moving into the future, we&#8217;ll be inspired to redesign some of these helpful robots and algorithms to be more decentralized and useful on hyperlocal levels. In Detroit, we&#8217;re thinking more about what role a community wireless network could play in organizing automated communication to better sustain our human neighborhoods and communities. For example, a house produces a never-ending stream of usage data ranging from kilowatt-hours of electricity to gallons of water to cubic-feet of gas. Hobbyists have taken an interest in this data, <a class='external' href='http://hackaday.com/2012/03/06/monitoring-home-electricity-usage-via-a-tidy-wall-display/' target='_blank'>especially electrical usage</a>. The current trend of home energy information technology is inspirational yet clearly <a class='external' href='http://www.wired.com/insights/2012/05/smart-meter/' target='_blank'>missing some components that would increase democratic control.</a> Energy companies have certainly accumulated a wealth of innovative and efficient systems for large-scale electricity distribution, but what if we came up with simple systems that enable neighbors to easily share power grid information over a community wireless network? Here, we enter the realm of local energy sharing and distribution built on locally owned and controlled data systems. Beyond the benefits of each home knowing its impact on the energy use of the community, this distributed monitoring could be useful to people who use alternative energy sources like wind or solar power. These energy systems require a charge controller and other electronics which often have data sharing systems or APIs similar to usage monitors. This software could use community wireless networks to manage energy sharing. For example, a house with solar panels could share energy with its neighbor with wind turbines on sunny days, and the neighbor with wind turbines could share energy with the solar house on windy days. On days that are both windy and sunny, both houses could contribute to a shared pool of batteries or donate the excess power to local community services at no cost to themselves. Household energy usage data could be aggregated within applications like <a href='http://www.tidepools.co/' target='_blank'>Tidepools</a> so community members could compare location-specific energy consumption. And, because of the self-healing nature of mesh networks, these energy-sharing systems could be more resilient during times of disaster or failing infrastructure. In Detroit, the team at The Work Department has also been brainstorming with two community projects: <a href='http://www.powerhouseproductions.org/index.php?/network/power-house/' target='_blank'>Power House Productions</a> and <a href='http://www.mtelliottmakerspace.com/' target='_blank'>Mt. Elliott Makerspace</a>. Whether through youth workshops or architectural installations, these groups work to introduce people to alternative energy and neighborhood-level systems &#8212; concepts that can be related to community wireless networks. We&#39;re also keeping tabs on an exciting project called the &#8220;<a href='http://www.kickstarter.com/projects/alex9000/the-solar-pocket-factory-an-invention-adventure/' target='_blank'>Solar Pocket Factory</a>&#8221; because small-scale solar technology could play a crucial role in letting a delay-tolerant mesh network scale. As our conversations progress, we&#8217;ll post more notes on this blog.</p>
- <h4>Tags:</h4>
-
- <a href="/tags/siteindex#community">community</a>&nbsp;
-
- <a href="/tags/siteindex#wireless,energy,detroit,">wireless,energy,detroit,</a>&nbsp;
+ <a href="/tags/siteindex#hack day">hack day</a> (1)<br />
 
 
     </div>
 
   </div>
 </div>
-
+ 
+    </div>
+  </div>
+</div>
 <div class="footer-wrapper">
   <div class="container">
-        <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-        <li class=""><a href="/jobs" title="">Jobs</a></li>
-        <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-        <li class=""><a href="/about/press" title="">Press</a></li>
-        <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-        </ul>
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
 
-  </body>
+  </body> 
 </html>
 

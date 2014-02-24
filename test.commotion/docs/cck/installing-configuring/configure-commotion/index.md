@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Configure Commotion
+site_section: help
+sub_section: [cck,cck-installing]
 categories: {categories}
 created: 2013-11-05
 changed: 2014-01-13
 post_author: critzo
-lang: fr
+lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__605 img__view_mode__media_original attr__format__media_original" height="283" src="/files/styles/large/public/CCK_Configure_intro_graphic_0.png" typeof="foaf:Image" width="292" /></p>
 

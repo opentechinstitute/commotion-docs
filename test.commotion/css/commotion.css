@@ -190,7 +190,6 @@ div#slideshow li.bjqs-prev a, div#slideshow li.bjqs-next a {
 }
 div#slideshow .bjqs-prev a:hover, div#slideshow .bjqs-next a:hover {
   color: #FE739B;
-}
 div.pageheadings {
   min-height: 100px;
   background: none repeat scroll 0 0 #000000;
@@ -236,11 +235,13 @@ div.pageheadings hr {
 }
 .left-third {
   width: 25%;
+  min-width: 200px;
   float: left;
   margin: .3em 2em;
 }
 .right-twothird {
   width: 65%;
+  min-width: 400px;
   float: right;
   margin: 1em;
 }
@@ -254,6 +255,7 @@ div.pageheadings hr {
 }
 .right-third {
   width: 20%;
+  min-width: 200px;
   float: right;
   margin: 2em;
 }
@@ -269,6 +271,7 @@ div.pageheadings hr {
 }
 .left-twothird {
   width: 65%;
+  min-width: 400px;
   float: left;
   margin: .3em 2em;
 }
@@ -333,6 +336,7 @@ div#downloads-nav .tab a {
 div#downloads-nav .tab.active, div#downloads-nav .tab:hover {
   border-bottom: 6px solid #000;
 }
+
 /* Files Download Table */
 .contentcontainer table.files {
     width: 960px;
@@ -369,3 +373,73 @@ div#downloads-nav .tab.active, div#downloads-nav .tab:hover {
   width: 25%;
   margin: 40px 0 20px 20px;
 }
+.RSS-icon {
+  float: right;
+}
+#subsection-menu {
+  background-color: #00FFCF;
+}
+#subsection-menu h3 {
+  background-color: #00FFCF;
+  color: #000000;
+  font-family: AsapBold;
+  font-size: 13px;
+  margin: 0;
+  padding: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#subsection-menu h3 a:link,
+#subsection-menu h3 a:visited,
+#subsection-menu h3 a:hover {
+  border-bottom:none;
+  color: #000000;
+  background: none;
+}
+#subsection-menu ul,
+#subsection-menu ul li {
+  background-color: #00FFCF;
+  list-style-type: none;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#subsection-menu ul li.active {
+  background-color: #E8FF00;
+}
+#subsection-menu ul ul.submenu li.active {
+  background-color: #E8FF00;
+}
+#subsection-menu ul li a:link,
+#subsection-menu ul li a:visited {
+  color: #000000;
+  display: block;
+  padding-left: 0.5em;
+  text-decoration: none;
+  width: 100%;
+  border-bottom: none;
+  font-weight: normal;
+}
+#subsection-menu ul li a:hover {
+  background-color: #E8FF00;
+}
+#subsection-menu ul.submenu {
+  background: none repeat scroll 0 0 #CCCCCC;
+  border-left: 0.3em solid #FF739C;
+  padding-left: 0.5em;
+}
+#subsection-menu ul.submenu li {
+  background: none repeat scroll 0 0 #CCCCCC;
+}
+#subsection-menu ul.submenu li a:link,
+#subsection-menu ul.submenu li a:visited {
+
+}
+#subsection-menu ul.submenu li a:hover {
+
+}
+.blog-post-promo {
+  background: #00FFCF;
+  padding: .5em;
+}
+

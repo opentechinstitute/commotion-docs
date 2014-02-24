@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Key Concepts
-categories: {categories}
+site_section: developers
+sub_section: hig
+categories: 
 created: 2012-06-25
 changed: 2013-12-25
 post_author: michael@theworkdept.com

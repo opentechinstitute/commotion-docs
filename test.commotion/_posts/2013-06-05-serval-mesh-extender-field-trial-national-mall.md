@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Serval Mesh Extender Field Trial on the National Mall
-categories: messaging,applications,chat,site visits,serval
+categories: [messaging,applications,chat,site visits,serval]
 created: 2013-06-05
 changed: 2013-07-26
 post_author: OTI

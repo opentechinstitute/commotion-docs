@@ -1,13 +1,13 @@
 ---
 layout: blog
 title: Commotion Router v1 Release Notes
-categories: release
+categories: [release]
 created: 2013-12-30
 changed: 2013-12-31
-post_author: jking
+post_author: Josh King
 lang: en
 ---
-  These are the release notes for Commotion Router v1 "Grumpy Cat", **<a href="/download/routers">available for download now</a>**. This is the first full version of the <a href="http://openwrt.org">OpenWRT</a>-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools. For clarity, the Commotion firmware distribution for wireless routers will now be referred to as Commotion Router, rather than Commotion-OpenWRT or CommotionWRT.
+  These are the release notes for Commotion Router v1 "Grumpy Cat", **<a href="/download/routers">available for download now</a>**.<!--miniteaser--> This is the first full version of the <a href="http://openwrt.org">OpenWRT</a>-based firmware for the Commotion project, which is intended to make it easy for communities to build their own communications technology and to serve as a platform for the development of novel and secure communication tools.<!--more--> For clarity, the Commotion firmware distribution for wireless routers will now be referred to as Commotion Router, rather than Commotion-OpenWRT or CommotionWRT.
 <h3>A Note About Releases</h3>
 For version 1, we are changing our versioning scheme, and deprecating all "Preview Release," "Developer Release" style designations. From version 1 forward, we are using whole number versions for each release, analagous to projects such as Firefox and Chrome. So, for instance, this will be release 1, and the next will be release 2, and so on. If critical bugfixes are required, we may put out point releases such as 1.1, 1.2, 2.1, etc. These versions are for each platform; there will be a Commotion Router v1, a Commotion Android v1, and so on. These version numbers will not necessarily be synchronized between platforms. Also, for some platforms, like Commotion Router, we may have release names based on internet memes. Individual software components will continue to be versions according to <a href="http://semver.org">Semantic Versioning</a>.
 <h3>New Features</h3>
