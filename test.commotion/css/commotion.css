@@ -338,6 +338,15 @@ div#downloads-nav .tab.active, div#downloads-nav .tab:hover {
   border-bottom: 6px solid #000;
 }
 
+div#download-button-block {
+  text-align:center;
+}
+div#download-button-block .download-button {
+  margin: 2em 0 2em 0;
+}
+div#download-button-block .download-button a.button {
+  font-size: 1.5em;
+}
 /* Files Download Table */
 .contentcontainer table.files {
     width: 960px;
