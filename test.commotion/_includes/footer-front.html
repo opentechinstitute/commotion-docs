@@ -1,81 +1,17 @@
-</div>
-<div class="contentcontainer">
-  <div class="container">
-    <div class="left-third">
-      <a class="twitter-timeline"  href="https://twitter.com/search?q=%23commotion+%40OTI"  data-widget-id="435507392806023168">Tweets about "#commotion @OTI"</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-    <div class="right-twothird">
-	<h3>Recent Blog Posts</h3>
-	{% for post in site.posts %}
-	    <h4><a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a></h4>
-	  <p class="blog-pubdata">{{ post.date | date: "%B %d, %Y" }} {{ post.post_author }}</p>
-	  <p class="blog-excerpt">{{ post.content | split:'<!--more-->' | first }}</p>
-	<hr>
-	  {% endfor %}
-    </div>
-  </div>
-</div>
 <div class="footer-wrapper">
   <div class="container">
-     <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
-  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
-	<li class=""><a href="/jobs" title="">Jobs</a></li>
-	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
-	<li class=""><a href="/about/press" title="">Press</a></li>
-	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
-	</ul>
-     </div>
+    <ul class="menu">
+      <li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	    <li class=""><a href="/jobs" title="">Jobs</a></li>
+	    <li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	    <li class=""><a href="/about/press" title="">Press</a></li>
+	    <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	  </ul>
   </div>
 </div>
-
-<script src="/js/jquery-2.1.0.min.js"></script>
-<script src="/js/bootstrap.js"></script>
-
-<script src="/js/reveal/lib/js/head.min.js"></script>
-<script src="/js/reveal/js/reveal.min.js"></script>
-
-<script>
-Reveal.configure({
-	keyboard: {
-	  38: null,
-	  40: null
-	}
-});
-</script>
-
-<script>
-
-// https://github.com/hakimel/reveal.js#configuration
-Reveal.initialize({
-	controls: true,
-	progress: true,
-	history: false,
-	embedded: true,
-	center: true,
-	loop: true,
-	autoslide: 7000,
-	width: 960,
-	height: 300,
-
-	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-	transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
-
-	// Parallax scrolling
-	// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-	// parallaxBackgroundSize: '2100px 900px',
-
-	// Optional libraries used to extend on reveal.js
-	dependencies: [
-		{ src: '/js/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-		{ src: '/js/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		{ src: '/js/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		{ src: '/js/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-		{ src: '/js/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-		{ src: '/js/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-	]
-});
-
-</script>
+  <script src="/js/jquery-2.1.0.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+  <script src="/js/bjqs/bjqs-1.3.js"></script>
+  <script src="/js/commotion-front.js"></script>
   </body> 
 </html>

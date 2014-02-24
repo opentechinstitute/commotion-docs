@@ -3,23 +3,21 @@ title: "Commotion Wireless"
 layout: front
 lang: en
 ---
- <div class="reveal">
-  <div class="slides">
-   <section data-autoslide="7000">
-     <a href="/blog/commotion-router-v1-release-notes">Commotion 1.0</a><br />
-Our groundbreaking mesh networking toolkit, is now available for <a href="/download/routers">download</a>.
-   </section>
-   <section data-autoslide="7000">
-	<p>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</p>
-   </section>
-   <section data-autoslide="7000">
-Interested in trying Commotion or learning more?  Our <a href="/docs/get-started">Get Started</a> guide will explain how. 
-   </section>
-   <section data-autoslide="7000">
-	<p>Are you interested in contributing to Commotion?<br /><a href="/docs/get-involved">Get Involved!</a></p>
-   </section>
-   <section data-autoslide="7000">
-	<p>Have Questions about Commotion? Our <a href="/about/faq">Frequently Asked Questions</a> covers many of them.</p>
-   </section>
+<div id="slideshow">
+  <div id="banner-slide" class="slideshow-inner">
+    <ul class="bjqs">
+      <li><a href="/blog/commotion-router-v1-release-notes">Commotion 1.0</a><br />
+        Our groundbreaking mesh networking toolkit, is now available for <a href="/download/routers">download</a>.</li>
+      <li>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</li>
+      <li>Interested in trying Commotion or learning more?  Our <a href="/docs/get-started">Get Started</a> guide will explain how. </li>
+      <li>Are you interested in contributing to Commotion?<br /><a href="/docs/get-involved">Get Involved!</a></li>
+      <li>Have Questions about Commotion? Our <a href="/about/faq">Frequently Asked Questions</a> covers many of them.</li>
+    </ul>
   </div>
- </div>
+  <noscript>
+    <div id="banner-slide" class="slideshow-inner">
+      <div class="noscript">Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.</div>
+    </div>
+  </noscript>
+</div>      
+
