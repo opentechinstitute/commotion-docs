@@ -3,6 +3,8 @@ layout: default
 title: Design your Network - Every Network Tells a Story
 site_section: help
 sub_section: [cck,cck-planning]
+pdf: design_your_network_entas_CCK_0.pdf
+pdf-all: true
 categories: 
 created: 2013-09-27
 changed: 2013-09-28

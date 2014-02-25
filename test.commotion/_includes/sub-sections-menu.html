@@ -11,3 +11,6 @@
 {% include developers_menu.html %}
 {% else %}
 {% endcase %}
+{% if page.sub_section contains 'cck' %}
+{% include cck_download_pdfs_block.html %}
+{% endif %}

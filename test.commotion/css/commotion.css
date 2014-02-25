@@ -493,3 +493,28 @@ div#download-button-block .download-button a.button {
   background: #CCCCCC;
   border-left: 2px solid #666666;
 }
+.cck-download-all {
+  margin-top: 1em;
+}
+.cck-download {
+  display: block;
+  width: 222px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #000000; 
+}
+.cck-download a:link, 
+.cck-download a:visited,
+.cck-download-pdf a:link, 
+.cck-download-pdf a:visited {
+  color: E8FF00;
+  text-decoration: none;
+}
+.cck-download a:hover, 
+.cck-download-pdf a:hover {
+  color: #FFFFFF;
+}
+div.cck-download-pdf {
+  margin-top: 1em;
+  display: block;
+}
