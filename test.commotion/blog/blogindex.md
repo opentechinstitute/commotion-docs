@@ -1,11 +1,11 @@
 ---
 title: "Commotion Wireless Blog Index"
-layout: default
+layout: blog-index
 lang: en
 ---
+<h2>Posts by Tag</h2>
 {% for category in site.categories %}
- <a href="#{{ category[0] }}"></a>
- <h2>{{ category[0] }}</h2> 
+ <h3 id="{{ category[0] }}">{{ category[0] }}</h3> 
  <ul>
   {% for post in category[1] %} 
     <li><a href="{{ post.url }}">{{ post.title }}</a><br />
@@ -13,4 +13,3 @@ lang: en
   {% endfor %}
  </ul>
 {% endfor %}
-
