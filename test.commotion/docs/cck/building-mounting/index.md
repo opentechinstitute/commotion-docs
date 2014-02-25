@@ -9,4 +9,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: en
 ---
+<div class="cck-section-page">
+{% include help_cck_building_menu.html %}
+</div>
  

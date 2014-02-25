@@ -470,3 +470,26 @@ div#download-button-block .download-button a.button {
   margin: .5em;
   min-width: 400px;
 }
+.cck-section-page ul.submenu {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+.cck-section-page ul.submenu li {
+  list-style-type: none;
+  list-style-image: none;
+}
+.cck-section-page ul.submenu a:link,
+.cck-section-page ul.submenu a:visited {
+  color: #000000;
+  margin-left: 1em;
+  padding-left: 1em;
+  border-bottom: none;
+  font-size: 1.5em;
+  text-decoration: none;
+  display: block;
+}
+.cck-section-page ul.submenu a:hover {
+  background: #CCCCCC;
+  border-left: 2px solid #666666;
+}
