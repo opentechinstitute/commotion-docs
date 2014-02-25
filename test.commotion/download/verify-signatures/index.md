@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 
+title: Verifying Commotion Downloads 
+site_section: download
 categories: 
 created: 2013-06-10
 changed: 2013-09-20

@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Download Commotion
+site_section: download
 categories: 
 created: 2012-10-18
 changed: 2014-01-02
-post_author: otiadmin
-lang: fr
+post_author: OTI
+lang: en
 ---
   <p>Welcome to the Commotion downloads page! Here you can find links to pre-built downloads for all of the currently supported Commotion devices.</p>
 

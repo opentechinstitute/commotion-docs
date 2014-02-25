@@ -462,9 +462,11 @@ div#download-button-block .download-button a.button {
   width: 45%;
   float: left;
   margin: .5em;
+  min-width: 400px;
 }
 .right-half {
   width: 45%;
   float: left;
   margin: .5em;
+  min-width: 400px;
 }
