@@ -99,6 +99,10 @@ li.static-nodrop a:visited {
     text-transform: uppercase;
 }
 
+.dropdown-menu li a {
+    text-transform: none; 
+
+}
 
 .promo {
     width: 100%;
