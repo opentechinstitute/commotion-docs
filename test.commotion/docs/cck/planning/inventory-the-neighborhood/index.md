@@ -3,21 +3,14 @@ layout: default
 title: Inventory the Neighborhood
 site_section: help
 sub_section: [cck,cck-planning]
+pdf: cck/planning/5-Inventory_the_Neighborhood.pdf
+pdf-all: true
 categories: 
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-  <style type="text/css">@media print {
-    #region-branding {
-        display: none !important;
-    }
-    #block-menu-block-11 {
-        display: none !important;
-    }
-}
-</style>
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__476 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/inventory_the_neighborhood_title.png?itok=qgv6sh9C" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
 
 <h2>Inventory the Neighborhood</h2>
@@ -41,13 +34,13 @@ lang: en
 <section id="materials-and-supplies-needed">
 <h4>MATERIALS + SUPPLIES NEEDED</h4>
 
-<p><a href="/files/SiteWorksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__484 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" style="width: 480px; height: 408px;" typeof="foaf:Image" /></a></p>
+<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__484 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" style="width: 480px; height: 408px;" typeof="foaf:Image" /></a></p>
 
-<p>Printouts of the <strong><a href="/files/SiteWorksheet.pdf">Site Worksheets</a></strong>&nbsp;you can take with you into the neighborhood to collect information about places that might make good installation sites. You will need one for each location.</p>
+<p>Printouts of the <strong><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheets</a></strong>&nbsp;you can take with you into the neighborhood to collect information about places that might make good installation sites. You will need one for each location.</p>
 
-<p><a href="/files/NeighborhoodInventorySpreadsheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__483 img__view_mode__media_large attr__format__media_large" height="348" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" typeof="foaf:Image" width="457" /></a></p>
+<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__483 img__view_mode__media_large attr__format__media_large" height="348" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" typeof="foaf:Image" width="457" /></a></p>
 
-<p><strong><a href="/files/NeighborhoodInventorySpreadsheet.pdf">Neighborhood Inventory Spreadsheet</a></strong>&nbsp;you can use to organize, store, and use the information you gathered out in the neighborhood. You can copy this example spreadsheet or make your own.</p>
+<p><strong><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf">Neighborhood Inventory Spreadsheet</a></strong>&nbsp;you can use to organize, store, and use the information you gathered out in the neighborhood. You can copy this example spreadsheet or make your own.</p>
 
 <p>Pens</p>
 

@@ -3,6 +3,8 @@ layout: default
 title: Design your Network- Construction Elements
 site_section: help
 sub_section: [cck,cck-planning]
+pdf: cck/planning/7-Design_your_Network_Construction_Elements.pdf
+pdf-all: true
 categories: 
 created: 2013-09-27
 changed: 2013-09-28
@@ -34,7 +36,7 @@ lang: en
 </section>
 
 <section id="extras">
-<p><a href="/sites/commotionwireles.net/files/construction_elements_CCK_0.pdf">Download a complete collection of graphic elements you can use in your flyers and diagrams (as a PDF).</a></p>
+<p><a href="/files/cck/planning/7-Design_your_Network_Construction_Elements.pdf">Download a complete collection of graphic elements you can use in your flyers and diagrams (as a PDF).</a></p>
 </section>
 
 <section class="related-information" id="related-information">

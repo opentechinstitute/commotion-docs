@@ -3,6 +3,8 @@ layout: default
 title: Configure Commotion
 site_section: help
 sub_section: [cck,cck-installing]
+pdf: cck/installing-configuring/2-Configure_Commotion.pdf
+pdf-all: true
 categories: 
 created: 2013-11-05
 changed: 2014-01-13
@@ -35,7 +37,7 @@ lang: en
 
 <p>1. A router with Commotion installed, plugged in to your computer’s Ethernet port.</p>
 
-<p>2. A copy of <a href="/files/CCK_ConfigureRouters_worksheet_0.pdf">the worksheet</a> at the end of this document, to keep track of settings.</p>
+<p>2. A copy of <a href="/files/cck/installing-configuring/2.2-CCK-Installing-ConfigureRouters_worksheet.pdf">the worksheet</a> at the end of this document, to keep track of settings.</p>
 
 <p>3. (Optional) A printed or off-line copy of the node <a href="/files/CCK_ConfigureRouters_Hands-on_0.pdf">hands-on test</a> located at the end of this document.</p>
 </section>
@@ -419,7 +421,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 
 <p>This is a short hands-on test you can use to explore any Commotion node’s administrator interface. Completing this test is not required to set up a node on a network, but it can help you understand how to find important information that network administrators need to keep the network functioning properly. If you are configuring several nodes with other people, everyone can explore these details if they run through this test on their node, and fill out the answers.</p>
 
-<p><a href="/files/CCK_ConfigureRouters_Hands-on_0.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__592 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" style="width: 371px; height: 480px;" typeof="foaf:Image" /></a></p>
+<p><a href="/files/cck/installing-configuring/2.1-CCK-Installing-ConfigureRouters_Hands-on.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__592 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" style="width: 371px; height: 480px;" typeof="foaf:Image" /></a></p>
 </section>
 
 <section id="Record-important-information">
@@ -427,7 +429,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 
 <p>As you check and change these settings, be sure to securely record the information. You can use this worksheet if it is helpful.</p>
 
-<p><a href="/files/CCK_ConfigureRouters_worksheet_0.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__593 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" width="371" /></a></p>
+<p><a href="/files/cck/installing-configuring/2.2-CCK-Installing-ConfigureRouters_worksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__593 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" width="371" /></a></p>
 </section>
 
 <section id="section-definitions">

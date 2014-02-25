@@ -3,7 +3,7 @@ layout: default
 title: Design your Network - Every Network Tells a Story
 site_section: help
 sub_section: [cck,cck-planning]
-pdf: design_your_network_entas_CCK_0.pdf
+pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
 pdf-all: true
 categories: 
 created: 2013-09-27
@@ -220,7 +220,7 @@ lang: en
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__322 img__view_mode__media_original attr__format__media_original" height="319" src="/files/design_your_network_entas_support_cut.png" typeof="foaf:Image" width="510" /></p>
 
-<p><a href="/files/design_your_network_entas_CCK.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__374 img__view_mode__media_original attr__format__media_original" height="49" src="/files/CCK_download_icon2.png" typeof="foaf:Image" width="363" /></a></p>
+<p><a href="/files/cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf"><img alt="" src="/files/CCK_download_icon2.png" typeof="foaf:Image" width="363" /></a></p>
 </section>
 
 <section id="section-definitions">

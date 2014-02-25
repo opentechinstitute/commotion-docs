@@ -3,6 +3,8 @@ layout: default
 title: Common Configurations
 site_section: help
 sub_section: [cck,cck-installing]
+pdf: cck/installing-configuring/3-Common_Configurations.pdf
+pdf-all: true
 categories: 
 created: 2013-11-06
 changed: 2014-01-12

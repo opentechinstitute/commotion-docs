@@ -3,21 +3,14 @@ layout: default
 title: Identify Neighborhood Skills
 site_section: help
 sub_section: [cck,cck-planning]
+pdf: cck/planning/6-Identify_Neighborhood_Skills.pdf
+pdf-all: true
 categories: 
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-  <style type="text/css">@media print {
-    #region-branding {
-        display: none !important;
-    }
-    #block-menu-block-11 {
-        display: none !important;
-    }
-}
-</style>
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__464 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
 
 <h2>Identify Neighborhood Skills</h2>

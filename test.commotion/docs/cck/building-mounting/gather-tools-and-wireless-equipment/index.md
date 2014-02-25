@@ -3,6 +3,8 @@ layout: default
 title: Gather Tools and Wireless Equipment
 site_section: help
 sub_section: [cck,cck-building]
+pdf: cck/building-mounting/1-Gather_Tools_and_Wireless_Equipment.pdf
+pdf-all: true
 categories: 
 created: 2013-09-27
 changed: 2013-11-22

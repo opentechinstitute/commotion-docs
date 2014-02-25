@@ -3,6 +3,8 @@ layout: default
 title: Get the Word Out - Flyer Design
 site_section: help
 sub_section: [cck,cck-planning]
+pdf: cck/planning/4-Get_the_Word_Out_Flyer_Design.pdf
+pdf-all: true
 categories: 
 created: 2013-09-27
 changed: 2013-10-07
@@ -123,7 +125,7 @@ lang: en
 <section id="example-flyer">
 <h2>Example Flyer</h2>
 
-<p><a href="/files/get_the_word_out_flyer_design_support003_0.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" src="/files/CCK_download_icon.png" style="width: 315px; height: 49px;" typeof="foaf:Image" /></a></p>
+<p><a href="/files/{{page.pdf}}"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" src="/files/CCK_download_icon.png" style="width: 315px; height: 49px;" typeof="foaf:Image" /></a></p>
 
 <p class="tip">These diagrams are not about technical details. For now, it does not matter about what equipment you are using — focus on getting the idea across so people who are new to the project can understand the basics of what you're proposing.</p>
 </section>

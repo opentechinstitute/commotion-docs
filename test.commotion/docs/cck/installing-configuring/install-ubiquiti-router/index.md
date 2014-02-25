@@ -3,6 +3,8 @@ layout: default
 title: Install on a Ubiquiti Router
 site_section: help
 sub_section: [cck,cck-installing]
+pdf: cck/installing-configuring/1-Install_on_a_Ubiquiti_Router.pdf
+pdf-all: true
 categories: 
 created: 2013-09-27
 changed: 2014-01-13

@@ -3,13 +3,15 @@ layout: default
 title: Survey Your Neighbors
 site_section: help
 sub_section: [cck,cck-planning]
+pdf: cck/planning/3-Survey_Your_Neighbors.pdf
+pdf-all: true
 categories: 
 created: 2013-09-27
 changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__259 img__view_mode__media_original attr__format__media_original" height="396" src="/files/survey_your_neighbors_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" src="/files/survey_your_neighbors_support001.png" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
