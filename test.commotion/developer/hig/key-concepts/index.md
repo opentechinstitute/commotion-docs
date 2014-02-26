@@ -55,9 +55,7 @@ lang: en
 	<li><strong>Quit</strong></li>
 </ol>
 
-<p><a name="security"></a></p>
-
-<h2>Security, privacy and anonymity</h2>
+<h2 id="security">Security, privacy and anonymity</h2>
 
 <p>A significant challenge in developing Commotion is balancing ease-of-use and control over functionality. Different users will want Commotion to serve different purposes, and our choices in features and design will make some things easier and some things harder. Unfortunately, we cannot make a perfect package for all situations: we need to be clear about the limitations inherent in Commotion, especially regarding matters of security, privacy and anonymity. These three concepts are related through their importance to communities and people with “real life” concerns of oppression, surveillance, and other attacks.</p>
 

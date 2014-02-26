@@ -530,6 +530,7 @@ div.cck-download-pdf {
 .blog-index a:link,
 .blog-index a:visited {
   border-bottom: none;
+  font-size: 1.1em;
 }
 .blog-index a:hover {
   border-bottom: 3px solid #FF739C;
