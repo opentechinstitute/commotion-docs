@@ -7,7 +7,7 @@
     {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
 
     {% if forloop.first %}
-    <h3 id="{{ this_year }}">{{this_year}}</h3>
+    <h3 id="{{ this_year }}"><a href="#top" title="Jump to top of page" label="Jump to top of page">&#x25B2;</a> {{this_year}}</h3>
     <h4 id="{{ this_year }}-{{ this_month }}">{{ this_month }}</h4>
     <ul>
     {% endif %}
@@ -19,7 +19,7 @@
     {% else %}
     {% if this_year != next_year %}
     </ul>
-    <h3 id="{{ next_year }}">{{next_year}}</h3>
+    <h3 id="{{ next_year }}"><a href="#top" title="Jump to top of page" label="Jump to top of page">&#x25B2;</a> {{next_year}}</h3>
     <h4 id="{{ next_year }}-{{ next_month }}">{{ next_month }}</h4>
     <ul>
     {% else %}    
