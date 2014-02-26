@@ -123,7 +123,7 @@ li.static-nodrop a:visited {
   text-decoration: none;
   background: none;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 .contentcontainer a:hover, .contentcontainer a:visited {
@@ -410,6 +410,7 @@ div#download-button-block .download-button a.button {
   border-bottom:none;
   color: #000000;
   background: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #subsection-menu ul,
 #subsection-menu ul li {
@@ -497,4 +498,8 @@ div#download-button-block .download-button a.button {
 .cck-section-page ul.submenu a:hover {
   background: #CCCCCC;
   border-left: 2px solid #666666;
+}
+
+img {
+    padding: 10px;
 }
