@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Commotion Construction Kit - Learn Rooftop Basics
+title: Learn Rooftop Basics
 site_section: help
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/2-Learn_Rooftop_Basics.pdf

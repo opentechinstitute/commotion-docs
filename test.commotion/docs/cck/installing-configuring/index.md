@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installing + Configuring
+title: Commotion Construction Kit - Installing + Configuring
 site_section: help
 sub_section: [cck,cck-installing]
 pdf-all: true

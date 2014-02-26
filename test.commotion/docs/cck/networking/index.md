@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Networking
+title: Commotion Construction Kit - Networking
 site_section: help
 sub_section: [cck,cck-networking]
 pdf-all: true
