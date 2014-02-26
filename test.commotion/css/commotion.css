@@ -507,7 +507,7 @@ div#download-button-block .download-button a.button {
 .cck-download a:visited,
 .cck-download-pdf a:link, 
 .cck-download-pdf a:visited {
-  color: E8FF00;
+  color: #E8FF00;
   text-decoration: none;
 }
 .cck-download a:hover, 
@@ -517,4 +517,21 @@ div#download-button-block .download-button a.button {
 div.cck-download-pdf {
   margin-top: 1em;
   display: block;
+}
+.blog-index h3 {
+  border-bottom: 3px solid;
+  width: 50%;
+}
+.blog-index h4 {
+  background: none repeat scroll 0 0 #FF7393;
+  padding: 0.2em;
+  width: 1.4em;
+}
+.blog-index a:link,
+.blog-index a:visited {
+  border-bottom: none;
+  font-size: 1.1em;
+}
+.blog-index a:hover {
+  border-bottom: 3px solid #FF739C;
 }
