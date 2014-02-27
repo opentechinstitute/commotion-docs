@@ -4,7 +4,7 @@ title: Developer Resources
 site_section: developers
 categories: 
 created: 2013-06-28
-changed: 2014-02-26
+changed: 2014-02-27
 post_author: areynold
 lang: en
 ---
@@ -18,7 +18,7 @@ However, there are certain platforms where unique tools are required.</p>
 
 <ul>
 	<li><a href="commotion-router/index.md">Commotion-Router development guide</a></li>
-	<li><a href="#">Commotion-Android app development guide</a></li>
+	<li><a href="commotion-android/index.md">Commotion-Android app development guide</a></li>
 	<li>Linux, Mac OS X, and Windows app development guides: <a 
 href="https://code.commotionwireless.net/projects/commotion/wiki/
 Linux_client_dev_notes">Linux</a> - <a 
