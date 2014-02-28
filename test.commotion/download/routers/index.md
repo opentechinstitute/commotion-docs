@@ -3,8 +3,8 @@ layout: downloads
 title: Download Commotion Router
 categories: 
 created: 2013-06-28
-changed: 2014-01-06
-post_author: grady
+changed: 2014-02-27
+post_author: areynold
 lang: en
 ---
   <h2>Commotion Router</h2>
@@ -146,3 +146,6 @@ lang: en
 
 ### Nightly Builds <a name="nightly"> </a>
 <p>Our nightly builds are back! Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href="http://downloads.commotionwireless.net/nightly/">downloads.commotionwireless.net/nightly</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
+
+### <a name="source"></a>Build From Source
+<p>Commotion-Router's source code is available on GitHub: <a href="https://github.com/opentechinstitute/commotion-router">https://github.com/opentechinstitute/commotion-router</a>. See the <a href="https://github.com/opentechinstitute/commotion-router#build--install">Commotion-Router README</a> for information on building and installing from source.</p>
