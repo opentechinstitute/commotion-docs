@@ -33,7 +33,7 @@ lang: en
 <p><a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problem and Solution flashcards</a> - printed out on 8½ by 11” paper.<br />
 <a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__498 img__view_mode__media_large attr__format__media_large" height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png?itok=063rc3ap" typeof="foaf:Image" width="480" /></a></p>
 
-<p>(Optional) Router graphics from the <a href="/docs/cck/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a> packet.</p>
+<p>(Optional) Router graphics from the <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a> packet.</p>
 
 <p>A surface to work on (preferably a table so people with mobility challenges can participate comfortably).</p>
 
@@ -129,7 +129,7 @@ lang: en
 <section class="related-information" id="section-related-information">
 <h3>Related Information</h3>
 
-<p>This module is intended to come immediately after <a href="/docs/cck/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>. It should also lead in to <u>Learn About Wireless</u>. The sequence is designed to take communities or individuals from planning a network, through learning about common problems, to specifics about how wireless signals and equipment work.</p>
+<p>This module is intended to come immediately after <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>. It should also lead in to <u>Learn About Wireless</u>. The sequence is designed to take communities or individuals from planning a network, through learning about common problems, to specifics about how wireless signals and equipment work.</p>
 </section>
 
 <p>&nbsp;</p>
