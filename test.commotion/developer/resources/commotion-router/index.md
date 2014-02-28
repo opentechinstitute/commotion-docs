@@ -2,6 +2,7 @@
 layout: default
 title: Commotion-Router Developer Resources
 site_section: developers
+sub_section: devresources
 categories: 
 created: 2014-02-26
 changed: 2014-02-27

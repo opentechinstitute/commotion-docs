@@ -13,8 +13,8 @@ lang: en
 <p>Commotion runs on multiple software and hardware platforms: Embedded routers, smart phones, desktops and laptops, and open source GSM basestations. Development on each of these platforms occurs in parallel. Where possible, a common set of tools are used to develop Commotion, no matter the platform. However, there are certain platforms where unique tools are required.</p>
 
 <ul>
-	<li><a href="commotion-router/index.md">Commotion-Router development guide</a></li>
-	<li><a href="commotion-android/index.md">Commotion-Android app development guide</a></li>
+	<li><a href="commotion-router/">Commotion-Router development guide</a></li>
+	<li><a href="commotion-android/">Commotion-Android app development guide</a></li>
 	<li><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:commotion_client_architecture">Linux app development guide</a></li>
 	<li><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:commotion_client_architecture">Windows app development guide</a></li>
 	<li><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:commotion_client_architecture">Mac OS X app development guide</a></li>

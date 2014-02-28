@@ -2,6 +2,7 @@
 layout: default
 title: Commotion-Android Developer Resources
 site_section: developers
+sub_section: devresources
 categories: 
 created: 2014-02-27
 changed: 2014-02-27
