@@ -1,4 +1,5 @@
 commotion-docs
 ===================
 
-This repository will contain Commotion's canonical website documentation.
+commotion-docs is the canonical repository for the content and structure of http://commotionwireless.net.  This site uses the Jekyll static site generator, (http://jekyllrb.com/). 
+
