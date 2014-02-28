@@ -22,7 +22,7 @@ If you already are comfortable with using git, the command line interface and a 
 ### Install Jekyll on Your Local Machine
 - Install Jekyll locally on your machine to be able to preview your feature branch changes. (http://jekyllrb.com/docs/installation/)
 - Clone the commotion-docs repo: clone https://github.com/opentechinstitute/commotion-docs.git
-- Enter the test.commotion directory and run: jekyll serve
+- Enter the test.commotion directory and run: `sudo jekyll serve`
 - This instructs Jekyll to generate the site and start a small webserver on your local machine running the newly generated site (see http://jekyllrb.com/docs/usage/).
 
 ## Commotion-Docs Branches
