@@ -60,7 +60,7 @@ lang: en
 
 <p>1. Acquire a Commotion Wireless compatible router that is appropriate for the location.</p>
 
-<p>2. Download the appropriate version of software at the Commotion website (commotionwireless.net). You can find instructions in the module "Install on a Router."</p>
+<p>2. Download the appropriate version of software at the Commotion website (commotionwireless.net). You can find instructions in the module <a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Router.</a></p>
 
 <p>3. Record the wireless node's MAC address - a unique ID that you can use to keep track of the hardware, in case you need service from the manufacturer.</p>
 
@@ -80,11 +80,11 @@ lang: en
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__341 img__view_mode__media_original attr__format__media_original" height="365" src="/files/prep_install_finish_support004.png" typeof="foaf:Image" width="510" /></p>
 
-<p>1. Do a site assessment. An example site assessment guide is available in the <a class="module">"Determine Installation Needs"</a> module. The guide includes a set of questions and things to look for, but cannot cover every possibility for installation sites.</p>
+<p>1. Do a site assessment. An example site assessment guide is available in the <a href="#">Determine Installation Needs</a> module. The guide includes a set of questions and things to look for, but cannot cover every possibility for installation sites.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__342 img__view_mode__media_original attr__format__media_original" height="313" src="/files/prep_install_finish_support005.png" typeof="foaf:Image" width="510" /></p>
 
-<p>2. Pick the best mounting location on the roof based on visibility to other rooftops. Keep in mind wireless signals work best when there is a clear line of sight between the nodes. Also figure out what kind of mount you will use to install. The module "Learn about Rooftop Mounts" can help you decide.</p>
+<p>2. Pick the best mounting location on the roof based on visibility to other rooftops. Keep in mind wireless signals work best when there is a clear line of sight between the nodes. Also figure out what kind of mount you will use to install. The module <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you decide.</p>
 
 <p>3. Identify where the Ethernet cable will run along the roof and enter the building.</p>
 
@@ -100,7 +100,7 @@ lang: en
 
 <p>5. Acquire the proper mounting hardware.</p>
 
-<p>The module "<a class="module">Learn about Rooftop Mounts</a>" can help you identify the right hardware. There are many places to find mounting hardware - your local hardware or electronics store may have some, but there are various vendors online as well.</p>
+<p>The module <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you identify the right hardware. There are many places to find mounting hardware - your local hardware or electronics store may have some, but there are various vendors online as well.</p>
 
 <p>Check that you have all the necessary hardware for mounting, such as concrete anchors, bolts, clamps, etc.</p>
 
@@ -114,11 +114,11 @@ lang: en
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__346 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support008.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Installation day! Now you get to go up on the roof and install new equipment for the community network - but make sure you are working in a safe and responsible way. We recommend going through "<a class="module">Learn Rooftop Basics</a>" module and reviewing some rooftop safety guidelines before you start your installation.</p>
+<p>Installation day! Now you get to go up on the roof and install new equipment for the community network - but make sure you are working in a safe and responsible way. We recommend going through <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> module and reviewing some rooftop safety guidelines before you start your installation.</p>
 
 <p>You can break the job into three parts: installing the mounting hardware; installing the node and power supply; and running the Ethernet cable between the node and power supply.</p>
 
-<p>1. Install the mounting hardware. This will vary depending on the type of mount you are using. If it came as a kit, read and follow the installation instructions! For more information, refer to the "<a class="module">Learn about Rooftop Mounts</a>" module.</p>
+<p>1. Install the mounting hardware. This will vary depending on the type of mount you are using. If it came as a kit, read and follow the installation instructions! For more information, refer to the <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> module.</p>
 
 <p>For an eaves or anchor mount kit, drill the holes necessary for the anchors. Make sure to use outdoor rated anchors (plastic or metal).</p>
 
@@ -199,11 +199,11 @@ lang: en
 
 <p>Other modules referenced in this one:</p>
 
-<p><a class="module">"Install on a Router"</a></p>
+<p><a href="/docs/cck/installing-configuring/install-ubiquity-router">Install on a Ubiquiti Router</a></p>
 
-<p><a class="module">"Determine Installation Needs"</a></p>
+<p><a href="#">Determine Installation Needs</a> (coming soon)</p>
 
-<p><a class="module">"Learn Rooftop Basics"</a></p>
+<p><a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a></p>
 
 <p><a class="module">"Learn about Rooftop Mounts"</a></p>
 </section>
