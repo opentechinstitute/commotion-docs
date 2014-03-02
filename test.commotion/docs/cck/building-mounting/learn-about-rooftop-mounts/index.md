@@ -18,7 +18,7 @@ lang: en
 
 <p>For the best network connections to your neighbors, the best place to put a wireless router is on the roof of your house or organization's building. Every roof is unique, and this guide cannot cover every possibility. This module covers just a few options. Use your best judgement to decide what method will work best for your context.</p>
 
-<p>In this module you will find information about different types of hardware for mounting wireless equipment to your rooftop. Use it alongside the <a class="section">Gather Tools and Wireless Equipment</a> module.</p>
+<p>In this module you will find information about different types of hardware for mounting wireless equipment to your rooftop. Use it alongside the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> module.</p>
 
 <p class="time-required">Time required: If you are using this document as a teaching guide or for instruction, it will take about an hour to discuss the material.</p>
 
@@ -40,7 +40,7 @@ lang: en
 
 <p>Non-Penetrating Mount</p>
 
-<p>For resources on where to obtain these kits, skip ahead to the <a class="module section">External Resources</a> section. The following sections of this module will include information about materials and supplies needed.</p>
+<p>For resources on where to obtain these kits, skip ahead to the <a href="#external-resources">External Resources</a> section. The following sections of this module will include information about materials and supplies needed.</p>
 
 <p class="tip">Print this module out to accompany a hands-on exploration of the actual hardware. Deciding on the best mounting hardware depends both on the roof and the hardware in use. Also, working on the roof can be difficult, so it is best to assess the environment first, decide on a mount style, and build the mount before going to the roof using any instructions that come with the mounting hardware.</p>
 </section>
@@ -159,10 +159,10 @@ lang: en
 
 <h3>OPTIONAL MODULES</h3>
 
-<p>After finishing this module, you are ready to go on to the "<a class="module">Gather Tools and Wireless Equipment"</a> then <a class="module">"Prep, Install and Finish</a>." "<a class="module">Learn Rooftop Basics</a>" is another good resource to consult before you start installing.</p>
+<p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="#">Prep, Install and Finish</a> (coming soon). <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
 </section>
 
-<section class="external-resources" id="section-external-resources">
+<section class="external-resources" id="external-resources">
 <h2>External Resources</h2>
 
 <p>There are many sources for outdoor and rooftop mounting hardware. Check your local hardware store, electronics distributor, or electronics store first for mounting kits. If the necessary parts or hardware are not available, it may be necessary to order the equipment from online stores.</p>
