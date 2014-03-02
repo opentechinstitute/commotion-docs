@@ -470,6 +470,91 @@ div#download-button-block .download-button a.button {
   margin: .5em;
   min-width: 400px;
 }
+/* Styles for CCK Module Pages */
+
+.cck-content {
+  background: #EAE8E8;
+  padding: 0.5em;
+}
+.cck-content h2 {
+  display: block;
+  width: 100%;
+  background: none repeat scroll 0 0 #333333;
+  color: #FFFFFF;
+  padding: .5em .5em; 
+}
+.cck-content h3 {
+  border-left: 4px solid #FE739B;
+  font-size: 2em;
+  letter-spacing: 0;
+  margin: 0 0 20px;
+  padding: 0 0 0 13px;
+}
+.cck-content h4 {
+    border-bottom: 1px solid #FE739B;
+    display: inline-block;
+    margin: 0 0 20px 15px;
+    padding: 0;
+    text-transform: none;
+}
+.cck-content p,
+.cck-content dl {
+  padding: 0 1em;
+}
+.cck-content section {
+  border-bottom: 1px solid white;
+  margin-bottom: 25px;
+}
+.cck-content .related-information,
+.cck-content .external-resources {
+  background-color: #4D4D4D;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  padding: 25px 0;
+}
+.cck-content .related-information a,
+.cck-content .external-resources a {
+  border: medium none !important;
+  color: white !important;
+  text-decoration: underline !important;
+}
+.cck-content table {
+  width: 100%;
+}
+.cck-content tr:hover, .cck-content td.active {
+  background: none repeat scroll 0 0 white;
+}
+.cck-content tr {
+  border-bottom: 1px dashed black;
+}
+.cck-content thead th {
+  background: none repeat scroll 0 0 #F7F7F7;
+}
+.cck-content tfoot td {
+  background: none repeat scroll 0 0 #333333;
+  color: white;
+  font-weight: bold;
+}
+.cck-content p.tip:before {
+  content: "Tip:";
+}
+.cck-content p.tip:after {
+  background: url("/images/CCK_tip_icon.png") no-repeat scroll 0 0 transparent;
+  content: "";
+  height: 32px;
+  left: 15px;
+  position: absolute;
+  top: -13px;
+  width: 32px;
+}
+.cck-content p.tip {
+  border-bottom: 1px dashed #FE739B;
+  border-top: 1px dashed #FE739B;
+  font-style: italic;
+  margin: 0 20px 25px 15px;
+  padding: 30px 0 25px;
+  position: relative;
+}
 .cck-section-page ul.submenu {
   list-style-type: none;
   margin: 20px 0;

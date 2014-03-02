@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Install on a Ubiquiti Router
 site_section: help
 sub_section: [cck,cck-installing]
@@ -11,12 +11,10 @@ changed: 2014-01-13
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__441 img__view_mode__media_large attr__format__media_large" height="388" src="/files/styles/large/public/install_on_ubiquiti_title.png?itok=uO0IFY4K" typeof="foaf:Image" width="510" /></p>
-
-<h2>Install on a Ubiquiti Router</h2>
+  <p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
 
 <section id="section-introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>This document contains a step-by-step process for installing the Commotion software on Ubiquiti airMax routers. If you have a new, in-the-box Ubiquiti airMax device, this guide is for you.</p>
 
@@ -28,7 +26,7 @@ lang: en
 </section>
 
 <section id="section-materials-and-supplies-needed">
-<h3>Materials + Supplies Needed</h3>
+<h2>Materials + Supplies Needed</h2>
 
 <p>To install Commotion, you will need the following items on-hand:</p>
 
@@ -40,7 +38,7 @@ lang: en
 </section>
 
 <section id="section-download-commotion">
-<h3>Download Commotion</h3>
+<h2>Download Commotion</h2>
 
 <p>Download “Factory” Commotion image for your hardware:<br />
 <a href="/download/routers">https://commotionwireless.net/download/routers</a></p>
@@ -191,7 +189,7 @@ DNS:</br />(blank)</code></p>
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>Operating System</dt>
@@ -202,13 +200,13 @@ DNS:</br />(blank)</code></p>
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
-<p class="related-information">For more help, or if this guide doesn't work for you, take a look at the <a class="module">Install and Recover with TFTP</a> module. After the software has been installed, you can proceed to the <a class="module">Configure Routers</a> module.</p>
+<p>For more help, or if this guide doesn't work for you, take a look at the <a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and Recover with TFTP</a> module. After the software has been installed, you can proceed to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Routers</a> module.</p>
 </section>
 
 <section class="external-resources" id="section-external-resources">
-<h3>External Resources</h3>
+<h2>External Resources</h2>
 
 <p>Guides for setting static IP addresses:</p>
 

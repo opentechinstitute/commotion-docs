@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Install and Recover with TFTP
 site_section: help
 sub_section: [cck,cck-installing]
@@ -12,8 +12,6 @@ post_author: critzo
 lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__354 img__view_mode__media_original attr__format__media_original" height="486" src="/files/install_with_TFTP_support003_0.png" typeof="foaf:Image" width="510" /></p>
-
-<h1>Install and Recover with TFTP</h1>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
@@ -422,16 +420,16 @@ Gateway: <code>192.168.1.1</code></p>
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p class="related-information">This module is a companion document to <a class="module" href="https://commotionwireless.net/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Device</a>. It should be consulted for an overview of the process!</p>
+<p>This module is a companion document to <a class="module" href="https://commotionwireless.net/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Device</a>. It should be consulted for an overview of the process!</p>
 </section>
 
 <section class="external-resources" id="section-external-resources">
 <h2>External Resources</h2>
 
-<p class="external-resources">For Graphical User Interfaces (GUIs) to help with the TFTP process:</p>
+<p>For Graphical User Interfaces (GUIs) to help with the TFTP process:</p>
 
-<p class="external-resources">Windows: <a href="https://code.commotionwireless.net/attachments/download/272/tftp2.exe" target="_blank">https://code.commotionwireless.net/attachments/download/272/tftp2.exe</a></p>
+<p>Windows: <a href="https://code.commotionwireless.net/attachments/download/272/tftp2.exe" target="_blank">https://code.commotionwireless.net/attachments/download/272/tftp2.exe</a></p>
 
-<p class="external-resources">Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">http://www.mactechnologies.com/index.php?page=downloads#tftpclient</a></p>
+<p>Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">http://www.mactechnologies.com/index.php?page=downloads#tftpclient</a></p>
 </section>
  

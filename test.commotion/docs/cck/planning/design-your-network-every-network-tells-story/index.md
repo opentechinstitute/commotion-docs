@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Design your Network - Every Network Tells a Story
 site_section: help
 sub_section: [cck,cck-planning]
@@ -12,8 +12,6 @@ post_author: critzo
 lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__355 img__view_mode__media_original attr__format__media_original" height="419" src="/files/design_your_network_intro.png" typeof="foaf:Image" width="510" /></p>
-
-<h1>Design your Network: Every Network Tells a Story</h1>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -245,9 +243,9 @@ lang: en
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>Use the "<a class="module" href="/docs/cck/planning/design-your-network-construction-elements">Design your Network: Construction Elements</a>" module to make your background picture for this game (optional)</p>
+<p>Use the <a href="/docs/cck/planning/design-your-network-construction-elements">Design your Network: Construction Elements</a> module to make your background picture for this game (optional)</p>
 
-<p>Next, try the module: <a class="module">Design your Network: Wireless Challenges</a></p>
+<p>Next, try the module: <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Wireless Challenges</a></p>
 
 <p>Alternatively, get ready to talk to your neighbors about your proposed network by making a flyer (<a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>) or conducting a survey to see who's willing to contribute (<a href="/docs/cck/planning/survey-your-neighbors">Survey Your Neighbors</a>)</p>
 </section>

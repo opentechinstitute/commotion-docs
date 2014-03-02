@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Configure Commotion
 site_section: help
 sub_section: [cck,cck-installing]
@@ -11,12 +11,10 @@ changed: 2014-01-13
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__605 img__view_mode__media_original attr__format__media_original" height="283" src="/files/styles/large/public/CCK_Configure_intro_graphic_0.png" typeof="foaf:Image" width="292" /></p>
-
-<h2>Configure Commotion</h2>
+  <p><img alt="Configure Commotion graphic" src="/files/styles/large/public/CCK_Configure_intro_graphic_0.png" /></p>
 
 <section id="introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>This document contains instructions to configure a Commotion wireless node through the Commotion Setup Wizard and the administration interface. This is a vital part of deploying and adding nodes to a Commotion-based community wireless network, ensuring that new nodes are compatible with the network. If you have not installed Commotion on the router yet, see the document <a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a> before using this guide. This document includes:</p>
 
@@ -33,7 +31,7 @@ lang: en
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>MATERIALS + SUPPLIES NEEDED</h4>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
 <p>1. A router with Commotion installed, plugged in to your computer’s Ethernet port.</p>
 
@@ -43,13 +41,13 @@ lang: en
 </section>
 
 <section id="Get-Ready-to-Run-Quickstart">
-<h3>Get Ready to Run Commotion Setup Wizard</h3>
+<h2>Get Ready to Run Commotion Setup Wizard</h2>
 
 <p>If the new node will join an existing network, first gather that network’s settings before you run the Commotion Setup Wizard on the router. You will need at least the mesh network name, wireless channel and the mesh encrytion password, if the mesh is encrypted. Then begin with the first section: Existing Network.</p>
 
 <p>If you are starting a new network, you need to make a few decisions with your community before you run the Commotion Setup Wizard, so skip down to New Network.</p>
 
-<h4>Existing Network</h4>
+<h3>Existing Network</h3>
 
 <p>Talk to a network organizer to get the following information:</p>
 
@@ -67,7 +65,7 @@ lang: en
 
 <p>4. Administration password—is this shared across the network, or can you set your own password? Skip to Run Commotion Setup Wizard.</p>
 
-<h4>New Network</h4>
+<h3>New Network</h3>
 
 <p>First, you need to decide basic network information. Decide with your community:</p>
 
@@ -81,7 +79,7 @@ lang: en
 </section>
 
 <section id="Run-Quickstart">
-<h3>Run Commotion Setup Wizard</h3>
+<h2>Run Commotion Setup Wizard</h2>
 
 <p>The Commotion Setup Wizard walks you through the basic steps to configure your router as a mesh node.</p>
 
@@ -100,12 +98,12 @@ lang: en
 
 <p>1. Start Commotion Setup Wizard by clicking on the image labeled Setup Wizard:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__718 img__view_mode__media_large attr__format__media_large" height="363" src="/files/styles/large/public/1-SetupWizard_StartPage.png?itok=Ph0XTE3H" typeof="foaf:Image" width="480" /><br />
+<p><img alt="" src="/files/styles/large/public/1-SetupWizard_StartPage.png" /><br />
 Note: Clicking the Advanced button will disable the Commotion Setup Wizard and allow you to configure your node manually.</p>
 
 <p>2. Use the information you gathered or decided on to fill in the fields in the Commotion Setup Wizard. The Setup Wizard has four required pages and one optional page. The values you enter are saved as you navigate between pages, and are applied on the Configuration Confirmation page.</p>
 
-<p><a href="/files/2-SetupWizard_Page1-fullpage.png"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__719 img__view_mode__media_original attr__format__media_original" src="/files/2-SetupWizard_Page1-fullpage.png" style="width: 75px; height: 82px; float: left; margin: 5px; border-width: 2px; border-style: solid;" typeof="foaf:Image" /></a><strong>Setup Wizard, page 1 - Node Settings</strong><br />
+<p><a href="/files/2-SetupWizard_Page1-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page1-fullpage.png" /></a><strong>Setup Wizard, page 1 - Node Settings</strong><br />
 Enter the Node Name and Administration Password.</p>
 
 <p>&nbsp;</p>
@@ -147,7 +145,7 @@ This page provides option settings to configure your node's wired interface, if 
 </section>
 
 <section id="Access-Administration-interface">
-<h3>Access Administration interface</h3>
+<h2>Access Administration interface</h2>
 
 <p>Now, log in to the Administrator configuration pages. After the Commotion Setup Wizard, your browser should take you to the admin page automatically. If it does not, type <strong>thisnode/</strong> into your browser’s URL bar and press “Enter”.</p>
 
@@ -183,7 +181,7 @@ This page provides option settings to configure your node's wired interface, if 
 <p class="tip"><strong>Note: </strong>If at any time the interface returns a page that says “The CGI interface did not produce any response,” simply wait a minute and try to reload the page. Double check that any changes you made were saved when you log-in again.<br />
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__568 img__view_mode__media_large attr__format__media_large" height="103" src="/files/styles/large/public/CCK_ConfigureRouters_CGIinterface.png?itok=q6CCtqAQ" typeof="foaf:Image" width="395" /></p>
 
-<h4><a id="admin-password">Changing the Administrator Password</a></h4>
+<h3 id="admin-password">Changing the Administrator Password</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__726 img__view_mode__media_original attr__format__media_original" src="/files/security-passwords-1.png" style="width: 150px; height: 183px; float: right;" typeof="foaf:Image" />This password is for the “root” administrator on the system, and is required to change any other settings. You set this during the Setup Wizard.</p>
 
@@ -196,7 +194,7 @@ This page provides option settings to configure your node's wired interface, if 
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__727 img__view_mode__media_large attr__format__media_large" height="148" src="/files/styles/large/public/security-passwords-1.2.png?itok=3tZDZ_FB" typeof="foaf:Image" width="480" /></p>
 
-<h4><a id="change-hostname">Changing the Hostname</a></h4>
+<h3 id="change-hostname">Changing the Hostname</h3>
 
 <p>This changes the system identification of the node on the network, not the Access Point name.</p>
 
@@ -211,7 +209,7 @@ This page provides option settings to configure your node's wired interface, if 
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__729 img__view_mode__media_original attr__format__media_original" height="262" src="/files/basic_config1_0.png" typeof="foaf:Image" width="600" /></p>
 
-<h4><a id="ap-information">Changing the Access Point Information</a></h4>
+<h3 id="ap-information">Changing the Access Point Information</h3>
 
 <p>There are three common settings for the Access Point (AP) on a Commotion node: whether the Access Point is on or off, the name of the AP (SSID), and the security (whether the AP is password-protected, and if so, the password).</p>
 
@@ -292,7 +290,7 @@ This page provides option settings to configure your node's wired interface, if 
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__731 img__view_mode__media_original attr__format__media_original" height="266" src="/files/network_wireless_settings1.1.png" typeof="foaf:Image" width="600" /></p>
 
-<h4><a id="splash-page">Changing the Welcome Page Information</a></h4>
+<h3 id="splash-page">Changing the Welcome Page Information</h3>
 
 <p>When users connect to the Access Point, they can be directed to a Welcome Page (also called splash page or captive portal). You can turn this on or off, customize the text on this screen, and set the number of hours before a user has to re-accept the Welcome Page terms.</p>
 
@@ -320,7 +318,7 @@ This page provides option settings to configure your node's wired interface, if 
 &nbsp;<img alt="" class="media-image attr__typeof__foaf:Image img__fid__733 img__view_mode__media_original attr__format__media_original" height="325" src="/files/client_controls1.1.png" typeof="foaf:Image" width="600" />
 <p><strong>To turn the Welcome Page on or off:</strong></p>
 
-<ol class="rteindent1" type="1|a|A|i|I">
+<ol>
 	<li>Turn the Welcome page on or off by selecting/deselecting the checkbox at the top of this page.</li>
 	<li>Scroll down to the bottom of the page, click “Save &amp; Apply”.</li>
 	<li>Wait for the system to update.</li>
@@ -328,7 +326,7 @@ This page provides option settings to configure your node's wired interface, if 
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__732 img__view_mode__media_original attr__format__media_original" height="312" src="/files/client_controls1.png" typeof="foaf:Image" width="600" /></p>
 
-<h4><a id="bandwidth-qos">Setting Bandwidth Limits and Quality of Service settings</a></h4>
+<h3 id="bandwidth-qos">Setting Bandwidth Limits and Quality of Service settings</h3>
 
 <p>If you are hosting a Gateway node (sharing Internet with the rest of the network), you can limit the total amount of bandwidth allowed for the rest of the network, using Quality of Service (QoS).</p>
 
@@ -343,7 +341,7 @@ This page provides option settings to configure your node's wired interface, if 
 	<li>Wait for the system to update.</li>
 </ol>
 
-<h4><a id="get-mesh-ip">How to get your node’s mesh IP address</a></h4>
+<h3 id="get-mesh-ip">How to get your node’s mesh IP address</h3>
 
 <p>It is important to note down the mesh IP address for your node.</p>
 
@@ -352,7 +350,7 @@ This page provides option settings to configure your node's wired interface, if 
 	<li>Your node’s mesh IP address is displayed in the top menu bar on the right.</li>
 </ol>
 
-<h4><a id="see-mesh-connections">See the connections on the mesh network</a></h4>
+<h3 id="see-mesh-connections">See the connections on the mesh network</h3>
 
 <p>You can see if the node has successfully connected to other mesh nodes in two ways.</p>
 
@@ -364,7 +362,7 @@ This page provides option settings to configure your node's wired interface, if 
 
 <p>Navigate to the <strong>Status </strong>page and click on <strong>Nearby Mesh Devices</strong>.</p>
 
-<h4><a id="set-gateway-node">Setting up a Gateway node</a></h4>
+<h3 id="set-gateway-node">Setting up a Gateway node</h3>
 
 <p>If you would like to share bandwidth with the network, you can make your node a Gateway. You may want to finish other setup before completing these steps, such as Quality of Service, above.</p>
 
@@ -376,9 +374,9 @@ This page provides option settings to configure your node's wired interface, if 
 	<li>Navigate to the Status page. If this node is providing a Gateway, it will be indicated here in the top menu bar. Additional details can be found in <strong>Advanced -&gt; Status -&gt; OLSR</strong></li>
 </ol>
 
-<h4><a id="upgrading-commotion">Upgrading to new Commotion software</a></h4>
+<h3 id="upgrading-commotion">Upgrading to new Commotion software</h3>
 
-<p>Occasionally there are new releases of the Commotion Wireless software, available online at <strong>commotionwireless.net</strong>. Please download the “sysupgrade” version and follow these directions.</p>
+<p>Occasionally there are new releases of the Commotion Wireless software, available online at <strong>commotionwireless.net</strong>. Please download the "sysupgrade" version and follow these directions.</p>
 
 <p class="tip">&nbsp;There is important information about verifying what you download at <strong>https://commotionwireless.net/download/verify-signatures</strong>.</p>
 Be sure to record your node and network settings so that you can re-enter them when you run Quickstart with the next version of the software.
@@ -395,7 +393,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 </section>
 
 <section id="Advanced-Commotion-mesh-settings">
-<h3>Advanced Commotion mesh settings</h3>
+<h2>Advanced Commotion mesh settings</h2>
 
 <p>You can change the configuration of a router on the mesh network that you set during the Quickstart process. You might do this either to separate from the mesh network or to change the identity of the network.</p>
 
@@ -409,7 +407,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 </section>
 
 <section id="Finish-Configuring">
-<h3>Finishing up</h3>
+<h2>Finishing up</h2>
 
 <p>When you are done configuring, disconnect the Ethernet cable from the computer. If you wish to host a Gateway (share Internet with the mesh network), plug it into your Gateway router/modem. If not, save it for later configuration and troubleshooting.</p>
 
@@ -417,7 +415,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 </section>
 
 <section id="Check-your-understanding">
-<h3>Check your understanding</h3>
+<h2>Check your understanding</h2>
 
 <p>This is a short hands-on test you can use to explore any Commotion node’s administrator interface. Completing this test is not required to set up a node on a network, but it can help you understand how to find important information that network administrators need to keep the network functioning properly. If you are configuring several nodes with other people, everyone can explore these details if they run through this test on their node, and fill out the answers.</p>
 
@@ -425,7 +423,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 </section>
 
 <section id="Record-important-information">
-<h3>Record important information</h3>
+<h2>Record important information</h2>
 
 <p>As you check and change these settings, be sure to securely record the information. You can use this worksheet if it is helpful.</p>
 
@@ -433,7 +431,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>AP (Access Point):</dt>
@@ -464,7 +462,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
 <p>Modules to complete to prepare for this one</p>
 
@@ -489,7 +487,7 @@ Be sure to record your node and network settings so that you can re-enter them w
 <p>Related modules in other units</p>
 
 <ul>
-	<li>Networking: Learn Networking Basics</li>
+	<li><a href="/docs/cck/networking/learn-networking-basics">Networking: Learn Networking Basics</a></li>
 </ul>
 </section>
  

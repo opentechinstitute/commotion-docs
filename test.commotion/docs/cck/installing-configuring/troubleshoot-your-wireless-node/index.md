@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Troubleshoot Your Wireless Node
 site_section: help
 sub_section: [cck,cck-installing]
@@ -13,10 +13,8 @@ lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
 
-<h2>Troubleshoot Your Wireless Node</h2>
-
 <section id="introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>This document includes&nbsp;steps to identify and&nbsp;solve the most common problems that may arise with your Commotion router or wireless network. It includes:</p>
 
@@ -31,7 +29,7 @@ lang: en
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>MATERIALS + SUPPLIES NEEDED</h4>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
 <p>To troubleshoot your node, you will need the following items on-hand:</p>
 
@@ -46,7 +44,7 @@ lang: en
 </section>
 
 <section id="troubleshooting-overview">
-<h4>Overview of Common Problems</h4>
+<h3>Overview of Common Problems</h3>
 
 <p>The most common problem a wireless network&nbsp;user will experience is not being able to connect to the network, or to the Internet. There could be many causes for common problems with the network. Issues with the router hardware, an Ethernet cable, a power adapter, electricity, the Internet Gateway, or the Commotion software could be a part of the problem. The troubleshooting process is to work through options, and rule out issues by seeing what is happening at each part of the network connection.</p>
 
@@ -87,9 +85,8 @@ lang: en
 </section>
 
 <section id="no-power">
-<h3>Power Issues: If the router is not on<img alt="" class="media-image attr__typeof__foaf:Image img__fid__512 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" /></h3>
-
-<p>&nbsp;</p>
+<h2>Power Issues: If the router is not on</h2>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__512 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" />
 
 <p>&nbsp;</p>
 
@@ -139,15 +136,15 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Power: Checked</h4>
+<h3>Power: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
 <strong>At this point, you know the electricity supply for the router is good. Move on to the next troubleshooting section.</strong></p>
 </section>
 
 <section id="no-visible-ap">
-<h3>No visible Access Point: If you cannot see the AP<img alt="" class="media-image attr__typeof__foaf:Image img__fid__514 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" /></h3>
-
+<h2>No visible Access Point: If you cannot see the AP</h2>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__514 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -181,15 +178,15 @@ lang: en
 	</tbody>
 </table>
 
-<h4>AP Visibility: Checked</h4>
+<h3>AP Visibility: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
 <strong>The AP is visible.</strong></p>
 </section>
 
 <section id="cant-connect-ap">
-<h3>Cannot connect to the Access Point: Your device isn't holding a connection<img alt="" class="media-image attr__typeof__foaf:Image img__fid__516 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" /></h3>
-
+<h2>Cannot connect to the Access Point: Your device isn't holding a connection</h2>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__516 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -238,15 +235,15 @@ lang: en
 	</tbody>
 </table>
 
-<h4>AP Associated with Client: Checked</h4>
+<h3>AP Associated with Client: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__713 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
 <strong>The client device is connected to the AP.</strong></p>
 </section>
 
 <section id="no-splash-page">
-<h3>No Welcome Page: If you are on the AP but aren’t&nbsp;directed to the landing page<img alt="" class="media-image attr__typeof__foaf:Image img__fid__518 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_no.png" style="width: 100px; height: 91px; float: right; margin: 19px 10px;" typeof="foaf:Image" /></h3>
-
+<h2>No Welcome Page: If you are on the AP but aren’t directed to the landing page</h2>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__518 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_no.png" style="width: 100px; height: 91px; float: right; margin: 19px 10px;" typeof="foaf:Image" />
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__519 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshoot_notsplashed.png" style="width: 510px; height: 169px;" typeof="foaf:Image" /></p>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -280,15 +277,15 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Welcome Page: Checked</h4>
+<h3>Welcome Page: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__521 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
 <strong>The welcome page comes up on the client device.</strong></p>
 </section>
 
 <section id="no-internet">
-<h3>Welcome Page shown, but no Internet: If the welcome page comes up, but you can't&nbsp;get to the Internet<img alt="" class="media-image attr__typeof__foaf:Image img__fid__522 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_internet_no.png" style="width: 100px; height: 93px; float: right; margin: 17px 10px;" typeof="foaf:Image" /></h3>
-
+<h2>Welcome Page shown, but no Internet: If the welcome page comes up, but you can't get to the Internet</h2>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__522 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_internet_no.png" style="width: 100px; height: 93px; float: right; margin: 17px 10px;" typeof="foaf:Image" />
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -309,7 +306,7 @@ lang: en
 </section>
 
 <section id="bug-report">
-<h3>Report a Bug</h3>
+<h2>Report a Bug</h2>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -328,7 +325,7 @@ lang: en
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>Ad-hoc Network / Device Network</dt>
@@ -349,7 +346,7 @@ lang: en
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
 <p>There are several other documents in the Commotion Construction Kit that hold related information on configuring and making changes to your node:</p>
 
