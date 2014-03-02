@@ -16,7 +16,7 @@ lang: en
 <section id="introduction">
 <p>These simple construction elements can help you make flyers and diagrams for your network. If you're on a computer, you can copy and paste the elements into your workspace. The elements also work fine with scissors and glue.</p>
 
-<h3>MATERIALS + SUPPLIES NEEDED</h3>
+<h2>MATERIALS + SUPPLIES NEEDED</h2>
 
 <p>Paper</p>
 
@@ -36,7 +36,7 @@ lang: en
 </section>
 
 <section id="extras">
-<p><a href="/files/cck/planning/7-Design_your_Network_Construction_Elements.pdf">Download a complete collection of graphic elements you can use in your flyers and diagrams (as a PDF).</a></p>
+<p><a href="/files/cck/planning/1.2-CCK-Planning-Construction-Elements.pdf">Download a complete collection of graphic elements you can use in your flyers and diagrams (as a PDF).</a></p>
 </section>
 
 <section class="related-information" id="related-information">
