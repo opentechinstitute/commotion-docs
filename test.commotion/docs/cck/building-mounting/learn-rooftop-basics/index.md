@@ -13,8 +13,6 @@ lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__352 img__view_mode__media_original attr__format__media_original" height="388" src="/files/learn_rooftop_basics_support001_0.png" typeof="foaf:Image" width="510" /></p>
 
-<h1>Learn Rooftop Basics</h1>
-
 <section id="introduction">
 <h2>Introduction</h2>
 
@@ -111,8 +109,8 @@ lang: en
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>This is a companion guide to the "<a class="module">Prep, Install and Finish</a>" module. They are both related to installing equipment on rooftops, but each has a slightly different focus. We recommend you read Prep, Install and Finish first, then come back to this module.</p>
+<p>This is a companion guide to the <a href="#">Prep, Install and Finish</a> module (coming soon). They are both related to installing equipment on rooftops, but each has a slightly different focus. We recommend you read Prep, Install and Finish first, then come back to this module.</p>
 
-<p>Make sure to bring any other printouts you might need on the rooftop - such as the "<a class="module">Make an Ethernet Cable</a>" module, the instructions for putting together the rooftop mounts, maps of your neighborhood, or anything else you think is useful!</p>
+<p>Make sure to bring any other printouts you might need on the rooftop - such as the <a href="#">Make an Ethernet Cable</a> module (coming soon), the instructions for putting together the rooftop mounts, maps of your neighborhood, or anything else you think is useful!</p>
 </section>
  
