@@ -6,7 +6,7 @@ sub_section: [hig]
 categories: 
 created: 2012-06-25
 changed: 2013-12-25
-post_author: michael@theworkdept.com
+post_author: critzo
 lang: en
 ---
   <h2>Introduction</h2>
@@ -23,7 +23,7 @@ lang: en
 
 <p><img src="/files/introduction_androidintroscreens.png" /></p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Screenshots for Android 4.0 are used throughout this guide.</p>
+<p>Screenshots for Android 4.0 are used throughout this guide.</p>
 
 <hr />
 <h2>Platforms</h2>
