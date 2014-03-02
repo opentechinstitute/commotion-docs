@@ -18,7 +18,7 @@ lang: en
 <section id="introduction">
 <h3>Introduction</h3>
 
-<p>This document contains instructions to configure a Commotion wireless node through the Commotion Setup Wizard and the administration interface. This is a vital part of deploying and adding nodes to a Commotion-based community wireless network, ensuring that new nodes are compatible with the network. If you have not installed Commotion on the router yet, see the document <a href="/docs/cck/install-ubiquiti-router">Install on a Ubiquiti Router</a> before using this guide. This document includes:</p>
+<p>This document contains instructions to configure a Commotion wireless node through the Commotion Setup Wizard and the administration interface. This is a vital part of deploying and adding nodes to a Commotion-based community wireless network, ensuring that new nodes are compatible with the network. If you have not installed Commotion on the router yet, see the document <a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a> before using this guide. This document includes:</p>
 
 <ol class="rteindent1">
 	<li><a href="#Get-Ready-to-Run-Quickstart">Gathering the information you need to configure your node</a></li>
@@ -469,8 +469,8 @@ Be sure to record your node and network settings so that you can re-enter them w
 <p>Modules to complete to prepare for this one</p>
 
 <ul>
-	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti RouterInstall on a Ubiquiti Router</a></li>
-	<li><a href="/docs/cck/install-and-recover-tftp">Install and recover with TFTP</a></li>
+	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">install on a Ubiquiti Router</a></li>
+	<li><a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and recover with TFTP</a></li>
 </ul>
 
 <p>Other modules referenced in this one</p>
