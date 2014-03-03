@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Wireless Challenges
+layout: cck
+title: Design Your Network - Wireless Challenges
 site_section: help
 sub_section: [cck,cck-planning]
 pdf: cck/planning/2-Wireless_Challenges.pdf
@@ -11,12 +11,10 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__499 img__view_mode__media_large attr__format__media_large" height="340" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic_0.png?itok=dlEkcfJY" typeof="foaf:Image" width="510" /></p>
-
-<h2>Design your Network: Wireless Challenges</h2>
+<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic_0.png" /></p>
 
 <section id="introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>To continue planning our networks, you will need to know a bit more about how wireless signals work. All wireless signals are affected by the environment around us—the walls and windows of your house or office, the trees and rain, other wireless signals, and sometimes microwave ovens!</p>
 
@@ -26,7 +24,7 @@ lang: en
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>MATERIALS + SUPPLIES NEEDED</h4>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 <p><a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf">Wireless Challenges Presentation</a> - Either printed as a handout, or introduction to a group activity.<br />
 <a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__497 img__view_mode__media_large attr__format__media_large" height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png?itok=bo_-W8iS" typeof="foaf:Image" width="510" /></a></p>
 
@@ -41,7 +39,7 @@ lang: en
 </section>
 
 <section id="scenarios-and-flashcards">
-<h3>Scenarios and Flashcards</h3>
+<h2>Scenarios and Flashcards</h2>
 
 <p>This guide goes through a set of scenarios that show and describe common challenges that come up when building wireless networks. Each scenario is presented as a flashcard: a problem is shown on one page, and one or more possible solutions are shown on the pages that follow.</p>
 
@@ -57,7 +55,7 @@ lang: en
 </section>
 
 <section id="what-are-the-wireless-challenges">
-<h3>What are the Wireless Challenges?</h3>
+<h2>What are the Wireless Challenges?</h2>
 
 <p>Each scenario presents a specific challenge or problem that comes up when working with wireless equipment. They are categorized as:</p>
 
@@ -81,7 +79,7 @@ lang: en
 </section>
 
 <section id="going-through-the-wireless-challenges">
-<h3>Going through the Wireless Challenges</h3>
+<h2>Going through the Wireless Challenges</h2>
 
 <p>The Wireless Challenge Problem and Solution sets can be studied at your own pace, if you are going through them on your own. Download the PDF of <a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problems and Solutions</a>, then go through each scenario one by one. Draw the solution to the problem presented in each case, and then compare your solution to the examples on the pages following. No cheating!</p>
 
@@ -98,7 +96,7 @@ lang: en
 </section>
 
 <section id="rules-for-solving-the-challenges">
-<h3>Rules for Solving the Challenges</h3>
+<h2>Rules for Solving the Challenges</h2>
 
 <p>When you go through the Wireless Challenges, there are a few guidelines for how to read the connections between nodes, and how to draw your own.</p>
 
@@ -118,7 +116,7 @@ lang: en
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>Interference</dt>
@@ -127,12 +125,7 @@ lang: en
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
 <p>This module is intended to come immediately after <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>. It should also lead in to <u>Learn About Wireless</u>. The sequence is designed to take communities or individuals from planning a network, through learning about common problems, to specifics about how wireless signals and equipment work.</p>
 </section>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
- 

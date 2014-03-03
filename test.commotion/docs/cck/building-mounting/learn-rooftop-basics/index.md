@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Learn Rooftop Basics
 site_section: help
 sub_section: [cck,cck-building]

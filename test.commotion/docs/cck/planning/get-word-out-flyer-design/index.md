@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Get the Word Out - Flyer Design
 site_section: help
 sub_section: [cck,cck-planning]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Design your Network- Construction Elements
 site_section: help
 sub_section: [cck,cck-planning]
@@ -42,9 +42,7 @@ lang: en
 <section class="related-information" id="related-information">
 <h2>Related Information</h2>
 
-<h3>MODULES</h3>
-
-<p>If you wish, use this module to complete "<a class="module" href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>" and "<a class="module" href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>"</p>
+<p>If you wish, use this module to complete <a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a> and <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a></p>
 </section>
 
 <section class="external-resources" id="external-resources">

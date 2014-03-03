@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Introduction to Mesh
 site_section: help
 sub_section: [cck,cck-networking]
@@ -11,10 +11,9 @@ changed: 2013-12-02
 post_author: critzo
 lang: en
 ---
-  <h2>Introduction to Mesh</h2>
 
 <section id="introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>There are many ways to build networks and many technologies you can use. This module is an introduction to the idea of how mesh networks work and how they are different from other kinds of networks. Understanding mesh networking is important for designing your network, and for talking to people in your neighborhood who may want to support or be involved with your project.</p>
 
@@ -26,7 +25,7 @@ lang: en
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>Materials</h4>
+<h3>Materials</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__678 img__view_mode__media_large attr__format__media_large" height="226" src="/files/styles/large/public/intro_to_mesh_presentation.png?itok=GLXiZJfZ" typeof="foaf:Image" width="294" /></p>
 
@@ -34,11 +33,11 @@ lang: en
 </section>
 
 <section id="read-and-discuss">
-<h3>Read and Discuss</h3>
+<h2>Read and Discuss</h2>
 
 <p>Read and discuss the information below. To further explore the characteristics of different types of networks, go through <a href="/files/cck/networking/2.1-Name_That_Network.pdf"><strong>Name that Network</strong></a>.</p>
 
-<h4>Networks can have a hierarchical or mesh structure.</h4>
+<h3>Networks can have a hierarchical or mesh structure.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -60,7 +59,7 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Mesh networks route differently than non-mesh networks.</h4>
+<h3>Mesh networks route differently than non-mesh networks.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -77,7 +76,7 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Routers are devices that determine how information moves across the network.</h4>
+<h3>Routers are devices that determine how information moves across the network.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -92,7 +91,7 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Mesh-enabled routers can dynamically talk to each other, allowing them to flexibly route traffic within the network.</h4>
+<h3>Mesh-enabled routers can dynamically talk to each other, allowing them to flexibly route traffic within the network.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -109,7 +108,7 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Any mesh device can be the hub or central point in the network – or the network can have no central point.</h4>
+<h3>Any mesh device can be the hub or central point in the network – or the network can have no central point.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -123,7 +122,7 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Any mesh device can form the edge of the network, able to extend its reach and form new connections.</h4>
+<h3>Any mesh device can form the edge of the network, able to extend its reach and form new connections.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -137,7 +136,7 @@ lang: en
 	</tbody>
 </table>
 
-<h4>Mesh networks are strengthened and expanded as the user base grows.</h4>
+<h3>Mesh networks are strengthened and expanded as the user base grows.</h3>
 
 <table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
 	<tbody>
@@ -159,7 +158,7 @@ lang: en
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>Hierarchical</dt>
@@ -176,7 +175,7 @@ lang: en
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
 <p>To explore these concepts further, look at<strong>&nbsp;Learn about Wireless&nbsp;(coming soon).</strong></p>
 

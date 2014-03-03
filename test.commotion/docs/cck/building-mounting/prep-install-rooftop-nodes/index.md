@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Prep and Install Rooftop Nodes
 site_section: help
 sub_section: [cck,cck-building]
@@ -14,9 +14,7 @@ lang: en
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__338 img__view_mode__media_original attr__format__media_original" height="388" src="/files/prep_install_finish_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="introduction">
-<h2>Prep and Install Rooftop Nodes</h2>
-
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>This guide is intended to provide some easy to follow steps for your wireless equipment installation. Read it over to prepare, and use it to keep track of tasks on installation day.</p>
 
@@ -34,7 +32,7 @@ lang: en
 
 <p><strong>Time required: 1-6 hours.</strong></p>
 
-<h4>MATERIALS + SUPPLIES NEEDED</h4>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
 <p>Router</p>
 
@@ -50,7 +48,7 @@ lang: en
 </section>
 
 <section id="wireless-node-preparation">
-<h3>Wireless Node Preparation</h3>
+<h2>Wireless Node Preparation</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__339 img__view_mode__media_original attr__format__media_original" height="256" src="/files/prep_install_finish_support002_003.png" typeof="foaf:Image" width="510" /></p>
 
@@ -74,7 +72,7 @@ lang: en
 </section>
 
 <section id="site-preparation">
-<h3>Site Preparation</h3>
+<h2>Site Preparation</h2>
 
 <p>It is a good idea to visit the site where you plan on installing a new wireless node a few days or a week before the actual installation. This allows more time to prepare and acquire any missing equipment or hardware.</p>
 
@@ -110,7 +108,7 @@ lang: en
 </section>
 
 <section id="wireless-node-installation">
-<h3>Wireless Node Installation</h3>
+<h2>Wireless Node Installation</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__346 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support008.png" typeof="foaf:Image" width="510" /></p>
 
@@ -148,13 +146,13 @@ lang: en
 </section>
 
 <section id="clean-up">
-<h3>Clean up, Testing and Post-Installation</h3>
+<h2>Clean up, Testing and Post-Installation</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__348 img__view_mode__media_original attr__format__media_original" height="428" src="/files/prep_install_finish_support010.png" typeof="foaf:Image" width="510" /></p>
 
 <p>No installation is finished unless you leave the site looking better than when you arrived. Never leave a mess! Make sure you have not left any unsealed holes in the building exterior where water may enter.</p>
 
-<h4>1. CLEAN UP THE ROOFTOP AND POE LOCATION.</h4>
+<h3>1. CLEAN UP THE ROOFTOP AND POE LOCATION.</h3>
 
 <p>Cut off any loose or extending ends from zip-ties.</p>
 
@@ -164,7 +162,7 @@ lang: en
 
 <p>Sweep away mortar dust / wood dust if you did any drilling.</p>
 
-<h4>2. CHECK CONNECTIVITY TO THE WIRELESS NODE.</h4>
+<h3>2. CHECK CONNECTIVITY TO THE WIRELESS NODE.</h3>
 
 <p>After a couple of minutes, associate with the Access Point (AP) on your phone or a laptop. Confirm that you can connect.</p>
 
@@ -174,13 +172,13 @@ lang: en
 
 <p>If there is an Internet Gateway on your network, check that you can get out to the Internet.</p>
 
-<h4>3. RECORD ANY NECESSARY INFORMATION ABOUT THE INSTALLATION IN YOUR NETWORK'S DOCUMENTATION.</h4>
+<h3>3. RECORD ANY NECESSARY INFORMATION ABOUT THE INSTALLATION IN YOUR NETWORK'S DOCUMENTATION.</h3>
 
 <p>For example, in addition to the node name, MAC address, and IP address, make a note of the location and what worked and did not work, as well as any follow-up or next steps.</p>
 </section>
 
 <section id="definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>MAC Address</dt>
@@ -194,8 +192,6 @@ lang: en
 
 <section class="related-information" id="related-information">
 <h2>Related Information</h2>
-
-<h3>MODULES</h3>
 
 <p>Other modules referenced in this one:</p>
 

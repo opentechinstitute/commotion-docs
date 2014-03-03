@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Survey Your Neighbors
 site_section: help
 sub_section: [cck,cck-planning]
@@ -37,8 +37,6 @@ Internet access (optional)</p>
 
 <section id="design-your-survey">
 <h2>Design Your Survey</h2>
-
-<h3>SURVEY DESIGN STEPS</h3>
 
 <h3>1. IDENTIFY THE PURPOSE OF YOUR SURVEY</h3>
 
@@ -266,7 +264,11 @@ Internet access (optional)</p>
 
 <p>When you conduct surveys, use the flyer you create with the module <a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a> to show people what you're proposing, so they understand the purpose of the survey.</p>
 
+<<<<<<< HEAD
 <p>Use the information you collect in your surveys to follow up with the <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network</a> Planning modules and the <a href="#">Plan Network Links</a> Networking module. (coming soon)</p>
+=======
+<p>Use the information you collect in your surveys to follow up with the <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network</a> Planning modules and the <a href="#">Plan Network Links</a> Networking module.</p>
+>>>>>>> ea89c6ca56d9a158c3f21ecca774327bf43088e2
 </section>
 
 <section class="external-resources" id="external-resources">

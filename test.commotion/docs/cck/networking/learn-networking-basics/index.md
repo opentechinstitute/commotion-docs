@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Learn Networking Basics
 site_section: help
 sub_section: [cck,cck-networking]
@@ -11,21 +11,10 @@ changed: 2013-11-26
 post_author: critzo
 lang: en
 ---
-  <style type="text/css">@media print {
-    #region-branding {
-        display: none !important;
-    }
-    #block-menu-block-14 {
-        display: none !important;
-    }
-}
-</style>
-<h2>Learn Networking Basics</h2>
-
 <section id="introduction">
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__642 img__view_mode__media_original attr__format__media_original" height="399" src="/files/CCK_Networking_Basics_intro_graphic.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" /></p>
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>This document covers the basics of how networking works, and how to use different devices to build networks. Computer networking has existed for many years, and as time has passed the technologies have become faster and less expensive. Networks are made up of various devices—computers, switches, routers—connected together by cables or wireless signals. Understanding the basics of how networks are put together is an important step in building a wireless network in a community or neighborhood.</p>
 
@@ -42,7 +31,7 @@ lang: en
 </section>
 
 <section id="clients-and-servers">
-<h3>Clients and Servers</h3>
+<h2>Clients and Servers</h2>
 
 <p>An important relationship on networks is that of the <strong>server</strong> and the <strong>client</strong>. A server is a computer that holds content and services such as a website, a media file, or a chat application. A good example of a server is the computer that holds the website for Google’s search page: <a href="http://www.google.com"><strong>http://www.google.com</strong></a>. The server holds that page, and sends it out when requested.</p>
 
@@ -70,7 +59,7 @@ server: radio station</em></p>
 </section>
 
 <section id="ip-addresses">
-<h3>IP Addresses</h3>
+<h2>IP Addresses</h2>
 
 <p>In order to send and direct data across a network, computers need to be able to identify destinations and origins. This identification is an IP—Internet Protocol—address. An <strong>IP address</strong> is just a set of four numbers between 1 and 254, separated by dots. An example of an IP address is <strong>173.194.43.7</strong>.</p>
 
@@ -110,7 +99,7 @@ and write down the IP address it reports: ____________________
 </section>
 
 <section id="network-hubs-and-switches">
-<h3>Network Hubs and Switches</h3>
+<h2>Network Hubs and Switches</h2>
 
 <p>Traditionally, computers are connected to each other using cables—creating a network. The cable used most often is Ethernet, which consists of four pairs of wires inside of a plastic jacket. It is physically similar to phone cables, but can transport much more data.</p>
 
@@ -130,7 +119,7 @@ and write down the IP address it reports: ____________________
 </section>
 
 <section id="routers-and-firewalls">
-<h3>Routers and Firewalls</h3>
+<h2>Routers and Firewalls</h2>
 
 <p><strong>Routers</strong> do the majority of the hard work on a network - they make the decisions about all the messages that travel on the network, and whether to pass messages to and from outside networks. There are three main functions:</p>
 
@@ -171,7 +160,7 @@ and write down the IP address it reports: ____________________
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>DHCP—Dynamic Host Configuration Protocol</dt>
@@ -190,7 +179,7 @@ and write down the IP address it reports: ____________________
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
 <p>This module is intended to provide some helpful background on networking. We recommend reading the upcoming (but not finished!) Learn about Wireless after this guide.</p>
 </section>
