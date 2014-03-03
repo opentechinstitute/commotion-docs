@@ -199,13 +199,13 @@ lang: en
 
 <p>Other modules referenced in this one:</p>
 
-<p><a href="/docs/cck/installing-configuring/install-ubiquity-router">Install on a Ubiquiti Router</a></p>
+<p><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></p>
 
-<p><a href="#">Determine Installation Needs</a> (coming soon)</p>
+<p><a href="/docs/cck/planning/inventory-the-neighborhood">Inventory the Neighborhood</a></p>
 
 <p><a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a></p>
 
-<p><a class="module">"Learn about Rooftop Mounts"</a></p>
+<p><a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a></p>
 </section>
 
 <section class="external-resources" id="external-resources">
