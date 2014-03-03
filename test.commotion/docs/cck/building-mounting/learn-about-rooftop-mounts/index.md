@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Learn about Rooftop Mounts
 site_section: help
 sub_section: [cck,cck-building]
@@ -157,9 +157,7 @@ lang: en
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<h3>OPTIONAL MODULES</h3>
-
-<p>After finishing this module, you are ready to go on to the "<a class="module">Gather Tools and Wireless Equipment"</a> then <a class="module">"Prep, Install and Finish</a>." "<a class="module">Learn Rooftop Basics</a>" is another good resource to consult before you start installing.</p>
+<p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="#">Prep, Install and Finish</a> (coming soon). <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
 </section>
 
 <section class="external-resources" id="section-external-resources">

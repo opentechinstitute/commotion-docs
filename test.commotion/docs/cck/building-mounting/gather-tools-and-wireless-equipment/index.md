@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Gather Tools and Wireless Equipment
 site_section: help
 sub_section: [cck,cck-building]
@@ -13,10 +13,8 @@ lang: en
 ---
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__375 img__view_mode__media_original attr__format__media_original" height="330" src="/files/gather_tools_and_equipment_support_001.png" typeof="foaf:Image" width="510" /></p>
 
-<h2>Gather Tools and Wireless Equipment</h2>
-
 <section id="section-introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>In this document you will find a list of suggested tools and equipment for wireless installations. It includes many common hand and power tools that you or someone you know may already have, so do not feel that you have to go and purchase all of these! Some items are also listed as optional — these may make some installations easier, but are not required. There is also a list of some wireless routers and mounting kits, but you should pick one based on the specific installation you are performing.</p>
 
@@ -28,7 +26,7 @@ lang: en
 </section>
 
 <section id="section-tool-bag">
-<h3>Tool Bag</h3>
+<h2>Tool Bag</h2>
 
 <p>Everything below is recommended for your tool bag, but items with an asterisk* are optional — you may not need them for your specific installation.</p>
 
@@ -153,7 +151,7 @@ lang: en
 </section>
 
 <section id="section-drilling-tools">
-<h3>Drilling Tools</h3>
+<h2>Drilling Tools</h2>
 
 <p>Often cables must be run through masonry or brick walls, and mounting hardware must be installed on outdoor masonry walls.<strong> Items with an asterisk* are optional</strong>.</p>
 
@@ -214,7 +212,7 @@ lang: en
 </section>
 
 <section id="section-consumables">
-<h3>Consumables</h3>
+<h2>Consumables</h2>
 
 <p>These items are used to attach or fasten equipment or cabling in place. You will use them up as time goes on, and will need to purchase more.</p>
 
@@ -265,7 +263,7 @@ lang: en
 </section>
 
 <section id="section-wireless-equipment">
-<h3>Wireless Equipment</h3>
+<h2>Wireless Equipment</h2>
 
 <p>The section below details different types of wireless equipment and the mounting hardware you can use to attach it to the roof of a building. The diagram below shows how all the various elements go together, but for determining what equipment and mounts are best for a specific home or building, please see <a href="#">Determine Installation Needs</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>.</p>
 
@@ -355,7 +353,7 @@ If the Commotion node is plugged in to the router's WAN (Internet) port, the con
 </section>
 
 <section id="section-mounting-hardware">
-<h3>Mounting Hardware</h3>
+<h2>Mounting Hardware</h2>
 
 <p>Typically you will need one mast, two hose clamps, and one mounting kit per building that has exterior equipment. For more information on specific types of mounts, please see <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>.</p>
 
@@ -422,7 +420,7 @@ If the Commotion node is plugged in to the router's WAN (Internet) port, the con
 </section>
 
 <section id="section-definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>PoE</dt>

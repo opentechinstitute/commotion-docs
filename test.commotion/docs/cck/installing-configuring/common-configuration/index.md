@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Common Configurations
 site_section: help
 sub_section: [cck,cck-installing]
@@ -13,16 +13,14 @@ lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__610 img__view_mode__media_original attr__format__media_original" height="299" src="/files/CCK_Common_Configs_Intro_0_0.png" typeof="foaf:Image" width="510" /></p>
 
-<h2>Common Configurations</h2>
-
 <section id="introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>When you set up your network, you will likely need to implement different arrangements of routers. The instructions below are designed to show you how to set up the hardware in different ways to that will help your network operate correctly. Pay attention to the settings in each configuration, since changing the behavior of one part of the network or node can affect the way another part will function. Each configuration listed below describes the settings you should change to keep the network working according to your plans.</p>
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>MATERIALS + SUPPLIES NEEDED</h4>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
 <ol class="rteindent1">
 	<li>A printout of the configuration you need, including specific information for the node you are working on.</li>
@@ -31,7 +29,7 @@ lang: en
 </section>
 
 <section id="two-nodes-meshed-wirelessly">
-<h3>Two nodes meshed wirelessly</h3>
+<h2>Two nodes meshed wirelessly</h2>
 
 <p>This is a common configuration. It involves two wireless nodes, in this example PicoStation M2 units, installed with the Commotion Wireless router firmware. The nodes can be installed indoors, in windows, or on rooftops. As long as they are within range (around 1000 feet outdoors, or within the same building indoors), they should mesh.</p>
 
@@ -60,7 +58,7 @@ lang: en
 </section>
 
 <section id="two-wireless-nodes-meshed-over-an-ethernet-connection">
-<h3>Two wireless nodes meshed over an Ethernet connection</h3>
+<h2>Two wireless nodes meshed over an Ethernet connection</h2>
 
 <p>In some cases, a section of the mesh may be more distant than others. It may require a wireless node with a directional antenna (such as a Ubiquiti NanoStation M-series device) to connect to the parts of the neighborhood mesh within a half mile to a mile away. You may want to have an indoor extension of that mesh, or have omnidirectional coverage around the building—hence adding an omnidirectional node, such as a Ubiquiti PicoStation M2 to the mesh.</p>
 
@@ -95,7 +93,7 @@ lang: en
 </section>
 
 <section id="”commotion-node-connected-to-a-home-or-business-router”">
-<h3>Commotion node connected to a home or business router</h3>
+<h2>Commotion node connected to a home or business router</h2>
 
 <p>In this scenario, we want to set up an indoor router to provide access to the mesh or to the Internet inside a building. There is currently no Internet connection in this building, so we want to receive it from the mesh. If the Commotion node is plugged in to the router's WAN port (which is designed to receive an IP address from a DSL or Cable modem, most commonly), it will give the router an IP address. The router will then be able to access the Internet if there is a connection somewhere in the mesh.</p>
 
@@ -116,7 +114,7 @@ lang: en
 </section>
 
 <section id="”commotion-node-connected-to-a-gateway”">
-<h3>Commotion Node connected to a gateway</h3>
+<h2>Commotion Node connected to a gateway</h2>
 
 <p>Commotion nodes will automatically attempt to receive a DHCP lease on their wired port when it is plugged in. If they fail to receive one, they will attempt to hand out addresses to connected devices instead. This can make it important in certain cases to make sure that <strong>devices are activated in the correct order</strong>.</p>
 
@@ -139,7 +137,7 @@ lang: en
 </section>
 
 <section id="”several-commotion-nodes-connected-through-a-switch-or-router”">
-<h3>Commotion nodes connected through a switch or router</h3>
+<h2>Commotion nodes connected through a switch or router</h2>
 
 <p>Commotion can be used in tandem with other equipment for more complex installation and set-ups. These directions will assume the simplest case for the diagram below:</p>
 
@@ -165,7 +163,7 @@ lang: en
 </section>
 
 <section id="”commotion-nodes-and-a-client-access-point-connected-through-a-switch”">
-<h3>Commotion nodes and a client Access Point connected through a switch</h3>
+<h2>Commotion nodes and a client Access Point connected through a switch</h2>
 
 <p>In this example, we have several (two or more) Commotion nodes on the roof of a building, connecting to the mesh. We also have a client router inside the network. There is no other router or device on the network that would generate IP addresses with DHCP.</p>
 
@@ -206,7 +204,7 @@ lang: en
 </section>
 
 <section id="”wireless-gateway-connection”">
-<h3>Wireless gateway connection</h3>
+<h2>Wireless gateway connection</h2>
 
 <p>In this example the Commotion node attempts to use a wireless access point (not associated with the mesh) as an Internet gateway.</p>
 
@@ -235,7 +233,7 @@ lang: en
 </section>
 
 <section id="”meshing-laptops-smartphones-and-routers”">
-<h3>Meshing Laptops, Smartphones, and Routers</h3>
+<h2>Meshing Laptops, Smartphones, and Routers</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__616 img__view_mode__media_original attr__format__media_original" height="349" src="/files/CCK_Common_Configs_Laptop_Phone_Router.png" typeof="foaf:Image" width="371" /></p>
 

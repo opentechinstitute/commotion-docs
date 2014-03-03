@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Inventory the Neighborhood
 site_section: help
 sub_section: [cck,cck-planning]
@@ -13,10 +13,8 @@ lang: en
 ---
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__476 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/inventory_the_neighborhood_title.png?itok=qgv6sh9C" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
 
-<h2>Inventory the Neighborhood</h2>
-
 <section id="introduction">
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 
 <p>Although we spend time in our neighborhoods every day, we are not always looking at and thinking about our neighborhood from the perspective of building a network. In this activity you will learn how to look at your neighborhood through the lens of a community organizer, handy-person and techie. Through these lenses you will be able evaluate the the social, physical and technical challenges and opportunities of potential sites.</p>
 
@@ -32,7 +30,7 @@ lang: en
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>MATERIALS + SUPPLIES NEEDED</h4>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
 <p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__484 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" style="width: 480px; height: 408px;" typeof="foaf:Image" /></a></p>
 
@@ -56,7 +54,7 @@ lang: en
 </section>
 
 <section id="inventory-intro">
-<h3>Wireless Inventory Basics</h3>
+<h2>Wireless Inventory Basics</h2>
 
 <p>Networks have social, physical and technical challenges. When planning a network and identifying potential sites, you will need to understand each site through the lens of a community organizer, a handy-person and a techie (see <strong><a href="/docs/cck/planning/identify-neighborhood-skills">Identify Neighborhood Skills</a></strong>).</p>
 
@@ -110,7 +108,7 @@ lang: en
 </section>
 
 <section id="inventory-steps">
-<h3>Inventory Steps</h3>
+<h2>Inventory Steps</h2>
 
 <p><strong>1. List sites and/or areas you would like to inventory. </strong>Use the questions above to guide the selection of potential sites or areas. Identify why you are selecting each location and what questions you want to answer during the inventory. For example, how many stories is the building? Can you see the library from the community center?&nbsp;Think of questions each role needs to answer.</p>
 
@@ -130,7 +128,7 @@ lang: en
 </section>
 
 <section id="definitions">
-<h3>Definitions</h3>
+<h2>Definitions</h2>
 
 <dl>
 	<dt>Site</dt>
@@ -141,7 +139,7 @@ lang: en
 </section>
 
 <section class="related-information" id="related-information">
-<h3>Related Information</h3>
+<h2>Related Information</h2>
 
 <p>Explore the different roles and tasks important in organizing, planning, building and maintaining a neighborhood wireless network in the <strong><a href="/docs/cck/planning/identify-neighborhood-skills">Identify Neighborhood Skills</a></strong>&nbsp;activities.</p>
 

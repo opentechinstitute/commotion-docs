@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Learn Rooftop Basics
 site_section: help
 sub_section: [cck,cck-building]
@@ -12,8 +12,6 @@ post_author: critzo
 lang: en
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__352 img__view_mode__media_original attr__format__media_original" height="388" src="/files/learn_rooftop_basics_support001_0.png" typeof="foaf:Image" width="510" /></p>
-
-<h1>Learn Rooftop Basics</h1>
 
 <section id="introduction">
 <h2>Introduction</h2>
