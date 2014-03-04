@@ -590,10 +590,13 @@ div#download-button-block .download-button a.button {
 }
 .cck-download a:link, 
 .cck-download a:visited,
+.cck-download-all a:link, 
+.cck-download-all a:visited,
 .cck-download-pdf a:link, 
 .cck-download-pdf a:visited {
   color: #E8FF00;
   text-decoration: none;
+  border-bottom: none;
 }
 .cck-download a:hover, 
 .cck-download-pdf a:hover {
