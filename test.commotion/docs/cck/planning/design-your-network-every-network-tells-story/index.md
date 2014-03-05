@@ -216,9 +216,9 @@ lang: en
 <section id="cut-out">
 <h2>Cut out the routers to create your game pieces</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__322 img__view_mode__media_original attr__format__media_original" height="319" src="/files/design_your_network_entas_support_cut.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" src="/files/design_your_network_entas_support_cut.png" /></p>
 
-<p><a href="/files/cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf"><img alt="" src="/files/CCK_download_icon2.png" typeof="foaf:Image" width="363" /></a></p>
+<p><a href="/files/cck/planning/1.2-CCK-Planning-Construction-Elements.pdf"><img alt="" src="/files/CCK_download_icon2.png" /></a></p>
 </section>
 
 <section id="section-definitions">
