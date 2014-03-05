@@ -200,8 +200,8 @@ div.pageheadings h1.pageheadings {
   color: #FFFFFF;
   text-align: left;
   font-size: 2.5em;
-  padding: 0.3em 0 0.8em 0;
-  margin: 0;
+  padding: 0.3em 0.8em 0;
+  margin: 0 0 0 1em;
 }
 div.pageheadings hr {
   background-color: #FF739C;
@@ -209,6 +209,7 @@ div.pageheadings hr {
   height: 1px;
   margin:0;
   border:none;
+  margin-left: 5em;
 }
 .footer-wrapper {
   background: url('/images/white_tri.png') no-repeat scroll center top #00FFCF;
