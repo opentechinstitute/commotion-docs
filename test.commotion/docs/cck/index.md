@@ -5,7 +5,7 @@ site_section: help
 sub_section: [cck]
 categories: 
 created: 2013-09-20
-changed: 2014-01-06
+changed: 2014-03-04
 post_author: critzo
 lang: en
 ---
@@ -42,7 +42,7 @@ lang: en
 <ul>
 	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a>: A step-by-step process for installing Commotion Wireless on Ubiquiti routers, which are amenable to changing operating systems.</li>
 	<li><a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a>: Instructions on configuring a Commotion wireless node through the Commotion Setup Wizard and through the administration interface.</li>
-	<li><a href="/docs/cck/installing-configuring/common-configurations">Common Configurations</a>: How a node should be configured depends on how it needs to funtion on the mesh network. Learn about different ways to configure a Commotion node.</li>
+	<li><a href="/docs/cck/installing-configuring/common-configuration/">Common Configurations</a>: How a node should be configured depends on how it needs to funtion on the mesh network. Learn about different ways to configure a Commotion node.</li>
 	<li><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a>: Includes&nbsp;steps to identify and&nbsp;solve the most common problems that may arise with your Commotion router or wireless network.</li>
 	<li><a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and Recover with TFTP</a>: An alternate installation process if the regular approach does not work or there is a problem with installing Commotion Wireless.</li>
 </ul>
