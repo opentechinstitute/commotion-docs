@@ -7,7 +7,7 @@ pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
 pdf-all: true
 categories: 
 created: 2013-09-27
-changed: 2013-09-28
+changed: 2014-03-04
 post_author: critzo
 lang: en
 ---
@@ -225,18 +225,16 @@ lang: en
 <h2>Definitions</h2>
 
 <dl>
-	<dt>Lines of sight</dt>
-	<dd>&nbsp;</dd>
+	<dt>Line of sight</dt>
+	<dd>An unobstructed path for wireless signals to travel between buildings or devices.</dd>
 	<dt>Radio wave</dt>
-	<dd>&nbsp;</dd>
+	<dd>An electrical and magnetic signal that can move through the air or other materials. It can carry information short or long distances. Radio stations, cell phones, television broadcasts, and Wi-Fi all use radio waves.</dd>
 	<dt>Router</dt>
-	<dd>&nbsp;</dd>
+	<dd>A device that determines how messages move through a computer network.</dd>
 	<dt>Antenna</dt>
-	<dd>&nbsp;</dd>
+	<dd>Converts electrical signals to radio waves. It is normally connected to a radio transmitter or radio receiver, and is the interface between the electrical signals in the radio, and the movement of the signals through the air.</dd>
 	<dt>Node</dt>
-	<dd>&nbsp;</dd>
-	<dt>Router</dt>
-	<dd>&nbsp;</dd>
+	<dd>An individual device in a mesh network.</dd>
 </dl>
 </section>
 
