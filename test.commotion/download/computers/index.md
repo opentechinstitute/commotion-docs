@@ -7,7 +7,23 @@ changed: 2013-12-31
 post_author: critzo
 lang: en
 ---
-  <h2>Linux</h2>
+<div class="warning-label">
+<div class="warning-top">
+<h2>WARNING</h2>
+</div>
+
+<div class="warning-bottom">
+<h2>Commotion</h2>
+
+<ul>
+        <li><a href="/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
+        <li><a href="/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
+        <li><a href="/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
+        <li><a href="/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
+</ul>
+<a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
+</div>
+<h2>Linux</h2>
 
 <p>Commotion Linux is an application bundle currently packaged for Debian, Ubuntu and other Debian based distros. Development of Commotion Linux is ongoing, but it is now near DR2 feature parity with Commotion OpenWRT.</p>
 
