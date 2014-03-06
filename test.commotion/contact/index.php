@@ -97,7 +97,8 @@ v id="navbar">
   <hr>
   <h1 class="pageheadings">Contact Us</h1>
 </div>
-
+<div class="contentcontainer">
+  <div class="container">
 <div id="contact-area">
 	<p>Commotion is led by the Open Technology Institute at the New America Foundation.</p>
 
@@ -161,6 +162,8 @@ Email us below:
         <li class=""><a href="/about/press" title="">Press</a></li>
         <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
         </ul>
+  </div>
+</div>
   </div>
 </div>
 
