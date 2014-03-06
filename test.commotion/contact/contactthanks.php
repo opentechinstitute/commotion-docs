@@ -31,7 +31,9 @@
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
 </div>
-v id="navbar">
+<div class="contentcontainer">
+<div class="container">
+<div id="navbar">
   <ul class="nav nav-pills">
     <li class="dropdown">
       <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
@@ -110,6 +112,8 @@ v id="navbar">
         <li class=""><a href="/about/press" title="">Press</a></li>
         <li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
         </ul>
+  </div>
+</div>
   </div>
 </div>
 

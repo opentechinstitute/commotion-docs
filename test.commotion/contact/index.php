@@ -31,7 +31,7 @@
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
 </div>
-v id="navbar">
+<div id="navbar">
   <ul class="nav nav-pills">
     <li class="dropdown">
       <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
@@ -100,14 +100,14 @@ v id="navbar">
 <div class="contentcontainer">
   <div class="container">
 <div id="contact-area">
-	<p>Commotion is led by the Open Technology Institute at the New America Foundation.</p>
+<p>Commotion is led by the Open Technology Institute at the New America Foundation.</p>
 
-1899 L St., N.W., Suite 400
-Washington, DC 20036
-Phone: 202-986-2700
-Fax: 202-986-3696
-
-Email us below:
+1899 L St., N.W., Suite 400<br />
+Washington, DC 20036<br />
+Phone: 202-986-2700<br />
+Fax: 202-986-3696<br />
+<br />
+Email us below:<br /><br />
 	
 <form method="post" action="contactengine.php">
 <label for="Name">Name:</label><br />
