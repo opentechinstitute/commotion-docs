@@ -1,22 +1,15 @@
-{% include header-front.html %}
+{% include header.html %}
+{% include header-nav.html %}
+<div class="containercontent slideshow">
 {{ content }}
-<div class="contentcontainer">
-  <div class="container">
-    <div class="right-twothird">
-      <h3>Recent Blog Posts</h3>
-      {% for post in site.posts limit: 3 %}
-      <div class="blog-container">
-      <h4><a href="{{ post.url }}" class="blog-teaser-title">{{ post.title }}</a></h4>
-      <p class="blog-pubdata"><img src="/files/{{ post.teaser_image }}" style="width:15%; height: auto; float: right;" />{{ post.date | date: "%B %d, %Y" }} {{ post.post_author }}</p>
-      <p class="blog-excerpt">{{ post.content | split:'<!--more-->' | first | strip_html }}</p>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="left-third">
-      <div id="download-button-block">Get the lastest version of Commotion for your platform!<div class="download-button"><a class="button" href="/download">Download</a></div></div>
-      <a class="twitter-timeline"  href="https://twitter.com/search?q=%23commotion+%40OTI"  data-widget-id="435507392806023168">Tweets about "#commotion @OTI"</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-  </div>
 </div>
+{% include content-area-open.html %}
+{% include right-two-third-open.html %}
+{% include recent-blog-posts-front.html %}
+{% include right-two-third-close.html %}
+{% include left-third-open.html %}
+{% include download-button.html %}
+{% include twitter-timeline.html %}
+{% include left-third-close.html %}
+{% include content-area-close.html %}
 {% include footer-front.html %}
