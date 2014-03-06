@@ -18,7 +18,7 @@ $Name = Trim(stripslashes($_POST['Name']));
 $Email = Trim(stripslashes($_POST['Email'])); 
 $Message = Trim(stripslashes($_POST['Message'])); 
 $EmailFrom = $Email;
-$EmailTo = "critzo@chambana.net";
+$EmailTo = "support@commotionwireless.net";
 
 // validation
 $validationOK=true;
