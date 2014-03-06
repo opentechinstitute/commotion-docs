@@ -115,7 +115,7 @@ Email us below:<br /><br />
 <label for="Email">Email Address:</label><br />
 <input type="text" name="Email" /><br />
 <label for="Message">Message:</label><br />
-<textarea name="Message" rows="20" cols="20"></textarea>
+<textarea name="Message" rows="10" cols="50"></textarea>
 <div id="captcha-area">
 		
 <?php
