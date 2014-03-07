@@ -31,7 +31,7 @@
 <div id="logo">
   <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
 </div>
-<div class="contentcontainer">
+<div>
 <div class="container">
 <div id="navbar">
   <ul class="nav nav-pills">
