@@ -92,7 +92,6 @@
     </li>
   </ul>
 </div>
-</div>
 <div class="containercontent pageheadings">
   <hr>
   <h1 class="pageheadings">Report a Bug</h1>
