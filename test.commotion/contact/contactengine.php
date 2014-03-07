@@ -13,10 +13,10 @@ if (!$resp->is_valid) {
 }
 
 
-$Subject = "Testing contact form";
-$Name = Trim(stripslashes($_POST['Name'])); 
-$Email = Trim(stripslashes($_POST['Email'])); 
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Subject = "New Contact form submission from Commotionwireless.net";
+$Name = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Name'])))); 
+$Email = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Email'])))); 
+$Message = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Message'])))); 
 $EmailFrom = $Email;
 $EmailTo = "support@commotionwireless.net";
 
