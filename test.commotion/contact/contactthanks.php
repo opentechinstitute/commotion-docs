@@ -99,11 +99,14 @@
   <hr>
   <h1 class="pageheadings">Thank you for Contacting Us</h1>
 </div>
+<div class="contentcontainer">
+  <div class="container">
 
 <div id="contact-area">
 	<p>Your feedback is important to us. Someone from the Commotion support team will contact you in response as soon as we can.</p>
-
 </div>
+</div>
+</div> 
 <div class="footer-wrapper">
   <div class="container">
         <ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
