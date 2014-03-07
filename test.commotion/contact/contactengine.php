@@ -14,9 +14,9 @@ if (!$resp->is_valid) {
 
 
 $Subject = "New Contact form submission from Commotionwireless.net";
-$Name = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Name'])))); 
-$Email = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Email'])))); 
-$Message = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Message'])))); 
+$Name = Trim(stripslashes(strip_tags($_POST['Name']))); 
+$Email = Trim(stripslashes(strip_tags($_POST['Email']))); 
+$Message = Trim(stripslashes(strip_tags($_POST['Message']))); 
 $EmailFrom = $Email;
 $EmailTo = "support@commotionwireless.net";
 
