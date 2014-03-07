@@ -624,3 +624,20 @@ div.cck-download-pdf {
 .blog-index a:hover {
   border-bottom: 3px solid #FF739C;
 }
+.bug-report {
+  display: block;
+  width: 90%;
+  background-color: #877AED;
+}
+.bug-report a:link,
+.bug-report a:visited {
+  color: #000000;
+  display: block;
+  padding: .5em; 
+  text-decoration: none;
+  width: 100%;
+}
+.bug-report a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
