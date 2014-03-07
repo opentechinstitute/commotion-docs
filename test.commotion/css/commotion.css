@@ -630,14 +630,22 @@ div.cck-download-pdf {
   background-color: #877AED;
 }
 .bug-report a:link,
-.bug-report a:visited {
+.bug-report a:visited,
+.send-feedback a:link,
+.send-feedback a:visited {
   color: #000000;
   display: block;
   padding: .5em; 
   text-decoration: none;
   width: 100%;
 }
-.bug-report a:hover {
+.bug-report a:hover,
+.send-feedback a:hover {
   background-color: #000000;
   color: #FFFFFF;
+}
+.send-feedback {
+  display: block;
+  width: 90%;
+  background-color: #66CCFF;
 }
