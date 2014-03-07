@@ -16,10 +16,13 @@ if (!$resp->is_valid) {
 $Subject = "New bug report submitted";
 $Name = Trim(stripslashes(strip_tags($_POST['Name']))); 
 $Email = Trim(stripslashes(strip_tags($_POST['Email']))); 
-$Message = Trim(stripslashes($_POST['bugtype'])); 
-$Message .= Trim(stripslashes(strip_tags($_POST['What-Occurred']))); 
-$Message .= Trim(stripslashes(strip_tags($_POST['Expected-Behavior']))); 
-$Message .= Trim(stripslashes(strip_tags($_POST['Experienced-Behavior']))); 
+$Message = "Bugtype:". Trim(stripslashes($_POST['bugtype'])); 
+$Message .= "\n";
+$Message .= "What were you doing on the device right before and when the error occurred? \n". Trim(stripslashes(strip_tags($_POST['What-Occurred']))); 
+$Message .= "\n";
+$Message .= "Please describe what behavior you expected: \n". Trim(stripslashes(strip_tags($_POST['Expected-Behavior']))); 
+$Message .= "\n";
+$Message .= "Please describe what behavior you experienced that you believe is wrong: \n". Trim(stripslashes(strip_tags($_POST['Experienced-Behavior']))); 
 $EmailFrom = $Email;
 $EmailTo = "support@commotionwireless.net";
 
@@ -34,9 +37,6 @@ if (!$validationOK) {
 $Body = "";
 $Body .= "Name: ";
 $Body .= $Name;
-$Body .= "\n";
-$Body .= "City: ";
-$Body .= $City;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;

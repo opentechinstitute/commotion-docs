@@ -126,11 +126,11 @@ When you experience a bug you should search the mailing list archives to see if 
 <input type="radio" value="critical" name="bugtype" id="bugtype-4">
 <label for="bugtype-4">Critical (crashes, loss of data) </label><br />
 <label for="What-Occurred">What were you doing on the device right before and when the error occurred?</label><br />
-<textarea name="What-Occurred" rows="10" cols="50"></textarea>
+<textarea name="What-Occurred" rows="10" cols="50"></textarea><br />
 <label for="Expected-Behavior">Please describe what behavior you expected:</label><br />
-<textarea name="Expected-Behavior" rows="10" cols="50"></textarea>
+<textarea name="Expected-Behavior" rows="10" cols="50"></textarea><br />
 <label for="Experienced-Behavior">Please describe what behavior you experienced that you believe is wrong:</label><br />
-<textarea name="Experienced-Behavior" rows="10" cols="50"></textarea>
+<textarea name="Experienced-Behavior" rows="10" cols="50"></textarea><br />
 <div id="captcha-area">
 		
 <?php
