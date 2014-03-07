@@ -14,12 +14,12 @@ if (!$resp->is_valid) {
 
 
 $Subject = "New bug report submitted";
-$Name = Trim(stripslashes($_POST['Name'])); 
-$Email = Trim(stripslashes($_POST['Email'])); 
+$Name = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Name'])))); 
+$Email = Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Email'])))); 
 $Message = Trim(stripslashes($_POST['bugtype'])); 
-$Message .= Trim(stripslashes($_POST['What-Occurred'])); 
-$Message .= Trim(stripslashes($_POST['Expected-Behavior'])); 
-$Message .= Trim(stripslashes($_POST['Experienced-Behavior'])); 
+$Message .= Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['What-Occurred'])))); 
+$Message .= Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Expected-Behavior'])))); 
+$Message .= Trim(stripslashes(strip_tags(mysql_real_escape_string($_POST['Experienced-Behavior'])))); 
 $EmailFrom = $Email;
 $EmailTo = "support@commotionwireless.net";
 
