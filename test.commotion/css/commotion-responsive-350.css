@@ -39,18 +39,20 @@ div#logo {
   position: absolute;
   max-width:300px;
   z-index: 6; 
+  right: 1em;
+  text-align: right;
 }
 div#logo a {
   border-bottom: none;
 }
 div#logo img {
-  max-width:350px; 
+  max-width:50%; 
 }
 
 /* top nav */
 div#navbar {
-  padding-left: 300px;
-  margin-bottom: 75px;
+  padding-left: 1em;
+  margin-bottom: 2em;
 }
 div#navbar ul > li a {
   border-bottom: 3px solid;
@@ -89,6 +91,24 @@ ul.main-menu ul li {
 ul.main-menu li ul {
     display: none;
 }
+
+.dropdown-menu {
+  background-clip: padding-box;
+  background-color: #00FFCF;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.176);
+  font-size: 1em;
+  list-style: none outside none;
+  margin: 2px 0 0 ;
+  min-width: 250px;
+  padding: 5px 0;
+  position: absolute;
+  right: 1em;
+  top: 100%;
+  z-index: 1000;
+}
+
 li.dropdown a,
 li.dropdown a:visited,
 li.static-nodrop a,
@@ -97,7 +117,10 @@ li.static-nodrop a:visited {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.nav-pills > li {
+  float: none;
+  width: 50%;
+}
 
 .promo {
     width: 100%;
@@ -106,11 +129,16 @@ li.static-nodrop a:visited {
     z-index: 10;
     margin-top: -5.5em; 
 }
+.container {
+    position: relative;
+    top: 0em;
+}
 .contentcontainer {
   background: url('/images/black_tri.png') center top no-repeat;
   margin-right: auto;
   margin-left: auto;
   padding-top: 35px;
+  position: relative;
 }
 .contentcontainer a:link, .contentcontainer a:visited {
   border-bottom: 3px solid #E8FF00;
@@ -140,17 +168,20 @@ li.static-nodrop a:visited {
   background: url('/images/white_tri.png') no-repeat center top #00FFCF;
   color: #000000;
 }
+.footer-wrapper .container {
+  top: 0em;
+}
 div#slideshow {
   background: none repeat scroll 0 0 #000000;
   width: 100%;
-  height: 200px;
+  height: 7em;
 }
 div#slideshow .slideshow-inner {
   margin: auto;
   text-align: center;
-  padding: 1em;
+  padding: .2em;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 div#slideshow li, div#slideshow .noscript {
   width: 80%;
@@ -168,7 +199,7 @@ div#slideshow ul.bjqs {
   overflow: visible;
 }
 div#slideshow ul.bjqs-controls {
-  margin: -15px -100px 0 0;
+  margin: -15px 1em 0 0;
   padding: 0;
   text-align: right;
 }
@@ -195,13 +226,17 @@ div.pageheadings {
   min-height: 100px;
   background: none repeat scroll 0 0 #000000;
   padding: 35px 0 0 20px;
+  position: relative;
+  float: none;
+  width: 100%;
+  top: 0em;
 }
 div.pageheadings h1.pageheadings {
   color: #FFFFFF;
   text-align: left;
-  font-size: 2.5em;
-  padding: 0.3em 0.8em 0;
-  margin: 0 0 0 1em;
+  font-size: 1.75em;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 div.pageheadings hr {
   background-color: #FF739C;
@@ -210,6 +245,9 @@ div.pageheadings hr {
   margin:0;
   border:none;
   margin-left: 5em;
+  position: relative;
+  top: -1em;
+  right: 5em;
 }
 .footer-wrapper {
   background: url('/images/white_tri.png') no-repeat scroll center top #00FFCF;
@@ -236,16 +274,16 @@ div.pageheadings hr {
   text-decoration: none;
 }
 .left-third {
-  width: 25%;
-  min-width: 200px;
+  width: 20%;
+  min-width: 0px;
   float: left;
-  margin: .3em 2em;
+  margin: 4em 2em 0.3em;
 }
 .right-twothird {
-  width: 65%;
-  min-width: 400px;
+  width: 53%;
   float: right;
-  margin: 1em;
+  min-width: 0px;
+  margin-top: 4em;
 }
 .right-twothird p {
   margin-left: 1.3em;
@@ -272,10 +310,14 @@ div.pageheadings hr {
   border-bottom: none;
 }
 .left-twothird {
-  width: 65%;
-  min-width: 400px;
+  width: 95%;
+  min-width: 280px;
   float: left;
-  margin: .3em 2em;
+  margin: 1em;
+}
+.left-twothird img {
+  width: 95%;
+  height: auto;
 }
 .left-twothird h2 {
   margin-left: 0;
