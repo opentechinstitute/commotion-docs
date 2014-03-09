@@ -144,8 +144,8 @@ lang: en
 	</tbody>
 </table>
 
-### Nightly Builds <a name="nightly"> </a>
+<h3 id="nightly">Nightly Builds</h3>
 <p>Our nightly builds are back! Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href="http://downloads.commotionwireless.net/nightly/">downloads.commotionwireless.net/nightly</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
 
-### <a name="source"></a>Build From Source
+<h3 id="source">Build From Source</h3>
 <p>Commotion-Router's source code is available on GitHub: <a href="https://github.com/opentechinstitute/commotion-router">https://github.com/opentechinstitute/commotion-router</a>. See the <a href="https://github.com/opentechinstitute/commotion-router#build--install">Commotion-Router README</a> for information on building and installing from source.</p>
