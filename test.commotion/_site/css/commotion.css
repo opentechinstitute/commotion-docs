@@ -354,8 +354,10 @@ div#download-button-block .download-button a.button {
 }
 /* Files Download Table */
 .contentcontainer table.files {
-    width: 960px;
     border: 1px #ccc solid;
+    max-width: 70%;
+    border: 1px #ccc solid;
+    margin: 10px 15px 15px 0;
 }
 .contentcontainer table.files thead th {
   background: #F7F7F7;
@@ -367,7 +369,7 @@ div#download-button-block .download-button a.button {
 }
 .contentcontainer table.files td {
     text-align: center;
-    padding: 0 5px;
+    padding: 8px;
     word-wrap: break-word;
 }
 .contentcontainer table.files tr.even td{
