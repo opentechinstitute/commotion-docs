@@ -23,9 +23,13 @@ div#logo img {
     background: #ffffff;
 }
 
-.contentcontainer a:link, .contentcontainer a:visited {
+.contentcontainer a:link, .contentcontainer a:visited, {
     font-size 14px;
     border-bottom: dotted 2px #FF739C;
+}
+
+a {
+    font-size: 14px;
 }
 
 .right-twothird {
@@ -59,7 +63,7 @@ div.pageheadings hr {
 img, p {
     page-break-before: auto;
     page-break-after: auto; 
-    page-break-inside: avoid;
+    page-break-inside: avoid; /* could also be auto, but avoid is more explicit */
 }
 
 #download-button-block { 
