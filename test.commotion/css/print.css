@@ -23,6 +23,10 @@ div#logo img {
     background: #ffffff;
 }
 
+dt {
+    margin-top:10px;
+}
+
 .contentcontainer a:link, .contentcontainer a:visited, {
     font-size 14px;
     border-bottom: dotted 2px #FF739C;
@@ -95,6 +99,11 @@ img, p {
 #twitter-widget-0, #twitter-wjs {
     display: none;
 }
+
+.external-resources ul {
+    color: #000000;
+}
+
 
 .footer-wrapper {
     background: #ffffff;
