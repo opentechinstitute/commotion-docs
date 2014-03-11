@@ -1,0 +1,81 @@
+.navbar, #navbar, .navbar-inners {
+    display:none; 
+}
+
+.containercontent {
+    background: #fff;
+}
+
+div#logo img {
+    position: relative;
+    float: right;
+}
+
+div#logo img {
+    width: 200px;
+}
+
+#slideshow {
+    display: none;
+}
+
+.contentcontainer {
+    background: #ffffff;
+}
+
+.contentcontainer a:link, .contentcontainer a:visited {
+    font-size 14px;
+    border-bottom: dotted 2px #FF739C;
+}
+
+.right-twothird {
+    width: 97%;
+}
+
+.left-twothird {
+    width: 97%;
+}
+
+.right-third {
+    display: none;
+}
+
+.left-third {
+    display: none;
+}
+
+    
+div.pageheadings h1.pageheadings, div.pageheadings {
+    color: #000000;
+    background: #ffffff;
+}
+
+div.pageheadings hr {
+    height: 0px;
+}
+
+/* images and paragraphs shouldn't break */
+
+img, p {
+    page-break-before: auto;
+    page-break-after: auto; 
+    page-break-inside: avoid;
+}
+
+#download-button-block { 
+    display: none;
+}
+
+#twitter-widget-0, #twitter-wjs {
+    display: none;
+}
+
+.footer-wrapper {
+    background: #ffffff;
+}
+
+.footer-wrapper ul.menu {
+    display: none;
+}
+
+
