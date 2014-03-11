@@ -6,7 +6,7 @@
     background: #fff;
 }
 
-div#logo img {
+div#logo {
     position: relative;
     float: right;
 }
@@ -31,6 +31,28 @@ div#logo img {
 a {
     font-size: 14px;
 }
+
+.contentcontainer {
+  background: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 35px;
+}
+.contentcontainer a:link, .contentcontainer a:visited {
+  border-bottom: 2px dotted #FF739C;
+  color: #4D4D4D;
+  text-decoration: none;
+  background: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contentcontainer a:hover, .contentcontainer a:visited {
+  border-bottom: 2px dotted #FF739C;
+  color: #4D4D4D;
+  background: none;
+}
+
 
 .right-twothird {
     width: 97%;
