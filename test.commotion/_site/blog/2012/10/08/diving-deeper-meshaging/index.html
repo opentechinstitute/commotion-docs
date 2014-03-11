@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Commotion Wireless</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks.">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/commotion.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<div class="navbar navbar-inverse">
+  <div class="boxes-box" id="boxes-box-top_colors">
+    <div class="boxes-box-content">
+      <div class="navbar-inners">
+        <div class="color0">&nbsp;</div>
+        <div class="color1">&nbsp;</div>
+        <div class="color2">&nbsp;</div>
+        <div class="color3">&nbsp;</div>
+        <div class="color4">&nbsp;</div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+<div id="logo">
+  <a href="/"><img src="/images/commotion_kbabout_measure-03_0_0.png" alt="Commotion Wireless logo"/></a>
+</div>
+ 
+<div id="navbar">
+  <ul class="nav nav-pills">
+    <li class="dropdown">
+      <a id="aboutMenu" href="/about" data-toggle="dropdown" role="button" class="menu-top-level">
+        About
+        <b class="caret"></b>
+      </a>
+      <ul id="aboutMenu" class="dropdown-menu" aria-labelledby="aboutMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about">About Commotion</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/faq">FAQ</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/guiding-principles">Guiding Principles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/where-its-used">Where It&#039;s Used</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/press">Press</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/about/license-privacy">License &amp; Privacy</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/jobs">Jobs</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
+    <li class="dropdown">
+      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
+        Get Help
+        <b class="caret"></b>
+      </a>
+      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/cck">Commotion Construction Kit</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/localization">Commotion Localization</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="downloadMenu" href="/download" data-toggle="dropdown" role="button" class="menu-top-level">
+        Download
+        <b class="caret"></b>
+      </a>
+      <ul id="downloadMenu" class="dropdown-menu" aria-labelledby="downloadMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="developersMenu" href="/developer/resources" data-toggle="dropdown" role="button" class="menu-top-level">
+        For Developers
+        <b class="caret"></b>
+      </a>
+      <ul id="developersMenu" class="dropdown-menu" aria-labelledby="developersMenu" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/resources" title="">Developer Resources</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/jobs" title="Read and submit bids for open RFPs on the Commotion Wireless project.">Requests for Proposals</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://wiki.commotionwireless.net" title="">Wiki</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/organizations/opentechinstitute/dashboard/issues/repos?direction=desc&amp;state=open" title="">Issue Tracker</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="https://github.com/opentechinstitute" title="">Source Code</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-4" href="/developer/hig/introduction">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</div>
+ 
+ 
+<div class="containercontent pageheadings">
+  <hr>
+  <h1 class="pageheadings">Diving deeper into "meshaging"</h1>
+</div>
+ 
+<div class="contentcontainer">
+  <div class="container">
+ 
+<div class="left-twothird">
+
+ <h2 class="blog-pubdata">2012-10-08 / The Work Department</h2>
+
+<p>In our recent <a href='https://commotionwireless.net/blog/exploring-meshaging' target='_blank'>blog post about messaging</a>, we introduced our “meshaging” (basic chat) application and explained some of the plans for our future work with it. We are still working on this project and have diagrammed how exactly communication happens in the application. This has improved our internal process and we think it's beneficial to share. Compared to centralized, server-based systems, decentralized networking applications are a bit messy: with the benefit of decentralization comes the cost of increased complexity. Maintaining consistency of data across a mesh network is a hard problem to solve, and there are plenty of interesting approaches to address this problem. As designers, we became interested in embracing inconsistency: what systems could exist, or even thrive, in a network of inconsistent connections or transient devices? This is important to consider because a mesh network could be constantly changing. To explore the subject of decentralized communication, we decided to work through the design of a mesh network chat application in which nodes would serve as chat hubs. We considered what a decentralized chat application would look like with varying levels of message-sharing or replication between neighbor nodes. We used the analogy of a chat application because of its simplicity and its generality, but you can replace “chats” with any sort of one-to-many message. Actually, as an exercise, you really <em>should</em> try and think of other types of messages that might be transported over a mesh network! Imagine a network of thermometers in a greenhouse, or a network of motion sensors that trigger floodlights, or many other possibilities. <img alt='' class='decoded' src='/files/basic_chat_diagrams_for_blog_Artboard_1_0.png' style='width: 540px; height: 485px;' /> <strong>Diagram 1</strong> (above) illustrates a chat application in which nodes broadcast messages only to locally connected clients (zero hops). The numbers 1, 2, and 3 represent nodes connected to the mesh network, and the little people icons designated with letters represent the people connected to each of those nodes. In this scenario, users can chat with other users on the same node. For example, Person H can chat with Person J because they are both connected to Node 2. They cannot however chat with Person K or Person D, because those users, though connected to the mesh network, are on different nodes. <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_2_0.png' /> <strong>Diagram 2</strong>(above) illustrates users on Node 1 communicating (zero-hop/no-broadcast chat system). <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_3_0.png' /> <strong>Diagram 3</strong> (above) illustrates a next-neighbor broadcast chat system, in which nodes would broadcast all messages to nodes within a one-hop distance. This system would allow a person to chat with people connected to their own node or their next neighbors, but not nodes two or more hops away. In Diagram 3, Person G can chat with Person C because they are both connected to Node 1. But in this stage Person G can also chat with Person J because J is connected to G’s next neighbor, Node 2. Person G could not chat with Person L though, because Node 3, which Person L is connected to, is two hops away. <img id='internal-source-marker_0.5773324861970599' src='/files/basic_chat_diagrams_for_blog_Artboard_4.png' /> <strong>Diagram 4</strong> (above) shows the next-neighbor broadcast chat system, illustrating users on Node 1 communicating with each other and users on Node 2. We hope that these diagrams can help spur conversations about decentralized application development. Stay tuned for more meshages.</p>
+ <h4>Tags:</h4>
+
+ <a href="/blog/blogindex.html#messaging">messaging</a>&nbsp;
+
+ <a href="/blog/blogindex.html#chat">chat</a>&nbsp;
+
+ <a href="/blog/blogindex.html#ux">ux</a>&nbsp;
+
+ <a href="/blog/blogindex.html#applications">applications</a>&nbsp;
+
+
+    </div>
+
+<div class="right-third">
+
+
+
+    
+    
+    
+    
+
+    
+    <h3><a href="/blog/blogindex.html#2014">2014</a></h3>
+    <a href="/blog/blogindex.html#2014-01">01</a> 
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+    
+    <h3><a href="/blog/blogindex.html#2013">2013</a></h3>
+    <a href="/blog/blogindex.html#2013-12">12</a>
+    
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2013-10">10</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2013-09">09</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2013-07">07</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2013-06">06</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2013-03">03</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2013-02">02</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+    
+    <h3><a href="/blog/blogindex.html#2012">2012</a></h3>
+    <a href="/blog/blogindex.html#2012-11">11</a>
+    
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2012-10">10</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2012-09">09</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2012-08">08</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+    | <a href="/blog/blogindex.html#2012-05">05</a>
+            
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+
+    
+
+    
+    
+
+
+<h3>Tags:</h3>
+
+ <a href="/blog/blogindex.html#ui">ui</a> (4)<br />
+
+ <a href="/blog/blogindex.html#branding">branding</a> (2)<br />
+
+ <a href="/blog/blogindex.html#identity">identity</a> (1)<br />
+
+ <a href="/blog/blogindex.html#research">research</a> (7)<br />
+
+ <a href="/blog/blogindex.html#detroit">detroit</a> (6)<br />
+
+ <a href="/blog/blogindex.html#community wireless">community wireless</a> (9)<br />
+
+ <a href="/blog/blogindex.html#recommendations">recommendations</a> (3)<br />
+
+ <a href="/blog/blogindex.html#ux">ux</a> (3)<br />
+
+ <a href="/blog/blogindex.html#messaging">messaging</a> (5)<br />
+
+ <a href="/blog/blogindex.html#drupal">drupal</a> (1)<br />
+
+ <a href="/blog/blogindex.html#chat">chat</a> (4)<br />
+
+ <a href="/blog/blogindex.html#applications">applications</a> (5)<br />
+
+ <a href="/blog/blogindex.html#routers">routers</a> (3)<br />
+
+ <a href="/blog/blogindex.html#energy">energy</a> (1)<br />
+
+ <a href="/blog/blogindex.html#mesh">mesh</a> (9)<br />
+
+ <a href="/blog/blogindex.html#cost">cost</a> (2)<br />
+
+ <a href="/blog/blogindex.html#price">price</a> (1)<br />
+
+ <a href="/blog/blogindex.html#hardware">hardware</a> (3)<br />
+
+ <a href="/blog/blogindex.html#red hook">red hook</a> (5)<br />
+
+ <a href="/blog/blogindex.html#troubleshooting">troubleshooting</a> (2)<br />
+
+ <a href="/blog/blogindex.html#site visits">site visits</a> (4)<br />
+
+ <a href="/blog/blogindex.html#maintenance">maintenance</a> (2)<br />
+
+ <a href="/blog/blogindex.html#warning">warning</a> (2)<br />
+
+ <a href="/blog/blogindex.html#label">label</a> (2)<br />
+
+ <a href="/blog/blogindex.html#security">security</a> (2)<br />
+
+ <a href="/blog/blogindex.html#anonymity">anonymity</a> (2)<br />
+
+ <a href="/blog/blogindex.html#privacy">privacy</a> (2)<br />
+
+ <a href="/blog/blogindex.html#battlemesh">battlemesh</a> (1)<br />
+
+ <a href="/blog/blogindex.html#olsr">olsr</a> (1)<br />
+
+ <a href="/blog/blogindex.html#testing">testing</a> (1)<br />
+
+ <a href="/blog/blogindex.html#digital stewards">digital stewards</a> (4)<br />
+
+ <a href="/blog/blogindex.html#amp">amp</a> (1)<br />
+
+ <a href="/blog/blogindex.html#amc">amc</a> (1)<br />
+
+ <a href="/blog/blogindex.html#release">release</a> (3)<br />
+
+ <a href="/blog/blogindex.html#serval">serval</a> (1)<br />
+
+ <a href="/blog/blogindex.html#gource">gource</a> (1)<br />
+
+ <a href="/blog/blogindex.html#git">git</a> (1)<br />
+
+ <a href="/blog/blogindex.html#visualization">visualization</a> (2)<br />
+
+ <a href="/blog/blogindex.html#development">development</a> (1)<br />
+
+ <a href="/blog/blogindex.html#guest post">guest post</a> (1)<br />
+
+ <a href="/blog/blogindex.html#tools">tools</a> (1)<br />
+
+ <a href="/blog/blogindex.html#cck">cck</a> (1)<br />
+
+ <a href="/blog/blogindex.html#pop-up mesh">pop-up mesh</a> (1)<br />
+
+ <a href="/blog/blogindex.html#urban">urban</a> (1)<br />
+
+ <a href="/blog/blogindex.html#somaliland">somaliland</a> (1)<br />
+
+ <a href="/blog/blogindex.html#rural">rural</a> (1)<br />
+
+ <a href="/blog/blogindex.html#r1">r1</a> (1)<br />
+
+ <a href="/blog/blogindex.html#upgrade">upgrade</a> (1)<br />
+
+ <a href="/blog/blogindex.html#hack day">hack day</a> (1)<br />
+
+
+</div>
+
+  </div>
+</div>
+ 
+    </div>
+  </div>
+</div>
+<div class="footer-wrapper">
+  <div class="container">
+  	<ul class="menu"><li class="first leaf menu-mlid-2043"><a href="/contact" title="">Contact</a></li>
+	<li class=""><a href="/jobs" title="">Jobs</a></li>
+	<li class=""><a href="http://oti.newamerica.net/" title="">OTI</a></li>
+	<li class=""><a href="/about/press" title="">Press</a></li>
+	<li class="last leaf menu-mlid-2048"><a href="/about/license-privacy" title="">License &amp; Privacy</a></li>
+	</ul>
+  </div>
+</div>
+
+<script src="/js/jquery-2.1.0.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/commotion.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.opentechinstitute.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+  </body> 
+</html>
+
