@@ -300,10 +300,10 @@ div.pageheadings hr {
   width: 55%;
 }
 .right-third {
-  width: 20%;
-  min-width: 200px;
-  float: right;
-  margin: 2em;
+  width: 100%;
+  min-width: 0px;
+  float: none;
+  margin: 0px;
 }
 .right-third a {
   line-height: 2em;

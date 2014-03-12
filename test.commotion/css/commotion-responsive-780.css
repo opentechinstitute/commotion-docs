@@ -297,7 +297,7 @@ div.pageheadings hr {
   width: 20%;
   min-width: 200px;
   float: right;
-  margin: 2em;
+  margin: 1em;
 }
 .right-third a {
   line-height: 2em;
@@ -310,8 +310,8 @@ div.pageheadings hr {
   border-bottom: none;
 }
 .left-twothird {
-  width: 95%;
-  min-width: 400px;
+  width: 55%;
+  min-width: 0px;
   float: left;
   margin: 1em;
 }
