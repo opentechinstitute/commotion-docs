@@ -1,6 +1,6 @@
 /* top bar */
 .navbar-inners {
-  height: 20px;
+  height: 8px;
   margin: 0;
   width: 100%;
   background-color: #877AED;
@@ -37,7 +37,7 @@
 /* logo */
 div#logo {
   position: absolute;
-  max-width:300px;
+  max-width:200px;
   z-index: 6; 
   right: 1em;
   text-align: right;
@@ -51,13 +51,13 @@ div#logo img {
 
 /* top nav */
 div#navbar {
-  padding-left: 1em;
-  margin-bottom: 2em;
+  padding: 0.5em;
   position: relative;
   z-index: 1000;
+  float: left;
 }
 div#navbar ul > li a {
-  border-bottom: 3px solid;
+  border-bottom: 1px solid;
   border-color:  #fff;
 }
 div#navbar ul > li a:hover {
