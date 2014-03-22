@@ -1,4 +1,6 @@
+<div class="tag-cloud">
 <h3>Tags:</h3>
 {% for category in site.categories %}
  <a href="/blog/blogindex.html#{{ category[0] }}">{{ category[0] }}</a> ({{ category[1].size }})<br />
 {% endfor %}
+</div>
