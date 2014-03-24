@@ -54,11 +54,16 @@ div#navbar {
   padding: 0.5em;
   position: relative;
   z-index: 1000;
-  float: left;
+  margin-bottom: 0em;
 }
 div#navbar ul > li a {
   border-bottom: 1px solid;
   border-color:  #fff;
+}
+div#navbar ul > li {
+  font-size: 0.75em;
+  line-height: 0.75em;
+  letter-spacing: .2em;
 }
 div#navbar ul > li a:hover {
   border-color: #E8FF00;
@@ -678,4 +683,7 @@ div.cck-download-pdf {
 }
 .blog-index a:hover {
   border-bottom: 3px solid #FF739C;
+}
+.tag-cloud {
+  display: none;
 }

@@ -11,13 +11,9 @@ lang: en
 ---
   <p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in trainings around the world and at home. It is a “do it ourselves” guide to building wireless mesh networks.</p>
 
-<div><span style="padding:10px;background-color:Gray;font-size:10pt;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__689 img__view_mode__media_large attr__format__media_large" height="10" src="/files/styles/large/public/arrow_wht.png?itok=9Hmw4G8_" style="vertical-align:middle;margin-right:10px;" typeof="foaf:Image" width="29" /><a href="https://www.transifex.com/projects/p/commotion-documentation/r/R1/" style="color:white;target:new tab front;">HELP US TRANSLATE THE COMMOTION CONSTRUCTION KIT</a></span></div>
+<div><span style="padding:10px;background-color:Gray;font-size:1em;display:block;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__689 img__view_mode__media_large attr__format__media_large" height="10" src="/files/styles/large/public/arrow_wht.png?itok=9Hmw4G8_" style="vertical-align:middle;margin-right:10px;" typeof="foaf:Image" width="29" /><a href="https://www.transifex.com/projects/p/commotion-documentation/r/R1/" style="color:white;target:new tab front;">HELP US TRANSLATE THE COMMOTION CONSTRUCTION KIT</a></span></div>
 
-<p>&nbsp;</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__252 img__view_mode__media_large attr__format__media_large" height="410" src="/files/styles/large/public/CCK_general_intro.png?itok=6eRvcgMY" typeof="foaf:Image" width="480" /></p>
-
-<p>&nbsp;</p>
+<p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" /></p>
 
 <p>You will be able to use them on your own or to work with a group of people. There is no one right way to move through them. You will find tools to help you learn the software and build and mount the hardware, as well as tools to help you organize with others in your neighborhood to plan, build, and promote a network. The modules are designed to be used by individuals or groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.</p>
 
