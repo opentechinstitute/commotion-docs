@@ -5,7 +5,7 @@ categories: [development,wireshark,debugging]
 created: 2014-02-04
 changed: 2014-02-04
 teaser_image: styles/large/public/ws_olsr_traffic.png
-post_author: stuohy
+post_author: Seamus Tuohy
 lang: en
 ---
 <p>The program Wireshark, a network analyzer for Windows and Linux, allows you to monitor network traffic to see the actual packets of data being sent around you. This will allow us to look at the difference between encrypted and unencrypted traffic on a router running Commotion to see if encryption is working. This guide is written for Wireshark running on a Linux device, but can be applied to wireshark debugging on any compatible device.<!--more--></p>
