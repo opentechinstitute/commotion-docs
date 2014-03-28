@@ -4,7 +4,7 @@ title: Commotion R1 Breaking Changes
 categories: [R1,upgrade]
 created: 2014-01-10
 changed: 2014-01-10
-post_author: danstaples
+post_author: Dan Staples
 lang: en
 ---
   The latest Commotion release, <a href="https://commotionwireless.net/download/routers">R1 “Grumpy Cat”</a>, builds upon and enhances features from previous Commotion releases. Although we strived to keep Commotion familiar and compatible with previous revisions wherever possible, R1 introduced significant changes that both users and developers should know about.<!--more--> These changes affect the basic networking components of Commotion, and have been longstanding development priorities. First, we will discuss the technical details of the changes and the reasoning behind them, and at the end we'll talk about the compatibility issues this brings up for those running pre-R1 Commotion networks.

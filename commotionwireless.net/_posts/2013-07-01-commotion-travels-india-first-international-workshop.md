@@ -4,7 +4,7 @@ title: Commotion Travels to India for first International Workshop
 categories: [mesh,site visits,gource,git,visualization,troubleshooting,recommendations]
 created: 2013-07-01
 changed: 2013-12-19
-post_author: gerety
+post_author: Ryan Gerety
 lang: en
 ---
  <img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG" style="height:344px; width:400px" />

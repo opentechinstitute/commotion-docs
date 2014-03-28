@@ -4,7 +4,7 @@ title: Commotion DR2 Release Notes
 categories: [release]
 created: 2013-09-19
 changed: 2013-09-19
-post_author: jking
+post_author: Josh King
 lang: en
 ---
   Developer Release 2 is the latest stable release of the Commotion platform. It features a focus on improved features around network management, including initial compatibility with external visualization tools and internationalization support.

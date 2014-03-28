@@ -4,7 +4,7 @@ title: PRESS RELEASE - New Tools Support Communities to Build Own Wireless Commu
 categories: [community wireless,Detroit,red hook,tools,CCK,digital stewards]
 created: 2013-10-01
 changed: 2013-12-19
-post_author: darbyhickey
+post_author: Darby Hickey
 lang: en
 ---
   <img src="/files/styles/large/public/CCK_general_intro.png?itok=6eRvcgMY"/>

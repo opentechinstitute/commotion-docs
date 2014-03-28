@@ -4,7 +4,7 @@ title: Mountain-top repeaters and solar-powered Wi-Fi - Guest Post from Nepal Wi
 categories: [Guest post,community wireless]
 created: 2013-07-26
 changed: 2013-12-19
-post_author: 
+post_author: Guest Post from Nepal Wireless
 lang: en
 ---
   <em>The Open Technology Institute convened over a dozen community technologists from across India and Nepal for the first <a href="https://commotionwireless.net/blog/commotion-travels-india-first-international-workshop">international Commotion Wireless workshop</a> in June. Over the next several weeks, we will be highlighting their innovative grassroots community technology projects on our blog. Our first guest post is from **Mahabir Pun**, co-founder of <a href="http://www.nepalwireless.net/index.php">Nepal Wireless Networking Project</a>.</em>
