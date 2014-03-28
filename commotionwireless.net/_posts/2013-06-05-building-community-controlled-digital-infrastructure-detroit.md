@@ -22,7 +22,7 @@ The Detroit Digital Stewards build upon already-existing <a href="http://www.mli
 
 # Installing the first nodes
 
-<a href="http://prezi.com/lhd-srijaohq/ecosphere/">ECOSphere</a> was the first team to begin installation of their network. The first site was one Steward's house, which they hoped to eventually connect to a store down the street. Working from existing installation and configuration documentation generated for the Commotion wireless manual, and utilizing knowledge that they had gained in class, the two Stewards used basic tools to install a wireless node in about two hours, followed by another hour of troubleshooting. The key tools and materials for the installation were a power drill, a crimping tool, Ethernet cable, a laptop, a "J" mount, and a wireless node -- in this case a Ubiquiti PicoStation M2. The steps for installation were straightforward:
+<p><a href="http://prezi.com/lhd-srijaohq/ecosphere/">ECOSphere</a> was the first team to begin installation of their network. The first site was one Steward's house, which they hoped to eventually connect to a store down the street. Working from existing installation and configuration documentation generated for the Commotion wireless manual, and utilizing knowledge that they had gained in class, the two Stewards used basic tools to install a wireless node in about two hours, followed by another hour of troubleshooting. The key tools and materials for the installation were a power drill, a crimping tool, Ethernet cable, a laptop, a "J" mount, and a wireless node -- in this case a Ubiquiti PicoStation M2. The steps for installation were straightforward:</p>
 
 <ul>
 <li>Install the Commotion wireless software on the wireless node.</li>
