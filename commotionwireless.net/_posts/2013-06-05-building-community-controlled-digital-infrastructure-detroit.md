@@ -23,13 +23,16 @@ The Detroit Digital Stewards build upon already-existing <a href="http://www.mli
 # Installing the first nodes
 
 <a href="http://prezi.com/lhd-srijaohq/ecosphere/">ECOSphere</a> was the first team to begin installation of their network. The first site was one Steward's house, which they hoped to eventually connect to a store down the street. Working from existing installation and configuration documentation generated for the Commotion wireless manual, and utilizing knowledge that they had gained in class, the two Stewards used basic tools to install a wireless node in about two hours, followed by another hour of troubleshooting. The key tools and materials for the installation were a power drill, a crimping tool, Ethernet cable, a laptop, a "J" mount, and a wireless node -- in this case a Ubiquiti PicoStation M2. The steps for installation were straightforward:
+
 <ul>
 <li>Install the Commotion wireless software on the wireless node.</li>
 <li>Drill a hole through the exterior wall on the top floor.</li>
 <li>Attach the mounting hardware, and then the node to the J-mount on the building just outside the window.</li>
 <li>Plug the Ethernet cable into the node.</li>
 <li>Thread Ethernet cable through the hole to the interior and connect to Internet gateway (router or modem).</li>
-<li>Test the connection -- which an OTI staff member successfully did by tweeting:</li></ul>
+<li>Test the connection -- which an OTI staff member successfully did by tweeting:</li>
+</ul>
+
 <a href="https://twitter.com/prestonrhea/status/327170272807501824"><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/prestonECOSphereTweet.jpg"></a>
 
 A few days later, the Morningside Stewards climbed on roofs to set up their first nodes. Like many folks across Detroit and in other cities, the Stewards identified a local church as a key resource in the community -- both as a meeting site and services hub, and now as a spot to mount wireless nodes. The Spirit of Love church in Morningside was the site of the Stewards’ first installation, where they got onto the roof with the pastor’s help and mounted a wireless node high on the church’s chimney.
