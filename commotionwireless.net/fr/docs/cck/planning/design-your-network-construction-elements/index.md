@@ -1,6 +1,6 @@
 ---
 layout: cck
-title: Concevoir votre réseau: éléments de construction
+title: Concevoir votre réseau - éléments de construction
 site_section: help
 sub_section: [cck,cck-planning]
 pdf: cck/planning/7-Design_your_Network_Construction_Elements.pdf
