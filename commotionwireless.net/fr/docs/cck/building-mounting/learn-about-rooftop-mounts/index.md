@@ -9,7 +9,7 @@ categories:
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
-lang: en
+lang: fr
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__361 img__view_mode__media_original attr__format__media_original" height="478" src="/files/learning_rooftop_mounts_support001.png" typeof="foaf:Image" width="510" /></p>
 

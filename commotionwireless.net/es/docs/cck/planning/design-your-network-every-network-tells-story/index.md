@@ -144,7 +144,9 @@ lang: es
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__312 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" width="510" /></p>
 
 <p>7. Dos o más routers inmediatamente próximos unos de otros (en el mismo edificio) pueden conectarse mediante cable.</p>
-</section><section id="how-to-play"><h2>Cómo jugar el juego</h2>
+</section>
+<section id="how-to-play">
+<h2>Cómo jugar el juego</h2>
 
 <p>1. Su grupo debería tener de 3-5 jugadores que estén familiarizados con el vecindario. Reúna sus suministros.</p>
 
@@ -232,7 +234,8 @@ lang: es
 	<dd> </dd>
 	<dt>Router</dt>
 	<dd> </dd>
-</dl></section>
+</dl>
+</section>
 
 <section class="related-information" id="section-related-information">
 <h2>Información relacionada</h2>

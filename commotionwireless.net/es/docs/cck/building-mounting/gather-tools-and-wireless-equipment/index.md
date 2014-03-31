@@ -1,442 +1,405 @@
 ---
 layout: cck
-title: Gather Tools and Wireless Equipment
+title: Reunir herramientas y equipamiento inalámbrico
 site_section: help
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/1-Gather_Tools_and_Wireless_Equipment.pdf
 pdf-all: true
-categories: 
+categories: es
 created: 2013-09-27
 changed: 2013-11-22
 post_author: critzo
-lang: en
+lang: es
 ---
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__375 img__view_mode__media_original attr__format__media_original" height="330" src="/files/gather_tools_and_equipment_support_001.png" typeof="foaf:Image" width="510" /></p>
-
 <section id="section-introduction">
-<h2>Introduction</h2>
+<h2>Introducción</h2>
 
-<p>In this document you will find a list of suggested tools and equipment for wireless installations. It includes many common hand and power tools that you or someone you know may already have, so do not feel that you have to go and purchase all of these! Some items are also listed as optional — these may make some installations easier, but are not required. There is also a list of some wireless routers and mounting kits, but you should pick one based on the specific installation you are performing.</p>
+<p>En este módulo encontrará una lista de herramientas y equipamiento requeridos para las instalaciones inalámbricas. Incluye muchas herramientas manuales y eléctricas comunes, que puede que usted o alguien que conozca ya tengan, ¡así que no se sienta como si de inicio tuviera que ir a comprar todas ellas! Algunos artículos también están listados como opcionales — estos podrían hacer que algunas instalaciones sean más fáciles, pero no son imprescindibles. También hay una lista de algunos routers inalámbricos y kits de montaje, pero debe escoger uno basándose en la instalación específica que esté realizando.</p>
 
-<p>How to use this document: Read through the material and determine if you need to go purchase any tools, hardware or equipment. This should take less than an hour. Finding some of the items may take some more time. We have included specific part numbers for some harder-to-find items, but keep in mind items are occasionally discontinued or renumbered.</p>
+<p>Cómo usar este módulo: Lea la lista de materiales y averigüe si necesita ir a comprar alguna de las herramientas, accesorios o equipamiento. Esto debería llevarle menos de una hora. Encontrar algunos de los artículos puede llevarle algún tiempo más. Hemos incluido números de serie específicos para algunos artículos más difíciles de encontrar, pero tenga en cuenta que a veces los artículos son renumerados o dejan de fabricarse.</p>
 
-<p>This document should be considered a companion to <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>. There are many references in those documents to tools and equipment in this module.</p>
+<p>Este módulo debe considerarse un acompañamiento a los módulos <a href="/es/docs/cck/building-mounting/prep-install-rooftop-nodes">Prepare e Instale Nodos en Tejados</a>, <a href="/es/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprenda sobre Montajes en Tejados</a>, y <a href="/es/docs/cck/building-mounting/learn-rooftop-basics">Aprenda Nociones Básicas sobre Tejados</a>. Hay muchas referencias en esos documentos a herramientas y equipamientos en este módulo.</p>
 
-<p><strong>Time required: less than 1 hour.</strong></p>
+<p><strong>Tiempo requerido: menos de 1 hora.</strong></p>
 </section>
-
 <section id="section-tool-bag">
-<h2>Tool Bag</h2>
+<h2>Bolsa de herramientas</h2>
 
-<p>Everything below is recommended for your tool bag, but items with an asterisk* are optional — you may not need them for your specific installation.</p>
+<p>Todo lo que está debajo se recomienda para su bolsa de herramientas, pero los artículos con un asterisco* son opcionales — puede que no los necesite para su instalación concreta.</p>
 
-<p>All prices are listed in US Dollars (USD).</p>
+<p>Todos los precios están listados en dólares de EEUU (USD)</p>
 
 <table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
+<thead><tr>
+<th>Artículo</th>
+			<th> </th>
+			<th>Detalle</th>
+			<th>Precio</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td><img alt="" src="/files/tool_bag.png" typeof="foaf:Image" width="100"></td>
+	<td>Bolsa de herramientas</td>
+	<td>Cualquier bolsa de herramientas de 18” (46cm) debería ser suficientemente grande</td>
+	<td>45$</td>
+</tr>
+<tr>
+<td><img alt="" src="/files/first_aid_kit-1.png" typeof="foaf:Image" width="100"></td>
+	<td>Kit de primeros auxilios</td>
+	<td>Cualquier kit de primeros auxilios compacto y portátil</td>
+	<td>30$</td>
+</tr>
+<tr>
+<td><img alt="" src="/files/RJ45_crimper.png" typeof="foaf:Image" width="100"></td>
+	<td>Crimpador RJ-45</td>
+	<td>EZ-RJPRO HD de Platinum Tools</td>
+	<td>70$</td>
+</tr>
+<tr>
+<td><img alt="" src="/files/utility_knife.png" typeof="foaf:Image" width="100"></td>
+	<td>Destornillador 6-en-1</td>
+	<td> </td>
+	<td>10$</td>
+</tr>
+<tr>
+<td><img alt="" src="/files/box_wrench_8_inch.png" typeof="foaf:Image" width="100"></td>
+			<td>Llave inglesa de 8” (20cm)</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="100" src="/files/tool_bag.png" typeof="foaf:Image" width="100" /></td>
-			<td>Tool Bag</td>
-			<td>Any 18” tool bag should be large enough</td>
-			<td>$45</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__431 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/utility_knife.png" typeof="foaf:Image" width="100"></td>
+			<td>Cuchillo multiusos (cúter)</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__691 img__view_mode__media_original attr__format__media_original" height="84" src="/files/first_aid_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>First Aid Kit</td>
-			<td>Any compact, portable first aid kit</td>
-			<td>$30</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__296 img__view_mode__media_original attr__format__media_original" height="85" src=" /files/edge_cutters.png" typeof="foaf:Image" width="100"></td>
+			<td>Tenazas con aislante</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__426 img__view_mode__media_original attr__format__media_original" height="60" src="/files/RJ45_crimper.png" typeof="foaf:Image" width="100" /></td>
-			<td>RJ-45 Crimper</td>
-			<td>EZ-RJPRO HD from Platinum Tools</td>
-			<td>$70</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__297 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/measuring_tape.png" typeof="foaf:Image" width="100"></td>
+			<td>Cinta métrica</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" src="/files/screwdriver_6_in_1.png" style="width: 100px; height: 60px;" typeof="foaf:Image" /></td>
-			<td>6-in-1 Screwdriver</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__298 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/glasses_eye_protection.png" typeof="foaf:Image" width="100"></td>
+			<td>Gafas protectoras</td>
+			<td> </td>
+			<td>5$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__294 img__view_mode__media_original attr__format__media_original" height="60" src="/files/box_wrench_8_inch.png" typeof="foaf:Image" width="100" /></td>
-			<td>8” Adjustible Box wrench</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__299 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/ear_plugs.png" typeof="foaf:Image" width="100"></td>
+			<td>Tapones para los oídos</td>
+			<td> </td>
+			<td>5$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__431 img__view_mode__media_original attr__format__media_original" height="60" src="/files/utility_knife.png" typeof="foaf:Image" width="100" /></td>
-			<td>Utility knife (box cutter)</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__300 img__view_mode__media_original attr__format__media_original" height="55" src=" /files/flashlight.png" typeof="foaf:Image" width="100"></td>
+			<td>Linterna de mano o frontal</td>
+			<td> </td>
+			<td>15$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__296 img__view_mode__media_original attr__format__media_original" height="85" src="/files/edge_cutters.png" typeof="foaf:Image" width="100" /></td>
-			<td>Edge cutters</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__301 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/cable_stripper.png" typeof="foaf:Image" width="100"></td>
+			<td>Pelador de cables*</td>
+			<td>Pelador de coberturas de cables CAT5, número de artículo 15015</td>
+			<td>14$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__297 img__view_mode__media_original attr__format__media_original" height="60" src="/files/measuring_tape.png" typeof="foaf:Image" width="100" /></td>
-			<td>Measuring tape</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__302 img__view_mode__media_original attr__format__media_original" height="80" src=" /files/pliers_side_cutting_box.png" typeof="foaf:Image" width="100"></td>
+			<td>Alicates de corte con aislante de 8” (20cm)*</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__298 img__view_mode__media_original attr__format__media_original" height="60" src="/files/glasses_eye_protection.png" typeof="foaf:Image" width="100" /></td>
-			<td>Eye protection glasses</td>
-			<td>&nbsp;</td>
-			<td>$5</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/pliers_needle_nose.png" typeof="foaf:Image" width="100"></td>
+			<td>Alicates<br>punta plana con aislante de 8” (20cm)*</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__299 img__view_mode__media_original attr__format__media_original" height="60" src="/files/ear_plugs.png" typeof="foaf:Image" width="100" /></td>
-			<td>Ear plugs</td>
-			<td>&nbsp;</td>
-			<td>$5</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__323 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/level_magnetic-1.png" typeof="foaf:Image" width="100"></td>
+			<td>Pequeño nivel con imanes*</td>
+			<td> </td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__300 img__view_mode__media_original attr__format__media_original" height="55" src="/files/flashlight.png" typeof="foaf:Image" width="100" /></td>
-			<td>Flashlight or headlamp</td>
-			<td>&nbsp;</td>
-			<td>$15</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__305 img__view_mode__media_original attr__format__media_original" height="80" src=" /files/staple_gun.png" typeof="foaf:Image" width="100"></td>
+			<td>Grapadora<br>de cables*</td>
+			<td>Arrow Fastener T59 Wiring Tacker (grapas para cableado)</td>
+			<td>40$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__301 img__view_mode__media_original attr__format__media_original" height="60" src="/files/cable_stripper.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cable stripper*</td>
-			<td>CAT5 cable jacket stripper, part # 15015</td>
-			<td>$14</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__690 img__view_mode__media_original attr__format__media_original" height="71" src="/files/pliers_side_cutting_box_1.png" typeof="foaf:Image" width="100" /></td>
-			<td>8” Side-cutting box pliers*</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="60" src="/files/pliers_needle_nose.png" typeof="foaf:Image" width="100" /></td>
-			<td>8” Needle-nose<br />
-			pliers*</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__692 img__view_mode__media_original attr__format__media_original" height="70" src="/files/level_magnetic.png" typeof="foaf:Image" width="100" /></td>
-			<td>Small magnetic level*</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__305 img__view_mode__media_original attr__format__media_original" height="80" src="/files/staple_gun.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cable tacker<br />
-			staple gun*</td>
-			<td>Arrow Fastener T59 Wiring Tacker</td>
-			<td>$40</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal for hand tools:</td>
-			<td>$329</td>
-		</tr>
-	</tfoot>
+</tbody>
+<tfoot><tr>
+<td colspan="3" rowspan="1">Subtotal de herramientas manuales:</td>
+			<td>329$</td>
+		</tr></tfoot>
 </table>
 </section>
-
 <section id="section-drilling-tools">
-<h2>Drilling Tools</h2>
+<h2>Herramientas de taladrado</h2>
 
-<p>Often cables must be run through masonry or brick walls, and mounting hardware must be installed on outdoor masonry walls.<strong> Items with an asterisk* are optional</strong>.</p>
+<p>A menudo los cables deben atravesar mampostería o muros de ladrillo, y los accesorios de montaje deben ser instalados en muros de mampostería exteriores. <strong>Los artículos con un asterisco* son opcionales</strong>.</p>
 
 <table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
+<thead><tr>
+<th>Artículo</th>
+			<th> </th>
+			<th>Detalle</th>
+			<th>Precio</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__307 img__view_mode__media_original attr__format__media_original" height="80" src=" /files/drill_hammer_corded.png" typeof="foaf:Image" width="100"></td>
+			<td>Taladro percutor (con cable)</td>
+			<td>Opción menos cara - taladro estándar con cable</td>
+			<td>70$</td>
 		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__307 img__view_mode__media_original attr__format__media_original" height="80" src="/files/drill_hammer_corded.png" typeof="foaf:Image" width="100" /></td>
-			<td>Hammer drill (corded)</td>
-			<td>Less expensive option - standard corded drill</td>
-			<td>$70</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src=" /files/drill_bits_masonry.png" typeof="foaf:Image" width="100"></td>
+			<td>Brocas de mampostería</td>
+			<td>Para hormigón, ladrillo o piedra (Nota: no brocas tipo SDS (retención por resorte))</td>
+			<td>20$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src="/files/drill_bits_masonry.png" typeof="foaf:Image" width="100" /></td>
-			<td>Masonry drill bits</td>
-			<td>For concrete, brick or stone (Note: not SDS bits)</td>
-			<td>$20</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__309 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/drill_bits_regular.png" typeof="foaf:Image" width="100"></td>
+			<td>Brocas normales (lisas, retención por presión de rosca)</td>
+			<td>Cualquier juego de brocas para madera / metal está bien</td>
+			<td>15$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__309 img__view_mode__media_original attr__format__media_original" height="60" src="/files/drill_bits_regular.png" typeof="foaf:Image" width="100" /></td>
-			<td>Regular drill bits</td>
-			<td>Any set of wood / metal drill bits are fine</td>
-			<td>$15</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__310 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/driver_bits_heavy_duty.png" typeof="foaf:Image" width="100"></td>
+			<td>Brocas destornillador de alto-rendimiento</td>
+			<td>Brocas destornillador de cabeza plana estándar y Phillips (tipo de cruceta)</td>
+			<td>5$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__310 img__view_mode__media_original attr__format__media_original" height="60" src="/files/driver_bits_heavy_duty.png" typeof="foaf:Image" width="100" /></td>
-			<td>Heavy-duty driver bits</td>
-			<td>Standard flathead and Phillips driver bits</td>
-			<td>$5</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__311 img__view_mode__media_original attr__format__media_original" height="80" src=" /files/drill_hammer_cordless.png" typeof="foaf:Image" width="100"></td>
+			<td>Taladro percutor (sin cable)*</td>
+			<td>Más caro - 18V sin cable o equivalente</td>
+			<td>200$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__311 img__view_mode__media_original attr__format__media_original" height="80" src="/files/drill_hammer_cordless.png" typeof="foaf:Image" width="100" /></td>
-			<td>Hammer drill (cordless)*</td>
-			<td>More expensive - 18V cordless or equiv.</td>
-			<td>$200</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__322 img__view_mode__media_original attr__format__media_original" height="50" src=" /files/12in_bit.png" typeof="foaf:Image" width="100"></td>
+			<td>Broca para mampostería de 12” (30cm) o más larga*</td>
+			<td>Broca de 12” (30cm) - específica para hormigón, ladrillo o piedra (Nota: no brocas tipo SDS (retención por resorte))</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src="/files/drill_bits_masonry.png" typeof="foaf:Image" width="100" /></td>
-			<td>12” or longer masonry bit*</td>
-			<td>½” bit for thick walls - rated for concrete, brick or stone (Note: not SDS bits)</td>
-			<td>$10</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal for drilling tools:</td>
-			<td>$320</td>
-		</tr>
-	</tfoot>
+</tbody>
+<tfoot><tr>
+<td colspan="3" rowspan="1">Subtotal de herramientas de taladrado:</td>
+			<td>320$</td>
+		</tr></tfoot>
 </table>
 </section>
-
 <section id="section-consumables">
-<h2>Consumables</h2>
+<h2>Consumibles</h2>
 
-<p>These items are used to attach or fasten equipment or cabling in place. You will use them up as time goes on, and will need to purchase more.</p>
+<p>Estos artículos se usan para fijar o sujetar equipamiento o cableado en su sitio. Los consumirá con el paso del tiempo, y tendrá que comprar más.</p>
 
 <table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
+<thead><tr>
+<th>Artículo</th>
+			<th> </th>
+			<th>Detalle</th>
+			<th>Precio</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__318 img__view_mode__media_original attr__format__media_original" height="70" src=" /files/screws_masonry.png" typeof="foaf:Image" width="100"></td>
+			<td>Tornillos para mampostería (cilíndricos)</td>
+			<td>Caja de 75 unidades por 21$. Observe que se le caerán y perderá muchos tornillos (de los que adquiera)</td>
+			<td>0,30$</td>
 		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__318 img__view_mode__media_original attr__format__media_original" height="70" src="/files/screws_masonry.png" typeof="foaf:Image" width="100" /></td>
-			<td>Masonry screws</td>
-			<td>Box of 75 for $21. Note that you will drop and lose many screws</td>
-			<td>$0.30</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__319 img__view_mode__media_original attr__format__media_original" height="70" src=" /files/clamps_hose.png" typeof="foaf:Image" width="100"></td>
+			<td>Abrazaderas de manguera de 2” (5 cm)</td>
+			<td>Para fijar el router al mástil</td>
+			<td>5$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__319 img__view_mode__media_original attr__format__media_original" height="70" src="/files/clamps_hose.png" typeof="foaf:Image" width="100" /></td>
-			<td>2” Hose clamps</td>
-			<td>To attach router to mast</td>
-			<td>$5</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__320 img__view_mode__media_original attr__format__media_original" height="70" src=" /files/zip_ties.png" typeof="foaf:Image" width="100"></td>
+			<td>Bridas de poliamida con cremallera</td>
+			<td>Juego de bridas de 6” (15cm) y 12” (30cm) tratadas contra ultravioleta (UV)</td>
+			<td>25$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__320 img__view_mode__media_original attr__format__media_original" height="70" src="/files/zip_ties.png" typeof="foaf:Image" width="100" /></td>
-			<td>Zip ties</td>
-			<td>Set of 6” and 12” UV-rated ties</td>
-			<td>$25</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__321 img__view_mode__media_original attr__format__media_original" height="62" src=" /files/staples_cable_tacker.png" typeof="foaf:Image" width="100"></td>
+			<td>Grapas curvas para grapadora de cables</td>
+			<td>Arrow Fastener 591189 - 5/16” (8mm ancho) grapas con aislamiento </td>
+			<td>8$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__321 img__view_mode__media_original attr__format__media_original" height="62" src="/files/staples_cable_tacker.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cable tacker staples</td>
-			<td>Arrow Fastener 591189 - 5/16” insulated staples</td>
-			<td>$8</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal for consumables:</td>
-			<td>$50</td>
-		</tr>
-	</tfoot>
+</tbody>
+<tfoot><tr>
+<td colspan="3" rowspan="1">Subtotal de consumibles:</td>
+			<td>50$</td>
+		</tr></tfoot>
 </table>
-
-<p><strong>Total for Hand and Drilling Tools: $675</strong></p>
+<p><strong>Total de herramientas manuales y eléctricas: 675$</strong></p>
 </section>
-
 <section id="section-wireless-equipment">
-<h2>Wireless Equipment</h2>
+<h2>Equipamiento inalámbrico</h2>
 
-<p>The section below details different types of wireless equipment and the mounting hardware you can use to attach it to the roof of a building. The diagram below shows how all the various elements go together, but for determining what equipment and mounts are best for a specific home or building, please see <a href="/docs/cck/planning/inventory-the-neighborhood">Inventory the Neighborhood</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>.</p>
+<p>La sección inferior detalla diferentes tipos de equipamiento inalámbrico y accesorios de montaje que puede usar para fijarlo al tejado de una edificación. El diagrama de debajo muestra cómo se unen todos los diferentes elementos, pero para determinar qué equipamiento y montajes son los mejores para una vivienda o edificio, vea los módulos <a href="/es/docs/cck/planning/inventory-the-neighborhood">Determine Necesidades de Instalación</a>, <a href="/es/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprenda sobre Montajes en Tejados</a>, y <a href="/es/docs/cck/building-mounting/learn-rooftop-basics">Aprenda Nociones Básicas sobre Tejados</a>.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__376 img__view_mode__media_original attr__format__media_original" height="454" src="/files/wireless_node.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__376 img__view_mode__media_original attr__format__media_original" height="454" src=" /files/wireless_node.png" typeof="foaf:Image" width="510"></p>
 
-<p><strong>1. WIRELESS NODE</strong></p>
+<p><strong>1. NODO INALÁMBRICO</strong></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__377 img__view_mode__media_original attr__format__media_original" height="454" src="/files/roof_mount.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__377 img__view_mode__media_original attr__format__media_original" height="454" src=" /files/roof_mount.png" typeof="foaf:Image" width="510"></p>
 
-<p><strong>2. ROOF MOUNT.</strong> For specific hardware, consult the <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> module.</p>
+<p><strong>2. MONTAJE EN UN TEJADO.</strong> Para accesorios específicos, consulte el módulo <a href="/es/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprenda sobre Montajes en Tejados</a>.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__378 img__view_mode__media_original attr__format__media_original" height="370" src="/files/ethernet_cable.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__378 img__view_mode__media_original attr__format__media_original" height="370" src=" /files/ethernet_cable.png" typeof="foaf:Image" width="510"></p>
 
-<p><strong>3. ETHERNET CABLE.</strong> Spool of 1000 feet is around $150. A single install may use only 50-100 feet of a spool.</p>
+<p><strong>3. CABLE ETHERNET.</strong> Una bobina de 1000 pies (304m) ronda los 150$. Tan solo una única instalación puede llegar a usar 50-100 pies (15-30m) de una bobina.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__379 img__view_mode__media_original attr__format__media_original" height="333" src="/files/poe.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__379 img__view_mode__media_original attr__format__media_original" height="333" src=" /files/poe.png" typeof="foaf:Image" width="510"></p>
 
-<p><strong>4. POE (POWER OVER ETHERNET).</strong> Comes with wireless node.</p>
+<p><strong>4. POE (POWER OVER ETHERNET).</strong> El inyector PoE (alimentación sobre Ethernet) viene con el nodo inalámbrico.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__380 img__view_mode__media_original attr__format__media_original" height="300" src="/files/indoor_router.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__380 img__view_mode__media_original attr__format__media_original" height="300" src=" /files/indoor_router.png" typeof="foaf:Image" width="510"></p>
 
-<p><strong>5. INDOOR ROUTER</strong> (Optional) This item is provided by the community member.</p>
+<p><strong>5. ROUTER DE INTERIOR</strong> (Opcional) Este elemento es proporcionado por el miembro de la comunidad.</p>
 
-<p>For a standard installation, select one of the Ubiquiti routers per site. Add an indoor router to extend coverage inside the building. Estimate the number of feet of cabling to connect the routers to each other and the Ubiquiti router to the power source, with two RJ-45 ends per cable (plus some extra, just in case).</p>
+<p>Para una instalación estándar, por cada sitio seleccione uno de los routers Ubiquiti. Añada un router de interior para extender la cobertura dentro del edificio. Haga una estimación de la longitud de cable necesaria para conectar los routers entre ellos con dos extremos RJ-45 por cable, y al router Ubiquiti a la fuente de alimentación (y algo más de cable por si acaso).</p>
 
-<p class="tip">There are two possible ways to connect this router to the Internet:<br />
-<br />
-If the Commotion node is plugged in to the router's LAN (inside network) port, and there is a modem or connection to the Internet plugged in to the WAN port, an Internet connection will be provided to the neighborhood mesh.<br />
-<br />
-If the Commotion node is plugged in to the router's WAN (Internet) port, the connection to the Internet will be provided by the neighborhood mesh. This requires your neighbors to be donating one or more connections to the mesh. If there is no connection to the Internet, you can use the network as a local "Intranet" or local network.</p>
+<p class="tip">Hay dos posibles vías para conectar este router a Internet:<br><br>Si el nodo Commotion está enchufado al puerto LAN (red interna) del router, y hay un modem o conexión a Internet enchufada al puerto WAN, se suministrará una conexión a Internet a la malla ('mesh') del vecindario.<br><br>Si el nodo Commotion está enchufado al puerto WAN (Internet) del router, se proporcionará conexión a Internet desde la malla ('mesh') del vecindario. Esto requiere que sus vecinos se encuentren donando una o más conexiones a la malla. Si no hay conexión a Internet, aún puede usar la red de malla como una "Intranet" o red local.</p>
 
 <table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" src="/files/router_short_range_omnidirectional.png" style="width: 100px; height: 90px;" typeof="foaf:Image" /></td>
-			<td>Short range, omnidirectional router</td>
+<thead><tr>
+<th>Artículo</th>
+			<th> </th>
+			<th>Detalle</th>
+			<th>Precio</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" src=" /files/router_short_range_omnidirectional.png" style="width: 100px; height: 90px;" typeof="foaf:Image"></td>
+			<td>Rango corto, router omnidireccional</td>
 			<td>Ubiquiti PicoStation</td>
-			<td>$45</td>
+			<td>45$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="120" src="/files/router_medium_range_directional.png" typeof="foaf:Image" width="100" /></td>
-			<td>Medium range, directional router</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="120" src=" /files/router_medium_range_directional.png" typeof="foaf:Image" width="100"></td>
+			<td>Rango medio, router direccional</td>
 			<td>Ubiquiti NanoStation</td>
-			<td>$30</td>
+			<td>30$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="100" src="/files/router_long_range_high_power_antenna.png" typeof="foaf:Image" width="100" /></td>
-			<td>Long range, high power router with antenna options</td>
-			<td>Ubiquiti Rocket + Antenna</td>
-			<td>$70</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="100" src=" /files/router_long_range_high_power_antenna.png" typeof="foaf:Image" width="100"></td>
+			<td>Rango largo, router de alta potencia con antena opcional</td>
+			<td>Ubiquiti Rocket + Antena</td>
+			<td>70$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="100" src="/files/RJ45_ends.png" typeof="foaf:Image" width="100" /></td>
-			<td>RJ-45 Ends</td>
-			<td>CAT5/5e 100-piece jar, $60,<br />
-			part # 202003J</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="100" src=" /files/RJ45_ends.png" typeof="foaf:Image" width="100"></td>
+			<td>Envase de 100-unidades de 60$</td>
+			<td>de extremos RJ-45 CAT5/5E,<br>número de serie 202003J</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="72" src="/files/ethernet_cable_spool.png" typeof="foaf:Image" width="100" /></td>
-			<td>Spool of Ethernet cable</td>
-			<td>Outdoor CAT5e, Ubiquiti TC-PRO, (spool of 1000 feet)</td>
-			<td>$65</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="72" src=" /files/ethernet_cable_spool.png" typeof="foaf:Image" width="100"></td>
+			<td>Bobina de cable Ethernet</td>
+			<td>Ubiquiti TC-PRO, CAT5e para exteriores (bobina de 1000 pies (304m))</td>
+			<td>65$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="80" src="/files/router_basic_indoor.png" typeof="foaf:Image" width="100" /></td>
-			<td>Basic indoor router</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="80" src=" /files/router_basic_indoor.png" typeof="foaf:Image" width="100"></td>
+			<td>Router de interior básico</td>
 			<td>Linksys WRT54GL</td>
-			<td>$50</td>
+			<td>50$</td>
 		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal, per building:</td>
-			<td>$80-$140</td>
-		</tr>
-	</tfoot>
+</tbody>
+<tfoot><tr>
+<td colspan="3" rowspan="1">Subtotal, por edificación:</td>
+			<td>80-140$</td>
+		</tr></tfoot>
 </table>
 </section>
-
 <section id="section-mounting-hardware">
-<h2>Mounting Hardware</h2>
+<h2>Accesorios de montaje</h2>
 
-<p>Typically you will need one mast, two hose clamps, and one mounting kit per building that has exterior equipment. For more information on specific types of mounts, please see <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>.</p>
+<p>Típicamente necesitará un mástil, dos abrazaderas de manguera, y un kit de montaje por cada edificación que tenga equipamiento al exterior. Para más información sobre tipos específicos de montajes, vea <a href="/es/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprenda sobre Montajes en Tejados</a>.</p>
 
 <table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
+<thead><tr>
+<th>Artículo</th>
+			<th> </th>
+			<th>Detalle</th>
+			<th>Precio</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__331 img__view_mode__media_original attr__format__media_original" height="90" src=" /files/steel_mast.png" typeof="foaf:Image" width="100"></td>
+			<td>Mástil de acero inoxidable de 5’ (152cm)</td>
+			<td>RadioShack - Antennacraft 5’ 18-gauge mast (mástil de antena de 152cm y calibre 18 (16mm))</td>
+			<td>14$</td>
 		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__331 img__view_mode__media_original attr__format__media_original" height="90" src="/files/steel_mast.png" typeof="foaf:Image" width="100" /></td>
-			<td>5’ steel mast</td>
-			<td>Radio Shack - Antennacraft 5’ 18-gauge mast</td>
-			<td>$14</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" height="130" src=" /files/chimney_mount_kit.png" typeof="foaf:Image" width="100"></td>
+			<td>Kit de montaje en chimenea</td>
+			<td>Winegard CM-2012 kit (soportes para la chimenea)</td>
+			<td>25$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" height="130" src="/files/chimney_mount_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>Chimney mount kit</td>
-			<td>Winegard CM-2012 kit (Wraps around chimney.)</td>
-			<td>$25</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__333 img__view_mode__media_original attr__format__media_original" height="80" src=" /files/wall_mount_kit.png" typeof="foaf:Image" width="100"></td>
+			<td>Kit de montaje en muro</td>
+			<td>Channel Master CM-9034 (requiere taladrado y uso de tornillos de mampostería)</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__333 img__view_mode__media_original attr__format__media_original" height="80" src="/files/wall_mount_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>Wall mount kit</td>
-			<td>Channel Master CM-9034 (Requires drilling holes and using masonry screws.)</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__334 img__view_mode__media_original attr__format__media_original" height="63" src=" /files/eaves_mounting_kit.png" typeof="foaf:Image" width="100"></td>
+			<td>Kit de montaje en aleros</td>
+			<td>Winegard SW-0012 (para bordes de tejados)</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__334 img__view_mode__media_original attr__format__media_original" height="63" src="/files/eaves_mounting_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>Eaves mounting kit</td>
-			<td>Winegard SW-0012 (For the edge of a roof.)</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__335 img__view_mode__media_original attr__format__media_original" height="120" src=" /files/non_penatrating_mount.png" typeof="foaf:Image" width="100"></td>
+			<td>Montaje no-penetrante</td>
+			<td>VMP FRM-125 (para tejados planos)</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__335 img__view_mode__media_original attr__format__media_original" height="120" src="/files/non_penatrating_mount.png" typeof="foaf:Image" width="100" /></td>
-			<td>Non-penetrating mount</td>
-			<td>VMP FRM-125 (For flat roofs.)</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__336 img__view_mode__media_original attr__format__media_original" height="35" src=" /files/rubber_mat.png" typeof="foaf:Image" width="100"></td>
+			<td>Alfombrilla de caucho</td>
+			<td>NPRMAT8 (para proteger los tejados bajo montajes no-penetrantes)</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__336 img__view_mode__media_original attr__format__media_original" height="35" src="/files/rubber_mat.png" typeof="foaf:Image" width="100" /></td>
-			<td>Rubber mat</td>
-			<td>NPRMAT8 (To protect roofs under non-penetrating mount.)</td>
-			<td>$10</td>
+<tr>
+<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__337 img__view_mode__media_original attr__format__media_original" height="60" src=" /files/cinder_block.png" typeof="foaf:Image" width="100"></td>
+			<td>Bloques de construcción de cemento</td>
+			<td>Requeridos como lastre para montajes no-penetrantes.</td>
+			<td>10$</td>
 		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__337 img__view_mode__media_original attr__format__media_original" height="60" src="/files/cinder_block.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cinder blocks</td>
-			<td>Required as ballast for non-penetrating mount.</td>
-			<td>$10</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal, per building:</td>
-			<td>$30-$120</td>
-		</tr>
-	</tfoot>
+</tbody>
+<tfoot><tr>
+<td colspan="3" rowspan="1">Subtotal, por edificación:</td>
+			<td>30-120$</td>
+		</tr></tfoot>
 </table>
 </section>
-
 <section id="section-definitions">
-<h2>Definitions</h2>
+<h2>Definiciones</h2>
 
 <dl>
-	<dt>PoE</dt>
-	<dd>Power over Ethernet. Systems which pass electrical power along with data on Ethernet cabling.</dd>
+<dt>PoE</dt>
+	<dd>Power over Ethernet (alimentación sobre E.). Sistemas que pasan la alimentación eléctrica junto con los datos por el cableado Ethernet.</dd>
 	<dt>LAN</dt>
-	<dd>Local Area Network. In this case, a computer network covering a small local area, such as a home or office with Ethernet cables or wireless signals.</dd>
+	<dd>Local Area Network. En este caso, una red de computadoras que cubren áreas locales pequeñas, tales como una vivienda u oficina, mediante cables Ethernet o señales inalámbricas.</dd>
 	<dt>WAN</dt>
-	<dd>Wide Area Network. In this case, this signifies the connection to the global Internet.</dd>
+	<dd>Wide Area Network. En este caso esto equivale a la red de salida de la conexión hacia la Internet global.</dd>
 </dl>
 </section>
-
 <section class="related-information" id="section-related-information">
-<h2>Related Information</h2>
+<h2>Información relacionada</h2>
 
-<p>To calculate the cost of your installation, use this spreadsheet: "Gather Tools and Equipment Spreadsheet." You can either print the spreadsheet out or use it on your computer.</p>
+<p>Para calcular el coste de su instalación, use esta hoja de cálculo: "Hoja de cálculo del módulo Reúna Herramientas y Equipamiento". Puede tanto imprimir la hoja de cálculo como usarla en su propia computadora.</p>
 
-<p>This module should be considered a companion to <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>.</p>
+<p>Este módulo debe considerarse un acompañamiento de <a href="/es/docs/cck/building-mounting/prep-install-rooftop-nodes">Prepare e instale nodos en tejados</a>, <a href="/es/docs/cck/building-mounting/learn-rooftop-basics">Aprenda sobre montajes en tejados</a>, and <a href="/es/docs/cck/building-mounting/learn-rooftop-basics">Aprenda nociones básicas sobre tejados</a>.</p>
 </section>
- 

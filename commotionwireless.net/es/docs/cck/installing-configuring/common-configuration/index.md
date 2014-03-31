@@ -9,7 +9,7 @@ categories:
 created: 2013-11-06
 changed: 2014-01-12
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__610 img__view_mode__media_original attr__format__media_original" height="299" src="/files/CCK_Common_Configs_Intro_0_0.png" typeof="foaf:Image" width="510" /></p>
 

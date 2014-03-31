@@ -9,7 +9,7 @@ categories:
 created: 2013-09-27
 changed: 2014-01-13
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
 

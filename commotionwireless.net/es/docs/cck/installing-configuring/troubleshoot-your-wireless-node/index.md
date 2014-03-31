@@ -9,7 +9,7 @@ categories:
 created: 2013-11-04
 changed: 2013-12-23
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
 

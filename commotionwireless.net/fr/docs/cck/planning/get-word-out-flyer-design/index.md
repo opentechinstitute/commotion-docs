@@ -9,7 +9,7 @@ categories:
 created: 2013-09-27
 changed: 2013-10-07
 post_author: critzo
-lang: en
+lang: fr
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" height="250" src="/files/get_the_word_out_flyer_design_support001.png" typeof="foaf:Image" width="510" /></p>
 

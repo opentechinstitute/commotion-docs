@@ -7,7 +7,7 @@ categories:
 created: 2013-09-20
 changed: 2014-03-04
 post_author: critzo
-lang: en
+lang: fr
 ---
   <p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in trainings around the world and at home. It is a “do it ourselves” guide to building wireless mesh networks.</p>
 

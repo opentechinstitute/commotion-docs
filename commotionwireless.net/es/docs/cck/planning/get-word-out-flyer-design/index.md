@@ -1,148 +1,140 @@
 ---
 layout: cck
-title: Get the Word Out - Flyer Design
+title: Difunda el mensaje - Diseño de panfletos
 site_section: help
 sub_section: [cck,cck-planning]
 pdf: cck/planning/4-Get_the_Word_Out_Flyer_Design.pdf
 pdf-all: true
-categories: 
+categories: es
 created: 2013-09-27
 changed: 2013-10-07
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" height="250" src="/files/get_the_word_out_flyer_design_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="introduction">
-<h2>Introduction</h2>
+<h2>Introducción</h2>
 
-<p>This module will help you make a diagram to explain your wireless project to people in the community. Especially when you conduct surveys or bring people together for a meeting, it is a good idea to have a diagram on hand as an example or illustration of what you are proposing. This module contains samples and step-by-step guidelines for making a flyer.</p>
+<p>Este módulo le ayudará a hacer un diagrama para explicar su proyecto inalámbrico a la gente de su comunidad. Especialmente cuando realiza encuentas o junta personas para una reunión, es una buena idea tener un diagrama a mano como ejemplo o ilustración de lo que está proponiendo. Este módulo contiene ejemplos y pautas paso-a-paso para elaborar un panfleto.</p>
 
-<p><strong>Time required: 1-2 hours.</strong></p>
+<p><strong>Tiempo requerido: 1-2 horas.</strong></p>
 
-<h3>MATERIALS + SUPPLIES NEEDED</h3>
+<h3>MATERIALES + SUMINISTROS NECESARIOS</h3>
 
-<p>8.5"x11" pieces of paper to draw on and glue onto.</p>
+<p>Piezas de papel de 8.5"x11" (21,6cm x 28cm) sobre las que dibujar y pegar</p>
 
-<p>A surface to work on (preferably a table so people with mobility challenges can participate comfortably).</p>
+<p>Una superficie sobre la que trabajar (preferiblemente una mesa para que las personas con dificultades de movilidad puedan participar comfortablemente).</p>
 
-<p>Scissors</p>
+<p>Tijeras</p>
 
-<p>Glue sticks</p>
+<p>Barras de pegamento</p>
 
-<p>Pen</p>
+<p>Lápiz</p>
 
-<p>Access to a copier (optional)</p>
+<p>Acceso a una copiadora (opcional)</p>
 
-<p>A printed copy of the "Design your Network: Construction Elements" module (optional)</p>
+<p>Una copia impresa del módulo "Diseñe su red: Elementos de construcción" (opcional)</p>
 </section>
-
 <section id="creating-a-diagram">
-<h2>Creating a Diagram</h2>
+<h2>Crear un diagrama</h2>
 
-<h3>ARRANGE ELEMENTS TO MAKE A DIAGRAM</h3>
+<h3>ORGANICE LOS ELEMENTOS PARA ELABORAR UN DIAGRAMA</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="600" src="/files/get_the_word_out_flyer_design_support002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="600" src="https://commotionwireless.net/sites/commotionwireless.net/files/get_the_word_out_flyer_design_support002.png" typeof="foaf:Image" width="510"></p>
 
 <ol>
-	<li>Decide whether you want to sketch your neighborhood or use pieces from the "Design your Network: Construction Elements" module. If you're using the Construction Elements, cut out the ones you recognize from your neighborhood and any other pieces you want to use.</li>
-	<li>Sketch or arrange the elements on the page to look like your neighborhood. Focus on the features that will be part of your network and use only what you need so the page is clean and simple.</li>
-	<li>Remember to include images of people, the most important part of any network!</li>
-	<li>Once you have the basic neighborhood depiction, glue the elements in place.</li>
-	<li>Add wireless signal images or dotted lines to show the buildings you would like to connect, or draw the connections with a marker.</li>
-	<li>Test! Show your diagram to someone and ask them to tell you what they think it says. Keep revising until your message is clear.</li>
-	<li>Optional: For a more professional look, ask an experienced artist or graphic designer to make a new image based on your diagram. Or use graphic design software like Inkscape or Illustrator to redraw and polish your diagram.</li>
-	<li>Once you have your diagram, make copies to share your vision with your neighbors.</li>
+<li>Decida si quiere hacer un esquema manual de su vecindario o usar piezas del módulo "Diseñe su red: Elementos de construcción". Si está usando los elementos de construcción, recorte aquellos que reconozca en su vecindario y algunas otras piezas que quiera usar.</li>
+	<li>Realice un esquema u organice los elementos en la página de forma que se asemejen a su vecindario. Concéntrese en las características que serán parte de su red y use sólo lo que necesite para que la página sea clara y simple.</li>
+	<li>Recuerde incluir imágenes de personas, ¡la parte más importante de cualquier red!</li>
+	<li>Una vez tenga la representación básica de su vecindario, pegue los elementos en su sitio.</li>
+	<li>Añada imágenes representando señales inalámbricas, o líneas de puntos, para mostrar las edificaciones que le gustaría conectar, o dibuje las conexiones con un rotulador marcador.</li>
+	<li>¡Pruébelo! Muestre su diagrama a alguien y pídale que le diga qué piensa que cuenta. Siga perfeccionándolo hasta que su mensaje esté claro.</li>
+	<li>Opcional: Para una apariencia más profesional, pida a un artista o diseñador gráfico experimentado que haga una nueva imagen basada en su diagrama. O use un programa de diseño gráfico como Inkscape o Illustrator para redibujar y pulir su diagrama.</li>
+	<li>Una vez tenga su diagrama, haga copias para compartir su visión con sus vecinos.</li>
 </ol>
-
-<p>If you are working with partners, let them make their own diagrams, then compare and discuss. Or collaborate on a shared document before gluing down the pieces. The graphic elements are scaled for letter-sized paper. If you want to collaborate on a bigger piece of paper, use a copier to enlarge and duplicate the elements.</p>
+<p>Si está trabajando con asociados, permítales hacer sus propios diagramas, luego compárelos y discútalos. O colabore en un documento compartido antes de fijar los elementos. Los elementos gráficos están adaptados para un papel de tamaño-carta. Si quiere trabajar sobre un tamaño de papel mayor, use una fotocopiadora para agrandar y duplicar los elementos.</p>
 </section>
-
 <section id="sample-outreach-diagrams">
-<h2>Sample Outreach Diagrams</h2>
+<h2>Ejemplo de diagramas para divulgación</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic001.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="400" src="https://commotionwireless.net/sites/commotionwireless.net/files/get_the_word_out_flyer_design_infographic001.png" typeof="foaf:Image" width="510"></p>
 
-<p>You can show the potential connections among a few buildings. The arrow notes a connection to the Internet.</p>
+<p>Puede mostrar las conexiones potenciales entre unas pocas edificaciones. Las flechas denotan una conexión a Internet.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="400" src="https://commotionwireless.net/sites/commotionwireless.net/files/get_the_word_out_flyer_design_infographic002.png" typeof="foaf:Image" width="510"></p>
 
-<p>You can depict an entire neighborhood network.</p>
+<p>Puede representar una red vecinal completa.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="400" src="https://commotionwireless.net/sites/commotionwireless.net/files/get_the_word_out_flyer_design_infographic003.png" typeof="foaf:Image" width="510"></p>
 
-<p>You can show just one section of the neighborhood network.</p>
+<p>Puede mostrar sólo una sección de la red vecinal.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="400" src="https://commotionwireless.net/sites/commotionwireless.net/files/get_the_word_out_flyer_design_infographic004.png" typeof="foaf:Image" width="510"></p>
 
-<p>You can show how nearby buildings can share Internet access with an occupation of the town square.</p>
+<p>Puede mostrar cómo los edificios cercanos pueden compartir el acceso a Internet con un establecimiento de la calle.</p>
 </section>
-
 <section id="use-the-diagrams">
-<h2>Use the Diagrams in an Outreach Flyer</h2>
+<h2>Use los diagramas en un panfleto divulgativo</h2>
 
-<p>You can add text to your diagram to create a flyer to distribute in your neighborhood.</p>
+<p>Puede añadir texto a su diagrama para crear un panfleto a distribuir en su vecindario.</p>
 
-<h3>OUTREACH FLYER DESIGN ESSENTIALS</h3>
+<h3>PARTES ESENCIALES DEL DISEÑO DEL PANFLETO DIVULGATIVO</h3>
 
-<p><strong>1. Headline</strong></p>
+<p><strong>1. Cabecera</strong></p>
 
-<p>What is the main idea you are presenting? 8 words or fewer, big across the top.</p>
+<p>¿Cúal es la idea principal que está presentando? 8 palabras o menos, en grande atravesando la parte superior.</p>
 
-<p><strong>2. Sub-headline (optional)</strong></p>
+<p><strong>2. Sub-cabecera (opcional)</strong></p>
 
-<p>Expand on the headline, but keep it simple and do not repeat words from the headline.</p>
+<p>Expansión de la cabecera, pero manténgala simple y no repita las palabras de esta.</p>
 
 <p><strong>3. Diagram</strong></p>
 
-<p>Your beautiful diagram of your proposed network should be the centerpiece of your flyer.</p>
+<p>Su bonito diagrama de la propuesta de su red debería ser la pieza central de su panfleto.</p>
 
-<p><strong>4. Explanation of what you are doing</strong></p>
+<p><strong>4. Explicación de lo que está haciendo</strong></p>
 
-<p>Answer the question you are most likely to be asked, which may be "How does this work?" or "What are you trying to accomplish?" This can be up to 100 words, but should still be in text that is big enough to be read quickly and easily.</p>
+<p>Responda a la pregunta que sea más probable que le hagan, que puede ser "¿Cómo funciona esto?" o "¿Qué está tratando de conseguir?". Esto puede llevarle más de 100 palabras, pero debe procurar que resulte un texto que sea suficientemente grande para leerse rápida y fácilmente.</p>
 
-<p><strong>5. Potential benefits</strong></p>
+<p><strong>5. Beneficios potenciales</strong></p>
 
-<p>List the reasons why someone would put effort into the project. Do not over-promise; make it clear that any of this is only possible if enough people participate.</p>
+<p>Liste las razones por las que alguien pondría esfuerzo en el proyecto. No se propase prometiendo; deje claro que cualquiera de estas cosas sólo es posible si participan suficientes personas.</p>
 
-<p><strong>6. We provide</strong></p>
+<p><strong>6. Nosotros proporcionamos</strong></p>
 
-<p>It is helpful to present the project as an exchange. This means including a clear list of what you are offering, as well as what you are asking others to contribute. Distinguish between what you are giving conditionally and what you are selling. If you are asking for money, be as specific as possible about the amount. "What will this cost me?" is likely to be a person's first question about your proposal.</p>
+<p>Es de gran ayuda presentar el proyecto como un intercambio. Esto significa una lista clara de qué es lo que está ofreciendo, así como qué es lo que va a pedir a los demás como contribución. Distinguir entre lo que está dando con condiciones y lo que está vendiendo. Si usted está pidiendo dinero, sea tan específico como sea posible acerca de la cantidad. "¿Qué me costará esto a mi?" es probable que sea la primera pregunta que le hará una persona acerca de su propuesta.</p>
 
-<p><strong>7. You provide</strong></p>
+<p><strong>7. Usted proporciona</strong></p>
 
-<p>Are you asking your neighbor to install a wireless node or permit you to do so? Are you asking them to share an Internet connection, come to a community meeting, or take a survey? Make a clear request with a single sentence or a list of what you are asking others to contribute.</p>
+<p>¿Está pidiendo a su vecino que instale un nodo inalámbrico o que le permita a usted hacerlo? ¿Está pidiéndoles que compartan una conexión a Internet, que acudan a una reunión comunitaria, o que rellenen una encuesta? Hagá una petición clara con una frase sencilla, o una lista de cúal es la contribución que está pidiendo a ellos.</p>
 
-<p><strong>8. Contact information</strong></p>
+<p><strong>8. Información de contacto</strong></p>
 
-<p>Identify who is sponsoring the project. If you want people to follow up with you, provide contact information. Remember that not everyone will have access to email or the Internet.</p>
+<p>Identifique quién está patrocinando el proyecto. Si quiere que la gente le siga, proporcióneles información de contacto. Recuerde que no todos tendrán acceso a correo electrónico o Internet.</p>
 
-<p><strong>Test! </strong>As with the diagram, try the flyer out on a couple people from your intended audience to make sure it says what you want it to say. If people do not understand words you used, ask them to help you rephrase it to be more understandable. If these are irreplaceable technical terms, you may have to include a brief definition or you may decide technical explanations are not necessary at this stage. Because you have so little room on the flyer, you will usually find it easier to eliminate these terms altogether. Keep only the essential information.</p>
+<p><strong>¡Pruébelo!</strong> Como con el diagrama, pruebe a entregar el panfleto a un par de personas de su audiencia objetivo para asegurarse de que el mensaje que transmite es el pretendido. Si la gente no entiende las palabras que ha usado, pídales que le ayuden a reformularlo para hacerlo más entendible. Si son términos técnicos irremplazables, puede que tenga que incluir una breve descripción, o puede que decida que las explicaciones técnicas no son necesarias en esta fase. A causa de que dispone de tan poco espacio en el panfleto, normalmente encontrará más sencillo eliminar todos estos términos. Mantenga sólo la información esencial.</p>
 
-<p>Design note: All text on any outreach flyer should be big and easy to read. If you are using a computer, the text should be at least 13 point.</p>
+<p>Nota de diseño: Todo texto en cualquier panfleto divulgativo debería ser grande y fácil de leer. Si está usando una computadora, el texto debería ser de al menos 13 puntos.</p>
 </section>
-
 <section id="example-flyer">
-<h2>Example Flyer</h2>
+<h2>Panfleto de ejemplo</h2>
 
-<p><a href="/files/cck/planning/4.1-CCK-Planning-flyer_design_support.pdf"><img alt="Download an example flyer" src="/files/CCK_download_icon.png" /></a></p>
+<p><a href="https://commotionwireless.net/sites/commotionwireless.net/files/get_the_word_out_flyer_design_support003_0.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" src="https://commotionwireless.net/sites/commotionwireless.net/files/CCK_download_icon.png" style="width: 315px; height: 49px;" typeof="foaf:Image"></a></p>
 
-<p class="tip">These diagrams are not about technical details. For now, it does not matter about what equipment you are using — focus on getting the idea across so people who are new to the project can understand the basics of what you're proposing.</p>
+<p class="tip">Estos diagramas no tratan sobre detalles técnicos. Por ahora, no tiene importancia qué equipamiento es el que está usando — concéntrese en transmitir la idea de forma que la gente que sea nueva en el proyecto pueda entender los rudimentos de lo que está proponiendo.</p>
 </section>
-
 <section class="related-information" id="related-information">
-<h2>Related Information</h2>
+<h2>Información relacionada</h2>
 
-<p>"<a class="module" href="/docs/cck/planning/design-your-network-construction-elements">Design your Network: Construction Elements</a>" module</p>
+<p>Módulo <a class="module" href="/docs/cck/planning/design-your-network-construction-elements">Diseñe su red: Elementos de construcción</a></p>
 
-<p>Before you make your diagram, play the "<a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a>" game.</p>
+<p>Antes de elaborar su diagrama, participe en el juego <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Toda red cuenta una historia</a>.</p>
 
-<p>Use a part of your network diagram from the game to design your flyer diagram.</p>
+<p>Use una parte del diagrama de su red desde el juego para diseñar el diagrama de su panfleto.</p>
 </section>
-
 <section class="external-resources" id="external-resources">
-<h2>External Resources</h2>
+<h2>Recursos externos</h2>
 
-<p>Attribution: "Scissor" symbol from thenounproject.com collection.</p>
+<p>Atribución: El símbolo "Tijeras" proviene de la colección de thenounproject.com</p>
 </section>
- 

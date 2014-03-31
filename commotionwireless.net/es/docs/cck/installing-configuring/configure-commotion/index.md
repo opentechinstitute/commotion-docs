@@ -9,7 +9,7 @@ categories:
 created: 2013-11-05
 changed: 2014-01-13
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="Configure Commotion graphic" src="/files/styles/large/public/CCK_Configure_intro_graphic_0.png" /></p>
 

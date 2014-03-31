@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Commotion Construction Kit
+title: Kit de Construcción de Commotion
 site_section: help
 sub_section: [cck]
-categories: 
+categories: es 
 created: 2013-09-20
 changed: 2014-03-04
 post_author: critzo
-lang: en
+lang: es
 ---
-  <p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in trainings around the world and at home. It is a “do it ourselves” guide to building wireless mesh networks.</p>
+<p>El Kit de Construcción de Commotion (CCK) es un conjunto de herramientas que el Open Technology Institute (instituto para las tecnologías abiertas) ha usado en prácticas por todo el mundo y en casa. Es una guía "hagámoslo nosotros mismos" para construir redes de malla ('mesh') inalámbricas.</p>
 
 <div><span style="padding:10px;background-color:Gray;font-size:1em;display:block;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__689 img__view_mode__media_large attr__format__media_large" height="10" src="/files/styles/large/public/arrow_wht.png?itok=9Hmw4G8_" style="vertical-align:middle;margin-right:10px;" typeof="foaf:Image" width="29" /><a href="https://www.transifex.com/projects/p/commotion-documentation/r/R1/" style="color:white;target:new tab front;">HELP US TRANSLATE THE COMMOTION CONSTRUCTION KIT</a></span></div>
 
 <p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" /></p>
 
-<p>You will be able to use them on your own or to work with a group of people. There is no one right way to move through them. You will find tools to help you learn the software and build and mount the hardware, as well as tools to help you organize with others in your neighborhood to plan, build, and promote a network. The modules are designed to be used by individuals or groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.</p>
+<p>Podrá usarlas consigo mismo o para trabajar con un grupo de personas. No hay ninguna forma correcta moverse a través de ellas. Encontrará herramientas para ayudarle a aprender sobre el software y construir y montar el hardware, así como herramientas para ayudarle a organizarse con otros en su vecindario para planificar, construir, y promover una red. Los módulos están diseñados para ser usados por individuos o grupos para enseñanza autodidacta, o para enseñanza en grupos de trabajo, o prácticas. Comience a explorar por cualquier parte y háganos saber cómo le va.</p>
 
 <p>Like the Commotion software, these materials are open source, which means development on them continues and community involvement is critical. This first wave of modules represents a work in progress. The current set of modules are briefly described below.</p>
 

@@ -1,54 +1,52 @@
 ---
 layout: cck
-title: Learn about Rooftop Mounts
+title:  Aprenda sobre montajes en tejados
 site_section: help
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/3-Learn_about_Rooftop_Mounts.pdf
 pdf-all: true
-categories: 
+categories: es
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__361 img__view_mode__media_original attr__format__media_original" height="478" src="/files/learning_rooftop_mounts_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="section-introduction">
-<h2>Introduction</h2>
+<h2>Introducción</h2>
 
-<p>For the best network connections to your neighbors, the best place to put a wireless router is on the roof of your house or organization's building. Every roof is unique, and this guide cannot cover every possibility. This module covers just a few options. Use your best judgement to decide what method will work best for your context.</p>
+<p>Para las mejores conexiones de red a sus vecinos, el mejor lugar para poner un router inalámbrico está en el tejado de su casa o edificio de la organización. Cada techo es único, y esta guía no puede cubrir todas las posibilidades. Este módulo cubre sólo algunas opciones. Utilice su mejor juicio para decidir qué método funcionará mejor para su contexto.</p>
 
-<p>In this module you will find information about different types of hardware for mounting wireless equipment to your rooftop. Use it alongside the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> module.</p>
+<p>En este módulo usted encontrará información sobre los diferentes tipos de hardware para el montaje de equipos inalámbricos en su azotea. Úselo junto con el módulo <a href="/es/docs/cck/building-mounting/gather-tools-and-wireless-equipment"> Reúna las herramientas y equipos inalámbricos </a>.</p>
 
-<p class="time-required">Time required: If you are using this document as a teaching guide or for instruction, it will take about an hour to discuss the material.</p>
+<p class="time-required">Tiempo requerido: Si usted está usando este documento como una guía de enseñanza o para la instrucción, tomará alrededor de una hora para discutir el material.</p>
 
-<p>It is recommended to use these printed materials to accompany a hands-on exploration of the actual hardware. If possible, build the mounting hardware inside, using the instructions that came with various kits.</p>
+<p>Es recomendado el uso de estos materiales impresos para acompañar una exploración práctica del hardware actual. Si es posible, construya el hardware de montaje en el interior, utilizando las instrucciones que vienen con diversos kits.</p>
 </section>
-
 <section id="section-materials-and-supplies-needed">
-<h2>Materials + Supplies Needed</h2>
+<h2>Materiales + suministros necesarios</h2>
 
-<p>If you are doing a variety of neighborhood or rooftop installations, it may be worth having a stock of mounting supplies on hand. If you are providing instruction on rooftop installation, you should demonstrate at least one mount of each type. Following is a list of the kinds of kits you can get for rooftop mounting:</p>
+<p>Si usted está haciendo una variedad de instalaciones de vecindario o de azotea, vale la pena tener un stock de suministros de montaje en la mano. Si va a proporcionar instrucciones sobre la instalación de la azotea, se debe demostrar por lo menos un montaje de cada tipo. A continuación hay una lista de los tipos de kits que usted puede obtener para el montaje en azotea:</p>
 
-<p>Chimney Mount</p>
+<p>Montaje en chimenea</p>
 
 <p>Anchor Mount</p>
 
 <p>Vent Mount</p>
 
-<p>Roof Edge or Eaves Mount</p>
+<p>Montaje en borde del techo o alero</p>
 
-<p>Non-Penetrating Mount</p>
+<p>Montaje no-penetrante</p>
 
 <p>For resources on where to obtain these kits, skip ahead to the <a href="#external-resources">External Resources</a> section. The following sections of this module will include information about materials and supplies needed.</p>
 
 <p class="tip">Print this module out to accompany a hands-on exploration of the actual hardware. Deciding on the best mounting hardware depends both on the roof and the hardware in use. Also, working on the roof can be difficult, so it is best to assess the environment first, decide on a mount style, and build the mount before going to the roof using any instructions that come with the mounting hardware.</p>
 </section>
-
 <section id="section-types-of-roofs">
 <h2>Types of Roofs</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__362 img__view_mode__media_large attr__format__media_large" src="/files/learning_rooftop_mounts_support002.png" style="width: 480px; height: 250px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__362 img__view_mode__media_large attr__format__media_large" src="/files/learning_rooftop_mounts_support002.png" style="width: 480px; height: 250px;" typeof="foaf:Image"></p>
 
 <p>When working on any roof, be very careful. Any slip or slide could lead to a long fall and serious injury or death. If you aren't comfortable working on the roof, don't do it. Get some help - ask around in your community and see if there are any professional roofers, cable TV or phone installers, or other folks that have experience.</p>
 
@@ -56,15 +54,15 @@ lang: en
 
 <p>With either roof type, you need to take care to maintain the roof coverings and sealants, which protect the roof and make it waterproof. The most important rule when installing something on a roof: never drill any holes in the roof surface itself. Even if the holes are sealed properly, they will eventually leak, and lead to problems in the long run.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__363 img__view_mode__media_original attr__format__media_original" height="248" src="/files/learning_rooftop_mounts_support003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__363 img__view_mode__media_original attr__format__media_original" height="248" src="/files/learning_rooftop_mounts_support003.png" typeof="foaf:Image" width="510"></p>
 
-<h3>Chimney Mount</h3>
+<h3>Montaje en chimenea</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__364 img__view_mode__media_original attr__format__media_original" height="600" src="/files/learning_rooftop_mounts_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__364 img__view_mode__media_original attr__format__media_original" height="600" src="/files/learning_rooftop_mounts_support004.png" typeof="foaf:Image" width="510"></p>
 
 <p>These are the pieces that you will need to build a Chimney Mount.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__365 img__view_mode__media_original attr__format__media_original" height="276" src="/files/learning_rooftop_mounts_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__365 img__view_mode__media_original attr__format__media_original" height="276" src="/files/learning_rooftop_mounts_support005.png" typeof="foaf:Image" width="510"></p>
 
 <p>Strap mounting onto a chimney is best whenever drilling into the building is not an option, for example older structures where the brick is softer. Strap mounts use steel straps wrapped around the chimney, which are tightened with a wrench to secure brackets for a pole. Usually these must be ordered online.</p>
 
@@ -80,7 +78,7 @@ lang: en
 
 <h3>Anchor Mount</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__366 img__view_mode__media_original attr__format__media_original" height="258" src="/files/learning_rooftop_mounts_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__366 img__view_mode__media_original attr__format__media_original" height="258" src="/files/learning_rooftop_mounts_support006.png" typeof="foaf:Image" width="510"></p>
 
 <p>Anchor mounts are another way to attach equipment to a chimney, but you can also use them on any masonry wall. The typical anchor mount is made up of two V-shaped pieces of metal which you attach with screws and anchors.</p>
 
@@ -92,11 +90,11 @@ lang: en
 
 <h3>Vent Mount</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__367 img__view_mode__media_original attr__format__media_original" height="415" src="/files/learning_rooftop_mounts_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__367 img__view_mode__media_original attr__format__media_original" height="415" src="/files/learning_rooftop_mounts_support007.png" typeof="foaf:Image" width="510"></p>
 
 <p>These are the pieces that you will need to build a Vent Mount.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__368 img__view_mode__media_original attr__format__media_original" height="518" src="/files/learning_rooftop_mounts_support008_009.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__368 img__view_mode__media_original attr__format__media_original" height="518" src="/files/learning_rooftop_mounts_support008_009.png" typeof="foaf:Image" width="510"></p>
 
 <p>When there is a sturdy vent stack pipe coming out of the roof, you can mount a mast to it to extend the height. There are various kinds of mounts, but they are all essentially made up of two pieces of metal which bolt around the vent stack and your mast to attach them firmly together. Vent mounting kits are sometimes available at local hardware or electronics stores as well as online. Normally kits for vent mounting only include the parts for the anchor to the vent. You will also need something to attach the router to, such as a piece of electrical conduit, a pipe or a mast.</p>
 
@@ -106,21 +104,21 @@ lang: en
 
 <h3>Roof Edge or Eaves Attachment</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__369 img__view_mode__media_original attr__format__media_original" height="439" src="/files/learning_rooftop_mounts_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__369 img__view_mode__media_original attr__format__media_original" height="439" src="/files/learning_rooftop_mounts_support010.png" typeof="foaf:Image" width="510"></p>
 
 <p>These are placed at the end of a pitched roof, where other methods won't work. They won't work on flat roofs, which usually don't have eaves. Eaves mounts must be drilled into the wood supports of the roof. You can find various kits with different lengths of bottom supports, but look for adjustable models which can stretch out to best fit your roof.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__370 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support011.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__370 img__view_mode__media_original attr__format__media_original" height="360" src="https://commotionwireless.net/sites/commotionwireless.net/files/learning_rooftop_mounts_support011.png" typeof="foaf:Image" width="510"></p>
 
 <p>As in all of these installations, a galvanized or painted antenna mast is required.</p>
 
 <p>Since you are mounting this to the trim boards along the edge of your roof, make sure they are in good shape. Rotten wood won't hold up well and the mount may fall out or further damage your roof in high winds. There should be about one foot between the top attachment and the bottom support in order to properly brace an antenna mast. This method isn't recommended for very long masts, but masts up to 4 or 5 feet should be fine.</p>
 
-<h3>Non-Penetrating Mount</h3>
+<h3>Montaje no-penetrante</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__371 img__view_mode__media_original attr__format__media_original" height="576" src="/files/learning_rooftop_mounts_support012.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__371 img__view_mode__media_original attr__format__media_original" height="576" src="/files/learning_rooftop_mounts_support012.png" typeof="foaf:Image" width="510"></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__372 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support013.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__372 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support013.png" typeof="foaf:Image" width="510"></p>
 
 <p>This type of mounting method uses weight to secure a mast to the roof - there is no drilling or bolting required. These are generally the preferred method if you don't have a chimney or vent to mount to, but they can be used even if you do have those available.</p>
 
@@ -138,34 +136,31 @@ lang: en
 
 <p>Also, keep in mind there might already be something on your roof that you could use to mount a wireless router to. Generally a pipe or antenna mast should be around 11⁄2" in diameter to best fit the equipment. If you can get to the existing mount safely, use it.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__373 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support014.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__373 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support014.png" typeof="foaf:Image" width="510"></p>
 </section>
-
 <section id="section-definitions">
-<h2>Definitions</h2>
+<h2>Definiciones</h2>
 
 <dl>
-	<dt>Eaves</dt>
+<dt>Alero</dt>
 	<dd>the overhanging lower edge of a roof.</dd>
-	<dt>Eaves</dt>
+	<dt>Alero</dt>
 	<dd>the overhanging lower edge of a roof.</dd>
-	<dt>Eaves</dt>
+	<dt>Alero</dt>
 	<dd>the overhanging lower edge of a roof.</dd>
 </dl>
 </section>
-
 <section class="related-information" id="section-related-information">
+<h2>Información relacionada</h2>
+
+<h3>MODULOS OPCIONALES</h3>
 <h2>Related Information</h2>
 
-<<<<<<< HEAD
 <h3>OPTIONAL MODULES</h3>
 
 <p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>. <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
-=======
 <p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="#">Prep, Install and Finish</a> (coming soon). <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
->>>>>>> ea89c6ca56d9a158c3f21ecca774327bf43088e2
 </section>
-
 <section class="external-resources" id="external-resources">
 <h2>External Resources</h2>
 
@@ -180,5 +175,4 @@ lang: en
 	<li>Roof Edge or Eaves Mount: Search for "eaves mount," "Winegard SW-0012," or "Channel Master CM-9030"</li>
 	<li>Non-Penetrating Mount: Search for "non-penetrating roof mount," "VMP FRM-125," "Perfect Vision NPR6B," or "NPR-18C3." Order a rubber mat to protect the roof under the non-penetrating mounting hardware as well - search for: "non-penetrating roof mount mat," or "NPRMAT8"</li>
 </ul>
-</section>
- 
+</section> 

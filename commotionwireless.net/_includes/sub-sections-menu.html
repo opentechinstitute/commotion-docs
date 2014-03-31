@@ -1,3 +1,4 @@
+{% include language-switcher-block.html %}
 {% case page.site_section %}
 {% when 'about' %}
 {% include about_menu.html %}
@@ -16,3 +17,6 @@
 {% endif %}
 {% include send-feedback.html %}
 {% include bug-report.html %}
+{% if page.lang != 'en' %}
+{% include language-help-translate-block.html %}
+{% endif %}

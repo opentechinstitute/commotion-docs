@@ -9,7 +9,7 @@ categories:
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__352 img__view_mode__media_original attr__format__media_original" height="388" src="/files/learn_rooftop_basics_support001_0.png" typeof="foaf:Image" width="510" /></p>
 

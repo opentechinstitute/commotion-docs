@@ -9,7 +9,7 @@ categories:
 created: 2013-09-27
 changed: 2014-01-13
 post_author: critzo
-lang: en
+lang: es
 ---
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__354 img__view_mode__media_original attr__format__media_original" height="486" src="/files/install_with_TFTP_support003_0.png" typeof="foaf:Image" width="510" /></p>
 

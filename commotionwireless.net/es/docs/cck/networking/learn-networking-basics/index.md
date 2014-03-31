@@ -9,7 +9,7 @@ categories:
 created: 2013-11-07
 changed: 2013-11-26
 post_author: critzo
-lang: en
+lang: es
 ---
 <section id="introduction">
 <p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" /></p>

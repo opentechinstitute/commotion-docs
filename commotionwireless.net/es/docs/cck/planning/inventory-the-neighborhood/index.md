@@ -9,7 +9,7 @@ categories:
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
-lang: en
+lang: es
 ---
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__476 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/inventory_the_neighborhood_title.png?itok=qgv6sh9C" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
 

@@ -9,7 +9,7 @@ categories:
 created: 2013-09-27
 changed: 2013-11-22
 post_author: critzo
-lang: en
+lang: fr
 ---
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__375 img__view_mode__media_original attr__format__media_original" height="330" src="/files/gather_tools_and_equipment_support_001.png" typeof="foaf:Image" width="510" /></p>
 
