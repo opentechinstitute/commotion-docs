@@ -4,7 +4,7 @@ title: OTI's Red Hook Digital Stewards Bring Internet Access to New York City Ho
 categories: [red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance]
 created: 2013-07-30
 changed: 2013-07-30
-post_author: georgia
+post_author: Georgia Bullen
 lang: en
 ---
  <img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/tiwan_kathy_roofmount_0.JPG" style="height: 400px; width: 300px;" />

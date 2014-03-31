@@ -4,7 +4,7 @@ title: Commotion DR1 Stable Release Notes (DR1.1)
 categories: [release]
 created: 2013-06-05
 changed: 2013-07-26
-post_author: andrew
+post_author: Andrew Reynolds
 lang: en
 ---
   Developer Release 1.1 is the first stable release of the DR1 series. This release is the beginning of our new stable branch, and represents a significant step forward from our previous stable release.

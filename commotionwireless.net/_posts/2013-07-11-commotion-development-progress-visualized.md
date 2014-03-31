@@ -4,7 +4,7 @@ title: Commotion Development Progress Visualized
 categories: [development,visualization]
 created: 2013-07-11
 changed: 2013-12-19
-post_author: s2e
+post_author: Seamus Tuohy
 lang: en
 ---
   One challenge of working on a software project is showing a non-developer the vibrancy of the code base. Since Commotion is being developed on multiple platforms and through a variety of interacting packages on each platform, we can't even point at a specific code repository or downloadable to show what work has taken place. We recently became aware of <a href="https://code.google.com/p/gource/">Gource</a>, a open-source project that aims to make this possible. As described on Gource's website, "Software projects are displayed by Gource as an animated tree with the root directory of the project at its center. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project."
