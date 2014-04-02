@@ -502,6 +502,10 @@ div#download-button-block .download-button a.button {
 .cck-content dl {
   padding: 0 1em;
 }
+.cck-content img {
+  width: 100%;
+  height: auto;
+}
 .cck-content section {
   border-bottom: 1px solid white;
   margin-bottom: 25px;
@@ -626,7 +630,6 @@ div.cck-download-pdf {
 }
 .bug-report {
   display: block;
-  width: 90%;
   background-color: #877AED;
 }
 .bug-report a:link,
@@ -646,7 +649,27 @@ div.cck-download-pdf {
 }
 .send-feedback {
   display: block;
-  width: 90%;
   background-color: #66CCFF;
   margin-top: 2em;
+}
+.lang-switch {
+  font-weight: bold;
+  color: #666666;
+}
+.translate-help {
+  display: block;
+  background: #666666;
+  text-decoration: none;
+}
+.translate-help a:link,
+.translate-help a:visited {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+  width: 100%;
+  color: #000000;
+}
+.translate-help a:hover {
+  background: #000000;
+  color: #FFFFFF;
 }
