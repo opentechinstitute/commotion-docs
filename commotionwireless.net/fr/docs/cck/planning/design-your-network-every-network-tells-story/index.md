@@ -3,7 +3,7 @@ layout: cck
 title: Concevez votre réseau - chaque réseau raconte une histoire
 site_section: help
 sub_section: [cck,cck-planning]
-pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
+pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf
 pdf-all: true
 categories: fr
 created: 2013-09-27
@@ -11,7 +11,7 @@ changed: 2014-03-04
 post_author: critzo
 lang: fr
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__355 img__view_mode__media_original attr__format__media_original" height="419" src="/files/design_your_network_intro.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" src="/files/design_your_network_intro.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -207,7 +207,7 @@ lang: fr
 
 <p><img alt="" src="/files/design_your_network_entas_support_cut.png" typeof="foaf:Image" width="510"></p>
 
-<p><a href="/files/design_your_network_entas_CCK.pdf"><img alt="" src="/files/CCK_download_icon2.png" typeof="foaf:Image" width="363"></a></p>
+<p><a href="/files/cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf"><img alt="" src="/files/CCK_download_icon2.png" typeof="foaf:Image" width="363"></a></p>
 </section>
 <section id="section-definitions">
 <h2>Définitions</h2>

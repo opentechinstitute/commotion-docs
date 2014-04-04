@@ -3,7 +3,7 @@ layout: cck
 title: Prep and Install Rooftop Nodes
 site_section: help
 sub_section: [cck,cck-building]
-pdf: cck/building-mounting/4-Prep_and_Install_Rooftop_Nodes.pdf
+pdf: cck/building-mounting/4-Prep_and_Install_Rooftop_Nodes_FR.pdf
 pdf-all: true
 categories: 
 created: 2013-09-27
@@ -11,7 +11,7 @@ changed: 2013-10-01
 post_author: critzo
 lang: fr
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__338 img__view_mode__media_original attr__format__media_original" height="388" src="/files/prep_install_finish_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" src="/files/prep_install_finish_support001.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
