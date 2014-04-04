@@ -202,7 +202,7 @@ DNS:</br />(blank)</code></p>
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>For more help, or if this guide doesn't work for you, take a look at the <a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and Recover with TFTP</a> module. After the software has been installed, you can proceed to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Routers</a> module.</p>
+<p>For more help, or if this guide doesn't work for you, take a look at the <a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and Recover with TFTP</a> module. After the software has been installed, you can proceed to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a> module.</p>
 </section>
 
 <section class="external-resources" id="section-external-resources">

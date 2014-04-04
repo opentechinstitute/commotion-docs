@@ -103,24 +103,16 @@ Note: Clicking the Advanced button will disable the Commotion Setup Wizard and a
 
 <p>2. Use the information you gathered or decided on to fill in the fields in the Commotion Setup Wizard. The Setup Wizard has four required pages and one optional page. The values you enter are saved as you navigate between pages, and are applied on the Configuration Confirmation page.</p>
 
-<p><a href="/files/2-SetupWizard_Page1-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page1-fullpage.png" /></a><strong>Setup Wizard, page 1 - Node Settings</strong><br />
+<p class="cck-content-container"><a href="/files/2-SetupWizard_Page1-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page1-fullpage.png" style="width: 100px; height: auto; float: left; margin: .5em;" /></a><strong>Setup Wizard, page 1 - Node Settings</strong><br />
 Enter the Node Name and Administration Password.</p>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p><a href="/files/2-SetupWizard_Page2-fullpage.png"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__720 img__view_mode__media_original attr__format__media_original" src="/files/2-SetupWizard_Page2-fullpage.png" style="width: 75px; height: 82px; margin: 5px; float: left; border-width: 2px; border-style: solid;" typeof="foaf:Image" /></a><strong>Setup Wizard, page 2 - Mesh Network</strong><br />
+<p class="cck-content-container"><a href="/files/2-SetupWizard_Page2-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page2-fullpage.png" style="width: 75px; height: 82px; margin: 5px; float: left; border-width: 2px; border-style: solid;" /></a><strong>Setup Wizard, page 2 - Mesh Network</strong><br />
 Enter the Mesh Network Name and select the Channel. If your mesh network should encrypt traffic between mesh devices, check the appropriate box and enter the Mesh Encryption Password.</p>
 
-<p>&nbsp;</p>
-
-<p><a href="/files/2-SetupWizard_Page3-fullpage.png"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__721 img__view_mode__media_original attr__format__media_original" src="/files/2-SetupWizard_Page3-fullpage.png" style="width: 75px; height: 82px; border-width: 2px; border-style: solid; margin: 5px; float: left;" typeof="foaf:Image" /></a><strong>Setup Wizard, page 3 - Wireless Network</strong><br />
+<p class="cck-content-container"><a href="/files/2-SetupWizard_Page3-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page3-fullpage.png" style="width: 75px; height: 82px; border-width: 2px; border-style: solid; margin: 5px; float: left;" /></a><strong>Setup Wizard, page 3 - Wireless Network</strong><br />
 If desired, configure an Access Point to provide wireless network access through this node. Enter the Access Point Name, select the Channel to use, and provide a Password that people should be required to use to connect.</p>
 
-<p>&nbsp;</p>
-
-<p><a href="/files/2-SetupWizard_Page4-fullpage.png"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__722 img__view_mode__media_original attr__format__media_original" src="/files/2-SetupWizard_Page4-fullpage.png" style="width: 76px; height: 35px; border-width: 2px; border-style: solid; margin: 5px; float: left;" typeof="foaf:Image" /></a><strong>Setup Wizard, page 4 - Configuration Complete</strong><br />
+<p class="cck-content-container"><a href="/files/2-SetupWizard_Page4-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page4-fullpage.png" style="width: 76px; height: 35px; border-width: 2px; border-style: solid; margin: 5px; float: left;" /></a><strong>Setup Wizard, page 4 - Configuration Complete</strong><br />
 You have now completed all the required steps to configure your mesh node.</p>
 
 <ul>
@@ -129,7 +121,7 @@ You have now completed all the required steps to configure your mesh node.</p>
 	<li>If you want to start over, click Reset.</li>
 </ul>
 
-<p><a href="/files/2-SetupWizard_Page5-fullpage.png"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__723 img__view_mode__media_original attr__format__media_original" src="/files/2-SetupWizard_Page5-fullpage.png" style="width: 76px; height: 35px; border-width: 2px; border-style: solid; margin: 5px; float: left;" typeof="foaf:Image" /></a><strong>Setup Wizard, page 5 - Additional Network Interfaces</strong><br />
+<p class="cck-content-container"><a href="/files/2-SetupWizard_Page5-fullpage.png"><img alt="" src="/files/2-SetupWizard_Page5-fullpage.png" style="width: 76px; height: 35px; border-width: 2px; border-style: solid; margin: 5px; float: left;" /></a><strong>Setup Wizard, page 5 - Additional Network Interfaces</strong><br />
 This page provides option settings to configure your node's wired interface, if desired. When you are done, click Finish</p>
 
 <ul>
@@ -139,9 +131,7 @@ This page provides option settings to configure your node's wired interface, if 
 	<li>If the node should not receive or provide DHCP leases, select <em>This device should not do anything with DHCP</em></li>
 </ul>
 
-<p>3. When you finish the Commotion Setup Wizard, the node will reset. This will take a couple minutes—be patient.<strong> </strong>When the node starts up again, it will automatically connect to other mesh nodes in the area with matching mesh link information.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__725 img__view_mode__media_original attr__format__media_original" height="264" src="/files/12-system_redirecting.png" typeof="foaf:Image" width="600" /></p>
+<p>3. When you finish the Commotion Setup Wizard, the node will reset. This will take a couple minutes—be patient.<strong> </strong>When the node starts up again, it will automatically connect to other mesh nodes in the area with matching mesh link information. <img alt="" height="264" src="/files/12-system_redirecting.png" /></p>
 </section>
 
 <section id="Access-Administration-interface">

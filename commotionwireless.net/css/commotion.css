@@ -481,6 +481,10 @@ div#download-button-block .download-button a.button {
   background: #EAE8E8;
   padding: 0.5em;
 }
+.cck-content-container {
+  float: left;
+  width: 100%;
+}
 .cck-content h2 {
   display: block;
   width: 100%;
