@@ -235,9 +235,10 @@ div.pageheadings hr {
   background: #000000;
   text-decoration: none;
 }
-.container {
+/* .container {
   width: 100%;
 }
+*/
 .left-third {
   width: 25%;
   min-width: 200px;
@@ -278,7 +279,7 @@ div.pageheadings hr {
   width: 65%;
   min-width: 400px;
   float: left;
-/*  margin: .3em 2em; */
+  margin: .3em 2em; 
 }
 .left-twothird h2 {
   margin-left: 0;
