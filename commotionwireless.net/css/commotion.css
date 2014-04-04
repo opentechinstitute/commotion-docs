@@ -235,6 +235,10 @@ div.pageheadings hr {
   background: #000000;
   text-decoration: none;
 }
+/* .container {
+  width: 100%;
+}
+*/
 .left-third {
   width: 25%;
   min-width: 200px;
@@ -275,7 +279,7 @@ div.pageheadings hr {
   width: 65%;
   min-width: 400px;
   float: left;
-  margin: .3em 2em;
+  margin: .3em 2em; 
 }
 .left-twothird h2 {
   margin-left: 0;
@@ -477,6 +481,10 @@ div#download-button-block .download-button a.button {
   background: #EAE8E8;
   padding: 0.5em;
 }
+.cck-content-container {
+  float: left;
+  width: 100%;
+}
 .cck-content h2 {
   display: block;
   width: 100%;
@@ -501,6 +509,10 @@ div#download-button-block .download-button a.button {
 .cck-content p,
 .cck-content dl {
   padding: 0 1em;
+}
+.cck-content img {
+  width: 100%;
+  height: auto;
 }
 .cck-content section {
   border-bottom: 1px solid white;
@@ -626,7 +638,6 @@ div.cck-download-pdf {
 }
 .bug-report {
   display: block;
-  width: 90%;
   background-color: #877AED;
 }
 .bug-report a:link,
@@ -646,7 +657,27 @@ div.cck-download-pdf {
 }
 .send-feedback {
   display: block;
-  width: 90%;
   background-color: #66CCFF;
   margin-top: 2em;
+}
+.lang-switch {
+  font-weight: bold;
+  color: #666666;
+}
+.translate-help {
+  display: block;
+  background: #666666;
+  text-decoration: none;
+}
+.translate-help a:link,
+.translate-help a:visited {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+  width: 100%;
+  color: #000000;
+}
+.translate-help a:hover {
+  background: #000000;
+  color: #FFFFFF;
 }

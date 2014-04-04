@@ -1,5 +1,5 @@
 <div id="subsection-menu">
-<h3><a href="/docs">Get Help</a></h3>
+<h3><a href="/{% if page.lang != 'en' %}{{ page.lang }}/{% endif %}docs">Get Help</a></h3>
 <ul>
    <li {% if page.url contains '/docs/get-started' %} class="active" {% endif %}><a href="/docs/get-started">Get Started</a></li>
    <li {% if page.url contains '/docs/get-involved' %} class="active" {% endif %}><a href="/docs/get-involved">Get Involved</a></li>

@@ -8,16 +8,24 @@ changed: 2013-09-21
 post_author: admin
 lang: en
 ---
-  <h2>Images and Media</h2>
-
-<h3>Press Releases &amp; News</h3>
-
+<h2>Media Contacts</h2>
+<p>To interview one of our policy experts, or learn more about the New America Foundation, please contact:<br />
+<blockquote>
+Jenny Lu Mallamo<br />
+Media Relations Associate<br />
+<a href="mailto:mallamo@newamerica.org">mallamo@newamerica.org</a><br />
+</blockquote>
+</p>
+<h2>Press Releases &amp; News</h2>
 <ul>
-	<li><a href="http://newamerica.org/pressroom/2013/release_oti_launches_new_version_of_commotion_free_open_source_wireless_networking_so">Commotion Developer Release 2</a> (9/17/2013)</li>
-	<li><a href="http://newamerica.org/pressroom/2013/press_release_agenda_released_for_international_summit_for_community_wireless_network">Agenda for International Summit for Community Wireless Networks Released</a> (9/11/2013)</li>
-	<li><a href="http://oti.newamerica.net/pressroom/2013/release_oti_launches_commotion_beta_free_wireless_mesh_network_software">Commotion Developer Release 1.1 </a>(3/20/2013)</li>
+  <li><a href="#">Commotion 1.1 Released</a></li>
+  <li><a href="http://oti.newamerica.net/node/99668">Open Technology Institute Releases Commotion 1.0 Mesh Networking Toolkit</a></li>
+  <li><a href="http://newamerica.org/pressroom/2013/release_oti_launches_new_version_of_commotion_free_open_source_wireless_networking_so">Commotion Developer Release 2</a> (9/17/2013)</li>
+  <li><a href="http://newamerica.org/pressroom/2013/press_release_agenda_released_for_international_summit_for_community_wireless_network">Agenda for International Summit for Community Wireless Networks Released</a> (9/11/2013)</li>
+  <li><a href="http://oti.newamerica.net/pressroom/2013/release_oti_launches_commotion_beta_free_wireless_mesh_network_software">Commotion Developer Release 1.1 </a>(3/20/2013)</li>
 </ul>
 
+<h2>Images &amp; Media</h2>
 <h3>Logos &amp; Images</h3>
 
 <ul>
@@ -28,8 +36,6 @@ lang: en
 <h3>Video</h3>
 
 <p><strong>Commotion Development Visualization</strong></p>
-
-<div style="float:right;">&nbsp;</div>
 
 <p>Commotion is being developed on multiple platforms and through a variety of interacting packages on each platform. The video below visualizes the development process over time. The core Commotion project is at the center, with sub-projects exploding out over time as development ebbs and flows. Branches and leaves represent files and code being added to sub-projects like Android, Tidepools, Linux, and OpenWRT. <a href="/blog/commotion-development-progress-visualized">Read the full blog post.</a><br />
 <a href="http://vimeo.com/70121378">Commotion Development Progress</a> from <a href="http://vimeo.com/user19473297">OTI Web Team</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
