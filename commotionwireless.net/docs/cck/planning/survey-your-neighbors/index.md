@@ -2,7 +2,7 @@
 layout: cck
 title: Survey Your Neighbors
 site_section: help
-sub_section: [cck,cck-planning]
+sub_section:  cck,cck-planning 
 pdf: cck/planning/3-Survey_Your_Neighbors.pdf
 pdf-all: true
 categories: 

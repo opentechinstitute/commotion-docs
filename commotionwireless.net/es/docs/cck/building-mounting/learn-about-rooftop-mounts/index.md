@@ -2,7 +2,7 @@
 layout: cck
 title:  Aprenda sobre montajes en tejados
 site_section: help
-sub_section: [cck,cck-building]
+sub_section:  cck,cck-building 
 pdf: cck/building-mounting/3-Learn_about_Rooftop_Mounts.pdf
 pdf-all: true
 categories: es

@@ -2,7 +2,7 @@
 layout: cck
 title: Learn Rooftop Basics
 site_section: help
-sub_section: [cck,cck-building]
+sub_section:  cck,cck-building 
 pdf: cck/building-mounting/2-Learn_Rooftop_Basics.pdf
 pdf-all: true
 categories: 

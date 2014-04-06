@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Building successful online community for open-source development
-categories: [recommendations,Research]
+categories:  recommendations Research 
 created: 2012-05-30
 changed: 2013-07-26
 post_author: The Work Department

@@ -2,7 +2,7 @@
 layout: default
 title: Commotion Construction Kit - Planning
 site_section: help
-sub_section: [cck,cck-planning]
+sub_section:  cck,cck-planning 
 pdf-all: true
 categories: es
 created: 2013-09-27

@@ -2,7 +2,7 @@
 layout: cck
 title: Get the Word Out - Flyer Design
 site_section: help
-sub_section: [cck,cck-planning]
+sub_section:  cck,cck-planning 
 pdf: cck/planning/4-Get_the_Word_Out_Flyer_Design.pdf
 pdf-all: true
 categories: 

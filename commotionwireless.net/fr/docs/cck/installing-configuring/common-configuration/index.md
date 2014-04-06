@@ -2,7 +2,7 @@
 layout: cck
 title: Configurations communes
 site_section: help
-sub_section: [cck,cck-installing]
+sub_section:  cck,cck-installing 
 pdf: cck/installing-configuring/3-Common_Configurations.pdf
 pdf-all: true
 categories: fr

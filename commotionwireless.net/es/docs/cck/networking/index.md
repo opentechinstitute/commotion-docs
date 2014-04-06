@@ -2,7 +2,7 @@
 layout: default
 title: Commotion Construction Kit - Networking
 site_section: help
-sub_section: [cck,cck-networking]
+sub_section:  cck,cck-networking 
 pdf-all: true
 categories: 
 created: 2013-11-07

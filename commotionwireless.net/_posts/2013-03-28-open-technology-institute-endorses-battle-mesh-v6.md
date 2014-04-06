@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: The Open Technology Institute endorses the Battle of the Mesh v6
-categories: [BattleMesh,mesh,OLSR,Testing]
+categories:  BattleMesh mesh OLSR Testing 
 created: 2013-03-28
 changed: 2013-07-26
 post_author: Seamus Tuohy

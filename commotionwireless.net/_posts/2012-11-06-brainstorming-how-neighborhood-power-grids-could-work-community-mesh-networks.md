@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Brainstorming how neighborhood power grids could work with community mesh networks
-categories: [community wireless,energy,Detroit,]
+categories:  community wireless energy Detroit  
 created: 2012-11-06
 changed: 2012-11-06
 post_author: The Work Department

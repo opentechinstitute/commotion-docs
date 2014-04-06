@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: MeshTether test release
-categories: []
+categories:   
 created: 2012-08-23
 changed: 2013-07-26
 post_author: Hans-Christoph Steiner

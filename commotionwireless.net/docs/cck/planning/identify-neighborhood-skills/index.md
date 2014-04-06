@@ -2,7 +2,7 @@
 layout: cck
 title: Identify Neighborhood Skills
 site_section: help
-sub_section: [cck,cck-planning]
+sub_section:  cck,cck-planning 
 pdf: cck/planning/6-Identify_Neighborhood_Skills.pdf
 pdf-all: true
 categories: 

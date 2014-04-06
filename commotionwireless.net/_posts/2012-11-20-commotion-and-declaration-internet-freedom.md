@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion and the Declaration of Internet Freedom
-categories: []
+categories:   
 created: 2012-11-20
 changed: 2013-02-25
 post_author: OTI

@@ -2,7 +2,7 @@
 layout: cck
 title: Concevez votre réseau - chaque réseau raconte une histoire
 site_section: help
-sub_section: [cck,cck-planning]
+sub_section:  cck,cck-planning 
 pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf
 pdf-all: true
 categories: fr

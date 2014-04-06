@@ -2,7 +2,7 @@
 layout: default
 title: Commotion Construction Kit - Installing + Configuring
 site_section: help
-sub_section: [cck,cck-installing]
+sub_section:  cck,cck-installing 
 pdf-all: true
 categories: 
 created: 2013-09-27

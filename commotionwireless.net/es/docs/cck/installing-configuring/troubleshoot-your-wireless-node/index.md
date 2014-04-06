@@ -2,7 +2,7 @@
 layout: cck
 title: Troubleshoot Your Wireless Node
 site_section: help
-sub_section: [cck,cck-installing]
+sub_section:  cck,cck-installing 
 pdf: cck/installing-configuring/4-Troubleshoot_Your_Wireless_Node.pdf
 pdf-all: true
 categories: 

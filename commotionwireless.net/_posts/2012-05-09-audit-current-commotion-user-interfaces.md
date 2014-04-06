@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: An audit of current Commotion user interfaces
-categories: [UI,UX,Research]
+categories:  UI UX Research 
 created: 2012-05-09
 changed: 2013-07-26
 post_author: The Work Department
