@@ -3,11 +3,12 @@ description: "Commotion is an open-source communication tool that uses mobile ph
 
 encoding: utf-8
 
-url: "staging.commotionwireless.net"
+url: "commotionwireless.net"
 port: 80
 piwik:
   base_url: piwik.opentechinstitute.org
   site_id: 1
 
 permalink: /blog/:year/:month/:day/:title
+category_dir: /blog/category
 pagination: 3
