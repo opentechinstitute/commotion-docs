@@ -434,6 +434,10 @@ div#download-button-block .download-button a.button {
     margin-left: 10px;
     padding: 5px 21px 5px 0;
 }
+.downloads-table {
+  overflow: auto;
+  width: 100%;
+}
 
 .verifying-downloads-block {
   float:right;

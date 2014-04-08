@@ -1,10 +1,8 @@
 ---
-layout: blog-front
-title: Commotion Blog
-categories: 
-created: 2014-01-14
-changed: 2014-01-15
-post_author: Chris Ritzo
+title: "Commotion Wireless Blog Index"
+layout: blog-index
 lang: en
 ---
- <h2>Recent Blog Posts</h2>
+<div class="blog-index">
+{% include posts-by-date.html %}
+</div>

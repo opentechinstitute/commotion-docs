@@ -636,6 +636,9 @@ div.cck-download-pdf {
 .blog-index a:hover {
   border-bottom: 3px solid #FF739C;
 }
+.blog-index ul li {
+  margin-bottom: 1em;
+}
 .bug-report {
   display: block;
   background-color: #877AED;
@@ -680,4 +683,10 @@ div.cck-download-pdf {
 .translate-help a:hover {
   background: #000000;
   color: #FFFFFF;
+}
+.tag {
+  padding-left: .5em;
+}
+.index-day {
+  padding-left: .5em;
 }

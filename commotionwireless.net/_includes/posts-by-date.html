@@ -1,11 +1,10 @@
 <div class="blog-index">
-<h2>Posts by Date</h2>
+<h2>Posts by Date:</h2>
 {% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-
     {% if forloop.first %}
     <h3 id="{{ this_year }}"><a href="#top" title="Jump to top of page" label="Jump to top of page">&#x25B2;</a> {{this_year}}</h3>
     <h4 id="{{ this_year }}-{{ this_month }}">{{ this_month }}</h4>

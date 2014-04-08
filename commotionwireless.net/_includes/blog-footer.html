@@ -1,4 +1,1 @@
- <h4>Tags:</h4>
-{% for category in page.categories %}
- <a href="/blog/blogindex.html#{{ category }}">{{ category }}</a>&nbsp;
-{% endfor %}
+<h4>Tags:</h4> {{ page.categories | category_links }}
