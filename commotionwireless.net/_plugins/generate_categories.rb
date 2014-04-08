@@ -106,6 +106,7 @@ module Jekyll
     #  +category+     is the category currently being processed.
     def initialize(site, base, category_dir, category)
       template_path = File.join(base, '_layouts', 'category_index.html')
+      category = category.gsub('%20','-')
       super(template_path, 'index.html', site, base, category_dir, category)
     end
 
@@ -210,7 +211,7 @@ module Jekyll
         category_dir = GenerateCategories.category_dir(base_dir, category)
         # Make sure the category directory begins with a slash.
         category_dir = "/#{category_dir}" unless category_dir =~ /^\//
-        "<a class='category' href='#{category_dir}/'>#{category}</a>"
+        "<a class='category' href='#{category_dir}/'>#{category.gsub('%20','-')}</a>"
       end
 
       case categories.length

@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: category_page
 ---
 <div class="blog-index">
-{% for post in site.posts  %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-
+    <ul>
     {% for post in site.categories[page.category] %}
     <li><a href="{{ post.url }}">{{ post.title }}</a><br />
-    <span class="index-day">{{ post.date | date_to_html_string }}</span> / <span class="author">{{ post.post_author }}</span><span class="tag"> Tags: {{ post.categories | category_links }}</span></li>
-      {% endfor %}
-{% endfor %}
+    <span class="index-day">{{ post.date | date_to_html_string }}</span> / <span class="author">{{ post.post_author }}</span><br />
+    <span class="tag"> Tags: {{ post.categories | category_links }}</span></li>
+    {% endfor %}
+    </ul>
 </div>
