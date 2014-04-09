@@ -29,7 +29,7 @@ lang: en
 <p>Commotion Router is a distribution of OpenWRT Linux that supports the wireless routers listed by vendor below. If you're not sure which file to download, check the full list of&nbsp; <a href="/docs/supported-devices">devices we currently support</a>.</p>
 
 <h3>Don't see your device listed?</h3>
-<p>Our <a href="https://wiki.commotionwireless.net/doku.php?id=hardware_in_testing">Developer Hardware in testing wiki page</a> lists devices being tested with Commotion Router by the development team and other contributors.</p>
+<p>Our <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_in_testing">Developer Hardware in testing wiki page</a> lists devices being tested with Commotion Router by the development team and other contributors.</p>
 <h3>Help test new devices!</h3>
 <p>We maintain a list of <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_compatibility_list">potentially compatible routers</a> on our developer wiki. If you have a router on the list, contact us and we'll build you an image for it!</p>
 
