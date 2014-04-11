@@ -4,62 +4,48 @@ title:  How much does it cost to build a Commotion network?
 categories: [planning,price,budgeting,installation]
 created: 2014-04-11
 changed: 2014-04-11
-teaser_image: 
+teaser_image: posts/How-much-does-it-cost-teaser-img.png
 post_author: Andy Gunn
 lang: en
 
 ---
-
-If you are thinking of building a Commotion wireless network, no matter what the size, one of your first questions might be "how much does it cost?" When planning any project, the total cost (now and in the future) is often a big concern, and building a wireless network is no different. OTI has written about this before, but we want to add some detailed information to our colleague [Seamus’ earlier blog post on the subject](/blog/2012/11/14/cost-mesh-networks/).
+	
+If you are thinking of building a Commotion wireless network, no matter what the size, one of your first questions might be "how much does it cost?" When planning any project, the total cost (now and in the future) is often a big concern, and building a wireless network is no different. <!--more--> OTI has written about this before, but we want to add some detailed information to our colleague [Seamus’ earlier blog post on the subject](/blog/2012/11/14/cost-mesh-networks/).
 
 The answer we at OTI often give is - "it varies!" The cost depends on the scale of the network you want to build, but there are three major factors:
 
 <table>
  <tr>
- <td align="center"><b>Equipment</b>
-  <img src="/files/posts/How-much-does-it-cost-icon-equipment.png" alt="Equipment icon" width="125"> 
+ <td style="text-align: center;padding: .5em;"><b>Equipment</b><br>
+  <img src="/files/posts/How-much-does-it-cost-icon-equipment.png" alt="Equipment icon"> 
  </td>
- <td align="center"><b>Labor</b>
-  <img src="/files/posts/How-much-does-it-cost-icon-labor.png" alt="Labor icon" width="125"> 
+ <td style="text-align: center;padding: .5em;"><b>Labor</b><br>
+  <img src="/files/posts/How-much-does-it-cost-icon-labor.png" alt="Labor icon"> 
 </td>
- <td align="center"><b>Bandwidth</b>
-  <img src="/files/posts/How-much-does-it-cost-icon-bandwidth.png" alt="Bandwidth icon" width="125"> 
+ <td style="text-align: center;padding: .5em;"><b>Bandwidth</b><br>
+  <img src="/files/posts/How-much-does-it-cost-icon-bandwidth.png" alt="Bandwidth icon"> 
 </td>
  </tr>
 </table>
 
 Let’s look at each of these items, then give a few examples of some network types and the costs to build each.
 
-### Equipment
+## Equipment
 
 The basic necessity for building a Commotion wireless network is two or more routers. For a large-scale neighborhood or town-wide network, it may take many dozens of routers! For such networks, outdoor grade equipment such as the Ubiquiti PicoStation M2, NanoStation M2 and Rocket M2 work well with Commotion. Most of the time, every building you want to connect to the network will need a rooftop router. That router needs a few other pieces of equipment (such as some permanent mounting hardware and outdoor Ethernet cable providing power and data connections) to work properly and provide connections to people inside the building. Indoor routers can extend the signal from the rooftop network to people’s personal devices - such as desktops, laptops and smartphones.
 
 A diagram of all the pieces is below:
 
-<table>
- <tr>
- <td><img src="/files/posts/How-much-does-it-cost-building-equipment.png" alt="Building equipment diagram" width="300">
- </td>
- <td>
-<br>
+<img src="/files/posts/How-much-does-it-cost-building-equipment.png" alt="Building equipment diagram" style="width: 100%;">
+
 An example of a single building’s necessary equipment and costs:
-1. Commotion node (router)
-Between $80 and $90
 
-2. Mounting hardware
-Between $25 and $125
+1. Commotion node (router) - between $80 and $90
+1. Mounting hardware - Between $25 and $125
+1. Ethernet cabling - Between $20 and $50
+1. Power supply - Included with outdoor router
+1. Indoor router (optional) - Approximately $50
 
-3. Ethernet cabling
-Between $20 and $50
-
-4. Power supply
-Included with outdoor router
-
-5. Indoor router (optional)
-Approximately $50
-</td>
- </tr>
-</table>
 
 So, the total equipment cost per building can range from between $125 and $300 or more. More powerful routers or multiple routers per site can improve performance, but does increase the cost. You can estimate around $125 to $150 per building for most set-ups. In some cases the costs can be cut by improvising -- for example, placing routers inside windows instead of on rooftops can work in some cases; or you can cut costs by building your own mounts, re-using cables, or not using expensive outdoor cable. Keep in mind some of these cost-saving measures can lead to more maintenance later.
 
@@ -68,11 +54,11 @@ If you would like more detail on the costs for equipment and hardware, there are
 * [Gather Tools and Wireless Equipment](/docs/cck/building-mounting/gather-tools-and-wireless-equipment)
 * [Learn About Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts)
 
-### Labor
+## Labor
 
 All projects take time, especially construction projects. Building a network is a small to medium scale construction project, and should be treated as such. It may involve purchasing hardware and tools to complete the installations. It will often involve working on rooftops, running outdoor Ethernet cables from those rooftops to the insides of buildings, and setting up community members’ computers to access the network -- and there’s all the planning that goes into setting up each of these steps. There are many small tasks, and installing a single site may take between one and four hours, depending on the complexity. Many of the steps are discussed in [Prep and Install Rooftop Nodes](http://commotionwireless.net/docs/cck/building-mounting/prep-install-rooftop-nodes) in the CCK.
 
-<img src="/files/posts/How-much-does-it-cost-group-labor.png" alt="Installation group" width="500">
+<img src="/files/posts/How-much-does-it-cost-group-labor.png" alt="Installation group" style="width: 100%;">
 
 The good news is that most, if not all, of the work can be done by you and other volunteers. Your community is likely already home to many skilled individuals already. We recommend assessing who may be able to help with the project and reaching out to them early. For some guidance with this, please consult the [Identify Neighborhood Skills](http://commotionwireless.net/docs/cck/planning/identify-neighborhood-skills) section of the CCK.
 
@@ -80,11 +66,11 @@ It’s important to note that even if people are working on a volunteer basis, t
 
 Of course, there may also be some cases where you cannot do all of the work yourself. Perhaps you or your project partners are not comfortable working on rooftops. Perhaps some interested neighbors would prefer the work is done by someone licensed and insured. Maybe some sites are too dangerous for volunteers to work on (such as very steep or difficult to access rooftops). OTI recommends consulting and hiring qualified professionals in these cases. Licensed electricians and contractors have the necessary tools and equipment to handle most installations, and should be willing to work with you on such projects. The costs can vary widely, but expect additional per-building costs between $100 and $250 or more, depending on the complexity.
 
-### Bandwidth
+## Bandwidth
 
 Commotion networks do not require a connection to the Internet to run. With some additional configuration and a computer running some server applications, you can provide services across the network without the additional cost of bandwidth. However, we expect some networks may want to provide Internet access if it is possible. Commotion is designed to share connections to the Internet (gateways) across the entire network. It is as simple as plugging in a DSL, cable, or other gateway connection into the Commotion node.
 
-<img src="/files/posts/How-much-does-it-cost-gateway-connection.png" alt="Gateway connection" width="500">
+<img src="/files/posts/How-much-does-it-cost-gateway-connection.png" alt="Gateway connection" style="width: 100%;">
 
 Keep in mind that sharing connections to the Internet may not be allowed - many Internet Service Providers (ISPs) don’t allow sharing (check your Terms of Service if you are curious). You may run the risk of having your service disconnected if you violate the contract. Some countries or states may have laws about sharing Internet connections as well.
 
@@ -94,49 +80,49 @@ A network may also need multiple distributed ISP connections to provide enough b
 
 So, if you want to offer Internet service on your network, and if every connection to the Internet costs between $50 and $250 (for very high capacity connections) per month, you should consider that in the budget.
 
-### Example Networks and Budgets
+## Example Networks and Budgets
 
 Below are two different scenarios as examples of how much things might cost when you are building your network.
 
-#### House to House Network
+### House to House Network
 
 First, consider the following scenario: you and three neighbors want to share a connection to the Internet, or access to a local application server for chat and local games.
 
-<img src="/files/posts/How-much-does-it-cost-small-Network.png" alt="Small scale network" width="500">
+<img src="/files/posts/How-much-does-it-cost-small-Network.png" alt="Small scale network" style="width: 100%;">
 
 Looking at this network, there are four routers, and for the purposes of the example, a single connection to the Internet. For this example, we will use omnidirectional outdoor routers, such as the Ubiquiti PicoStation M2, and simple rooftop mounts. There is a single business-class Cable connection to the Internet shared on the network. Each network participant will also have a simple home router inside their house to connect their computers and smartphones. Two participants already own these routers.
 
 **Equipment Costs**
-<table>
- <tr>
- <td><b>Item</b></td>
- <td><b>Quantity</b></td>
- <td><b>Cost</b></td>
- <td><b>Subtotal</b></td>
+<table style="border:1px;">
+ <tr style="background-color:#94B8B8; padding: .5em;">
+ <th style="padding: .5em;">Item</th>
+ <th style="padding: .5em;">Quantity</th>
+ <th style="padding: .5em;">Cost</th>
+ <th style="padding: .5em;">Subtotal</th>
  </tr>
  <tr>
- <td>Routers</td>
- <td>4</td>
- <td>$80</td>
- <td>$320</td>
+ <td style="background-color:#E6E6E6; padding: .5em;">Routers</td>
+ <td style="padding: .5em;">4</td>
+ <td style="padding: .5em;">$80</td>
+ <td style="padding: .5em;">$320</td>
  </tr>
  <tr>
- <td>Mounting hardware</td>
- <td>4</td>
- <td>$40</td>
- <td>$160</td>
+ <td style="background-color:#E6E6E6; padding: .5em;">Mounting hardware</td>
+ <td style="padding: .5em;">4</td>
+ <td style="padding: .5em;">$40</td>
+ <td style="padding: .5em;">$160</td>
  </tr>
  <tr>
- <td>Ethernet cables</td>
- <td>4</td>
- <td>$20</td>
- <td>$80</td>
+ <td style="background-color:#E6E6E6; padding: .5em;">Ethernet cables</td>
+ <td style="padding: .5em;">4</td>
+ <td style="padding: .5em;">$20</td>
+ <td style="padding: .5em;">$80</td>
  </tr>
  <tr>
- <td>Home routers</td>
- <td>2</td>
- <td>$50</td>
- <td>$100</td>
+ <td style="background-color:#E6E6E6; padding: .5em;">Home routers</td>
+ <td style="padding: .5em;">2</td>
+ <td style="padding: .5em;">$50</td>
+ <td style="padding: .5em;">$100</td>
  </tr>
 </table>
 **Equipment total: $660**
@@ -203,7 +189,7 @@ The initial, first-year costs of the network are **$1860**, which includes all o
 
 Next, consider the following scenario: a neighborhood or small town wants to create a network that covers the entire area. There will be twelve initial participants in the network, but through outreach and word-of-mouth, the organizers anticipate the network will grow rapidly.
 
-<img src="/files/posts/How-much-does-it-cost-neighborhood-network.png" alt="Medium scale network" width="500">
+<img src="/files/posts/How-much-does-it-cost-neighborhood-network.png" alt="Medium scale network" style="width: 100%;">
 
 Looking at this network, there are two types of sites - two tower sites, and twelve neighborhood buildings. There will be two types of routers, and for the purposes of the example, two connections to the Internet. For the neighborhood buildings, omnidirectional outdoor routers, such as the Ubiquiti PicoStation M2, and simple rooftop mounts are used. The tower sites will have more powerful Ubiquiti Rocket M2 routers with sector antennas to provide wider coverage and many mesh connections to the ISP gateways. These gateways are dedicated, high-performance ISP connections to the Internet. Each network participant will also have a simple home router inside their house to connect their computers and smartphones. Six participants already own these routers.
 
