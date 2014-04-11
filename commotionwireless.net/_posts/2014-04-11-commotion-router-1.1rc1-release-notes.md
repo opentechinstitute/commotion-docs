@@ -151,7 +151,7 @@ This is the stable 1.0 version of commotion-debug-helper
 
 ### Major Issues Resolved:
 <ul>
-<li><a href="https://github.com/opentechinstitute/luci-i18n-commotion/pull/6">Cleaned up .po generation scripts</a><li>
+<li><a href="https://github.com/opentechinstitute/luci-i18n-commotion/pull/6">Cleaned up .po generation scripts</a></li>
 </ul>
 
 ### Authors (by commits):
