@@ -4,11 +4,11 @@ title: Commotion Router v1.1 "Grumpy Cat" Release Candidate 1
 categories: [release]
 created: 2014-02-04
 changed: 2014-04-11
-teaser_image: styles/large/public/ws_olsr_traffic.png
+teaser_image: commotion_logo_100x100.png
 post_author: Josh King
 lang: en
 ---
-This is the release candidate for our v1.1 bugfix release for our Commotion Router firmware. It is built on <a href="https://openwrt.org/">OpenWRT Attitude Adjustment trunk</a>, <a href="http://olsr.org/">OLSRd v0.6.5</a>, <a href="http://www.servalproject.org/">libseval</a>, and other software. It also includes the Commotion-specific components listed below with the features and enhancements included in this release:
+This is the release candidate for our v1.1 bugfix release for our Commotion Router firmware. It is built on <a href="https://openwrt.org/">OpenWRT Attitude Adjustment trunk</a>, <a href="http://olsr.org/">OLSRd v0.6.5</a>, <a href="http://www.servalproject.org/">libseval</a>, and other software. It also includes the Commotion-specific components listed below with the features and enhancements included in this release:<!--more-->
 
 ## commotiond v0.2.1
 This release primarily fixes a large number of bugs and memory leaks.

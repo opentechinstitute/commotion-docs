@@ -4,7 +4,7 @@ title: Press
 site_section: about
 categories: 
 created: 2012-07-16
-changed: 2013-09-21
+changed: 2014-04-11
 post_author: admin
 lang: en
 ---
@@ -18,7 +18,7 @@ Media Relations Associate<br />
 </p>
 <h2>Press Releases &amp; News</h2>
 <ul>
-  <li><a href="/blog/2014-04-11-commotion-router-1.1rc1-release-notes.html">Commotion 1.1rc1 Released</a></li>
+  <li><a href="/blog/2014/04/11/commotion-router-1.1rc1-release-notes/">Commotion 1.1rc1 Released</a></li>
   <li><a href="http://oti.newamerica.net/node/99668">Open Technology Institute Releases Commotion 1.0 Mesh Networking Toolkit</a></li>
   <li><a href="http://newamerica.org/pressroom/2013/release_oti_launches_new_version_of_commotion_free_open_source_wireless_networking_so">Commotion Developer Release 2</a> (9/17/2013)</li>
   <li><a href="http://newamerica.org/pressroom/2013/press_release_agenda_released_for_international_summit_for_community_wireless_network">Agenda for International Summit for Community Wireless Networks Released</a> (9/11/2013)</li>
