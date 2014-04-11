@@ -61,7 +61,6 @@ Approximately $50
  </tr>
 </table>
 
-
 So, the total equipment cost per building can range from between $125 and $300 or more. More powerful routers or multiple routers per site can improve performance, but does increase the cost. You can estimate around $125 to $150 per building for most set-ups. In some cases the costs can be cut by improvising -- for example, placing routers inside windows instead of on rooftops can work in some cases; or you can cut costs by building your own mounts, re-using cables, or not using expensive outdoor cable. Keep in mind some of these cost-saving measures can lead to more maintenance later.
 
 If you would like more detail on the costs for equipment and hardware, there are several [Commotion Construction Kit](http://commotionwireless.net/docs/cck/) (CCK) documents with related information:
