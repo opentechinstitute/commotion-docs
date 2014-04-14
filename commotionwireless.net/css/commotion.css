@@ -136,6 +136,9 @@ li.static-nodrop a:visited {
 .contentcontainer a.img {
   border: none;
 }
+.container {
+  width: 100%;
+}
 .footer-wrapper {
   background: url('/images/white_tri.png') no-repeat center top #00FFCF;
   color: #000000;
