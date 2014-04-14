@@ -39,10 +39,26 @@ Community networks are built by a coalition of community anchor institutions, co
   <li>Municipal governments</li>
 </ul>
 
-  <h2>Connect with Others</h2>
+<h2>Connect with Others</h2>
 
 <p>Mesh networking begins with people. Work with your community to determine communication needs, interests, and willingness to participate and help. Start with conversations or meetings about how your group could use mesh networking. For help, see the <a href="/docs/cck/planning"><em>Planning</em> modules</a> in the <a href="/docs/cck">Commotion Construction Kit</a>. We also encourage you to <a href="/about/faq">read our frequently asked questions.</a><br />
 <img src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" /></p>
+
+<h2>Connect with the Commotion community</h2>
+
+<p>Use our "<a href="/contact">Contact</a>" or "<a href="/report">Report a Bug</a>" forms on this website.</p>
+
+<p>Subscribe to one or more of our listservs:</p>
+
+<ul>
+	<li><a href="https://lists.chambana.net/mailman/listinfo/commotion-announce">commotion-announce</a>: only official announcements with minimal discussion</li>
+	<li><a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">commotion-discuss</a>: for those who want to use Commotion without getting too technical</li>
+	<li><a href="https://lists.chambana.net/mailman/listinfo/commotion-dev">commotion-dev</a>: for those who want to discuss improvements the Commotion software</li>
+</ul>
+
+<p>You can also join us using your chat program on IRC in the #commotion channel on the irc.freenode.net server.</p>
+
+<p>Learn more about <a href="http://freenode.net/using_the_network.shtml" target="_blank">using IRC</a>.</p>
 
 <h2>Choose your devices</h2>
 

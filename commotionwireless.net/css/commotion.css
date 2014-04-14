@@ -1,3 +1,7 @@
+body {
+  font-family: AsapRegular;
+  src: url(fonts/Asap-Regular-webfont.ttf);
+}
 /* top bar */
 .navbar-inners {
   height: 20px;
