@@ -695,3 +695,48 @@ div.cck-download-pdf {
 .index-day {
   padding-left: .5em;
 }
+/* General classes for Images */
+img.full-width {
+  width: 100%;
+  height: auto;
+}
+img.threefourths-width {
+  width: 75%;
+  height: auto;
+}
+img.half-width {
+  width: 50%;
+  height: auto;
+}
+img.onethird-width {
+  width: 30%;
+  height: auto;
+}
+img.floatleft {
+  float: left;
+  margin: 1em;
+}
+img.floatright {
+  float: right;
+  margin: 1em;
+}
+
+/* Info table classes */
+table.infotable {
+  border: 1px solid black;
+}
+table.infotable th, table.infotable tr {
+  padding: .5em;
+}
+table.infotable th {
+  background-color: #94B8B8;
+}
+table.infotable td {
+  padding: .5em;
+  text-align: center;
+}
+table.infotable td.highlight {
+  background-color: #E6E6E6;
+  text-align: left;
+}
+  

@@ -14,7 +14,7 @@ Open community wireless "mesh" networks digitally connect communities, and allow
 
 Community networks are built by a coalition of community anchor institutions, community-based organizations, municipal representatives, and individuals working together to plan, design, and deploy a network.  Ownership and management duties are distributed among the community. Digital Stewards are community members that take care of the network.
 
-<img src="/files/get-started-starting-network.png" alt="starting a network graphic" />
+<img class="threefourths-width" src="/files/get-started-starting-network.png" alt="starting a network graphic" />
 
 <h3>SUGGESTED NETWORK BUILDING STEPS</h3>
 <ol>
