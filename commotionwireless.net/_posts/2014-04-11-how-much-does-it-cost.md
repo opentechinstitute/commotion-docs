@@ -36,7 +36,7 @@ The basic necessity for building a Commotion wireless network is two or more rou
 
 A diagram of all the pieces is below:
 
-<img src="/files/posts/How-much-does-it-cost-building-equipment.png" alt="Building equipment diagram" style="width: 100%;">
+<img src="/files/posts/How-much-does-it-cost-building-equipment.png" alt="Building equipment diagram" class="full-width">
 
 An example of a single building’s necessary equipment and costs:
 
@@ -58,7 +58,7 @@ If you would like more detail on the costs for equipment and hardware, there are
 
 All projects take time, especially construction projects. Building a network is a small to medium scale construction project, and should be treated as such. It may involve purchasing hardware and tools to complete the installations. It will often involve working on rooftops, running outdoor Ethernet cables from those rooftops to the insides of buildings, and setting up community members’ computers to access the network -- and there’s all the planning that goes into setting up each of these steps. There are many small tasks, and installing a single site may take between one and four hours, depending on the complexity. Many of the steps are discussed in [Prep and Install Rooftop Nodes](http://commotionwireless.net/docs/cck/building-mounting/prep-install-rooftop-nodes) in the CCK.
 
-<img src="/files/posts/How-much-does-it-cost-group-labor.png" alt="Installation group" style="width: 100%;">
+<img src="/files/posts/How-much-does-it-cost-group-labor.png" alt="Installation group" class="full-width">
 
 The good news is that most, if not all, of the work can be done by you and other volunteers. Your community is likely already home to many skilled individuals already. We recommend assessing who may be able to help with the project and reaching out to them early. For some guidance with this, please consult the [Identify Neighborhood Skills](http://commotionwireless.net/docs/cck/planning/identify-neighborhood-skills) section of the CCK.
 
@@ -70,7 +70,7 @@ Of course, there may also be some cases where you cannot do all of the work your
 
 Commotion networks do not require a connection to the Internet to run. With some additional configuration and a computer running some server applications, you can provide services across the network without the additional cost of bandwidth. However, we expect some networks may want to provide Internet access if it is possible. Commotion is designed to share connections to the Internet (gateways) across the entire network. It is as simple as plugging in a DSL, cable, or other gateway connection into the Commotion node.
 
-<img src="/files/posts/How-much-does-it-cost-gateway-connection.png" alt="Gateway connection" style="width: 100%;">
+<img src="/files/posts/How-much-does-it-cost-gateway-connection.png" alt="Gateway connection" class="full-width">
 
 Keep in mind that sharing connections to the Internet may not be allowed - many Internet Service Providers (ISPs) don’t allow sharing (check your Terms of Service if you are curious). You may run the risk of having your service disconnected if you violate the contract. Some countries or states may have laws about sharing Internet connections as well.
 
@@ -88,41 +88,41 @@ Below are two different scenarios as examples of how much things might cost when
 
 First, consider the following scenario: you and three neighbors want to share a connection to the Internet, or access to a local application server for chat and local games.
 
-<img src="/files/posts/How-much-does-it-cost-small-Network.png" alt="Small scale network" style="width: 100%;">
+<img src="/files/posts/How-much-does-it-cost-small-Network.png" alt="Small scale network" class="full-width">
 
 Looking at this network, there are four routers, and for the purposes of the example, a single connection to the Internet. For this example, we will use omnidirectional outdoor routers, such as the Ubiquiti PicoStation M2, and simple rooftop mounts. There is a single business-class Cable connection to the Internet shared on the network. Each network participant will also have a simple home router inside their house to connect their computers and smartphones. Two participants already own these routers.
 
 **Equipment Costs**
-<table style="border:1px;">
- <tr style="background-color:#94B8B8; padding: .5em;">
- <th style="padding: .5em;">Item</th>
- <th style="padding: .5em;">Quantity</th>
- <th style="padding: .5em;">Cost</th>
- <th style="padding: .5em;">Subtotal</th>
+<table class="infotable">
+ <tr>
+ <th>Item</th>
+ <th>Quantity</th>
+ <th>Cost</th>
+ <th>Subtotal</th>
  </tr>
  <tr>
- <td style="background-color:#E6E6E6; padding: .5em;">Routers</td>
- <td style="padding: .5em;">4</td>
- <td style="padding: .5em;">$80</td>
- <td style="padding: .5em;">$320</td>
+ <td class="highlight">Routers</td>
+ <td>4</td>
+ <td>$80</td>
+ <td>$320</td>
  </tr>
  <tr>
- <td style="background-color:#E6E6E6; padding: .5em;">Mounting hardware</td>
- <td style="padding: .5em;">4</td>
- <td style="padding: .5em;">$40</td>
- <td style="padding: .5em;">$160</td>
+ <td class="highlight">Mounting hardware</td>
+ <td>4</td>
+ <td>$40</td>
+ <td>$160</td>
  </tr>
  <tr>
- <td style="background-color:#E6E6E6; padding: .5em;">Ethernet cables</td>
- <td style="padding: .5em;">4</td>
- <td style="padding: .5em;">$20</td>
- <td style="padding: .5em;">$80</td>
+ <td class="highlight">Ethernet cables</td>
+ <td>4</td>
+ <td>$20</td>
+ <td>$80</td>
  </tr>
  <tr>
- <td style="background-color:#E6E6E6; padding: .5em;">Home routers</td>
- <td style="padding: .5em;">2</td>
- <td style="padding: .5em;">$50</td>
- <td style="padding: .5em;">$100</td>
+ <td class="highlight">Home routers</td>
+ <td>2</td>
+ <td>$50</td>
+ <td>$100</td>
  </tr>
 </table>
 **Equipment total: $660**
@@ -130,30 +130,30 @@ Looking at this network, there are four routers, and for the purposes of the exa
 For the installation, the network participants will do all of the work themselves. So, there aren’t any costs associated with installation, other than time. Of course - everyone’s time has value, so we will still calculate how many hours everyone worked on the project.
 
 **Labor Costs**
-<table>
+<table class="infotable">
  <tr>
- <td><b>Item</b></td>
- <td><b># of People</b></td>
- <td><b>Time Required</b></td>
- <td><b># of Sites</b></td>
- <td><b>Subtotal</b></td>
+ <th>Item</th>
+ <th># of People</th>
+ <th>Time Required</th>
+ <th># of Sites</th>
+ <th>Subtotal</th>
  </tr>
  <tr>
- <td>Installing Commotion</td>
+ <td class="highlight">Installing Commotion</td>
  <td>1</td>
  <td>30 minutes per router</td>
  <td>4</td>
  <td>2 hours</td>
  </tr>
  <tr>
- <td>Installing Routers</td>
+ <td class="highlight">Installing Routers</td>
  <td>2 per site</td>
  <td>2 hours per site</td>
  <td>4</td>
  <td>16 hours</td>
  </tr>
  <tr>
- <td>Configuring applications</td>
+ <td class="highlight">Configuring applications</td>
  <td>2</td>
  <td>3 hours</td>
  <td>1</td>
@@ -166,15 +166,15 @@ The bandwidth must be considered as well. For this example, only one year of ser
 
 **Bandwidth Costs**
 
-<table>
+<table class="infotable">
  <tr>
- <td><b>Connection</b></td>
- <td><b>Cost per month</b></td>
- <td><b># of months</b></td>
- <td><b>Subtotal</b></td>
+ <th>Connection</th>
+ <th>Cost per month</th>
+ <th># of months</th>
+ <th>Subtotal</th>
  </tr>
  <tr>
- <td>Cable ISP</td>
+ <td class="highlight">Cable ISP</td>
  <td>$100</td>
  <td>12</td>
  <td>$1200</td>
@@ -189,50 +189,50 @@ The initial, first-year costs of the network are **$1860**, which includes all o
 
 Next, consider the following scenario: a neighborhood or small town wants to create a network that covers the entire area. There will be twelve initial participants in the network, but through outreach and word-of-mouth, the organizers anticipate the network will grow rapidly.
 
-<img src="/files/posts/How-much-does-it-cost-neighborhood-network.png" alt="Medium scale network" style="width: 100%;">
+<img src="/files/posts/How-much-does-it-cost-neighborhood-network.png" alt="Medium scale network" class="full-width">
 
 Looking at this network, there are two types of sites - two tower sites, and twelve neighborhood buildings. There will be two types of routers, and for the purposes of the example, two connections to the Internet. For the neighborhood buildings, omnidirectional outdoor routers, such as the Ubiquiti PicoStation M2, and simple rooftop mounts are used. The tower sites will have more powerful Ubiquiti Rocket M2 routers with sector antennas to provide wider coverage and many mesh connections to the ISP gateways. These gateways are dedicated, high-performance ISP connections to the Internet. Each network participant will also have a simple home router inside their house to connect their computers and smartphones. Six participants already own these routers.
 
 **Equipment Costs**
-<table>
+<table class="infotable">
  <tr>
- <td><b>Item</b></td>
- <td><b>Quantity</b></td>
- <td><b>Cost</b></td>
- <td><b>Subtotal</b></td>
+ <th>Item</th>
+ <th>Quantity</th>
+ <th>Cost</th>
+ <th>Subtotal</th>
  </tr>
  <tr>
- <td>Tower routers</td>
+ <td class="highlight">Tower routers</td>
  <td>2</td>
  <td>$250</td>
  <td>$500</td>
  </tr>
  <tr>
- <td>Tower mounting</td>
+ <td class="highlight">Tower mounting</td>
  <td>2</td>
  <td>$100</td>
  <td>$200</td>
  </tr>
  <tr>
- <td>Participant Routers</td>
+ <td class="highlight">Participant Routers</td>
  <td>12</td>
  <td>$80</td>
  <td>$960</td>
  </tr>
  <tr>
- <td>Mounting hardware</td>
+ <td class="highlight">Mounting hardware</td>
  <td>12</td>
  <td>$40</td>
  <td>$480</td>
  </tr>
  <tr>
- <td>Ethernet cables</td>
+ <td class="highlight">Ethernet cables</td>
  <td>12</td>
  <td>$20</td>
  <td>$240</td>
  </tr>
  <tr>
- <td>Home routers</td>
+ <td class="highlight">Home routers</td>
  <td>6</td>
  <td>$50</td>
  <td>$300</td>
@@ -243,37 +243,37 @@ Looking at this network, there are two types of sites - two tower sites, and twe
 For the installation, the tower sites must be installed by professionals, but the network participants can install all of the small building equipment themselves. So there aren’t any costs associated with those installations, other than time. Of course - everyone’s time has value, so we will still calculate how many hours everyone worked on the project.
 
 **Labor Costs**
-<table>
+<table class="infotable">
  <tr>
- <td><b>Item</b></td>
- <td><b># of People</b></td>
- <td><b>Time Required</b></td>
- <td><b># of Sites</b></td>
- <td><b>Subtotal</b></td>
+ <th>Item</th>
+ <th># of People</th>
+ <th>Time Required</th>
+ <th># of Sites</th>
+ <th>Subtotal</th>
  </tr>
  <tr>
- <td>Tower installations</td>
+ <td class="highlight">Tower installations</td>
  <td>3</td>
  <td>4 hours per site</td>
  <td>2</td>
  <td>$1000</td>
  </tr>
  <tr>
- <td>Installing Commotion</td>
+ <td class="highlight">Installing Commotion</td>
  <td>1</td>
  <td>30 minutes per router</td>
  <td>14</td>
  <td>7 hours</td>
  </tr>
  <tr>
- <td>Installing Routers</td>
+ <td class="highlight">Installing Routers</td>
  <td>2 per site</td>
  <td>2 hours per site</td>
  <td>12</td>
  <td>48 hours</td>
  </tr>
  <tr>
- <td>Configuring gateway</td>
+ <td class="highlight">Configuring gateway</td>
  <td>1</td>
  <td>1 hour per site</td>
  <td>2</td>
@@ -288,16 +288,16 @@ The bandwidth must be considered as well. For this example, only one year of ser
 This network may require additional work setting up participant’s devices - such as home routers, computers, or smartphones. "Help desk" activities such as this may be necessary for helping some people connect to the network. As networks grow in size, this will become a more and more important consideration.
 
 **Bandwidth Costs**
-<table>
+<table class="infotable">
  <tr>
- <td><b>Connection</b></td>
- <td><b>Cost per month</b></td>
- <td><b># of months</b></td>
- <td><b># of connections</b></td>
- <td><b>Subtotal</b></td>
+ <th>Connection</th>
+ <th>Cost per month</th>
+ <th># of months</th>
+ <th># of connections</th>
+ <th>Subtotal</th>
  </tr>
  <tr>
- <td>Dedicated ISP</td>
+ <td class="highlight">Dedicated ISP</td>
  <td>$250</td>
  <td>12</td>
  <td>2</td>
