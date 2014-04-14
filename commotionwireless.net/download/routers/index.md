@@ -135,13 +135,13 @@ lang: en
   </thead>
   <tbody>
       <tr class="file even">
-         <td class="rteleft"><a href="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin"><strong>TP-Link WDR4300 Factory Install</strong></a> | <a class="signature" href="http://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin.asc">(sig)</a></td>
+         <td class="rteleft"><a href="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin"><strong>TP-Link WDR4300 - Factory Install</strong></a> | <a class="signature" href="http://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin.asc">(sig)</a></td>
          <td class="rteleft">ae74db98f41ae3c3b41a6fc39c2e6ee8</td>
          <td class="rteleft">4-14-14</td>
          <td class="rteleft">5.3 MB</td>
       </tr>
       <tr class="file odd">
-         <td class="rteleft"><a href="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin"><strong>TP-Link WDR4300 Factory Install</strong></a> | <a class="signature" href="http://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+         <td class="rteleft"><a href="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin"><strong>TP-Link WDR4300 - Upgrade</strong></a> | <a class="signature" href="http://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin.asc">(sig)</a></td>
          <td class="rteleft">4a3584ab7309a4a53884205ed870d227</td>
          <td class="rteleft">4-14-14</td>
          <td class="rteleft">5.3 MB</td>
