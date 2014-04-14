@@ -19,7 +19,7 @@ lang: en
 <p>The aim of these conversations is to gather as much information as possible. Below is a short list of questions that will help developers recreate your experience in our laboratory.</p>
 	
 Email your bug report to:
-<code>support at opentechinstitute dot org</code>
+<code>support at commotionwireless dot net</code>
 
 Please include the following information to make your bug report as useful as possible:
 <ul>
