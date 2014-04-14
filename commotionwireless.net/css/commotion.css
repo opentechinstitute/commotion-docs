@@ -1,6 +1,9 @@
-body {
+@font-face {
   font-family: AsapRegular;
-  src: url(fonts/Asap-Regular-webfont.ttf);
+  src: url('/fonts/Asap-Regular-webfont.ttf') format('truetype');
+}
+body {
+  font-family: 'AsapRegular', Fallback, sans-serif;
 }
 /* top bar */
 .navbar-inners {
