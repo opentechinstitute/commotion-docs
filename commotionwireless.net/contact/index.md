@@ -15,4 +15,4 @@ Phone: 202-986-2700 <br />
 Fax: 202-986-3696 <br />
 
 For questions, comments, support or other inquiries, email us:
-<code>support at opentechinstitute dot org</code>
+<code>support at commotionwireless dot net</code>
