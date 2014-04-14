@@ -4,7 +4,7 @@ title: FAQ
 site_section: about
 categories: 
 created: 2013-07-14
-changed: 2014-04-10
+changed: 2014-04-14
 post_author: Chris Ritzo
 lang: en
 ---
@@ -47,6 +47,8 @@ lang: en
 <h3>Is there a charge or cost to use Commotion?</h3>
 <p>No. The software will always be available free of charge, and our documentation is available under a <a href="http://creativecommons.org/licenses/by-sa/2.5/">Creative Commons, Share-Alike license</a>. Communities or individuals using Commotion assume the cost of purchasing routers and other hardware used in building their networks. There may also be a cost for a connection to the public Internet from a local provider. The size, scope and operation of a Commotion network is largely up to the community that deploys it.</p>
 
+<h3>How much does it cost to build a Commotion network?</h3>
+<p>Please refer to the <a href="/blog/2014/04/14/how-much-does-it-cost/">blog post</a> on this subject for more information on the various costs associated with building a Commotion network.</p>
 <h3>Can I buy a Commotion Construction Kit?</h3>
 <p>No. The Commotion Construction Kit is a set of documentation that can be downloaded from this website. It is not a kit of hardware, but a planning and implementation tool intended for communities interested in organizing and building community wireless networks.</p>
 
