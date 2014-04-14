@@ -11,7 +11,7 @@ lang: en
 ---
   <p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in trainings around the world and at home. It is a “do it ourselves” guide to building wireless mesh networks.</p>
 
-<div><span style="padding:10px;background-color:Gray;font-size:1em;display:block;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__689 img__view_mode__media_large attr__format__media_large" height="10" src="/files/styles/large/public/arrow_wht.png?itok=9Hmw4G8_" style="vertical-align:middle;margin-right:10px;" typeof="foaf:Image" width="29" /><a href="https://www.transifex.com/projects/p/commotion-documentation/" style="color:white;target:new tab front;">HELP US TRANSLATE THE COMMOTION CONSTRUCTION KIT</a></span></div>
+<div><span style="padding:10px;background-color:Gray;font-size:1em;display:block;"><img alt="" class="noscale" height="10" src="/files/styles/large/public/arrow_wht.png" style="vertical-align:middle;margin-right:10px;" width="29" /><a href="https://www.transifex.com/projects/p/commotion-documentation/" style="color:white;target:new tab front;">HELP US TRANSLATE THE COMMOTION CONSTRUCTION KIT</a></span></div>
 
 <p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" /></p>
 

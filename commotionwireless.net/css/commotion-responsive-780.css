@@ -321,6 +321,10 @@ div.pageheadings hr {
 .left-twothird a {
   text-decoration: underline;
 }
+.left-twothird img {
+    height: auto;
+    width: 95%;
+}
 .blog-pubdata {
   margin-left: 1.3em;
 }
