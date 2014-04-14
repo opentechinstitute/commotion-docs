@@ -282,7 +282,7 @@ div.pageheadings hr {
   width: 65%;
   min-width: 400px;
   float: left;
-  margin: .3em 2em; 
+  margin: .3em 0em; 
 }
 .left-twothird h2 {
   margin-left: 0;
@@ -299,7 +299,9 @@ div.pageheadings hr {
 .blog-excerpt {
 
 }
+img.noscale {
 
+}
 
 /* Warning label style */
 .warning-label {
