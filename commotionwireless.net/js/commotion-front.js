@@ -13,8 +13,8 @@ $( document ).ready(function() {
     centercontrols: false,
     showmarkers : false,
     hoverpause : true,
-    nexttext : '>', // Text for 'next' button (can use HTML)
-    prevtext : '<', // Text for 'previous' button (can use HTML)
+    nexttext : '<span class="control-button" title="Next slide">></span>', // Text for 'next' button (can use HTML)
+    prevtext : '<span class="control-button" title="Previous slide"><</span>', // Text for 'previous' button (can use HTML)
   });
 });
 
