@@ -100,7 +100,7 @@ Users with compatible Android phones may choose to download and install the <a h
 <p>The project is structured as a traditional open-source project. We are working to coordinate and integrate many different open-source projects operating in this field.</p>
 
 <h3>How is Commotion development funded?</h3>
-<p>New America Foundation's Open Technolgy Institute receives funding for COmmotion development from a variety of sources, including the US Department of State Internet Freedom Program, USAID and Radio Free Asia.</p>
+<p>Commotion pre-dates any federal funding and as an open source project has an independent life regardless of any particular funding. Commotion has had and will have other funders. The active funding at any particular moment is a consequence of timing, not reflective of how we approach securing support for the work.</p>
 
 <h3>Which operating systems are supported by Commotion?</h3>
 <p>The Commotion project is currently targeting reasonably current versions of Windows, Mac, GNU/Linux, Android, embedded routers, and OpenBTS platforms. In addition, any device may connect to a standard access point provided by the network as a client without having to run the software, thereby utilizing the network without being part of it.</p>
