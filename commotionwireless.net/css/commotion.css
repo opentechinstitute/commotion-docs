@@ -206,8 +206,8 @@ div#slideshow li.bjqs-prev a {
     font-weight: bold;
     color: #000000;
     text-decoration: none;
-    opacity: 0.5;
-    filter:alpha(opacity=50);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
 }
 div#slideshow li.bjqs-next a {
   background: none repeat scroll 0 0 #FE739B;
@@ -219,8 +219,8 @@ div#slideshow li.bjqs-next a {
   margin: auto 1em auto 0;
   padding: 6px 10px;
   text-decoration: none;
-  opacity: 0.5;
-  filter:alpha(opacity=50);
+  opacity: 0.7;
+  filter:alpha(opacity=70);
 }
 .control-button {
 }
