@@ -8,9 +8,11 @@ changed: 2014-02-27
 post_author: areynold
 lang: en
 ---
-  <h2>Platforms</h2>
+If you are interested in helping develop the Commotion Wireless software, or want to create your own software images for specific routers or other devices, please see the sections below for the platform you are interest in.
 
-<p>Commotion runs on multiple software and hardware platforms: Embedded routers, smart phones, desktops and laptops, and open source GSM basestations. Development on each of these platforms occurs in parallel. Where possible, a common set of tools are used to develop Commotion, no matter the platform. However, there are certain platforms where unique tools are required.</p>
+<h2>Platforms</h2>
+
+<p>Commotion runs on multiple software and hardware platforms: Some network routers, smart phones, desktops and laptops, and open source GSM basestations. Software development on each platform moves at a different pace, but we are working towards unifying the code across all of the platforms. Where possible, a common set of tools are used to develop Commotion, no matter the platform. However, there are certain platforms where unique tools are required.</p>
 
 <ul>
 	<li><a href="commotion-router/">Commotion-Router development guide</a></li>

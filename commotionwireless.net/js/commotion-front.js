@@ -3,9 +3,9 @@ $( document ).ready(function() {
 
   // front page banner definition
   $('#banner-slide').bjqs({
-    animtype      : 'slide',
+    animtype      : 'fade',
     animduration : 450, // how fast the animation are
-    animspeed : 4000, // the delay between each slide
+    animspeed : 6000, // the delay between each slide
     height        : 150,
     width         : 800,
     responsive    : true,
@@ -13,8 +13,8 @@ $( document ).ready(function() {
     centercontrols: false,
     showmarkers : false,
     hoverpause : true,
-    nexttext : '>', // Text for 'next' button (can use HTML)
-    prevtext : '<', // Text for 'previous' button (can use HTML)
+    nexttext : '<span class="control-button" title="Next slide">></span>', // Text for 'next' button (can use HTML)
+    prevtext : '<span class="control-button" title="Previous slide"><</span>', // Text for 'previous' button (can use HTML)
   });
 });
 

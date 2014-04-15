@@ -10,7 +10,7 @@ lang: en
 ---
   <p>Commotion is supported on a variety of devices and platforms. We list devices as "supported" after active testing on the latest release of our software. We're constantly testing new devices and documenting our work on our developer site, <a href="https://wiki.commotionwireless.net">wiki.commotionwireless.net</a>.</p>
 
-<p>If your device is not listed here, we encourage you to look on the <a href="https://wiki.commotionwireless.net/doku.php?id=hardware_in_testing">developer site wiki</a>, or <a href="/contact">contact us</a> to ask about it!</p>
+<p>If your device is not listed here, we encourage you to look on the <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_in_testing">developer site wiki</a>, or <a href="/contact">contact us</a> to ask about it!</p>
 
 <div id="routers" style="width:100%;">
 <h2>Supported Devices by Category</h2>
