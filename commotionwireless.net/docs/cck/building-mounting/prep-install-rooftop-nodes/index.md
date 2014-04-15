@@ -78,7 +78,7 @@ lang: en
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__341 img__view_mode__media_original attr__format__media_original" height="365" src="/files/prep_install_finish_support004.png" typeof="foaf:Image" width="510" /></p>
 
-<p>1. Do a site assessment. An example site assessment guide is available in the <a href="#">Determine Installation Needs</a> module. The guide includes a set of questions and things to look for, but cannot cover every possibility for installation sites.</p>
+<p>1. Do some site assessments. Using the guidelines and examples in <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventory the Neighborhood</a> to survey buildings and sites for wireless installations. The document includes a set of questions and things to look for, and is a good place to start.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__342 img__view_mode__media_original attr__format__media_original" height="313" src="/files/prep_install_finish_support005.png" typeof="foaf:Image" width="510" /></p>
 
