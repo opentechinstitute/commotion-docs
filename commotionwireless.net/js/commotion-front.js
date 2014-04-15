@@ -3,9 +3,9 @@ $( document ).ready(function() {
 
   // front page banner definition
   $('#banner-slide').bjqs({
-    animtype      : 'slide',
+    animtype      : 'fade',
     animduration : 450, // how fast the animation are
-    animspeed : 4000, // the delay between each slide
+    animspeed : 6000, // the delay between each slide
     height        : 150,
     width         : 800,
     responsive    : true,
