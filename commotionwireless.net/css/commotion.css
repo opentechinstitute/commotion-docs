@@ -775,4 +775,9 @@ table.infotable td.highlight {
   background-color: #E6E6E6;
   text-align: left;
 }
-  
+.faq-content h3 {
+  margin-left: .5em;
+}
+.faq-content p {
+  margin-left: 1em;
+} 
