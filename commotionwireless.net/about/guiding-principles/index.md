@@ -48,5 +48,5 @@ Across our work, we are guided by these principles:
 <p>We are accountable to these principles in everything we do.</p>
 
 <hr>
-<span id="footnote1">**(1)** As members of the <a href="http://detroitdjc.org/principles/" target="_blank">Detroit Digital Justice Coalition</a>, we believe that communication is a fundamental human right; we are securing that right for the digital age by promoting access, participation, common ownership, and healthy communities.</span>
+<span id="footnote1"><strong>(1)</strong> As members of the <a href="http://detroitdjc.org/principles/" target="_blank">Detroit Digital Justice Coalition</a>, we believe that communication is a fundamental human right; we are securing that right for the digital age by promoting access, participation, common ownership, and healthy communities.</span>
 </div>
