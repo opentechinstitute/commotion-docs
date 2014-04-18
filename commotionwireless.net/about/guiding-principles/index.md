@@ -8,7 +8,8 @@ changed: 2013-07-18
 post_author: critzo
 lang: en
 ---
-  <h2>Commotion Project Guiding Principles</h2>
+<div class="about-content">
+<h2>Commotion Project Guiding Principles</h2>
 
 <ul>
 	<li><strong>The Commotion project is an <a href="https://en.wikipedia.org/wiki/Open_source">open source</a>, <a href="https://en.wikipedia.org/wiki/Free_software">free software</a> toolkit.</strong> The community welcomes all contributions and conversations that help the project grow and improve in accordance with its mission.<br />
@@ -48,3 +49,4 @@ We are accountable to these principles in everything we do.
 
 <hr>
 <span id="footnote1">**(1)** As members of the <a href="http://detroitdjc.org/principles/" target="_blank">Detroit Digital Justice Coalition</a>, we believe that communication is a fundamental human right; we are securing that right for the digital age by promoting access, participation, common ownership, and healthy communities.</span>
+</div>
