@@ -14,12 +14,12 @@ lang: en
 <h3>What is Commotion?</h3>
 <p>Commotion is a suite of open-source communications tools that use mobile phones, computers, and other wireless devices to create decentralized mesh networks and share local services. Read more about the <a href="/docs/supported-devices">devices Commotion supports</a> and more about how it works below.</p>
 
-<h3>Does commotion provide internet access? Is it possible to share internet access with Commotion?</h3>
+<h3>Does commotion provide Internet access? Is it possible to share Internet access with Commotion?</h3>
 <p>Commotion does not provide Internet access.</p>
 <p>You can certainly share Internet access using Commotion, though we recommend that you consult the Terms of Service from your ISP. All that is required is to connect a router with Commotion installed to an existing Internet connection to provide an Internet gateway. The Commotion router will share bandwidth with other devices on the mesh network from that connection. Multiple routers can be used to do this on a mesh network to provide multiple gateways and additional bandwidth. See the section "Commotion Node Connected to a Home or Business Router" on the <a href="/docs/cck/installing-configuring/common-configurations">Common Configurations page</a></p> 
 
 <h3>How does Commotion work?</h3>
-<p>Commotion is software that is installed on existing feature phones, smartphones, Wi-Fi enabled computers, wireless routers and other wireless-capable personal devices. It enables the creation of peer-to-peer (mesh) communications networks. The Commotion Project's goal is to provide an easy-to-assemble package of software and documentation that makes building mesh networks accessible for a wide audience.</p>
+<p>Commotion is software that is installed on smartphones, Wi-Fi enabled computers, wireless routers and other wireless-capable personal devices. It enables the creation of peer-to-peer (mesh) communications networks. The Commotion Project's goal is to provide an easy-to-assemble package of software and documentation that makes building mesh networks accessible for a wide audience.</p>
 
 <h3>What is mesh? What is a mesh network? How does it work?</h3>
 <p>There are many different types of networks. Most networks that we interact with everyday are based on a hub and spoke model. Mesh networks are based on the idea that any point in the network, or node, can talk to any other point in the network, similar to how human networks work. You can read more about mesh networks in the Commotion Construction Kit: <a href="http://commotionwireless.net/docs/cck/networking/intro-to-mesh/">http://commotionwireless.net/docs/cck/networking/intro-to-mesh/</a> </p>
@@ -111,7 +111,7 @@ Users with compatible Android phones may choose to download and install the <a h
 <p>Running network applications on a local mesh network is very similar to running applications on the Internet or any local area network (LAN), and requires at a minimum a local server hosting the app or service. That service can then be advertised between Commotion mesh routers so people connecting to the network can find that application or service. OTI is working on a guides on how to set up an application server for various applications and provide those services on a Commotion mesh network. Preliminary instructions for some applications is available on our <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:application_server:start">developer wiki</a>.</p>
 
 <h3>Please explain the cell phone component of this project: does it use sim cards, Skype, or another technique?</h3>
-<p>The network will interconnect via Wi-Fi with Wi-Fi-enabled smartphones, and via GSM with standard mobile phones. If VOIP services are available on the internet or locally, users may place calls using Skype, Jitsy, or local VoIP services. Otherwise, users may place calls to other phones on the Commotion network if there is a nearby Commotion enabled GSM device.</p>
+<p>The network will interconnect via Wi-Fi with Wi-Fi-enabled smartphones, and via GSM with standard mobile phones. If VOIP services are available on the Internet or locally, users may place calls using Skype, Jitsy, or local VoIP services. Otherwise, users may place calls to other phones on the Commotion network if there is a nearby Commotion enabled GSM device.</p>
 
 <h2>Development</h2>
 
@@ -143,8 +143,8 @@ Users with compatible Android phones may choose to download and install the <a h
 <h3>How much does it cost to build a Commotion network?</h3>
 <p>Please refer to the <a href="/blog/2014/04/14/how-much-does-it-cost/">blog post</a> on this subject for more information on the various costs associated with building a Commotion network.</p>
 
-<h3>Can I supply internet access to my whole community through my home router?</h3>
-<p>You can certainly share Internet access using Commotion, although you will not be able to scale to your whole community with just your home internet connection. A Commotion router will share bandwidth with other meshed devices on a network if it is connected to the Internet (in that case it’s called a “gateway”). For a community network, you will most likely want to have multiple internet gateways. This can be accomplished using multiple routers on a mesh network to provide multiple gateways and additional bandwidth. See the section "Commotion Node Connected to a Home or Business Router" on the <a href="/docs/cck/installing-configuring/common-configurations">Common Configurations page</a>.</p>
+<h3>Can I supply Internet access to my whole community through my home router?</h3>
+<p>You can certainly share Internet access using Commotion, although you will not be able to scale to your whole community with just your home Internet connection. A Commotion router will share bandwidth with other meshed devices on a network if it is connected to the Internet (in that case it’s called a “gateway”). For a community network, you will most likely want to have multiple Internet gateways. This can be accomplished using multiple routers on a mesh network to provide multiple gateways and additional bandwidth. See the section "Commotion Node Connected to a Home or Business Router" on the <a href="/docs/cck/installing-configuring/common-configurations">Common Configurations page</a>.</p>
 
 <h3>How much will it cost to supply Internet access to my whole community?</h3>
 <p>It depends. Determining the cost of a community wireless network is complicated as it involves many factors, such as the number of people you need to serve, how much area you want to cover in your community, and options in your community for how to connect your network to the Internet, as well as hardware, installation, and labor costs. For a few examples of these costs, please refer to the blog post <a href="/blog/2014/04/14/how-much-does-it-cost/">How much does it cost?</a> To begin thinking about what you want your community network to look like, we recommend bringing your community together to work through the <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a> module from the Commotion Construction Kit, which will help you in your initial planning exercises.</p>
@@ -157,7 +157,7 @@ Users with compatible Android phones may choose to download and install the <a h
 <h3>Will this project be accessible only during periods of unrest?</h3>
 <p>This technology is permanent. In fact, many of the underlying components are currently in <a href="/about/where-its-used">use around the world</a> today as a means of connecting communities.</p>
 
-<h3>What advantage does this method have over satellite internet?</h3>
+<h3>What advantage does this method have over satellite Internet?</h3>
 <p>Commotion is a suite of tools designed to take advantage of any available satellite Internet service, and that connection may be shared with anyone on the network. If no Internet connection is available, network users may still communicate securely and anonymously with each other. Finally, the network is designed to be self-healing, allowing users to join and leave the network as needed.</p>
 
 <h2>Press, Research or Collaboration</h2>
