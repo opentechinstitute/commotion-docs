@@ -111,12 +111,14 @@ Users with compatible Android phones may choose to download and install the <a h
 <p>Running network applications on a local mesh network is very similar to running applications on the Internet or any local area network (LAN), and requires at a minimum a local server hosting the app or service. That service can then be advertised between Commotion mesh routers so people connecting to the network can find that application or service. OTI is working on a guides on how to set up an application server for various applications and provide those services on a Commotion mesh network. Preliminary instructions for some applications is available on our <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:application_server:start">developer wiki</a>.</p>
 
 <h3>Please explain the cell phone component of this project: does it use sim cards, Skype, or another technique?</h3>
-<p>The network will interconnect via Wi-Fi with Wi-Fi-enabled smartphones, and via GSM with standard mobile phones. If VOIP services are available on the Internet or locally, users may place calls using Skype, Jitsy, or local VoIP services. Otherwise, users may place calls to other phones on the Commotion network if there is a nearby Commotion enabled GSM device.</p>
+<p>OpenGSM integration with Commotion is in development. The network will interconnect via Wi-Fi with Wi-Fi-enabled smartphones, and it is planned to integrate with standard mobile phones when an OpenGSM base station is deployed and connected to a Commotion network.</p> 
+
+<p>If VOIP services are available on the Internet or hosted locally, users may place calls using Skype, Jitsy, or local VoIP services.</p>
 
 <h2>Development</h2>
 
 <h3>Has this project already been pilot tested or is it only at the level of hypothesis?</h3>
-<p>Yes. Commotion has been tested and is in use in <a href="/about/where-its-used">multiple locations around the world.</a></p>
+<p>Commotion has been tested and is in use in <a href="/about/where-its-used">multiple locations around the world.</a></p>
 
 <h3>How will the software programming for this project be done?</h3>
 <p>The project is structured as a traditional open-source project. We are working to coordinate and integrate many different open-source projects operating in this field.</p>
@@ -125,7 +127,7 @@ Users with compatible Android phones may choose to download and install the <a h
 <p>Commotion is funded from a variety of sources but as an open source project has an independent life regardless of any particular funding. Commotion has had and will have other funders. The active funding at any particular moment is a consequence of timing, not reflective of how we approach securing support for the work.</p>
 
 <h3>Which operating systems are supported by Commotion?</h3>
-<p>The Commotion project is currently targeting reasonably current versions of Windows, Mac, GNU/Linux, Android, embedded routers, and OpenBTS platforms. In addition, any device may connect to a standard access point provided by the network as a client without having to run the software, thereby utilizing the network without being part of it.</p>
+<p>The Commotion project is currently targeting reasonably current versions of Windows, Mac, GNU/Linux, Android, embedded routers, and OpenGSM platforms. In addition, any device may connect to a standard access point provided by the network as a client without having to run the software, thereby utilizing the network without being part of it.</p>
 
 <p>Officially supported software images for Commotion Router can be found on the <a href="/download/routers">Commotion Router Download</a> page. Information about platforms under active development can be found in the <a href="/developer/resources">For Developers</a> section of this site.</p>
 
