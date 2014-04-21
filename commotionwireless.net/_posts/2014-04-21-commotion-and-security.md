@@ -9,7 +9,7 @@ post_author: Josh King
 lang: en
 
 ---
-One of the major goals of the Commotion project has been to introduce security tools open-source wireless mesh networks, while  emphasizing ease-of-use and reusing existing technologies as much as possible. Now that our first stable releases are out, it's worthwhile to revisit that goal and see what the project has accomplished.
+One of the major goals of the Commotion project has been to introduce security tools open-source wireless mesh networks, while  emphasizing ease-of-use and reusing existing technologies as much as possible. Now that our first stable releases are out, it's worthwhile to revisit that goal and see what the project has accomplished.<!--more-->
 
 ## Security Audits
 
