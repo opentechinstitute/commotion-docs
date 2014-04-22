@@ -1,11 +1,11 @@
 ---
 layout: blog
 title: Digital Stewardship and your community 
-categories: [Commotion,Community Technology,detroit,digital stewards,mesh,Community Engagement]
+categories: [Community Technology,detroit,digital stewards,mesh,Community Engagement]
 created: 2014-04-18
 changed: 2014-04-18
 teaser_image: posts/041814-Digital_stewards_blog_post_small.png
-post_author: Ryan Gerety, Andy Gunn, Will Hawkins
+post_author: 
 lang: en
 
 ---
