@@ -4,11 +4,11 @@ title: Where It's Used
 site_section: about
 categories: 
 created: 2013-06-28
-changed: 2013-12-18
+changed: 2014-04-22
 post_author: gerety
 lang: en
 ---
-  <p class="bigger">The Commotion project has pilot networks in Detroit, Red Hook and has built event&nbsp;networks at conferences such as&nbsp;the <a href="http://amc.alliedmedia.org/">Allied Media Conference</a>,&nbsp;<a href="http://conference.freepress.net/">National Conference for Media Reform</a>, and <a href="http://wirelesssummit.org">International Summit for Community Wireless Networks</a>.</p>
+<p>The Commotion project has pilot networks in Detroit, Red Hook and has built event&nbsp;networks at conferences such as the <a href="http://amc.alliedmedia.org/">Allied Media Conference</a>, <a href="http://conference.freepress.net/">National Conference for Media Reform</a>, and <a href="http://wirelesssummit.org">International Summit for Community Wireless Networks</a>.</p>
 
 <h3>International Training in Sayada, Tunisia</h3>
 
@@ -17,6 +17,7 @@ lang: en
 <p>Learn More:</p>
 
 <ul>
+	<li><a href="/blog/2014/04/18/case-study-mesh-sayada/">Case Study, Mesh Sayada</a></li>
 	<li><a href="http://storify.com/gretabyrum/commotion-in-sayada">Storify Post</a></li>
 	<li><a href="http://ubuntu.nizarus.tn/MeshSayada">Photos</a></li>
 </ul>
