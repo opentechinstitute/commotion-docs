@@ -5,18 +5,18 @@
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
     {% if forloop.first %}
-    <h3><a href="/blog/index.html#{{this_year}}">{{this_year}}</a></h3>
-    <a href="/blog/index.html#{{this_year}}-{{ this_month }}">{{ this_month }}</a> 
+    <h3><a href="/blog/by-date.html#{{this_year}}">{{this_year}}</a></h3>
+    <a href="/blog/by-date.html#{{this_year}}-{{ this_month }}">{{ this_month }}</a> 
     {% endif %}
 
     {% if forloop.last %}
     {% else %}
     {% if this_year != next_year %}
-    <h3><a href="/blog/index.html#{{next_year}}">{{next_year}}</a></h3>
-    <a href="/blog/index.html#{{next_year}}-{{next_month}}">{{ next_month }}</a>
+    <h3><a href="/blog/by-date.html#{{next_year}}">{{next_year}}</a></h3>
+    <a href="/blog/by-date.html#{{next_year}}-{{next_month}}">{{ next_month }}</a>
     {% else %}    
     {% if this_month != next_month %}
-    | <a href="/blog/index.html#{{this_year}}-{{next_month}}">{{next_month}}</a>
+    | <a href="/blog/by-date.html#{{this_year}}-{{next_month}}">{{next_month}}</a>
             {% endif %}
         {% endif %}
     {% endif %}

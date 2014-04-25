@@ -9,6 +9,9 @@ piwik:
   base_url: piwik.opentechinstitute.org
   site_id: 1
 
+markdown: kramdown
+
 permalink: /blog/:year/:month/:day/:title
 category_dir: /blog/category
-pagination: 3
+paginate: 10
+paginate_path: "blog/page-:num"

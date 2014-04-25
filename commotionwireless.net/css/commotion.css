@@ -119,7 +119,7 @@ li.static-nodrop a:visited {
   margin-left: auto;
   padding-top: 35px;
 }
-.contentcontainer a:link, .contentcontainer a:visited {
+.blog-landing h3 a:link, .blog-landing h3 a:visited, .contentcontainer a:link, .contentcontainer a:visited {
   border-bottom: 3px solid #E8FF00;
   color: #4D4D4D;
   text-decoration: none;
@@ -128,7 +128,7 @@ li.static-nodrop a:visited {
   font-size: 14px;
   font-weight: bold;
 }
-.contentcontainer a:hover, .contentcontainer a:visited {
+.blog-landing h3 a:visited, .contentcontainer a:hover, .contentcontainer a:visited {
   border-bottom: 3px solid #FF739C;
   color: #4D4D4D;
   background: none;
@@ -335,6 +335,35 @@ div.pageheadings hr {
 .blog-excerpt {
 
 }
+div.blog-landing .pagination {
+  width: 100%;
+  text-align: center;
+}
+div.blog-landing .pagination a {
+  text-decoration: none;
+  margin: 0 .5em;
+  padding: 2px 3px;
+  border: none;
+  font-size: 1.1em;
+}
+div.blog-landing .pagination .active {
+  font-size: 1.4em;
+  width: 1.5em;
+  margin: 0 .75em;
+  font-weight: bold;
+  border-bottom: 3px solid  #FF739C;
+}
+div.blog-landing .pagination .prev, div.blog-landing .pagination .next {
+  font-size: 1em;
+  font-weight: normal;
+}
+div.blog-landing .pagination .prev {
+  margin-right: 3em;
+}
+div.blog-landing .pagination .next {
+  margin-left: 3em;
+}
+
 img.noscale {
 
 }
@@ -500,6 +529,10 @@ div#download-button-block .download-button a.button {
 }
 .blog-container {
   width: 100%;
+}
+.blog-more {
+  margin: 1em 0;
+  text-align: right;
 }
 .floatright {
   float: right;
@@ -775,4 +808,11 @@ table.infotable td.highlight {
   background-color: #E6E6E6;
   text-align: left;
 }
-  
+.faq-content h3,
+.about-content h3 {
+  margin-left: .5em;
+}
+.faq-content p,
+.about-content p {
+  margin-left: 3em;
+} 
