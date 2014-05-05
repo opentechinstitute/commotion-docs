@@ -1,13 +1,24 @@
----
-layout: default
-title: Human Interface Guidelines
-categories: 
-created: 2014-04-24
-changed: 2014-04-26
-post_author: Griffin
-lang: en
----
 
+
+
+
+
+#Responsive Design
+
+##Dimensions
+
+The website is designed with specific size ranges in mind:
+
+* 479px and below (mobile)
+* 480px - 780px (web and tablet)
+* 781px and above (web)
+
+##Sizing considerations
+Width of all elements should not exceed 100% of the page width.  For many elements (such as tables) this has been enforced by stylesheet rules setting max-width at 97% to account for any padding that has been introduced elsewhere.  In the CSS overhaul, max-width will be set for all elements that are likely to collide with each other (breaking the layout).  This will also apply to images, which are frequently very wide.  Images should be linked to a large version if they are necessary to understand the page.
+
+
+
+##Accessibility
 
 
 
@@ -15,11 +26,6 @@ lang: en
 #Style
 
 ##Core Elements
-
-
-
-
-
 
 
 ##Logos
@@ -33,7 +39,9 @@ If there is at least 400px of horizontal space, the full Commotion logo is likel
 Ensure that there is a large enough margin around the logo so as to not crowd other elements of the page or get lost among busy background elements.  The pink logos should rest on a white or black background, as hot pink has a strong tendency to clash with other colors.
 
 ##Color
-Color usage ratio will vary depending on the interface, and will not be defined here.
+Color usage ratios will vary depending on the interface, and will not be precisely defined here.  White acts as the primary background color, with smaller subsections (such as headers) taking on a black background.  
+
+
 
 ###Primary colors
 White 
@@ -41,10 +49,16 @@ Black
 Commotion Pink
 
 ###Secondary Colors
+Purple 
+Sharp Teal - #00FFCF (as used on the website currently)
+Electric Blue - #16D5F4
+
+
+(Original HIG-defined Colors)
 Blue - #63CCF5
 Electric Yellow - #E8FF00
 Electric Purple - #877AED
-Elecric Green - #6FFF84
+Elecric Green - #6FFF84 (Original HIG-defined Color - unused)
 
 
 ###Shadow Colors
@@ -69,6 +83,8 @@ For digital, h1 page headings should be white text on black background, with a f
 
 ![ubuntu heading]()
 
+
+
 ###Font licenses
 
 Asap is released as a free font under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL), which allows us to use the font without charge and include it with any software that we make. Coupled with its pleasing appearance, it 
@@ -78,6 +94,7 @@ Avenir is a closed-source and proprietary licensed font, and its use should be l
 Ubuntu is released under the [Ubuntu Font License](http://font.ubuntu.com/ufl/), which is loosely based on the OFL.
 
 All three fonts allow us freedom in choosing licenses for both content and software.  Unfortunately, GPL-licensed fonts require that all content and software be licensed under the GPL as well.  This would restrict the other content that we re-use on the website which has been licensed under Creative Commons.  The [UFL](http://font.ubuntu.com/ufl/) and [OFL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) have no such restrictions.
+
 
 ##Content Licenses
 All content should be licensed as [Creative Common Attribution-ShareAlike 2.5 Generic license (CC BY-SA 2.5)](http://creativecommons.org/licenses/by-sa/2.5/).  This allows the content to redistributed and adapted for other use as long as the original source is credited and the license remains intact.  Both content and software licenses should be indicated on the [License](http://commotionwireless.net/about/license-privacy/) page.  In addition, content license should be indicated in the footer of each content page.  For photos that have different licenses, credit and license should be indicated within the caption, and titles should be set to briefly explain the license.
@@ -90,3 +107,5 @@ Commotion deployment in Reykjavik, Iceland. (c) 2014 Ryan Gerety
 
 ##Software license
 Commotion Wireless is licensed under the GNU General Public License.  For local apps and other software that may be referenced for use with Commotion, a license file is to be included with any bundles distributed.  For recommended software, care should be taken to ensure that it has an unambiguous free software license.
+
+
