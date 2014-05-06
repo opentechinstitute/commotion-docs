@@ -1,0 +1,893 @@
+\hypertarget{profile_8c}{\section{src/profile.c File Reference}
+\label{profile_8c}\index{src/profile.\-c@{src/profile.\-c}}
+}
+
+
+a key-\/value store for loading configuration information  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stddef.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$limits.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}tree.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}debug.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}util.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}profile.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}extern/jsmn.\-h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{profile_8c_ab3bc407e2efb5d752fb83c3e338086d1}{\#define {\bfseries D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-O\-K\-E\-N\-S}~128}\label{profile_8c_ab3bc407e2efb5d752fb83c3e338086d1}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{profile_8c_a06dc2c5771c244c3d22a9c7c66eef9b7}{co\-\_\-schema\-\_\-register} (co\-\_\-cb\-\_\-t cb)
+\begin{DoxyCompactList}\small\item\em register a callback for populating a profile schema \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a792ef6a5db39e510546bb5f9d7b67bce}{co\-\_\-schema\-\_\-register\-\_\-global} (co\-\_\-cb\-\_\-t cb)
+\begin{DoxyCompactList}\small\item\em register a callback for populating global profile \end{DoxyCompactList}\item 
+\hypertarget{profile_8c_a138f4d3a55140fc41a78c90ee290f786}{void \hyperlink{profile_8c_a138f4d3a55140fc41a78c90ee290f786}{co\-\_\-profiles\-\_\-shutdown} (void)}\label{profile_8c_a138f4d3a55140fc41a78c90ee290f786}
+
+\begin{DoxyCompactList}\small\item\em removes the list of available profiles \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a2538d21eeeefd9b63a55e2ce4736a0b7}{co\-\_\-profile\-\_\-remove} (const char $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name}, const size\-\_\-t nlen)
+\begin{DoxyCompactList}\small\item\em removes profile with given name \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_aa774788c1b72d9bbdeeff2505487ec10}{co\-\_\-profile\-\_\-add} (const char $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name}, const size\-\_\-t nlen)
+\begin{DoxyCompactList}\small\item\em adds a new profile \end{DoxyCompactList}\item 
+\hypertarget{profile_8c_af3dca51c6ed4c4bfe3c8459736ff0b55}{int \hyperlink{profile_8c_af3dca51c6ed4c4bfe3c8459736ff0b55}{co\-\_\-profiles\-\_\-init} (const size\-\_\-t index\-\_\-size)}\label{profile_8c_af3dca51c6ed4c4bfe3c8459736ff0b55}
+
+\begin{DoxyCompactList}\small\item\em creates a list of available profiles \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a819e5be526d66f9bb51eae1edb746464}{co\-\_\-profile\-\_\-import\-\_\-files} (const char $\ast$path)
+\begin{DoxyCompactList}\small\item\em imports available profiles from profiles directory \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a8c841c790d77d4eb5ec3d45037b6a693}{co\-\_\-profile\-\_\-import\-\_\-global} (const char $\ast$path)
+\begin{DoxyCompactList}\small\item\em imports global profile \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{profile_8c_acdf7b575f8f7f15b1d5ad9661c806471}{co\-\_\-profile\-\_\-get} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$key)
+\begin{DoxyCompactList}\small\item\em returns the key value (if an int) from the profile. If no value set, returns the default value \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a47a574eb5005dbbad2d59fafeeded0c6}{co\-\_\-profile\-\_\-set\-\_\-str} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen, const char $\ast$value, const size\-\_\-t vlen)
+\begin{DoxyCompactList}\small\item\em sets a specified profile value (if a string) \end{DoxyCompactList}\item 
+size\-\_\-t \hyperlink{profile_8c_ab6f6c35bbf46acf3598baaccbebbc6a2}{co\-\_\-profile\-\_\-get\-\_\-str} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, char $\ast$$\ast$output, const char $\ast$key, const size\-\_\-t klen)
+\begin{DoxyCompactList}\small\item\em returns the key value (if a string) from the profile. If no value set, returns the default value \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_afb854daffb4be38489552fff3dff28c1}{co\-\_\-profile\-\_\-set\-\_\-int} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen, const signed long value)
+\begin{DoxyCompactList}\small\item\em sets a specified profile value (if an int) \end{DoxyCompactList}\item 
+signed long \hyperlink{profile_8c_aa9bb893eb1f733cbaf8576277021fb63}{co\-\_\-profile\-\_\-get\-\_\-int} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen)
+\begin{DoxyCompactList}\small\item\em returns the key value (if an int) from the profile. If no value set, returns the default value \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a3d73aa2f3f1395cf3ac69bce8cba26d0}{co\-\_\-profile\-\_\-set\-\_\-uint} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen, const unsigned long value)
+\begin{DoxyCompactList}\small\item\em sets a specified profile value (if an unsigned int) \end{DoxyCompactList}\item 
+unsigned long \hyperlink{profile_8c_ac84baa09fb2a69bb2cd2bd6b126f2093}{co\-\_\-profile\-\_\-get\-\_\-uint} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen)
+\begin{DoxyCompactList}\small\item\em returns the key value (if an unsigned int) from the profile. If no value set, returns the default value \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_a38bdd62d15dd47ac11c88c1bda69780c}{co\-\_\-profile\-\_\-set\-\_\-float} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen, const double value)
+\begin{DoxyCompactList}\small\item\em sets a specified profile value (if a float) \end{DoxyCompactList}\item 
+double \hyperlink{profile_8c_a2ef9c6fbc2f1b0477258044b7e361dc0}{co\-\_\-profile\-\_\-get\-\_\-float} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$key, const size\-\_\-t klen)
+\begin{DoxyCompactList}\small\item\em returns the key value (if a float) from the profile. If no value set, returns the default value \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{profile_8c_a849e6102908d101e142e35c0a0be3d04}{co\-\_\-profile\-\_\-find} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name})
+\begin{DoxyCompactList}\small\item\em searches the profile list for a specified profile \end{DoxyCompactList}\item 
+\hypertarget{profile_8c_aa3efddbf36b876074e99d98ab06afbd9}{void \hyperlink{profile_8c_aa3efddbf36b876074e99d98ab06afbd9}{co\-\_\-profile\-\_\-delete\-\_\-global} (void)}\label{profile_8c_aa3efddbf36b876074e99d98ab06afbd9}
+
+\begin{DoxyCompactList}\small\item\em deletes the global profile \end{DoxyCompactList}\item 
+\hypertarget{profile_8c_a78d6bf4513d42c89457e0c764be46da1}{\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{profile_8c_a78d6bf4513d42c89457e0c764be46da1}{co\-\_\-profile\-\_\-global} (void)}\label{profile_8c_a78d6bf4513d42c89457e0c764be46da1}
+
+\begin{DoxyCompactList}\small\item\em returns the global profile \end{DoxyCompactList}\item 
+int \hyperlink{profile_8c_ab554e87952effcf083dd93f98ca1cff9}{co\-\_\-profile\-\_\-export\-\_\-file} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$profile, const char $\ast$path)
+\begin{DoxyCompactList}\small\item\em exports a profile in memory to a file \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{profile_8c_a678cadb5b8ef4bceb6ce39a43047bb19}{co\-\_\-profiles\-\_\-process} (co\-\_\-iter\-\_\-t iter, void $\ast$context)
+\begin{DoxyCompactList}\small\item\em processes all loaded profiles with specified iterator function \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a key-\/value store for loading configuration information \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{profile_8c_aa774788c1b72d9bbdeeff2505487ec10}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-add@{co\-\_\-profile\-\_\-add}}
+\index{co\-\_\-profile\-\_\-add@{co\-\_\-profile\-\_\-add}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-add}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-add (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const size\-\_\-t}]{nlen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_aa774788c1b72d9bbdeeff2505487ec10}
+
+
+adds a new profile 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & profile name \\
+\hline
+{\em nlen} & length of profile name \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-append().
+
+
+\begin{DoxyCode}
+156 \{
+157   \hyperlink{structco__obj__t}{co\_obj\_t} *new\_profile = \_co\_profile\_create(\hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}, nlen);
+158   CHECK(\_co\_schemas\_load(new\_profile, \_schemas), \textcolor{stringliteral}{"Failed to initialize profile with schema."});
+159   CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(\_profiles, new\_profile), \textcolor{stringliteral}{"Failed to add profile to list."});
+160 
+161   \textcolor{keywordflow}{return} 1;
+162 error:
+163   co\_obj\_free(new\_profile);
+164   \textcolor{keywordflow}{return} 0;
+165 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_ab554e87952effcf083dd93f98ca1cff9}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-export\-\_\-file@{co\-\_\-profile\-\_\-export\-\_\-file}}
+\index{co\-\_\-profile\-\_\-export\-\_\-file@{co\-\_\-profile\-\_\-export\-\_\-file}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-export\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-export\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_ab554e87952effcf083dd93f98ca1cff9}
+
+
+exports a profile in memory to a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em path} & export path \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-root().
+
+
+\begin{DoxyCode}
+666 \{
+667   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+668   \textcolor{keywordtype}{int} count = 0;
+669   FILE *config\_file = fopen(path, \textcolor{stringliteral}{"wb"});
+670   CHECK(config\_file != NULL, \textcolor{stringliteral}{"Config file %s could not be opened"}, path);
+671 
+672   fprintf(config\_file, \textcolor{stringliteral}{"\{\(\backslash\)n"});
+673 
+674   \_co\_profile\_export\_file\_r(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, 
+      \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data), &count, config\_file);
+675 
+676   fprintf(config\_file, \textcolor{stringliteral}{"\}"});
+677   fclose (config\_file); 
+678   \textcolor{keywordflow}{return} 1;
+679 error:
+680   \textcolor{keywordflow}{return} 0;
+681 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a849e6102908d101e142e35c0a0be3d04}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-find@{co\-\_\-profile\-\_\-find}}
+\index{co\-\_\-profile\-\_\-find@{co\-\_\-profile\-\_\-find}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-find}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-profile\-\_\-find (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{name}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a849e6102908d101e142e35c0a0be3d04}
+
+
+searches the profile list for a specified profile 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & profile name (search key) \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-parse().
+
+
+
+Referenced by co\-\_\-profile\-\_\-remove().
+
+
+\begin{DoxyCode}
+612 \{
+613   CHECK(IS\_STR(name), \textcolor{stringliteral}{"Not a valid search index."});
+614   \hyperlink{structco__obj__t}{co\_obj\_t} *result = NULL;
+615   CHECK((result = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(\_profiles, \_co\_profile\_find\_i, name)) != NULL, \textcolor{stringliteral}{"Failed to find
+       profile."});
+616   \textcolor{keywordflow}{return} result;
+617 error:
+618   \textcolor{keywordflow}{return} NULL;
+619 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_acdf7b575f8f7f15b1d5ad9661c806471}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-get@{co\-\_\-profile\-\_\-get}}
+\index{co\-\_\-profile\-\_\-get@{co\-\_\-profile\-\_\-get}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-profile\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const {\bf co\-\_\-obj\-\_\-t} $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_acdf7b575f8f7f15b1d5ad9661c806471}
+
+
+returns the key value (if an int) from the profile. If no value set, returns the default value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-find().
+
+
+\begin{DoxyCode}
+454 \{
+455   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+456   CHECK\_MEM(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data);
+457   CHECK\_MEM(key);
+458   \textcolor{keywordtype}{char} *kstr = NULL;
+459   \textcolor{keywordtype}{size\_t} klen = co\_obj\_data(&kstr, key);
+460   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = NULL;
+461   CHECK((obj = \hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, kstr, klen)) != NULL, \textcolor{stringliteral}{"
+      Failed to find key %s."}, kstr);
+462   \textcolor{keywordflow}{return} obj;
+463 
+464 error:
+465   \textcolor{keywordflow}{return} NULL;
+466 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a2ef9c6fbc2f1b0477258044b7e361dc0}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-get\-\_\-float@{co\-\_\-profile\-\_\-get\-\_\-float}}
+\index{co\-\_\-profile\-\_\-get\-\_\-float@{co\-\_\-profile\-\_\-get\-\_\-float}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-get\-\_\-float}]{\setlength{\rightskip}{0pt plus 5cm}double co\-\_\-profile\-\_\-get\-\_\-float (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a2ef9c6fbc2f1b0477258044b7e361dc0}
+
+
+returns the key value (if a float) from the profile. If no value set, returns the default value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-find().
+
+
+\begin{DoxyCode}
+571 \{
+572   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+573   CHECK\_MEM(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data);
+574   CHECK\_MEM(key);
+575   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = NULL;
+576   CHECK((obj = \hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen)) != NULL, \textcolor{stringliteral}{"
+      Failed to find key %s."}, key);
+577   CHECK(IS\_FLOAT(obj), \textcolor{stringliteral}{"Object is not a floating point value."});
+578   \textcolor{keywordtype}{double} *output;
+579   CHECK(co\_obj\_data((\textcolor{keywordtype}{char} **)&output, obj) >= 0, \textcolor{stringliteral}{"Failed to read data from %s."}, key);
+580   \textcolor{keywordflow}{return} *output;
+581 
+582 error:
+583   \textcolor{keywordflow}{return} -1;
+584 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_aa9bb893eb1f733cbaf8576277021fb63}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-get\-\_\-int@{co\-\_\-profile\-\_\-get\-\_\-int}}
+\index{co\-\_\-profile\-\_\-get\-\_\-int@{co\-\_\-profile\-\_\-get\-\_\-int}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-get\-\_\-int}]{\setlength{\rightskip}{0pt plus 5cm}signed long co\-\_\-profile\-\_\-get\-\_\-int (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_aa9bb893eb1f733cbaf8576277021fb63}
+
+
+returns the key value (if an int) from the profile. If no value set, returns the default value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-find().
+
+
+\begin{DoxyCode}
+511 \{
+512   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+513   CHECK\_MEM(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data);
+514   CHECK\_MEM(key);
+515   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = NULL;
+516   CHECK((obj = \hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen)) != NULL, \textcolor{stringliteral}{"
+      Failed to find key %s."}, key);
+517   CHECK(IS\_INT(obj), \textcolor{stringliteral}{"Object is not a signed integer."});
+518   \textcolor{keywordtype}{signed} \textcolor{keywordtype}{long} *output;
+519   CHECK(co\_obj\_data((\textcolor{keywordtype}{char} **)&output, obj) >= 0, \textcolor{stringliteral}{"Failed to read data from %s."}, key);
+520   \textcolor{keywordflow}{return} *output;
+521 
+522 error:
+523   \textcolor{keywordflow}{return} -1;
+524 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_ab6f6c35bbf46acf3598baaccbebbc6a2}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-get\-\_\-str@{co\-\_\-profile\-\_\-get\-\_\-str}}
+\index{co\-\_\-profile\-\_\-get\-\_\-str@{co\-\_\-profile\-\_\-get\-\_\-str}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-get\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t co\-\_\-profile\-\_\-get\-\_\-str (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{char $\ast$$\ast$}]{output, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_ab6f6c35bbf46acf3598baaccbebbc6a2}
+
+
+returns the key value (if a string) from the profile. If no value set, returns the default value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em output} & output buffer \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-find().
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+483 \{
+484   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+485   CHECK\_MEM(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data);
+486   CHECK\_MEM(key);
+487   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = NULL;
+488   CHECK((obj = \hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen)) != NULL, \textcolor{stringliteral}{"
+      Failed to find key %s."}, key);
+489   CHECK(IS\_STR(obj), \textcolor{stringliteral}{"Object is not a string."});
+490   \textcolor{keywordflow}{return} co\_obj\_data((\textcolor{keywordtype}{char} **)output, obj);
+491 
+492 error:
+493   \textcolor{keywordflow}{return} -1;
+494 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_ac84baa09fb2a69bb2cd2bd6b126f2093}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-get\-\_\-uint@{co\-\_\-profile\-\_\-get\-\_\-uint}}
+\index{co\-\_\-profile\-\_\-get\-\_\-uint@{co\-\_\-profile\-\_\-get\-\_\-uint}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-get\-\_\-uint}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long co\-\_\-profile\-\_\-get\-\_\-uint (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_ac84baa09fb2a69bb2cd2bd6b126f2093}
+
+
+returns the key value (if an unsigned int) from the profile. If no value set, returns the default value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-find().
+
+
+\begin{DoxyCode}
+541 \{
+542   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+543   CHECK\_MEM(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data);
+544   CHECK\_MEM(key);
+545   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = NULL;
+546   CHECK((obj = \hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen)) != NULL, \textcolor{stringliteral}{"
+      Failed to find key %s."}, key);
+547   CHECK(IS\_UINT(obj), \textcolor{stringliteral}{"Object is not an unsigned integer."});
+548   \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{long} *output;
+549   CHECK(co\_obj\_data((\textcolor{keywordtype}{char} **)&output, obj) >= 0, \textcolor{stringliteral}{"Failed to read data from %s."}, key);
+550   \textcolor{keywordflow}{return} *output;
+551 
+552 error:
+553   \textcolor{keywordflow}{return} -1;
+554 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a819e5be526d66f9bb51eae1edb746464}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-import\-\_\-files@{co\-\_\-profile\-\_\-import\-\_\-files}}
+\index{co\-\_\-profile\-\_\-import\-\_\-files@{co\-\_\-profile\-\_\-import\-\_\-files}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-import\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-import\-\_\-files (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a819e5be526d66f9bb51eae1edb746464}
+
+
+imports available profiles from profiles directory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & file path to the profiles directory \\
+\hline
+\end{DoxyParams}
+
+
+References process\-\_\-files().
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+340                                               \{
+341   DEBUG(\textcolor{stringliteral}{"Importing files from %s"}, path);
+342   CHECK(\hyperlink{util_8c_a7f3fbaf6ce8bc88138b3879ac4d7e696}{process\_files}(path, \_co\_profile\_import\_files\_i), \textcolor{stringliteral}{"Failed to load all profiles."});
+343 
+344   \textcolor{keywordflow}{return} 1;
+345 
+346 error:
+347   \textcolor{keywordflow}{return} 0;
+348 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a8c841c790d77d4eb5ec3d45037b6a693}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-import\-\_\-global@{co\-\_\-profile\-\_\-import\-\_\-global}}
+\index{co\-\_\-profile\-\_\-import\-\_\-global@{co\-\_\-profile\-\_\-import\-\_\-global}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-import\-\_\-global}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-import\-\_\-global (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a8c841c790d77d4eb5ec3d45037b6a693}
+
+
+imports global profile 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & file path to the global profile \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-profile\-\_\-set\-\_\-str().
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+350                                                \{
+351   FILE *config\_file = NULL;
+352 
+353   \textcolor{keywordflow}{if}(\_profile\_global == NULL)
+354   \{
+355     \_profile\_global = \_co\_profile\_create(\textcolor{stringliteral}{"global"}, \textcolor{keyword}{sizeof}(\textcolor{stringliteral}{"global"}));
+356   \}
+357   \_co\_schemas\_load(\_profile\_global, \_schemas\_global);
+358 
+359   DEBUG(\textcolor{stringliteral}{"Importing file at path %s"}, path);
+360 
+361   config\_file = fopen(path, \textcolor{stringliteral}{"rb"});
+362   CHECK(config\_file != NULL, \textcolor{stringliteral}{"File %s could not be opened"}, path);
+363   fseek(config\_file, 0, SEEK\_END);
+364   \textcolor{keywordtype}{long} fsize = ftell(config\_file);
+365   rewind(config\_file);
+366   \textcolor{keywordtype}{char} *buffer = h\_calloc(1, fsize + 1);
+367   CHECK(fread(buffer, fsize, 1, config\_file) != 0, \textcolor{stringliteral}{"Failed to read from file."});
+368   fclose(config\_file);
+369   
+370   buffer[fsize] = \textcolor{charliteral}{'\(\backslash\)0'};
+371   \hyperlink{structjsmntok__t}{jsmntok\_t} *tokens = \_co\_json\_string\_tokenize(buffer);
+372 
+373   \textcolor{keyword}{typedef} \textcolor{keyword}{enum} \{ START, KEY, VALUE, STOP \} parse\_state;
+374   parse\_state state = START;
+375 
+376   \textcolor{keywordtype}{size\_t} object\_tokens = 0;
+377   \textcolor{keywordtype}{char} *key = NULL;
+378   \textcolor{keywordtype}{size\_t} klen = 0;
+379 
+380   \textcolor{keywordflow}{for} (\textcolor{keywordtype}{size\_t} i = 0, j = 1; j > 0; i++, j--)
+381   \{
+382     \hyperlink{structjsmntok__t}{jsmntok\_t} *t = &tokens[i];
+383 
+384     \textcolor{comment}{// Should never reach uninitialized tokens}
+385     CHECK(t->start != -1 && t->end != -1, \textcolor{stringliteral}{"Tokens uninitialized."});
+386 
+387     \textcolor{keywordflow}{if} (t->type == JSMN\_ARRAY || t->type == JSMN\_OBJECT)
+388       j += t->size;
+389 
+390     \textcolor{keywordflow}{switch} (state)
+391     \{
+392       \textcolor{keywordflow}{case} START:
+393         CHECK(t->type == JSMN\_OBJECT, \textcolor{stringliteral}{"Invalid root element."});
+394 
+395         state = KEY;
+396         object\_tokens = t->size;
+397 
+398         \textcolor{keywordflow}{if} (object\_tokens == 0)
+399           state = STOP;
+400 
+401         CHECK(object\_tokens % 2 == 0, \textcolor{stringliteral}{"Object must have even number of children."});
+402         \textcolor{keywordflow}{break};
+403 
+404       \textcolor{keywordflow}{case} KEY:
+405         object\_tokens--;
+406 
+407         CHECK(t->type == JSMN\_STRING, \textcolor{stringliteral}{"Keys must be strings."});
+408         state = VALUE;
+409         key = \_co\_json\_token\_stringify(buffer, t);
+410         klen = t->end - t->start;
+411 
+412         \textcolor{keywordflow}{break};
+413 
+414       \textcolor{keywordflow}{case} VALUE:
+415         CHECK(t->type == JSMN\_STRING, \textcolor{stringliteral}{"Values must be strings."});
+416 
+417         \textcolor{keywordflow}{if}(key != NULL && klen > 0)
+418         \{
+419           \textcolor{keywordflow}{if}(!\hyperlink{profile_8c_a47a574eb5005dbbad2d59fafeeded0c6}{co\_profile\_set\_str}(\_profile\_global, key, klen + 1, \_co\_json\_token\_stringify
+      (buffer, t), t->end - t->start + 1))
+420           \{
+421             INFO(\textcolor{stringliteral}{"Value not in schema."});
+422           \}
+423           
+424         \}
+425 
+426         key = NULL;
+427         klen = 0;
+428         object\_tokens--;
+429         state = KEY;
+430 
+431         \textcolor{keywordflow}{if} (object\_tokens == 0)
+432           state = STOP;
+433 
+434         \textcolor{keywordflow}{break};
+435 
+436       \textcolor{keywordflow}{case} STOP:
+437         \textcolor{comment}{// Just consume the tokens}
+438         \textcolor{keywordflow}{break};
+439 
+440       \textcolor{keywordflow}{default}:
+441         SENTINEL(\textcolor{stringliteral}{"Invalid state %u"}, state);
+442     \}
+443   \}
+444 
+445   \textcolor{keywordflow}{return} 1;
+446 
+447 error:
+448   \textcolor{keywordflow}{if}(config\_file != NULL) fclose(config\_file);
+449   \textcolor{keywordflow}{return} 0;
+450 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a2538d21eeeefd9b63a55e2ce4736a0b7}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-remove@{co\-\_\-profile\-\_\-remove}}
+\index{co\-\_\-profile\-\_\-remove@{co\-\_\-profile\-\_\-remove}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-remove}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-remove (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const size\-\_\-t}]{nlen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a2538d21eeeefd9b63a55e2ce4736a0b7}
+
+
+removes profile with given name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & profile name \\
+\hline
+{\em nlen} & length of profile name \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-delete(), and co\-\_\-profile\-\_\-find().
+
+
+\begin{DoxyCode}
+141 \{
+142   \hyperlink{structco__obj__t}{co\_obj\_t} *n = co\_str8\_create(\hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}, nlen, 0);
+143   \hyperlink{structco__obj__t}{co\_obj\_t} *prof = \hyperlink{profile_8c_a849e6102908d101e142e35c0a0be3d04}{co\_profile\_find}(n);
+144   prof = \hyperlink{list_8c_a80fbd77f231ae88663c5d0bb25bdfd6c}{co\_list\_delete}(\_profiles, prof);
+145   CHECK(prof != NULL, \textcolor{stringliteral}{"Failed to remove profile."});
+146 
+147   co\_obj\_free(n);
+148   \textcolor{keywordflow}{return} 1;
+149 error:
+150   co\_obj\_free(n);
+151   \textcolor{keywordflow}{return} 0;
+152 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a38bdd62d15dd47ac11c88c1bda69780c}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-set\-\_\-float@{co\-\_\-profile\-\_\-set\-\_\-float}}
+\index{co\-\_\-profile\-\_\-set\-\_\-float@{co\-\_\-profile\-\_\-set\-\_\-float}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-set\-\_\-float}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-set\-\_\-float (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen, }
+\item[{const double}]{value}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a38bdd62d15dd47ac11c88c1bda69780c}
+
+
+sets a specified profile value (if a float) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+{\em value} & key's value \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-set\-\_\-float().
+
+
+\begin{DoxyCode}
+558 \{
+559     CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+560     CHECK(\hyperlink{tree_8c_a6af2c159ed709de04f69edb820548af0}{co\_tree\_set\_float}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen, value),
+       
+561             \textcolor{stringliteral}{"No corresponding key %s in schema, can't set %s:%lf"},
+562             key, key, value);
+563     \textcolor{keywordflow}{return} 1;
+564 
+565 error:
+566     \textcolor{keywordflow}{return} 0;
+567 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_afb854daffb4be38489552fff3dff28c1}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-set\-\_\-int@{co\-\_\-profile\-\_\-set\-\_\-int}}
+\index{co\-\_\-profile\-\_\-set\-\_\-int@{co\-\_\-profile\-\_\-set\-\_\-int}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-set\-\_\-int}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-set\-\_\-int (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen, }
+\item[{const signed long}]{value}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_afb854daffb4be38489552fff3dff28c1}
+
+
+sets a specified profile value (if an int) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+{\em value} & key's value \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-set\-\_\-int().
+
+
+\begin{DoxyCode}
+498 \{
+499   CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+500   CHECK(\hyperlink{tree_8c_aa36940ca19024780bd57da9a47194f07}{co\_tree\_set\_int}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen, value), 
+501             \textcolor{stringliteral}{"No corresponding key %s in schema, can't set %s:%ld"},
+502             key, key, value);
+503     \textcolor{keywordflow}{return} 1;
+504 
+505 error:
+506     \textcolor{keywordflow}{return} 0;
+507 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a47a574eb5005dbbad2d59fafeeded0c6}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-set\-\_\-str@{co\-\_\-profile\-\_\-set\-\_\-str}}
+\index{co\-\_\-profile\-\_\-set\-\_\-str@{co\-\_\-profile\-\_\-set\-\_\-str}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-set\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-set\-\_\-str (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen, }
+\item[{const char $\ast$}]{value, }
+\item[{const size\-\_\-t}]{vlen}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a47a574eb5005dbbad2d59fafeeded0c6}
+
+
+sets a specified profile value (if a string) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+{\em value} & key's value \\
+\hline
+{\em vlen} & value length \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-set\-\_\-str().
+
+
+
+Referenced by co\-\_\-profile\-\_\-import\-\_\-global().
+
+
+\begin{DoxyCode}
+470 \{
+471     CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+472     CHECK(\hyperlink{tree_8c_a98d4a71092b76fc213aff11aecfea1cb}{co\_tree\_set\_str}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen, value, vlen
+      ), 
+473             \textcolor{stringliteral}{"No corresponding key %s in schema, can't set %s:%s"},
+474             key, key, value);
+475     \textcolor{keywordflow}{return} 1;
+476 
+477 error:
+478     \textcolor{keywordflow}{return} 0;
+479 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a3d73aa2f3f1395cf3ac69bce8cba26d0}{\index{profile.\-c@{profile.\-c}!co\-\_\-profile\-\_\-set\-\_\-uint@{co\-\_\-profile\-\_\-set\-\_\-uint}}
+\index{co\-\_\-profile\-\_\-set\-\_\-uint@{co\-\_\-profile\-\_\-set\-\_\-uint}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profile\-\_\-set\-\_\-uint}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-profile\-\_\-set\-\_\-uint (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{profile, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\-\_\-t}]{klen, }
+\item[{const unsigned long}]{value}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a3d73aa2f3f1395cf3ac69bce8cba26d0}
+
+
+sets a specified profile value (if an unsigned int) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile} & profile struct \\
+\hline
+{\em key} & key in profile \\
+\hline
+{\em klen} & key length \\
+\hline
+{\em value} & key's value \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-tree\-\_\-set\-\_\-uint().
+
+
+\begin{DoxyCode}
+528 \{
+529     CHECK(IS\_PROFILE(profile),\textcolor{stringliteral}{"Not a profile."});
+530     CHECK(\hyperlink{tree_8c_aa7fd84b17af9c4402fd66d9778e91413}{co\_tree\_set\_uint}(((\hyperlink{structco__profile__t}{co\_profile\_t}*)profile)->data, key, klen, value), 
+531             \textcolor{stringliteral}{"No corresponding key %s in schema, can't set %s:%lu"},
+532             key, key, value);
+533     \textcolor{keywordflow}{return} 1;
+534 
+535 error:
+536     \textcolor{keywordflow}{return} 0;
+537 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a678cadb5b8ef4bceb6ce39a43047bb19}{\index{profile.\-c@{profile.\-c}!co\-\_\-profiles\-\_\-process@{co\-\_\-profiles\-\_\-process}}
+\index{co\-\_\-profiles\-\_\-process@{co\-\_\-profiles\-\_\-process}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-profiles\-\_\-process}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-profiles\-\_\-process (
+\begin{DoxyParamCaption}
+\item[{co\-\_\-iter\-\_\-t}]{iter, }
+\item[{void $\ast$}]{context}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a678cadb5b8ef4bceb6ce39a43047bb19}
+
+
+processes all loaded profiles with specified iterator function 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iter} & iterator function callback \\
+\hline
+{\em context} & additional parameters for iterator \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-parse().
+
+
+\begin{DoxyCode}
+685 \{
+686   \textcolor{keywordflow}{return} \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(\_profiles, iter, context);
+687 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a06dc2c5771c244c3d22a9c7c66eef9b7}{\index{profile.\-c@{profile.\-c}!co\-\_\-schema\-\_\-register@{co\-\_\-schema\-\_\-register}}
+\index{co\-\_\-schema\-\_\-register@{co\-\_\-schema\-\_\-register}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-schema\-\_\-register}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-schema\-\_\-register (
+\begin{DoxyParamCaption}
+\item[{co\-\_\-cb\-\_\-t}]{cb}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a06dc2c5771c244c3d22a9c7c66eef9b7}
+
+
+register a callback for populating a profile schema 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cb} & schema callback \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-append().
+
+
+\begin{DoxyCode}
+71 \{
+72   DEBUG(\textcolor{stringliteral}{"Registering schema."});
+73   CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(\_schemas, \_co\_schema\_create(cb)), \textcolor{stringliteral}{"Failed to register schema."});
+74   \textcolor{keywordflow}{return} 1;
+75 error:
+76   \textcolor{keywordflow}{return} 0;
+77 \}
+\end{DoxyCode}
+\hypertarget{profile_8c_a792ef6a5db39e510546bb5f9d7b67bce}{\index{profile.\-c@{profile.\-c}!co\-\_\-schema\-\_\-register\-\_\-global@{co\-\_\-schema\-\_\-register\-\_\-global}}
+\index{co\-\_\-schema\-\_\-register\-\_\-global@{co\-\_\-schema\-\_\-register\-\_\-global}!profile.c@{profile.\-c}}
+\subsubsection[{co\-\_\-schema\-\_\-register\-\_\-global}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-schema\-\_\-register\-\_\-global (
+\begin{DoxyParamCaption}
+\item[{co\-\_\-cb\-\_\-t}]{cb}
+\end{DoxyParamCaption}
+)}}\label{profile_8c_a792ef6a5db39e510546bb5f9d7b67bce}
+
+
+register a callback for populating global profile 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cb} & schema callback \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-append().
+
+
+\begin{DoxyCode}
+81 \{
+82   DEBUG(\textcolor{stringliteral}{"Registering global schema."});
+83   CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(\_schemas\_global, \_co\_schema\_create(cb)), \textcolor{stringliteral}{"Failed to register schema."})
+      ;
+84   \textcolor{keywordflow}{return} 1;
+85 error:
+86   \textcolor{keywordflow}{return} 0;
+87 \}
+\end{DoxyCode}

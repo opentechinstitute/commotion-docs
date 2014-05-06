@@ -1,0 +1,383 @@
+\hypertarget{process_8h}{\section{src/process.h File Reference}
+\label{process_8h}\index{src/process.\-h@{src/process.\-h}}
+}
+
+
+a simple object-\/oriented process manager object model inspired by Zed Shaw  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stdbool.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}util.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structco__process__t}{co\-\_\-process\-\_\-t}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{process_8h_a0b43215a8b8972b9fa89cc0c6739e467}{typedef struct \hyperlink{structco__process__t}{co\-\_\-process\-\_\-t} {\bfseries co\-\_\-process\-\_\-t}}\label{process_8h_a0b43215a8b8972b9fa89cc0c6739e467}
+
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{process_8h_ad844b14a4717db2b1b1cbe65afb72db9}{co\-\_\-process\-\_\-state\-\_\-t} \{ \\*
+{\bfseries \-\_\-\-S\-T\-O\-P\-P\-I\-N\-G} = 0, 
+{\bfseries \-\_\-\-S\-T\-O\-P\-P\-E\-D} =1, 
+{\bfseries \-\_\-\-S\-T\-A\-R\-T\-I\-N\-G} = 2, 
+{\bfseries \-\_\-\-S\-T\-A\-R\-T\-E\-D} = 3, 
+\\*
+{\bfseries \-\_\-\-F\-A\-I\-L\-E\-D} = -\/1
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{process_8h_a0f6ac3e661c9c917a273396524510fa7}{struct \hyperlink{structco__process__t}{co\-\_\-process\-\_\-t} {\bfseries \-\_\-\-\_\-attribute\-\_\-\-\_\-} ((packed))}\label{process_8h_a0f6ac3e661c9c917a273396524510fa7}
+
+\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{process_8h_a6d49f60cef97a1b9624fcf63e0162e7e}{co\-\_\-process\-\_\-create} (size\-\_\-t size, \hyperlink{structco__process__t}{co\-\_\-process\-\_\-t} proto, const char $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name}, const char $\ast$pid\-\_\-file, const char $\ast$exec\-\_\-path, const char $\ast$run\-\_\-path)
+\begin{DoxyCompactList}\small\item\em creates a new commotion process \end{DoxyCompactList}\item 
+int \hyperlink{process_8h_acfa8ddde34e225289173fce685cf3b43}{co\-\_\-process\-\_\-destroy} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em removes a process from commotiond \end{DoxyCompactList}\item 
+int \hyperlink{process_8h_abbc95e23ade68761f20659fed18dc1e0}{co\-\_\-process\-\_\-start} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em starts a selected process \end{DoxyCompactList}\item 
+int \hyperlink{process_8h_a03842b37364aa34490035d3e6ac9537e}{co\-\_\-process\-\_\-stop} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em stops a running process \end{DoxyCompactList}\item 
+int \hyperlink{process_8h_a6a371f549b85b12e5fd189752f9f7f2a}{co\-\_\-process\-\_\-restart} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em restarts a process \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{process_8h_aeab68f17dc686a2f7dc72ab2b712e464}{typedef {\bfseries \-\_\-\-\_\-attribute\-\_\-\-\_\-}}\label{process_8h_aeab68f17dc686a2f7dc72ab2b712e464}
+
+\item 
+\hypertarget{process_8h_aa20afbf3f0a782bb4dea4da22df275a3}{\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} {\bfseries \-\_\-header}}\label{process_8h_aa20afbf3f0a782bb4dea4da22df275a3}
+
+\item 
+\hypertarget{process_8h_a05de11e79f277be86c869a1fc6a204bd}{uint8\-\_\-t {\bfseries \-\_\-exttype}}\label{process_8h_a05de11e79f277be86c869a1fc6a204bd}
+
+\item 
+\hypertarget{process_8h_a5ff8177a0b8e2c9f9c18bd0cb34e65f8}{uint8\-\_\-t {\bfseries \-\_\-len}}\label{process_8h_a5ff8177a0b8e2c9f9c18bd0cb34e65f8}
+
+\item 
+\hypertarget{process_8h_af500917c052066b40cf47f96b43c607b}{int {\bfseries pid}}\label{process_8h_af500917c052066b40cf47f96b43c607b}
+
+\item 
+\hypertarget{process_8h_a32f2643fcbe23cdff8e2da2214c6404a}{bool {\bfseries registered}}\label{process_8h_a32f2643fcbe23cdff8e2da2214c6404a}
+
+\item 
+\hypertarget{process_8h_a1bc75d28cd61ceb1cb26fcd93733d693}{bool {\bfseries use\-\_\-watchdog}}\label{process_8h_a1bc75d28cd61ceb1cb26fcd93733d693}
+
+\item 
+\hypertarget{process_8h_ac90d3a5ee101798dfe46dd4be7fe02ce}{\hyperlink{process_8h_ad844b14a4717db2b1b1cbe65afb72db9}{co\-\_\-process\-\_\-state\-\_\-t} {\bfseries state}}\label{process_8h_ac90d3a5ee101798dfe46dd4be7fe02ce}
+
+\item 
+\hypertarget{process_8h_a5ac083a645d964373f022d03df4849c8}{char $\ast$ {\bfseries name}}\label{process_8h_a5ac083a645d964373f022d03df4849c8}
+
+\item 
+\hypertarget{process_8h_a49c48fa00a9bf429a6e2a2833cb74e61}{char $\ast$ {\bfseries pid\-\_\-file}}\label{process_8h_a49c48fa00a9bf429a6e2a2833cb74e61}
+
+\item 
+\hypertarget{process_8h_ae303f07fb90fc9c159cfd0411e28d3a4}{char $\ast$ {\bfseries exec\-\_\-path}}\label{process_8h_ae303f07fb90fc9c159cfd0411e28d3a4}
+
+\item 
+\hypertarget{process_8h_a8a35821ce2dad1aa17430f6ec7ed98c1}{char $\ast$ {\bfseries run\-\_\-path}}\label{process_8h_a8a35821ce2dad1aa17430f6ec7ed98c1}
+
+\item 
+\hypertarget{process_8h_adfab4eebf850cff6c1c1c4b8aa408293}{int {\bfseries input}}\label{process_8h_adfab4eebf850cff6c1c1c4b8aa408293}
+
+\item 
+\hypertarget{process_8h_a76a055a540e12c7206a5004afea1f66e}{int {\bfseries output}}\label{process_8h_a76a055a540e12c7206a5004afea1f66e}
+
+\item 
+\hypertarget{process_8h_af8e01479525f96d8723018a913438bc0}{int($\ast$ {\bfseries init} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)}\label{process_8h_af8e01479525f96d8723018a913438bc0}
+
+\item 
+\hypertarget{process_8h_ac63de6a8dc631920f67ad056789d0c80}{int($\ast$ {\bfseries destroy} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)}\label{process_8h_ac63de6a8dc631920f67ad056789d0c80}
+
+\item 
+\hypertarget{process_8h_a847178a5ca5d91327deca87c02b893f6}{int($\ast$ {\bfseries start} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, char $\ast$argv\mbox{[}$\,$\mbox{]})}\label{process_8h_a847178a5ca5d91327deca87c02b893f6}
+
+\item 
+\hypertarget{process_8h_a8ffb0fc9a4f4e23287febb2b8239183d}{int($\ast$ {\bfseries stop} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)}\label{process_8h_a8ffb0fc9a4f4e23287febb2b8239183d}
+
+\item 
+\hypertarget{process_8h_a2c917e0153a44f1e12408ea201624ac2}{int($\ast$ {\bfseries restart} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)}\label{process_8h_a2c917e0153a44f1e12408ea201624ac2}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a simple object-\/oriented process manager object model inspired by Zed Shaw \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{process_8h_ad844b14a4717db2b1b1cbe65afb72db9}{\index{process.\-h@{process.\-h}!co\-\_\-process\-\_\-state\-\_\-t@{co\-\_\-process\-\_\-state\-\_\-t}}
+\index{co\-\_\-process\-\_\-state\-\_\-t@{co\-\_\-process\-\_\-state\-\_\-t}!process.h@{process.\-h}}
+\subsubsection[{co\-\_\-process\-\_\-state\-\_\-t}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf co\-\_\-process\-\_\-state\-\_\-t}}}\label{process_8h_ad844b14a4717db2b1b1cbe65afb72db9}
+defines the state of the process 
+\begin{DoxyCode}
+45              \{
+46   \_STOPPING = 0,
+47   \_STOPPED =1,
+48   \_STARTING = 2,
+49   \_STARTED = 3,
+50   \_FAILED = -1
+51 \} \hyperlink{process_8h_ad844b14a4717db2b1b1cbe65afb72db9}{co\_process\_state\_t};
+\end{DoxyCode}
+
+
+\subsection{Function Documentation}
+\hypertarget{process_8h_a6d49f60cef97a1b9624fcf63e0162e7e}{\index{process.\-h@{process.\-h}!co\-\_\-process\-\_\-create@{co\-\_\-process\-\_\-create}}
+\index{co\-\_\-process\-\_\-create@{co\-\_\-process\-\_\-create}!process.h@{process.\-h}}
+\subsubsection[{co\-\_\-process\-\_\-create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-process\-\_\-create (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{size, }
+\item[{{\bf co\-\_\-process\-\_\-t}}]{proto, }
+\item[{const char $\ast$}]{name, }
+\item[{const char $\ast$}]{pid\-\_\-file, }
+\item[{const char $\ast$}]{exec\-\_\-path, }
+\item[{const char $\ast$}]{run\-\_\-path}
+\end{DoxyParamCaption}
+)}}\label{process_8h_a6d49f60cef97a1b9624fcf63e0162e7e}
+
+
+creates a new commotion process 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & size of the process \\
+\hline
+{\em \hyperlink{structco__process__t}{co\-\_\-process\-\_\-t}} & protocol \\
+\hline
+{\em name} & name of the process \\
+\hline
+{\em pid\-\_\-file} & the lockfile where the process id is stored \\
+\hline
+{\em exec\-\_\-path} & the execution path \\
+\hline
+{\em run\-\_\-path} & the run path \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{structco__process__t}{co\-\_\-process\-\_\-t} to be registered with the daemon 
+\end{DoxyReturn}
+
+
+References co\-\_\-process\-\_\-destroy(), co\-\_\-process\-\_\-start(), and co\-\_\-process\-\_\-stop().
+
+
+\begin{DoxyCode}
+44                                                                                                            
+                                                   \{
+45   \textcolor{keywordflow}{if}(!proto.init) proto.init = NULL;
+46   \textcolor{keywordflow}{if}(!proto.destroy) proto.destroy = \hyperlink{process_8c_acfa8ddde34e225289173fce685cf3b43}{co\_process\_destroy};
+47   \textcolor{keywordflow}{if}(!proto.start) proto.start = \hyperlink{process_8c_abbc95e23ade68761f20659fed18dc1e0}{co\_process\_start};
+48   \textcolor{keywordflow}{if}(!proto.stop) proto.stop = \hyperlink{process_8c_a03842b37364aa34490035d3e6ac9537e}{co\_process\_stop};
+49 
+50   \hyperlink{structco__process__t}{co\_process\_t} *new\_proc = h\_calloc(1,size);
+51   *new\_proc = proto;
+52   new\_proc->\_header.\_type = \_ext8;
+53   new\_proc->\_exttype = \_process;
+54   new\_proc->\_len = size;
+55 
+56   CHECK\_MEM(new\_proc);
+57   
+58   new\_proc->name = h\_strdup(\hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}); 
+59   hattach(new\_proc->name,new\_proc);
+60   new\_proc->pid\_file = h\_strdup(pid\_file); 
+61   hattach(new\_proc->pid\_file,new\_proc);
+62   new\_proc->exec\_path = h\_strdup(exec\_path); 
+63   hattach(new\_proc->exec\_path,new\_proc);
+64   new\_proc->run\_path = h\_strdup(run\_path);
+65   hattach(new\_proc->run\_path,new\_proc);
+66 
+67   \textcolor{keywordflow}{if}(!new\_proc->init((\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_proc)) \{
+68     SENTINEL(\textcolor{stringliteral}{"Failed to initialize new process."});
+69   \} \textcolor{keywordflow}{else} \{
+70     \textcolor{keywordflow}{return} (\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_proc;
+71   \}
+72 
+73 error:
+74   new\_proc->destroy((\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_proc);
+75   \textcolor{keywordflow}{return} NULL;
+76 \}
+\end{DoxyCode}
+\hypertarget{process_8h_acfa8ddde34e225289173fce685cf3b43}{\index{process.\-h@{process.\-h}!co\-\_\-process\-\_\-destroy@{co\-\_\-process\-\_\-destroy}}
+\index{co\-\_\-process\-\_\-destroy@{co\-\_\-process\-\_\-destroy}!process.h@{process.\-h}}
+\subsubsection[{co\-\_\-process\-\_\-destroy}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-process\-\_\-destroy (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{process_8h_acfa8ddde34e225289173fce685cf3b43}
+
+
+removes a process from commotiond 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & pointer to the process' struct \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-process\-\_\-create().
+
+
+\begin{DoxyCode}
+78                                        \{
+79   CHECK\_MEM(\textcolor{keyword}{self});
+80   CHECK(IS\_PROCESS(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a process."});
+81 
+82   co\_obj\_free(\textcolor{keyword}{self});
+83 
+84   \textcolor{keywordflow}{return} 1;
+85 
+86 error:
+87   \textcolor{keywordflow}{return} 0;
+88 \}
+\end{DoxyCode}
+\hypertarget{process_8h_a6a371f549b85b12e5fd189752f9f7f2a}{\index{process.\-h@{process.\-h}!co\-\_\-process\-\_\-restart@{co\-\_\-process\-\_\-restart}}
+\index{co\-\_\-process\-\_\-restart@{co\-\_\-process\-\_\-restart}!process.h@{process.\-h}}
+\subsubsection[{co\-\_\-process\-\_\-restart}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-process\-\_\-restart (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{process_8h_a6a371f549b85b12e5fd189752f9f7f2a}
+
+
+restarts a process 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & pointer to the process' struct \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+148                                        \{
+149   CHECK\_MEM(\textcolor{keyword}{self});
+150   CHECK(IS\_PROCESS(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a process."});
+151   \hyperlink{structco__process__t}{co\_process\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__process__t}{co\_process\_t}*)\textcolor{keyword}{self};
+152   \textcolor{keywordflow}{if}(this->stop((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this})) this->start((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this}, NULL);
+153 
+154   \textcolor{keywordflow}{return} 1;
+155 
+156 error:
+157   \textcolor{keywordflow}{return} 0;
+158 \}
+\end{DoxyCode}
+\hypertarget{process_8h_abbc95e23ade68761f20659fed18dc1e0}{\index{process.\-h@{process.\-h}!co\-\_\-process\-\_\-start@{co\-\_\-process\-\_\-start}}
+\index{co\-\_\-process\-\_\-start@{co\-\_\-process\-\_\-start}!process.h@{process.\-h}}
+\subsubsection[{co\-\_\-process\-\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-process\-\_\-start (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{process_8h_abbc95e23ade68761f20659fed18dc1e0}
+
+
+starts a selected process 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & pointer to the process' struct \\
+\hline
+{\em argv\mbox{[}$\,$\mbox{]}} & execution path for the process \\
+\hline
+\end{DoxyParams}
+
+
+References exec.
+
+
+
+Referenced by co\-\_\-process\-\_\-create().
+
+
+\begin{DoxyCode}
+91                                                    \{
+92   CHECK\_MEM(\textcolor{keyword}{self});
+93   CHECK(IS\_PROCESS(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a process."});
+94   \hyperlink{structco__process__t}{co\_process\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__process__t}{co\_process\_t}*)\textcolor{keyword}{self};
+95   \textcolor{keywordtype}{char} *\hyperlink{cmd_8h_a17bc8f9abe09260e3bc9e737c92790b4}{exec} = NULL;
+96   CHECK(((exec = this->exec\_path) != NULL), \textcolor{stringliteral}{"Invalid exec path!"});
+97   \textcolor{keywordtype}{int} pid = 0;
+98   \textcolor{keywordtype}{int} local\_stdin\_pipe[2], local\_stdout\_pipe[2];
+99 
+100   \textcolor{keywordflow}{if}(pipe(local\_stdin\_pipe)) \{
+101     ERROR(\textcolor{stringliteral}{"Could not initialize stdin pipe."});
+102     \textcolor{keywordflow}{return} 0;
+103   \}
+104   \textcolor{keywordflow}{if}(pipe(local\_stdout\_pipe)) \{
+105     ERROR(\textcolor{stringliteral}{"Could not initialize stdout pipe."});
+106     \textcolor{keywordflow}{return} 0;
+107   \}
+108   
+109   \textcolor{keywordflow}{if} (!(pid = fork())) \{
+110     dup2(local\_stdin\_pipe[0], 0);
+111     dup2(local\_stdout\_pipe[1], 1);
+112 
+113     close(local\_stdin\_pipe[0]);
+114     close(local\_stdin\_pipe[1]);
+115     close(local\_stdout\_pipe[0]);
+116     close(local\_stdout\_pipe[1]);
+117 
+118     CHECK((execvp(exec, argv) != -1), \textcolor{stringliteral}{"Failed to exec!"});
+119   \}
+120   INFO(\textcolor{stringliteral}{"fork()ed: %d\(\backslash\)n"}, pid);
+121   this->pid = pid;
+122 
+123   this->input = local\_stdin\_pipe[1];
+124   this->output = local\_stdout\_pipe[0];
+125 
+126   close(local\_stdin\_pipe[0]);
+127   close(local\_stdout\_pipe[1]);
+128 
+129   \textcolor{keywordflow}{return} 1;
+130 
+131 error:
+132   exit(1);
+133   \textcolor{keywordflow}{return} 0;
+134 \}
+\end{DoxyCode}
+\hypertarget{process_8h_a03842b37364aa34490035d3e6ac9537e}{\index{process.\-h@{process.\-h}!co\-\_\-process\-\_\-stop@{co\-\_\-process\-\_\-stop}}
+\index{co\-\_\-process\-\_\-stop@{co\-\_\-process\-\_\-stop}!process.h@{process.\-h}}
+\subsubsection[{co\-\_\-process\-\_\-stop}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-process\-\_\-stop (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{process_8h_a03842b37364aa34490035d3e6ac9537e}
+
+
+stops a running process 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & pointer to the process' struct \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-process\-\_\-create().
+
+
+\begin{DoxyCode}
+136                                     \{
+137   CHECK\_MEM(\textcolor{keyword}{self});
+138   CHECK(IS\_PROCESS(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a process."});
+139   \hyperlink{structco__process__t}{co\_process\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__process__t}{co\_process\_t}*)\textcolor{keyword}{self};
+140   CHECK(!(kill(this->pid, SIGKILL)), \textcolor{stringliteral}{"Failed to kill co\_process\_t %d."}, this->pid);
+141 
+142   \textcolor{keywordflow}{return} 1;
+143 
+144 error:
+145   \textcolor{keywordflow}{return} 0;
+146 \}
+\end{DoxyCode}
