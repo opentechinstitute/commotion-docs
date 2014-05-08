@@ -8,7 +8,7 @@ teaser_image:
 post_author: Chris Ritzo
 lang: en
 ---
-The Commotion team often gets email from people interested in trying out our router software on their devices, and inquiries about supporting more than just Ubiquity models. Since the Commotion Router 1.0 release, we've been working on expanding support for more routers and we'd love to get your help!<!--more-->
+The Commotion team often gets email from people interested in trying out our router software on their devices, and inquiries about supporting more than just Ubiquiti models. Since the Commotion Router 1.0 release, we've been working on expanding support for more routers and we'd love to get your help!<!--more-->
 
 We're committed to supporting devices that are available through local supply chains, particularly in international settings. In our field work, local partners have helped us identify commonly used/available routers in their area. For example, Mikrotik router board models were identified by our partners in India and Nepal. Others have emailed us about support for various TP Link routers. We also have various routers from past projects that we're currently testing.
 
