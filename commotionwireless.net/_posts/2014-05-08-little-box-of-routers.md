@@ -13,6 +13,7 @@ The Commotion team often gets email from people interested in trying out our rou
 We're committed to supporting devices that are available through local supply chains, particularly in international settings. In our field work, local partners have helped us identify commonly used/available routers in their area. For example, Mikrotik router board models were identified by our partners in India and Nepal. Others have emailed us about support for various TP Link routers. We also have various routers from past projects that we're currently testing.
 
 In our 1.1 release of Commotion Router, we'll be adding supported compiled images for theses routers:
+
   * TP Link WDR4300
   * Mikrotik RB411AH
   * Buffalo G300NH
@@ -23,6 +24,7 @@ In our 1.1 release of Commotion Router, we'll be adding supported compiled image
 The Commotion team is interested in connecting with you to help us expand support for new devices. Maybe you've emailed us about a specific router in the past. Perhaps you've read about Commotion and want to try it out. Do you have a box of tech stuff in the garage or under your desk and are thinking, "I wonder if that old router will run it..." Well we'd like to know too!
 
 In general, Commotion Router has these system requirements:
+
   * Wireless chipset (target) is ar71xx or atheros
   * The router has greater than 4MB of flash
   * The router supports OpenWRT 10.x Attitude Adjustment or greater
