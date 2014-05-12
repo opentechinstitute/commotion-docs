@@ -8,10 +8,14 @@
 
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/commotion.css" rel="stylesheet">
+    {% if page.url contains '/developer/resources/api/' %}
+      <link href="/css/commotion-doxygen.css" rel="stylesheet">
+    {% endif %}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
     <link href="/css/commotion-responsive-780.css" rel="stylesheet" media="screen and (max-width: 780px)" >
     <link href="/css/commotion-responsive-480.css" rel="stylesheet" media="screen and (max-width: 480px)" >
+
     <link href="/css/print.css" rel="stylesheet" media="print">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
