@@ -34,7 +34,7 @@ lang: %s
     f.write(s)
 
 
-def generate_doxygen_config(project, doxyconfigs, scriptdir, projectoutputdir, headerfilename):
+def generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectoutputdir, headerfilename):
     conffileneame = "%s-doxygen.conf" % (project)
     conffilefullpath = "%s/%s" % (doxyconfdir, conffileneame)
     doxyconfigdefault =  doxyconfigs['default_doxygen_conf']
@@ -43,12 +43,14 @@ def generate_doxygen_config(project, doxyconfigs, scriptdir, projectoutputdir, h
 PROJECT_NAME = "%s"
 OUTPUT_DIRECTORY = "%s"
 HTML_HEADER ="%s"
-""" % (scriptdir, doxyconfigdefault, project, projectoutputdir, headerfilename)
+HTML_FOOTER = "%s/footer.html"
+""" % (scriptdir, doxyconfigdefault, project, projectoutputdir, headerfilename,scriptdir)
 
     for option in doxyconfigs:
         if option != "default_doxygen_conf" and option != "output_base_dir":
             value = doxyconfigs[option]
-            s += """%s = "%s" """ % (option.upper(), value)
+            s += """%s = "%s" 
+""" % (option.upper(), value)
     f = open(conffilefullpath, 'w')
     f.write(s)
     return conffilefullpath
@@ -73,7 +75,8 @@ branchname = "doxygen-%s" % date
 os.system("git checkout -b %s" % branchname)
 # now that we're in a branch, we should blow away any previously 
 # generated documentation.
-os.system("git rm %s" % outputdir)
+os.system("git rm -r %s" % outputdir)
+os.system("mkdir %s" % outputdir)
 
 # create a directory to work in
 tmpdir = "%s/commotion-doxygen-%s" % (workingdir,date)
@@ -86,14 +89,17 @@ for section_name in config.sections():
         repo = None
         branch = None
         projectdir = "%s/%s" % (outputdir,project)
-        localprojectgit = "%s/%s" % (tmpdir, project)
-        doxyconfdir = "%s/%s" % (tmpdir, project)
+        projecttmp = "%s/%s" %(tmpdir, project)
+        if not os.path.isdir(projecttmp):
+            os.mkdir(projecttmp)
+        localprojectgit = "%s/%s" % (projecttmp, project)
+        doxyconfdir = "%s/doxyconf" % (projecttmp)
         if not os.path.isdir(doxyconfdir):
             os.mkdir(doxyconfdir)
         headerfilename = "%s/%s-header.html" % (doxyconfdir,project) 
         generate_yaml_header(project, now, headerfilename)
         projectoutputdir = "%s/%s" % (outputdir,project)
-        customdoxyconf = generate_doxygen_config(project, doxyconfigs, scriptdir, projectoutputdir, headerfilename)
+        customdoxyconf = generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectoutputdir, headerfilename)
 
         print "Reading over the configurations for %s." % project
         for name, value in config.items(section_name):
