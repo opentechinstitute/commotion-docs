@@ -9,6 +9,7 @@
 # Authors: Nat Meysenburg (2014)
 
 import os
+import shutil
 import configparser
 import datetime
 
@@ -55,6 +56,20 @@ HTML_FOOTER = "%s/footer.html"
     f.write(s)
     return conffilefullpath
 
+def generate_landing_pager_header(project, now):
+    author = "Commotion"
+    s = """---
+layout: doxygen
+title: API Reference - %s
+site_section: developers
+categories: 
+created: %s
+changed: %s
+post_author: Commotion
+lang: en
+---
+""" % (project, now, now)
+    return s
 
 # set up config parser to read config
 config = configparser.SafeConfigParser()
@@ -73,10 +88,6 @@ date = now.strftime("%Y-%m-%d_%H-%M")
 os.chdir(jekyllrepo)
 branchname = "doxygen-%s" % date
 os.system("git checkout -b %s" % branchname)
-# now that we're in a branch, we should blow away any previously 
-# generated documentation.
-os.system("git rm -r %s" % outputdir)
-os.system("mkdir %s" % outputdir)
 
 # create a directory to work in
 tmpdir = "%s/commotion-doxygen-%s" % (workingdir,date)
@@ -86,22 +97,28 @@ if not os.path.isdir(tmpdir):
 for section_name in config.sections():
     if section_name != 'globals' and section_name != 'doxygen':
         project = section_name
-        repo = None
-        branch = None
         projectdir = "%s/%s" % (outputdir,project)
         projecttmp = "%s/%s" %(tmpdir, project)
+        # we should blow away any previously 
+        # generated documentation.
+        os.system("git rm -r %s" %  projectdir)
+        if not os.path.isdir(projectdir):
+            os.mkdir("%s" % projectdir)
+
         if not os.path.isdir(projecttmp):
             os.mkdir(projecttmp)
+
         localprojectgit = "%s/%s" % (projecttmp, project)
         doxyconfdir = "%s/doxyconf" % (projecttmp)
         if not os.path.isdir(doxyconfdir):
             os.mkdir(doxyconfdir)
+
         headerfilename = "%s/%s-header.html" % (doxyconfdir,project) 
         generate_yaml_header(project, now, headerfilename)
-        projectoutputdir = "%s/%s" % (outputdir,project)
-        customdoxyconf = generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectoutputdir, headerfilename)
+        customdoxyconf = generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectdir, headerfilename)
 
-        print "Reading over the configurations for %s." % project
+        repo = None
+        branch = 'master'
         for name, value in config.items(section_name):
             if value:
                 if name == 'repo':
@@ -109,9 +126,6 @@ for section_name in config.sections():
                 if name == 'branch':
                     branch = value
 
-        if not os.path.isdir(projectdir):
-            print "  ... Creating a new site directory for %s at %s" % (project,projectdir)
-            os.mkdir("%s" % projectdir)
 
         os.system('git clone %s %s' % (repo, localprojectgit))
         os.chdir(localprojectgit)
@@ -121,3 +135,16 @@ for section_name in config.sections():
         # now to actually have doxygen generate something for the project.
         os.system('doxygen %s' % customdoxyconf)
 
+        # and so that we have landing pages, use the README if it exists.
+        readme = "%s/README.md" % localprojectgit
+        index = "%s/index.md" % projectdir
+        yaml = generate_landing_pager_header(project, now)
+        if os.path.isfile(readme):
+            shutil.copy(readme, index)
+            with open(index,'r+') as f:
+                content = f.read()
+                f.seek(0,0)
+                f.write(yaml.rstrip('\r\n') + '\n' + content)
+        else:
+            f = open(index, 'w')
+            f.write("This project doesn't have a README.")
