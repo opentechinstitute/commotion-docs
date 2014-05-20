@@ -2,10 +2,12 @@
 <h3><a href="/developer/resources">For Developers</a></h3>
 <ul>
 <li {% if page.url contains '/developer/resources' %} class="active" {% endif %}><a href="/developer/resources/">Developer Resources</a>
+{% if page.url contains '/developer/resources' %}
 {% include developers_resources_menu.html %}
+{% endif %}
 </li>
 <li><a href="https://github.com/opentechinstitute">Source Code</a></li>
-<li><a {% if page.url contains '/develpoper/resources/api' %} class="active" {% endif %} href="/developer/resources/api/">API Reference</a>
+<li><a {% if page.url contains '/developer/api' %} class="active" {% endif %} href="/developer/api/">API Reference</a>
 {% if page.url contains '/developer/api' %}
 {% include developers_api_menu.html %}
 {% endif %}
