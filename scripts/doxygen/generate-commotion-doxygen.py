@@ -35,7 +35,7 @@ lang: %s
     f.write(s)
 
 
-def generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectoutputdir, headerfilename):
+def generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectoutputdir, headerfilename, localprojectgit):
     conffileneame = "%s-doxygen.conf" % (project)
     conffilefullpath = "%s/%s" % (doxyconfdir, conffileneame)
     doxyconfigdefault =  doxyconfigs['default_doxygen_conf']
@@ -45,7 +45,8 @@ PROJECT_NAME = "%s"
 OUTPUT_DIRECTORY = "%s"
 HTML_HEADER ="%s"
 HTML_FOOTER = "%s/footer.html"
-""" % (scriptdir, doxyconfigdefault, project, projectoutputdir, headerfilename,scriptdir)
+USE_MDFILE_AS_MAINPAGE = "%s/README.md"
+""" % (scriptdir, doxyconfigdefault, project, projectoutputdir, headerfilename,scriptdir,localprojectgit)
 
     for option in doxyconfigs:
         if option != "default_doxygen_conf" and option != "output_base_dir":
@@ -71,6 +72,13 @@ lang: en
 """ % (project, now, now)
     return s
 
+def generate_project_menu_item(project, readme):
+    if os.path.isfile(readme):
+        s = "<li {% if page.url contains '/developer/api/"+ project +'\' %} class="active" {% endif %}><a href="/developer/api/' + project +'/html">'+ project +'</a></li>'
+    else:
+        s = "<li {% if page.url contains '/developer/api/"+ project +'\' %} class="active" {% endif %}><a href="/developer/api/' + project +'">'+ project +'</a></li>'
+    return s
+
 # set up config parser to read config
 config = configparser.SafeConfigParser()
 config.read('./generate-commotion-doxygen.conf')
@@ -94,6 +102,7 @@ tmpdir = "%s/commotion-doxygen-%s" % (workingdir,date)
 if not os.path.isdir(tmpdir):
     os.mkdir("%s" % tmpdir)
 
+menu = ''
 for section_name in config.sections():
     if section_name != 'globals' and section_name != 'doxygen':
         project = section_name
@@ -115,7 +124,7 @@ for section_name in config.sections():
 
         headerfilename = "%s/%s-header.html" % (doxyconfdir,project) 
         generate_yaml_header(project, now, headerfilename)
-        customdoxyconf = generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectdir, headerfilename)
+        customdoxyconf = generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectdir, headerfilename, localprojectgit)
 
         repo = None
         branch = 'master'
@@ -148,3 +157,16 @@ for section_name in config.sections():
         else:
             f = open(index, 'w')
             f.write("This project doesn't have a README.")
+
+        menu += generate_project_menu_item(project, readme)
+
+# remove the directory
+shutil.rmtree(tmpdir)
+
+#build the menu
+menufile = '%s/_includes/developers_api_menu.html' % jekyllrepo
+fullmenu = '<ul class="submenu">%s</ul>' % menu
+f = open(menufile, 'w')
+f.seek(0)
+f.truncate()
+f.write(fullmenu)
