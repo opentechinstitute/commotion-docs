@@ -1,0 +1,381 @@
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager}{\section{commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager Class Reference}
+\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager}\index{commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager@{commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager}}
+}
+Inheritance diagram for commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a152c0575bbf11ee6c2c1c24e300a7034}{\-\_\-\-\_\-init\-\_\-\-\_\-}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ab8bb11d6b12687d9a7e22953d3125ef9}{has\-\_\-configs}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a540ef57dff72ba46c043abd217e221cf}{find}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ac8075c8f0e46b33f63c4b79f91d2ee3e}{get\-\_\-paths}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa5d4504ee2b1a228e0543e0bd4313b88}{get}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a3da851319b205bf97e350946b4408ff8}{load}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aaf53690e921a06e6b522489b884d184a}{{\bfseries log}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aaf53690e921a06e6b522489b884d184a}
+
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{{\bfseries translate}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}
+
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{{\bfseries configs}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}
+
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a26693e1c1001c0967fe11876e5b37327}{{\bfseries directory}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a26693e1c1001c0967fe11876e5b37327}
+
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a0e2fabb5da2d9be8b5c12aed0e8f3661}{{\bfseries paths}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a0e2fabb5da2d9be8b5c12aed0e8f3661}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A object for loading config data from a library.
+
+This object should only be used to load configs and saving/checking those values against the users settings. Any value checking should take place in the users settings.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a152c0575bbf11ee6c2c1c24e300a7034}{\index{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}!\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}!commotion_client::utils::extension_manager::ConfigManager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}}
+\subsubsection[{\-\_\-\-\_\-init\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-\_\-\-\_\-init\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{path = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a152c0575bbf11ee6c2c1c24e300a7034}
+\begin{DoxyVerb}Args:
+  path (string): The path to an extension library.
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-configs, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-directory, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-get(), commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-get\-\_\-paths(), commotion\-\_\-client.\-G\-U\-I.\-system\-\_\-tray.\-Tray\-Icon.\-log, commotion\-\_\-client.\-G\-U\-I.\-welcome\-\_\-page.\-View\-Port.\-log, commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-log, commotion\-\_\-client.\-G\-U\-I.\-crash\-\_\-report.\-Crash\-Report.\-log, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-log, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-log, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-log, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-log, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-log, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-log, commotion\-\_\-client.\-commotion\-\_\-client.\-Hold\-State\-During\-Restart.\-log, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-log, commotion\-\_\-client.\-G\-U\-I.\-crash\-\_\-report.\-Report\-Gatherer.\-log, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-log, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-log, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-paths, commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+\begin{DoxyCode}
+622 
+623     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a152c0575bbf11ee6c2c1c24e300a7034}{\_\_init\_\_}(self, path=None):
+624         \textcolor{stringliteral}{"""}
+625 \textcolor{stringliteral}{        Args:}
+626 \textcolor{stringliteral}{          path (string): The path to an extension library.}
+627 \textcolor{stringliteral}{        """}
+628         \textcolor{comment}{#set function logger}
+629         self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aaf53690e921a06e6b522489b884d184a}{log} = logging.getLogger(\textcolor{stringliteral}{"commotion\_client."}+\_\_name\_\_)
+630         self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate} = QtCore.QCoreApplication.translate
+631         self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Initalizing ConfigManager"}))
+632         self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{configs} = []
+633         self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a26693e1c1001c0967fe11876e5b37327}{directory} = \textcolor{keywordtype}{None}
+634         self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a0e2fabb5da2d9be8b5c12aed0e8f3661}{paths} = []
+635         \textcolor{keywordflow}{if} path:
+636             self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a26693e1c1001c0967fe11876e5b37327}{directory} = path
+637             \textcolor{keywordflow}{try}:
+638                 self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a0e2fabb5da2d9be8b5c12aed0e8f3661}{paths} = self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ac8075c8f0e46b33f63c4b79f91d2ee3e}{get\_paths}(path)
+639             \textcolor{keywordflow}{except} TypeError:
+640                 self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No extensions found in the \{0\} directory.
+       You must first populate the folder with extensions to init a ConfigManager in that folder. You can create a
+       ConfigManager without a location specified, but you will have to add extensions before getting paths."}.format
+      (path)))
+641                 \textcolor{keywordflow}{raise} ValueError(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"The path \{0\} is empty. ConfigManager
+       could not be created"}.format(path)))
+642             \textcolor{keywordflow}{else}:
+643                 self.log.info(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Extensions found in the \{0\} directory.
+       Attempting to load extension configs."}.format(path)))
+644                 self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{configs} = list(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa5d4504ee2b1a228e0543e0bd4313b88}{get}())
+
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a540ef57dff72ba46c043abd217e221cf}{\index{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}!find@{find}}
+\index{find@{find}!commotion_client::utils::extension_manager::ConfigManager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-find (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{name = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a540ef57dff72ba46c043abd217e221cf}
+\begin{DoxyVerb}Function used to obtain a config file from the ConfigManager.
+
+@param name optional The name of the configuration file if known
+@param path string The absolute path to the folder to check for extension configs.
+
+@return list of tuples containing a config name and its config.
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-configs, commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+\begin{DoxyCode}
+656 
+657     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a540ef57dff72ba46c043abd217e221cf}{find}(self, name=None):
+658         \textcolor{stringliteral}{"""}
+659 \textcolor{stringliteral}{        Function used to obtain a config file from the ConfigManager.}
+660 \textcolor{stringliteral}{}
+661 \textcolor{stringliteral}{        @param name optional The name of the configuration file if known}
+662 \textcolor{stringliteral}{        @param path string The absolute path to the folder to check for extension configs.}
+663 \textcolor{stringliteral}{}
+664 \textcolor{stringliteral}{        @return list of tuples containing a config name and its config.}
+665 \textcolor{stringliteral}{        """}
+666         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{configs}:
+667             self.log.warning(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No configs have been loaded. Please load
+       configs first."}.format(name)))
+668             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+669         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} name:
+670             \textcolor{keywordflow}{return} self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{configs}
+671         \textcolor{keywordflow}{elif} name != \textcolor{keywordtype}{None}:
+672             \textcolor{keywordflow}{for} conf \textcolor{keywordflow}{in} self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{configs}:
+673                 \textcolor{keywordflow}{if} conf[\textcolor{stringliteral}{"name"}] \textcolor{keywordflow}{and} conf[\textcolor{stringliteral}{"name"}] == name:
+674                     \textcolor{keywordflow}{return} conf
+675             self.log.error(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No config of the chosed type named \{0\} found"}.
+      format(name)))
+676             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa5d4504ee2b1a228e0543e0bd4313b88}{\index{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}!get@{get}}
+\index{get@{get}!commotion_client::utils::extension_manager::ConfigManager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-get (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{paths = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa5d4504ee2b1a228e0543e0bd4313b88}
+\begin{DoxyVerb}Generator to retreive config files for the paths passed to it
+
+@param a list of paths of the configuration file to retreive
+@return config file as a dictionary
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-load(), commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-paths, commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+
+Referenced by commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-\_\-\-\_\-init\-\_\-\-\_\-().
+
+
+\begin{DoxyCode}
+719 
+720     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa5d4504ee2b1a228e0543e0bd4313b88}{get}(self, paths=None):
+721         \textcolor{stringliteral}{"""}
+722 \textcolor{stringliteral}{        Generator to retreive config files for the paths passed to it}
+723 \textcolor{stringliteral}{}
+724 \textcolor{stringliteral}{        @param a list of paths of the configuration file to retreive}
+725 \textcolor{stringliteral}{        @return config file as a dictionary}
+726 \textcolor{stringliteral}{        """}
+727         \textcolor{comment}{#load config file}
+728         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} paths:
+729             self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No paths found. Attempting to load all
+       extension manager paths list."}))
+730             paths = self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a0e2fabb5da2d9be8b5c12aed0e8f3661}{paths}
+731             self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Found paths:\{0\}."}.format(paths)))
+732         \textcolor{keywordflow}{for} path \textcolor{keywordflow}{in} paths:
+733             \textcolor{keywordflow}{if} fs\_utils.is\_file(path):
+734                 config = self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a3da851319b205bf97e350946b4408ff8}{load}(path)
+735                 \textcolor{keywordflow}{if} config:
+736                     \textcolor{keywordflow}{yield} config
+737             \textcolor{keywordflow}{else}:
+738                 self.log.warning(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Config file \{0\} does not exist and
+       therefore cannot be loaded."}.format(path)))
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ac8075c8f0e46b33f63c4b79f91d2ee3e}{\index{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}!get\-\_\-paths@{get\-\_\-paths}}
+\index{get\-\_\-paths@{get\-\_\-paths}!commotion_client::utils::extension_manager::ConfigManager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}}
+\subsubsection[{get\-\_\-paths}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-get\-\_\-paths (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{directory}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ac8075c8f0e46b33f63c4b79f91d2ee3e}
+\begin{DoxyVerb}Returns the paths to all extensions with config files within a directory.
+
+Args:
+  directory (string): The path to the folder that extension's are within. Extensions can be up to one level below the directory given.
+
+Returns:
+  config_files (array): An array of paths to all extension objects with config files that were found.
+
+Raises:
+  TypeError: If no extensions exist within the directory requested.
+  AssertionError: If the directory path does not exist.\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+
+Referenced by commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-\_\-\-\_\-init\-\_\-\-\_\-().
+
+
+\begin{DoxyCode}
+677 
+678     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ac8075c8f0e46b33f63c4b79f91d2ee3e}{get\_paths}(self, directory):
+679         \textcolor{stringliteral}{"""Returns the paths to all extensions with config files within a directory.}
+680 \textcolor{stringliteral}{        }
+681 \textcolor{stringliteral}{        Args:}
+682 \textcolor{stringliteral}{          directory (string): The path to the folder that extension's are within. Extensions can be up to
+       one level below the directory given.}
+683 \textcolor{stringliteral}{        }
+684 \textcolor{stringliteral}{        Returns:}
+685 \textcolor{stringliteral}{          config\_files (array): An array of paths to all extension objects with config files that were
+       found.}
+686 \textcolor{stringliteral}{        }
+687 \textcolor{stringliteral}{        Raises:}
+688 \textcolor{stringliteral}{          TypeError: If no extensions exist within the directory requested.}
+689 \textcolor{stringliteral}{          AssertionError: If the directory path does not exist.}
+690 \textcolor{stringliteral}{        }
+691 \textcolor{stringliteral}{        """}
+692         \textcolor{comment}{#Check the directory and raise value error if not there}
+693         dir\_obj = QtCore.QDir(str(directory))
+694         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} dir\_obj.exists(dir\_obj.absolutePath()):
+695             \textcolor{keywordflow}{raise} ValueError(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Folder at path \{0\} does not exist. No Config
+       files loaded."}.format(str(directory))))
+696         \textcolor{keywordflow}{else}:
+697             path = dir\_obj.absolutePath()
+698 
+699         config\_files = []
+700         \textcolor{keywordflow}{try}:
+701             \textcolor{keywordflow}{for} root, dirs, files \textcolor{keywordflow}{in} fs\_utils.walklevel(path):
+702                 \textcolor{keywordflow}{for} file\_name \textcolor{keywordflow}{in} files:
+703                     \textcolor{keywordflow}{if} zipfile.is\_zipfile(os.path.join(root, file\_name)):
+704                         ext\_zip = zipfile.ZipFile(os.path.join(root, file\_name), \textcolor{stringliteral}{'}\textcolor{stringliteral}{r')}
+705 \textcolor{stringliteral}{                        ext\_names = ext\_zip.namelist()}
+706 \textcolor{stringliteral}{                        }\textcolor{keywordflow}{for} member\_name \textcolor{keywordflow}{in} ext\_names:
+707                             \textcolor{keywordflow}{if} member\_name.endswith(\textcolor{stringliteral}{".conf"}):
+708                                 config\_files.append(os.path.join(root, file\_name))
+709         \textcolor{keywordflow}{except} AssertionError:
+710             self.log.warn(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Extension library at path \{0\} does not exist. No
+       Config files identified."}.format(path)))
+711             \textcolor{keywordflow}{raise}
+712         \textcolor{keywordflow}{except} TypeError:
+713             self.log.warn(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No extensions found at path \{0\}. No Config files
+       identified."}.format(path)))
+714             \textcolor{keywordflow}{raise}
+715         \textcolor{keywordflow}{if} config\_files:
+716             \textcolor{keywordflow}{return} config\_files
+717         \textcolor{keywordflow}{else}:
+718             \textcolor{keywordflow}{raise} TypeError(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No config files found at path \{0\}. No Config
+       files loaded."}.format(path)))
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ab8bb11d6b12687d9a7e22953d3125ef9}{\index{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}!has\-\_\-configs@{has\-\_\-configs}}
+\index{has\-\_\-configs@{has\-\_\-configs}!commotion_client::utils::extension_manager::ConfigManager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}}
+\subsubsection[{has\-\_\-configs}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-has\-\_\-configs (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ab8bb11d6b12687d9a7e22953d3125ef9}
+\begin{DoxyVerb}Provides the status of a ConfigManagers config files.
+
+Returns:
+  bool: True, if there are configs. False, if there are no configs currently.
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-configs.
+
+
+\begin{DoxyCode}
+645 
+646     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_ab8bb11d6b12687d9a7e22953d3125ef9}{has\_configs}(self):
+647         \textcolor{stringliteral}{"""Provides the status of a ConfigManagers config files.}
+648 \textcolor{stringliteral}{        }
+649 \textcolor{stringliteral}{        Returns:}
+650 \textcolor{stringliteral}{          bool: True, if there are configs. False, if there are no configs currently.}
+651 \textcolor{stringliteral}{        """}
+652         \textcolor{keywordflow}{if} self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a13f7fe6d2a2802b7a74b635aa610ece7}{configs}:
+653             \textcolor{keywordflow}{return} \textcolor{keyword}{True}
+654         \textcolor{keywordflow}{else}:
+655             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+            
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a3da851319b205bf97e350946b4408ff8}{\index{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}!load@{load}}
+\index{load@{load}!commotion_client::utils::extension_manager::ConfigManager@{commotion\-\_\-client\-::utils\-::extension\-\_\-manager\-::\-Config\-Manager}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-load (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{path}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a3da851319b205bf97e350946b4408ff8}
+\begin{DoxyVerb}This function loads the formatted config file and returns it.
+
+long description
+
+Args:
+path (string): The path to a config file
+
+Returns:
+  (dictionary) On success returns a dictionary containing the config file values.
+  (bool): On failure returns False\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+
+Referenced by commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-get().
+
+
+\begin{DoxyCode}
+739 
+740     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_a3da851319b205bf97e350946b4408ff8}{load}(self, path):
+741         \textcolor{stringliteral}{"""This function loads the formatted config file and returns it.}
+742 \textcolor{stringliteral}{        }
+743 \textcolor{stringliteral}{        long description}
+744 \textcolor{stringliteral}{        }
+745 \textcolor{stringliteral}{        Args:}
+746 \textcolor{stringliteral}{        path (string): The path to a config file}
+747 \textcolor{stringliteral}{        }
+748 \textcolor{stringliteral}{        Returns:}
+749 \textcolor{stringliteral}{          (dictionary) On success returns a dictionary containing the config file values.}
+750 \textcolor{stringliteral}{          (bool): On failure returns False}
+751 \textcolor{stringliteral}{        }
+752 \textcolor{stringliteral}{        """}
+753         config = \textcolor{keywordtype}{None}
+754         data = \textcolor{keywordtype}{None}
+755         myfile = QtCore.QFile(str(path))
+756         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} myfile.exists():
+757             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+758         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} zipfile.is\_zipfile(str(path)):
+759             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+760         with zipfile.ZipFile(path, \textcolor{stringliteral}{'}\textcolor{stringliteral}{r') as zip\_ext:}
+761 \textcolor{stringliteral}{            }\textcolor{keywordflow}{for} file\_name \textcolor{keywordflow}{in} zip\_ext.namelist():
+762                 \textcolor{keywordflow}{if} file\_name.endswith(\textcolor{stringliteral}{".conf"}):
+763                     config = zip\_ext.read(file\_name)
+764                     self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Config found in extension \{0\}."}.format(
+      path)))
+765         \textcolor{keywordflow}{if} config:
+766             \textcolor{keywordflow}{try}:
+767                 data = json.loads(config.decode(\textcolor{stringliteral}{'utf-8'}))
+768                 self.log.info(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Successfully loaded \{0\}'s config file."}.
+      format(path)))
+769             \textcolor{keywordflow}{except} ValueError:
+770                 self.log.warning(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Failed to load \{0\} due to a non-json or
+       otherwise invalid file type"}.format(path)))
+771                 \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+772         \textcolor{keywordflow}{if} data:
+773             self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Config file loaded."}.format(path)))
+774             \textcolor{keywordflow}{return} data
+775         \textcolor{keywordflow}{else}:
+776             self.log.debug(self.\hyperlink{classcommotion__client_1_1utils_1_1extension__manager_1_1ConfigManager_aa0ce09aefdd36656f0a1abfad14e9ff1}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Failed to load config file."}.format(path)))
+777             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+commotion\-\_\-client/utils/extension\-\_\-manager.\-py\end{DoxyCompactItemize}

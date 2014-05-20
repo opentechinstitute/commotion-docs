@@ -1,0 +1,297 @@
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar}{\section{commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar Class Reference}
+\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar}\index{commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar@{commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar}}
+}
+Inheritance diagram for commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a1f9817bd9c7f2dde1cc33aaec29151a9}{def {\bfseries \-\_\-\-\_\-init\-\_\-\-\_\-}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a1f9817bd9c7f2dde1cc33aaec29151a9}
+
+\item 
+def \hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_af0829b0f4a27a6246efbbe8c4412a283}{request\-\_\-viewport}
+\item 
+def \hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_aef9fda2956e1fffd9abbfbe420716519}{clear\-\_\-layout}
+\item 
+def \hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a3ebeac5b69ad7004325183b547b3648a}{populate\-\_\-menu}
+\item 
+def \hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a963ca3542a8f9ee6c8e8534fe530d443}{get\-\_\-parents}
+\item 
+def \hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a7bbc3f3ab719dadb7943780dd17f1e82}{add\-\_\-menu\-\_\-item}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a43b84a445a05f441662320e5f26b5599}{{\bfseries layout}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a43b84a445a05f441662320e5f26b5599}
+
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a2397d4b257aa499bf1ef5da6e5b5faea}{{\bfseries log}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a2397d4b257aa499bf1ef5da6e5b5faea}
+
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_ad97dbe989a68d0453584c7c95137b8b4}{{\bfseries translate}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_ad97dbe989a68d0453584c7c95137b8b4}
+
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a967f47cfbc1348e41bc11026fb9ff0ac}{{\bfseries ext\-\_\-mgr}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a967f47cfbc1348e41bc11026fb9ff0ac}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a10d4ce58617e1125c7f7e43512bc960a}{tuple {\bfseries viewport\-\_\-requested} = Qt\-Core.\-pyqt\-Signal(str)}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a10d4ce58617e1125c7f7e43512bc960a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a7bbc3f3ab719dadb7943780dd17f1e82}{\index{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}!add\-\_\-menu\-\_\-item@{add\-\_\-menu\-\_\-item}}
+\index{add\-\_\-menu\-\_\-item@{add\-\_\-menu\-\_\-item}!commotion_client::GUI::menu_bar::MenuBar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}}
+\subsubsection[{add\-\_\-menu\-\_\-item}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-add\-\_\-menu\-\_\-item (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{parent}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a7bbc3f3ab719dadb7943780dd17f1e82}
+\begin{DoxyVerb}Creates and returns a single top level menu item with cascading sub-menu items.
+
+Args:
+parent (string): The "parent" the top level menu item that is being requested.
+
+Returns:
+A tuple containing a top level button and its hidden sub-menu items.        
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-request\-\_\-viewport(), commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, and commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate.
+
+
+
+Referenced by commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-populate\-\_\-menu().
+
+
+\begin{DoxyCode}
+125 
+126     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a7bbc3f3ab719dadb7943780dd17f1e82}{add\_menu\_item}(self, parent):
+127         \textcolor{stringliteral}{"""Creates and returns a single top level menu item with cascading sub-menu items.}
+128 \textcolor{stringliteral}{                }
+129 \textcolor{stringliteral}{        Args:}
+130 \textcolor{stringliteral}{        parent (string): The "parent" the top level menu item that is being requested.}
+131 \textcolor{stringliteral}{        }
+132 \textcolor{stringliteral}{        Returns:}
+133 \textcolor{stringliteral}{        A tuple containing a top level button and its hidden sub-menu items.        }
+134 \textcolor{stringliteral}{        """}
+135         extensions = self.ext\_mgr.get\_extension\_from\_property(\textcolor{stringliteral}{'parent'}, parent)
+136         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} extensions:
+137             \textcolor{keywordflow}{raise} NameError(self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_ad97dbe989a68d0453584c7c95137b8b4}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No extensions found under the parent item \{0\}.
+      "}.format(parent)))
+138         \textcolor{comment}{#Create Top level item button}
+139         title\_button = QtGui.QPushButton(QtCore.QCoreApplication.translate(\textcolor{stringliteral}{"Menu Item"}, parent))
+140         title\_button.setCheckable(\textcolor{keyword}{True})
+141         \textcolor{comment}{#Create sub-menu}
+142         sub\_menu = QtGui.QFrame()
+143         sub\_menu\_layout = QtGui.QVBoxLayout()
+144         \textcolor{comment}{#populate the sub-menu item table.}
+145         \textcolor{keywordflow}{for} ext \textcolor{keywordflow}{in} extensions:
+146             sub\_menu\_item = \hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1subMenuWidget}{subMenuWidget}(self)
+147             \textcolor{keywordflow}{try}:
+148                 menu\_item\_title = self.ext\_mgr.get\_property(ext, \textcolor{stringliteral}{'menu\_item'})
+149             \textcolor{keywordflow}{except} KeyError:
+150                 menu\_item\_title = ext
+151             sub\_menu\_item.setText(QtCore.QCoreApplication.translate(\textcolor{stringliteral}{"Sub-Menu Item"}, menu\_item\_title))
+152             \textcolor{comment}{#We use partial here to pass a variable along when we attach the "clicked()" signal to the
+       MenuBars requestViewport function}
+153             sub\_menu\_item.clicked.connect(partial(self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_af0829b0f4a27a6246efbbe8c4412a283}{request\_viewport}, ext))
+154             sub\_menu\_layout.addWidget(sub\_menu\_item)
+155         sub\_menu.setLayout(sub\_menu\_layout)
+156         sub\_menu.hide()
+157         \textcolor{comment}{#Connect toggle on out checkable title button to the visability of our subMenu}
+158         title\_button.toggled.connect(sub\_menu.setVisible)
+159         \textcolor{comment}{#package and return top level item and its corresponding subMenu}
+160         section = (title\_button, sub\_menu)
+161         \textcolor{keywordflow}{return} section
+162 
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_aef9fda2956e1fffd9abbfbe420716519}{\index{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}!clear\-\_\-layout@{clear\-\_\-layout}}
+\index{clear\-\_\-layout@{clear\-\_\-layout}!commotion_client::GUI::menu_bar::MenuBar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}}
+\subsubsection[{clear\-\_\-layout}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-clear\-\_\-layout (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{layout}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_aef9fda2956e1fffd9abbfbe420716519}
+\begin{DoxyVerb}Clears a layout of all widgets.
+ 
+Args:
+layout (QLayout): A QLayout object that needs to be cleared of all objects.
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-clear\-\_\-layout().
+
+
+
+Referenced by commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-clear\-\_\-layout(), and commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-populate\-\_\-menu().
+
+
+\begin{DoxyCode}
+54 
+55     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_aef9fda2956e1fffd9abbfbe420716519}{clear\_layout}(self, layout):
+56         \textcolor{stringliteral}{"""Clears a layout of all widgets.}
+57 \textcolor{stringliteral}{ }
+58 \textcolor{stringliteral}{        Args:}
+59 \textcolor{stringliteral}{        layout (QLayout): A QLayout object that needs to be cleared of all objects.}
+60 \textcolor{stringliteral}{        """}        
+61         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} layout.isEmpty():
+62             \textcolor{keywordflow}{while} layout.count():
+63                 item = layout.takeAt(0)
+64                 widget = item.widget()
+65                 \textcolor{keywordflow}{if} widget \textcolor{keywordflow}{is} \textcolor{keywordflow}{not} \textcolor{keywordtype}{None}:
+66                     widget.deleteLater()
+67                 \textcolor{keywordflow}{else}:
+68                     self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_aef9fda2956e1fffd9abbfbe420716519}{clear\_layout}(item.layout())
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a963ca3542a8f9ee6c8e8534fe530d443}{\index{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}!get\-\_\-parents@{get\-\_\-parents}}
+\index{get\-\_\-parents@{get\-\_\-parents}!commotion_client::GUI::menu_bar::MenuBar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}}
+\subsubsection[{get\-\_\-parents}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-get\-\_\-parents (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{extension\-\_\-list}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a963ca3542a8f9ee6c8e8534fe530d443}
+\begin{DoxyVerb}Gets all unique parents from a list of extensions.
+
+This function gets the "parent" menu items from a list of extensions and returns a list of the unique members.
+
+Args:
+  extension_list (list): A list containing a set of strings that list the names of extensions.
+
+Returns:
+  A list of all the unique parents of the given extensions.
+
+    ['parent item 01', 'parent item 02']
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, and commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate.
+
+
+
+Referenced by commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-populate\-\_\-menu().
+
+
+\begin{DoxyCode}
+100 
+101     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a963ca3542a8f9ee6c8e8534fe530d443}{get\_parents}(self, extension\_list):
+102         \textcolor{stringliteral}{"""Gets all unique parents from a list of extensions.}
+103 \textcolor{stringliteral}{}
+104 \textcolor{stringliteral}{        This function gets the "parent" menu items from a list of extensions and returns a list of the
+       unique members.}
+105 \textcolor{stringliteral}{}
+106 \textcolor{stringliteral}{        Args:}
+107 \textcolor{stringliteral}{          extension\_list (list): A list containing a set of strings that list the names of extensions.}
+108 \textcolor{stringliteral}{}
+109 \textcolor{stringliteral}{        Returns:}
+110 \textcolor{stringliteral}{          A list of all the unique parents of the given extensions.}
+111 \textcolor{stringliteral}{        }
+112 \textcolor{stringliteral}{            ['parent item 01', 'parent item 02']}
+113 \textcolor{stringliteral}{        """}
+114         parents = []
+115         \textcolor{keywordflow}{for} ext \textcolor{keywordflow}{in} extension\_list:
+116             \textcolor{keywordflow}{try}:
+117                 parent = self.ext\_mgr.get\_property(ext, \textcolor{stringliteral}{"parent"})
+118             \textcolor{keywordflow}{except} KeyError:
+119                 self.log.debug(self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_ad97dbe989a68d0453584c7c95137b8b4}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Config for \{0\} does not contain a \{1\}
+       value. Setting \{1\} to default value."}.format(ext, \textcolor{stringliteral}{"parent"})))
+120                 parent = \textcolor{stringliteral}{"Extensions"}
+121             \textcolor{keywordflow}{if} parent \textcolor{keywordflow}{not} \textcolor{keywordflow}{in} parents:
+122                 parents.append(parent)
+123         \textcolor{keywordflow}{return} parents
+124 
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a3ebeac5b69ad7004325183b547b3648a}{\index{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}!populate\-\_\-menu@{populate\-\_\-menu}}
+\index{populate\-\_\-menu@{populate\-\_\-menu}!commotion_client::GUI::menu_bar::MenuBar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}}
+\subsubsection[{populate\-\_\-menu}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-populate\-\_\-menu (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a3ebeac5b69ad7004325183b547b3648a}
+\begin{DoxyVerb}Resets and populates the menu using loaded extensions.\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-add\-\_\-menu\-\_\-item(), commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-clear\-\_\-layout(), commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-get\-\_\-parents(), commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-layout, commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, and commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate.
+
+
+\begin{DoxyCode}
+69 
+70     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a3ebeac5b69ad7004325183b547b3648a}{populate\_menu}(self):
+71         \textcolor{stringliteral}{"""Resets and populates the menu using loaded extensions."""}
+72         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} self.layout.isEmpty():
+73             self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_aef9fda2956e1fffd9abbfbe420716519}{clear\_layout}(self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a43b84a445a05f441662320e5f26b5599}{layout})
+74         menu\_items = \{\}
+75         \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} self.ext\_mgr.check\_installed():
+76             self.ext\_mgr.init\_extension\_libraries()
+77         extensions = self.ext\_mgr.get\_installed().keys()
+78         \textcolor{keywordflow}{if} extensions:
+79             top\_level = self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a963ca3542a8f9ee6c8e8534fe530d443}{get\_parents}(extensions)
+80             \textcolor{keywordflow}{for} top\_level\_item \textcolor{keywordflow}{in} top\_level:
+81                 \textcolor{keywordflow}{try}:
+82                     current\_item = self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a7bbc3f3ab719dadb7943780dd17f1e82}{add\_menu\_item}(top\_level\_item)
+83                 \textcolor{keywordflow}{except} NameError \textcolor{keyword}{as} \_excpt:
+84                     self.log.debug(self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_ad97dbe989a68d0453584c7c95137b8b4}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"No extensions found under the parent
+       item \{0\}. Parent item will not be added to the menu."}.format(top\_level\_item)))
+85                     self.log.exception(\_excpt)
+86                 \textcolor{keywordflow}{else}:
+87                     \textcolor{keywordflow}{if} current\_item:
+88                         menu\_items[top\_level\_item] = current\_item
+89             \textcolor{keywordflow}{if} menu\_items:
+90                 \textcolor{keywordflow}{for} title, section \textcolor{keywordflow}{in} menu\_items.items():
+91                     \textcolor{comment}{#Add top level menu item}
+92                     self.layout.addWidget(section[0])
+93                     \textcolor{comment}{#Add sub-menu layout}
+94                     self.layout.addWidget(section[1])
+95             \textcolor{keywordflow}{else}:
+96                 \textcolor{keywordflow}{raise} AttributeError(QtCore.QCoreApplication.translate(\textcolor{stringliteral}{"exception"}, \textcolor{stringliteral}{"No menu items could be
+       created from the extensions found. Please re-run the commotion client with full verbosity to identify what
+       went wrong."}))
+97         \textcolor{keywordflow}{else}:
+98             \textcolor{keywordflow}{raise} NameError(QtCore.QCoreApplication.translate(\textcolor{stringliteral}{"exception"}, \textcolor{stringliteral}{"No extensions found. Please
+       re-run the commotion\_client with full verbosity to find out what went wrong."}))
+99         self.setLayout(self.\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_a43b84a445a05f441662320e5f26b5599}{layout})
+        
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_af0829b0f4a27a6246efbbe8c4412a283}{\index{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}!request\-\_\-viewport@{request\-\_\-viewport}}
+\index{request\-\_\-viewport@{request\-\_\-viewport}!commotion_client::GUI::menu_bar::MenuBar@{commotion\-\_\-client\-::\-G\-U\-I\-::menu\-\_\-bar\-::\-Menu\-Bar}}
+\subsubsection[{request\-\_\-viewport}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-request\-\_\-viewport (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{viewport}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_af0829b0f4a27a6246efbbe8c4412a283}
+\begin{DoxyVerb}When called will emit a request for a viewport change.
+\end{DoxyVerb}
+ 
+
+Referenced by commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-add\-\_\-menu\-\_\-item().
+
+
+\begin{DoxyCode}
+47 
+48     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1GUI_1_1menu__bar_1_1MenuBar_af0829b0f4a27a6246efbbe8c4412a283}{request\_viewport}(self, viewport):
+49         \textcolor{stringliteral}{"""}
+50 \textcolor{stringliteral}{        When called will emit a request for a viewport change.}
+51 \textcolor{stringliteral}{        """}
+52         self.log.debug(QtCore.QCoreApplication.translate(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Request to change viewport sent"}))
+53         self.viewport\_requested.emit(viewport)
+        
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+commotion\-\_\-client/\-G\-U\-I/menu\-\_\-bar.\-py\end{DoxyCompactItemize}

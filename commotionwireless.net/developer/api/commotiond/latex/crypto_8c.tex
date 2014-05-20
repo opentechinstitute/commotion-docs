@@ -1,0 +1,225 @@
+\hypertarget{crypto_8c}{\section{plugins/serval-\/dna/crypto.c File Reference}
+\label{crypto_8c}\index{plugins/serval-\/dna/crypto.\-c@{plugins/serval-\/dna/crypto.\-c}}
+}
+
+
+serval-\/dna plugin functionality for signing/verifying using Serval keys  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$assert.\-h$>$}\\*
+{\ttfamily \#include $<$serval.\-h$>$}\\*
+{\ttfamily \#include $<$serval/overlay\-\_\-address.\-h$>$}\\*
+{\ttfamily \#include $<$serval/mdp\-\_\-client.\-h$>$}\\*
+{\ttfamily \#include $<$serval/crypto.\-h$>$}\\*
+{\ttfamily \#include $<$serval/str.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}cmd.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}debug.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}crypto.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}tree.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}serval-\/dna.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{crypto_8c_a08f6db86179aeb589db6edd6f8bdbecf}{\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ {\bfseries svl\-\_\-crypto\-\_\-ctx\-\_\-new} (void)}\label{crypto_8c_a08f6db86179aeb589db6edd6f8bdbecf}
+
+\item 
+\hypertarget{crypto_8c_a3678ab3a3a249d33c6b6667757635a80}{void {\bfseries svl\-\_\-crypto\-\_\-ctx\-\_\-free} (\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ctx)}\label{crypto_8c_a3678ab3a3a249d33c6b6667757635a80}
+
+\item 
+\hypertarget{crypto_8c_acd0be0562590d0272942461fb637873f}{int {\bfseries serval\-\_\-open\-\_\-keyring} (\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ctx)}\label{crypto_8c_acd0be0562590d0272942461fb637873f}
+
+\item 
+\hypertarget{crypto_8c_a7f8037c57442bd18e4e86f02a8c496b3}{int {\bfseries serval\-\_\-init\-\_\-keyring} (\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ctx)}\label{crypto_8c_a7f8037c57442bd18e4e86f02a8c496b3}
+
+\item 
+\hypertarget{crypto_8c_aee1dd59c313dab3bef78ad1b79aa3efb}{int {\bfseries cmd\-\_\-serval\-\_\-sign} (\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ctx)}\label{crypto_8c_aee1dd59c313dab3bef78ad1b79aa3efb}
+
+\item 
+\hypertarget{crypto_8c_a72ef51d1d435317955869fef39b6ae54}{int {\bfseries cmd\-\_\-serval\-\_\-verify} (\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ctx)}\label{crypto_8c_a72ef51d1d435317955869fef39b6ae54}
+
+\item 
+\hypertarget{crypto_8c_a433c7ad11da8052d3d7bbbba0a82587b}{int {\bfseries serval\-\_\-verify\-\_\-client} (\hyperlink{structsvl__crypto__ctx}{svl\-\_\-crypto\-\_\-ctx} $\ast$ctx)}\label{crypto_8c_a433c7ad11da8052d3d7bbbba0a82587b}
+
+\item 
+int \hyperlink{crypto_8c_a699ccad43ec5415b695b70b74af369cf}{serval\-\_\-crypto\-\_\-register} (void)
+\item 
+int \hyperlink{crypto_8c_a2b5d79b249c94ce4dd6f025280dda2fb}{olsrd\-\_\-mdp\-\_\-register} (void)
+\item 
+int \hyperlink{crypto_8c_a6c8facf941938973d0d6a5f14a32ca9a}{olsrd\-\_\-mdp\-\_\-sign\-\_\-register} (void)
+\item 
+\hypertarget{crypto_8c_a933aa5cb596d327a7aaf1a0d21124280}{int {\bfseries serval\-\_\-crypto\-\_\-handler} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$params)}\label{crypto_8c_a933aa5cb596d327a7aaf1a0d21124280}
+
+\item 
+\hypertarget{crypto_8c_aa43b9f1204773f5d3652313677483baf}{int {\bfseries olsrd\-\_\-mdp\-\_\-init} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$params)}\label{crypto_8c_aa43b9f1204773f5d3652313677483baf}
+
+\item 
+int \hyperlink{crypto_8c_ab48f47676409eabe9da89f5df565fe38}{olsrd\-\_\-mdp\-\_\-sign} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$params)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{crypto_8c_a7a52b0448c6882066b1f48ba930b679a}{keyring\-\_\-file $\ast$ {\bfseries keyring}}\label{crypto_8c_a7a52b0448c6882066b1f48ba930b679a}
+
+\item 
+\hypertarget{crypto_8c_aaf45f20567428150d54515b38c292e5a}{struct subscriber $\ast$ {\bfseries my\-\_\-subscriber}}\label{crypto_8c_aaf45f20567428150d54515b38c292e5a}
+
+\item 
+\hypertarget{crypto_8c_ae6dcf225692e114eb5dade5319d1c2b1}{char $\ast$ {\bfseries serval\-\_\-path} = N\-U\-L\-L}\label{crypto_8c_ae6dcf225692e114eb5dade5319d1c2b1}
+
+\item 
+\hypertarget{crypto_8c_a35312d60364fde2d5ba79a8eb0ec7425}{\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ {\bfseries err\-\_\-msg} = N\-U\-L\-L}\label{crypto_8c_a35312d60364fde2d5ba79a8eb0ec7425}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+serval-\/dna plugin functionality for signing/verifying using Serval keys \begin{DoxyAuthor}{Author}
+Dan Staples (dismantl), \href{mailto:danstaples@opentechinstitute.org}{\tt danstaples@opentechinstitute.\-org} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{crypto_8c_a2b5d79b249c94ce4dd6f025280dda2fb}{\index{crypto.\-c@{crypto.\-c}!olsrd\-\_\-mdp\-\_\-register@{olsrd\-\_\-mdp\-\_\-register}}
+\index{olsrd\-\_\-mdp\-\_\-register@{olsrd\-\_\-mdp\-\_\-register}!crypto.c@{crypto.\-c}}
+\subsubsection[{olsrd\-\_\-mdp\-\_\-register}]{\setlength{\rightskip}{0pt plus 5cm}int olsrd\-\_\-mdp\-\_\-register (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{crypto_8c_a2b5d79b249c94ce4dd6f025280dda2fb}
+name\-: mdp-\/init param\mbox{[}0\mbox{]} $<$required$>$\-: $<$keyring\-\_\-path$>$ (co\-\_\-str16\-\_\-t) param\mbox{[}1\mbox{]} $<$required$>$\-: $<$\-S\-I\-D$>$ (co\-\_\-str8\-\_\-t)
+
+References name.
+
+
+\begin{DoxyCode}
+418 \{\textcolor{comment}{}
+419 \textcolor{comment}{  /**}
+420 \textcolor{comment}{   * name: mdp-init}
+421 \textcolor{comment}{   * param[0] <required>: <keyring\_path> (co\_str16\_t)}
+422 \textcolor{comment}{   * param[1] <required>: <SID> (co\_str8\_t)}
+423 \textcolor{comment}{   */}
+424   \textcolor{keyword}{const} \textcolor{keywordtype}{char} \hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}[] = \textcolor{stringliteral}{"mdp-init"};
+425   
+426   CHECK(co\_cmd\_register(name, \textcolor{keyword}{sizeof}(name), \textcolor{stringliteral}{""}, 1, \textcolor{stringliteral}{""}, 1, olsrd\_mdp\_init), \textcolor{stringliteral}{"Failed to register command"});
+427   
+428   \textcolor{keywordflow}{return} 1;
+429 error:
+430   \textcolor{keywordflow}{return} 0;
+431 \}
+\end{DoxyCode}
+\hypertarget{crypto_8c_ab48f47676409eabe9da89f5df565fe38}{\index{crypto.\-c@{crypto.\-c}!olsrd\-\_\-mdp\-\_\-sign@{olsrd\-\_\-mdp\-\_\-sign}}
+\index{olsrd\-\_\-mdp\-\_\-sign@{olsrd\-\_\-mdp\-\_\-sign}!crypto.c@{crypto.\-c}}
+\subsubsection[{olsrd\-\_\-mdp\-\_\-sign}]{\setlength{\rightskip}{0pt plus 5cm}int olsrd\-\_\-mdp\-\_\-sign (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$$\ast$}]{output, }
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{params}
+\end{DoxyParamCaption}
+)}}\label{crypto_8c_ab48f47676409eabe9da89f5df565fe38}
+skipping some error checking for performance reasons 
+
+References co\-\_\-list\-\_\-element().
+
+
+
+Referenced by olsrd\-\_\-mdp\-\_\-sign\-\_\-register().
+
+
+\begin{DoxyCode}
+574 \{
+575   \textcolor{keywordtype}{int} ret = 0;
+576   \hyperlink{structsvl__crypto__ctx}{svl\_crypto\_ctx} *ctx = svl\_crypto\_ctx\_new();
+577   \textcolor{comment}{}
+578 \textcolor{comment}{  /** skipping some error checking for performance reasons */}
+579   
+580 \textcolor{comment}{//   CHECK(IS\_LIST(params) && co\_list\_length(params) == 2, "Invalid params");}
+581   
+582   ctx->msg\_len = co\_obj\_data((\textcolor{keywordtype}{char}**)&ctx->msg, \hyperlink{list_8c_a647ff4c713547b65d3fa7a1a7cc7dff7}{co\_list\_element}(params, 1));
+583   
+584   memcpy(ctx->sas\_private,\_LIST\_ELEMENT(params, 0),crypto\_sign\_SECRETKEYBYTES);
+585   
+586   CHECK(serval\_create\_signature(ctx), \textcolor{stringliteral}{"Failed to sign OLSRd packet"});
+587   
+588   CMD\_OUTPUT(\textcolor{stringliteral}{"sig"}, co\_bin8\_create((\textcolor{keywordtype}{char}*)ctx->signature, SIGNATURE\_BYTES, 0));
+589   
+590   ret = 1;
+591 error:
+592   svl\_crypto\_ctx\_free(ctx);
+593   \textcolor{keywordflow}{return} ret;
+594 \}
+\end{DoxyCode}
+\hypertarget{crypto_8c_a6c8facf941938973d0d6a5f14a32ca9a}{\index{crypto.\-c@{crypto.\-c}!olsrd\-\_\-mdp\-\_\-sign\-\_\-register@{olsrd\-\_\-mdp\-\_\-sign\-\_\-register}}
+\index{olsrd\-\_\-mdp\-\_\-sign\-\_\-register@{olsrd\-\_\-mdp\-\_\-sign\-\_\-register}!crypto.c@{crypto.\-c}}
+\subsubsection[{olsrd\-\_\-mdp\-\_\-sign\-\_\-register}]{\setlength{\rightskip}{0pt plus 5cm}int olsrd\-\_\-mdp\-\_\-sign\-\_\-register (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{crypto_8c_a6c8facf941938973d0d6a5f14a32ca9a}
+name\-: mdp-\/sign param\mbox{[}0\mbox{]} $<$required$>$\-: key (co\-\_\-bin8\-\_\-t) param\mbox{[}1\mbox{]} $<$required$>$\-: data (co\-\_\-bin?\-\_\-t)
+
+References name, and olsrd\-\_\-mdp\-\_\-sign().
+
+
+\begin{DoxyCode}
+435 \{\textcolor{comment}{}
+436 \textcolor{comment}{  /**}
+437 \textcolor{comment}{   * name: mdp-sign}
+438 \textcolor{comment}{   * param[0] <required>: key (co\_bin8\_t)}
+439 \textcolor{comment}{   * param[1] <required>: data (co\_bin?\_t)}
+440 \textcolor{comment}{   */}
+441   
+442   \textcolor{keyword}{const} \textcolor{keywordtype}{char} \hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}[] = \textcolor{stringliteral}{"mdp-sign"};
+443   
+444   CHECK(co\_cmd\_register(name, \textcolor{keyword}{sizeof}(name), \textcolor{stringliteral}{""}, 1, \textcolor{stringliteral}{""}, 1, \hyperlink{crypto_8c_ab48f47676409eabe9da89f5df565fe38}{olsrd\_mdp\_sign}), \textcolor{stringliteral}{"Failed to
+       register command"});
+445   
+446   \textcolor{keywordflow}{return} 1;
+447 error:
+448   \textcolor{keywordflow}{return} 0;
+449 \}
+\end{DoxyCode}
+\hypertarget{crypto_8c_a699ccad43ec5415b695b70b74af369cf}{\index{crypto.\-c@{crypto.\-c}!serval\-\_\-crypto\-\_\-register@{serval\-\_\-crypto\-\_\-register}}
+\index{serval\-\_\-crypto\-\_\-register@{serval\-\_\-crypto\-\_\-register}!crypto.c@{crypto.\-c}}
+\subsubsection[{serval\-\_\-crypto\-\_\-register}]{\setlength{\rightskip}{0pt plus 5cm}int serval\-\_\-crypto\-\_\-register (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{crypto_8c_a699ccad43ec5415b695b70b74af369cf}
+name\-: serval-\/crypto param\mbox{[}0\mbox{]} -\/ param\mbox{[}3\mbox{]}\-: (co\-\_\-str?\-\_\-t)
+
+References desc, name, and usage.
+
+
+\begin{DoxyCode}
+388 \{\textcolor{comment}{}
+389 \textcolor{comment}{  /** name: serval-crypto}
+390 \textcolor{comment}{   * param[0] - param[3]: (co\_str?\_t)}
+391 \textcolor{comment}{   */}
+392   
+393   \textcolor{keyword}{const} \textcolor{keywordtype}{char} \hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}[] = \textcolor{stringliteral}{"serval-crypto"},
+394   \hyperlink{cmd_8h_ace2987d249e38e296e66b62c88c629f9}{usage}[] = \textcolor{stringliteral}{"serval-crypto sign [<SID>] <MESSAGE> [--keyring=<KEYRING\_PATH>]\(\backslash\)n"}
+395             \textcolor{stringliteral}{"serval-crypto verify <SAS> <SIGNATURE> <MESSAGE>"},
+396   \hyperlink{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}{desc}[] =  \textcolor{stringliteral}{"Serval-crypto utilizes Serval's crypto API to:\(\backslash\)n"}
+397       \textcolor{stringliteral}{"      * Sign any arbitrary text using a Serval key. If no Serval key ID (SID) is given,\(\backslash\)n"}
+398       \textcolor{stringliteral}{"             a new key will be created on the default Serval keyring.\(\backslash\)n"}
+399       \textcolor{stringliteral}{"      * Verify any arbitrary text, a signature, and a Serval signing key (SAS), and will\(\backslash\)n"}
+400       \textcolor{stringliteral}{"             determine if the signature is valid."};
+401   
+402   \textcolor{keywordtype}{int} reg\_ret = co\_cmd\_register(name,
+403         \textcolor{keyword}{sizeof}(name),
+404         \hyperlink{cmd_8h_ace2987d249e38e296e66b62c88c629f9}{usage},
+405         \textcolor{keyword}{sizeof}(\hyperlink{cmd_8h_ace2987d249e38e296e66b62c88c629f9}{usage}),
+406         \hyperlink{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}{desc},
+407         \textcolor{keyword}{sizeof}(\hyperlink{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}{desc}),
+408         serval\_crypto\_handler);
+409   CHECK(reg\_ret, \textcolor{stringliteral}{"Failed to register commands"});
+410   
+411   \textcolor{keywordflow}{return} 1;
+412 error:
+413   \textcolor{keywordflow}{return} 0;
+414 \}
+\end{DoxyCode}

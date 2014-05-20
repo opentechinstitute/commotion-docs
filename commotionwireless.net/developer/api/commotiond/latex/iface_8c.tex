@@ -1,0 +1,853 @@
+\hypertarget{iface_8c}{\section{src/iface.c File Reference}
+\label{iface_8c}\index{src/iface.\-c@{src/iface.\-c}}
+}
+
+
+interface handling for the Commotion daemon  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdbool.\-h$>$}\\*
+{\ttfamily \#include $<$net/if.\-h$>$}\\*
+{\ttfamily \#include $<$arpa/inet.\-h$>$}\\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\\*
+{\ttfamily \#include $<$sys/socket.\-h$>$}\\*
+{\ttfamily \#include $<$sys/ioctl.\-h$>$}\\*
+{\ttfamily \#include $<$netinet/in.\-h$>$}\\*
+{\ttfamily \#include $<$linux/sockios.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}extern/wpa\-\_\-ctrl.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}debug.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}iface.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}util.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}id.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{iface_8c_a89870242927c4432b0555a04e2bcb2ac}{int \hyperlink{iface_8c_a89870242927c4432b0555a04e2bcb2ac}{co\-\_\-ifaces\-\_\-create} (void)}\label{iface_8c_a89870242927c4432b0555a04e2bcb2ac}
+
+\begin{DoxyCompactList}\small\item\em checks for available interfaces \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_aae5d2fc2eea6dc00f12b76aac897a36e}{co\-\_\-iface\-\_\-remove} (char $\ast$iface\-\_\-name)
+\begin{DoxyCompactList}\small\item\em removes an interface from the list of available interfaces \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{iface_8c_a2213dff7e124db476c4e10d75c657cc1}{co\-\_\-iface\-\_\-add} (const char $\ast$iface\-\_\-name, const int family)
+\begin{DoxyCompactList}\small\item\em adds a new interface to the list of available interfaces, and checks whether it is I\-Pv4 and I\-Pv6 capable, and whether it is wireless \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a8241fb69a598a8e0b943effd2126b2e2}{co\-\_\-iface\-\_\-get\-\_\-mac} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, unsigned char $\ast$output, int output\-\_\-size)
+\item 
+int \hyperlink{iface_8c_a018a98b3b0ad1d00c37594e46bbfbd88}{co\-\_\-iface\-\_\-set\-\_\-ip} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface\-\_\-obj, const char $\ast$ip\-\_\-addr, const char $\ast$netmask)
+\begin{DoxyCompactList}\small\item\em sets ip address and netmask for commotion interface \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a0fd3ccfcbc3f7972f2f6d7930188731a}{co\-\_\-iface\-\_\-unset\-\_\-ip} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface\-\_\-obj)
+\begin{DoxyCompactList}\small\item\em Resets ip address of chosen interface. \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a832e768b78333f1038b23c6ef209dac6}{co\-\_\-iface\-\_\-wpa\-\_\-disconnect} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface\-\_\-obj)
+\begin{DoxyCompactList}\small\item\em turns off wpa supplicant \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a6ee135131c69f0d98b36b9bff15113b9}{co\-\_\-iface\-\_\-wpa\-\_\-connect} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface\-\_\-obj)
+\begin{DoxyCompactList}\small\item\em connects the commotion interface to wpa supplicant \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a8a005a930e4365180b4573a6e577b212}{co\-\_\-iface\-\_\-set\-\_\-ssid} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const char $\ast$ssid)
+\begin{DoxyCompactList}\small\item\em sets S\-S\-I\-D from profile or uses default \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a71c188a4260da98c1fd8a2c25d140da2}{co\-\_\-iface\-\_\-set\-\_\-bssid} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const char $\ast$bssid)
+\begin{DoxyCompactList}\small\item\em sets B\-S\-S\-I\-D from profile or uses default \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a47cc5a8dedfb52d86c7103fc1a7f7029}{co\-\_\-iface\-\_\-set\-\_\-frequency} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const int frequency)
+\begin{DoxyCompactList}\small\item\em sets wireless frequency (eg. channel) from profile or uses default \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a021a8905f4ee8094850f95b63d4a99e6}{co\-\_\-iface\-\_\-set\-\_\-encryption} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const char $\ast$proto)
+\begin{DoxyCompactList}\small\item\em specifies the wpa encryption protocol \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a5d0763e56934247d81522824934732d8}{co\-\_\-iface\-\_\-set\-\_\-key} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const char $\ast$key)
+\begin{DoxyCompactList}\small\item\em specifies the wpa encryption key \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_ab2096ee04da0088f41992242a47b6772}{co\-\_\-iface\-\_\-set\-\_\-mode} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const char $\ast$mode)
+\begin{DoxyCompactList}\small\item\em specifies the Wi-\/\-Fi mode \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a75902e89c9a7f31244d1e8519c6f952b}{co\-\_\-iface\-\_\-set\-\_\-apscan} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface, const int value)
+\begin{DoxyCompactList}\small\item\em sets A\-P\-\_\-\-S\-C\-A\-N value \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a8e3e52eba71a050ec4eda52ef42870b1}{co\-\_\-iface\-\_\-wireless\-\_\-enable} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface)
+\begin{DoxyCompactList}\small\item\em enables specified wireless network \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_a207e731afd6f53ebf362b89779b66433}{co\-\_\-iface\-\_\-wireless\-\_\-disable} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$iface)
+\begin{DoxyCompactList}\small\item\em disables specified wireless network \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_abc2642672e72fc861cb5e58cce24d649}{co\-\_\-set\-\_\-dns} (const char $\ast$dnsserver, const char $\ast$searchdomain, const char $\ast$resolvpath)
+\begin{DoxyCompactList}\small\item\em sets D\-N\-S name server and sets search domain \end{DoxyCompactList}\item 
+int \hyperlink{iface_8c_ab5104a19e90809ada606e21bd0390514}{co\-\_\-generate\-\_\-ip} (const char $\ast$base, const char $\ast$genmask, const \hyperlink{unionnodeid__t}{nodeid\-\_\-t} id, char $\ast$output, int type)
+\begin{DoxyCompactList}\small\item\em generates an ip table for a commotion interface \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{iface_8c_a3c0dfc825100ef5749a30a86be53eb2b}{co\-\_\-iface\-\_\-profile} (char $\ast$iface\-\_\-name)
+\begin{DoxyCompactList}\small\item\em sets node configuration profile \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{iface_8c_ab28f02302725157ef93c3b42a87f9ee9}{co\-\_\-iface\-\_\-get} (char $\ast$iface\-\_\-name)
+\begin{DoxyCompactList}\small\item\em retrieves node configuration profile \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+interface handling for the Commotion daemon \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{iface_8c_ab5104a19e90809ada606e21bd0390514}{\index{iface.\-c@{iface.\-c}!co\-\_\-generate\-\_\-ip@{co\-\_\-generate\-\_\-ip}}
+\index{co\-\_\-generate\-\_\-ip@{co\-\_\-generate\-\_\-ip}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-generate\-\_\-ip}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-generate\-\_\-ip (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{base, }
+\item[{const char $\ast$}]{genmask, }
+\item[{const {\bf nodeid\-\_\-t}}]{id, }
+\item[{char $\ast$}]{output, }
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_ab5104a19e90809ada606e21bd0390514}
+
+
+generates an ip table for a commotion interface 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & base address \\
+\hline
+{\em genmask} & genmask \\
+\hline
+{\em id} & the node id \\
+\hline
+{\em type} & whether the device is a gateway (1) or not (0) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+433                                                                                                      \{
+434   \hyperlink{unionnodeid__t}{nodeid\_t} addr;
+435   addr.id = 0;
+436   \textcolor{keyword}{struct }in\_addr baseaddr;
+437   \textcolor{keyword}{struct }in\_addr generatedaddr;
+438   \textcolor{keyword}{struct }in\_addr genmaskaddr;
+439   CHECK(inet\_aton(base, &baseaddr) != 0, \textcolor{stringliteral}{"Invalid base ip address %s"}, base); 
+440   CHECK(inet\_aton(genmask, &genmaskaddr) != 0, \textcolor{stringliteral}{"Invalid genmask address %s"}, genmask); 
+441 
+442   \textcolor{comment}{/*}
+443 \textcolor{comment}{   * Turn the IP address into a }
+444 \textcolor{comment}{   * network address.}
+445 \textcolor{comment}{   */}
+446   generatedaddr.s\_addr = (baseaddr.s\_addr & genmaskaddr.s\_addr);
+447 
+448   \textcolor{comment}{/*}
+449 \textcolor{comment}{   * get the matching octet from }
+450 \textcolor{comment}{   * the mac and and then move it}
+451 \textcolor{comment}{   * left to the proper spot.}
+452 \textcolor{comment}{   */}
+453   \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++)
+454     addr.bytes[i] = (\textcolor{keywordtype}{id}.bytes[i]&0xff)%0xfe;
+455 
+456   \textcolor{comment}{/* }
+457 \textcolor{comment}{   * if address is of a gateway}
+458 \textcolor{comment}{   * type, then set the last byte }
+459 \textcolor{comment}{   * to '1'}
+460 \textcolor{comment}{   * */}
+461   \textcolor{keywordflow}{if}(type) \{
+462     \textcolor{comment}{/* }
+463 \textcolor{comment}{     * shift us over by one }
+464 \textcolor{comment}{     * to ensure that we are}
+465 \textcolor{comment}{     * getting maximum entropy }
+466 \textcolor{comment}{     * from the mac address.}
+467 \textcolor{comment}{     */}
+468     addr.bytes[1] = addr.bytes[2];
+469     addr.bytes[2] = addr.bytes[3];
+470     addr.bytes[3] = 1;
+471   \}
+472 
+473   \textcolor{comment}{/*}
+474 \textcolor{comment}{   * mask out the parts of address}
+475 \textcolor{comment}{   * that overlap with the genmask }
+476 \textcolor{comment}{   */}
+477   addr.id &= ~(genmaskaddr.s\_addr);
+478   \textcolor{comment}{/*}
+479 \textcolor{comment}{   * add back the user-supplied }
+480 \textcolor{comment}{   * base ip address.}
+481 \textcolor{comment}{   */}
+482   generatedaddr.s\_addr = (generatedaddr.s\_addr|addr.id);
+483 
+484   strcpy(output, inet\_ntoa(generatedaddr));
+485   \textcolor{keywordflow}{return} 1;
+486 error:
+487   \textcolor{keywordflow}{return} 0;
+488 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a2213dff7e124db476c4e10d75c657cc1}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-add@{co\-\_\-iface\-\_\-add}}
+\index{co\-\_\-iface\-\_\-add@{co\-\_\-iface\-\_\-add}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-add}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-iface\-\_\-add (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{iface\-\_\-name, }
+\item[{const int}]{family}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a2213dff7e124db476c4e10d75c657cc1}
+
+
+adds a new interface to the list of available interfaces, and checks whether it is I\-Pv4 and I\-Pv6 capable, and whether it is wireless 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface\-\_\-name} & name of the interface \\
+\hline
+{\em family} & address family of the interface. Must be A\-F\-\_\-\-I\-N\-E\-T (I\-Pv4) or A\-F\-\_\-\-I\-N\-E\-T6 (I\-Pv6), which uses host and port number for addressing \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-append(), and strlcpy().
+
+
+\begin{DoxyCode}
+176                                                                  \{
+177   \hyperlink{structco__iface__t}{co\_iface\_t} *iface = h\_calloc(1,\textcolor{keyword}{sizeof}(\hyperlink{structco__iface__t}{co\_iface\_t}));
+178   iface->\_len = (\textcolor{keyword}{sizeof}(\hyperlink{structco__iface__t}{co\_iface\_t}));
+179   iface->\_exttype = \_iface;
+180   iface->\_header.\_type = \_ext8;
+181   iface->\_header.\_flags = 0;
+182   iface->\_header.\_ref = 0;
+183   
+184   iface->fd = socket(PF\_INET, SOCK\_DGRAM, IPPROTO\_IP);
+185   \hyperlink{util_8c_ad8618012c7dd73f31b3ae67d737f5d81}{strlcpy}(iface->ifr.ifr\_name, iface\_name, IFNAMSIZ);
+186   
+187  \textcolor{comment}{/* Check whether interface is IPv4 or IPv6 */}
+188   \textcolor{keywordflow}{if}((family & AF\_INET) == AF\_INET) \{
+189     iface->ifr.ifr\_addr.sa\_family = AF\_INET; 
+190   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}((family & AF\_INET6) == AF\_INET6) \{
+191     iface->ifr.ifr\_addr.sa\_family = AF\_INET6; 
+192   \} \textcolor{keywordflow}{else} \{
+193     ERROR(\textcolor{stringliteral}{"Invalid address family!"});
+194     co\_obj\_free((\hyperlink{structco__obj__t}{co\_obj\_t}*)iface);
+195     \textcolor{keywordflow}{return} NULL;
+196   \}
+197 
+198   \textcolor{comment}{/* Check whether interface is wireless or not */}
+199   \textcolor{keywordflow}{if}(\_co\_iface\_is\_wireless((\hyperlink{structco__obj__t}{co\_obj\_t}*)iface)) iface->wireless = \textcolor{keyword}{true};
+200   iface->wpa\_id = -1;
+201     
+202   \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(ifaces, (\hyperlink{structco__obj__t}{co\_obj\_t}*)iface);
+203   \textcolor{keywordflow}{return} (\hyperlink{structco__obj__t}{co\_obj\_t}*)iface; 
+204 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_ab28f02302725157ef93c3b42a87f9ee9}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-get@{co\-\_\-iface\-\_\-get}}
+\index{co\-\_\-iface\-\_\-get@{co\-\_\-iface\-\_\-get}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-iface\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{iface\-\_\-name}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_ab28f02302725157ef93c3b42a87f9ee9}
+
+
+retrieves node configuration profile 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface\-\_\-name} & name of interface \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-parse().
+
+
+\begin{DoxyCode}
+498                                          \{
+499   \hyperlink{structco__obj__t}{co\_obj\_t} *iface = NULL;
+500   CHECK((iface = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(ifaces, \_co\_iface\_match\_i, iface\_name)) != NULL, \textcolor{stringliteral}{"Failed to get
+       interface %s!"}, iface\_name);
+501   \textcolor{keywordflow}{return} iface;
+502 error:
+503   \textcolor{keywordflow}{return} NULL;
+504 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a8241fb69a598a8e0b943effd2126b2e2}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-get\-\_\-mac@{co\-\_\-iface\-\_\-get\-\_\-mac}}
+\index{co\-\_\-iface\-\_\-get\-\_\-mac@{co\-\_\-iface\-\_\-get\-\_\-mac}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-get\-\_\-mac}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-get\-\_\-mac (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{unsigned char $\ast$}]{output, }
+\item[{int}]{output\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a8241fb69a598a8e0b943effd2126b2e2}
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em output} & output of hardware M\-A\-C address lookup \\
+\hline
+{\em output\-\_\-size} & size of M\-A\-C address. Must be six bytes \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+206                                                                               \{
+207   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+208   \hyperlink{structco__iface__t}{co\_iface\_t} *maciface = NULL;
+209   CHECK(output\_size == 6, \textcolor{stringliteral}{"output\_size does not equal six"});
+210 
+211   maciface = malloc(\textcolor{keyword}{sizeof}(\hyperlink{structco__iface__t}{co\_iface\_t}));
+212   memset(maciface, \textcolor{charliteral}{'\(\backslash\)0'}, \textcolor{keyword}{sizeof}(\hyperlink{structco__iface__t}{co\_iface\_t}));
+213   memmove(maciface, iface, \textcolor{keyword}{sizeof}(\hyperlink{structco__iface__t}{co\_iface\_t}));
+214   \textcolor{keywordflow}{if} (0 == ioctl(((\hyperlink{structco__iface__t}{co\_iface\_t}*)iface)->fd, SIOCGIFHWADDR, &maciface->ifr)) \{
+215     DEBUG(\textcolor{stringliteral}{"Received MAC Address : %02x:%02x:%02x:%02x:%02x:%02x\(\backslash\)n"},
+216                 maciface->ifr.ifr\_hwaddr.sa\_data[0],maciface->ifr.ifr\_hwaddr.sa\_data[1],maciface->ifr.
+      ifr\_hwaddr.sa\_data[2]
+217                 ,maciface->ifr.ifr\_hwaddr.sa\_data[3],maciface->ifr.ifr\_hwaddr.sa\_data[4],maciface->ifr.
+      ifr\_hwaddr.sa\_data[5]);
+218     memmove(output, maciface->ifr.ifr\_addr.sa\_data, output\_size);
+219     free(maciface);
+220     \textcolor{keywordflow}{return} 1;
+221   \}
+222   free(maciface);
+223 error:
+224   \textcolor{keywordflow}{return} 0;
+225 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a3c0dfc825100ef5749a30a86be53eb2b}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-profile@{co\-\_\-iface\-\_\-profile}}
+\index{co\-\_\-iface\-\_\-profile@{co\-\_\-iface\-\_\-profile}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-profile}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ co\-\_\-iface\-\_\-profile (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{iface\-\_\-name}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a3c0dfc825100ef5749a30a86be53eb2b}
+
+
+sets node configuration profile 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface\-\_\-name} & name of interface \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-parse().
+
+
+\begin{DoxyCode}
+490                                          \{
+491   \hyperlink{structco__obj__t}{co\_obj\_t} *iface = NULL;
+492   CHECK((iface = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(ifaces, \_co\_iface\_match\_i, iface\_name)) != NULL, \textcolor{stringliteral}{"Failed to get
+       interface %s profile!"}, iface\_name);
+493   \textcolor{keywordflow}{return} ((\hyperlink{structco__iface__t}{co\_iface\_t}*)iface)->profile;
+494 error:
+495   \textcolor{keywordflow}{return} NULL;
+496 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_aae5d2fc2eea6dc00f12b76aac897a36e}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-remove@{co\-\_\-iface\-\_\-remove}}
+\index{co\-\_\-iface\-\_\-remove@{co\-\_\-iface\-\_\-remove}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-remove}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-remove (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{iface\-\_\-name}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_aae5d2fc2eea6dc00f12b76aac897a36e}
+
+
+removes an interface from the list of available interfaces 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface\-\_\-name} & name of interface to be removed \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-iface\-\_\-unset\-\_\-ip(), co\-\_\-iface\-\_\-wireless\-\_\-disable(), co\-\_\-iface\-\_\-wpa\-\_\-disconnect(), co\-\_\-list\-\_\-delete(), and co\-\_\-list\-\_\-parse().
+
+
+\begin{DoxyCode}
+162                                       \{
+163   \hyperlink{structco__obj__t}{co\_obj\_t} *iface = NULL;
+164   CHECK((iface = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(ifaces, \_co\_iface\_match\_i, iface\_name)) != NULL, \textcolor{stringliteral}{"Failed to
+       delete interface %s!"}, iface\_name);
+165   iface = \hyperlink{list_8c_a80fbd77f231ae88663c5d0bb25bdfd6c}{co\_list\_delete}(ifaces, iface);
+166   \hyperlink{iface_8c_a0fd3ccfcbc3f7972f2f6d7930188731a}{co\_iface\_unset\_ip}(iface);
+167   \hyperlink{iface_8c_a207e731afd6f53ebf362b89779b66433}{co\_iface\_wireless\_disable}(iface);
+168   \hyperlink{iface_8c_a832e768b78333f1038b23c6ef209dac6}{co\_iface\_wpa\_disconnect}(iface);
+169   co\_obj\_free(iface);
+170   \textcolor{keywordflow}{return} 1;
+171 
+172 error:
+173   \textcolor{keywordflow}{return} 0;
+174 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a75902e89c9a7f31244d1e8519c6f952b}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-apscan@{co\-\_\-iface\-\_\-set\-\_\-apscan}}
+\index{co\-\_\-iface\-\_\-set\-\_\-apscan@{co\-\_\-iface\-\_\-set\-\_\-apscan}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-apscan}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-apscan (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const int}]{value}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a75902e89c9a7f31244d1e8519c6f952b}
+
+
+sets A\-P\-\_\-\-S\-C\-A\-N value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em value} & desired value for A\-P\-\_\-\-S\-C\-A\-N \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+369                                                           \{
+370   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+371   \textcolor{keywordtype}{char} cmd[256];
+372   \textcolor{keywordtype}{char} buf[WPA\_REPLY\_SIZE];
+373   \textcolor{keywordtype}{size\_t} len;
+374 
+375   snprintf(cmd, \textcolor{keyword}{sizeof}(cmd), \textcolor{stringliteral}{"AP\_SCAN %d"}, value);
+376   cmd[\textcolor{keyword}{sizeof}(cmd) - 1] = \textcolor{charliteral}{'\(\backslash\)0'};
+377 
+378   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_command(iface, cmd, buf, &len);
+379 error:
+380   \textcolor{keywordflow}{return} 0;
+381 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a71c188a4260da98c1fd8a2c25d140da2}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-bssid@{co\-\_\-iface\-\_\-set\-\_\-bssid}}
+\index{co\-\_\-iface\-\_\-set\-\_\-bssid@{co\-\_\-iface\-\_\-set\-\_\-bssid}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-bssid}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-bssid (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const char $\ast$}]{bssid}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a71c188a4260da98c1fd8a2c25d140da2}
+
+
+sets B\-S\-S\-I\-D from profile or uses default 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em bssid} & desired B\-S\-S\-I\-D \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+312                                                            \{
+313   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+314   \textcolor{keywordtype}{char} cmd[256], *pos, *end;
+315   \textcolor{keywordtype}{int} ret;
+316   \textcolor{keywordtype}{char} buf[WPA\_REPLY\_SIZE];
+317   \textcolor{keywordtype}{size\_t} len;
+318 
+319   end = cmd + \textcolor{keyword}{sizeof}(cmd);
+320   pos = cmd;
+321   ret = snprintf(pos, end - pos, \textcolor{stringliteral}{"BSSID"});
+322   \textcolor{keywordflow}{if} (ret < 0 || ret >= end - pos) \{
+323     ERROR(\textcolor{stringliteral}{"Too long BSSID command."});
+324     \textcolor{keywordflow}{return} 0;
+325   \}
+326   pos += ret;
+327   ret = snprintf(pos, end - pos, \textcolor{stringliteral}{" %d %s"}, ((\hyperlink{structco__iface__t}{co\_iface\_t}*)iface)->wpa\_id, bssid);
+328   \textcolor{keywordflow}{if} (ret < 0 || ret >= end - pos) \{
+329     ERROR(\textcolor{stringliteral}{"Too long BSSID command."});
+330     \textcolor{keywordflow}{return} 0;
+331   \}
+332   pos += ret;
+333 
+334   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_command(iface, cmd, buf, &len);
+335 error:
+336   \textcolor{keywordflow}{return} 0;
+337 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a021a8905f4ee8094850f95b63d4a99e6}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-encryption@{co\-\_\-iface\-\_\-set\-\_\-encryption}}
+\index{co\-\_\-iface\-\_\-set\-\_\-encryption@{co\-\_\-iface\-\_\-set\-\_\-encryption}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-encryption}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-encryption (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const char $\ast$}]{proto}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a021a8905f4ee8094850f95b63d4a99e6}
+
+
+specifies the wpa encryption protocol 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em proto} & desired protocol \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+348                                                                 \{
+349   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+350   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_set(iface, \textcolor{stringliteral}{"proto"}, proto); 
+351 error:
+352   \textcolor{keywordflow}{return} 0;
+353 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a47cc5a8dedfb52d86c7103fc1a7f7029}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-frequency@{co\-\_\-iface\-\_\-set\-\_\-frequency}}
+\index{co\-\_\-iface\-\_\-set\-\_\-frequency@{co\-\_\-iface\-\_\-set\-\_\-frequency}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-frequency}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-frequency (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const int}]{frequency}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a47cc5a8dedfb52d86c7103fc1a7f7029}
+
+
+sets wireless frequency (eg. channel) from profile or uses default 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em frequency} & desired frequency \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+339                                                                  \{
+340   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+341   \textcolor{keywordtype}{char} freq[FREQ\_LEN]; 
+342   snprintf(freq, FREQ\_LEN, \textcolor{stringliteral}{"%d"}, frequency);
+343   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_set(iface, \textcolor{stringliteral}{"frequency"}, freq); 
+344 error:
+345   \textcolor{keywordflow}{return} 0;
+346 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a018a98b3b0ad1d00c37594e46bbfbd88}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-ip@{co\-\_\-iface\-\_\-set\-\_\-ip}}
+\index{co\-\_\-iface\-\_\-set\-\_\-ip@{co\-\_\-iface\-\_\-set\-\_\-ip}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-ip}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-ip (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const char $\ast$}]{ip\-\_\-addr, }
+\item[{const char $\ast$}]{netmask}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a018a98b3b0ad1d00c37594e46bbfbd88}
+
+
+sets ip address and netmask for commotion interface 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em ip\-\_\-addr} & ip address for the socket \\
+\hline
+{\em netmask} & netmask for the socket \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+228                                                                                    \{
+229   CHECK\_MEM(iface\_obj); 
+230   \hyperlink{structco__iface__t}{co\_iface\_t} *iface = (\hyperlink{structco__iface__t}{co\_iface\_t}*)iface\_obj;
+231   \textcolor{keyword}{struct }sockaddr\_in *addr = (\textcolor{keyword}{struct }sockaddr\_in *)&iface->ifr.ifr\_addr;
+232 
+233   DEBUG(\textcolor{stringliteral}{"Setting address %s and netmask %s."}, ip\_addr, netmask);
+234  
+235   \textcolor{comment}{// Convert IP from numbers and dots to binary notation}
+236   inet\_pton(AF\_INET, ip\_addr, &addr->sin\_addr);
+237   CHECK((ioctl(iface->fd, SIOCSIFADDR, &iface->ifr) == 0), \textcolor{stringliteral}{"Failed to set IP address for interface: %s"}, 
+      iface->ifr.ifr\_name);
+238 
+239   inet\_pton(AF\_INET, netmask, &addr->sin\_addr);
+240   CHECK((ioctl(iface->fd, SIOCSIFNETMASK, &iface->ifr) == 0), \textcolor{stringliteral}{"Failed to set IP address for interface: %s"},
+       iface->ifr.ifr\_name);
+241 
+242   \textcolor{comment}{//Get and set interface flags.}
+243   CHECK((ioctl(iface->fd, SIOCGIFFLAGS, &iface->ifr) == 0), \textcolor{stringliteral}{"Interface shutdown: %s"}, iface->ifr.ifr\_name);
+244   iface->ifr.ifr\_flags |= IFF\_UP;
+245   iface->ifr.ifr\_flags |= IFF\_RUNNING;
+246   CHECK((ioctl(iface->fd, SIOCSIFFLAGS, &iface->ifr) == 0), \textcolor{stringliteral}{"Interface up failed: %s"}, iface->ifr.ifr\_name)
+      ;
+247  
+248   DEBUG(\textcolor{stringliteral}{"Addressing for interface %s is done!"}, iface->ifr.ifr\_name);
+249   \textcolor{keywordflow}{return} 1;
+250 
+251 error:
+252   \textcolor{keywordflow}{return} 0;
+253 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a5d0763e56934247d81522824934732d8}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-key@{co\-\_\-iface\-\_\-set\-\_\-key}}
+\index{co\-\_\-iface\-\_\-set\-\_\-key@{co\-\_\-iface\-\_\-set\-\_\-key}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-key}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-key (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const char $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a5d0763e56934247d81522824934732d8}
+
+
+specifies the wpa encryption key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em key} & desired key \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+355                                                        \{
+356   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+357   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_set(iface, \textcolor{stringliteral}{"psk"}, key); 
+358 error:
+359   \textcolor{keywordflow}{return} 0;
+360 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_ab2096ee04da0088f41992242a47b6772}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-mode@{co\-\_\-iface\-\_\-set\-\_\-mode}}
+\index{co\-\_\-iface\-\_\-set\-\_\-mode@{co\-\_\-iface\-\_\-set\-\_\-mode}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-mode (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const char $\ast$}]{mode}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_ab2096ee04da0088f41992242a47b6772}
+
+
+specifies the Wi-\/\-Fi mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em mode} & desired mode \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+362                                                          \{
+363   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+364   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_set(iface, \textcolor{stringliteral}{"mode"}, mode); 
+365 error:
+366   \textcolor{keywordflow}{return} 0;
+367 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a8a005a930e4365180b4573a6e577b212}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-set\-\_\-ssid@{co\-\_\-iface\-\_\-set\-\_\-ssid}}
+\index{co\-\_\-iface\-\_\-set\-\_\-ssid@{co\-\_\-iface\-\_\-set\-\_\-ssid}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-set\-\_\-ssid}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-set\-\_\-ssid (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface, }
+\item[{const char $\ast$}]{ssid}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a8a005a930e4365180b4573a6e577b212}
+
+
+sets S\-S\-I\-D from profile or uses default 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+{\em ssid} & desired S\-S\-I\-D \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+305                                                          \{
+306   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+307   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_set(iface, \textcolor{stringliteral}{"ssid"}, ssid); 
+308 error:
+309   \textcolor{keywordflow}{return} 0;
+310 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a0fd3ccfcbc3f7972f2f6d7930188731a}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-unset\-\_\-ip@{co\-\_\-iface\-\_\-unset\-\_\-ip}}
+\index{co\-\_\-iface\-\_\-unset\-\_\-ip@{co\-\_\-iface\-\_\-unset\-\_\-ip}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-unset\-\_\-ip}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-unset\-\_\-ip (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a0fd3ccfcbc3f7972f2f6d7930188731a}
+
+
+Resets ip address of chosen interface. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-iface\-\_\-remove().
+
+
+\begin{DoxyCode}
+255                                            \{
+256   CHECK\_MEM(iface\_obj); 
+257   CHECK(IS\_IFACE(iface\_obj),\textcolor{stringliteral}{"Not an iface."});
+258   \hyperlink{structco__iface__t}{co\_iface\_t} *iface = (\hyperlink{structco__iface__t}{co\_iface\_t}*)iface\_obj;
+259   \textcolor{comment}{//Get and set interface flags.}
+260   CHECK((ioctl(iface->fd, SIOCGIFFLAGS, &iface->ifr) == 0), \textcolor{stringliteral}{"Interface shutdown: %s"}, iface->ifr.ifr\_name);
+261   iface->ifr.ifr\_flags &= ~IFF\_UP;
+262   iface->ifr.ifr\_flags &= ~IFF\_RUNNING;
+263   CHECK((ioctl(iface->fd, SIOCSIFFLAGS, &iface->ifr) == 0), \textcolor{stringliteral}{"Interface up failed: %s"}, iface->ifr.ifr\_name)
+      ;
+264   \textcolor{keywordflow}{return} 1;
+265 error:
+266   \textcolor{keywordflow}{return} 0;
+267 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a207e731afd6f53ebf362b89779b66433}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-wireless\-\_\-disable@{co\-\_\-iface\-\_\-wireless\-\_\-disable}}
+\index{co\-\_\-iface\-\_\-wireless\-\_\-disable@{co\-\_\-iface\-\_\-wireless\-\_\-disable}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-wireless\-\_\-disable}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-wireless\-\_\-disable (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a207e731afd6f53ebf362b89779b66433}
+
+
+disables specified wireless network 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-iface\-\_\-remove().
+
+
+\begin{DoxyCode}
+397                                                \{
+398   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+399   CHECK(\_co\_iface\_wpa\_disable\_network(iface), \textcolor{stringliteral}{"Failed to disable network %s"}, ((
+      \hyperlink{structco__iface__t}{co\_iface\_t}*)iface)->ifr.ifr\_name);
+400   CHECK(\_co\_iface\_wpa\_remove\_network(iface), \textcolor{stringliteral}{"Failed to remove network %s"}, ((
+      \hyperlink{structco__iface__t}{co\_iface\_t}*)iface)->ifr.ifr\_name);
+401   \textcolor{keywordflow}{return} 1;
+402 error:
+403   \textcolor{keywordflow}{return} 0;
+404 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a8e3e52eba71a050ec4eda52ef42870b1}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-wireless\-\_\-enable@{co\-\_\-iface\-\_\-wireless\-\_\-enable}}
+\index{co\-\_\-iface\-\_\-wireless\-\_\-enable@{co\-\_\-iface\-\_\-wireless\-\_\-enable}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-wireless\-\_\-enable}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-wireless\-\_\-enable (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a8e3e52eba71a050ec4eda52ef42870b1}
+
+
+enables specified wireless network 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+383                                               \{
+384   CHECK(IS\_IFACE(iface),\textcolor{stringliteral}{"Not an iface."});
+385   \textcolor{keywordtype}{char} cmd[256];
+386   \textcolor{keywordtype}{char} buf[WPA\_REPLY\_SIZE];
+387   \textcolor{keywordtype}{size\_t} len;
+388 
+389   snprintf(cmd, \textcolor{keyword}{sizeof}(cmd), \textcolor{stringliteral}{"ENABLE\_NETWORK %d"}, ((\hyperlink{structco__iface__t}{co\_iface\_t}*)iface)->wpa\_id);
+390   cmd[\textcolor{keyword}{sizeof}(cmd) - 1] = \textcolor{charliteral}{'\(\backslash\)0'};
+391 
+392   \textcolor{keywordflow}{return} \_co\_iface\_wpa\_command(iface, cmd, buf, &len);
+393 error:
+394   \textcolor{keywordflow}{return} 0;
+395 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a6ee135131c69f0d98b36b9bff15113b9}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-wpa\-\_\-connect@{co\-\_\-iface\-\_\-wpa\-\_\-connect}}
+\index{co\-\_\-iface\-\_\-wpa\-\_\-connect@{co\-\_\-iface\-\_\-wpa\-\_\-connect}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-wpa\-\_\-connect}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-wpa\-\_\-connect (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a6ee135131c69f0d98b36b9bff15113b9}
+
+
+connects the commotion interface to wpa supplicant 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+281                                               \{
+282   CHECK(IS\_IFACE(iface\_obj),\textcolor{stringliteral}{"Not an iface."});
+283   \hyperlink{structco__iface__t}{co\_iface\_t} *iface = (\hyperlink{structco__iface__t}{co\_iface\_t}*)iface\_obj;
+284   \textcolor{keywordtype}{char} *filename = NULL;
+285   \textcolor{keywordtype}{size\_t} length;
+286 
+287   CHECK(iface->wireless, \textcolor{stringliteral}{"Not a wireless interface: %s"}, iface->ifr.ifr\_name);
+288 
+289   length = strlen(wpa\_control\_dir) + strlen(iface->ifr.ifr\_name) + 2;
+290   filename = calloc(1, length);
+291   CHECK\_MEM(filename);
+292   snprintf(filename, length, \textcolor{stringliteral}{"%s/%s"}, wpa\_control\_dir, iface->ifr.ifr\_name);
+293   DEBUG(\textcolor{stringliteral}{"WPA control file: %s"}, filename);
+294 
+295   CHECK((iface->ctrl = wpa\_ctrl\_open(filename)), \textcolor{stringliteral}{"Failed to connect to wpa\_supplicant."});
+296   free(filename);
+297   \textcolor{keywordflow}{return} 1;
+298 
+299 error:
+300   free(filename);
+301   \textcolor{keywordflow}{return} 0;
+302 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_a832e768b78333f1038b23c6ef209dac6}{\index{iface.\-c@{iface.\-c}!co\-\_\-iface\-\_\-wpa\-\_\-disconnect@{co\-\_\-iface\-\_\-wpa\-\_\-disconnect}}
+\index{co\-\_\-iface\-\_\-wpa\-\_\-disconnect@{co\-\_\-iface\-\_\-wpa\-\_\-disconnect}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-iface\-\_\-wpa\-\_\-disconnect}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-iface\-\_\-wpa\-\_\-disconnect (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{iface}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_a832e768b78333f1038b23c6ef209dac6}
+
+
+turns off wpa supplicant 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iface} & interface object \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-iface\-\_\-remove().
+
+
+\begin{DoxyCode}
+269                                                  \{
+270   CHECK(IS\_IFACE(iface\_obj),\textcolor{stringliteral}{"Not an iface."});
+271   \hyperlink{structco__iface__t}{co\_iface\_t} *iface = (\hyperlink{structco__iface__t}{co\_iface\_t}*)iface\_obj;
+272   \textcolor{keywordflow}{if}(iface->ctrl) \{
+273     wpa\_ctrl\_detach(iface->ctrl);
+274     wpa\_ctrl\_close(iface->ctrl);
+275     \textcolor{keywordflow}{return} 1;
+276   \}
+277 error:
+278   \textcolor{keywordflow}{return} 0;
+279 \}
+\end{DoxyCode}
+\hypertarget{iface_8c_abc2642672e72fc861cb5e58cce24d649}{\index{iface.\-c@{iface.\-c}!co\-\_\-set\-\_\-dns@{co\-\_\-set\-\_\-dns}}
+\index{co\-\_\-set\-\_\-dns@{co\-\_\-set\-\_\-dns}!iface.c@{iface.\-c}}
+\subsubsection[{co\-\_\-set\-\_\-dns}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-set\-\_\-dns (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{dnsserver, }
+\item[{const char $\ast$}]{searchdomain, }
+\item[{const char $\ast$}]{resolvpath}
+\end{DoxyParamCaption}
+)}}\label{iface_8c_abc2642672e72fc861cb5e58cce24d649}
+
+
+sets D\-N\-S name server and sets search domain 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dnsserver} & I\-P addresss of D\-N\-S server \\
+\hline
+{\em searchdomain} & desired search domain \\
+\hline
+{\em resolvpath} & filepath to resolv.\-conf \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+422                                                                                         \{
+423   FILE *fp = fopen(resolvpath, \textcolor{stringliteral}{"w+"});
+424   \textcolor{keywordflow}{if}(fp != NULL) \{
+425     \textcolor{keywordflow}{if}(searchdomain != NULL) fprintf(fp, \textcolor{stringliteral}{"search %s\(\backslash\)n"}, searchdomain); 
+426     fprintf(fp, \textcolor{stringliteral}{"nameserver %s\(\backslash\)n"}, dnsserver);
+427     fclose(fp);
+428     \textcolor{keywordflow}{return} 1;
+429   \} \textcolor{keywordflow}{else} ERROR(\textcolor{stringliteral}{"Could not open file: %s"}, resolvpath);
+430   \textcolor{keywordflow}{return} 0;
+431 \}
+\end{DoxyCode}
