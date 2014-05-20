@@ -1,0 +1,137 @@
+\hypertarget{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging}{\section{commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging Class Reference}
+\label{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging}\index{commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging@{commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging}}
+}
+Inheritance diagram for commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a267f94646304f99b18a0ade20db51d80}{def {\bfseries \-\_\-\-\_\-init\-\_\-\-\_\-}}\label{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a267f94646304f99b18a0ade20db51d80}
+
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a1289d2bf53f8a3647dd9bce62bd877e6}{handle\-\_\-message}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a07475e0643ef2f92a0e990e7feefa4e3}{send\-\_\-message}
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_af0bf77fe13d6cd9e27d13927f4dcaae4}{process\-\_\-message}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The interprocess messaging class for the Commotion Client. This class extends the single application to allow for instantiations of the Commotion Client to pass messages to the existing client if it is already running. When a second instance of a Commotion Client is run without a message specified it will reaise the earler clients main window to the front and then close itself.
+
+e.g:
+python3.3 CommotionClient.py --message "COMMAND"
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a1289d2bf53f8a3647dd9bce62bd877e6}{\index{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging@{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging}!handle\-\_\-message@{handle\-\_\-message}}
+\index{handle\-\_\-message@{handle\-\_\-message}!commotion_client::utils::single_application::SingleApplicationWithMessaging@{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging}}
+\subsubsection[{handle\-\_\-message}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging.\-handle\-\_\-message (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a1289d2bf53f8a3647dd9bce62bd877e6}
+\begin{DoxyVerb}Server side implementation of the messaging functions. This function waits for signals it receives and then emits a SIGNAL "messageAvailable" with the decoded message.
+
+(Emits a signal instead of just calling a function in case we decide we would like to allow other components or extensions to listen for messages from new instances.)
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging.\-\_\-timeout, commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-validate.\-Client\-Config.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, commotion\-\_\-client.\-utils.\-validate.\-Networking.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+\begin{DoxyCode}
+76 
+77     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a1289d2bf53f8a3647dd9bce62bd877e6}{handle\_message}(self):
+78         \textcolor{stringliteral}{"""}
+79 \textcolor{stringliteral}{        Server side implementation of the messaging functions. This function waits for signals it receives
+       and then emits a SIGNAL "messageAvailable" with the decoded message.}
+80 \textcolor{stringliteral}{        }
+81 \textcolor{stringliteral}{        (Emits a signal instead of just calling a function in case we decide we would like to allow other
+       components or extensions to listen for messages from new instances.)}
+82 \textcolor{stringliteral}{        """}
+83         socket = self.\_server.nextPendingConnection()
+84         \textcolor{keywordflow}{if} socket.waitForReadyRead(self.\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_ae4ca7cb1d3bf9e9ebc683c953c8c08f4}{\_timeout}):
+85             self.emit(QtCore.SIGNAL(\textcolor{stringliteral}{"messageAvailable"}), bytes(socket.readAll().data()).decode(\textcolor{stringliteral}{'utf-8'}))
+86             socket.disconnectFromServer()
+87             self.log.debug(self.translate(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"message received and emitted in a messageAvailable
+       signal"}))
+88         \textcolor{keywordflow}{else}:
+89             self.log.error(socket.errorString())
+
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_af0bf77fe13d6cd9e27d13927f4dcaae4}{\index{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging@{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging}!process\-\_\-message@{process\-\_\-message}}
+\index{process\-\_\-message@{process\-\_\-message}!commotion_client::utils::single_application::SingleApplicationWithMessaging@{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging}}
+\subsubsection[{process\-\_\-message}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging.\-process\-\_\-message (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{message}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_af0bf77fe13d6cd9e27d13927f4dcaae4}
+\begin{DoxyVerb}Process which processes messages an app receives and takes actions on valid requests.
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-validate.\-Client\-Config.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, commotion\-\_\-client.\-utils.\-validate.\-Networking.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+\begin{DoxyCode}
+109 
+110     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_af0bf77fe13d6cd9e27d13927f4dcaae4}{process\_message}(self, message):
+111         \textcolor{stringliteral}{"""}
+112 \textcolor{stringliteral}{        Process which processes messages an app receives and takes actions on valid requests.}
+113 \textcolor{stringliteral}{        """}
+114         self.log.debug(self.translate(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Applicaiton received a message \{0\}, but does not have a
+       message parser to handle it."}).format(message))
+\end{DoxyCode}
+\hypertarget{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a07475e0643ef2f92a0e990e7feefa4e3}{\index{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging@{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging}!send\-\_\-message@{send\-\_\-message}}
+\index{send\-\_\-message@{send\-\_\-message}!commotion_client::utils::single_application::SingleApplicationWithMessaging@{commotion\-\_\-client\-::utils\-::single\-\_\-application\-::\-Single\-Application\-With\-Messaging}}
+\subsubsection[{send\-\_\-message}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging.\-send\-\_\-message (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{message}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a07475e0643ef2f92a0e990e7feefa4e3}
+\begin{DoxyVerb}Message sending function. Connected to local socket specified by shared key and if successful writes the message to it and returns.
+\end{DoxyVerb}
+ 
+
+References commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application.\-\_\-key, commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application\-With\-Messaging.\-\_\-timeout, commotion\-\_\-client.\-utils.\-single\-\_\-application.\-Single\-Application.\-is\-\_\-running(), commotion\-\_\-client.\-G\-U\-I.\-menu\-\_\-bar.\-Menu\-Bar.\-translate, commotion\-\_\-client.\-extensions.\-config\-\_\-editor.\-main.\-View\-Port.\-translate, commotion\-\_\-client.\-G\-U\-I.\-main\-\_\-window.\-Main\-Window.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar\-\_\-builder.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-toolbar.\-Tool\-Bar.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Extension\-Tool\-Bar.\-translate, commotion\-\_\-client.\-utils.\-validate.\-Client\-Config.\-translate, commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Extension\-Manager.\-translate, commotion\-\_\-client.\-G\-U\-I.\-extension\-\_\-toolbar.\-Menu\-Item.\-translate, commotion\-\_\-client.\-commotion\-\_\-client.\-Commotion\-Client\-Application.\-translate, commotion\-\_\-client.\-utils.\-validate.\-Networking.\-translate, and commotion\-\_\-client.\-utils.\-extension\-\_\-manager.\-Config\-Manager.\-translate.
+
+
+\begin{DoxyCode}
+90 
+91     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_a07475e0643ef2f92a0e990e7feefa4e3}{send\_message}(self, message):
+92         \textcolor{stringliteral}{"""}
+93 \textcolor{stringliteral}{        Message sending function. Connected to local socket specified by shared key and if successful
+       writes the message to it and returns.}
+94 \textcolor{stringliteral}{        """}
+95         \textcolor{keywordflow}{if} self.\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplication_acf757577a5b8729d162c828275e1b948}{is\_running}():
+96             socket = QtNetwork.QLocalSocket(self)
+97             socket.connectToServer(self.\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplication_a9c95e184472415ffd42cb82dcf14a332}{\_key}, QtCore.QIODevice.WriteOnly)
+98             \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} socket.waitForConnected(self.\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_ae4ca7cb1d3bf9e9ebc683c953c8c08f4}{\_timeout}):
+99                 self.log.error(socket.errorString())
+100                 \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+101             socket.write(str(message).encode(\textcolor{stringliteral}{"utf-8"}))
+102             \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} socket.waitForBytesWritten(self.\hyperlink{classcommotion__client_1_1utils_1_1single__application_1_1SingleApplicationWithMessaging_ae4ca7cb1d3bf9e9ebc683c953c8c08f4}{\_timeout}):
+103                 self.log.error(socket.errorString())
+104                 \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+105             socket.disconnectFromServer()
+106             \textcolor{keywordflow}{return} \textcolor{keyword}{True}
+107         self.log.debug(self.translate(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"Attempted to send message when commotion client application
+       was not currently running."}))
+108         \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+commotion\-\_\-client/utils/single\-\_\-application.\-py\end{DoxyCompactItemize}

@@ -1,0 +1,345 @@
+\hypertarget{olsrd_8h}{\section{plugins/olsrd/olsrd.h File Reference}
+\label{olsrd_8h}\index{plugins/olsrd/olsrd.\-h@{plugins/olsrd/olsrd.\-h}}
+}
+
+
+O\-L\-S\-Rd configuration and process management.  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}process.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}util.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structco__olsrd__process__t}{co\-\_\-olsrd\-\_\-process\-\_\-t}
+\begin{DoxyCompactList}\small\item\em contains the O\-L\-S\-Rd process protocol \end{DoxyCompactList}\item 
+struct \hyperlink{structco__olsrd__conf__item__t}{co\-\_\-olsrd\-\_\-conf\-\_\-item\-\_\-t}
+\begin{DoxyCompactList}\small\item\em contains the key and value for configuring O\-L\-S\-Rd for Commotion \end{DoxyCompactList}\item 
+struct \hyperlink{structco__olsrd__conf__plugin__t}{co\-\_\-olsrd\-\_\-conf\-\_\-plugin\-\_\-t}
+\begin{DoxyCompactList}\small\item\em contains the number of configuration items for O\-L\-S\-Rd \end{DoxyCompactList}\item 
+struct \hyperlink{structco__olsrd__conf__iface__t}{co\-\_\-olsrd\-\_\-conf\-\_\-iface\-\_\-t}
+\begin{DoxyCompactList}\small\item\em contains interace configuration settings for O\-L\-S\-R, including interface name, mode and I\-Pv4 broadcast message \end{DoxyCompactList}\item 
+struct \hyperlink{structco__olsrd__conf__hna__t}{co\-\_\-olsrd\-\_\-conf\-\_\-hna\-\_\-t}
+\begin{DoxyCompactList}\small\item\em contains host network address settings, including family, address and netmask \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{olsrd_8h_ac25740359eb01e6a2e18ee5b37207081}{\#define {\bfseries O\-L\-S\-R\-\_\-\-H\-N\-A4}~(1 $<$$<$ 0)}\label{olsrd_8h_ac25740359eb01e6a2e18ee5b37207081}
+
+\item 
+\hypertarget{olsrd_8h_a923e5ca80f3cd7f82fd29375c66bfa22}{\#define {\bfseries O\-L\-S\-R\-\_\-\-H\-N\-A6}~(1 $<$$<$ 1)}\label{olsrd_8h_a923e5ca80f3cd7f82fd29375c66bfa22}
+
+\item 
+\hypertarget{olsrd_8h_a8888f08e61284c00f23b7e7b52d33ad3}{\#define {\bfseries O\-L\-S\-R\-\_\-\-I\-F\-A\-C\-E\-\_\-\-M\-E\-S\-H}~(1 $<$$<$ 0)}\label{olsrd_8h_a8888f08e61284c00f23b7e7b52d33ad3}
+
+\item 
+\hypertarget{olsrd_8h_a8dc041750516a6063469e168a2615d35}{\#define {\bfseries O\-L\-S\-R\-\_\-\-I\-F\-A\-C\-E\-\_\-\-E\-T\-H\-E\-R}~(1 $<$$<$ 1)}\label{olsrd_8h_a8dc041750516a6063469e168a2615d35}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{olsrd_8h_a39e013d74b514b6eed083b0241214cc0}{co\-\_\-olsrd\-\_\-add\-\_\-iface} (const char $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name}, int mode, const char $\ast$Ipv4\-Broadcast)
+\begin{DoxyCompactList}\small\item\em adds an interface to O\-L\-S\-Rd \end{DoxyCompactList}\item 
+int \hyperlink{olsrd_8h_a61065305edbe37e889d398373b27c1f5}{co\-\_\-olsrd\-\_\-remove\-\_\-iface} (char $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name}, int mode, char $\ast$Ipv4\-Broadcast)
+\begin{DoxyCompactList}\small\item\em removes an interface from O\-L\-S\-Rd \end{DoxyCompactList}\item 
+int \hyperlink{olsrd_8h_a82dd6adc08598d10d042028ad12f1b3a}{co\-\_\-olsrd\-\_\-add\-\_\-hna} (const int family, const char $\ast$address, const char $\ast$netmask)
+\begin{DoxyCompactList}\small\item\em adds a host network address to O\-L\-S\-Rd \end{DoxyCompactList}\item 
+int \hyperlink{olsrd_8h_accc2c9b50b83de414d11262d2ccf6fab}{co\-\_\-olsrd\-\_\-remove\-\_\-hna} (int family, char $\ast$address, char $\ast$netmask)
+\begin{DoxyCompactList}\small\item\em remves a host network address from O\-L\-S\-Rd \end{DoxyCompactList}\item 
+int \hyperlink{olsrd_8h_a81d06fa13f5f770648b1d397a45425a3}{co\-\_\-olsrd\-\_\-print\-\_\-conf} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em prints O\-L\-S\-R configuration info from file (currently unimplemented) \end{DoxyCompactList}\item 
+int \hyperlink{olsrd_8h_a59de4356b3a842ee61130136360ebd95}{co\-\_\-olsrd\-\_\-init} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em initiates the O\-L\-S\-R daemon when a new process gets created (currently unimplemented) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+O\-L\-S\-Rd configuration and process management. \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{olsrd_8h_a82dd6adc08598d10d042028ad12f1b3a}{\index{olsrd.\-h@{olsrd.\-h}!co\-\_\-olsrd\-\_\-add\-\_\-hna@{co\-\_\-olsrd\-\_\-add\-\_\-hna}}
+\index{co\-\_\-olsrd\-\_\-add\-\_\-hna@{co\-\_\-olsrd\-\_\-add\-\_\-hna}!olsrd.h@{olsrd.\-h}}
+\subsubsection[{co\-\_\-olsrd\-\_\-add\-\_\-hna}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-olsrd\-\_\-add\-\_\-hna (
+\begin{DoxyParamCaption}
+\item[{const int}]{family, }
+\item[{const char $\ast$}]{address, }
+\item[{const char $\ast$}]{netmask}
+\end{DoxyParamCaption}
+)}}\label{olsrd_8h_a82dd6adc08598d10d042028ad12f1b3a}
+
+
+adds a host network address to O\-L\-S\-Rd 
+
+
+\begin{DoxyParams}{Parameters}
+{\em family} & the address family \\
+\hline
+{\em address} & the network address for the interface \\
+\hline
+{\em netmask} & the netmask for the interface \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+198                                                                                  \{
+199   \hyperlink{structco__olsrd__conf__hna__t}{co\_olsrd\_conf\_hna\_t} *new\_hna = NULL;
+200   new\_hna = (\hyperlink{structco__olsrd__conf__hna__t}{co\_olsrd\_conf\_hna\_t}*)calloc(1, \textcolor{keyword}{sizeof}(
+      \hyperlink{structco__olsrd__conf__hna__t}{co\_olsrd\_conf\_hna\_t}));
+201 
+202   new\_hna->family = family;
+203 
+204   new\_hna->address = (\textcolor{keywordtype}{char}*)calloc(strlen(address)+1, \textcolor{keyword}{sizeof}(char));
+205   strcpy(new\_hna->address, address);
+206   
+207   new\_hna->netmask = (\textcolor{keywordtype}{char}*)calloc(strlen(netmask)+1, \textcolor{keyword}{sizeof}(char));
+208   strcpy(new\_hna->netmask, netmask);
+209 
+210   list\_append(hna, lnode\_create(new\_hna));
+211   \textcolor{keywordflow}{return} 1;
+212 \}
+\end{DoxyCode}
+\hypertarget{olsrd_8h_a39e013d74b514b6eed083b0241214cc0}{\index{olsrd.\-h@{olsrd.\-h}!co\-\_\-olsrd\-\_\-add\-\_\-iface@{co\-\_\-olsrd\-\_\-add\-\_\-iface}}
+\index{co\-\_\-olsrd\-\_\-add\-\_\-iface@{co\-\_\-olsrd\-\_\-add\-\_\-iface}!olsrd.h@{olsrd.\-h}}
+\subsubsection[{co\-\_\-olsrd\-\_\-add\-\_\-iface}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-olsrd\-\_\-add\-\_\-iface (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{int}]{mode, }
+\item[{const char $\ast$}]{Ipv4\-Broadcast}
+\end{DoxyParamCaption}
+)}}\label{olsrd_8h_a39e013d74b514b6eed083b0241214cc0}
+
+
+adds an interface to O\-L\-S\-Rd 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the interface to be added \\
+\hline
+{\em mode} & network mode for interface \\
+\hline
+{\em Ipv4\-Broadcast} & I\-Pv4 broadcast address (node address, using netmask as last octet) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+149                                                                               \{
+150   \hyperlink{structco__olsrd__conf__iface__t}{co\_olsrd\_conf\_iface\_t} *new\_iface = NULL;
+151   new\_iface = (\hyperlink{structco__olsrd__conf__iface__t}{co\_olsrd\_conf\_iface\_t}*)calloc(1, \textcolor{keyword}{sizeof}(
+      \hyperlink{structco__olsrd__conf__iface__t}{co\_olsrd\_conf\_iface\_t}));
+152 
+153   new\_iface->mode = mode;
+154 
+155   new\_iface->ifname = (\textcolor{keywordtype}{char}*)calloc(strlen(\hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name})+1, \textcolor{keyword}{sizeof}(char));
+156   strcpy(new\_iface->ifname, \hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name});
+157 
+158   new\_iface->Ipv4Broadcast=(\textcolor{keywordtype}{char}*)calloc(strlen(Ipv4Broadcast)+1,\textcolor{keyword}{sizeof}(char));
+159   strcpy(new\_iface->Ipv4Broadcast, Ipv4Broadcast);
+160 
+161   list\_append(ifaces, lnode\_create(new\_iface));
+162   \textcolor{keywordflow}{return} 1;
+163 \}
+\end{DoxyCode}
+\hypertarget{olsrd_8h_a59de4356b3a842ee61130136360ebd95}{\index{olsrd.\-h@{olsrd.\-h}!co\-\_\-olsrd\-\_\-init@{co\-\_\-olsrd\-\_\-init}}
+\index{co\-\_\-olsrd\-\_\-init@{co\-\_\-olsrd\-\_\-init}!olsrd.h@{olsrd.\-h}}
+\subsubsection[{co\-\_\-olsrd\-\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-olsrd\-\_\-init (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{olsrd_8h_a59de4356b3a842ee61130136360ebd95}
+
+
+initiates the O\-L\-S\-R daemon when a new process gets created (currently unimplemented) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & process to be called \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+248                                   \{
+249   \textcolor{comment}{//co\_olsrd\_process\_t *this = self;}
+250   \textcolor{comment}{//This function gets called when the process object is created, and should call any initialization stuff
+       that happens before it starts}
+251   \textcolor{keywordflow}{return} 1;
+252 \}
+\end{DoxyCode}
+\hypertarget{olsrd_8h_a81d06fa13f5f770648b1d397a45425a3}{\index{olsrd.\-h@{olsrd.\-h}!co\-\_\-olsrd\-\_\-print\-\_\-conf@{co\-\_\-olsrd\-\_\-print\-\_\-conf}}
+\index{co\-\_\-olsrd\-\_\-print\-\_\-conf@{co\-\_\-olsrd\-\_\-print\-\_\-conf}!olsrd.h@{olsrd.\-h}}
+\subsubsection[{co\-\_\-olsrd\-\_\-print\-\_\-conf}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-olsrd\-\_\-print\-\_\-conf (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{olsrd_8h_a81d06fa13f5f770648b1d397a45425a3}
+
+
+prints O\-L\-S\-R configuration info from file (currently unimplemented) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the configuration file \\
+\hline
+\end{DoxyParams}
+
+
+References name.
+
+
+\begin{DoxyCode}
+93                                               \{
+94   \textcolor{keywordtype}{int} i = 0;
+95   FILE *conf\_file;
+96 
+97   \textcolor{keywordflow}{if} (!(conf\_file = fopen(filename, \textcolor{stringliteral}{"w+"}))) \{
+98     \textcolor{comment}{/* file could not be opened!}
+99 \textcolor{comment}{     */}
+100     \textcolor{keywordflow}{return} 0;
+101   \}
+102 
+103   \textcolor{keywordflow}{for} (i = 0; i<global\_items\_count; i++) \{
+104     fprintf(conf\_file, \textcolor{stringliteral}{"%s\(\backslash\)t%s\(\backslash\)n"}, global\_items[i].key, 
+105                                    global\_items[i].value);
+106   \}
+107 
+108   \textcolor{keywordflow}{for} (i = 0; i<plugins\_count; i++) \{
+109     \textcolor{keywordtype}{int} j = 0;
+110     fprintf(conf\_file, \textcolor{stringliteral}{"LoadPlugin\(\backslash\)t\(\backslash\)"%s\(\backslash\)"\(\backslash\)n"}, plugins[i].\hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name});
+111     fprintf(conf\_file, \textcolor{stringliteral}{"\{\(\backslash\)n"});
+112     \textcolor{keywordflow}{for} (j = 0; j<plugins[i].num\_attr; j++) \{
+113       fprintf(conf\_file, \textcolor{stringliteral}{"\(\backslash\)t%s\(\backslash\)t%s\(\backslash\)n"},plugins[i].attr[i]->key, 
+114                                       plugins[i].attr[i]->value);
+115     \}
+116     fprintf(conf\_file, \textcolor{stringliteral}{"\}\(\backslash\)n"});
+117   \}
+118 
+119   list\_process(ifaces, (\textcolor{keywordtype}{void}*)conf\_file, \_co\_olsrd\_print\_iface\_i);
+120   list\_process(hna, (\textcolor{keywordtype}{void}*)conf\_file, \_co\_olsrd\_print\_hna\_i);
+121 
+122   fclose(conf\_file);
+123 
+124   \textcolor{keywordflow}{return} 1;
+125 \}
+\end{DoxyCode}
+\hypertarget{olsrd_8h_accc2c9b50b83de414d11262d2ccf6fab}{\index{olsrd.\-h@{olsrd.\-h}!co\-\_\-olsrd\-\_\-remove\-\_\-hna@{co\-\_\-olsrd\-\_\-remove\-\_\-hna}}
+\index{co\-\_\-olsrd\-\_\-remove\-\_\-hna@{co\-\_\-olsrd\-\_\-remove\-\_\-hna}!olsrd.h@{olsrd.\-h}}
+\subsubsection[{co\-\_\-olsrd\-\_\-remove\-\_\-hna}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-olsrd\-\_\-remove\-\_\-hna (
+\begin{DoxyParamCaption}
+\item[{int}]{family, }
+\item[{char $\ast$}]{address, }
+\item[{char $\ast$}]{netmask}
+\end{DoxyParamCaption}
+)}}\label{olsrd_8h_accc2c9b50b83de414d11262d2ccf6fab}
+
+
+remves a host network address from O\-L\-S\-Rd 
+
+
+\begin{DoxyParams}{Parameters}
+{\em family} & the address family \\
+\hline
+{\em address} & the network address for the interface \\
+\hline
+{\em netmask} & the netmask for the interface \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+214                                                                   \{
+215   \hyperlink{structco__olsrd__conf__hna__t}{co\_olsrd\_conf\_hna\_t} *hna\_to\_remove;
+216   \hyperlink{structco__olsrd__conf__hna__t}{co\_olsrd\_conf\_hna\_t} hna\_to\_find;
+217   lnode\_t *hna\_node\_to\_remove;
+218 
+219   \textcolor{comment}{/*}
+220 \textcolor{comment}{   * FYI: This causes a compiler warning for}
+221 \textcolor{comment}{   * discarding the constant. Using a strcpy()}
+222 \textcolor{comment}{   * would fix this, but that wastes time.}
+223 \textcolor{comment}{   */}
+224   hna\_to\_find.family = family;
+225   hna\_to\_find.address = address;
+226   hna\_to\_find.netmask = netmask;
+227 
+228   \textcolor{keywordflow}{if} ((hna\_node\_to\_remove = list\_find(hna, 
+229                                      &hna\_to\_find, 
+230                                      \_co\_olsrd\_compare\_hna\_i))) \{
+231     \textcolor{comment}{/* }
+232 \textcolor{comment}{     * delete from the list.}
+233 \textcolor{comment}{     */}
+234     list\_delete(hna, hna\_node\_to\_remove);
+235 
+236     \textcolor{comment}{/*}
+237 \textcolor{comment}{     * free the object's memory.}
+238 \textcolor{comment}{     */}
+239     hna\_to\_remove = lnode\_get(hna\_node\_to\_remove);
+240     free(hna\_to\_remove->address);
+241     free(hna\_to\_remove->netmask);
+242     free(hna\_to\_remove);
+243   \}
+244   \textcolor{keywordflow}{return} 1;
+245 \}
+\end{DoxyCode}
+\hypertarget{olsrd_8h_a61065305edbe37e889d398373b27c1f5}{\index{olsrd.\-h@{olsrd.\-h}!co\-\_\-olsrd\-\_\-remove\-\_\-iface@{co\-\_\-olsrd\-\_\-remove\-\_\-iface}}
+\index{co\-\_\-olsrd\-\_\-remove\-\_\-iface@{co\-\_\-olsrd\-\_\-remove\-\_\-iface}!olsrd.h@{olsrd.\-h}}
+\subsubsection[{co\-\_\-olsrd\-\_\-remove\-\_\-iface}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-olsrd\-\_\-remove\-\_\-iface (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{name, }
+\item[{int}]{mode, }
+\item[{char $\ast$}]{Ipv4\-Broadcast}
+\end{DoxyParamCaption}
+)}}\label{olsrd_8h_a61065305edbe37e889d398373b27c1f5}
+
+
+removes an interface from O\-L\-S\-Rd 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the interface to be removed \\
+\hline
+{\em mode} & network mode for interface \\
+\hline
+{\em Ipv4\-Broadcast} & I\-Pv4 broadcast address (node address, using netmask as last octet) \\
+\hline
+\end{DoxyParams}
+
+
+References name.
+
+
+\begin{DoxyCode}
+165                                                                      \{
+166   \hyperlink{structco__olsrd__conf__iface__t}{co\_olsrd\_conf\_iface\_t} *iface\_to\_remove;
+167   \hyperlink{structco__olsrd__conf__iface__t}{co\_olsrd\_conf\_iface\_t} iface\_to\_find;
+168   lnode\_t *iface\_node\_to\_remove;
+169 
+170   \textcolor{comment}{/*}
+171 \textcolor{comment}{   * FYI: This causes a compiler warning for}
+172 \textcolor{comment}{   * discarding the constant. Using a strcpy()}
+173 \textcolor{comment}{   * would fix this, but that wastes time.}
+174 \textcolor{comment}{   */}
+175   iface\_to\_find.mode = mode;
+176   iface\_to\_find.ifname = \hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name};
+177   iface\_to\_find.Ipv4Broadcast = Ipv4Broadcast;
+178 
+179   \textcolor{keywordflow}{if} ((iface\_node\_to\_remove = list\_find(ifaces, 
+180                                        &iface\_to\_find, 
+181                                        \_co\_olsrd\_compare\_iface\_i))) \{
+182     \textcolor{comment}{/* }
+183 \textcolor{comment}{     * delete from the list.}
+184 \textcolor{comment}{     */}
+185     list\_delete(ifaces, iface\_node\_to\_remove);
+186 
+187     \textcolor{comment}{/*}
+188 \textcolor{comment}{     * free the object's memory.}
+189 \textcolor{comment}{     */}
+190     iface\_to\_remove = lnode\_get(iface\_node\_to\_remove);
+191     free(iface\_to\_remove->ifname);
+192     free(iface\_to\_remove->Ipv4Broadcast);
+193     free(iface\_to\_remove);
+194   \}
+195   \textcolor{keywordflow}{return} 1;
+196 \}
+\end{DoxyCode}
