@@ -1,0 +1,70 @@
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon}{\section{commotion\-\_\-client.\-G\-U\-I.\-system\-\_\-tray.\-Tray\-Icon Class Reference}
+\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon}\index{commotion\-\_\-client.\-G\-U\-I.\-system\-\_\-tray.\-Tray\-Icon@{commotion\-\_\-client.\-G\-U\-I.\-system\-\_\-tray.\-Tray\-Icon}}
+}
+Inheritance diagram for commotion\-\_\-client.\-G\-U\-I.\-system\-\_\-tray.\-Tray\-Icon\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_aca280c4231a261edb8caacd712931840}{def {\bfseries \-\_\-\-\_\-init\-\_\-\-\_\-}}\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_aca280c4231a261edb8caacd712931840}
+
+\item 
+def \hyperlink{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a31999bfda4008b7395def282e37b4d5c}{tray\-\_\-icon\-Activated}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_acf0eb7b591dfcf509b0d5eb0d57247dc}{{\bfseries log}}\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_acf0eb7b591dfcf509b0d5eb0d57247dc}
+
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a3a048d00c09481b8655b1b6ea357b4e0}{{\bfseries exit}}\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a3a048d00c09481b8655b1b6ea357b4e0}
+
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a1d5c21e34150d0320feeaecce88e42d9}{{\bfseries tray\-\_\-icon}}\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a1d5c21e34150d0320feeaecce88e42d9}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a17122b55a08c1aa7d92e9d21e0fac83e}{tuple {\bfseries show\-\_\-main} = Qt\-Core.\-pyqt\-Signal()}\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a17122b55a08c1aa7d92e9d21e0fac83e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The Commotion tray icon. This icon object is the only object that can close the entire application.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a31999bfda4008b7395def282e37b4d5c}{\index{commotion\-\_\-client\-::\-G\-U\-I\-::system\-\_\-tray\-::\-Tray\-Icon@{commotion\-\_\-client\-::\-G\-U\-I\-::system\-\_\-tray\-::\-Tray\-Icon}!tray\-\_\-icon\-Activated@{tray\-\_\-icon\-Activated}}
+\index{tray\-\_\-icon\-Activated@{tray\-\_\-icon\-Activated}!commotion_client::GUI::system_tray::TrayIcon@{commotion\-\_\-client\-::\-G\-U\-I\-::system\-\_\-tray\-::\-Tray\-Icon}}
+\subsubsection[{tray\-\_\-icon\-Activated}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\-\_\-client.\-G\-U\-I.\-system\-\_\-tray.\-Tray\-Icon.\-tray\-\_\-icon\-Activated (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{reason}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a31999bfda4008b7395def282e37b4d5c}
+\begin{DoxyVerb}Defines the tray icon behavior on different types of interactions.
+\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+30 
+31     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1GUI_1_1system__tray_1_1TrayIcon_a31999bfda4008b7395def282e37b4d5c}{tray\_iconActivated}(self, reason):
+32         \textcolor{stringliteral}{"""}
+33 \textcolor{stringliteral}{        Defines the tray icon behavior on different types of interactions.}
+34 \textcolor{stringliteral}{        """}
+35         \textcolor{keywordflow}{if} reason == QtGui.QSystemTrayIcon.Context:
+36             self.tray\_icon.contextMenu().show()
+37         \textcolor{keywordflow}{elif} reason == QtGui.QSystemTrayIcon.Trigger:
+38             self.show\_main.emit()
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+commotion\-\_\-client/\-G\-U\-I/system\-\_\-tray.\-py\end{DoxyCompactItemize}

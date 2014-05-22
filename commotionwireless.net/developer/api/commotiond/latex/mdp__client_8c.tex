@@ -1,0 +1,98 @@
+\hypertarget{mdp__client_8c}{\section{plugins/serval-\/dna/mdp\-\_\-client.c File Reference}
+\label{mdp__client_8c}\index{plugins/serval-\/dna/mdp\-\_\-client.\-c@{plugins/serval-\/dna/mdp\-\_\-client.\-c}}
+}
+
+
+minimal Serval M\-D\-P client functionality, used in the commotion\-\_\-serval-\/sas library  
+
+
+{\ttfamily \#include $<$sys/stat.\-h$>$}\\*
+{\ttfamily \#include $<$sys/time.\-h$>$}\\*
+{\ttfamily \#include $<$serval.\-h$>$}\\*
+{\ttfamily \#include $<$serval/conf.\-h$>$}\\*
+{\ttfamily \#include $<$serval/str.\-h$>$}\\*
+{\ttfamily \#include $<$serval/strbuf.\-h$>$}\\*
+{\ttfamily \#include $<$serval/overlay\-\_\-buffer.\-h$>$}\\*
+{\ttfamily \#include $<$serval/overlay\-\_\-address.\-h$>$}\\*
+{\ttfamily \#include $<$serval/overlay\-\_\-packet.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}mdp\-\_\-client.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}net.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}debug.\-h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{mdp__client_8c_afd20e659b791a4cd108fcb8b7b35612d}{\#define {\bfseries W\-H\-Y}(J)~(E\-R\-R\-O\-R(\char`\"{}\%s\char`\"{},J), -\/1)}\label{mdp__client_8c_afd20e659b791a4cd108fcb8b7b35612d}
+
+\item 
+\hypertarget{mdp__client_8c_a6f6462b694dcb64c47b4b568f46224f7}{\#define {\bfseries W\-H\-Y\-\_\-perror}(J)~(E\-R\-R\-O\-R(\char`\"{}\%s\char`\"{},J), -\/1)}\label{mdp__client_8c_a6f6462b694dcb64c47b4b568f46224f7}
+
+\item 
+\hypertarget{mdp__client_8c_aaf4dfb4fc4566bb6dcb59382d1830378}{\#define {\bfseries W\-H\-Y\-F}(F,...)~(E\-R\-R\-O\-R(F, \#\#\-\_\-\-\_\-\-V\-A\-\_\-\-A\-R\-G\-S\-\_\-\-\_\-), -\/1)}\label{mdp__client_8c_aaf4dfb4fc4566bb6dcb59382d1830378}
+
+\item 
+\hypertarget{mdp__client_8c_aa9d216abc741f7d38ab0f0e9ffeace6e}{\#define {\bfseries D\-E\-B\-U\-G\-F}(F,...)~D\-E\-B\-U\-G(F, \#\#\-\_\-\-\_\-\-V\-A\-\_\-\-A\-R\-G\-S\-\_\-\-\_\-)}\label{mdp__client_8c_aa9d216abc741f7d38ab0f0e9ffeace6e}
+
+\item 
+\hypertarget{mdp__client_8c_a7f1a762529b2d82ace3ce865fb73374e}{\#define {\bfseries W\-A\-R\-N\-F}(F,...)~(W\-A\-R\-N(F, \#\#\-\_\-\-\_\-\-V\-A\-\_\-\-A\-R\-G\-S\-\_\-\-\_\-), -\/1)}\label{mdp__client_8c_a7f1a762529b2d82ace3ce865fb73374e}
+
+\item 
+\hypertarget{mdp__client_8c_a0187123023af4520661cd114d9741f55}{\#define {\bfseries F\-A\-T\-A\-L\-F}(F,...)~do \{ E\-R\-R\-O\-R(F, \#\#\-\_\-\-\_\-\-V\-A\-\_\-\-A\-R\-G\-S\-\_\-\-\_\-); abort(); exit(-\/1); \} while (1)}\label{mdp__client_8c_a0187123023af4520661cd114d9741f55}
+
+\item 
+\hypertarget{mdp__client_8c_abc58afd758995421a43807015b29ad51}{\#define {\bfseries W\-A\-R\-N\-\_\-perror}(X)~W\-A\-R\-N\-F(\char`\"{}\%s\char`\"{}, (X))}\label{mdp__client_8c_abc58afd758995421a43807015b29ad51}
+
+\item 
+\hypertarget{mdp__client_8c_a1b07c9050fc35fc0bd3b85842c9548e1}{\#define {\bfseries I\-N\-F\-O\-F}(F,...)~I\-N\-F\-O(F, \#\#\-\_\-\-\_\-\-V\-A\-\_\-\-A\-R\-G\-S\-\_\-\-\_\-)}\label{mdp__client_8c_a1b07c9050fc35fc0bd3b85842c9548e1}
+
+\item 
+\hypertarget{mdp__client_8c_a0aab5db1a930c75dac2b7808592db6b8}{\#define {\bfseries F\-O\-R\-M\-\_\-\-S\-E\-R\-V\-A\-L\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-P\-A\-T\-H}(A, B)~(\{ strcpy(A,\char`\"{}/var/serval-\/node/\char`\"{}); strcat(A,B); A; \})}\label{mdp__client_8c_a0aab5db1a930c75dac2b7808592db6b8}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{mdp__client_8c_a43ecdaf1aa31b9e57d9e7b5c41d318a6}{time\-\_\-ms\-\_\-t {\bfseries \-\_\-\-\_\-gettime\-\_\-ms} ()}\label{mdp__client_8c_a43ecdaf1aa31b9e57d9e7b5c41d318a6}
+
+\item 
+\hypertarget{mdp__client_8c_ab0cbeca122c185ff03c9b28bcfc4bf3b}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-send} (overlay\-\_\-mdp\-\_\-frame $\ast$mdp, int flags, int timeout\-\_\-ms)}\label{mdp__client_8c_ab0cbeca122c185ff03c9b28bcfc4bf3b}
+
+\item 
+\hypertarget{mdp__client_8c_a2fa248684825b018344df54c5ac0db1d}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-client\-\_\-init} ()}\label{mdp__client_8c_a2fa248684825b018344df54c5ac0db1d}
+
+\item 
+\hypertarget{mdp__client_8c_aeb54a0d0c0c0bca757e899d023b02d65}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-client\-\_\-done} ()}\label{mdp__client_8c_aeb54a0d0c0c0bca757e899d023b02d65}
+
+\item 
+\hypertarget{mdp__client_8c_a1d9abe7144eeddd702df67978aee8f8b}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-client\-\_\-poll} (time\-\_\-ms\-\_\-t timeout\-\_\-ms)}\label{mdp__client_8c_a1d9abe7144eeddd702df67978aee8f8b}
+
+\item 
+\hypertarget{mdp__client_8c_a52c7894841d595769a2a5a968c822b74}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-recv} (overlay\-\_\-mdp\-\_\-frame $\ast$mdp, int port, int $\ast$ttl)}\label{mdp__client_8c_a52c7894841d595769a2a5a968c822b74}
+
+\item 
+\hypertarget{mdp__client_8c_a3b39fcaad66f1c02e695fea8f0628cf2}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-bind} (const sid\-\_\-t $\ast$localaddr, int port)}\label{mdp__client_8c_a3b39fcaad66f1c02e695fea8f0628cf2}
+
+\item 
+\hypertarget{mdp__client_8c_a4ae7240f9e4dbf04bfe47421675b8b28}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-getmyaddr} (unsigned index, sid\-\_\-t $\ast$sid)}\label{mdp__client_8c_a4ae7240f9e4dbf04bfe47421675b8b28}
+
+\item 
+\hypertarget{mdp__client_8c_a22efabb9b8b28269970a386a55160714}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-relevant\-\_\-bytes} (overlay\-\_\-mdp\-\_\-frame $\ast$mdp)}\label{mdp__client_8c_a22efabb9b8b28269970a386a55160714}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{mdp__client_8c_a8f6336713ac479960526562d50ede6f7}{int {\bfseries \-\_\-\-\_\-mdp\-\_\-client\-\_\-socket} =-\/1}\label{mdp__client_8c_a8f6336713ac479960526562d50ede6f7}
+
+\item 
+\hypertarget{mdp__client_8c_a450c4f33aed95910a83b50eefc04c433}{char {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-client\-\_\-socket\-\_\-path} \mbox{[}1024\mbox{]}}\label{mdp__client_8c_a450c4f33aed95910a83b50eefc04c433}
+
+\item 
+\hypertarget{mdp__client_8c_a02684c571d5592d7bf5160afc44fee9d}{int {\bfseries \-\_\-\-\_\-overlay\-\_\-mdp\-\_\-client\-\_\-socket\-\_\-path\-\_\-len} =-\/1}\label{mdp__client_8c_a02684c571d5592d7bf5160afc44fee9d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+minimal Serval M\-D\-P client functionality, used in the commotion\-\_\-serval-\/sas library \begin{DoxyAuthor}{Author}
+Dan Staples (dismantl), \href{mailto:danstaples@opentechinstitute.org}{\tt danstaples@opentechinstitute.\-org} 
+\end{DoxyAuthor}

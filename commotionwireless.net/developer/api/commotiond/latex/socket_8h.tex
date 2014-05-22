@@ -1,0 +1,767 @@
+\hypertarget{socket_8h}{\section{src/socket.h File Reference}
+\label{socket_8h}\index{src/socket.\-h@{src/socket.\-h}}
+}
+
+
+a simple object-\/oriented socket wrapper object model inspired by Zed Shaw  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stddef.\-h$>$}\\*
+{\ttfamily \#include $<$stdbool.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structco__fd__t}{co\-\_\-fd\-\_\-t}
+\item 
+struct \hyperlink{structco__socket__t}{co\-\_\-socket\-\_\-t}
+\item 
+struct \hyperlink{structunix__socket__t}{unix\-\_\-socket\-\_\-t}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{socket_8h_a210e5cdf7c5eddc1107da153dfe674ca}{\#define {\bfseries M\-A\-X\-\_\-\-I\-P\-P\-R\-O\-T\-O}~255}\label{socket_8h_a210e5cdf7c5eddc1107da153dfe674ca}
+
+\item 
+\hypertarget{socket_8h_a053b7859476cc9867ec62c49e68d3fa1}{\#define {\bfseries M\-A\-X\-\_\-\-C\-O\-N\-N\-E\-C\-T\-I\-O\-N\-S}~32}\label{socket_8h_a053b7859476cc9867ec62c49e68d3fa1}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{socket_8h_a47b0f51346a3f52b9b5731331c5cc2d9}{typedef struct \hyperlink{structco__fd__t}{co\-\_\-fd\-\_\-t} {\bfseries co\-\_\-fd\-\_\-t}}\label{socket_8h_a47b0f51346a3f52b9b5731331c5cc2d9}
+
+\item 
+\hypertarget{socket_8h_a5143be538f0aef16f86e8be6be424490}{typedef struct \hyperlink{structco__socket__t}{co\-\_\-socket\-\_\-t} {\bfseries co\-\_\-socket\-\_\-t}}\label{socket_8h_a5143be538f0aef16f86e8be6be424490}
+
+\item 
+\hypertarget{socket_8h_ae0c99a2bc380b059ea1599ea70410693}{typedef struct \hyperlink{structunix__socket__t}{unix\-\_\-socket\-\_\-t} {\bfseries unix\-\_\-socket\-\_\-t}}\label{socket_8h_ae0c99a2bc380b059ea1599ea70410693}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{socket_8h_ab2e5544e69816fead5d69bedddf46aaf}{co\-\_\-fd\-\_\-create} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$parent, int fd)
+\begin{DoxyCompactList}\small\item\em creates a file descriptor object \end{DoxyCompactList}\item 
+\hypertarget{socket_8h_a347d0c5db9d44f358464d94f6a12f1fd}{struct \hyperlink{structco__socket__t}{co\-\_\-socket\-\_\-t} {\bfseries \-\_\-\-\_\-attribute\-\_\-\-\_\-} ((packed))}\label{socket_8h_a347d0c5db9d44f358464d94f6a12f1fd}
+
+\item 
+\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ \hyperlink{socket_8h_a738c4840824f5086ede6a43cdf55948b}{co\-\_\-socket\-\_\-create} (size\-\_\-t size, \hyperlink{structco__socket__t}{co\-\_\-socket\-\_\-t} proto)
+\begin{DoxyCompactList}\small\item\em creates a socket from specified values or initializes defaults \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a338513b3362d6f356c938997116581c5}{co\-\_\-socket\-\_\-init} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em creates a socket from specified values or initializes defaults \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_adeb9a9ee282032d521b6eb2c43df9798}{co\-\_\-socket\-\_\-destroy} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em closes a socket and removes it from memory \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a6d8c27ff42a5f262188f30581fb64a32}{co\-\_\-socket\-\_\-hangup} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$context)
+\begin{DoxyCompactList}\small\item\em closes a socket and changes its state information \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a452b8d1bdef98b6d4a310e58e7bbb0bb}{co\-\_\-socket\-\_\-send} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, char $\ast$outgoing, size\-\_\-t length)
+\begin{DoxyCompactList}\small\item\em sends a message on a specified socket \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a1a350b98373b507f95cdfe51550b7768}{co\-\_\-socket\-\_\-receive} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$fd, char $\ast$incoming, size\-\_\-t length)
+\begin{DoxyCompactList}\small\item\em receives a message on the listening socket \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a6383a261bc83bef15da466e517cc9157}{co\-\_\-socket\-\_\-setopt} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, int level, int option, void $\ast$optval, socklen\-\_\-t optvallen)
+\begin{DoxyCompactList}\small\item\em sets custom socket options, if specified by user \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_adabb50b2b42a096f680d288051e923c8}{co\-\_\-socket\-\_\-getopt} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, int level, int option, void $\ast$optval, socklen\-\_\-t optvallen)
+\begin{DoxyCompactList}\small\item\em gets custom socket options specified from the user \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_ac798aeb0efa68cd90f75bc90ddc31659}{unix\-\_\-socket\-\_\-init} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)
+\begin{DoxyCompactList}\small\item\em initializes a unix socket \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a15c517822eff4bb81f3c8f6d4f0b5966}{unix\-\_\-socket\-\_\-bind} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, const char $\ast$endpoint)
+\begin{DoxyCompactList}\small\item\em binds a unix socket to a specified endpoint \end{DoxyCompactList}\item 
+int \hyperlink{socket_8h_a7ea982093307ed9341383ba1c6fa6bbf}{unix\-\_\-socket\-\_\-connect} (\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, const char $\ast$endpoint)
+\begin{DoxyCompactList}\small\item\em connects a socket to specified endpoint \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{socket_8h_ae3670fb124525766af019ea3c40c3e2b}{struct \hyperlink{structco__fd__t}{co\-\_\-fd\-\_\-t} {\bfseries \-\_\-\-\_\-attribute\-\_\-\-\_\-}}\label{socket_8h_ae3670fb124525766af019ea3c40c3e2b}
+
+\item 
+\hypertarget{socket_8h_aa20afbf3f0a782bb4dea4da22df275a3}{\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} {\bfseries \-\_\-header}}\label{socket_8h_aa20afbf3f0a782bb4dea4da22df275a3}
+
+\item 
+\hypertarget{socket_8h_a05de11e79f277be86c869a1fc6a204bd}{uint8\-\_\-t {\bfseries \-\_\-exttype}}\label{socket_8h_a05de11e79f277be86c869a1fc6a204bd}
+
+\item 
+\hypertarget{socket_8h_a5ff8177a0b8e2c9f9c18bd0cb34e65f8}{uint8\-\_\-t {\bfseries \-\_\-len}}\label{socket_8h_a5ff8177a0b8e2c9f9c18bd0cb34e65f8}
+
+\item 
+\hypertarget{socket_8h_af98b83cec5342c54027dd92f7357d6e6}{char $\ast$ {\bfseries uri}}\label{socket_8h_af98b83cec5342c54027dd92f7357d6e6}
+
+\item 
+\hypertarget{socket_8h_aac3f1ffe0904d1aea1af09db456fbf5b}{\hyperlink{structco__fd__t}{co\-\_\-fd\-\_\-t} $\ast$ {\bfseries fd}}\label{socket_8h_aac3f1ffe0904d1aea1af09db456fbf5b}
+
+\item 
+\hypertarget{socket_8h_a9a34257b6220ecf85b58e030748f4e79}{\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$ {\bfseries rfd\-\_\-lst}}\label{socket_8h_a9a34257b6220ecf85b58e030748f4e79}
+
+\item 
+\hypertarget{socket_8h_abd3fc6ec06041d63529bc0644073e043}{bool {\bfseries fd\-\_\-registered}}\label{socket_8h_abd3fc6ec06041d63529bc0644073e043}
+
+\item 
+\hypertarget{socket_8h_af02e31fc7bb94be55789e5870e07c0e7}{struct sockaddr $\ast$ {\bfseries local}}\label{socket_8h_af02e31fc7bb94be55789e5870e07c0e7}
+
+\item 
+\hypertarget{socket_8h_a038cddfb4ca06f1b6af473798c78cbde}{struct sockaddr $\ast$ {\bfseries remote}}\label{socket_8h_a038cddfb4ca06f1b6af473798c78cbde}
+
+\item 
+\hypertarget{socket_8h_a18d2064ca2da3d8ee1553d1123a9a5dc}{bool {\bfseries listen}}\label{socket_8h_a18d2064ca2da3d8ee1553d1123a9a5dc}
+
+\item 
+\hypertarget{socket_8h_af8e01479525f96d8723018a913438bc0}{int($\ast$ {\bfseries init} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)}\label{socket_8h_af8e01479525f96d8723018a913438bc0}
+
+\item 
+\hypertarget{socket_8h_ac63de6a8dc631920f67ad056789d0c80}{int($\ast$ {\bfseries destroy} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self)}\label{socket_8h_ac63de6a8dc631920f67ad056789d0c80}
+
+\item 
+\hypertarget{socket_8h_a23631a4c26dda46bd903cc6f79c6ec80}{int($\ast$ {\bfseries hangup} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$context)}\label{socket_8h_a23631a4c26dda46bd903cc6f79c6ec80}
+
+\item 
+\hypertarget{socket_8h_a7fb08a57d26bfb14809d3cd9d92451a8}{int($\ast$ {\bfseries bind} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, const char $\ast$endpoint)}\label{socket_8h_a7fb08a57d26bfb14809d3cd9d92451a8}
+
+\item 
+\hypertarget{socket_8h_a0e66be084b91dd56246acbc63bbf3fca}{int($\ast$ {\bfseries connect} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, const char $\ast$endpoint)}\label{socket_8h_a0e66be084b91dd56246acbc63bbf3fca}
+
+\item 
+\hypertarget{socket_8h_ae5fe313bba2b66847f4505e93b103d8f}{int($\ast$ {\bfseries send} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, char $\ast$outgoing, size\-\_\-t length)}\label{socket_8h_ae5fe313bba2b66847f4505e93b103d8f}
+
+\item 
+\hypertarget{socket_8h_a77ccb51e8a8f183c93463cb4f33799db}{int($\ast$ {\bfseries receive} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$fd, char $\ast$incoming, size\-\_\-t length)}\label{socket_8h_a77ccb51e8a8f183c93463cb4f33799db}
+
+\item 
+\hypertarget{socket_8h_a83c382f642a0d7f0d6cc5e6009768292}{int($\ast$ {\bfseries setopt} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, int level, int option, void $\ast$optval, socklen\-\_\-t optvallen)}\label{socket_8h_a83c382f642a0d7f0d6cc5e6009768292}
+
+\item 
+\hypertarget{socket_8h_a3a6cb966054a118d9eb59b7cda6436b4}{int($\ast$ {\bfseries getopt} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, int level, int option, void $\ast$optval, socklen\-\_\-t optvallen)}\label{socket_8h_a3a6cb966054a118d9eb59b7cda6436b4}
+
+\item 
+\hypertarget{socket_8h_adfd77be42f6b8bed40d3a0b2dec754d8}{int($\ast$ {\bfseries poll\-\_\-cb} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$context)}\label{socket_8h_adfd77be42f6b8bed40d3a0b2dec754d8}
+
+\item 
+\hypertarget{socket_8h_aed4641f0caca9bb95b6f92bea25fb1a9}{int($\ast$ {\bfseries register\-\_\-cb} )(\hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$self, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$context)}\label{socket_8h_aed4641f0caca9bb95b6f92bea25fb1a9}
+
+\item 
+\hypertarget{socket_8h_af75c993f487ae0e5236c4c7d02a24d25}{unsigned int {\bfseries events}}\label{socket_8h_af75c993f487ae0e5236c4c7d02a24d25}
+
+\item 
+\hypertarget{socket_8h_a81fe994626b38cafaa6e62d169ec8a55}{\hyperlink{structco__socket__t}{co\-\_\-socket\-\_\-t} {\bfseries proto}}\label{socket_8h_a81fe994626b38cafaa6e62d169ec8a55}
+
+\item 
+\hypertarget{socket_8h_a44196e6a5696d10442c29e639437196e}{char $\ast$ {\bfseries path}}\label{socket_8h_a44196e6a5696d10442c29e639437196e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a simple object-\/oriented socket wrapper object model inspired by Zed Shaw \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{socket_8h_ab2e5544e69816fead5d69bedddf46aaf}{\index{socket.\-h@{socket.\-h}!co\-\_\-fd\-\_\-create@{co\-\_\-fd\-\_\-create}}
+\index{co\-\_\-fd\-\_\-create@{co\-\_\-fd\-\_\-create}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-fd\-\_\-create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-fd\-\_\-create (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{parent, }
+\item[{int}]{fd}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_ab2e5544e69816fead5d69bedddf46aaf}
+
+
+creates a file descriptor object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fd} & file descriptor int \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by \-\_\-watch(), co\-\_\-socket\-\_\-init(), co\-\_\-socket\-\_\-receive(), and unix\-\_\-socket\-\_\-init().
+
+
+\begin{DoxyCode}
+47                                                  \{
+48   CHECK(IS\_SOCK(parent),\textcolor{stringliteral}{"Parent is not a socket."});
+49   \hyperlink{structco__fd__t}{co\_fd\_t} *new\_fd = h\_calloc(1,\textcolor{keyword}{sizeof}(\hyperlink{structco__fd__t}{co\_fd\_t}));
+50   new\_fd->\_header.\_type = \_ext8;
+51   new\_fd->\_exttype = \_fd;
+52   new\_fd->\_len = \textcolor{keyword}{sizeof}(\hyperlink{structco__fd__t}{co\_fd\_t});
+53   new\_fd->socket = (\hyperlink{structco__socket__t}{co\_socket\_t}*)parent;
+54   new\_fd->fd = fd;
+55   \textcolor{keywordflow}{return} (\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_fd;
+56 error:
+57   \textcolor{keywordflow}{return} NULL;
+58 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a738c4840824f5086ede6a43cdf55948b}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-create@{co\-\_\-socket\-\_\-create}}
+\index{co\-\_\-socket\-\_\-create@{co\-\_\-socket\-\_\-create}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\-\_\-obj\-\_\-t}$\ast$ co\-\_\-socket\-\_\-create (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{size, }
+\item[{{\bf co\-\_\-socket\-\_\-t}}]{proto}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a738c4840824f5086ede6a43cdf55948b}
+
+
+creates a socket from specified values or initializes defaults 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & size of socket struct \\
+\hline
+{\em proto} & socket protocol \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-socket\-\_\-destroy(), co\-\_\-socket\-\_\-getopt(), co\-\_\-socket\-\_\-hangup(), co\-\_\-socket\-\_\-receive(), co\-\_\-socket\-\_\-send(), and co\-\_\-socket\-\_\-setopt().
+
+
+\begin{DoxyCode}
+66                                                            \{
+67 
+68   \textcolor{keywordflow}{if}(!proto.init) proto.init = NULL;
+69   \textcolor{keywordflow}{if}(!proto.destroy) proto.destroy = \hyperlink{socket_8c_adeb9a9ee282032d521b6eb2c43df9798}{co\_socket\_destroy};
+70   \textcolor{keywordflow}{if}(!proto.hangup) proto.hangup = \hyperlink{socket_8c_a6d8c27ff42a5f262188f30581fb64a32}{co\_socket\_hangup};
+71   \textcolor{keywordflow}{if}(!proto.bind) proto.bind = NULL;
+72   \textcolor{keywordflow}{if}(!proto.connect) proto.connect = NULL;
+73   \textcolor{keywordflow}{if}(!proto.send) proto.send = \hyperlink{socket_8c_a452b8d1bdef98b6d4a310e58e7bbb0bb}{co\_socket\_send};
+74   \textcolor{keywordflow}{if}(!proto.receive) proto.receive = \hyperlink{socket_8c_a1a350b98373b507f95cdfe51550b7768}{co\_socket\_receive};
+75   \textcolor{keywordflow}{if}(!proto.setopt) proto.setopt = \hyperlink{socket_8c_a6383a261bc83bef15da466e517cc9157}{co\_socket\_setopt};
+76   \textcolor{keywordflow}{if}(!proto.getopt) proto.getopt = \hyperlink{socket_8c_adabb50b2b42a096f680d288051e923c8}{co\_socket\_getopt};
+77   \hyperlink{structco__socket__t}{co\_socket\_t} *new\_sock = h\_calloc(1,size);
+78   *new\_sock = proto;
+79   new\_sock->\_header.\_type = \_ext8;
+80   new\_sock->\_exttype = \_sock;
+81   new\_sock->\_len = size;
+82   
+83   \textcolor{keywordflow}{if}((proto.init != NULL) && (!new\_sock->init((\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_sock))) \{
+84     SENTINEL(\textcolor{stringliteral}{"Failed to initialize new socket."});
+85   \} \textcolor{keywordflow}{else} \{
+86     \textcolor{keywordflow}{return} (\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_sock;
+87   \}
+88 
+89 error:
+90   new\_sock->destroy((\hyperlink{structco__obj__t}{co\_obj\_t}*)new\_sock);
+91   \textcolor{keywordflow}{return} NULL;
+92 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_adeb9a9ee282032d521b6eb2c43df9798}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-destroy@{co\-\_\-socket\-\_\-destroy}}
+\index{co\-\_\-socket\-\_\-destroy@{co\-\_\-socket\-\_\-destroy}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-destroy}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-destroy (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_adeb9a9ee282032d521b6eb2c43df9798}
+
+
+closes a socket and removes it from memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-parse().
+
+
+
+Referenced by co\-\_\-socket\-\_\-create().
+
+
+\begin{DoxyCode}
+118                                       \{
+119   \textcolor{keywordflow}{if}(\textcolor{keyword}{self} && IS\_SOCK(\textcolor{keyword}{self})) \{
+120     \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+121     \textcolor{keywordflow}{if} (this->fd->fd > 0) close(this->fd->fd);
+122     \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(this->rfd\_lst,\_co\_socket\_close\_fd\_i,NULL);
+123     co\_obj\_free(\textcolor{keyword}{self});
+124     \textcolor{keywordflow}{return} 1;
+125   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} 0;
+126 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_adabb50b2b42a096f680d288051e923c8}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-getopt@{co\-\_\-socket\-\_\-getopt}}
+\index{co\-\_\-socket\-\_\-getopt@{co\-\_\-socket\-\_\-getopt}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-getopt}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-getopt (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{int}]{level, }
+\item[{int}]{option, }
+\item[{void $\ast$}]{optval, }
+\item[{socklen\-\_\-t}]{optvallen}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_adabb50b2b42a096f680d288051e923c8}
+
+
+gets custom socket options specified from the user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em level} & the networking level to be customized \\
+\hline
+{\em option} & the option to be changed \\
+\hline
+{\em optval} & the value for the new option \\
+\hline
+{\em optvallen} & the length of the value for the new option \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-socket\-\_\-create().
+
+
+\begin{DoxyCode}
+227                                                                                                 \{
+228   CHECK(IS\_SOCK(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a socket."});
+229   \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+230 
+231   \textcolor{comment}{//Check to see if this is a standard socket option, or needs custom handling.}
+232   \textcolor{keywordflow}{if}(level <= MAX\_IPPROTO) \{
+233     CHECK(!getsockopt(this->fd->fd, level, option, optval, &optvallen), \textcolor{stringliteral}{"Problem setting socket options."});
+234   \} \textcolor{keywordflow}{else} \{
+235     SENTINEL(\textcolor{stringliteral}{"No custom socket options defined!"});
+236   \}
+237 
+238   \textcolor{keywordflow}{return} 1;
+239 
+240 error:
+241   \textcolor{keywordflow}{return} 0;
+242 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a6d8c27ff42a5f262188f30581fb64a32}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-hangup@{co\-\_\-socket\-\_\-hangup}}
+\index{co\-\_\-socket\-\_\-hangup@{co\-\_\-socket\-\_\-hangup}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-hangup}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-hangup (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{context}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a6d8c27ff42a5f262188f30581fb64a32}
+
+
+closes a socket and changes its state information 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em context} & \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} context pointer (currently unused) \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-contains(), and co\-\_\-list\-\_\-delete().
+
+
+
+Referenced by co\-\_\-socket\-\_\-create().
+
+
+\begin{DoxyCode}
+128                                                         \{
+129   CHECK\_MEM(\textcolor{keyword}{self});
+130   CHECK(IS\_SOCK(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a socket."});
+131   CHECK(IS\_FD(context),\textcolor{stringliteral}{"Not a FD."});
+132   \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+133   \hyperlink{structco__fd__t}{co\_fd\_t} *fd = (\hyperlink{structco__fd__t}{co\_fd\_t}*)context;
+134   CHECK(fd->socket == \textcolor{keyword}{this},\textcolor{stringliteral}{"FD does not match socket"});
+135   \textcolor{keywordflow}{if} (fd == this->fd) \{
+136     CHECK(close(fd->fd) != -1,\textcolor{stringliteral}{"Failed to close socket."});
+137     this->fd\_registered = \textcolor{keyword}{false};
+138     this->listen = \textcolor{keyword}{false};
+139   \} \textcolor{keywordflow}{else} \{
+140     CHECK(\hyperlink{list_8c_a102c8920e3ec13c06747dc752efd91e7}{co\_list\_contains}(this->rfd\_lst,(\hyperlink{structco__obj__t}{co\_obj\_t}*)fd),\textcolor{stringliteral}{"Socket does not contain FD
+      "});
+141     fd = (\hyperlink{structco__fd__t}{co\_fd\_t}*)\hyperlink{list_8c_a80fbd77f231ae88663c5d0bb25bdfd6c}{co\_list\_delete}(this->rfd\_lst,(\hyperlink{structco__obj__t}{co\_obj\_t}*)fd);
+142     CHECK(close(fd->fd) != -1,\textcolor{stringliteral}{"Failed to close socket."});
+143     co\_obj\_free((\hyperlink{structco__obj__t}{co\_obj\_t}*)fd);
+144   \}
+145   \textcolor{keywordflow}{return} 1;
+146 error:
+147   ERROR(\textcolor{stringliteral}{"Failed to hangup any file descriptors for this socket."});
+148   \textcolor{keywordflow}{return} 0;
+149 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a338513b3362d6f356c938997116581c5}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-init@{co\-\_\-socket\-\_\-init}}
+\index{co\-\_\-socket\-\_\-init@{co\-\_\-socket\-\_\-init}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-init (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a338513b3362d6f356c938997116581c5}
+
+
+creates a socket from specified values or initializes defaults 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & size of socket struct \\
+\hline
+{\em proto} & socket protocol \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-fd\-\_\-create().
+
+
+\begin{DoxyCode}
+94                                    \{
+95   \textcolor{keywordflow}{if}(\textcolor{keyword}{self} && IS\_SOCK(\textcolor{keyword}{self})) \{
+96     \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+97     this->local = h\_calloc(1,\textcolor{keyword}{sizeof}(\textcolor{keyword}{struct} sockaddr\_storage));
+98     hattach(this->local,\textcolor{keyword}{this});
+99     this->remote = h\_calloc(1,\textcolor{keyword}{sizeof}(\textcolor{keyword}{struct} sockaddr\_storage));
+100     hattach(this->remote,\textcolor{keyword}{this});
+101     this->fd = (\hyperlink{structco__fd__t}{co\_fd\_t}*)\hyperlink{socket_8c_ab2e5544e69816fead5d69bedddf46aaf}{co\_fd\_create}((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this},-1);
+102     hattach(this->fd,\textcolor{keyword}{this});
+103     this->rfd\_lst = co\_list16\_create();
+104     hattach(this->rfd\_lst,\textcolor{keyword}{this});
+105     this->fd\_registered = \textcolor{keyword}{false};
+106     this->listen = \textcolor{keyword}{false};
+107     this->events = 0;
+108     \textcolor{keywordflow}{return} 1;
+109   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} 0;
+110 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a1a350b98373b507f95cdfe51550b7768}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-receive@{co\-\_\-socket\-\_\-receive}}
+\index{co\-\_\-socket\-\_\-receive@{co\-\_\-socket\-\_\-receive}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-receive}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-receive (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{fd, }
+\item[{char $\ast$}]{incoming, }
+\item[{size\-\_\-t}]{length}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a1a350b98373b507f95cdfe51550b7768}
+
+
+receives a message on the listening socket 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em incoming} & message received \\
+\hline
+{\em length} & length of message \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-fd\-\_\-create(), and co\-\_\-list\-\_\-append().
+
+
+
+Referenced by co\-\_\-socket\-\_\-create().
+
+
+\begin{DoxyCode}
+173                                                                                    \{
+174   CHECK\_MEM(\textcolor{keyword}{self});
+175   CHECK(IS\_SOCK(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a socket."});
+176   \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+177   CHECK(((\hyperlink{structco__fd__t}{co\_fd\_t}*)fd)->socket == \textcolor{keyword}{this},\textcolor{stringliteral}{"FD does not match socket"});
+178   \textcolor{keywordtype}{int} received = 0;
+179   \textcolor{keywordtype}{int} rfd = 0;
+180   \textcolor{keywordflow}{if}(this->listen) \{
+181     DEBUG(\textcolor{stringliteral}{"Receiving on listening socket."});
+182     \textcolor{keywordflow}{if}((\hyperlink{structco__fd__t}{co\_fd\_t}*)fd == this->fd) \{
+183       socklen\_t size = \textcolor{keyword}{sizeof}(*(this->remote));
+184       DEBUG(\textcolor{stringliteral}{"Accepting connection (fd=%d)."}, this->fd->fd);
+185       CHECK((rfd = accept(this->fd->fd, (\textcolor{keyword}{struct} sockaddr *) this->remote, &size)) != -1, \textcolor{stringliteral}{"Failed to accept
+       connection."});
+186       DEBUG(\textcolor{stringliteral}{"Accepted connection (fd=%d)."}, rfd);
+187       \hyperlink{structco__obj__t}{co\_obj\_t} *new\_rfd = \hyperlink{socket_8c_ab2e5544e69816fead5d69bedddf46aaf}{co\_fd\_create}((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this},rfd);
+188       CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(this->rfd\_lst,new\_rfd),\textcolor{stringliteral}{"Failed to append rfd"});
+189       \textcolor{keywordtype}{int} flags = fcntl(rfd, F\_GETFL, 0);
+190       fcntl(rfd, F\_SETFL, flags | O\_NONBLOCK); \textcolor{comment}{//Set non-blocking.}
+191       \textcolor{keywordflow}{if}(this->register\_cb) this->register\_cb((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this}, new\_rfd);
+192       \textcolor{keywordflow}{return} 0;
+193     \} \textcolor{keywordflow}{else} \{
+194       rfd = ((\hyperlink{structco__fd__t}{co\_fd\_t}*)fd)->fd;
+195       DEBUG(\textcolor{stringliteral}{"Setting receiving file descriptor %d."}, rfd);
+196     \}
+197   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(this->fd->fd >= 0) \{
+198     DEBUG(\textcolor{stringliteral}{"Setting listening file descriptor %d."}, this->fd->fd);
+199     rfd = this->fd->fd;
+200   \} \textcolor{keywordflow}{else} ERROR(\textcolor{stringliteral}{"No valid file descriptor found in socket!"}); 
+201 
+202   DEBUG(\textcolor{stringliteral}{"Attempting to receive data on FD %d."}, rfd);
+203   CHECK((received = recv(rfd, incoming, length, 0)) >= 0, \textcolor{stringliteral}{"Error receiving data from socket."});
+204   \textcolor{keywordflow}{return} received;
+205 
+206 error:
+207   \textcolor{keywordflow}{return} -1;
+208 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a452b8d1bdef98b6d4a310e58e7bbb0bb}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-send@{co\-\_\-socket\-\_\-send}}
+\index{co\-\_\-socket\-\_\-send@{co\-\_\-socket\-\_\-send}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-send}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-send (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{char $\ast$}]{outgoing, }
+\item[{size\-\_\-t}]{length}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a452b8d1bdef98b6d4a310e58e7bbb0bb}
+
+
+sends a message on a specified socket 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em outgoing} & message to be sent \\
+\hline
+{\em length} & length of message \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-socket\-\_\-create().
+
+
+\begin{DoxyCode}
+151                                                                   \{
+152   CHECK\_MEM(\textcolor{keyword}{self});
+153   CHECK(IS\_FD(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a FD."});
+154   \hyperlink{structco__fd__t}{co\_fd\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__fd__t}{co\_fd\_t}*)\textcolor{keyword}{self};
+155   \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} sent = 0;
+156   \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} remaining = length;
+157   \textcolor{keywordtype}{int} n;
+158 
+159   \textcolor{keywordflow}{while}(sent < length) \{
+160     n = send(this->fd, outgoing+sent, remaining, 0);
+161     \textcolor{keywordflow}{if}(n < 0) \textcolor{keywordflow}{break};
+162     sent += n;
+163     remaining -= n;
+164   \}
+165 
+166   DEBUG(\textcolor{stringliteral}{"Sent %d bytes."}, sent);
+167   \textcolor{keywordflow}{return} sent;
+168 
+169 error:
+170   \textcolor{keywordflow}{return} -1;
+171 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a6383a261bc83bef15da466e517cc9157}{\index{socket.\-h@{socket.\-h}!co\-\_\-socket\-\_\-setopt@{co\-\_\-socket\-\_\-setopt}}
+\index{co\-\_\-socket\-\_\-setopt@{co\-\_\-socket\-\_\-setopt}!socket.h@{socket.\-h}}
+\subsubsection[{co\-\_\-socket\-\_\-setopt}]{\setlength{\rightskip}{0pt plus 5cm}int co\-\_\-socket\-\_\-setopt (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{int}]{level, }
+\item[{int}]{option, }
+\item[{void $\ast$}]{optval, }
+\item[{socklen\-\_\-t}]{optvallen}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a6383a261bc83bef15da466e517cc9157}
+
+
+sets custom socket options, if specified by user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em level} & the networking level to be customized \\
+\hline
+{\em option} & the option to be changed \\
+\hline
+{\em optval} & the value for the new option \\
+\hline
+{\em optvallen} & the length of the value for the new option \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\-\_\-socket\-\_\-create().
+
+
+\begin{DoxyCode}
+210                                                                                                 \{
+211   CHECK(IS\_SOCK(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a socket."});
+212   \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+213 
+214   \textcolor{comment}{//Check to see if this is a standard socket option, or needs custom handling.}
+215   \textcolor{keywordflow}{if}(level <= MAX\_IPPROTO) \{
+216     CHECK(!setsockopt(this->fd->fd, level, option, optval, optvallen), \textcolor{stringliteral}{"Problem setting socket options."});
+217   \} \textcolor{keywordflow}{else} \{
+218     SENTINEL(\textcolor{stringliteral}{"No custom socket options defined!"});
+219   \}
+220 
+221   \textcolor{keywordflow}{return} 1;
+222 
+223 error:
+224   \textcolor{keywordflow}{return} 0;
+225 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a15c517822eff4bb81f3c8f6d4f0b5966}{\index{socket.\-h@{socket.\-h}!unix\-\_\-socket\-\_\-bind@{unix\-\_\-socket\-\_\-bind}}
+\index{unix\-\_\-socket\-\_\-bind@{unix\-\_\-socket\-\_\-bind}!socket.h@{socket.\-h}}
+\subsubsection[{unix\-\_\-socket\-\_\-bind}]{\setlength{\rightskip}{0pt plus 5cm}int unix\-\_\-socket\-\_\-bind (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{const char $\ast$}]{endpoint}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a15c517822eff4bb81f3c8f6d4f0b5966}
+
+
+binds a unix socket to a specified endpoint 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em endpoint} & specified endpoint for socket (file path) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+264                                                            \{
+265   DEBUG(\textcolor{stringliteral}{"Binding unix\_socket %s."}, endpoint);
+266   CHECK(IS\_SOCK(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a socket."});
+267   \hyperlink{structunix__socket__t}{unix\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structunix__socket__t}{unix\_socket\_t}*)\textcolor{keyword}{self};
+268   \textcolor{keyword}{struct }sockaddr\_un *address = (\textcolor{keyword}{struct }sockaddr\_un *)this->\_(local);
+269   CHECK\_MEM(address);
+270   address->sun\_family = AF\_UNIX;
+271   CHECK((\textcolor{keyword}{sizeof}(endpoint) <= \textcolor{keyword}{sizeof}(address->sun\_path)), \textcolor{stringliteral}{"Endpoint %s is too large for socket path."}, 
+      endpoint);
+272   strcpy(address->sun\_path, endpoint);
+273   unlink(address->sun\_path);
+274 
+275   \textcolor{comment}{//Initialize socket.}
+276   CHECK((this->\_(fd)->fd = socket(AF\_UNIX, SOCK\_STREAM, 0)) != -1, \textcolor{stringliteral}{"Failed to grab Unix socket file
+       descriptor."});
+277 
+278   \textcolor{comment}{//Set some default socket options.}
+279   \textcolor{keyword}{const} \textcolor{keywordtype}{int} optval = 1;
+280   setsockopt(this->\_(fd)->fd, SOL\_SOCKET, SO\_REUSEADDR, &optval, \textcolor{keyword}{sizeof}(optval));
+281   \textcolor{comment}{//int flags = fcntl(this->\_(fd)->fd, F\_GETFL, 0);}
+282   \textcolor{comment}{//fcntl(this->\_(fd)->fd, F\_SETFL, flags | O\_NONBLOCK); //Set non-blocking.}
+283   \textcolor{comment}{//Set default timeout}
+284   \textcolor{keyword}{struct }timeval timeout;
+285   timeout.tv\_sec = 5;
+286   timeout.tv\_usec = 0;
+287   setsockopt(this->\_(fd)->fd, SOL\_SOCKET, SO\_RCVTIMEO, (\textcolor{keywordtype}{char} *)&timeout, \textcolor{keyword}{sizeof}(timeout));
+288   setsockopt(this->\_(fd)->fd, SOL\_SOCKET, SO\_SNDTIMEO, (\textcolor{keywordtype}{char} *)&timeout, \textcolor{keyword}{sizeof}(timeout));
+289 
+290   \textcolor{comment}{//Bind socket to file descriptor.}
+291   socklen\_t size = offsetof(\textcolor{keyword}{struct} sockaddr\_un, sun\_path) + \textcolor{keyword}{sizeof}(address->sun\_path);
+292   CHECK(!bind(this->\_(fd)->fd, (\textcolor{keyword}{struct} sockaddr *) address, size), \textcolor{stringliteral}{"Failed to bind Unix socket %s."}, 
+      address->sun\_path);
+293   CHECK(!listen(this->\_(fd)->fd, SOMAXCONN), \textcolor{stringliteral}{"Failed to listen on Unix socket %s."}, address->sun\_path);
+294   this->\_(listen) = \textcolor{keyword}{true};
+295   \textcolor{keywordflow}{if}(this->\_(register\_cb)) this->\_(register\_cb)((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this}, (
+      \hyperlink{structco__obj__t}{co\_obj\_t}*)this->\_(fd));
+296   \textcolor{keywordflow}{return} 1;
+297 
+298 error:
+299   close(this->\_(fd)->fd);
+300   \textcolor{keywordflow}{return} 0;
+301 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_a7ea982093307ed9341383ba1c6fa6bbf}{\index{socket.\-h@{socket.\-h}!unix\-\_\-socket\-\_\-connect@{unix\-\_\-socket\-\_\-connect}}
+\index{unix\-\_\-socket\-\_\-connect@{unix\-\_\-socket\-\_\-connect}!socket.h@{socket.\-h}}
+\subsubsection[{unix\-\_\-socket\-\_\-connect}]{\setlength{\rightskip}{0pt plus 5cm}int unix\-\_\-socket\-\_\-connect (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self, }
+\item[{const char $\ast$}]{endpoint}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_a7ea982093307ed9341383ba1c6fa6bbf}
+
+
+connects a socket to specified endpoint 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+{\em endpoint} & specified endpoint for socket (file path) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+303                                                               \{
+304   DEBUG(\textcolor{stringliteral}{"Connecting unix\_socket %s."}, endpoint);
+305   CHECK(IS\_SOCK(\textcolor{keyword}{self}),\textcolor{stringliteral}{"Not a socket."});
+306   \hyperlink{structunix__socket__t}{unix\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structunix__socket__t}{unix\_socket\_t}*)\textcolor{keyword}{self};
+307   \textcolor{keyword}{struct }sockaddr\_un address = \{ .sun\_family = AF\_UNIX \};
+308   FILE *f = NULL;
+309 
+310   CHECK((\textcolor{keyword}{sizeof}(endpoint) <= \textcolor{keyword}{sizeof}(address.sun\_path)), \textcolor{stringliteral}{"Endpoint %s is too large for socket path."}, 
+      endpoint);
+311   CHECK(!(f = fopen(endpoint, \textcolor{stringliteral}{"r"})), \textcolor{stringliteral}{"Invalid socket file path."});
+312   strcpy(address.sun\_path, endpoint);
+313 
+314   \textcolor{comment}{//Initialize socket.}
+315   CHECK((this->\_(fd)->fd = socket(AF\_UNIX, SOCK\_STREAM, 0)) != -1, \textcolor{stringliteral}{"Failed to grab Unix socket file
+       descriptor."});
+316 
+317   \textcolor{comment}{//Set some default socket options.}
+318   \textcolor{keyword}{const} \textcolor{keywordtype}{int} optval = 1;
+319   setsockopt(this->\_(fd)->fd, SOL\_SOCKET, SO\_REUSEADDR, &optval, \textcolor{keyword}{sizeof}(optval));
+320   \textcolor{comment}{//Set default timeout}
+321   \textcolor{keyword}{struct }timeval timeout;
+322   timeout.tv\_sec = 5;
+323   timeout.tv\_usec = 0;
+324   setsockopt(this->\_(fd)->fd, SOL\_SOCKET, SO\_RCVTIMEO, (\textcolor{keywordtype}{char} *)&timeout, \textcolor{keyword}{sizeof}(timeout));
+325   setsockopt(this->\_(fd)->fd, SOL\_SOCKET, SO\_SNDTIMEO, (\textcolor{keywordtype}{char} *)&timeout, \textcolor{keyword}{sizeof}(timeout));
+326   \textcolor{comment}{//int flags = fcntl(this->\_(fd)->fd, F\_GETFL, 0);}
+327   \textcolor{comment}{//fcntl(this->\_(fd)->fd, F\_SETFL, flags | O\_NONBLOCK); //Set non-blocking.}
+328 
+329   \textcolor{comment}{//Bind socket to file descriptor.}
+330   CHECK(!connect(this->\_(fd)->fd, (\textcolor{keyword}{struct} sockaddr *) &address, \textcolor{keyword}{sizeof}(address)) || errno == EINPROGRESS, \textcolor{stringliteral}{"
+      Failed to bind Unix socket."});
+331   \textcolor{keywordflow}{return} 1;
+332 
+333 error:
+334   close(this->\_(fd)->fd);
+335   \textcolor{keywordflow}{return} 0;
+336 \}
+\end{DoxyCode}
+\hypertarget{socket_8h_ac798aeb0efa68cd90f75bc90ddc31659}{\index{socket.\-h@{socket.\-h}!unix\-\_\-socket\-\_\-init@{unix\-\_\-socket\-\_\-init}}
+\index{unix\-\_\-socket\-\_\-init@{unix\-\_\-socket\-\_\-init}!socket.h@{socket.\-h}}
+\subsubsection[{unix\-\_\-socket\-\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}int unix\-\_\-socket\-\_\-init (
+\begin{DoxyParamCaption}
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{self}
+\end{DoxyParamCaption}
+)}}\label{socket_8h_ac798aeb0efa68cd90f75bc90ddc31659}
+
+
+initializes a unix socket 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & socket name \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-fd\-\_\-create().
+
+
+\begin{DoxyCode}
+244                                      \{
+245   \textcolor{keywordflow}{if}(\textcolor{keyword}{self} && IS\_SOCK(\textcolor{keyword}{self})) \{
+246     \hyperlink{structco__socket__t}{co\_socket\_t} *\textcolor{keyword}{this} = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+247     this->fd = (\hyperlink{structco__fd__t}{co\_fd\_t}*)\hyperlink{socket_8c_ab2e5544e69816fead5d69bedddf46aaf}{co\_fd\_create}((\hyperlink{structco__obj__t}{co\_obj\_t}*)\textcolor{keyword}{this},-1);
+248     hattach(this->fd,\textcolor{keyword}{this});
+249     this->rfd\_lst = co\_list16\_create();
+250     hattach(this->rfd\_lst,\textcolor{keyword}{this});
+251     this->local = h\_calloc(1,\textcolor{keyword}{sizeof}(\textcolor{keyword}{struct} sockaddr\_un));
+252     hattach(this->local,\textcolor{keyword}{this});
+253     this->remote = h\_calloc(1,\textcolor{keyword}{sizeof}(\textcolor{keyword}{struct} sockaddr\_un));
+254     hattach(this->remote,\textcolor{keyword}{this});
+255     this->fd\_registered = \textcolor{keyword}{false};
+256     this->listen = \textcolor{keyword}{false};
+257     this->uri = h\_strdup(\textcolor{stringliteral}{"unix://"});
+258     hattach(this->uri,\textcolor{keyword}{this});
+259     this->events = 0;
+260     \textcolor{keywordflow}{return} 1;
+261   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} 0;
+262 \}
+\end{DoxyCode}

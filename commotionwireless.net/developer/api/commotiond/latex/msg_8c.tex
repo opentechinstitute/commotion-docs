@@ -1,0 +1,242 @@
+\hypertarget{msg_8c}{\section{src/msg.c File Reference}
+\label{msg_8c}\index{src/msg.\-c@{src/msg.\-c}}
+}
+
+
+a simple message serialization library  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stddef.\-h$>$}\\*
+{\ttfamily \#include $<$stdbool.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$inttypes.\-h$>$}\\*
+{\ttfamily \#include $<$arpa/inet.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}debug.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}util.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}msg.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}obj.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}tree.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+size\-\_\-t \hyperlink{msg_8c_a279be7876b05ac65425805e4b665b558}{co\-\_\-request\-\_\-alloc} (char $\ast$output, const size\-\_\-t olen, const \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$method, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$param)
+\begin{DoxyCompactList}\small\item\em allocate request \end{DoxyCompactList}\item 
+size\-\_\-t \hyperlink{msg_8c_aee952060c704142198bfa0de4c5d8c93}{co\-\_\-response\-\_\-alloc} (char $\ast$output, const size\-\_\-t olen, const uint32\-\_\-t id, const \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$error, \hyperlink{structco__obj__t}{co\-\_\-obj\-\_\-t} $\ast$result)
+\begin{DoxyCompactList}\small\item\em allocate response \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a simple message serialization library \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{msg_8c_a279be7876b05ac65425805e4b665b558}{\index{msg.\-c@{msg.\-c}!co\-\_\-request\-\_\-alloc@{co\-\_\-request\-\_\-alloc}}
+\index{co\-\_\-request\-\_\-alloc@{co\-\_\-request\-\_\-alloc}!msg.c@{msg.\-c}}
+\subsubsection[{co\-\_\-request\-\_\-alloc}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t co\-\_\-request\-\_\-alloc (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{output, }
+\item[{const size\-\_\-t}]{olen, }
+\item[{const {\bf co\-\_\-obj\-\_\-t} $\ast$}]{method, }
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{param}
+\end{DoxyParamCaption}
+)}}\label{msg_8c_a279be7876b05ac65425805e4b665b558}
+
+
+allocate request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & buffer for output \\
+\hline
+{\em olen} & output buffer length \\
+\hline
+{\em method} & name of method \\
+\hline
+{\em param} & parameters to method \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-raw().
+
+
+
+Referenced by co\-\_\-call().
+
+
+\begin{DoxyCode}
+65 \{
+66   
+67   CHECK(((output != NULL) && (method != NULL)), \textcolor{stringliteral}{"Invalid request components."});
+68   CHECK(olen > \textcolor{keyword}{sizeof}(\_req\_header) + \textcolor{keyword}{sizeof}(uint32\_t) + \textcolor{keyword}{sizeof}(co\_str16\_t) + \textcolor{keyword}{sizeof}(co\_list16\_t), \textcolor{stringliteral}{"Output
+       buffer too small."});
+69   \textcolor{keywordtype}{size\_t} written = 0;
+70   \textcolor{keywordtype}{char} *cursor = NULL;
+71   \textcolor{keywordtype}{size\_t} s = 0;
+72 
+73   \textcolor{comment}{/* Pack request header */}
+74   memmove(output + written, &\_req\_header.list\_type, \textcolor{keyword}{sizeof}(\_req\_header.list\_type));
+75   written += \textcolor{keyword}{sizeof}(\_req\_header.list\_type);
+76 
+77   memmove(output + written, &\_req\_header.list\_len, \textcolor{keyword}{sizeof}(\_req\_header.list\_len));
+78   written += \textcolor{keyword}{sizeof}(\_req\_header.list\_len);
+79 
+80   memmove(output + written, &\_req\_header.type\_type, \textcolor{keyword}{sizeof}(\_req\_header.type\_type));
+81   written += \textcolor{keyword}{sizeof}(\_req\_header.type\_type);
+82   
+83   memmove(output + written, &\_req\_header.type\_value, \textcolor{keyword}{sizeof}(\_req\_header.type\_value));
+84   written += \textcolor{keyword}{sizeof}(\_req\_header.type\_value);
+85   
+86   memmove(output + written, &\_req\_header.id\_type, \textcolor{keyword}{sizeof}(\_req\_header.id\_type));
+87   written += \textcolor{keyword}{sizeof}(\_req\_header.id\_type);
+88 
+89   \textcolor{comment}{/* Pack request ID */}
+90   memmove(output + written, &\_id, \textcolor{keyword}{sizeof}(uint32\_t));
+91   written += \textcolor{keyword}{sizeof}(uint32\_t);
+92   \_id++;
+93 
+94   \textcolor{comment}{/* Pack method call */}
+95   CHECK(IS\_STR(method), \textcolor{stringliteral}{"Not a valid method name."});
+96   \textcolor{keywordtype}{char} *buffer = NULL;
+97   \textcolor{keywordtype}{size\_t} buffer\_write = co\_obj\_raw(&buffer, method);
+98   CHECK(buffer\_write >= 0, \textcolor{stringliteral}{"Failed to pack object."});
+99   memmove(output + written, buffer, buffer\_write);
+100   written += buffer\_write;
+101 
+102   \textcolor{comment}{/* Pack parameters */}
+103   CHECK(written < olen, \textcolor{stringliteral}{"Output buffer too small."});
+104   \textcolor{keywordflow}{if}(param != NULL)
+105   \{
+106     \textcolor{keywordflow}{if}(IS\_LIST(param))
+107       written += \hyperlink{list_8c_aa314c1c4f43a8314f499ddc28315bfa0}{co\_list\_raw}(output + written, olen - written, param);
+108     \textcolor{keywordflow}{else} 
+109     \{
+110       s = co\_obj\_raw(&cursor, param);
+111       written += s;
+112       memmove(output + written, cursor, s);
+113     \}
+114   \}
+115   CHECK(written >= 0, \textcolor{stringliteral}{"Failed to pack object."});
+116   DEBUG(\textcolor{stringliteral}{"Request bytes written: %d"}, (\textcolor{keywordtype}{int})written);
+117   CHECK(written < olen, \textcolor{stringliteral}{"Output buffer too small."});
+118 
+119   \textcolor{keywordflow}{return} written;
+120 error:
+121   \textcolor{keywordflow}{return} -1;
+122   
+123 \}
+\end{DoxyCode}
+\hypertarget{msg_8c_aee952060c704142198bfa0de4c5d8c93}{\index{msg.\-c@{msg.\-c}!co\-\_\-response\-\_\-alloc@{co\-\_\-response\-\_\-alloc}}
+\index{co\-\_\-response\-\_\-alloc@{co\-\_\-response\-\_\-alloc}!msg.c@{msg.\-c}}
+\subsubsection[{co\-\_\-response\-\_\-alloc}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t co\-\_\-response\-\_\-alloc (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{output, }
+\item[{const size\-\_\-t}]{olen, }
+\item[{const uint32\-\_\-t}]{id, }
+\item[{const {\bf co\-\_\-obj\-\_\-t} $\ast$}]{error, }
+\item[{{\bf co\-\_\-obj\-\_\-t} $\ast$}]{result}
+\end{DoxyParamCaption}
+)}}\label{msg_8c_aee952060c704142198bfa0de4c5d8c93}
+
+
+allocate response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & buffer for output \\
+\hline
+{\em olen} & output buffer length \\
+\hline
+{\em id} & response I\-D \\
+\hline
+{\em error} & error object \\
+\hline
+{\em result} & result of request \\
+\hline
+\end{DoxyParams}
+
+
+References co\-\_\-list\-\_\-raw(), and co\-\_\-tree\-\_\-raw().
+
+
+
+Referenced by dispatcher\-\_\-cb().
+
+
+\begin{DoxyCode}
+142 \{
+143   CHECK(((output != NULL) && (error != NULL) && (result != NULL)), \textcolor{stringliteral}{"Invalid response components."});
+144   CHECK(olen > \textcolor{keyword}{sizeof}(\_resp\_header) + \textcolor{keyword}{sizeof}(uint32\_t) + \textcolor{keyword}{sizeof}(co\_str16\_t) + \textcolor{keyword}{sizeof}(co\_list16\_t), \textcolor{stringliteral}{"Output
+       buffer too small."});
+145   \textcolor{keywordtype}{size\_t} written = 0;
+146   \textcolor{keywordtype}{char} *cursor = NULL;
+147   \textcolor{keywordtype}{size\_t} s = 0;
+148 
+149   \textcolor{comment}{/* Pack response header */}
+150   memmove(output + written, &\_resp\_header.list\_type, \textcolor{keyword}{sizeof}(\_resp\_header.list\_type));
+151   written += \textcolor{keyword}{sizeof}(\_resp\_header.list\_type);
+152 
+153   memmove(output + written, &\_resp\_header.list\_len, \textcolor{keyword}{sizeof}(\_resp\_header.list\_len));
+154   written += \textcolor{keyword}{sizeof}(\_resp\_header.list\_len);
+155 
+156   memmove(output + written, &\_resp\_header.type\_type, \textcolor{keyword}{sizeof}(\_resp\_header.type\_type));
+157   written += \textcolor{keyword}{sizeof}(\_resp\_header.type\_type);
+158   
+159   memmove(output + written, &\_resp\_header.type\_value, \textcolor{keyword}{sizeof}(\_resp\_header.type\_value));
+160   written += \textcolor{keyword}{sizeof}(\_resp\_header.type\_value);
+161   
+162   memmove(output + written, &\_resp\_header.id\_type, \textcolor{keyword}{sizeof}(\_resp\_header.id\_type));
+163   written += \textcolor{keyword}{sizeof}(\_resp\_header.id\_type);
+164 
+165   \textcolor{comment}{/* Pack response ID */}
+166   memmove(output + written, &\textcolor{keywordtype}{id}, \textcolor{keyword}{sizeof}(uint32\_t));
+167   written += \textcolor{keyword}{sizeof}(uint32\_t);
+168 
+169   \textcolor{comment}{/* Pack error code */}
+170   \textcolor{comment}{//CHECK(IS\_STR(error) || IS\_NIL(error), "Not a valid error name.");}
+171   \textcolor{keywordflow}{if}(error != NULL)
+172   \{
+173     \textcolor{keywordflow}{if}(IS\_LIST(error))
+174       written += \hyperlink{list_8c_aa314c1c4f43a8314f499ddc28315bfa0}{co\_list\_raw}(output + written, olen - written, error);
+175     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(IS\_TREE(error))
+176     \{
+177       written += \hyperlink{tree_8c_a8fb27da4a74cbfe0ba1d3537e3bd83bd}{co\_tree\_raw}(output + written, olen - written, error);
+178     \}
+179     \textcolor{keywordflow}{else}
+180     \{
+181       s = co\_obj\_raw(&cursor, error);
+182       memmove(output + written, cursor, s);
+183       written += s;
+184     \}
+185   \}
+186 
+187   \textcolor{comment}{/* Pack method result */}
+188   CHECK(written < olen, \textcolor{stringliteral}{"Output buffer too small."});
+189   \textcolor{keywordflow}{if}(result != NULL)
+190   \{
+191     \textcolor{keywordflow}{if}(IS\_LIST(result))
+192       written += \hyperlink{list_8c_aa314c1c4f43a8314f499ddc28315bfa0}{co\_list\_raw}(output + written, olen - written, result);
+193     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(IS\_TREE(result))
+194     \{
+195       written += \hyperlink{tree_8c_a8fb27da4a74cbfe0ba1d3537e3bd83bd}{co\_tree\_raw}(output + written, olen - written, result);
+196     \}
+197     \textcolor{keywordflow}{else}
+198     \{
+199       s = co\_obj\_raw(&cursor, result);
+200       memmove(output + written, cursor, s);
+201       written += s;
+202     \}
+203   \}
+204 
+205   DEBUG(\textcolor{stringliteral}{"Response bytes written: %d"}, (\textcolor{keywordtype}{int})written);
+206   CHECK(written < olen, \textcolor{stringliteral}{"Output buffer too small."});
+207 
+208   \textcolor{keywordflow}{return} written;
+209 error:
+210   \textcolor{keywordflow}{return} -1;
+211 \}
+\end{DoxyCode}

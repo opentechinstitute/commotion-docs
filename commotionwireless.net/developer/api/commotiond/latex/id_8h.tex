@@ -1,0 +1,94 @@
+\hypertarget{id_8h}{\section{src/id.h File Reference}
+\label{id_8h}\index{src/id.\-h@{src/id.\-h}}
+}
+
+
+simple interface for managing node id  
+
+
+{\ttfamily \#include $<$stdint.\-h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{unionnodeid__t}{nodeid\-\_\-t}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{id_8h_a88886544b698627acf57d2d67152afec}{co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac} (const unsigned char $\ast$mac, int mac\-\_\-size)
+\begin{DoxyCompactList}\small\item\em sets node id using last four bytes of device's M\-A\-C address \end{DoxyCompactList}\item 
+void \hyperlink{id_8h_a06435832b719f1b6d5301513e7f8bcb3}{co\-\_\-id\-\_\-set\-\_\-from\-\_\-int} (const uint32\-\_\-t n)
+\begin{DoxyCompactList}\small\item\em Converts node id from host byte order to network byte order. \end{DoxyCompactList}\item 
+\hypertarget{id_8h_a472fb6dd14006516f675f220b0b3ece9}{\hyperlink{unionnodeid__t}{nodeid\-\_\-t} \hyperlink{id_8h_a472fb6dd14006516f675f220b0b3ece9}{co\-\_\-id\-\_\-get} (void)}\label{id_8h_a472fb6dd14006516f675f220b0b3ece9}
+
+\begin{DoxyCompactList}\small\item\em Returns nodeid. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+simple interface for managing node id \begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\-net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{id_8h_a06435832b719f1b6d5301513e7f8bcb3}{\index{id.\-h@{id.\-h}!co\-\_\-id\-\_\-set\-\_\-from\-\_\-int@{co\-\_\-id\-\_\-set\-\_\-from\-\_\-int}}
+\index{co\-\_\-id\-\_\-set\-\_\-from\-\_\-int@{co\-\_\-id\-\_\-set\-\_\-from\-\_\-int}!id.h@{id.\-h}}
+\subsubsection[{co\-\_\-id\-\_\-set\-\_\-from\-\_\-int}]{\setlength{\rightskip}{0pt plus 5cm}void co\-\_\-id\-\_\-set\-\_\-from\-\_\-int (
+\begin{DoxyParamCaption}
+\item[{const uint32\-\_\-t}]{n}
+\end{DoxyParamCaption}
+)}}\label{id_8h_a06435832b719f1b6d5301513e7f8bcb3}
+
+
+Converts node id from host byte order to network byte order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & the node id (4 bytes) \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+53                                           \{
+54   nodeid.id = htonl(n);
+55   \textcolor{keywordflow}{return};
+56 \}
+\end{DoxyCode}
+\hypertarget{id_8h_a88886544b698627acf57d2d67152afec}{\index{id.\-h@{id.\-h}!co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac@{co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac}}
+\index{co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac@{co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac}!id.h@{id.\-h}}
+\subsubsection[{co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac}]{\setlength{\rightskip}{0pt plus 5cm}void co\-\_\-id\-\_\-set\-\_\-from\-\_\-mac (
+\begin{DoxyParamCaption}
+\item[{const unsigned char $\ast$}]{mac, }
+\item[{int}]{mac\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{id_8h_a88886544b698627acf57d2d67152afec}
+
+
+sets node id using last four bytes of device's M\-A\-C address 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mac} & the M\-A\-C address of the device \\
+\hline
+{\em mac\-\_\-size} & the size of the M\-A\-C address \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+40                                                                 \{
+41   nodeid.id = 0;
+42   CHECK(mac\_size == 6, \textcolor{stringliteral}{"MAC size is not six."});
+43   DEBUG(\textcolor{stringliteral}{"Received MAC Address : %02x:%02x:%02x:%02x:%02x:%02x\(\backslash\)n"},
+44                 mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]);
+45   \textcolor{comment}{/* Load last four bytes of MAC address into nodeid struct*/}
+46   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{
+47     nodeid.bytes[i] = mac[i + 2];
+48   \}
+49 error:
+50   \textcolor{keywordflow}{return};
+51 \}
+\end{DoxyCode}
