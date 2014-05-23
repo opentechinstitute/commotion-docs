@@ -23,58 +23,26 @@ lang: en
 </ul>
 <a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
 </div>
-<h2>Linux</h2>
+<h2>Commotion Client</h2>
+<p>The Commotion development team has redesigned the roadmap for a more general, cross-compiled/cross-platform Commotion Client. Active development of <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a> is ongoing.</p>
 
-<p>Commotion Linux is an application bundle currently packaged for Debian, Ubuntu and other Debian based distros. Development of Commotion Linux is ongoing, but it is now near DR2 feature parity with Commotion OpenWRT.</p>
+<p>Commotion Client development will focus first on a fully functional application for Linux, followed by clients for Mac and Windows.</p>
 
-<p>We expect release of Commotion Linux v1.0 in early 2014, with an easier PPA-based installation process.</p>
+<h2>Unsupported Prototype Clients</h2>
 
-<h3>Features</h3>
+<h3>Linux</h3>
+<p>Our prototype client which led to this change in design direction was Commotion Linux. Initial Development of Commotion Linux resulted in .deb packages compatible with Ubuntu and Debian Linux. We provide the <a href="http://downloads.commotionwireless.net/linux" target="_blank">Commotion Linux .deb packages</a> for posterity and for interested parties to use. See the Readme file in the **commotion-linux-py.deb package** for installation instructions. Note that Commotion Linux comaptible with our DR2 release, but is not compatible with more recent versions of Commotion such as Commotion Router 1.0 and 1.1. It is also not supported by the Commotion team.</p>
 
-<ul>
-	<li>Encrypted backhaul</li>
-	<li>Service advertisement</li>
-	<li>Network-manager and "fallback" connection paths.</li>
-	<li>Auto-generation and retainment of IBSS cell parameters and IP addresses</li>
-	<li>Extensive logging, dumped to various files in /tmp</li>
-	<li>Various bugfixes and usability enhancements</li>
-	<li>Tested, confirmed working with the following distros:
-	<ul>
-		<li>Ubuntu 12.04 or greater&nbsp;</li>
-	</ul>
-	</li>
-</ul>
+<h3>Mac OS</h3>
 
-<p>A more extensive readme can be found in the <a href="http://downloads.commotionwireless.net/linux/commotion-linux-py_0.2-1_all.deb">commotion-linux-py.deb</a> package, which can be downloaded from<a href="https://downloads.commotionwireless.net/linux"> https://downloads.commotionwireless.net/linux</a></p>
+<p>Commotion MeshBook is an open-source OSX utility app that allows Mac computer to create and connect to mesh networks and meshed devices. A basic networking client and profile manager is available for OS X versions 10.7 and 10.8. Commotion MeshBook is a proof of concept prototype and is no longer in active development.</p>
 
-<h3>Installation</h3>
+<p>Commotion MeshBook will be superceded by <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p> 
 
-<p>Currently you must install the Commotion Linux client packages with <em>dpkg</em>, and resolve dependencies that may not be installed on your system. We will soon be publishing Commotion Linux in a PPA, so installation of Commotion Linux can be down through your system's package manager.</p>
+<p>The Commotion MeshBook prototype is available on our <a href="https://github.com/opentechinstitute/commotion-meshbook" target="_blank">Github Project page</a> if you are interested in building, testing or contributing to the Commotion MeshBook app.</p>
 
-<ul>
-	<li>Download all the packages available at <a href="https://downloads.commotionwireless.net/linux">https://downloads.commotionwireless.net/linux</a></li>
-	<li>Install them with:</li>
-</ul>
+<h3>Windows</h3>
 
-<pre>
-cd $DOWNLOAD_DIRECTORY
-sudo dpkg -i *.deb</pre>
-
-<ul>
-	<li>You will almost certainly see dependency errors during this process resolve them with:</li>
-</ul>
-
-<pre>
-sudo apt-get install -f sudo dpkg -i *.debi</pre>
-
-<h2>Mac</h2>
-
-<p>Commotion MeshBook is an open-source OSX utility app that allows Mac computer to create and connect to mesh networks and meshed devices. A basic networking client and profile manager is available for OS X versions 10.7 and 10.8. Commotion MeshBook is currently in development and is unsupported.</p>
-
-<p>Go to our <a href="https://github.com/opentechinstitute/commotion-meshbook" target="_blank">Github Project page</a> if you are interested in building, testing or contributing to the Commotion MeshBook app.<br />
-<em>(external link: OTI Github Project page)</em></p>
-
-<h2>Windows</h2>
-
-<p>The Commotion client for Windows operating systems is currently in development and is unsupported. You can follow development and find instructions on compiling the Commotion Windows client on our <a href="https://github.com/opentechinstitute/commotion-winmesh">Github Project, commotion-winmesh</a>.</p>
+<p>The Commotion client for Windows operating systems is a proof of concept prototype and is unsupported. Interested persons can find instructions on compiling the Commotion Windows client on our <a href="https://github.com/opentechinstitute/commotion-winmesh">Github Project, commotion-winmesh</a>.</p>
  
+<p>Commotion WinMesh will be superceded by <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p> 
