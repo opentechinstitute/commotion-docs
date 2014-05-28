@@ -4,7 +4,7 @@ title: Open Wifi and Copyright - A Primer for Network Operators
 categories: [copyright, legal, community engagement, guest post, privacy]
 created: 2014-05-27
 changed: 2014-05-27
-teaser_image: posts/051327-open-wireless-eff.jpg
+teaser_image: posts/052714-open-wireless-eff.jpg
 post_author: Electronic Frontier Foundation
 lang: en
 ---
