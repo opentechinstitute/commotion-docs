@@ -90,10 +90,11 @@ lang: en
 </ol>
 
 <p><img alt="Additional illustration of two wireless nodes meshed over an Ethernet connection, shows two directional nodes back-to-back." class="half-width" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" /><br />
-**Note:** Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+<strong>Note:</strong> Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
 
   1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
   2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or make your own from metal building studs.
+
 </p>
 </section>
 
@@ -154,7 +155,7 @@ lang: en
 </ul>
 
 <p><img alt="Illustration of Commotion nodes connected through a switch or router" class="half-width" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" /><br />
-**Note:** Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+<strong>Note:</strong> Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
 
   1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
   2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or make your own from metal building studs.
@@ -188,7 +189,7 @@ lang: en
 </ul>
 
 <p><img alt="Illustration of Commotion nodes and a client Access Point connected through a switch" class="half-width" src="/files/CCK_CommonConfigs_CommotionClientAP.png" /><br />
-**Note:** Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+<strong>Note:</strong> Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:<br />
 
   1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
   2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or make your own from metal building studs.
