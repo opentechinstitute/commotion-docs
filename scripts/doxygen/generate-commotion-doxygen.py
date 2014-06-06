@@ -109,6 +109,7 @@ tmpdir = "%s/commotion-doxygen-%s" % (tmp, date)
 if not os.path.isdir(tmpdir):
     os.mkdir("%s" % tmpdir)
 
+# loop through the projects and actually generate some doxygen.
 menu = ''
 for section_name in config.sections():
     if section_name != 'globals' and section_name != 'doxygen':
@@ -117,22 +118,25 @@ for section_name in config.sections():
         projecttmp = "%s/%s" %(tmpdir, project)
         # we should blow away any previously 
         # generated documentation.
+        # and generate new project dirs
         os.system("git rm -r %s" %  projectdir)
         if not os.path.isdir(projectdir):
             os.mkdir("%s" % projectdir)
 
+        # set up all the temporary working dirs
         if not os.path.isdir(projecttmp):
             os.mkdir(projecttmp)
-
         localprojectgit = "%s/%s" % (projecttmp, project)
         doxyconfdir = "%s/doxyconf" % (projecttmp)
         if not os.path.isdir(doxyconfdir):
             os.mkdir(doxyconfdir)
 
+        # start generating the custom files
         headerfilename = "%s/%s-header.html" % (doxyconfdir,project) 
         generate_yaml_header(project, now, headerfilename)
         customdoxyconf = generate_doxygen_config(project, doxyconfigs, doxyconfdir, scriptdir, projectdir, headerfilename, localprojectgit)
 
+        # get the git specifics for the project
         repo = None
         branch = 'master'
         for name, value in config.items(section_name):
@@ -142,7 +146,7 @@ for section_name in config.sections():
                 if name == 'branch':
                     branch = value
 
-
+        # clone the project and change to specified branch
         os.system('git clone %s %s' % (repo, localprojectgit))
         os.chdir(localprojectgit)
         if branch != 'master':
@@ -165,12 +169,13 @@ for section_name in config.sections():
             f = open(index, 'w')
             f.write("This project doesn't have a README.")
 
+        # add a menu item for this project for the developer sub-menu
         menu += generate_project_menu_item(project, readme)
 
-# remove the directory
+# remove the temporary working directory
 shutil.rmtree(tmpdir)
 
-#build the menu
+#build the menu include file.
 menufile = '%s/_includes/developers_api_menu.html' % jekyllrepo
 fullmenu = '<ul class="submenu">%s</ul>' % menu
 f = open(menufile, 'w')
