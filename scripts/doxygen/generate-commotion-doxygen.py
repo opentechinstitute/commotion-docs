@@ -87,7 +87,7 @@ config.read('./generate-commotion-doxygen.conf')
 scriptdir = os.getcwd()
 doxyconfigs = config['doxygen']
 outputdir = config['doxygen']['output_base_dir']
-workingdir = config['globals']['workingdir']
+tmp = config['globals']['tmp']
 jekyllrepo = config['globals']['jekyll_repo']
 now = datetime.datetime.now()
 date = now.strftime("%Y-%m-%d_%H-%M")
@@ -98,7 +98,7 @@ branchname = "doxygen-%s" % date
 os.system("git checkout -b %s" % branchname)
 
 # create a directory to work in
-tmpdir = "%s/commotion-doxygen-%s" % (workingdir,date)
+tmpdir = "%s/commotion-doxygen-%s" % (tmp, date)
 if not os.path.isdir(tmpdir):
     os.mkdir("%s" % tmpdir)
 
