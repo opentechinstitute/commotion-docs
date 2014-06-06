@@ -1,0 +1,171 @@
+\hypertarget{serval-dna_8h}{\section{plugins/serval-\/dna/serval-\/dna.h File Reference}
+\label{serval-dna_8h}\index{plugins/serval-\/dna/serval-\/dna.\+h@{plugins/serval-\/dna/serval-\/dna.\+h}}
+}
+
+
+re-\/implementation of the serval-\/dna daemon as a commotiond plugin  
+
+
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{serval-dna_8h_ade6bc30b860b7e0c016c9d1d4de78876}{\#define {\bfseries D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+I\+D}~\char`\"{}0000000000000000000000000000000000000000000000000000000000000000\char`\"{}}\label{serval-dna_8h_ade6bc30b860b7e0c016c9d1d4de78876}
+
+\item 
+\hypertarget{serval-dna_8h_aa6eb102f7cb9b4ecc447f497f59aefcc}{\#define {\bfseries D\+E\+F\+A\+U\+L\+T\+\_\+\+M\+D\+P\+\_\+\+P\+A\+T\+H}~\char`\"{}/etc/commotion/keys.\+d/mdp.\+keyring/serval.\+keyring\char`\"{}}\label{serval-dna_8h_aa6eb102f7cb9b4ecc447f497f59aefcc}
+
+\item 
+\hypertarget{serval-dna_8h_ad6d73c9630ed82f7fe50ef5a025caa52}{\#define {\bfseries D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+R\+V\+A\+L\+\_\+\+P\+A\+T\+H}~\char`\"{}/var/serval-\/node\char`\"{}}\label{serval-dna_8h_ad6d73c9630ed82f7fe50ef5a025caa52}
+
+\item 
+\hypertarget{serval-dna_8h_ae688d728e1acdfe5988c7db45d6f0166}{\#define {\bfseries P\+A\+T\+H\+\_\+\+M\+A\+X}~4096}\label{serval-dna_8h_ae688d728e1acdfe5988c7db45d6f0166}
+
+\item 
+\#define \hyperlink{serval-dna_8h_a10ab198359509a611627a85d8321ac86}{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}(A, M,...)
+\item 
+\#define \hyperlink{serval-dna_8h_a10ab198359509a611627a85d8321ac86}{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}(A, M,...)
+\item 
+\hypertarget{serval-dna_8h_ad618463c254680a37e278c1e76aeb15d}{\#define {\bfseries C\+L\+E\+A\+R\+\_\+\+E\+R\+R}()~err\+\_\+msg = N\+U\+L\+L;}\label{serval-dna_8h_ad618463c254680a37e278c1e76aeb15d}
+
+\item 
+\hypertarget{serval-dna_8h_aeed42e449c7436fab8354659982dc443}{\#define {\bfseries I\+N\+S\+\_\+\+E\+R\+R\+O\+R}()~if (err\+\_\+msg) \{ C\+M\+D\+\_\+\+O\+U\+T\+P\+U\+T(\char`\"{}errors\char`\"{},err\+\_\+msg); \}}\label{serval-dna_8h_aeed42e449c7436fab8354659982dc443}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{serval-dna_8h_a3bbb939458a3edc82ae0bfe5602967df}{int {\bfseries co\+\_\+plugin\+\_\+register} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8h_a3bbb939458a3edc82ae0bfe5602967df}
+
+\item 
+\hypertarget{serval-dna_8h_a0eccb03577be7f0f0e22a4d427f8773f}{int {\bfseries co\+\_\+plugin\+\_\+init} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8h_a0eccb03577be7f0f0e22a4d427f8773f}
+
+\item 
+\hypertarget{serval-dna_8h_ab65e09211a66e5e4a54fcb0e963af7fe}{int {\bfseries co\+\_\+plugin\+\_\+name} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8h_ab65e09211a66e5e4a54fcb0e963af7fe}
+
+\item 
+\hypertarget{serval-dna_8h_adef3d509f8db4a677d75c4bca5142d8a}{int {\bfseries co\+\_\+plugin\+\_\+shutdown} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8h_adef3d509f8db4a677d75c4bca5142d8a}
+
+\item 
+int \hyperlink{serval-dna_8h_a1555be4d16034b506577764fbd2cfb5d}{serval\+\_\+socket\+\_\+cb} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$context)
+\item 
+\hypertarget{serval-dna_8h_a00d4df9eabb0ac594cc118143943392f}{int {\bfseries serval\+\_\+timer\+\_\+cb} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$context)}\label{serval-dna_8h_a00d4df9eabb0ac594cc118143943392f}
+
+\item 
+\hypertarget{serval-dna_8h_a0e0920eff3548cf56da6e9f8c5c4e5ab}{int {\bfseries serval\+\_\+schema} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8h_a0e0920eff3548cf56da6e9f8c5c4e5ab}
+
+\item 
+\hypertarget{serval-dna_8h_a31d498ab46d883bda2967eca577b8890}{int {\bfseries serval\+\_\+daemon\+\_\+handler} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8h_a31d498ab46d883bda2967eca577b8890}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+re-\/implementation of the serval-\/dna daemon as a commotiond plugin 
+
+\begin{DoxyAuthor}{Author}
+Dan Staples (dismantl), \href{mailto:danstaples@opentechinstitute.org}{\tt danstaples@opentechinstitute.\+org} 
+\end{DoxyAuthor}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{serval-dna_8h_a10ab198359509a611627a85d8321ac86}{\index{serval-\/dna.\+h@{serval-\/dna.\+h}!C\+H\+E\+C\+K\+\_\+\+E\+R\+R@{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}}
+\index{C\+H\+E\+C\+K\+\_\+\+E\+R\+R@{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}!serval-\/dna.\+h@{serval-\/dna.\+h}}
+\subsubsection[{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+H\+E\+C\+K\+\_\+\+E\+R\+R(
+\begin{DoxyParamCaption}
+\item[{}]{A, }
+\item[{}]{M, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8h_a10ab198359509a611627a85d8321ac86}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if}(!(A)) \{ \(\backslash\)
+    ERROR(M, ##\_\_VA\_ARGS\_\_); \(\backslash\)
+    if (err\_msg == NULL) \(\backslash\)
+      err\_msg = co\_list16\_create(); \(\backslash\)
+    char *msg = NULL; \(\backslash\)
+    int len = snprintf(NULL, 0, M, ##\_\_VA\_ARGS\_\_); \(\backslash\)
+    msg = calloc(len + 1,\textcolor{keyword}{sizeof}(\textcolor{keywordtype}{char})); \(\backslash\)
+    sprintf(msg, M, ##\_\_VA\_ARGS\_\_); \(\backslash\)
+    if (len < UINT8\_MAX) \{ \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{\(\backslash\)}
+\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{      co\_list\_append}(err\_msg, co\_str8\_create(msg,len+1,0)); \(\backslash\)
+    \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (len < UINT16\_MAX) \{ \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{\(\backslash\)}
+\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{      co\_list\_append}(err\_msg, co\_str16\_create(msg,len+1,0)); \(\backslash\)
+    \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (len < UINT32\_MAX) \{ \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{\(\backslash\)}
+\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{      co\_list\_append}(err\_msg, co\_str32\_create(msg,len+1,0)); \(\backslash\)
+    \} \(\backslash\)
+    free(msg); \(\backslash\)
+    goto error; \(\backslash\)
+  \}
+\end{DoxyCode}
+until we have nested tree support \hypertarget{serval-dna_8h_a10ab198359509a611627a85d8321ac86}{\index{serval-\/dna.\+h@{serval-\/dna.\+h}!C\+H\+E\+C\+K\+\_\+\+E\+R\+R@{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}}
+\index{C\+H\+E\+C\+K\+\_\+\+E\+R\+R@{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}!serval-\/dna.\+h@{serval-\/dna.\+h}}
+\subsubsection[{C\+H\+E\+C\+K\+\_\+\+E\+R\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+H\+E\+C\+K\+\_\+\+E\+R\+R(
+\begin{DoxyParamCaption}
+\item[{}]{A, }
+\item[{}]{M, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8h_a10ab198359509a611627a85d8321ac86}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{if}(!(A)) \{ \(\backslash\)
+    ERROR(M, ##\_\_VA\_ARGS\_\_); \(\backslash\)
+    if (err\_msg) \(\backslash\)
+      co\_obj\_free(err\_msg); \(\backslash\)
+    char *msg = NULL; \(\backslash\)
+    int len = snprintf(NULL, 0, M, ##\_\_VA\_ARGS\_\_); \(\backslash\)
+    msg = calloc(len + 1,\textcolor{keyword}{sizeof}(\textcolor{keywordtype}{char})); \(\backslash\)
+    sprintf(msg, M, ##\_\_VA\_ARGS\_\_); \(\backslash\)
+    if (len < UINT8\_MAX) \{ \(\backslash\)
+      err\_msg = co\_str8\_create(msg,len+1,0); \(\backslash\)
+    \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (len < UINT16\_MAX) \{ \(\backslash\)
+      err\_msg = co\_str16\_create(msg,len+1,0); \(\backslash\)
+    \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (len < UINT32\_MAX) \{ \(\backslash\)
+      err\_msg = co\_str32\_create(msg,len+1,0); \(\backslash\)
+    \} \(\backslash\)
+    free(msg); \(\backslash\)
+    goto error; \(\backslash\)
+  \}
+\end{DoxyCode}
+until we have nested tree support 
+
+\subsection{Function Documentation}
+\hypertarget{serval-dna_8h_a1555be4d16034b506577764fbd2cfb5d}{\index{serval-\/dna.\+h@{serval-\/dna.\+h}!serval\+\_\+socket\+\_\+cb@{serval\+\_\+socket\+\_\+cb}}
+\index{serval\+\_\+socket\+\_\+cb@{serval\+\_\+socket\+\_\+cb}!serval-\/dna.\+h@{serval-\/dna.\+h}}
+\subsubsection[{serval\+\_\+socket\+\_\+cb}]{\setlength{\rightskip}{0pt plus 5cm}int serval\+\_\+socket\+\_\+cb (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{self, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{context}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8h_a1555be4d16034b506577764fbd2cfb5d}
+Callback function for when Serval socket has data to read 
+
+References co\+\_\+list\+\_\+parse().
+
+
+
+Referenced by \+\_\+watch().
+
+
+\begin{DoxyCode}
+117                                                         \{
+118 \textcolor{comment}{//   DEBUG("SERVAL\_SOCKET\_CB");}
+119   \hyperlink{structco__socket__t}{co\_socket\_t} *sock = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+120   \hyperlink{structco__obj__t}{co\_obj\_t} *node = NULL;
+121   \textcolor{keyword}{struct }sched\_ent *alarm = NULL;
+122   
+123   \textcolor{comment}{// find alarm associated w/ sock, call alarm->function(alarm)}
+124   \textcolor{keywordflow}{if} ((node = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(sock\_alarms, \_alarm\_fd\_match\_i, &sock->fd->fd))) \{
+125     alarm = ((\hyperlink{structco__alarm__t}{co\_alarm\_t}*)node)->alarm;
+126     alarm->poll.revents = sock->events;
+127     
+128     alarm->function(alarm); \textcolor{comment}{// Serval callback function associated with alarm/socket}
+129     alarm->poll.revents = 0;
+130     
+131     \textcolor{keywordflow}{return} 1;
+132   \}
+133   
+134   \textcolor{keywordflow}{return} 0;
+135 \}
+\end{DoxyCode}

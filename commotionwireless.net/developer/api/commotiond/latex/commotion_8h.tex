@@ -1,0 +1,761 @@
+\hypertarget{commotion_8h}{\section{src/commotion.h File Reference}
+\label{commotion_8h}\index{src/commotion.\+h@{src/commotion.\+h}}
+}
+
+
+Client A\+P\+I for the Commotion Daemon.  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\\*
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{commotion_8h_a3b1039479d7abc4be18367bfbf455027}{typedef void {\bfseries co\+\_\+obj\+\_\+t}}\label{commotion_8h_a3b1039479d7abc4be18367bfbf455027}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{commotion_8h_aa83fa68a5118a165d994c41fd53fa1d2}{int \hyperlink{commotion_8h_aa83fa68a5118a165d994c41fd53fa1d2}{co\+\_\+init} (void)}\label{commotion_8h_aa83fa68a5118a165d994c41fd53fa1d2}
+
+\begin{DoxyCompactList}\small\item\em initializes A\+P\+I \end{DoxyCompactList}\item 
+\hypertarget{commotion_8h_a92029498b2ee53c65375ca7cf5d4f30d}{int \hyperlink{commotion_8h_a92029498b2ee53c65375ca7cf5d4f30d}{co\+\_\+shutdown} (void)}\label{commotion_8h_a92029498b2ee53c65375ca7cf5d4f30d}
+
+\begin{DoxyCompactList}\small\item\em shuts down the A\+P\+I \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{commotion_8h_a5fa092ab799cbf4a0503e38ed04597c4}{co\+\_\+connect} (const char $\ast$uri, const size\+\_\+t ulen)
+\begin{DoxyCompactList}\small\item\em creates a connection to Commotion daemon at the given U\+R\+I \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_af05f01adae54c1b885aa6aaaffe815ef}{co\+\_\+disconnect} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$connection)
+\begin{DoxyCompactList}\small\item\em closes connection to Commotion daemon \end{DoxyCompactList}\item 
+\hypertarget{commotion_8h_af1580ab08a5be852e4dd96f3b18b7109}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{commotion_8h_af1580ab08a5be852e4dd96f3b18b7109}{co\+\_\+request\+\_\+create} (void)}\label{commotion_8h_af1580ab08a5be852e4dd96f3b18b7109}
+
+\begin{DoxyCompactList}\small\item\em create an A\+P\+I request \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_aa6b6aa3956b61b62e0895c121779547e}{co\+\_\+request\+\_\+append} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$request, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object)
+\begin{DoxyCompactList}\small\item\em appends object to request \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a4e6ea9f07e5d837c3b485ca6565edc6b}{co\+\_\+request\+\_\+append\+\_\+str} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$request, const char $\ast$s, const size\+\_\+t slen)
+\begin{DoxyCompactList}\small\item\em appends string to request \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a8497ceec923c6f60f31855f5642e9f9c}{co\+\_\+request\+\_\+append\+\_\+bin} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$request, const char $\ast$s, const size\+\_\+t slen)
+\begin{DoxyCompactList}\small\item\em appends byte array to request \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a9336fff84d438e9efab34ae219b27464}{co\+\_\+request\+\_\+append\+\_\+int} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$request, const int i)
+\begin{DoxyCompactList}\small\item\em appends int to request \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a515db7e59163391e761c8eda4bddd36d}{co\+\_\+request\+\_\+append\+\_\+uint} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$request, const unsigned int i)
+\begin{DoxyCompactList}\small\item\em appends unsigned int to request \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a50cbe6d67aeea96f361273ba0611667d}{co\+\_\+call} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$connection, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$response, const char $\ast$method, const size\+\_\+t mlen, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$request)
+\begin{DoxyCompactList}\small\item\em sense procedure call to daemon \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{commotion_8h_a2786604bc03966bb33cf04f7e657a782}{co\+\_\+response\+\_\+get} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em retrieve object from response \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{commotion_8h_a00254dbe1b85167014324c5af5f3efcb}{co\+\_\+response\+\_\+get\+\_\+str} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response, char $\ast$$\ast$output, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em retrieve string from response \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{commotion_8h_a158bba09ff47e43a4fa1990190d876f0}{co\+\_\+response\+\_\+get\+\_\+bin} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response, char $\ast$$\ast$output, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em retrieve byte array from response \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a505d9dc2329f1544098985fa452fcac5}{co\+\_\+response\+\_\+get\+\_\+uint} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response, unsigned long $\ast$output, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em retrieve unsigned int from response \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_ad2eae733dd03f3c1106459fb68b5cbf5}{co\+\_\+response\+\_\+get\+\_\+int} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response, signed long $\ast$output, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em retrieve signed int from response \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a6f18b855765405def83b9848780306af}{co\+\_\+response\+\_\+get\+\_\+bool} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response, bool $\ast$output, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em retrieve bool from response \end{DoxyCompactList}\item 
+int \hyperlink{commotion_8h_a40b16d46e144baebcdf884dfd7f10bb7}{co\+\_\+response\+\_\+print} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$response)
+\begin{DoxyCompactList}\small\item\em print response object \end{DoxyCompactList}\item 
+void \hyperlink{commotion_8h_ac0940ea9658ad2b32199e6a5a0420b45}{co\+\_\+free} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object)
+\begin{DoxyCompactList}\small\item\em free A\+P\+I objects \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Client A\+P\+I for the Commotion Daemon. 
+
+\begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\+net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{commotion_8h_a50cbe6d67aeea96f361273ba0611667d}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+call@{co\+\_\+call}}
+\index{co\+\_\+call@{co\+\_\+call}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+call}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+call (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{connection, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$$\ast$}]{response, }
+\item[{const char $\ast$}]{method, }
+\item[{const size\+\_\+t}]{mlen, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{request}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a50cbe6d67aeea96f361273ba0611667d}
+
+
+sense procedure call to daemon 
+
+
+\begin{DoxyParams}{Parameters}
+{\em connection} & context object for connection \\
+\hline
+{\em response} & pointer to response buffer \\
+\hline
+{\em method} & method name \\
+\hline
+{\em mlen} & length of method name \\
+\hline
+{\em request} & request object to send \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+element(), co\+\_\+list\+\_\+import(), and co\+\_\+request\+\_\+alloc().
+
+
+\begin{DoxyCode}
+187 \{
+188   CHECK(method != NULL && mlen > 0 && mlen < UINT8\_MAX, \textcolor{stringliteral}{"Invalid method name."});
+189   CHECK(connection != NULL && IS\_SOCK(connection), \textcolor{stringliteral}{"Invalid connection."});
+190   \hyperlink{structco__obj__t}{co\_obj\_t} *params = NULL, *rlist = NULL, *rtree = NULL;
+191   \textcolor{keywordtype}{int} retval = 0;
+192   \textcolor{keywordtype}{size\_t} reqlen = 0;
+193   ssize\_t resplen = 0;
+194   \textcolor{keywordtype}{char} req[REQUEST\_MAX];
+195   \textcolor{keywordtype}{char} resp[RESPONSE\_MAX];
+196   \textcolor{keywordflow}{if}(request != NULL)
+197   \{
+198     CHECK(IS\_LIST(request), \textcolor{stringliteral}{"Not a valid request."});
+199     params = request;
+200   \}
+201   \textcolor{keywordflow}{else}
+202   \{
+203     params = co\_list16\_create();
+204   \}
+205   \hyperlink{structco__obj__t}{co\_obj\_t} *m = co\_str8\_create(method, mlen, 0);
+206   reqlen = \hyperlink{msg_8c_a279be7876b05ac65425805e4b665b558}{co\_request\_alloc}(req, \textcolor{keyword}{sizeof}(req), m, params);
+207   CHECK(((\hyperlink{structco__socket__t}{co\_socket\_t}*)connection)->send((\hyperlink{structco__obj__t}{co\_obj\_t}*)((
+      \hyperlink{structco__socket__t}{co\_socket\_t}*)connection)->fd, req, reqlen) != -1, \textcolor{stringliteral}{"Send error!"});
+208   \textcolor{keywordflow}{if}((resplen = ((\hyperlink{structco__socket__t}{co\_socket\_t}*)connection)->receive(connection, (
+      \hyperlink{structco__obj__t}{co\_obj\_t}*)((\hyperlink{structco__socket__t}{co\_socket\_t}*)connection)->fd, resp, \textcolor{keyword}{sizeof}(resp))) > 0) 
+209   \{
+210     CHECK(\hyperlink{list_8c_a07c935572c069373bddadf2907a09b2b}{co\_list\_import}(&rlist, resp, resplen) > 0, \textcolor{stringliteral}{"Failed to parse response."});
+211     rtree = \hyperlink{list_8c_a647ff4c713547b65d3fa7a1a7cc7dff7}{co\_list\_element}(rlist, 3);
+212     \textcolor{keywordflow}{if}(!IS\_NIL(rtree))
+213     \{
+214       retval = 1;
+215     \}
+216     \textcolor{keywordflow}{else}
+217     \{
+218       rtree = \hyperlink{list_8c_a647ff4c713547b65d3fa7a1a7cc7dff7}{co\_list\_element}(rlist, 2);
+219       retval = 0;
+220     \}
+221     \textcolor{keywordflow}{if}(rtree != NULL && IS\_TREE(rtree)) 
+222     \{
+223       *response = rtree;
+224       hattach(*response, \_pool);
+225     \}
+226     \textcolor{keywordflow}{else} SENTINEL(\textcolor{stringliteral}{"Invalid response."});
+227   \}
+228   \textcolor{keywordflow}{else} SENTINEL(\textcolor{stringliteral}{"Failed to receive data."});
+229 
+230   co\_obj\_free(m);
+231   \textcolor{keywordflow}{if}(params != request) co\_obj\_free(params);
+232   \textcolor{keywordflow}{return} retval;
+233   
+234 error:
+235   co\_obj\_free(m);
+236   \textcolor{keywordflow}{if}(params != request) co\_obj\_free(params);
+237   \textcolor{keywordflow}{return} retval;
+238 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a5fa092ab799cbf4a0503e38ed04597c4}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+connect@{co\+\_\+connect}}
+\index{co\+\_\+connect@{co\+\_\+connect}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+connect}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+connect (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{uri, }
+\item[{const size\+\_\+t}]{ulen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a5fa092ab799cbf4a0503e38ed04597c4}
+
+
+creates a connection to Commotion daemon at the given U\+R\+I 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uri} & U\+R\+I string \\
+\hline
+{\em ulen} & length of U\+R\+I string \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append().
+
+
+\begin{DoxyCode}
+85 \{
+86   CHECK\_MEM(\_sockets);
+87   CHECK(uri != NULL && ulen > 0, \textcolor{stringliteral}{"Invalid URI."});
+88   \hyperlink{structco__obj__t}{co\_obj\_t} *socket = NEW(co\_socket, unix\_socket);
+89   hattach(socket, \_pool);
+90   CHECK((((\hyperlink{structco__socket__t}{co\_socket\_t}*)socket)->connect(socket, uri)), \textcolor{stringliteral}{"Failed to connect to commotiond at %s\(\backslash\)n
+      "}, uri);
+91   \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(\_sockets, socket);
+92   \textcolor{keywordflow}{return} socket;
+93 error:
+94   co\_obj\_free(socket);
+95   \textcolor{keywordflow}{return} NULL;
+96 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_af05f01adae54c1b885aa6aaaffe815ef}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+disconnect@{co\+\_\+disconnect}}
+\index{co\+\_\+disconnect@{co\+\_\+disconnect}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+disconnect}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+disconnect (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{connection}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_af05f01adae54c1b885aa6aaaffe815ef}
+
+
+closes connection to Commotion daemon 
+
+
+\begin{DoxyParams}{Parameters}
+{\em connection} & context object for active connection \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+delete().
+
+
+\begin{DoxyCode}
+100 \{
+101   CHECK\_MEM(connection);
+102   CHECK\_MEM(\_sockets);
+103   CHECK(IS\_SOCK(connection), \textcolor{stringliteral}{"Specified object is not a Commotion socket."});
+104   
+105   \hyperlink{list_8c_a80fbd77f231ae88663c5d0bb25bdfd6c}{co\_list\_delete}(\_sockets, connection);
+106   ((\hyperlink{structco__socket__t}{co\_socket\_t}*)connection)->destroy(connection);
+107   \textcolor{keywordflow}{return} 1;
+108 error:
+109   \textcolor{keywordflow}{return} 0;
+110 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_ac0940ea9658ad2b32199e6a5a0420b45}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+free@{co\+\_\+free}}
+\index{co\+\_\+free@{co\+\_\+free}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+free}]{\setlength{\rightskip}{0pt plus 5cm}void co\+\_\+free (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_ac0940ea9658ad2b32199e6a5a0420b45}
+
+
+free A\+P\+I objects 
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & object to free \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+363 \{
+364   hattach(\textcolor{keywordtype}{object}, NULL);
+365   co\_obj\_free(\textcolor{keywordtype}{object});
+366   \textcolor{keywordflow}{return};
+367 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_aa6b6aa3956b61b62e0895c121779547e}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+request\+\_\+append@{co\+\_\+request\+\_\+append}}
+\index{co\+\_\+request\+\_\+append@{co\+\_\+request\+\_\+append}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+request\+\_\+append}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+request\+\_\+append (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{request, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{object}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_aa6b6aa3956b61b62e0895c121779547e}
+
+
+appends object to request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & request object to append to \\
+\hline
+{\em object} & object to append \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append().
+
+
+\begin{DoxyCode}
+120 \{
+121   CHECK\_MEM(request);
+122   CHECK\_MEM(\textcolor{keywordtype}{object});
+123   CHECK(IS\_LIST(request), \textcolor{stringliteral}{"Not a valid request."});
+124   \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, \textcolor{keywordtype}{object});
+125 error:
+126   \textcolor{keywordflow}{return} 0;
+127 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a8497ceec923c6f60f31855f5642e9f9c}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+request\+\_\+append\+\_\+bin@{co\+\_\+request\+\_\+append\+\_\+bin}}
+\index{co\+\_\+request\+\_\+append\+\_\+bin@{co\+\_\+request\+\_\+append\+\_\+bin}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+request\+\_\+append\+\_\+bin}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+request\+\_\+append\+\_\+bin (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{request, }
+\item[{const char $\ast$}]{s, }
+\item[{const size\+\_\+t}]{slen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a8497ceec923c6f60f31855f5642e9f9c}
+
+
+appends byte array to request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & request object to append to \\
+\hline
+{\em s} & array to append \\
+\hline
+{\em slen} & length of array to append \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append().
+
+
+\begin{DoxyCode}
+145 \{
+146   CHECK\_MEM(request);
+147   CHECK\_MEM(s);
+148   CHECK(IS\_LIST(request), \textcolor{stringliteral}{"Not a valid request."});
+149   CHECK(slen < UINT32\_MAX, \textcolor{stringliteral}{"Binary is too large."});
+150   \textcolor{keywordflow}{if}(slen > UINT16\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_bin32\_create(s, slen, 0));
+151   \textcolor{keywordflow}{if}(slen > UINT8\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_bin16\_create(s, slen, 0));
+152   \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_bin8\_create(s, slen, 0));
+153   error:
+154   \textcolor{keywordflow}{return} 0;
+155 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a9336fff84d438e9efab34ae219b27464}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+request\+\_\+append\+\_\+int@{co\+\_\+request\+\_\+append\+\_\+int}}
+\index{co\+\_\+request\+\_\+append\+\_\+int@{co\+\_\+request\+\_\+append\+\_\+int}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+request\+\_\+append\+\_\+int}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+request\+\_\+append\+\_\+int (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{request, }
+\item[{const int}]{i}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a9336fff84d438e9efab34ae219b27464}
+
+
+appends int to request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & request object to append to \\
+\hline
+{\em i} & integer to append \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append().
+
+
+\begin{DoxyCode}
+159 \{
+160   CHECK\_MEM(request);
+161   CHECK(IS\_LIST(request), \textcolor{stringliteral}{"Not a valid request."});
+162   CHECK(i < INT64\_MAX && i > INT64\_MIN, \textcolor{stringliteral}{"Integer out of bounds."});
+163   \textcolor{keywordflow}{if}(i > INT32\_MAX || i < INT32\_MIN) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_int64\_create(i, 0));
+164   \textcolor{keywordflow}{if}(i > INT16\_MAX || i < INT16\_MIN) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_int32\_create(i, 0));
+165   \textcolor{keywordflow}{if}(i > INT8\_MAX || i < INT8\_MIN) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_int16\_create(i, 0));
+166   \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_int8\_create(i, 0));
+167 error:
+168   \textcolor{keywordflow}{return} 0;
+169 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a4e6ea9f07e5d837c3b485ca6565edc6b}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+request\+\_\+append\+\_\+str@{co\+\_\+request\+\_\+append\+\_\+str}}
+\index{co\+\_\+request\+\_\+append\+\_\+str@{co\+\_\+request\+\_\+append\+\_\+str}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+request\+\_\+append\+\_\+str}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+request\+\_\+append\+\_\+str (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{request, }
+\item[{const char $\ast$}]{s, }
+\item[{const size\+\_\+t}]{slen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a4e6ea9f07e5d837c3b485ca6565edc6b}
+
+
+appends string to request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & request object to append to \\
+\hline
+{\em s} & string to append \\
+\hline
+{\em slen} & length of string to append \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append().
+
+
+\begin{DoxyCode}
+131 \{
+132   CHECK\_MEM(request);
+133   CHECK\_MEM(s);
+134   CHECK(IS\_LIST(request), \textcolor{stringliteral}{"Not a valid request."});
+135   CHECK(slen < UINT32\_MAX, \textcolor{stringliteral}{"String is too large."});
+136   \textcolor{keywordflow}{if}(slen > UINT16\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_str32\_create(s, slen, 0));
+137   \textcolor{keywordflow}{if}(slen > UINT8\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_str16\_create(s, slen, 0));
+138   \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_str8\_create(s, slen, 0));
+139 error:
+140   \textcolor{keywordflow}{return} 0;
+141 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a515db7e59163391e761c8eda4bddd36d}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+request\+\_\+append\+\_\+uint@{co\+\_\+request\+\_\+append\+\_\+uint}}
+\index{co\+\_\+request\+\_\+append\+\_\+uint@{co\+\_\+request\+\_\+append\+\_\+uint}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+request\+\_\+append\+\_\+uint}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+request\+\_\+append\+\_\+uint (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{request, }
+\item[{const unsigned int}]{i}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a515db7e59163391e761c8eda4bddd36d}
+
+
+appends unsigned int to request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & request object to append to \\
+\hline
+{\em i} & integer to append \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append().
+
+
+\begin{DoxyCode}
+173 \{
+174   CHECK\_MEM(request);
+175   CHECK(IS\_LIST(request), \textcolor{stringliteral}{"Not a valid request."});
+176   CHECK(i < UINT64\_MAX, \textcolor{stringliteral}{"Integer out of bounds."});
+177   \textcolor{keywordflow}{if}(i > UINT32\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_uint64\_create(i, 0));
+178   \textcolor{keywordflow}{if}(i > UINT16\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_uint32\_create(i, 0));
+179   \textcolor{keywordflow}{if}(i > UINT8\_MAX) \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_uint16\_create(i, 0));
+180   \textcolor{keywordflow}{return} \hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(request, co\_uint8\_create(i, 0));
+181 error:
+182   \textcolor{keywordflow}{return} 0;
+183 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a2786604bc03966bb33cf04f7e657a782}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+get@{co\+\_\+response\+\_\+get}}
+\index{co\+\_\+response\+\_\+get@{co\+\_\+response\+\_\+get}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+response\+\_\+get (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a2786604bc03966bb33cf04f7e657a782}
+
+
+retrieve object from response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+{\em key} & identifier for response element to retrieve \\
+\hline
+{\em klen} & length of key name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find().
+
+
+
+Referenced by co\+\_\+response\+\_\+get\+\_\+bin(), co\+\_\+response\+\_\+get\+\_\+bool(), co\+\_\+response\+\_\+get\+\_\+int(), co\+\_\+response\+\_\+get\+\_\+str(), and co\+\_\+response\+\_\+get\+\_\+uint().
+
+
+\begin{DoxyCode}
+242 \{
+243   CHECK(response != NULL && IS\_TREE(response), \textcolor{stringliteral}{"Invalid response object."});
+244   CHECK(key != NULL && klen > 0, \textcolor{stringliteral}{"Invalid key."});
+245   \textcolor{keywordflow}{return} \hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(response, key, klen);
+246 error:
+247   \textcolor{keywordflow}{return} NULL;
+248 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a158bba09ff47e43a4fa1990190d876f0}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+get\+\_\+bin@{co\+\_\+response\+\_\+get\+\_\+bin}}
+\index{co\+\_\+response\+\_\+get\+\_\+bin@{co\+\_\+response\+\_\+get\+\_\+bin}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+get\+\_\+bin}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t co\+\_\+response\+\_\+get\+\_\+bin (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response, }
+\item[{char $\ast$$\ast$}]{output, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a158bba09ff47e43a4fa1990190d876f0}
+
+
+retrieve byte array from response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+{\em output} & pointer to output buffer \\
+\hline
+{\em key} & identifier for response element to retrieve \\
+\hline
+{\em klen} & length of key name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+response\+\_\+get().
+
+
+\begin{DoxyCode}
+263 \{
+264   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = \hyperlink{commotion_8c_a2786604bc03966bb33cf04f7e657a782}{co\_response\_get}(response, key, klen);
+265   CHECK(obj != NULL, \textcolor{stringliteral}{"Response value %s does not exist."}, key);
+266   CHECK(IS\_BIN(obj), \textcolor{stringliteral}{"Value %s is not a binary."}, key);
+267   \textcolor{keywordflow}{return} co\_obj\_data(output, obj);
+268   error:
+269   \textcolor{keywordflow}{return} -1;
+270 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a6f18b855765405def83b9848780306af}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+get\+\_\+bool@{co\+\_\+response\+\_\+get\+\_\+bool}}
+\index{co\+\_\+response\+\_\+get\+\_\+bool@{co\+\_\+response\+\_\+get\+\_\+bool}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+get\+\_\+bool}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+response\+\_\+get\+\_\+bool (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response, }
+\item[{bool $\ast$}]{output, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a6f18b855765405def83b9848780306af}
+
+
+retrieve bool from response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+{\em output} & pointer to output buffer \\
+\hline
+{\em key} & identifier for response element to retrieve \\
+\hline
+{\em klen} & length of key name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+response\+\_\+get().
+
+
+\begin{DoxyCode}
+331                                                                                            \{
+332   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = \hyperlink{commotion_8c_a2786604bc03966bb33cf04f7e657a782}{co\_response\_get}(response, key, klen);
+333   CHECK(obj != NULL, \textcolor{stringliteral}{"Response value %s does not exist."}, key);
+334   \textcolor{keywordflow}{switch}(CO\_TYPE(obj))
+335   \{
+336     \textcolor{keywordflow}{case} \_false:
+337       *output = \textcolor{keyword}{false};
+338       \textcolor{keywordflow}{break};
+339     \textcolor{keywordflow}{case} \_true:
+340       *output = \textcolor{keyword}{true};
+341       \textcolor{keywordflow}{break};
+342     \textcolor{keywordflow}{default}:
+343       SENTINEL(\textcolor{stringliteral}{"Not a boolean."});
+344       \textcolor{keywordflow}{break};
+345   \}
+346   \textcolor{keywordflow}{return} 1;
+347   
+348   error:
+349   \textcolor{keywordflow}{return} 0;
+350 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_ad2eae733dd03f3c1106459fb68b5cbf5}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+get\+\_\+int@{co\+\_\+response\+\_\+get\+\_\+int}}
+\index{co\+\_\+response\+\_\+get\+\_\+int@{co\+\_\+response\+\_\+get\+\_\+int}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+get\+\_\+int}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+response\+\_\+get\+\_\+int (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response, }
+\item[{signed long $\ast$}]{output, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_ad2eae733dd03f3c1106459fb68b5cbf5}
+
+
+retrieve signed int from response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+{\em output} & pointer to output buffer \\
+\hline
+{\em key} & identifier for response element to retrieve \\
+\hline
+{\em klen} & length of key name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+response\+\_\+get().
+
+
+\begin{DoxyCode}
+303 \{
+304   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = \hyperlink{commotion_8c_a2786604bc03966bb33cf04f7e657a782}{co\_response\_get}(response, key, klen);
+305   CHECK(obj != NULL, \textcolor{stringliteral}{"Response value %s does not exist."}, key);
+306   \textcolor{keywordflow}{switch}(CO\_TYPE(obj))
+307   \{
+308     \textcolor{keywordflow}{case} \_int8:
+309       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_int8\_t *)obj)->data);
+310       \textcolor{keywordflow}{break};
+311     \textcolor{keywordflow}{case} \_int16:
+312       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_int16\_t *)obj)->data);
+313       \textcolor{keywordflow}{break};
+314     \textcolor{keywordflow}{case} \_int32:
+315       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_int32\_t *)obj)->data);
+316       \textcolor{keywordflow}{break};
+317     \textcolor{keywordflow}{case} \_int64:
+318       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_int64\_t *)obj)->data);
+319       \textcolor{keywordflow}{break};
+320     \textcolor{keywordflow}{default}:
+321       SENTINEL(\textcolor{stringliteral}{"Not an unsigned integer."});
+322       \textcolor{keywordflow}{break};
+323   \}
+324   \textcolor{keywordflow}{return} 1;
+325 
+326 error:
+327   \textcolor{keywordflow}{return} 0;
+328 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a00254dbe1b85167014324c5af5f3efcb}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+get\+\_\+str@{co\+\_\+response\+\_\+get\+\_\+str}}
+\index{co\+\_\+response\+\_\+get\+\_\+str@{co\+\_\+response\+\_\+get\+\_\+str}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+get\+\_\+str}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t co\+\_\+response\+\_\+get\+\_\+str (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response, }
+\item[{char $\ast$$\ast$}]{output, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a00254dbe1b85167014324c5af5f3efcb}
+
+
+retrieve string from response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+{\em output} & pointer to output buffer \\
+\hline
+{\em key} & identifier for response element to retrieve \\
+\hline
+{\em klen} & length of key name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+response\+\_\+get().
+
+
+\begin{DoxyCode}
+252 \{
+253   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = \hyperlink{commotion_8c_a2786604bc03966bb33cf04f7e657a782}{co\_response\_get}(response, key, klen);
+254   CHECK(obj != NULL, \textcolor{stringliteral}{"Response value %s does not exist."}, key);
+255   CHECK(IS\_STR(obj), \textcolor{stringliteral}{"Value %s is not a string."}, key);
+256   \textcolor{keywordflow}{return} co\_obj\_data(output, obj);
+257 error:
+258   \textcolor{keywordflow}{return} -1;
+259 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a505d9dc2329f1544098985fa452fcac5}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+get\+\_\+uint@{co\+\_\+response\+\_\+get\+\_\+uint}}
+\index{co\+\_\+response\+\_\+get\+\_\+uint@{co\+\_\+response\+\_\+get\+\_\+uint}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+get\+\_\+uint}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+response\+\_\+get\+\_\+uint (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response, }
+\item[{unsigned long $\ast$}]{output, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a505d9dc2329f1544098985fa452fcac5}
+
+
+retrieve unsigned int from response 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+{\em output} & pointer to output buffer \\
+\hline
+{\em key} & identifier for response element to retrieve \\
+\hline
+{\em klen} & length of key name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+response\+\_\+get().
+
+
+\begin{DoxyCode}
+274 \{
+275   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = \hyperlink{commotion_8c_a2786604bc03966bb33cf04f7e657a782}{co\_response\_get}(response, key, klen);
+276   CHECK(obj != NULL, \textcolor{stringliteral}{"Response value %s does not exist."}, key);
+277   \textcolor{keywordflow}{switch}(CO\_TYPE(obj))
+278   \{
+279     \textcolor{keywordflow}{case} \_uint8:
+280       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_uint8\_t *)obj)->data);
+281       \textcolor{keywordflow}{break};
+282     \textcolor{keywordflow}{case} \_uint16:
+283       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_uint16\_t *)obj)->data);
+284       \textcolor{keywordflow}{break};
+285     \textcolor{keywordflow}{case} \_uint32:
+286       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_uint32\_t *)obj)->data);
+287       \textcolor{keywordflow}{break};
+288     \textcolor{keywordflow}{case} \_uint64:
+289       *output = (\textcolor{keywordtype}{unsigned} long)(((co\_uint64\_t *)obj)->data);
+290       \textcolor{keywordflow}{break};
+291     \textcolor{keywordflow}{default}:
+292       SENTINEL(\textcolor{stringliteral}{"Not an unsigned integer."});
+293       \textcolor{keywordflow}{break};
+294   \}
+295   \textcolor{keywordflow}{return} 1;
+296 
+297 error:
+298   \textcolor{keywordflow}{return} 0;
+299 \}
+\end{DoxyCode}
+\hypertarget{commotion_8h_a40b16d46e144baebcdf884dfd7f10bb7}{\index{commotion.\+h@{commotion.\+h}!co\+\_\+response\+\_\+print@{co\+\_\+response\+\_\+print}}
+\index{co\+\_\+response\+\_\+print@{co\+\_\+response\+\_\+print}!commotion.\+h@{commotion.\+h}}
+\subsubsection[{co\+\_\+response\+\_\+print}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+response\+\_\+print (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{response}
+\end{DoxyParamCaption}
+)}}\label{commotion_8h_a40b16d46e144baebcdf884dfd7f10bb7}
+
+
+print response object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & pointer to response object \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+print().
+
+
+\begin{DoxyCode}
+354 \{
+355   CHECK(response != NULL && IS\_TREE(response), \textcolor{stringliteral}{"Invalid response object."});
+356   \textcolor{keywordflow}{return} \hyperlink{tree_8c_a9c1930bf91267d4163412121eb46cec1}{co\_tree\_print}(response);
+357 error:
+358   \textcolor{keywordflow}{return} 0;
+359 \}
+\end{DoxyCode}
