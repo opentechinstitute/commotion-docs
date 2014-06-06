@@ -40,6 +40,7 @@ Paper</p>
 <p>As a group or within small groups, write a list of skills that will be necessary to plan, build and maintain your wireless network. Think about the skills needed to do tasks such as making flyers, flashing routers, mounting hardware, connecting electricity to rooftops, buying equipment, and finding other community members that would like to be involved.</p>
 
 <p>Next, think of the different skills you know exist within the community and how those skills might benefit the network. For example, an artist can help make flyers or create art where there are wireless nodes, and a carpenter can help make hardware mounts for different locations. Add those community skills to the list.</p>
+<p class="tip"> Try to engage any local amateur (HAM) radio operators. When it comes to running cable and mounting antennas, they will likely have experience and tools, as well as typically a strong sense of community service.</p>
 </section>
 
 <section id="lesson">

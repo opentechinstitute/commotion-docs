@@ -86,9 +86,9 @@ lang: en
 
 <p>Anchor mounting kits are sometimes available at local hardware or electronics stores as well as online. Normally these kits only include the parts for the anchor. You will also need something to attach the router to, such as a piece of electrical conduit, a pipe or a mast. A local hardware store should be able to help with this. You will only need about 4 to 5 feet of mast, but make sure it is painted or galvanized so it does not rust.</p>
 
-<p>You must be able to drill holes into the chimney or wall to use this method, and you should place plastic or lead sleeve anchors in the holes. Sets of these are usually available from the hardware store. You can then screw in the mounting brackets, and the anchors will hold them in the brick. Use two brackets, as just one isn't strong enough. Attach the pipe or mast to the brackets, and attach the wireless router to the pipe.</p>
+<p>You must be able to drill holes into the chimney or wall to use this method, and you should place plastic or lead sleeve anchors in the holes (lead sleeve anchors are preferrable as they are less likely to slip out of the drilled holes). Sets of these are usually available from the hardware store. You can then screw in the mounting brackets, and the anchors will hold them in the brick. Use two brackets, as just one isn't strong enough. Attach the pipe or mast to the brackets, and attach the wireless router to the pipe.</p>
 
-<p class="tip">Use two brackets, spaced about 10-12 inches apart, to fasten your mount to the chimney or wall.</p>
+<p class="tip"> Use two brackets, spaced about 10-12 inches apart, to fasten your mount to the chimney or wall.</p>
 
 <h3>Vent Mount</h3>
 
