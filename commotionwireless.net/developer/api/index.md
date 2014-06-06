@@ -15,7 +15,7 @@ Since our project is spread out over a number of [code repositories](https://git
 
 This section of the site is largely generated out of the Commotion source code itself.
 
-For now, there is only [commotiond](commotiond) and [commotion-client](commotion-client) documentation.
+For now, there is only [commotiond](commotiond/html) and [commotion-client](commotion-client/html) documentation.
 
 
 
