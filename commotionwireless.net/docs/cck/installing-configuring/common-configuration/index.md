@@ -89,7 +89,12 @@ lang: en
 	<li>Follow the steps above on the second node as well. Make sure when you set the IP that you set it to a different address in the same subnet you configured above. In the example given, you could set the address to 172.16.100.2..</li>
 </ol>
 
-<p><img alt="Additional illustration of two wireless nodes meshed over an Ethernet connection, shows two directional nodes back-to-back." class="half-width" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" /></p>
+<p><img alt="Additional illustration of two wireless nodes meshed over an Ethernet connection, shows two directional nodes back-to-back." class="half-width" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" /><br />
+**Note:** Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+
+  1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
+  2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or make your own from metal building studs.
+</p>
 </section>
 
 <section id="”commotion-node-connected-to-a-home-or-business-router”">
@@ -148,7 +153,12 @@ lang: en
 	<li><strong>(5)</strong> Represents an optional indoor Access Point for users to connect laptops, phones or other devices.</li>
 </ul>
 
-<p><img alt="Illustration of Commotion nodes connected through a switch or router" class="half-width" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" /> </p>
+<p><img alt="Illustration of Commotion nodes connected through a switch or router" class="half-width" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" /><br />
+**Note:** Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+
+  1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
+  2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or make your own from metal building studs.
+ </p>
 
 <p><strong>This should work automatically without further configuration.</strong></p>
 
@@ -177,7 +187,12 @@ lang: en
 	<li><strong>(4)</strong> Represents an indoor Access Point for users to connect laptops, phones or other devices.</li>
 </ul>
 
-<p><img alt="Illustration of Commotion nodes and a client Access Point connected through a switch" class="half-width" src="/files/CCK_CommonConfigs_CommotionClientAP.png" /></p>
+<p><img alt="Illustration of Commotion nodes and a client Access Point connected through a switch" class="half-width" src="/files/CCK_CommonConfigs_CommotionClientAP.png" /><br />
+**Note:** Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+
+  1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
+  2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or make your own from metal building studs.
+</p>
 
 <p><strong>Steps to Configure for Commotion Devices:</strong></p>
 

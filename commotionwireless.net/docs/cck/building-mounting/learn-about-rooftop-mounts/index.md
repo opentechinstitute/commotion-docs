@@ -147,23 +147,15 @@ lang: en
 <dl>
 	<dt>Eaves</dt>
 	<dd>the overhanging lower edge of a roof.</dd>
-	<dt>Eaves</dt>
-	<dd>the overhanging lower edge of a roof.</dd>
-	<dt>Eaves</dt>
-	<dd>the overhanging lower edge of a roof.</dd>
 </dl>
 </section>
 
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<<<<<<< HEAD
 <h3>OPTIONAL MODULES</h3>
 
 <p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>. <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
-=======
-<p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="#">Prep, Install and Finish</a> (coming soon). <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
->>>>>>> ea89c6ca56d9a158c3f21ecca774327bf43088e2
 </section>
 
 <section class="external-resources" id="external-resources">
