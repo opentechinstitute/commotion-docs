@@ -1,16 +1,17 @@
 ---
 layout: blog
-title: Commotion Pi: Build an RPi MESH Node
+title: "Commotion Pi: Build an RPi MESH Node"
 categories: [Raspberry Pi, mesh, developement, guest post]
 created: 2014-06-12
 changed: 2014-06-12
 post_author: Joshua Besneatte
+teaser_image: posts/rpi.png
 lang: en
 ---
 
-**Editors note: This is a community post which originally appeared [here](http://besneatte.blogspot.com/2014/05/commotion-pi-build-rpi-mesh-node.html). If you are writing about working with Commotion [let us know](http://lists.chambana.net/mailman/listinfo/commotion-dev)!!**
+**Editors note: This is a community post which originally appeared [here](http://besneatte.blogspot.com/2014/05/commotion-pi-build-rpi-mesh-node.html). If you are writing about working with Commotion [let us know](http://lists.chambana.net/mailman/listinfo/commotion-dev), we are happy to repost and share what folks are doing with Commotion!!**
 
-We'll begin with assuming you have a Raspberry Pi up and running with Raspbian installed, latest firmware (rpi-update), a working understanding of the command line and an internet connection. I am installing on a headless RPi Rev.A and all configuration will be done from the command line via a console cable.&nbsp; I also like to run all my processes using the application "screen" so I can (re)connect to it from elsewhere if needed. SSH will work until you mesh, then you can only ssh from within the mesh.
+We'll begin with assuming you have a Raspberry Pi up and running with Raspbian installed, latest firmware (rpi-update), a working understanding of the command line and an internet connection. I am installing on a headless RPi Rev.A and all configuration will be done from the command line via a console cable. I also like to run all my processes using the application "screen" so I can (re)connect to it from elsewhere if needed. SSH will work until you mesh, then you can only ssh from within the mesh.<!--more-->
 
 Also, you will need a compatible wifi interface. I used the panda usb dongle with antenna:
 
