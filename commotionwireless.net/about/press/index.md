@@ -29,8 +29,7 @@ Media Relations Associate<br />
 <h3>Logos &amp; Images</h3>
 
 <ul>
-	<li>Commotion Logo (<a href="/media/206">large .svg</a> | <a href="/media/207">small .svg</a>)</li>
-	<li>Open Technology Institute (<a href="/media/204">color</a> | <a href="/media/205">black/white</a>)</li>
+	<li>Commotion Logo (<a href="/files/commotion-logo.svg">large .svg</a>)</li>
 </ul>
 
 <h3>Video</h3>
