@@ -8,7 +8,7 @@ teaser_image: commotion_logo_100x100.png
 post_author: Josh King
 lang: en
 ---
-We are excited to announce the second release candidate for our v1.1 bugfix release for our Commotion Router firmware. It includes the following fixes since v1.1rc1:<!--more-->
+We are excited to announce the second release candidate for our Commotion Router firmware bugfix release v1.1. The following fixes have been added since v1.1rc1:<!--more-->
 
 ### Bugfixes:
 <ul>
