@@ -3,59 +3,77 @@ layout: cck
 title: Learn Wireless Basics
 site_section: help
 sub_section: [cck,cck-networking]
-pdf: cck/networking/1-Learn_Networking_Basics.pdf
-pdf-all: true
-categories: 
-created: 2013-11-07
-changed: 2013-11-26
-post_author: critzo
+pdf: cck/networking/1-Learn_Wireless_Basics.pdf
+pdf-all: false
+categories: Networking, Wireless, CCK
+created: 2014-06-13
+changed: 2014-06-13
+post_author: Andy Gunn
 lang: en
 ---
 <section id="introduction">
-<p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" /></p>
+<p><img alt="Learn Wireless Basics graphic" src="/files/CCK_WirelessBasics_intro_graphic.png" /></p>
 
 <h2>Introduction</h2>
 
-<p>This document covers the basics of how networking works, and how to use different devices to build networks. Computer networking has existed for many years, and as time has passed the technologies have become faster and less expensive. Networks are made up of various devices—computers, switches, routers—connected together by cables or wireless signals. Understanding the basics of how networks are put together is an important step in building a wireless network in a community or neighborhood.</p>
+<p>This document covers the basics of how wireless technology works, and how it is used to create networks. Wireless technology is used in many types of communication. We use it for networking because it is cheaper and more flexible than running cables. While wireless networks can be just as fast and powerful as wired networks, they do have some drawbacks.
+</p>
+<p>
+Reading and working through <a href="/docs/cck/learn-networking-basics/">Learn Networking Basics</a> before this document will help you with some of the concepts used in wireless networks.
+</p>
 
-<p>This module covers the concepts of:</p>
+<p>In addition to some background information, this document covers six basic concepts:</p>
 
 <ol class="rteindent1">
-	<li>Clients and servers—how services such as e-mail and web pages connect using networks.</li>
-	<li>IP addresses—how devices on a network can be found.</li>
-	<li>Network hubs, switches and cables—the hardware building blocks of any network.</li>
-	<li>Routers and firewalls—how to organize and control the flow of traffic on a network.</li>
+	<li>Wireless signals - what they are and how signals can differ.</li>
+	<li>Wireless devices - the differences and uses for receivers and transmitters.</li>
+	<li>Wi-Fi Modes - how networks are made up of clients, access points, or ad-hoc devices.</li>
+	<li>Wi-Fi Signals - the unique characteristics of Wi-Fi, and how signals are organized.</li>
+	<li>Power and Receiver sensitivity - how far each wireless device can go, and how well a router can listen and filter out interference and noise.</li>
+	<li>Antennas - how the type of antenna changes the way the router broadcasts.</li>
 </ol>
 
-<p>Reading through this material should take between half an hour to an hour. Exploring the activities and details of the subject with a group will take longer.</p>
+<p>Reading through this material should take about an hour. Working through the activities, or diving deeper into the subject with a group may take longer.</p>
 </section>
 
-<section id="clients-and-servers">
-<h2>Clients and Servers</h2>
+<section id="what-is-a-wireless-signal">
+<h2>What is a wireless signal?</h2>
 
-<p>An important relationship on networks is that of the <strong>server</strong> and the <strong>client</strong>. A server is a computer that holds content and services such as a website, a media file, or a chat application. A good example of a server is the computer that holds the website for Google’s search page: <a href="http://www.google.com"><strong>http://www.google.com</strong></a>. The server holds that page, and sends it out when requested.</p>
+<p>
+<img alt="Signals" src="/files/CCK_WirelessBasics_Signals.png" width="510" />
+</p>
+<p>
+Wireless signals are important because they can transfer information -- audio, video, our voices, data -- without the use of wires, and that makes them very useful.
+</p>
+<p>
+Wireless signals are <strong>electromagnetic waves</strong> travelling through the air. These are formed when electric energy travels through a piece of metal -- for example a wire or antenna -- and waves are formed around that piece of metal. These waves can travel some distance depending on the strength of that energy.
+</p>
+<p>
+For more on how electromagnetic signals work, check the #External Resources section at the end of this document.
+</p>
+</section>
 
-<p>A client is a different computer, such as your laptop or cell phone, that requests to view, download, or use the content. The client can connect over a network to exchange information. For instance, when you request Google’s search page with your web browser, your computer is the client.</p>
+<section id="types-of-wireless-signals">
+<h2>Types of Wireless Signals</h2>
+<p>
+There are many, many types of wireless technologies. You may be familiar with AM and FM radio, Television, Cellular phones, Wi-Fi, Satellite signals such as GPS and television, two-way radio, and Bluetooth. These are some of the most common signals, but what makes them different?
+</p>
 
-<p>In the example below, two computers are connected together with an Ethernet cable. These computers are able to see each other and communicate over the cable. The client computer asks for a website from the server computer. The website is delivered from the server, and displayed on the client’s web browser.</p>
+<table style="width:510px">
+<tr>
+<td><img alt="Radio" src="/files/CCK_WirelessBasics_wireless_icon_radio.png" width="100" /></td>
+<td><img alt="TV" src="/files/CCK_WirelessBasics_wireless_icon_tv.png" width="100" /></td>
+<td><img alt="Phone" src="/files/CCK_WirelessBasics_wireless_icon_cell.png" width="100" /></td>
+<td><img alt="Satellite" src="/files/CCK_WirelessBasics_wireless_icon_satellite.png" width="100" /></td>
+<td><img alt="Laptop" src="/files/CCK_WirelessBasics_wireless_icon_WiFi.png" width="100" /></td>
+</tr>
+</table>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510" /></p>
+</section>
 
-<p>Most requests and content delivery on networks are similar to, or are based on, a client to server relationship. On a network, the server can be located almost anywhere, and if the client has the address, it can access the content on the server.</p>
+<section id="types-of-wireless-signals">
+<h2>Types of Wireless Signals</h2>
 
-<p><strong>Activity:</strong> What is one real world example of a client and server relationship:</p>
-
-<pre>
-
-
-Client: _________________
-
-
-Server:_________________</pre>
-
-<p class="rteindent1"><em>Example:<br />
-client: radio receiver in your car<br />
-server: radio station</em></p>
 </section>
 
 <section id="ip-addresses">
@@ -182,5 +200,19 @@ and write down the IP address it reports: ____________________
 <h2>Related Information</h2>
 
 <p>This module is intended to provide some helpful background on networking. We recommend reading the upcoming (but not finished!) Learn about Wireless after this guide.</p>
+</section>
+
+<section class="external-resources" id="section-external-resources">
+<h2>External Resources</h2>
+
+<p>
+If you are interested in learning more about Wi-Fi and wireless technology, there is a lot of information out there. Good books to read for background and more information include How Radio Signals Work by Sinclair (ISBN 0070580588), and 802.11 Wireless Networks: The Definitive Guide by Gast (ISBN 0596100523).
+</p>
+<p>
+There are also excellent documents on Wikipedia about <a href="http://en.wikipedia.org/wiki/Wi-Fi" target="_blank">Wi-Fi</a> and <a href="http://en.wikipedia.org/wiki/Wireless" target="_blank">wireless signals</a>. Similarly, an Internet search will most likely answer any questions you can think of, as wireless is a very popular technology.
+</p>
+<p>
+For more information on what frequencies are available in your country or regulatory area, please see this article on Wikipedia on <a href="http://en.wikipedia.org/wiki/List_of_WLAN_channels" target="_blank">wireless channels</a>.
+</p>
 </section>
  
