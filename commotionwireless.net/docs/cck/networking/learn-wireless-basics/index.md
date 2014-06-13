@@ -60,121 +60,340 @@ There are many, many types of wireless technologies. You may be familiar with AM
 </p>
 
 <table style="width:510px">
+	<tr>
+		<td><img alt="Radio" src="/files/CCK_WirelessBasics_wireless_icon_radio.png" width="100" /></td>
+		<td><img alt="TV" src="/files/CCK_WirelessBasics_wireless_icon_tv.png" width="100" /></td>
+		<td><img alt="Phone" src="/files/CCK_WirelessBasics_wireless_icon_cell.png" width="100" /></td>
+		<td><img alt="Satellite" src="/files/CCK_WirelessBasics_wireless_icon_satellite.png" width="100" /></td>
+		<td><img alt="Laptop" src="/files/CCK_WirelessBasics_wireless_icon_WiFi.png" width="100" /></td>
+	</tr>
+</table>
+
+</section>
+
+<section id="frequency">
+<h3>Frequency</h3>
+
+<p>
+First of all, wireless signals occupy a spectrum, or wide range, of frequencies: the rate at which a signal vibrates. If the signal vibrates very slowly, it has a low frequency. If the signal vibrates very quickly, it has a high frequency. Frequency is measured in Hertz, which is the count of how quickly a signal changes every second. As an example, FM radio signals vibrate around 100 million times every second! Since communications signals are often very high in frequency, we abbreviate the measurements for the frequencies - millions of vibrations a second is Megahertz (MHz), and billions of vibrations a second is Gigahertz (GHz). One thousand Megahertz is one Gigahertz.
+</p>
+
+<table style="color:#E0FFFF;">
 <tr>
-<td><img alt="Radio" src="/files/CCK_WirelessBasics_wireless_icon_radio.png" width="100" /></td>
-<td><img alt="TV" src="/files/CCK_WirelessBasics_wireless_icon_tv.png" width="100" /></td>
-<td><img alt="Phone" src="/files/CCK_WirelessBasics_wireless_icon_cell.png" width="100" /></td>
-<td><img alt="Satellite" src="/files/CCK_WirelessBasics_wireless_icon_satellite.png" width="100" /></td>
-<td><img alt="Laptop" src="/files/CCK_WirelessBasics_wireless_icon_WiFi.png" width="100" /></td>
+<td>
+<strong>Example Frequency Ranges</strong>
+<p>
+Below we can see the span of frequencies that are commonly used in communications. Broadcast transmitters for AM, FM and Television use frequencies below 1000 MHz, Wi-Fi uses two bands at higher frequencies - 2.4 and 5GHz. Cellular phones use many different frequencies.
+</p>
+<p>
+<img alt="Wireless spectrum" src="/files/CCK_WirelessBasics_Channels_spectrum.png" width="510" />
+</p>
+<p>
+<ol class="rteindent1">
+	<li>The frequencies from left to right:</li>
+	<li>AM Radio: Around 10MHz</li>
+	<li>FM Radio: Around 100MHz</li>
+	<li>Television: Many frequencies from 470MHz to 800MHz, and others.</li>
+	<li>Cellular phones: 850MHz, 1900MHz, and others</li>
+	<li>Wi-Fi: 2.4GHz</li>
+	<li>Satellite: 3.5GHz</li>
+	<li>Wi-Fi: 5GHz</li>
+</ol>
+</p>
+</td>
 </tr>
 </table>
 
 </section>
 
-<section id="types-of-wireless-signals">
-<h2>Types of Wireless Signals</h2>
+<section id="modulation">
+<h3>Modulation</h3>
 
-</section>
-
-<section id="ip-addresses">
-<h2>IP Addresses</h2>
-
-<p>In order to send and direct data across a network, computers need to be able to identify destinations and origins. This identification is an IP—Internet Protocol—address. An <strong>IP address</strong> is just a set of four numbers between 1 and 254, separated by dots. An example of an IP address is <strong>173.194.43.7</strong>.</p>
-
-<p>An IP address is similar to a street address. Parts of the address describe where in the world the building is located, another part narrows it down to a state or city, then the area within that state or city, then the location on the street.</p>
-
-<p>Below we can see <strong>192.168.1 Street</strong>. On it are three houses:</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__627 img__view_mode__media_original attr__format__media_original" height="189" src="/files/CCK_Networking_Basics_IP_address_street.png" typeof="foaf:Image" width="510" /></p>
-
-<p>The complete addresses for each of these houses is: 192.168.1.<strong>20</strong>, 192.168.1.<strong>21</strong>, and 192.168.1.<strong>22</strong>.</p>
-
-<p>There are different classifications, or types of IP addresses. A network can be public, or it can be private. Public IP addresses are accessible anywhere on the Internet. Private IP addresses are not, and most are typically hidden behind a device with a public IP address.</p>
-
-<p>Here we can see an example—a street with two buildings with <strong>public IP addresses</strong>—representing computers with addresses that are visible to the entire Internet. These buildings might be anywhere in the world, but their addresses are complete, so we know exactly where they are and can send messages to them.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__628 img__view_mode__media_original attr__format__media_original" height="218" src="/files/CCK_Networking_Basics_IP_address_public.png" typeof="foaf:Image" width="510" /></p>
-
-<p>To see an example of how public and private IP addresses are commonly used, let’s take another look at <strong>192.168.1 Street</strong>. We have a new building on the street. That building has a public IP address, and a private IP address. There is also a fence that blocks the rest of the Internet from seeing and passing messages to addresses on the street.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
-
-<p>The postal building controls messages that travel between the Internet and the street, keeping track of messages that leave the street, and directs return messages to the right house. On the street, it has the address <strong>192.168.1.1</strong>, and on the Internet it has the address <strong>74.10.10.50</strong>.</p>
-
-<p><strong>Activity:</strong> Find the IP addresses assigned to your computer, and your network.</p>
-
-<pre>
-
-
-What is the IP address for your computer? ____________________
-
-
-Browse to <a href="http://ip.mayfirst.org"><strong>http://ip.mayfirst.org/</strong></a> 
-and write down the IP address it reports: ____________________
-</pre>
-
-<p>Are these numbers the same, or different? Why?</p>
-</section>
-
-<section id="network-hubs-and-switches">
-<h2>Network Hubs and Switches</h2>
-
-<p>Traditionally, computers are connected to each other using cables—creating a network. The cable used most often is Ethernet, which consists of four pairs of wires inside of a plastic jacket. It is physically similar to phone cables, but can transport much more data.</p>
-
-<p>But cables and computers alone do not make a good network, so one early solution was to use a network <strong>hub</strong>. The Ethernet cables from the computer connect to the device similar to the hub of a bike wheel—where all of the spokes come together in the center.</p>
-
-<p>An example of how a hub works is shown below. Computer <strong>A</strong> wants to send a message to computer <strong>B</strong>. It sends the message through the Ethernet cable to the hub, then the hub repeats the message to all of the connected computers.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__630 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_hub.png" typeof="foaf:Image" width="510" /></p>
-
-<p>A network using a hub can slow down if many computers are sending messages, since they may try and send messages at the same time and confuse the hub. To help with this problem, networks began to use another device called a <strong>switch</strong>. Instead of repeating all messages that come in, a switch only sends the message to the intended destination. This eliminates the unnecessary repetition of the hub.</p>
-
-<p>Using a switch, computer <strong>A</strong> sends a message to computer <strong>B</strong>—the other computers do not see the message. Those computers can send other messages at the same time without interfering.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__631 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_switch.png" typeof="foaf:Image" width="510" /></p>
-
-<p>Switches do have a limitation though—they only know about the addresses of equipment that is plugged directly into them. So, you can only send messages to a small number of devices—however many ports the switch has! If you need to send a message to a computer on another network, it will need to be sent through a router, which we discuss next.</p>
-</section>
-
-<section id="routers-and-firewalls">
-<h2>Routers and Firewalls</h2>
-
-<p><strong>Routers</strong> do the majority of the hard work on a network - they make the decisions about all the messages that travel on the network, and whether to pass messages to and from outside networks. There are three main functions:</p>
-
-<table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__632 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_1.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
-			<td>
-			<p><strong>Separate and Bridge</strong></p>
-
-			<p>Routers separate networks into sections, or bridge different networks together, as we see in the example above—the private network of 192.168.1 Street is bridged to the Internet with a public IP address.</p>
-			</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__633 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_2.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
-			<td>
-			<p><strong>Assign IPs</strong></p>
-
-			<p>They can assign IP addresses. In the example of 192.168.1 Street, if a new house is built on the street, it would get whatever the next highest house number available. In the case of routers, they assign IP addresses using DHCP—Dynamic Host Configuration Protocol.</p>
-			</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__634 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_3.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
-			<td>
-			<p><strong>Firewall and Protect</strong></p>
-
-			<p>They can filter messages or keep users out of private networks. Most routers have a Firewall built in. This is a software function that keeps unwanted messages from reaching the computers on the inside, or private part, of the network.</p>
-			</td>
-		</tr>
-	</tbody>
+<p>
+In addition to having different frequencies, wireless signals can be different in the way they convey information. A wireless signal needs to be modulated--or changed--to send information. There are many types of modulation, and different technologies can use one or more types to send and receive information. In the two examples below -- AM and FM radio -- the M stands for modulation. The type of modulation is what makes them different.
+</p>
+<p>
+<strong>Example one: AM radio.</strong> The A in AM comes from Amplitude - the energy or strength of the signal, operating at a single frequency. An un-modulated AM wave might look like:<br/>
+<img alt="Unmodulated wave" src="/files/CCK_WirelessBasics_Wave1.png" width="510" />
+</p>
+<p>
+And a modulated AM radio wave has higher and lower energy (amplitude) waves indicating higher and lower audio frequencies in the signal:<br/>
+<img alt="Amplitude modulated wave" src="/files/CCK_WirelessBasics_Wave2.png" width="510" />
+</p>
+<p>
+From left to right, we have the normal, un-modulated wave, then the lower amplitude wave (representing low points in audio waves), then the higher amplitude wave (representing crests or high points in audio waves).
+</p>
+<p>
+A more detailed version of an AM signal is below:<br/>
+<img alt="Detailed AM wave" src="/files/CCK_WirelessBasics_Wave3.png" width="510" />
+</p>
+<p>
+The audio signal is the wave on the top, with the corresponding Amplitude Modulated wave below it.
+</p>
+<p>
+<strong>Example two: FM radio.</strong> The F in FM comes from Frequency - defined by how quickly the wave vibrates every second. An un-modulated FM wave might look like:<br/>
+<img alt="Unmodulated wave" src="/files/CCK_WirelessBasics_Wave1.png" width="510" />
+</p>
+<p>
+And a modulated FM radio wave has higher and lower frequencies indicating higher and lower audio frequencies in the signal:<br/>
+<img alt="Frequency modulated wave" src="/files/CCK_WirelessBasics_Wave4.png" width="510" />
+</p>
+<p>
+From left to right, we have the normal, un-modulated wave, then the lower frequency wave (representing lower audio amplitudes), then the higher frequency wave (representing higher audio amplitudes).
+</p>
+<p>
+The type of modulation various technologies use to communicate can be very different, and are often not compatible. Satellite equipment cannot speak directly to your laptop or smartphone, which uses Wi-Fi to send and receive information. This is because the radios in different devices can listen only to certain types of modulations and frequencies.
+</p>
+<p>
+<img alt="Radio" src="/files/CCK_WirelessBasics_wireless_icon_radio.png" width="100" style="float:right;margin:10px;"/> As an example, some broadcast radio receivers have a switch to select between AM and FM signals, for two reasons: they use different frequencies to transmit, and they use different modulation types. If you try and listen to an AM signal with a radio in FM mode, it won’t work. The opposite is also true - in AM mode, an FM signal doesn’t make sense to the receiver. It is important that transmitters and receivers use the same frequencies and modulation types to communicate.
+</p>
+<p>
+Devices in your daily life use many types of wireless signals. Look at the table below to see the various frequencies and types of modulation each uses:
+</p>
+<p>
+<table style="color:#E0FFFF;">
+	<tr>
+		<td>
+		<strong>Technology or device</strong>
+		</td>
+		<td>
+		<strong>Type of wireless signal</strong>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img alt="Radio" src="/files/CCK_WirelessBasics_wireless_icon_radio.png" width="100" />
+		</td>
+		<td>
+		<ol>
+			<li>Analog video - Amplitude modulated from 50MHz to 800MHz</li>
+			<li>Digital video - complex modulation from 200MHz to 800MHz</li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img alt="TV" src="/files/CCK_WirelessBasics_wireless_icon_tv.png" width="100" />
+		</td>
+		<td>
+		<ol>
+			<li>Voice - analog or digital modulation from 800MHz to 900MHz</li>
+			<li>3G, 4G or LTE - digital modulation from 1700MHz to 1900MHz and others</li>
+			<li>Bluetooth - digital modulation at 2400MHz</li>
+			<li>Walkie-talkie / two-way radio - analog AM, FM or digital modulation over many frequencies</li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img alt="Phone" src="/files/CCK_WirelessBasics_wireless_icon_cell.png" width="100" />
+		</td>
+		<td>
+		<ol>
+			<li>Many types of signals - voice, audio, video, data</li>
+			<li>Many modulation types - analog and digital</li>
+			<li>Many, many frequencies - 3400MHz, 5900MHz, 10.7GHz, 14.5GHz, 23GHz, and many others.</li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img alt="Satellite" src="/files/CCK_WirelessBasics_wireless_icon_satellite.png" width="100" />
+		</td>
+		<td>
+		<ol>
+			<li>Wi-Fi - digital modulation at 2400MHz or 5000 to 5800MHz.</li>
+			<li>Bluetooth - digital modulation at 2400MHz</li>
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img alt="Laptop" src="/files/CCK_WirelessBasics_wireless_icon_WiFi.png" width="100" />
+		</td>
+		<td>
+		<ol>
+			<li>AM Radio - AM modulation from 0.6MHz to 1.6MHz</li>
+			<li>FM Radio - FM modulation from 88MHz to 108MHz</li>
+		</ol>
+		</td>
+	</tr>
 </table>
+</p>
 
-<p>Let us take another look at 192.168.1 Street, and the postal service building we included when it had a public address for the entire street. As it turns out, that postal service building is acting as a <strong>Router</strong>.</p>
+<p>
+Nearly every device or technology uses a different wireless frequency and modulation. This means most devices can only understand a very specific kind of wireless signal.
+</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
+</section>
 
-<p>In this case, the postal service building is routing messages between the rest of the Internet using its public address and the street with private addresses.</p>
+<section id="receivers-and-transmitters">
+<h2>Receivers and Transmitters</h2>
+
+<p>
+When a device sends out a wireless signal, it is called a transmitter. When another device picks up that wireless signal and understands the information, it is called a receiver. In the case of FM radio, there is one transmitter--owned and operated by the radio station--and many receivers that people listen to the station with. When a device has both a transmitter and a receiver, it is sometimes called a transceiver. Devices such as routers can both transmit and receive, which is what makes them useful for building networks--you probably want to be able to send messages to your neighbors and out to the world, as well as receive messages!
+</p>
+<p>
+<strong>Quick Activity:</strong> What devices do you own or use frequently that are transmitters, receivers or transceivers? Fill in some examples below each type:
+</p>
+<p>
+<table style="color:#E0FFFF;text-align:center;">
+	<tr>
+		<td>
+		<strong>Transmitter</strong>
+		</td>
+		<td>
+		<strong>Receiver</strong>
+		</td>
+		<td>
+		<strong>Transceiver</strong>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img alt="Tower" src="/files/CCK_WirelessBasics_transmitter_icon.png" width="100" />
+		</td>
+		<td>
+		<img alt="Receiver" src="/files/CCK_WirelessBasics_receiver_icon.png" width="100" />
+		</td>
+		<td>
+		<img alt="Cell" src="/files/CCK_WirelessBasics_transceiver_icon.png" width="100" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<strong>Examples:</strong><br/><br/><br/><br/><br/>
+		</td>
+		<td>
+		<strong>Examples:</strong><br/><br/><br/><br/><br/>
+		</td>
+		<td>
+		<strong>Examples:</strong><br/><br/><br/><br/><br/>
+		</td>
+	</tr>
+</table>
+</p>
+<p>
+Do you use more transmitters, receivers, or transceivers throughout the day? What is different about the way you use each of these?
+</p>
+
+</section>
+
+<section id="wifi-signals">
+<h2>Wi-Fi Signals</h2>
+<p>
+When building a network, you will be using Wi-Fi technology, which has some unique characteristics you will need to know.
+</p>
+<p>
+There are two types of Wi-Fi signal, based on the frequencies they use:
+<ol>
+<li>2.4GHz - A lower frequency, this is the more common Wi-Fi technology in use today. Many devices use it, so the signals can become more crowded and interfere with each other. It can pass through walls and windows fairly well.</li>
+<li>5GHz - This higher frequency technology is used by fewer devices, and can sometimes achieve higher speeds because the frequencies are less crowded. It cannot pass through walls and windows as well as the 2.4GHz band signals, so the range of 5GHz technology is often shorter.<li>
+<ol>
+These two types of Wi-Fi are called the <strong>Frequency Bands</strong>, or just <strong>Bands</strong> for short.
+</p>
+<p>
+Each frequency band used in Wi-Fi is divided up into multiple channels. Each channel is similar to rooms at a party in a car - if one room is crowded it is hard to carry on a conversation. You can move to the next room, but that might get crowded as well. As soon as the building is full, it becomes difficult to carry on a conversation at the party.
+</p>
+<p>
+For the 2.4GHz band, there are 14 channels total. Unfortunately, these channels overlap, so they aren’t all usable at the same time. If you are setting up a mesh network -- all of the mesh links will need to be on the same channel.
+</p>
+<p>
+<img alt="2.4GHz channels" src="/files/CCK_WirelessBasics_Channels24.png" width="510" />
+</p>
+<p>
+The available channels vary depending on where you are in the world. For example, in the United States channels 12, 13 and 14 are not allowed for Wi-Fi, as those frequencies are used by TV and satellite services. If you are building networks in the United States, you can only use channels 1 through 11. In the rest of the world, channels 1 through 13 are generally usable, and in a few places channel 14 is available. Despite that, the best channels to set your 2.4GHz band equipment on are channels 1, 6, and 11. This will minimize interference caused by partially overlapping Wi-Fi signals:
+</p>
+<p>
+<img alt="2.4GHz channel interference" src="/files/CCK_WirelessBasics_Channels24_interference.png" width="510" />
+</p>
+<p>
+The 5GHz frequency band is much wider and has more channels, so the diagram is a bit more extensive. Fortunately, these channels do not overlap, so you don’t have to worry about picking non-standard channels like in the 2.4GHz band.
+</p>
+<p>
+<img alt="5GHz channels" src="/files/CCK_WirelessBasics_Channels5.png" width="510" />
+</p>
+<p>
+There are many more channels available in the 5GHz band, so it should be easier to select a channel in this band that doesn’t cause interference. This may not always be true -- more and more wireless equipment is starting to use the 5GHz 
+</p>
+<p>
+In the United States, only channels available for building mesh networks are 36, 40, 44, 48, 149, 153, 157, 161, and 165. There are other channels available for Access Points or other types of community networks, but those channels won’t work with mesh wireless. The best place to check what is allowed in your area is online. Links are provided in #External Resources at the end of this document.
+</p>
+<p>
+When setting up your wireless network, you will need to think about what frequency band to use, and what channel to use.
+</p>
+
+</section>
+
+<section id="power-receive-sensitivity">
+<h2>Power and Receiver Sensitivity</h2>
+
+<p>
+Many people want to know how far wireless signals will go. Knowing this is important for planning a network, as the power of the routers will affect the design of the network, and how much equipment is needed.
+</p>
+<p>
+Different Wi-Fi routers can have very different power levels. Some are much stronger: they have more speaking or transmitting power than others. Some are very good listeners: they have what is called a better receive sensitivity. These two elements define how well wireless devices will connect, and how far away a receiving Wi-Fi router can be.
+</p>
+<p>
+Manufacturers do not usually publish information about their router’s transmit power or receive sensitivity. Instead, the manufacturer will give a generic “range” rating to their routers, usually relative to each other. In some cases, usually with more business or professional oriented equipment you can find the information for transmit power and receive sensitivity.
+</p>
+<p>
+A router’s transmit power can be measured with two scales -- milliwatts (mW) or dBm:
+<ol>
+	<li>A milliwatt is one thousandth (that’s 1/1000) of a single watt - which is a generic measurement of power. For instance, a light bulb might be 40 watts. A router will have an output power of 100mW, which is 400 times less!</li>
+	<li>A dBm is a relative measurement using logarithms. One milliwatt is 0 dBm. 10 milliwatts is 10 dBm; 100 milliwatts is 20 dBm, and so on. This is the scale that many network designers use to calculate if longer wireless links will work.</li>
+</ol>
+</p>
+<p>
+A few examples of the transmit power levels in common Wi-Fi hardware is below:
+</p>
+<p>
+<strong>10mW (10dBm):</strong> Laptop or smartphone, or very low cost Wi-Fi router.<br/>
+<img alt="Low Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_laptop.png" width="198" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ 25 to 50 meters
+</p>
+<p>
+<strong>100mW (20dBm):</strong> Indoor home or office router.<br/>
+<img alt="Home router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_omni_router.png" width="319" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ 50 to 100 meters
+</p>
+<p>
+<strong>100mW (20dBm):</strong> Outdoor sector router.<br/>
+<img alt="Outdoor router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_sector_router.png" width="402" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ 5 to 10 kilometers
+</p>
+<p>
+<strong>500mW (1/2 Watt or 27dBm):</strong> Outdoor, long distance focused routers.<br/>
+<img alt="Long distance router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_focused_router.png" width="510" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ 10 to 20 kilometers or more
+</p>
+<p>
+Wireless transmitter power is only one half of the connection. The Wi-Fi receiver has a range of power levels it can hear--the “listen power” in the diagram above. This is also known as the <strong>receive sensitivity</strong>. The receive sensitivity values are generally rated in dBm, and are usually in the range of -40dBm to -80dBm. The negative number indicates a very small signal -- tiny fractions of a milliwatt.
+</p>
+<p>
+Below we have an example of two routers in relatively close range. They have a good connection because the signal strength between them is strong. <br/>
+<img alt="Wi-Fi routers - close" src="/files/CCK_WirelessBasics_RX_distance_close.png" width="400" />
+</p>
+<p>
+As a receiver moves away from a wireless router, the signal it hears will get “quieter” -- in other words, the power it receives will go down. Below, we can see the same routers, but with more distance between them. In this case, the routers have a weaker connection because the signal is near the limit of what the routers can hear. The speed between the routers will be less.<br/>
+<img alt="Wi-Fi routers - mid-range" src="/files/CCK_WirelessBasics_RX_distance_mid.png" width="400" />
+</p>
+<p>
+If the router moves too far away from the transmitter, it won’t be able to receive any signal, either due to the signal being too weak or other signals interfering, and the routers will disconnect. Below we can see the two routers have disconnected, as there isn’t enough signal.<br/>
+<img alt="Wi-Fi routers - far away" src="/files/CCK_WirelessBasics_RX_distance_far.png" width="510" />
+</p>
+<p>
+The optimal signal range for outdoor wireless equipment is between -40dBm and -60dBm. This will ensure the connection can maintain the highest bandwidth possible.
+</p>
+</section>
+
+<section id="antennas">
+<h2>Antennas</h2>
+<p>
+Wireless routers have different types of antennas. Some routers will have antennas built in, and sometimes the routers will have a choice of antenna you can attach to the router. There are many specific types of antennas, but three basic types are used most of the time, and will be useful in building a wireless network. The first type of antenna is also the most common--omnidirectional.
+</p>
+
+
 </section>
 
 <section id="section-definitions">
