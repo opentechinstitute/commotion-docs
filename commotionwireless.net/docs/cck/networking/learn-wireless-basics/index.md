@@ -344,8 +344,8 @@ Manufacturers do not usually publish information about their router’s transmit
 <p>
 A router’s transmit power can be measured with two scales -- milliwatts (mW) or dBm:
 <ol>
-	<li>A milliwatt is one thousandth (that’s 1/1000) of a single watt - which is a generic measurement of power. For instance, a light bulb might be 40 watts. A router will have an output power of 100mW, which is 400 times less!</li>
-	<li>A dBm is a relative measurement using logarithms. One milliwatt is 0 dBm. 10 milliwatts is 10 dBm; 100 milliwatts is 20 dBm, and so on. This is the scale that many network designers use to calculate if longer wireless links will work.</li>
+	<li>A <strong>milliwatt</strong> is one thousandth (that’s 1/1000) of a single watt - which is a generic measurement of power. For instance, a light bulb might be 40 watts. A router will have an output power of 100mW, which is 400 times less!</li>
+	<li>A <strong>dBm</strong> is a relative measurement using logarithms. One milliwatt is 0 dBm. 10 milliwatts is 10 dBm; 100 milliwatts is 20 dBm, and so on. This is the scale that many network designers use to calculate if longer wireless links will work.</li>
 </ol>
 </p>
 <p>
