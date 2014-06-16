@@ -3,7 +3,7 @@ layout: cck
 title: Learn Wireless Basics
 site_section: help
 sub_section: [cck,cck-networking]
-pdf: cck/networking/1-Learn_Wireless_Basics.pdf
+pdf: cck/networking/1-Learn_Networking_Basics.pdf
 pdf-all: false
 categories: Networking, Wireless, CCK
 created: 2014-06-13
