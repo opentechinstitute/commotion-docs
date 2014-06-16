@@ -393,32 +393,128 @@ The optimal signal range for outdoor wireless equipment is between -40dBm and -6
 Wireless routers have different types of antennas. Some routers will have antennas built in, and sometimes the routers will have a choice of antenna you can attach to the router. There are many specific types of antennas, but three basic types are used most of the time, and will be useful in building a wireless network. The first type of antenna is also the most common--omnidirectional.
 </p>
 
+<h3>Omnidirectional Antennas</h3>
+<p>
+An omnidirectional antenna sends a signal out equally in all directions around it.
+</p>
+<p>
+<img alt="Wi-Fi router with omnidirectional antenna" src="/files/CCK_WirelessBasics_Antenna_omni.png" width="200" />
+</p>
+<p>
+Using omnidirectional antennas has the benefit of creating connections in any direction. You don’t have to do as much planning to connect with multiple neighbors or buildings. If there is enough signal between nodes, they should connect.
+</p>
+<p>
+<img alt="Omnidirectional creates connections in all directions" src="/files/CCK_WirelessBasics_Omni_close.png" width="300" />
+</p>
+<p>
+The all-direction strength of these antennas comes with the drawback of transmitting a weaker signal. Since the signal is going in all directions, it spreads out and gets weaker with distance very fast. If nodes or clients are far away, they may not connect well.
+</p>
+<p>
+<img alt="Omni antennas can't reach as far" src="/files/CCK_WirelessBasics_Omni_far.png" width="450" />
+</p>
+<p>
+Also, if there are only nodes or clients in one direction of the router, then the signals going in the opposite direction are wasted:
+</p>
+<p>
+<img alt="Omni antennas can waste energy in directions with no receivers" src="/files/CCK_WirelessBasics_Omni_one_side.png" width="300" />
+</p>
+
+<h3>Directional Antennas</h3>
+<p>
+The next type of antenna is known as directional--it sends out a signal in a more focused way. There are two main types of directional antennas:
+</p>
+<p>
+<table style="text-align:center;">
+	<tr>
+		<td>
+		<strong>Sector Antenna</strong><br/>
+		<img alt="Sector antenna" src="/files/CCK_WirelessBasics_Antenna_sector" width="250" />
+		</td>
+		<td>Sector antennas send out a pie-shaped wedge of signal - it can be anywhere between 30 degrees and 120 degrees wide. These are often long, rectangular antennas that are separate or integrated in to a router.
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<strong>Focused Antenna</strong><br/>
+		<img alt="Focused antenna" src="/files/CCK_WirelessBasics_Antenna_focused.png" width="250" />
+		</td>
+		<td>A focused antenna sends out a narrow beam of signal - it is normally around 5 to 10 degrees wide, but it can be a little wider as well. These are often dishes or have a mesh bowl reflecting signal behind them.
+		</td>
+	</tr>
+</table>
+</p>
+<p>
+Using directional antennas has the benefit of increasing the distance a signal will travel in one direction, while reducing it in all other directions. Since the signal is all going one way, the power that would be sent out in all directions with omnidirectional nodes is now focused, increasing the power in that direction.
+</p>
+<p>
+<img alt="Directional antennas send signal farther" src="/files/CCK_WirelessBasics_Directional_distance.png" width="350" />
+</p>
+<p>
+It can also decrease the interference received at the node. There are fewer signals coming in to the antenna, since the node is only listening to signals from the direction it is pointing. It won’t hear signals behind it or to the sides as well or at all. This reduces the signals it needs to sort out, and allows it to focus on other signals more, increasing the quality of those connections.
+</p>
+<p>
+<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_rejection.png" width="350" />
+</p>
+<p>
+However, directional antennas also have the drawback of requiring more planning to create links in your neighborhood. Since you are defining and limiting the areas where wireless signals go, you need to think about how those signals cover your neighborhood. If there are areas that are then left out, how will those areas be included in the network?
+</p>
+<p>
+<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_planning.png" width="400" />
+</p>
+<p>
+Also, the node has a very powerful signal in a single direction. If omnidirectional units, or lower power units such as laptops, are connecting to the node, they may not connect properly. The laptop will hear the node very well, but the directional node may not hear the laptop. This will create the situation where it looks like there is a strong signal, but you cannot connect.
+</p>
+<p>
+<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_asymmetry.png" width="450" />
+</p>
+<p>
+<strong>Quick Activity:</strong> What are the best uses for the different kinds of antennas?
+</p>
+<p>
+<table style="color:#E0FFFF;text-align:center;">
+	<tr>
+		<td><strong>Antenna Type</strong>
+		</td>
+		<td><strong>Best Uses</strong>
+		</td>
+	</tr>
+	<tr>
+		<td>Omnidirectional<br/><br/>Sector<br/><br/>Focused
+		</td>
+		<td>______________________________&nbsp;&nbsp;&nbsp;&nbsp;______________________________ <br/><br/>______________________________&nbsp;&nbsp;&nbsp;&nbsp;______________________________<br/><br/>______________________________&nbsp;&nbsp;&nbsp;&nbsp;______________________________
+	</tr>
+</table>
+</p>
+<p>
+What would the best antennas to use for building a neighborhood network?
+</p>
 
 </section>
+
 
 <section id="section-definitions">
 <h2>Definitions</h2>
 
 <dl>
-	<dt>DHCP—Dynamic Host Configuration Protocol</dt>
-	<dd>It assigns IP addresses to client devices, such as desktop computers, laptops, and phones, when they are plugged into Ethernet or connect to Wireless networks.</dd>
-	<dt>Ethernet</dt>
-	<dd>A type of networking protocol—it defines the types of cables and connections that are used to wire computers, switches, and routers together. Most often Ethernet cabling is Category 5 or 6, made up of twisted pair wiring similar to phone cables.</dd>
-	<dt>Hub</dt>
-	<dd>A network device that repeats the traffic it receives to all connected devices.</dd>
-	<dt>Switch</dt>
-	<dd>A network device that sends traffic it receives to a specific connected device, such as a single desktop computer or laptop.</dd>
-	<dt>Router</dt>
-	<dd>A network device that can bridge between different networks, determine what traffic can pass between them, and perform other functions on a network, such as assigning IP addresses.</dd>
-	<dt>Firewall</dt>
-	<dd>A function typically performed by routers, this filters traffic between networks and can protect them from interference or attacks.</dd>
+	<dt>Omnidirectional</dt>
+	<dd>When a node has an omnidirectional antenna attached, it can send and receive wireless signals in all directions around it equally. The signal is actually strongest out to the “sides” of the antenna. Very little or no signal comes out of the “ends” of the antenna.</dd>
+	<dt>Directional antenna</dt>
+	<dd>When a node has a directional antenna attached, the wireless signal is very strong in one direction, and has a very weak or no signal in every other direction. This generally forms a cone or wedge shaped area from the front of the antenna.</dd>
+	<dt>Receive sensitivity</dt>
+	<dd>The minimum level of a received signal required for a device to understand the signal.</dd>
+	<dt>Access point</dt>
+	<dd>A device that allows wireless devices to connect to a wired network using Wi-Fi.</dd>
+	<dt>Watt</dt>
+	<dd>A unit of power, usually written “W”. The most common power levels for Wi-Fi devices are in the range of milliwatts - or thousandths of a watt.</dd>
+	<dt>dBm</dt>
+	<dd>An abbreviation for the power ratio in decibels (dB) of the power referenced to one milliwatt (mW). 0 dBm is equal to 1 milliwatt.</dd>
 </dl>
 </section>
 
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>This module is intended to provide some helpful background on networking. We recommend reading the upcoming (but not finished!) Learn about Wireless after this guide.</p>
+<p>We recommend you work through <a href="/docs/cck/networking/learn-networking-basics/">Learn Networking Basics</a> if you haven’t already. Networking concepts are important when dealing with wireless.</p>
 </section>
 
 <section class="external-resources" id="section-external-resources">
