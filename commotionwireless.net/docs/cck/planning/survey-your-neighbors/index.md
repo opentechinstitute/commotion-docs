@@ -256,7 +256,7 @@ Internet access (optional)</p>
 
 <p>Once you have chosen your first few sites, use contact information from surveys to make install appointments.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__261 img__view_mode__media_original attr__format__media_original" height="350" src="/files/survey_your_neighbors_support003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__260 img__view_mode__media_original attr__format__media_original" style="width:510px;" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" width="500px"/></p>
 </section>
 
 <section class="related-information" id="section-related-information">
