@@ -297,21 +297,29 @@ There are two types of Wi-Fi signal, based on the frequencies they use:
 These two types of Wi-Fi are called the <strong>Frequency Bands</strong>, or just <strong>Bands</strong> for short.
 </p>
 <p>
-Each frequency band used in Wi-Fi is divided up into multiple channels. Each channel is similar to rooms at a party in a car - if one room is crowded it is hard to carry on a conversation. You can move to the next room, but that might get crowded as well. As soon as the building is full, it becomes difficult to carry on a conversation at the party.
+Each frequency band used in Wi-Fi is divided up into multiple "channels". Each channel is similar to rooms at a party - if one room is crowded it is hard to carry on a conversation. You can move to the next room, but that might get crowded as well. As soon as the building is full, it becomes difficult to carry on a conversation at the party.
 </p>
 <p>
+<strong>2.4GHz Band</strong><br/>
 For the 2.4GHz band, there are 14 channels total. Unfortunately, these channels overlap, so they aren’t all usable at the same time. If you are setting up a mesh network -- all of the mesh links will need to be on the same channel.
 </p>
 <p>
 <img alt="2.4GHz channels" src="/files/CCK_WirelessBasics_Channels24.png" style="max-width:600px;" />
 </p>
 <p>
-The available channels vary depending on where you are in the world. For example, in the United States channels 12, 13 and 14 are not allowed for Wi-Fi, as those frequencies are used by TV and satellite services. If you are building networks in the United States, you can only use channels 1 through 11. In the rest of the world, channels 1 through 13 are generally usable, and in a few places channel 14 is available. Despite that, the best channels to set your 2.4GHz band equipment on are channels 1, 6, and 11. This will minimize interference caused by partially overlapping Wi-Fi signals:
+The available channels vary depending on where you are in the world. For example, in the United States channels 12, 13 and 14 are not allowed for Wi-Fi, as those frequencies are used by TV and satellite services. If you are building networks in the United States, you can only use channels 1 through 11. In the rest of the world, channels 1 through 13 are generally usable, and in a few places channel 14 is available.
+</p>
+<p>
+Despite that, the best channels in the United States and most of the world to use for 2.4GHz band equipment are channels 1, 6, and 11. This will minimize interference caused by partially overlapping Wi-Fi signals:
 </p>
 <p>
 <img alt="2.4GHz channel interference" src="/files/CCK_WirelessBasics_Channels24_interference.png" style="max-width:300px;" />
 </p>
 <p>
+You could use other sets of Wi-Fi channels, as long as they are 5 channels apart - for instance 3, 8 and 13. This may not be optimal though, as channels 1 and 2 would be unused, and in many places in the world channel 13 is not available. Wherever you are, try and check what channels are most in use, and plan your network to use a channel that doesn't overlap.
+</p>
+<p>
+<strong>5GHz Band</strong><br/>
 The 5GHz frequency band is much wider and has more channels, so the diagram is a bit more extensive. Fortunately, these channels do not overlap, so you don’t have to worry about picking non-standard channels like in the 2.4GHz band.
 </p>
 <p>
@@ -321,7 +329,7 @@ The 5GHz frequency band is much wider and has more channels, so the diagram is a
 There are many more channels available in the 5GHz band, so it should be easier to select a channel in this band that doesn’t cause interference. This may not always be true -- more and more wireless equipment is starting to use the 5GHz 
 </p>
 <p>
-In the United States, only channels available for building mesh networks are 36, 40, 44, 48, 149, 153, 157, 161, and 165. There are other channels available for Access Points or other types of community networks, but those channels won’t work with mesh wireless. The best place to check what is allowed in your area is online. Links are provided in #External Resources at the end of this document.
+In the United States, only channels available for building mesh networks are 36, 40, 44, 48, 149, 153, 157, 161, and 165. There are other channels available for Access Points or other types of community networks, but those channels won’t work with mesh wireless. The best place to check what is allowed in your area is online. Links are provided in <a href="#section-external-resources">External Resources</a> at the end of this document.
 </p>
 <p>
 When setting up your wireless network, you will need to think about what frequency band to use, and what channel to use.
@@ -353,22 +361,22 @@ A few examples of the transmit power levels in common Wi-Fi hardware is below:
 </p>
 <p>
 <strong>10mW (10dBm):</strong> Laptop or smartphone, or very low cost Wi-Fi router.<br/>
-<img alt="Low Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_laptop.png" style="max-width:198px;" /><br/>
+<img alt="Low Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_laptop.png" style="max-width:292px;" /><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About 25 to 50 meters
 </p>
 <p>
 <strong>100mW (20dBm):</strong> Indoor home or office router.<br/>
-<img alt="Home router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_omni_router.png" style="max-width:319px;" /><br/>
+<img alt="Home router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_omni_router.png" style="max-width:421px;" /><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About 50 to 100 meters
 </p>
 <p>
 <strong>100mW (20dBm):</strong> Outdoor sector router.<br/>
-<img alt="Outdoor router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_sector_router.png" style="max-width:402px;" /><br/>
+<img alt="Outdoor router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_sector_router.png" style="max-width:452px;" /><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About 5 to 10 kilometers
 </p>
 <p>
 <strong>500mW (1/2 Watt or 27dBm):</strong> Outdoor, long distance focused routers.<br/>
-<img alt="Long distance router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_focused_router.png" style="max-width:510px;" /><br/>
+<img alt="Long distance router Wi-Fi level" src="/files/CCK_WirelessBasics_Power_levels_focused_router.png" style="max-width:600px;" /><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About 10 to 20 kilometers or more
 </p>
 <p>
@@ -432,11 +440,11 @@ The next type of antenna is known as directional--it sends out a signal in a mor
 	<tr>
 		<td>
 		<strong>Sector Antenna</strong><br/>
-		<img alt="Sector antenna" src="/files/CCK_WirelessBasics_Antenna_sector.png" width="250" />
+		<img alt="Sector antenna" src="/files/CCK_WirelessBasics_Antenna_sector.png" style="max-width:250px;" />
 		</td>
 		<td>
 		<strong>Focused Antenna</strong><br/>
-		<img alt="Focused antenna" src="/files/CCK_WirelessBasics_Antenna_focused.png" width="250" />
+		<img alt="Focused antenna" src="/files/CCK_WirelessBasics_Antenna_focused.png" style="max-width:250px" />
 		</td>
 	</tr>
 	<tr>
