@@ -33,6 +33,9 @@ lang: en
 <h3>Chris Ritzo</h3>
 <p>Chris is an information-science-y librarian and all around hardware geek. He test Commotion on new devices, coordinates support for people inquiring about and using Commotion, maintains the website and developer wiki, and works with the team on UI/UX issues, content and information architecture. Contact Chris on IRC at 'critzo,' <a href="https://github.com/critzo">github</a> or email: critzo <at> opentechinstitute <dot> org. </p>
 
+<h3>Andy Gunn</h3>
+<p>Andy is the Field Engineer for the Open Technology Institute, working on deploying community technology that enhances and strengthens the right to communication. To that end, he focuses on training and educational materials and workshops for individuals and groups to assist with building and maintaining that community technology. Sharing skills through participatory hands-on projects helps to demystify a technology and build the next generation of teachers and trainers.</p>
+<p>Andy focuses primarily on community trainings, workshops, and the <a href="/docs/cck/">Commotion Construction Kit</a>, along with other how-to guides for the project. Contact Andy on IRC at 'andygunn', on <a href="https://github.com/andygunn">Github</a>, or on <a href="https://twitter.com/andy__gunn">Twitter</a>.</p>
 
 <h2>Past Contributors</h2>
 
