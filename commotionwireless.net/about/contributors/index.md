@@ -30,6 +30,10 @@ lang: en
 <h3>Georgia Bullen</h3>
 <p>Georgia is a UX Designer, data nerd and urban planner. She works closely with the Commotion user community helping with network planning and build out using the Commotion Construction Kit. She is the OTI point of contact for the Red Hook WiFi network and Digital Stewards program. Georgia collects and helps to synthesize user feedback into the Commotion development process, helping with user interface designs, user testing, CCK documentation, and support. Georgia can be reached on IRC at ‘georgiabullen,’ twitter <a href="https://twitter.com/georgiamoon">@georgiamoon</a>, and on github as <a href="https://github.com/georgiamoon">‘georgiamoon.’</a></p>
 
+<h3>Chris Ritzo</h3>
+<p>Chris is an information-science-y librarian and all around hardware geek. He test Commotion on new devices, coordinates support for people inquiring about and using Commotion, maintains the website and developer wiki, and works with the team on UI/UX issues, content and information architecture. Contact Chris on IRC at 'critzo,' <a href="https://github.com/critzo">github</a> or email: critzo <at> opentechinstitute <dot> org. </p>
+
+
 <h2>Past Contributors</h2>
 
 <h3>Seamus Tuohy</h3>
