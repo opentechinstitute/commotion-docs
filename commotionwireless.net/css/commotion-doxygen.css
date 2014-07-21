@@ -343,3 +343,7 @@ div#doxygen table.memberdecls td.memSeparator {
 div#doxygen table.memberdecls td.memItemLeft {
   padding: 0.25em 1em 0.25em 0;
 }
+
+.entry .icon {
+  padding-right: 10px;
+}
