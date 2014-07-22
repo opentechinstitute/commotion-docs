@@ -407,7 +407,7 @@ div#download-button-block .download-button a.button {
     padding: 0.1em 0.6em;
 }
 .contentcontainer table.files td {
-    text-align: center;
+    text-align: left;
     padding: 0 5px;
     word-wrap: break-word;
 }
