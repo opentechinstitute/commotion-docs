@@ -55,8 +55,9 @@ lang: en
 <h3>Networking</h3>
 
 <ul>
-	<li><a href="/docs/cck/networking/learn-networking-basics">Learn Networking Basics</a>: An introductory guide to networking.</li>
 	<li><a href="/docs/cck/networking/intro-to-mesh">Introduction to Mesh</a>: An introduction to mesh and network properties.</li>
+	<li><a href="/docs/cck/networking/learn-networking-basics">Learn Networking Basics</a>: An introductory guide to networking.</li>
+	<li><a href="/docs/cck/networking/learn-wireless-basics">Learn Wireless Basics</a>: An introduction to how wireless technology works.</li>
 </ul>
 
 <p>&nbsp;</p>
