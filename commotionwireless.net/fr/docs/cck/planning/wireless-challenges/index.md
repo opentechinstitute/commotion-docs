@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: fr
 ---
-<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic_0.png" /></p>
+<p><img alt="Wireless Challenges graphic" src="/files/CCK_Wireless_Challenges_intro_graphic.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -25,11 +25,11 @@ lang: fr
 <section id="materials-and-supplies-needed">
 <h4>MATERIEL + FOURNITURE REQUISE</h4>
 
-<p><a href="/files/Wireless%20Challenges%20Presentation_1.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe.  <br><a href="/files/Wireless%20Challenges%20Presentation_1.pdf"><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png"></a></p>
+<p><a href="/files/cck/planning/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/planning/Difficultes_inherentes_aux_reseaux_sans_fil.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png"></a></p>
 
-<p><a href="/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions_0.pdf">Supports visuels : problèmes et solutions</a> -Imprimés sur du papier A4.<br><a href="/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions_0.pdf"><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png"></a></p>
+<p><a href="/files/cck/planning/Problemes_et_solutions.pdf">Supports visuels : problèmes et solutions</a> -Imprimés sur du papier A4.<br><a href="/files/cck/planning/Problemes_et_solutions.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
 
-<p>(Facultatif) Les schémas de routage contenus dans le module <a href="/fr/docs/cck/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>.</p>
+<p>(Facultatif) Les schémas de routage contenus dans le module <a href="/fr/docs/cck/planning/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>.</p>
 
 <p>Une surface de travail (de préférence une table, de façon à ce que les personnes à mobilité réduite puissent participer confortablement).</p>
 
@@ -48,34 +48,34 @@ lang: fr
 <p><strong>2. Comme polycopes auxquels vous vous référerez pendant votre travail.</strong> Dans ce cas, vous aurez à imprimer plusieurs exemplaires de la liste des problèmes  (en laissant, momentanément, les solutions de côté). Distribuez les supports visuels contenant la liste des problèmes et penchez-vous sur chaque problème, individuellement, en groupe, en plusieurs petits groupes ou par paires. Comparez les solutions proposées, d'abord, les unes avec les autres, puis à celles proposées dans l'exemple.  </p>
 </div>
 
-<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="/files/Wireless%20Challenges%20Presentation_1.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas. </p>
+<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="/files/cck/planning/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas. </p>
 </section>
 <section id="what-are-the-wireless-challenges">
 <h3>Quels sont les défis auxquels sont confrontés les réseaux sans fil ?</h3>
 
 <p>Chaque scénario propose une difficulté ou un problème unique en son genre. Ils sont catégorisés comme suit : </p>
 
-<p><strong>La distance</strong>—En parcourant de longues distances, les signaux sans fil perdent en intensité, et ce quel que soit le type d'antenne utilisé. <br><img alt=""  src="/files/styles/large/public/CCK_Wireless_Challenges_distance.png" ></p>
+<p><strong>La distance</strong>—En parcourant de longues distances, les signaux sans fil perdent en intensité, et ce quel que soit le type d'antenne utilisé. <br><img alt=""  src="/files/CCK_Wireless_Challenges_distance.png" ></p>
 
-<p><strong>La ligne de vision</strong>—Les signaux sans fil peuvent rencontrer des obstacles qui altèrent la connexion.  <br><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png"></p>
+<p><strong>La ligne de vision</strong>—Les signaux sans fil peuvent rencontrer des obstacles qui altèrent la connexion.  <br><img alt="" src="/files/CCK_Wireless_Challenges_line_of_sight.png"></p>
 
-<p><strong>Les obstacles</strong>—Les signaux sans fil perdent de leur intensité en croisant, sur leur trajectoire, des objets solides. <br><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_barriers.png"></p>
+<p><strong>Les obstacles</strong>—Les signaux sans fil perdent de leur intensité en croisant, sur leur trajectoire, des objets solides. <br><img alt="" src="/files/CCK_Wireless_Challenges_barriers.png"></p>
 
-<p><strong>Les interférences</strong>—Les routeurs trop bruyants ont du mal à écouter les autres routeurs. <br><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png"></p>
+<p><strong>Les interférences</strong>—Les routeurs trop bruyants ont du mal à écouter les autres routeurs. <br><img alt="" src="/files/CCK_Wireless_Challenges_wireless_interference.png"></p>
 
-<p><strong>Le climat</strong>—Les conditions climatiques peuvent perturber les signaux sans fil.<br><img alt=""  src="/files/styles/large/public/CCK_Wireless_Challenges_weather.png"></p>
+<p><strong>Le climat</strong>—Les conditions climatiques peuvent perturber les signaux sans fil.<br><img alt=""  src="/files/CCK_Wireless_Challenges_weather.png"></p>
 
-<p><strong>Les problèmes liés à l'électricité</strong>—La stabilité de l'électricité est nécessaire au bon fonctionnement des routeurs. <br><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png"></p>
+<p><strong>Les problèmes liés à l'électricité</strong>—La stabilité de l'électricité est nécessaire au bon fonctionnement des routeurs. <br><img alt="" src="/files/CCK_Wireless_Challenges_power_issues.png"></p>
 </section>
 <section id="going-through-the-wireless-challenges">
 <h3>Les défis auxquels sont confrontés les réseaux sans fil</h3>
 
-<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="/files/Wireless%20Challenges%20Scenarios%20-%20Problems%20and%20Solutions_0.pdf">Problèmes et Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie ! </p>
+<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="/files/cck/planning/Problemes_et_solutions.pdf">Problèmes et Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie ! </p>
 
 <p>Si vous travaillez en groupe, nous vous suggérons de suivre les tâches suivantes :  </p>
 
 <ul>
-<li>N'imprimez que les pages ''Problèmes'' ou mettez les pages ''Solutions'' momentanément de côté.</li>
+<!-- <li>N'imprimez que les pages ''Problèmes'' ou mettez les pages ''Solutions'' momentanément de côté.</li> -->
 	<li>Vous pouvez travailler individuellement, en petits sous-groupes ou en paires.</li>
 	<li>Le sous-groupes inscrivent les solutions sur chaque support visuel et les gardent de côté jusqu'à ce que tout le monde ait terminé.</li>
 	<li>Suite à quoi, les groupes comparent les solutions, d'abord, les unes aux autres, puis à celles proposées dans l'exemple.</li>
@@ -91,7 +91,7 @@ lang: fr
 
 <p><strong>L'intensité du signal sans fil</strong>—Les routeurs sont dotés de différentes intensités d'écoute et d'émission. </p>
 
-<p><img alt="" src="/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2_2_0.png"><br>
+<p><img alt="" src="/files/CCK_Wireless_Challenges_power_levels_rules_2_FR.png"><br>
  </p>
 
 <p><strong>Des niveaux de puissance adéquats</strong>—Il est primordial de bien choisir son routeur, en fonction des puissances d'émission et d'écoute. Il est important d'utiliser un routeur qui soit à la fois peu gourmand en énergie et en mesure d'assurer une bonne liaison. Le recours à des routeurs à grande puissance d'émission peut donner lieu à des interférences. <br><img alt="" src="/files/CCK_Wireless_Challenges_power_levels_rules.png"></p>
@@ -109,6 +109,6 @@ lang: fr
 <section class="related-information" id="section-related-information">
 <h3>Informations Connexes</h3>
 
-<p>Il est prévu que ce modèle soit consulté immédiatement après le module <a href="/fr/docs/cck/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>. Il vous prépare à l'assimilation du module : <u>Tout ce que vos devez savoir sur les réseaux sans fil</u>Le séquençage des modules est conçu de façon à accompagner les personnes et les groupes, de la planification réseau aux difficultés qu'ils auront à gérer, passant par la particularité du fonctionnement des équipements et des signaux sans fil. </p>
+<p>Il est prévu que ce modèle soit consulté immédiatement après le module <a href="/fr/docs/cck/planning/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>. Il vous prépare à l'assimilation du module : <u>Tout ce que vos devez savoir sur les réseaux sans fil</u>Le séquençage des modules est conçu de façon à accompagner les personnes et les groupes, de la planification réseau aux difficultés qu'ils auront à gérer, passant par la particularité du fonctionnement des équipements et des signaux sans fil. </p>
 </section>
 
