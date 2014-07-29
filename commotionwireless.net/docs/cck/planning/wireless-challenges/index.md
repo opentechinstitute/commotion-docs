@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic_0.png" /></p>
+<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
