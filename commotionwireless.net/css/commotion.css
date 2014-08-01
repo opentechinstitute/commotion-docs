@@ -433,11 +433,11 @@ div#download-button-block .download-button a.button {
 .contentcontainer table.files tr.even, .contentcontainer table.files tr.odd {
     background-color: #EEEEEE;
     border-bottom: 1px solid #CCCCCC;
-    padding: 0.1em 0.6em;
+/*     padding: 0.1em 0.6em; */
 }
 .contentcontainer table.files td {
-    text-align: center;
-    padding: 0 5px;
+    text-align: left;
+    padding: .5em 5px;
     word-wrap: break-word;
 }
 .contentcontainer table.files tr.even td{
