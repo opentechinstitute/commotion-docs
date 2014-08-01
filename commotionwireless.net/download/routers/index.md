@@ -3,7 +3,7 @@ layout: downloads
 title: Download Commotion Router
 categories: 
 created: 2013-06-28
-changed: 2014-02-27
+changed: 2014-08-01
 post_author: areynold
 lang: en
 ---
@@ -111,6 +111,20 @@ lang: en
 	<td>f871fb570c59d4f8a8373dff1b0d7604</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
+    </tr>
+    <tr class="file odd">
+	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Ubiquiti Unifi -- Factory Install</strong></a></td>
+	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin.asc">(sig)</a></td>
+	<td>2191c456a04ad37df36dfd2a6880f0b5</td>
+	<td>06-13-14</td>
+	<td>5.1 MB</td>
+    </tr>
+    <tr class="file even">
+	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Ubiquiti Unifi -- Upgrade</strong></a></td>
+	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+	<td>8f841d5206a635ecc32bf867b9364441</td>
+	<td>06-13-14</td>
+	<td>5.1 MB</td>
     </tr>
   </tbody>
 </table>
