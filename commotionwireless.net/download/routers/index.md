@@ -40,7 +40,7 @@ lang: en
 <h3>Version 1.1rc2</h3>
 <p>Commotion version 1.1rc2 was released in June 2014. Official software images are posted here.</p>
 
-<p>If you are interested in trying the newest features of Commotion Router, check out our <a href="https://downloads.commotionwireless.net/nightly/ar71xx/">nightly builds</a> and <a href="/contact">contact us</a> for support questions.<br /></p>
+<p>If you are interested in trying the newest features of Commotion Router, check out our <a href="http://downloads.commotionwireless.net/nightly/ar71xx/">nightly builds</a> and <a href="/contact">contact us</a> for support questions.<br /></p>
 
 <h4 id="ubiquiti">Manufacturer: Ubiquiti</h4>
 <div class="downloads-table">
@@ -159,7 +159,7 @@ lang: en
 </ul>  
 
 <h3 id="nightly">Nightly Builds</h3>
-<p>Our nightly builds are back! Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href="http://downloads.commotionwireless.net/nightly/">downloads.commotionwireless.net/nightly</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
+<p>Nightly built images of Commotion OpenWRT are generated from our build server and posted to <a href="http://downloads.commotionwireless.net/nightly/ar71xx">downloads.commotionwireless.net</a>. Nightly images contain the most up to date feature and bug fix commites, but should be considered working, yet unstable builds.</p>
 
 <h3 id="source">Build From Source</h3>
 <p>Commotion-Router's source code is available on GitHub: <a href="https://github.com/opentechinstitute/commotion-router">https://github.com/opentechinstitute/commotion-router</a>. See the <a href="https://github.com/opentechinstitute/commotion-router#build--install">Commotion-Router README</a> for information on building and installing from source.</p>
