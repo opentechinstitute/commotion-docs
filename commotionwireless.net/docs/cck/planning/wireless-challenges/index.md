@@ -3,11 +3,11 @@ layout: cck
 title: Design Your Network - Wireless Challenges
 site_section: help
 sub_section: [cck,cck-planning]
-pdf: cck/planning/2-Wireless_Challenges.pdf
+pdf: cck/planning/CCK-Wireless_Challenges.pdf
 pdf-all: true
 categories: 
 created: 2013-11-04
-changed: 2013-11-27
+changed: 2014-08-04
 post_author: critzo
 lang: en
 ---

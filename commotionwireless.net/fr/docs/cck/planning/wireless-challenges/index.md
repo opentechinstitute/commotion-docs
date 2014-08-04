@@ -3,7 +3,7 @@ layout: cck
 title: Conception de réseaux - les défis inhérents aux réseaux sans fil
 site_section: help
 sub_section: [cck,cck-planning]
-pdf: cck/planning/2-Wireless_Challenges.pdf
+pdf: cck/planning/CCK-Defis_sans_fil.pdf
 pdf-all: true
 categories: fr
 created: 2013-11-04
