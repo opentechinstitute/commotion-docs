@@ -53,11 +53,11 @@
     </li>
     <li class="static-nodrop"><a href="/blog" title="">Blog</a></li>
     <li class="dropdown">
-      <a id="getHelpMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
-        Get Help
+      <a id="documentationMenu" href="/docs" data-toggle="dropdown" role="button" class="menu-top-level">
+        Documentation
         <b class="caret"></b>
       </a>
-      <ul id="getHelpMenu" class="dropdown-menu" aria-labelledby="getHelpMenu" role="menu">
+      <ul id="documentationMenu" class="dropdown-menu" aria-labelledby="documentationMenu" role="menu">
         <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-started">Get Started</a></li>
         <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/get-involved">Get Involved</a></li>
         <li role="presentation"><a role="menuitem" tabindex="-2" href="/docs/supported-devices">Supported Devices</a></li>

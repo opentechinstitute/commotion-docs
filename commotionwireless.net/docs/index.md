@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Documentation
-site_section: help
+site_section: docs
 sub_section: [cck]
 pdf-all: false
 categories: 

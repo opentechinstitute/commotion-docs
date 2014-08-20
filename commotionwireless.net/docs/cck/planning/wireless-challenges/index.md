@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Design Your Network - Wireless Challenges
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/CCK-Wireless_Challenges.pdf
 pdf-all: true

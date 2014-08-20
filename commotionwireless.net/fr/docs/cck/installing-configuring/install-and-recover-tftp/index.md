@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Installation et récupération avec TFTP
-site_section: help
+site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/5-Install_and_Recover_with_TFTP.pdf
 pdf-all: true

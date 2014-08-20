@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Common Configurations
-site_section: help
+site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/3-Common_Configurations.pdf
 pdf-all: true
