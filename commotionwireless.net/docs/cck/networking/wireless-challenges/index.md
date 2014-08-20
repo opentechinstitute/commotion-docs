@@ -2,8 +2,8 @@
 layout: cck
 title: Design Your Network - Wireless Challenges
 site_section: help
-sub_section: [cck,cck-planning]
-pdf: cck/planning/CCK-Wireless_Challenges.pdf
+sub_section: [cck,cck-networking]
+pdf: cck/networking/CCK-Wireless_Challenges.pdf
 pdf-all: true
 categories: 
 created: 2013-11-04
@@ -25,11 +25,11 @@ lang: en
 
 <section id="materials-and-supplies-needed">
 <h3>MATERIALS + SUPPLIES NEEDED</h3>
-<p><a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf">Wireless Challenges Presentation</a> - Either printed as a handout, or introduction to a group activity.<br />
-<a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf"><img alt="" class="media-image" height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png" width="510" /></a></p>
+<p><a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Presentation.pdf">Wireless Challenges Presentation</a> - Either printed as a handout, or introduction to a group activity.<br />
+<a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Presentation.pdf"><img height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png" width="510" /></a></p>
 
-<p><a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problem and Solution flashcards</a> - printed out on 8½ by 11” paper.<br />
-<a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img alt="" class="media-image" height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png" width="480" /></a></p>
+<p><a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problem and Solution flashcards</a> - printed out on 8½ by 11” paper.<br />
+<a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png" width="480" /></a></p>
 
 <p>(Optional) Router graphics from the <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a> packet.</p>
 
@@ -51,7 +51,7 @@ lang: en
 <p><strong>2. As printouts that you or others can work through as a group.</strong> In this format, you should print out multiple copies of just the problems (or set aside the solutions for later). Hand out the stack of problem flashcards, and work through each one in a group, in small groups or pairs, or as individuals. Then come back together and compare solutions with each other, and with the example solutions provided.</p>
 </div>
 
-<p>If you are working through the wireless challenges as a group, you can use the <a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf">presentation</a> to introduce the concept, and go through the rules that are also presented below.</p>
+<p>If you are working through the wireless challenges as a group, you can use the <a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Presentation.pdf">presentation</a> to introduce the concept, and go through the rules that are also presented below.</p>
 </section>
 
 <section id="what-are-the-wireless-challenges">
@@ -81,7 +81,7 @@ lang: en
 <section id="going-through-the-wireless-challenges">
 <h2>Going through the Wireless Challenges</h2>
 
-<p>The Wireless Challenge Problem and Solution sets can be studied at your own pace, if you are going through them on your own. Download the PDF of <a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problems and Solutions</a>, then go through each scenario one by one. Draw the solution to the problem presented in each case, and then compare your solution to the examples on the pages following. No cheating!</p>
+<p>The Wireless Challenge Problem and Solution sets can be studied at your own pace, if you are going through them on your own. Download the PDF of <a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problems and Solutions</a>, then go through each scenario one by one. Draw the solution to the problem presented in each case, and then compare your solution to the examples on the pages following. No cheating!</p>
 
 <p>If you are working as a group, we suggest this activity:</p>
 
