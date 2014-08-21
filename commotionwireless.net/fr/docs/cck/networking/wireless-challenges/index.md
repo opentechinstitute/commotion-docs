@@ -2,8 +2,8 @@
 layout: cck
 title: Conception de réseaux - les défis inhérents aux réseaux sans fil
 site_section: docs
-sub_section: [cck,cck-planning]
-pdf: cck/planning/CCK-Defis_sans_fil.pdf
+sub_section: [cck,cck-networking]
+pdf: cck/networking/CCK-Defis_sans_fil.pdf
 pdf-all: true
 categories: fr
 created: 2013-11-04
@@ -25,9 +25,9 @@ lang: fr
 <section id="materials-and-supplies-needed">
 <h4>MATERIEL + FOURNITURE REQUISE</h4>
 
-<p><a href="/files/cck/planning/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/planning/Difficultes_inherentes_aux_reseaux_sans_fil.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png"></a></p>
 
-<p><a href="/files/cck/planning/Problemes_et_solutions.pdf">Supports visuels : problèmes et solutions</a> -Imprimés sur du papier A4.<br><a href="/files/cck/planning/Problemes_et_solutions.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Problemes_et_solutions.pdf">Supports visuels : problèmes et solutions</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Problemes_et_solutions.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
 
 <p>(Facultatif) Les schémas de routage contenus dans le module <a href="/fr/docs/cck/planning/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>.</p>
 
@@ -48,7 +48,7 @@ lang: fr
 <p><strong>2. Comme polycopes auxquels vous vous référerez pendant votre travail.</strong> Dans ce cas, vous aurez à imprimer plusieurs exemplaires de la liste des problèmes  (en laissant, momentanément, les solutions de côté). Distribuez les supports visuels contenant la liste des problèmes et penchez-vous sur chaque problème, individuellement, en groupe, en plusieurs petits groupes ou par paires. Comparez les solutions proposées, d'abord, les unes avec les autres, puis à celles proposées dans l'exemple.  </p>
 </div>
 
-<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="/files/cck/planning/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas. </p>
+<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas. </p>
 </section>
 <section id="what-are-the-wireless-challenges">
 <h3>Quels sont les défis auxquels sont confrontés les réseaux sans fil ?</h3>
@@ -70,7 +70,7 @@ lang: fr
 <section id="going-through-the-wireless-challenges">
 <h3>Les défis auxquels sont confrontés les réseaux sans fil</h3>
 
-<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="/files/cck/planning/Problemes_et_solutions.pdf">Problèmes et Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie ! </p>
+<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="/files/cck/networking/Problemes_et_solutions.pdf">Problèmes et Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie ! </p>
 
 <p>Si vous travaillez en groupe, nous vous suggérons de suivre les tâches suivantes :  </p>
 

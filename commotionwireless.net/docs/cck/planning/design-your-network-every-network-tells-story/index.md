@@ -243,7 +243,7 @@ lang: en
 
 <p>Use the <a href="/docs/cck/planning/design-your-network-construction-elements">Design your Network: Construction Elements</a> module to make your background picture for this game (optional)</p>
 
-<p>Next, try the module: <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Wireless Challenges</a></p>
+<p>Next, try the module: <a href="/docs/cck/networking/wireless-challenges">Design your Network: Wireless Challenges</a></p>
 
 <p>Alternatively, get ready to talk to your neighbors about your proposed network by making a flyer (<a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>) or conducting a survey to see who's willing to contribute (<a href="/docs/cck/planning/survey-your-neighbors">Survey Your Neighbors</a>)</p>
 </section>
