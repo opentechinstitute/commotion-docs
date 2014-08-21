@@ -63,7 +63,7 @@ lang: en
 			<th colspan="4">Developer Pre-Release (PR3)</th>
 		</tr>
 		<tr>
-			<td><a href="http://downloads.commotionwireless.net/android/commotion-android.apk" title="Commotion MeshTether for Android">CommotionMeshTether-pr3.apk</a></td>
+			<td><a href="https://downloads.commotionwireless.net/android/commotion-android.apk" title="Commotion MeshTether for Android">CommotionMeshTether-pr3.apk</a></td>
 			<td>09/17/2012 02:36 am</td>
 			<td>2.2 MB</td>
 			<td>d80f078b6150daa1cb4dd6e79d134eea</td>

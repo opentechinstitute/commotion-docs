@@ -12,7 +12,7 @@ lang: en
 <div class="warning-label">
 <div class="warning-top">
 <h2>WARNING</h2>
-</div>
+>
 
 <div class="warning-bottom">
 <h2>Commotion</h2>
@@ -52,72 +52,72 @@ lang: en
   </thead>
   <tbody>
     <tr class="file odd">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin"><strong>Ubiquiti Picostation M2 and Bullet M2/M5 - Factory Install</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin"><strong>Ubiquiti Picostation M2 and Bullet M2/M5 - Factory Install</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin.asc">(sig)</a></td>
 	<td>b6047973c87f56ec54abd599e4f09d8e</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file even">
 	<td>
-	<a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin"><strong>Ubiquiti Picostation M2 and Bullet M2/M5 - Upgrade</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+	<a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin"><strong>Ubiquiti Picostation M2 and Bullet M2/M5 - Upgrade</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-sysupgrade.bin.asc">(sig)</a></td>
 	<td>fa8534feab980b451c18aafbf91a2cf9</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file odd">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin"><strong>Ubiquiti Nanostation M2/M5 - Factory Install</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin"><strong>Ubiquiti Nanostation M2/M5 - Factory Install</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin.asc">(sig)</a></td>
 	<td>b1929478043d881cd80b884570c3db47</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file even">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin"><strong>Ubiquiti Nanostation M2/M5 - Upgrade</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin"><strong>Ubiquiti Nanostation M2/M5 - Upgrade</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-sysupgrade.bin.asc">(sig)</a></td>
 	<td>9058172429c4d241222ff571bced3163</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file odd">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin"><strong>Ubiquiti Rocket M2/M5 - Factory Install</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin"><strong>Ubiquiti Rocket M2/M5 - Factory Install</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin.asc">(sig)</a></td>
 	<td>dc23ce3de7ff397ac15fb03cf2984c80</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file even">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin"><strong>Ubiquiti Rocket M2/M5 - Upgrade</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin"><strong>Ubiquiti Rocket M2/M5 - Upgrade</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-sysupgrade.bin.asc">(sig)</a></td>
 	<td>4ac4603a0f6e78b8dab14e2c16554669</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file odd">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin"><strong>Ubiquiti Unifi Outdoor - Factory Install</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin"><strong>Ubiquiti Unifi Outdoor - Factory Install</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin.asc">(sig)</a></td>
 	<td>33162024ba71c5411de118d0520af684</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file even">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin"><strong>Ubiquiti Unifi Outdoor - Upgrade</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin"><strong>Ubiquiti Unifi Outdoor - Upgrade</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin.asc">(sig)</a></td>
 	<td>f871fb570c59d4f8a8373dff1b0d7604</td>
 	<td>06-13-14</td>
 	<td>5.2 MB</td>
     </tr>
     <tr class="file odd">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Ubiquiti Unifi - Factory Install</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Ubiquiti Unifi - Factory Install</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin.asc">(sig)</a></td>
 	<td>2191c456a04ad37df36dfd2a6880f0b5</td>
 	<td>06-13-14</td>
 	<td>5.1 MB</td>
     </tr>
     <tr class="file even">
-	<td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Ubiquiti Unifi - Upgrade</strong></a></td>
-	<td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+	<td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Ubiquiti Unifi - Upgrade</strong></a></td>
+	<td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-sysupgrade.bin.asc">(sig)</a></td>
 	<td>8f841d5206a635ecc32bf867b9364441</td>
 	<td>06-13-14</td>
 	<td>5.1 MB</td>
@@ -142,15 +142,15 @@ lang: en
   </thead>
   <tbody>
       <tr class="file even">
-         <td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin"><strong>TP-Link WDR4300 - Factory Install</strong></a></td>
-         <td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin.asc">(sig)</a></td>
+         <td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin"><strong>TP-Link WDR4300 - Factory Install</strong></a></td>
+         <td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin.asc">(sig)</a></td>
          <td></td>
          <td>06-13-14</td>
          <td>5.3 MB</td>
       </tr>
       <tr class="file odd">
-         <td><a href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin"><strong>TP-Link WDR4300 - Upgrade</strong></a></td>
-         <td><a class="signature" href="http://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin.asc">(sig)</a></td>
+         <td><a href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin"><strong>TP-Link WDR4300 - Upgrade</strong></a></td>
+         <td><a class="signature" href="https://downloads.commotionwireless.net/router/1.1rc2/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin.asc">(sig)</a></td>
          <td></td>
          <td>06-13-14</td>
          <td>5.3 MB</td>
@@ -166,13 +166,13 @@ lang: en
 <h3>Other Versions</h3>
 
 <p><strong>Nightly Builds:</strong></p>
-<p>If you are interested in trying the newest features of Commotion Router, check out the <a href="http://downloads.commotionwireless.net/nightly/ar71xx/">nightly builds</a> and <a href="/contact">contact us</a> for support questions. Nightly built images of Commotion OpenWRT are generated from our build server, and contain the most up to date feature and bug fix commits. They are considered working, but may be unstable.</p>
+<p>If you are interested in trying the newest features of Commotion Router, check out the <a href="https://downloads.commotionwireless.net/nightly/ar71xx/">nightly builds</a> and <a href="/contact">contact us</a> for support questions. Nightly built images of Commotion OpenWRT are generated from our build server, and contain the most up to date feature and bug fix commits. They are considered working, but may be unstable.</p>
 
 <p><strong>Previous versions:</strong></p>
 <ul>
-  <li><a href="http://downloads.commotionwireless.net/router/1.1rc1">Version 1.1rc1</a></li>
-  <li><a href="http://downloads.commotionwireless.net/router/1.0">Version 1.0</a></li>
-  <li><a href="http://downloads.commotionwireless.net/router/DR2">Developer Release 2</a></li>
+  <li><a href="https://downloads.commotionwireless.net/router/1.1rc1">Version 1.1rc1</a></li>
+  <li><a href="https://downloads.commotionwireless.net/router/1.0">Version 1.0</a></li>
+  <li><a href="https://downloads.commotionwireless.net/router/DR2">Developer Release 2</a></li>
 </ul>
 
 <h3 id="source">Build From Source</h3>
