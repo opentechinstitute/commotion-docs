@@ -3,15 +3,15 @@ layout: cck
 title: Design Your Network - Wireless Challenges
 site_section: help
 sub_section: [cck,cck-planning]
-pdf: cck/planning/2-Wireless_Challenges.pdf
+pdf: cck/planning/CCK-Wireless_Challenges.pdf
 pdf-all: true
 categories: 
 created: 2013-11-04
-changed: 2013-11-27
+changed: 2014-08-04
 post_author: critzo
 lang: en
 ---
-<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic_0.png" /></p>
+<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -26,10 +26,10 @@ lang: en
 <section id="materials-and-supplies-needed">
 <h3>MATERIALS + SUPPLIES NEEDED</h3>
 <p><a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf">Wireless Challenges Presentation</a> - Either printed as a handout, or introduction to a group activity.<br />
-<a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__497 img__view_mode__media_large attr__format__media_large" height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png?itok=bo_-W8iS" typeof="foaf:Image" width="510" /></a></p>
+<a href="/files/cck/planning/2.1-CCK-Planning-Wireless_Challenges_Presentation.pdf"><img alt="" class="media-image" height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png" width="510" /></a></p>
 
 <p><a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problem and Solution flashcards</a> - printed out on 8½ by 11” paper.<br />
-<a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__498 img__view_mode__media_large attr__format__media_large" height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png?itok=063rc3ap" typeof="foaf:Image" width="480" /></a></p>
+<a href="/files/cck/planning/2.2-CCK-Planning-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img alt="" class="media-image" height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png" width="480" /></a></p>
 
 <p>(Optional) Router graphics from the <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a> packet.</p>
 
@@ -60,22 +60,22 @@ lang: en
 <p>Each scenario presents a specific challenge or problem that comes up when working with wireless equipment. They are categorized as:</p>
 
 <p><strong>Distance</strong>—Wireless signals lose power the further they travel, no matter the type of antenna.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__489 img__view_mode__media_large attr__format__media_large" height="288" src="/files/styles/large/public/CCK_Wireless_Challenges_distance.png?itok=kv12O9Rv" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="288" src="/files/styles/large/public/CCK_Wireless_Challenges_distance.png" width="510" /></p>
 
 <p><strong>Line of Sight</strong>—Wireless signals can encounter total barriers, preventing connections.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__490 img__view_mode__media_large attr__format__media_large" height="241" src="/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png?itok=0DxVvZup" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="241" src="/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png" width="510" /></p>
 
 <p><strong>Barriers</strong>—Wireless signals lose signal strength through solid objects.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__491 img__view_mode__media_large attr__format__media_large" height="266" src="/files/styles/large/public/CCK_Wireless_Challenges_barriers.png?itok=piIjdMda" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="266" src="/files/styles/large/public/CCK_Wireless_Challenges_barriers.png" width="510" /></p>
 
 <p><strong>Interference</strong>—Routers can be too loud, making it impossible for them to hear each other.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__492 img__view_mode__media_large attr__format__media_large" height="237" src="/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png?itok=kpQcrmLZ" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="237" src="/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png" width="510" /></p>
 
 <p><strong>Weather</strong>—Weather conditions can disrupt wireless signals.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__493 img__view_mode__media_large attr__format__media_large" height="471" src="/files/styles/large/public/CCK_Wireless_Challenges_weather.png?itok=cR0poPeN" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="471" src="/files/styles/large/public/CCK_Wireless_Challenges_weather.png" width="510" /></p>
 
 <p><strong>Electrical power issues</strong>—Routers need steady electricity to work correctly.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__494 img__view_mode__media_large attr__format__media_large" height="330" src="/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png?itok=TpauekjH" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="330" src="/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png" width="510" /></p>
 </section>
 
 <section id="going-through-the-wireless-challenges">
@@ -101,18 +101,18 @@ lang: en
 <p>When you go through the Wireless Challenges, there are a few guidelines for how to read the connections between nodes, and how to draw your own.</p>
 
 <p><strong>Wireless link quality</strong>—Solid or dashed lines show the strength of the link between two nodes. A solid green line is best; a dashed yellow line is okay; and a dotted pink or red line is a bad or broken link.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__500 img__view_mode__media_original attr__format__media_original" height="249" src="/files/CCK_Wireless_Challenges_signal_quality_rules.png" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="249" src="/files/CCK_Wireless_Challenges_signal_quality_rules.png" width="510" /></p>
 
 <p><strong>Wireless signal strength</strong>—Routers have different speaking and listening powers.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__676 img__view_mode__media_large attr__format__media_large" height="295" src="/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2_2_0.png?itok=NPPV18Fj" typeof="foaf:Image" width="480" /><br />
+<p><img alt="" class="media-image" height="295" src="/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2.png" width="480" /><br />
 &nbsp;</p>
 
 <p><strong>Appropriate power levels</strong>—Due to the different speaking and listening powers, choose routers carefully. It is important to use the lowest power router that creates a good link. Using routers that have too much speaking power can cause interference.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__504 img__view_mode__media_original attr__format__media_original" height="468" src="/files/CCK_Wireless_Challenges_power_levels_rules.png" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="468" src="/files/CCK_Wireless_Challenges_power_levels_rules.png" width="510" /></p>
 
 <p><strong>Links over long distance</strong>—Some links will need routers that have more power to reach further.<br />
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__505 img__view_mode__media_original attr__format__media_original" height="242" src="/files/CCK_Wireless_Challenges_distance_rules.png" typeof="foaf:Image" width="510" /></p>
+<img alt="" class="media-image" height="242" src="/files/CCK_Wireless_Challenges_distance_rules.png" width="510" /></p>
 </section>
 
 <section id="section-definitions">
