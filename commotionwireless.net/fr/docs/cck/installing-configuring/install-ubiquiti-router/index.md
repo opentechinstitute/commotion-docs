@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Installer sur un routeur Ubiquiti
-site_section: help
+site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/1-Install_on_a_Ubiquiti_Router.pdf
 pdf-all: true

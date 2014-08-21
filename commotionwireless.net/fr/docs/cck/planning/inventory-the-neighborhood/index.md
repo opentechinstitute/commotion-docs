@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: L'inventaire de voisinage
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/5-Inventory_the_Neighborhood.pdf
 pdf-all: true

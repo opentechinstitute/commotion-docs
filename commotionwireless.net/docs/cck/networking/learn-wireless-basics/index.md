@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Learn Wireless Basics
-site_section: help
+site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/Learn_Wireless_Basics.pdf
 pdf-all: false

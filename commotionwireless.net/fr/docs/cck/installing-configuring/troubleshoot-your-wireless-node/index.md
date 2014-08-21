@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Intervenir pour régler un problème dans votre noeud sans-fil
-site_section: help
+site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/4-Troubleshoot_Your_Wireless_Node.pdf
 pdf-all: true

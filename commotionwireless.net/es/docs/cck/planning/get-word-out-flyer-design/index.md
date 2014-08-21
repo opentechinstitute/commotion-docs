@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Difunda el mensaje - Diseño de panfletos
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/4-Get_the_Word_Out_Flyer_Design.pdf
 pdf-all: true

@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Advanced Hardware Setups
-site_section: help
+site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Advanced_Hardware_Setups.pdf
 pdf-all: true
