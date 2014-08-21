@@ -64,7 +64,7 @@ lang: en
     <li><strong>Mesh encryption password.</strong> The passwords must match across the network. You can also disable encryption across the network.</li>
 </ul>
 
-<p>The nodes connected to the modem or router should receive IP addresses and configure themselves as gateways. To ensure the nodes are receiving IP addresses, reboot each node after running Setup Wizard:</p>
+<p>The nodes connected to the modem or router should receive IP addresses and configure themselves as gateways. To ensure the nodes are receiving IP addresses, make sure each node is plugged into the switch, then reboot each node after running Setup Wizard:</p>
 
 <ol class="rteindent1">
     <li>Browse to <strong>Advanced -> System -> Reboot.</strong></li>
@@ -157,6 +157,12 @@ uci commit firewall
     </ol>
 </ol>
 
+<p>Finally, plug each node into the switch and reboot the node one more time. This will ensure the IP address configurations are in the correct state.</p>
+
+<ol class="rteindent1">
+    <li>Browse to <strong>Advanced -> System -> Reboot</strong>.</li>
+    <li>Click “Perform reboot” and wait for the device to restart.</li>
+</ol>
 
 <p>Do these steps for each Commotion node connected to the switch. When you set the IP on those nodes, you must set it to a different address in the same subnet you configured above. In the example given, you would set the addresses to 172.16.100.2, 172.16.100.3, and so on.</p>
 
@@ -243,7 +249,7 @@ uci commit firewall
     </ol>
 </ol>
 
-<p>Finally, reboot the node one more time to make sure the IP address configurations are in the correct state.</p>
+<p>Finally, plug each node into the switch and reboot the node one more time. This will ensure the IP address configurations are in the correct state.</p>
 <ol class="rteindent1">
     <li>Browse to <strong>Advanced -> System -> Reboot</strong>.</li>
     <li>Click “Perform reboot” and wait for the device to restart.</li>
