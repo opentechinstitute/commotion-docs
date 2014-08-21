@@ -12,7 +12,7 @@ lang: en
 <div class="warning-label">
 <div class="warning-top">
 <h2>WARNING</h2>
->
+</div>
 
 <div class="warning-bottom">
 <h2>Commotion</h2>
