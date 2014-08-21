@@ -25,7 +25,6 @@ lang: en
 
 <ul>
 	<li><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>: A game that helps communities think through network planning and the&nbsp;social networks upon which community wireless relies.</li>
-	<li><a href="/docs/cck/planning/wireless-challenges">Design your Network: Wireless Challenges</a>: A simple guide to wireless challenges to help improve network planning&nbsp;and troubleshooting.</li>
 	<li><a href="/docs/cck/planning/survey-your-neighbors">Survey your Neighbors</a>: Description of how to design a survey for your community, conduct it, analyze the results, and follow-up with the community.</li>
 	<li><a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>: Step-by-step suggestions for making a flyer for your wireless project, including examples.</li>
 	<li><a href="/docs/cck/planning/identify-neighborhood-skills">Identify Neighborhood Skills</a>: Activities to help identify important organizing, tech, and handy-person&nbsp;skills for your wireless project.</li>
@@ -59,6 +58,7 @@ lang: en
 	<li><a href="/docs/cck/networking/intro-to-mesh">Introduction to Mesh</a>: An introduction to mesh and network properties.</li>
 	<li><a href="/docs/cck/networking/learn-networking-basics">Learn Networking Basics</a>: An introductory guide to networking.</li>
 	<li><a href="/docs/cck/networking/learn-wireless-basics">Learn Wireless Basics</a>: An introduction to how wireless technology works.</li>
+	<li><a href="/docs/cck/networking/wireless-challenges">Design your Network: Wireless Challenges</a>: A simple guide to wireless challenges to help improve network planning&nbsp;and troubleshooting.</li>
 </ul>
 
 <p>&nbsp;</p>
