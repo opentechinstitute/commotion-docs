@@ -48,17 +48,17 @@ This module will help you understand what applications are and how they work.
 
 <section id="how-do-applications-work">
 <h2>How do applications work?</h2>
-Many of the applications we use today are “network applications,” which get and send information for the application to another computer on a network. For example, applications that live on a website - such as Social Media tools or webmail -- live on a web server. 
+<p>Many of the applications we use today are “network applications,” which get and send information for the application to another computer on a network. For example, applications that live on a website - such as Social Media tools or webmail -- live on a web server. </p>
 
 <h3>Network Applications</h3>
-In network applications -- such as a website, your computer sends a message across the network to a server, which sends your device (the “client”) the content of the webpage in response.
+<p>In network applications -- such as a website, your computer sends a message across the network to a server, which sends your device (the “client”) the content of the webpage in response.</p>
 
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510">
 
 <h3>Smartphone Application or Computer Application</h3>
-A smartphone application or software program is an application that you download to your device (a smartphone or a computer). For downloaded applications -- your application can send and receive information with the device it is installed on. Many smartphone and computer applications also make use of the features of a network application. For example, your writing application or word processor saves documents to a location on your computer.
+<p>A smartphone application or software program is an application that you download to your device (a smartphone or a computer). For downloaded applications -- your application can send and receive information with the device it is installed on. Many smartphone and computer applications also make use of the features of a network application. For example, your writing application or word processor saves documents to a location on your computer.</p>
 
-<strong>Activity:</strong> <a href="http://oti.newamerica.net/blogposts/2011/name_that_tech_collaborative_design_challenge_workshop-57228">Name That Tech</a>: What does your application look like?
+<p><strong>Activity:</strong> <a href="http://oti.newamerica.net/blogposts/2011/name_that_tech_collaborative_design_challenge_workshop-57228">Name That Tech</a>: What does your application look like?
 <ol>
 	<li>Think of an application that you are familiar with. It can be old or new, real or imagined.</li>
 	<li>Find the shapes and words you want to use and cut them out.</li>
@@ -67,17 +67,16 @@ A smartphone application or software program is an application that you download
 	<li>Glue the pieces in place. Make sure they are all glued.</li>
 	<li>Write your name and contact information, along with the technology you are explaining, on the back of the sheet of paper.</li>
 	<li>Using the binder clips, hang the flyer up to display and dry on any of the hooks on the window.</li>
-</ol>
+</ol></p>
 
-To learn more about networking basics, check out the activities in the <a href="https://commotionwireless.net/docs/cck/networking/learn-networking-basics">CCK Networking Module: “Learn Networking Basics.”</a> The web server can be located anywhere on a network - including someone’s laptop within the network or on another computer somewhere on the Internet.
+<p>To learn more about networking basics, check out the activities in the <a href="https://commotionwireless.net/docs/cck/networking/learn-networking-basics">CCK Networking Module: “Learn Networking Basics.”</a> The web server can be located anywhere on a network - including someone’s laptop within the network or on another computer somewhere on the Internet.</p>
 
 <h3>Local Applications</h3>
-Network applications talk to a web server, but that web server does not have to be on the Internet. It can live in many places - the Internet, the local network, or even be someone’s laptop. Running applications on a local web server within your network -- such as on a laptop -- allows you and your community to have tools and services just for you. Many applications do not need access to the Internet to work, which means that the applications running on a local web server would be useable whether your network has Internet access or not! In the same way that the mesh network allows multiple people to share network resources, running a local application server makes it possible to share information without going out to the Internet - keeping local communications local and more efficient.
+<p>Network applications talk to a web server, but that web server does not have to be on the Internet. It can live in many places - the Internet, the local network, or even be someone’s laptop. Running applications on a local web server within your network -- such as on a laptop -- allows you and your community to have tools and services just for you. Many applications do not need access to the Internet to work, which means that the applications running on a local web server would be useable whether your network has Internet access or not! In the same way that the mesh network allows multiple people to share network resources, running a local application server makes it possible to share information without going out to the Internet - keeping local communications local and more efficient.</p>
 
-There are also applications that do not need to talk to a server at all. These applications are called peer-to-peer applications. 
+<p>There are also applications that do not need to talk to a server at all. These applications are called peer-to-peer applications. </p>
 
-<strong>Activity:</strong> Your community decides that it wants to have the ability to chat with anyone connected to the network. You could setup the chat to be hosted on the internet or run it on a computer on the community network. 
-
+<p><strong>Activity:</strong> Your community decides that it wants to have the ability to chat with anyone connected to the network. You could setup the chat to be hosted on the internet or run it on a computer on the community network.
 <ol>
 	<li>Create a diagram of how the chat application would send messages if it was hosted on the Internet. </li>
 	<li>Create a second diagram of how the chat application would send messages if it was hosted on a server on the community network.</li>
@@ -89,9 +88,9 @@ There are also applications that do not need to talk to a server at all. These a
 <em>Chat via the Internet</em>
 
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_LocalApps_mesh_application.png" typeof="foaf:Image" width="510">
-<em>Chat via Peer-to-Peer</em>
+<em>Chat via Peer-to-Peer</em></p>
 
-To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).
+<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
 </section>
  
 <section id="definitions">
