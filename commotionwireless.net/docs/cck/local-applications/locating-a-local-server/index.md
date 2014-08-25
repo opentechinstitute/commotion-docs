@@ -1,14 +1,14 @@
 ---
 layout: cck
-title: Inventory the Neighborhood
+title: Locating a Local Server
 site_section: help
-sub_section: [cck,cck-planning]
-pdf: cck/planning/5-Inventory_the_Neighborhood.pdf
+sub_section: [cck,cck-local-apps]
+pdf: 
 pdf-all: true
 categories: 
-created: 2013-11-02
-changed: 2013-11-27
-post_author: critzo
+created: 2014-08-25
+changed: 2014-08-25
+post_author: georgia
 lang: en
 ---
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__476 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/inventory_the_neighborhood_title.png?itok=qgv6sh9C" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
@@ -16,139 +16,84 @@ lang: en
 <section id="introduction">
 <h2>Introduction</h2>
 
-<p>Although we spend time in our neighborhoods every day, we are not always looking at and thinking about our neighborhood from the perspective of building a network. In this activity you will learn how to look at your neighborhood through the lens of a community organizer, handy-person and techie. Through these lenses you will be able evaluate the the social, physical and technical challenges and opportunities of potential sites.</p>
+<p>Applications are a great way to provide tools that address community specific needs. In planning for local applications, whether you use existing applications or develop your own, it’s best to follow a similar model to building the network itself -- shaping the technology to fit human relationships rather than shaping our relationships to fit the technology.</p>
 
-<p>In this activity you will develop a list of important neighborhood characteristics, walk around your community, and record information to help you in picking sites for your first installations. These are important first steps for planning any network.</p>
+<p>In this activity you will develop a list of important network and neighborhood characteristics, diagram your current network, and evaluate options for where to locate a local applications server on your community network.</p>
 
-<p>The more information you have about your sites, the more useful your network planning will be.</p>
+<p>The more information you have about your network, the sites where routers are hosted, your community needs, and how the network is currently used, the more useful your planning will be.</p>
 
-<p>Creating an inventory of your entire neighborhood takes time. You may start your inventory with a few potential sites or a small area in your neighborhood. You can repeat these steps as you continue to grow and plan the network.</p>
-
-<p>You may want to do the <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong>&nbsp;and “Wireless Challenges” activities before you inventory areas of your neighborhood.</p>
-
-<p><strong>Time required: 2 to 3 hours, depending on the size of the area you want to inventory.</strong></p>
+<p><strong>Time required:  1-2 hours, depending on the activities.</strong></p>
 </section>
 
 <section id="materials-and-supplies-needed">
 <h3>MATERIALS + SUPPLIES NEEDED</h3>
 
-<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__484 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" style="width: 480px; height: 408px;" typeof="foaf:Image" /></a></p>
+<ol class="rteindent1">
+	<li>Markers / Pens / Pencils</li>
+	<li>Paper</li>
+	<li>Scissors (optional)</li>
+</ol>
 
-<p>Printouts of the <strong><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheets</a></strong>&nbsp;you can take with you into the neighborhood to collect information about places that might make good installation sites. You will need one for each location.</p>
-
-<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__483 img__view_mode__media_large attr__format__media_large" height="348" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" typeof="foaf:Image" width="457" /></a></p>
-
-<p><strong><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf">Neighborhood Inventory Spreadsheet</a></strong>&nbsp;you can use to organize, store, and use the information you gathered out in the neighborhood. You can copy this example spreadsheet or make your own.</p>
-
-<p>Pens</p>
-
-<p>Clipboards</p>
-
-<p>Camera</p>
-
-<p>Printed map for walking around your neighborhood (you can use OpenStreetMap, Google Maps, or other online resource if you don’t have an up-to-date paper map)</p>
-
-<p>Computer for entering information into a digital version of the "Neighborhood Inventory Spreadsheet" (optional)</p>
-
-<p><strong><a href="/docs/cck/planning/get-word-out-flyer-design">Flyers</a></strong> about your network project (optional)</p>
 </section>
 
-<section id="inventory-intro">
-<h2>Wireless Inventory Basics</h2>
+<section id="network-server-basics">
+<h2>Applications & Network Assessment Basics</h2>
 
-<p>Networks have social, physical and technical challenges. When planning a network and identifying potential sites, you will need to understand each site through the lens of a community organizer, a handy-person and a techie (see <strong><a href="/docs/cck/planning/identify-neighborhood-skills">Identify Neighborhood Skills</a></strong>).</p>
+<p>Networks have social, physical and technical challenges. Applications can live on the Internet, on a local network, or use peer-to-peer information transfer. One of the easiest ways to provide local applications, is to setup a server to host applications locally on the network. When planning how to add local applications to your network, you will need to understand each site -- how people use the network, what resources are available; as well as what type of applications you want to support -- large media or file sharing versus a chat application; and how you plan to support or govern the applications or server installation. </p>
 
-<p>When identifying potential sites for the network, each of these roles evaluates different aspects of the site:</p>
+<p><strong>Activity:</strong> Diagramming & Siting a Local Application Server on Your Network</p>
 
-<table>
-	<tbody>
-		<tr>
-			<td align="center" valign="middle" width="110px;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Organizer</strong></td>
-			<td valign="middle"><strong>Evaluate the Social Opportunities and Challenges:</strong>
-			<ol>
-				<li>What are the important community institutions (places of worship, recreation centers, community organizations, etc.)?</li>
-				<li>Who are the active members of the community that could spread the word?</li>
-				<li>Which local business might be interested in participating?</li>
-				<li>Who owns each specific site or building?</li>
-				<li>Who is willing to put equipment on their roof or in their window?</li>
-			</ol>
-			</td>
-		</tr>
-		<tr>
-			<td align="center" valign="middle"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__462 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Handy-Person</strong></td>
-			<td valign="middle"><strong>Evaluate the Mounting and Power Options:</strong>
-			<ol>
-				<li>Does the building have power nearby? How can power be provided?</li>
-				<li>Are there places to safely mount equipment?</li>
-				<li>What kind of roof does the building have? Is the roof safe to work on?</li>
-				<li>Are the windows tinted with glass that blocks wireless signals?</li>
-			</ol>
-			</td>
-		</tr>
-		<tr>
-			<td align="center"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__463 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Techie</strong></td>
-			<td valign="middle"><strong>Evaluate the Wireless Networking Potential:</strong>
-			<ol>
-				<li>What are the tallest buildings in the area?</li>
-				<li>How many stories/floors does a building have?</li>
-				<li>What buildings have good line of sight to other buildings?</li>
-				<li>Are there hills, trees or inaccessible buildings that block line of sight?</li>
-				<li>What other buildings does each possible building see?</li>
-				<li>Are there other large installations of wireless equipment at the site that might cause interference problems?</li>
-			</ol>
-			</td>
-		</tr>
-	</tbody>
-</table>
+<p>Materials: <a href="https://commotionwireless.net/docs/cck/planning/design-your-network-construction-elements">Commotion Construction Kit Construction Elements</a></p>
 
-<p><strong>Is there anything missing? Are there additional questions that should be added to this list?</strong></p>
+<p>Using the <a href="https://commotionwireless.net/docs/cck/planning/design-your-network-construction-elements">Construction Elements</a>, create a diagram of your network. If you are just getting started, this could be a diagram of the plan that you have so far, or you can work with someone else on the plan for their network. </p>
+
+<p>Given your network, or the network you are planning for, what is the best possible location for a local server? What criteria do you need to consider? Here are a few questions to help get you thinking about what criteria you may want to consider for your network:</p>
+
+<ul>
+	<li>Do the applications that you are thinking about hosting need to access the Internet? </li>
+	<li>Does the server need to be physically accessed? Is the location safe?</li>
+	<li>Who from your community is most knowledgeable about how to work with the server?</li>
+	<li>Where do people in your community access and use the network the most?</li>
+	<li>How many hops will the server be from the access points? from the Internet?</li>
+	<li>Are there computers already located somewhere that could be used as a local server?</li>
+	<li>Where are the strongest mesh connections within your network? Are there multiple ways that information can flow between a user accessing an application and the local server?</li>
+	<li>What applications does your community need? Do the applications have any additional requirements from a technical setup perspective?</li>
+	<li>Where in your community has good, consistent access to electricity?</li>
+	<li>Does your community have one continuous network, or are there multiple networks in the community?</li>
+</ul>
+
+<p>These questions are designed to help you think about some of the social, technical and administrative issues that might affect where you decide to put a local server on your network. Is there anything missing? Are there additional questions that should be added to this list?</p>
+
 </section>
 
-<section id="inventory-steps">
-<h2>Inventory Steps</h2>
+<section id="assessment-steps">
+<h2>Assessment Steps</h2>
 
-<p><strong>1. List sites and/or areas you would like to inventory. </strong>Use the questions above to guide the selection of potential sites or areas. Identify why you are selecting each location and what questions you want to answer during the inventory. For example, how many stories is the building? Can you see the library from the community center?&nbsp;Think of questions each role needs to answer.</p>
+<p><strong>1. List sites and/or areas you would like to have access to the applications.</strong> Use the questions above to guide the criteria of the potential sites or areas that you will prioritize. Identify which sites might have better characteristics to support a server or might present challenges for providing application access. For example, does every site have access to the Internet? Do all the sites connect to each other over the mesh?</p>
 
-<p><strong>2. Find or create a detailed map of the area. </strong>You can use an up-to-date paper map, or a map from an online platform like OpenStreetMap or Google Maps.</p>
+<p><strong>2. Find or create a detailed map of the area and layer your network diagram over the map.</strong>You can use an up-to-date paper map, or a map from an online platform like OpenStreetMap or Google Maps.</p>
 
-<p><strong>3. Review and discuss the Site Worksheet. </strong>You will need one Site Worksheet for each site to keep track of what you learn. You may end up inventorying more sites than you planned, so bring extra copies.</p>
+<p><strong>3. If you don’t have enough information about a site, you may need to go to the site and assess what resources and challenges are there.</strong> You may find the <a htef="https://commotionwireless.net/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheet</a> from the <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventory Module</a> helpful for the visit. Photos are very helpful for capturing many details about buildings.</p>
 
-<p><strong>4. Split into groups (if you have enough people) and split the neighborhood or area into different areas to visit.</strong> In each group, specify the organizer, handy-person and techie so that everyone knows which types of questions they are responsible for asking and answering. Bring your map and Site Worksheet to write notes and keep track of where you visited.</p>
+<p><strong>4. Using the criteria that you have developed, what is/are the best location(s) for a local server, or possibly multiple local servers, on your network?</strong> It might help to map out how information flows through the network given your different options. How does the experience of using applications change with the different configurations?</p>
 
-<p><strong>5. Set a time to finish and meet up with your group, and then go inventory the area!</strong> It might be good to have some information about your network project with you, like a flyer, in case you meet people while you are walking around.</p>
+<p><strong>5.  Once you and your community have decided on a location, work with your community to install the server and setup the applications.</p>
 
-<p><strong>6. As you walk the neighborhood, fill out the Site Worksheet and mark the places on your map.</strong> Note any details about the items or places that might be helpful for later, such as details about the height of the building, the amount of trees in the area or people that you talked with and include them on the Site Worksheet. Photos are very helpful for capturing many details about buildings.</p>
-
-<p><strong>7. Meet back together and collect all the Site Worksheets and add the information to the Neighborhood Inventory Spreadsheet.</strong> Make sure the information is simple, clear, and consistent. You want this worksheet to be useful to anyone who might read it, even if they were not a part of the inventory process.</p>
-
-<p><strong>8. Review the site options and prioritize them as a group.</strong> Decide what locations might be good places to do a detailed Site Assessment.</p>
+<p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon). To explore applications that other communities use, check out the list of applications on the Commotion Wiki -- <a href="https://wiki.commotionwireless.net/doku.php/development_resources/application_server/start">Possible Local Applications</a></p>
 </section>
 
-<section id="definitions">
-<h2>Definitions</h2>
-
-<dl>
-	<dt>Site</dt>
-	<dd>A location for the wireless equipment.</dd>
-	<dt>Inventory (v)</dt>
-	<dd>Make a detailed list.</dd>
-</dl>
-</section>
 
 <section class="related-information" id="related-information">
 <h2>Related Information</h2>
 
-<p>Explore the different roles and tasks important in organizing, planning, building and maintaining a neighborhood wireless network in the <strong><a href="/docs/cck/planning/identify-neighborhood-skills">Identify Neighborhood Skills</a></strong>&nbsp;activities.</p>
+<p>This module is intended to provide some helpful background on applications. We recommend reading <strong><a href="/docs/cck/networking/learn-networking-basics/">Learn Networking Basics</a></strong> alongside it.</p>
 
-<p>Play <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong>&nbsp;before you assess possible network sites.</p>
+<p>For information about how mesh networks work, read the <strong><a href="/docs/cck/networking/intro-to-mesh/">Intro to Mesh</a></strong> module.</p>
 
-<p>Adjust your original network map from <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong>.</p>
+<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). </p>
 
-<p>Use the <strong><a href="/docs/cck/planning/survey-your-neighbors">Survey Your Neighbors</a></strong>&nbsp;module to figure out which network sites are interested in participating in the project.</p>
+<p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
 
-<p>Use <strong><a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>&nbsp;</strong>module to make a flyer to show people if they want to know more about the project.</p>
+<p>Check out some ideas and installation guides on the Commotion wiki around possible applications that many community networks use on the <a href="https://wiki.commotionwireless.net/doku.php/development_resources/application_server/start">Possible Local Applications</a>.</p>
 </section>
  

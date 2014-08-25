@@ -15,11 +15,11 @@ lang: en
 <section id="introduction">
 <h2>Introduction</h2>
 
-<p>Applications are a great way to provide tools that address community specific needs. An application is a program or piece of software designed and written to fulfill a particular purpose, such as a word processor, image editor, navigation system or messaging application. Applications can come in many forms -- a website which you access from a web browser or something that you install on a device such as a smartphone application or software program.  Commotion makes it possible to provide applications that are available only when you are connected to the mesh network or wireless access point. In planning for local applications, whether you use existing applications or develop your own, it’s best to follow a similar model to building the network itself -- shaping the technology to fit human relationships rather than shaping our relationships to fit the technology.
+<p>Applications are a great way to provide tools that address community specific needs. An application is a program or piece of software designed and written to fulfill a particular purpose, such as a word processor, image editor, navigation system or messaging application. Applications can come in many forms -- a website which you access from a web browser or something that you install on a device such as a smartphone application or software program.  Commotion makes it possible to provide applications that are available only when you are connected to the mesh network or wireless access point. In planning for local applications, whether you use existing applications or develop your own, it’s best to follow a similar model to building the network itself -- shaping the technology to fit human relationships rather than shaping our relationships to fit the technology.</p>
 
-This module will help you understand what applications are and how they work.
+<p>This module will help you understand what applications are and how they work.</p>
 
-<strong>Time required:  1-2 hours, depending on the activities.</strong></p>
+<strong><p>Time required:  1-2 hours, depending on the activities.</strong></p>
 </section>
 
 <section id="materials-and-supplies-needed">

@@ -11,6 +11,6 @@ post_author: georgia
 lang: en
 ---
 <div class="cck-section-page">
-{% include help_cck_installing_menu.html %}
+{% include help_cck_localapps_menu.html %}
 </div>
  
