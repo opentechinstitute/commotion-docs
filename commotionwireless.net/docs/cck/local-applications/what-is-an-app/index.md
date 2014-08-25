@@ -94,3 +94,25 @@ There are also applications that do not need to talk to a server at all. These a
 To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).
 </section>
  
+<section id="definitions">
+<h2>Definitions</h2>
+
+<dl>
+	<dt>Application</dt>
+	<dd>a program or piece of software designed and written to fulfill a particular purpose, such as a website, smartphone application or software program.</dd>
+</dl>
+</section>
+
+<section class="related-information" id="related-information">
+<h2>Related Information</h2>
+
+<p>This module is intended to provide some helpful background on applications. We recommend reading <strong><a href="/docs/cck/networking/learn-networking-basics/">Learn Networking Basics</a></strong> alongside it.</p>
+
+<p>For information about how mesh networks work, read the <strong><a href="/docs/cck/networking/intro-to-mesh/">Intro to Mesh</a></strong> module.</p>
+
+<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). </p>
+
+<p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
+
+<p>Check out some ideas and installation guides on the Commotion wiki around possible applications that many community networks use on the <a href="https://wiki.commotionwireless.net/doku.php/development_resources/application_server/start">Possible Local Applications</a>.</p>
+</section>
