@@ -11,7 +11,6 @@ changed: 2014-08-25
 post_author: georgia
 lang: en
 ---
-  <img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510">
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -86,10 +85,10 @@ There are also applications that do not need to talk to a server at all. These a
 	<li>What are the differences between the different options? What are the benefits and challenges of the different options?</li>
 </ol>
 
-//image of internet chat
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_LocalApps_internet_application.png" typeof="foaf:Image" width="510">
 <em>Chat via the Internet</em>
 
-//image of peer-to-peer chat
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_LocalApps_mesh_application.png" typeof="foaf:Image" width="510">
 <em>Chat via Peer-to-Peer</em>
 
 To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).
