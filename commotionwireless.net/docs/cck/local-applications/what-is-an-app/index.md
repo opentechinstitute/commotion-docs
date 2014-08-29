@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: What is an App?
-site_section: help
+site_section: docs
 sub_section: [cck,cck-local-apps]
 pdf: 
 pdf-all: true
@@ -19,7 +19,7 @@ lang: en
 
 <p>This module will help you understand what applications are and how they work.</p>
 
-<strong><p>Time required:  1-2 hours, depending on the activities.</strong></p>
+<p><strong>Time required:  1-2 hours, depending on the activities.</strong></p>
 </section>
 
 <section id="materials-and-supplies-needed">

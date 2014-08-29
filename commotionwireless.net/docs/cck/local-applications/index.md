@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Construction Kit - Local Applications
-site_section: help
+site_section: docs
 sub_section: [cck,cck-local-apps]
 pdf-all: true
 categories: 
@@ -11,6 +11,6 @@ post_author: georgia
 lang: en
 ---
 <div class="cck-section-page">
-{% include help_cck_localapps_menu.html %}
+{% include docs_cck_localapps_menu.html %}
 </div>
  

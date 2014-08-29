@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Locating a Local Server
-site_section: help
+site_section: docs
 sub_section: [cck,cck-local-apps]
 pdf: 
 pdf-all: true
