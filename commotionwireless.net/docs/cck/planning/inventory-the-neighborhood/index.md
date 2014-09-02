@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Inventory the Neighborhood
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/5-Inventory_the_Neighborhood.pdf
 pdf-all: true
@@ -24,7 +24,7 @@ lang: en
 
 <p>Creating an inventory of your entire neighborhood takes time. You may start your inventory with a few potential sites or a small area in your neighborhood. You can repeat these steps as you continue to grow and plan the network.</p>
 
-<p>You may want to do the <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong> and <a href="/docs/cck/planning/wireless-challenges">Wireless Challenges</a> activities before you inventory areas of your neighborhood.</p>
+<p>You may want to do the <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong> and <a href="/docs/cck/networking/wireless-challenges">Wireless Challenges</a> activities before you inventory areas of your neighborhood.</p>
 
 <p><strong>Time required: 2 to 3 hours, depending on the size of the area you want to inventory.</strong></p>
 </section>

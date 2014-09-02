@@ -1,13 +1,13 @@
 ---
 layout: cck
 title: Learn Networking Basics
-site_section: help
+site_section: docs
 sub_section: [cck,cck-networking]
-pdf: cck/networking/1-Learn_Networking_Basics.pdf
+pdf: cck/networking/CCK-Learn_Networking_Basics.pdf
 pdf-all: true
 categories: 
 created: 2013-11-07
-changed: 2013-11-26
+changed: 2014-08-22
 post_author: critzo
 lang: en
 ---

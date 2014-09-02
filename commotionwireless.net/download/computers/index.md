@@ -31,7 +31,7 @@ lang: en
 <h2>Unsupported Prototype Clients</h2>
 
 <h3>Linux</h3>
-<p>Our prototype client which led to this change in design direction was Commotion Linux. Initial Development of Commotion Linux resulted in .deb packages compatible with Ubuntu and Debian Linux. We provide the <a href="http://downloads.commotionwireless.net/linux" target="_blank">Commotion Linux .deb packages</a> for posterity and for interested parties to use. See the Readme file in the **commotion-linux-py.deb package** for installation instructions. Note that Commotion Linux comaptible with our DR2 release, but is not compatible with more recent versions of Commotion such as Commotion Router 1.0 and 1.1. It is also not supported by the Commotion team.</p>
+<p>Our prototype client which led to this change in design direction was Commotion Linux. Initial Development of Commotion Linux resulted in .deb packages compatible with Ubuntu and Debian Linux. We provide the <a href="https://downloads.commotionwireless.net/linux" target="_blank">Commotion Linux .deb packages</a> for posterity and for interested parties to use. See the Readme file in the **commotion-linux-py.deb package** for installation instructions. Note that Commotion Linux comaptible with our DR2 release, but is not compatible with more recent versions of Commotion such as Commotion Router 1.0 and 1.1. It is also not supported by the Commotion team.</p>
 
 <h3>Mac OS</h3>
 

@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Identification des compétences du voisinage
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/6-Identify_Neighborhood_Skills.pdf
 pdf-all: true

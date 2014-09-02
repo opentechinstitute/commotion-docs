@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Construction Kit
-site_section: help
+site_section: docs
 sub_section: [cck]
 categories: 
 created: 2013-09-20
@@ -25,7 +25,6 @@ lang: en
 
 <ul>
 	<li><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>: A game that helps communities think through network planning and the&nbsp;social networks upon which community wireless relies.</li>
-	<li><a href="/docs/cck/planning/wireless-challenges">Design your Network: Wireless Challenges</a>: A simple guide to wireless challenges to help improve network planning&nbsp;and troubleshooting.</li>
 	<li><a href="/docs/cck/planning/survey-your-neighbors">Survey your Neighbors</a>: Description of how to design a survey for your community, conduct it, analyze the results, and follow-up with the community.</li>
 	<li><a href="/docs/cck/planning/get-word-out-flyer-design">Get the Word Out: Flyer Design</a>: Step-by-step suggestions for making a flyer for your wireless project, including examples.</li>
 	<li><a href="/docs/cck/planning/identify-neighborhood-skills">Identify Neighborhood Skills</a>: Activities to help identify important organizing, tech, and handy-person&nbsp;skills for your wireless project.</li>
@@ -38,8 +37,9 @@ lang: en
 <ul>
 	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a>: A step-by-step process for installing Commotion Wireless on Ubiquiti routers, which are amenable to changing operating systems.</li>
 	<li><a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a>: Instructions on configuring a Commotion wireless node through the Commotion Setup Wizard and through the administration interface.</li>
-	<li><a href="/docs/cck/installing-configuring/common-configuration/">Common Configurations</a>: How a node should be configured depends on how it needs to funtion on the mesh network. Learn about different ways to configure a Commotion node.</li>
-	<li><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a>: Includes&nbsp;steps to identify and&nbsp;solve the most common problems that may arise with your Commotion router or wireless network.</li>
+	<li><a href="/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a>: How a node should be configured depends on how it needs to funtion on the mesh network. Learn about the most common Commotion configurations.</li>
+	<li><a href="/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a>: For hardware configurations that involve multiple nodes at a single site, or other unique situations, this guide provides instructions.</li>
+	<li><a href="/docs/cck/installing-configuring/troubleshoot-your-wireless-node">Troubleshoot Your Wireless Node</a>: Includes steps to identify and solve the most common problems that may arise with your Commotion router or wireless network.</li>
 	<li><a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and Recover with TFTP</a>: An alternate installation process if the regular approach does not work or there is a problem with installing Commotion Wireless.</li>
 </ul>
 
@@ -58,6 +58,7 @@ lang: en
 	<li><a href="/docs/cck/networking/intro-to-mesh">Introduction to Mesh</a>: An introduction to mesh and network properties.</li>
 	<li><a href="/docs/cck/networking/learn-networking-basics">Learn Networking Basics</a>: An introductory guide to networking.</li>
 	<li><a href="/docs/cck/networking/learn-wireless-basics">Learn Wireless Basics</a>: An introduction to how wireless technology works.</li>
+	<li><a href="/docs/cck/networking/wireless-challenges">Design your Network: Wireless Challenges</a>: A simple guide to wireless challenges to help improve network planning&nbsp;and troubleshooting.</li>
 </ul>
 
 <p>&nbsp;</p>
