@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Get Help
-site_section: help
+title: Documentation
+site_section: docs
 categories: 
 created: 2013-07-15
 changed: 2014-01-02

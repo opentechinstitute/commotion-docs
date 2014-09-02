@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Configure Commotion
-site_section: help
+site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/2-Configure_Commotion.pdf
 pdf-all: true
@@ -385,7 +385,9 @@ Be sure to record your node and network settings so that you can re-enter them w
 <section id="Advanced-Commotion-mesh-settings">
 <h2>Advanced Commotion mesh settings</h2>
 
-<p>You can change the configuration of a router on the mesh network that you set during the Quickstart process. You might do this either to separate from the mesh network or to change the identity of the network.</p>
+<h3>Changing mesh configurations</h3>
+
+<p>You can change the configuration of a router on the mesh network that you set during the Setup Wizard process. You might do this create a separate network, or to change the identity of the network.</p>
 
 <ol class="rteindent1">
 	<li>Navigate to <strong>Basic Config -&gt; Network Settings -&gt; Mesh Network</strong></li>
@@ -393,6 +395,48 @@ Be sure to record your node and network settings so that you can re-enter them w
 	<li>In the “Mesh SSID” field, enter the name of your network. This name must be the same for every node on the network.</li>
 </ol>
 
+<h3>Opening the firewall for remote Administration</h3>
+
+<p>By default, Commotion prevents access to the administration web
+interface from a node's Ethernet port, because sometimes this port will
+be connected directly to the Internet. Preventing access to the admin
+portal from the Internet helps keep unwanted intruders from damaging the
+node and other parts of the network.</p>
+
+<p>However, in some advanced network configurations, you'll need to access
+the administration web interface over a node's Ethernet port. This may
+be the case if the node is configured to mesh over Ethernet, or when the
+node is attached to a common Ethernet switch with other nodes.</p>
+
+<p>If this is the case, you can add a rule to the node's firewall in order
+to access the admin portal over the node's Ethernet interface. You'll
+begin by connecting to the node's wireless access point, and going to
+<a href="http://thisnode">http://thisnode</a> in your browser.</p>
+
+<ol class="rteindent1">
+    <li>Click on the Administration button on the bottom of the page.</li>
+    <li>Go to <strong>Advanced -> Network -> Firewall</strong>.</li>
+    <li>At the top of the page, click on the "Traffic Rules" tab.</li>
+</ol>
+<p><img src="/files/CCK_ConfigureRouters_Firewall1.png" style="max-width:700px;" /></p>
+<ol class="rteindent1" start="4">
+    <li>Under the "Open ports on router" section, you'll fill in the following values:</li>
+    <ol type="a">
+	<li>Name: "Admin interface"</li>
+	<li>Protocol: "TCP"</li>
+	<li>External port: 443</li>
+    </ol>
+    <li>Click the "Add" button next to the fields you just filled out.</li>
+</ol>
+<p><img src="/files/CCK_ConfigureRouters_Firewall2.png" style="max-width:600px;" /></p>
+<ol class="rteindent1" start="6">
+    <li>Click on "Save & Apply" at the bottom of the page.</li>
+</ol>
+
+<p>After you click "Save and Apply", the changes will be made and you will see the new entry in the Firewall rules:
+<p><img src="/files/CCK_ConfigureRouters_Firewall3.png" style="max-width:600px;" /></p>
+
+<p>The node with this configuration should now allow access to the Administration panel from any computer or network connected to the WAN (Ethernet) port.</p>
 <p>&nbsp;</p>
 </section>
 

@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Learn Networking Basics
-site_section: help
+site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/1-Learn_Networking_Basics.pdf
 pdf-all: true

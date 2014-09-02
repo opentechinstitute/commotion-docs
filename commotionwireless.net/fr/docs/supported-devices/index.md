@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Supported Devices
-site_section: help
+site_section: docs
 categories: 
 created: 2013-07-07
 changed: 2013-12-28

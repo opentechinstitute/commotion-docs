@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Faites une enquête dans votre quartier
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/3-Survey_Your_Neighbors.pdf
 pdf-all: true

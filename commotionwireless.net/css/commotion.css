@@ -57,7 +57,9 @@ div#logo img {
 /* top nav */
 div#navbar {
   padding-left: 300px;
-  margin-bottom: 75px;
+  margin-bottom: 0px;
+  min-height: 110px;
+  margin-right: 50px;
 }
 div#navbar ul > li a {
   border-bottom: 3px solid;

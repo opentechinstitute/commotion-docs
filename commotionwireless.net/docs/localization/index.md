@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commotion Localization
-site_section: help
+site_section: docs
 categories: 
 created: 2013-08-29
 changed: 2013-09-20

@@ -1,7 +1,7 @@
 ---
 layout: cck
 title: Introduction to Mesh
-site_section: help
+site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/2-Introduction_to_Mesh.pdf
 pdf-all: true
