@@ -11,7 +11,7 @@ changed: 2014-01-12
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__610 img__view_mode__media_original attr__format__media_original" height="299" src="/files/CCK_Common_Configs_Intro_0_0.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="Commotion Common Configurations graphic" class="three-fourths-width" src="/files/CCK_Common_Configs_Intro_0_0.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -41,7 +41,7 @@ lang: en
 	<li><strong>(1)</strong> Represents an omnidirectional wireless node.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__618 img__view_mode__media_original attr__format__media_original" src="/files/CCK_CommonConfigs_OmniWireless_0_0.png" style="width: 471px; height: 430px;" typeof="foaf:Image" /></p>
+<p><img alt="Illustration of two nodes meshing wirelessly" class="half-width" src="/files/CCK_CommonConfigs_OmniWireless_0_0.png" /></p>
 
 <p><strong>Steps to Configure:</strong></p>
 
@@ -72,7 +72,7 @@ lang: en
 	<li><strong>(3)</strong> Represents the Ethernet cable connecting the two devices together.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__619 img__view_mode__media_original attr__format__media_original" src="/files/CCK_CommonConfigs_EthernetMesh1_0.png" style="width: 362px; height: 399px;" typeof="foaf:Image" /></p>
+<p><img alt="Illustration of two wireless nodes meshed over an Ethernet connection-shows one directional node and one omnit-directional node." class="half-width" src="/files/CCK_CommonConfigs_EthernetMesh1_0.png" /></p>
 
 <p><strong>Steps to Configure:</strong></p>
 
@@ -89,7 +89,13 @@ lang: en
 	<li>Follow the steps above on the second node as well. Make sure when you set the IP that you set it to a different address in the same subnet you configured above. In the example given, you could set the address to 172.16.100.2..</li>
 </ol>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__620 img__view_mode__media_original attr__format__media_original" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" style="width: 370px; height: 420px;" typeof="foaf:Image" /></p>
+<p><img alt="Additional illustration of two wireless nodes meshed over an Ethernet connection, shows two directional nodes back-to-back." class="half-width" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" /><br />
+<strong>Note:</strong> Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+
+  1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
+  2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or <a href="http://gowasabi.net/content/importance-shielding" target="_blank">make your own from metal building studs</a>.
+
+</p>
 </section>
 
 <section id="”commotion-node-connected-to-a-home-or-business-router”">
@@ -106,7 +112,7 @@ lang: en
 	<li><strong>(2)</strong> Represents the indoor wireless device clients use to connect.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__621 img__view_mode__media_original attr__format__media_original" src="/files/CCK_CommonConfigs_CommotionToRouterWAN_0.png" style="width: 248px; height: 378px;" typeof="foaf:Image" /></p>
+<p><img alt="Illustration of Commotion node connected to a home or business router" class="half-width" src="/files/CCK_CommonConfigs_CommotionToRouterWAN_0.png" /></p>
 
 <p><strong>This scenario should work out of the box without further configuration.</strong></p>
 
@@ -127,7 +133,7 @@ lang: en
 	<li><strong>(4)</strong> Represents the connection to the Internet.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__622 img__view_mode__media_original attr__format__media_original" src="/files/CCK_CommonConfigs_CommotionGateway_0.png" style="width: 404px; height: 380px;" typeof="foaf:Image" /></p>
+<p><img alt="Illustration of Commotion Node connected to a gateway" class="half-width" src="/files/CCK_CommonConfigs_CommotionGateway_0.png" /></p>
 
 <p><strong>This scenario should work out of the box without further configuration.</strong></p>
 
@@ -148,7 +154,12 @@ lang: en
 	<li><strong>(5)</strong> Represents an optional indoor Access Point for users to connect laptops, phones or other devices.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__623 img__view_mode__media_original attr__format__media_original" height="488" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" typeof="foaf:Image" width="519" /></p>
+<p><img alt="Illustration of Commotion nodes connected through a switch or router" class="half-width" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" /><br />
+<strong>Note:</strong> Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:
+
+  1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
+  2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or <a href="<a href="http://gowasabi.net/content/importance-shielding" target="_blank">make your own from metal building studs</a>.
+ </p>
 
 <p><strong>This should work automatically without further configuration.</strong></p>
 
@@ -177,7 +188,12 @@ lang: en
 	<li><strong>(4)</strong> Represents an indoor Access Point for users to connect laptops, phones or other devices.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__624 img__view_mode__media_original attr__format__media_original" height="487" src="/files/CCK_CommonConfigs_CommotionClientAP.png" typeof="foaf:Image" width="480" /></p>
+<p><img alt="Illustration of Commotion nodes and a client Access Point connected through a switch" class="half-width" src="/files/CCK_CommonConfigs_CommotionClientAP.png" /><br />
+<strong>Note:</strong> Mounting two wireless routers back-to-back on the same pole can cause interference. For best performance, we recommend:<br />
+
+  1. Mounting equipment on separate poles. A separation of two or three meters (6 to 10 feet) can make a big difference in reducing the amount of wireless interference.
+  2. Using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can buy these <a href="http://www.rfarmor.com/cart/index.php?main_page=product_info&cPath=12&products_id=30" target="_blank">commercially</a>, or <a href="http://gowasabi.net/content/importance-shielding" target="_blank">make your own from metal building studs</a>.
+</p>
 
 <p><strong>Steps to Configure for Commotion Devices:</strong></p>
 
@@ -216,7 +232,7 @@ lang: en
 	<li><strong>(3)</strong> Represents the connection to the Internet you want to share.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__625 img__view_mode__media_original attr__format__media_original" height="387" src="/files/CCK_CommonConfigs_WirelessGateway.png" typeof="foaf:Image" width="389" /></p>
+<p><img alt="Illustration of Wireless gateway connection" class="half-width" src="/files/CCK_CommonConfigs_WirelessGateway.png" /></p>
 
 <p><strong>Steps to Configure for Commotion Devices:</strong></p>
 
@@ -235,7 +251,7 @@ lang: en
 <section id="”meshing-laptops-smartphones-and-routers”">
 <h2>Meshing Laptops, Smartphones, and Routers</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__616 img__view_mode__media_original attr__format__media_original" height="349" src="/files/CCK_Common_Configs_Laptop_Phone_Router.png" typeof="foaf:Image" width="371" /></p>
+<p><img alt="Illustration of Meshing Laptops, Smartphones, and Routers" class="half-width" src="/files/CCK_Common_Configs_Laptop_Phone_Router.png" /></p>
 
 <p><strong>Steps to Configure:</strong></p>
 

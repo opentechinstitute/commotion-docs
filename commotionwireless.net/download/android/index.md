@@ -3,13 +3,13 @@ layout: downloads
 title: Download Commotion Andoid
 categories: 
 created: 2013-06-28
-changed: 2013-12-31
+changed: 2014-06-06
 post_author: grady
 lang: en
 ---
 ## Commotion Android
 
-  <div class="warning-label">
+<div class="warning-label">
 <div class="warning-top">
 <h2>WARNING</h2>
 </div>
@@ -26,14 +26,20 @@ lang: en
 <a href="https://commotionwireless.net/understanding-commotions-warning-label">For More Info Click Here</a></div>
 </div>
 
-<p>Here you can find pre-built downloads for the Commotion android devices we currently support.</p>
+<p>Pre-built downloads for the Commotion android devices we currently support are listed below.</p>
 
-<p><strong>NOTE: Your phone must be rooted</strong> to run this package. See the <a href="/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.</p>
+<p><strong>PLEASE NOTE:</strong>
+
+  * <strong>Your phone must be rooted</strong> to run this package. 
+  * Commotion Android will connect to Commotion networks up to Commotion Router PR3. However, it is not fully feature compatible with Commotion Router 1.0 or higher.
+  * See the <a href="/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.
+
+</p>
 
 <p>&nbsp;</p>
 
-<p><strong>Current Release</strong>&nbsp;= (PR3)&nbsp; Pre-Release 3<br />
-<strong>Next Release</strong>&nbsp;= v1.0</p>
+<p><strong>Current Release</strong> = (PR3)&nbsp; Pre-Release 3<br />
+<strong>Next Release</strong> = v1.0</p>
 
 <p>&nbsp;</p>
 
@@ -57,13 +63,14 @@ lang: en
 			<th colspan="4">Developer Pre-Release (PR3)</th>
 		</tr>
 		<tr>
-			<td><a href="https://code.commotionwireless.net/attachments/download/129/CommotionMeshTether-pr3.apk" title="Commotion MeshTether for Android">CommotionMeshTether-pr3.apk</a></td>
+			<td><a href="http://downloads.commotionwireless.net/android/commotion-android.apk" title="Commotion MeshTether for Android">CommotionMeshTether-pr3.apk</a></td>
 			<td>09/17/2012 02:36 am</td>
-			<td>1 MB</td>
+			<td>2.2 MB</td>
 			<td>d80f078b6150daa1cb4dd6e79d134eea</td>
 		</tr>
 	</tbody>
 </table>
+<p>&nbsp;</p>
 
 <p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Source Code</a></p>
  

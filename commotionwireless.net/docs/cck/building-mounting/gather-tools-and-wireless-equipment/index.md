@@ -260,6 +260,7 @@ lang: en
 </table>
 
 <p><strong>Total for Hand and Drilling Tools: $675</strong></p>
+<p class="tip"> Zip ties used outdoors should be UV rated, meaning they should be black in color. UV rated zip ties will prevent the plastic from breaking down in the sun.</p>
 </section>
 
 <section id="section-wireless-equipment">
@@ -278,6 +279,7 @@ lang: en
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__378 img__view_mode__media_original attr__format__media_original" height="370" src="/files/ethernet_cable.png" typeof="foaf:Image" width="510" /></p>
 
 <p><strong>3. ETHERNET CABLE.</strong> Spool of 1000 feet is around $150. A single install may use only 50-100 feet of a spool.</p>
+<p class="tip"> Ethernet cable should be outdoor rated to prevent it from breaking down when exposed to the elements.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__379 img__view_mode__media_original attr__format__media_original" height="333" src="/files/poe.png" typeof="foaf:Image" width="510" /></p>
 

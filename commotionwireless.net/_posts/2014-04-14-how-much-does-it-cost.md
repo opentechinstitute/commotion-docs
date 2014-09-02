@@ -3,7 +3,7 @@ layout: blog
 title:  How much does it cost to build a Commotion network?
 categories: [planning,price,budgeting,installation]
 created: 2014-04-11
-changed: 2014-04-11
+changed: 2014-06-13
 teaser_image: posts/How-much-does-it-cost-teaser-img.png
 post_author: Andy Gunn
 lang: en
@@ -93,6 +93,7 @@ First, consider the following scenario: you and three neighbors want to share a 
 Looking at this network, there are four routers, and for the purposes of the example, a single connection to the Internet. For this example, we will use omnidirectional outdoor routers, such as the Ubiquiti PicoStation M2, and simple rooftop mounts. There is a single business-class Cable connection to the Internet shared on the network. Each network participant will also have a simple home router inside their house to connect their computers and smartphones. Two participants already own these routers.
 
 **Equipment Costs**
+
 <table class="infotable">
  <tr>
  <th>Item</th>
@@ -130,6 +131,7 @@ Looking at this network, there are four routers, and for the purposes of the exa
 For the installation, the network participants will do all of the work themselves. So, there aren’t any costs associated with installation, other than time. Of course - everyone’s time has value, so we will still calculate how many hours everyone worked on the project.
 
 **Labor Costs**
+
 <table class="infotable">
  <tr>
  <th>Item</th>
@@ -194,6 +196,7 @@ Next, consider the following scenario: a neighborhood or small town wants to cre
 Looking at this network, there are two types of sites - two tower sites, and twelve neighborhood buildings. There will be two types of routers, and for the purposes of the example, two connections to the Internet. For the neighborhood buildings, omnidirectional outdoor routers, such as the Ubiquiti PicoStation M2, and simple rooftop mounts are used. The tower sites will have more powerful Ubiquiti Rocket M2 routers with sector antennas to provide wider coverage and many mesh connections to the ISP gateways. These gateways are dedicated, high-performance ISP connections to the Internet. Each network participant will also have a simple home router inside their house to connect their computers and smartphones. Six participants already own these routers.
 
 **Equipment Costs**
+
 <table class="infotable">
  <tr>
  <th>Item</th>
@@ -243,6 +246,7 @@ Looking at this network, there are two types of sites - two tower sites, and twe
 For the installation, the tower sites must be installed by professionals, but the network participants can install all of the small building equipment themselves. So there aren’t any costs associated with those installations, other than time. Of course - everyone’s time has value, so we will still calculate how many hours everyone worked on the project.
 
 **Labor Costs**
+
 <table class="infotable">
  <tr>
  <th>Item</th>
@@ -288,6 +292,7 @@ The bandwidth must be considered as well. For this example, only one year of ser
 This network may require additional work setting up participant’s devices - such as home routers, computers, or smartphones. "Help desk" activities such as this may be necessary for helping some people connect to the network. As networks grow in size, this will become a more and more important consideration.
 
 **Bandwidth Costs**
+
 <table class="infotable">
  <tr>
  <th>Connection</th>

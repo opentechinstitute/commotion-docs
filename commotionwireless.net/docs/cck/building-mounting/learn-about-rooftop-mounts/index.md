@@ -86,9 +86,9 @@ lang: en
 
 <p>Anchor mounting kits are sometimes available at local hardware or electronics stores as well as online. Normally these kits only include the parts for the anchor. You will also need something to attach the router to, such as a piece of electrical conduit, a pipe or a mast. A local hardware store should be able to help with this. You will only need about 4 to 5 feet of mast, but make sure it is painted or galvanized so it does not rust.</p>
 
-<p>You must be able to drill holes into the chimney or wall to use this method, and you should place plastic or lead sleeve anchors in the holes. Sets of these are usually available from the hardware store. You can then screw in the mounting brackets, and the anchors will hold them in the brick. Use two brackets, as just one isn't strong enough. Attach the pipe or mast to the brackets, and attach the wireless router to the pipe.</p>
+<p>You must be able to drill holes into the chimney or wall to use this method, and you should place plastic or lead sleeve anchors in the holes (lead sleeve anchors are preferrable as they are less likely to slip out of the drilled holes). Sets of these are usually available from the hardware store. You can then screw in the mounting brackets, and the anchors will hold them in the brick. Use two brackets, as just one isn't strong enough. Attach the pipe or mast to the brackets, and attach the wireless router to the pipe.</p>
 
-<p class="tip">Use two brackets, spaced about 10-12 inches apart, to fasten your mount to the chimney or wall.</p>
+<p class="tip"> Use two brackets, spaced about 10-12 inches apart, to fasten your mount to the chimney or wall.</p>
 
 <h3>Vent Mount</h3>
 
@@ -147,23 +147,15 @@ lang: en
 <dl>
 	<dt>Eaves</dt>
 	<dd>the overhanging lower edge of a roof.</dd>
-	<dt>Eaves</dt>
-	<dd>the overhanging lower edge of a roof.</dd>
-	<dt>Eaves</dt>
-	<dd>the overhanging lower edge of a roof.</dd>
 </dl>
 </section>
 
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<<<<<<< HEAD
 <h3>OPTIONAL MODULES</h3>
 
 <p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>. <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
-=======
-<p>After finishing this module, you are ready to go on to the <a href="/docs/cck/building-mounting/gather-tools-and-wireless-equipment">Gather Tools and Wireless Equipment</a> then <a href="#">Prep, Install and Finish</a> (coming soon). <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> is another good resource to consult before you start installing.</p>
->>>>>>> ea89c6ca56d9a158c3f21ecca774327bf43088e2
 </section>
 
 <section class="external-resources" id="external-resources">

@@ -83,11 +83,12 @@ lang: en
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__268 img__view_mode__media_original attr__format__media_original" height="294" src="/files/learn_rooftop_basics_support007.png" typeof="foaf:Image" width="510" /></p>
 
-<p class="tip">You should leave a "drip loop" right before the hole where the cable enters the building. This will prevent water from running along the cable and getting inside!</p>
+<p class="tip"> You should leave a "drip loop" right before the hole where the cable enters the building. This will prevent water from running along the cable and getting inside!</p>
 </section>
 
 <section id="cable-installation">
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__269 img__view_mode__media_original attr__format__media_original" height="286" src="/files/learn_rooftop_basics_support008.png" typeof="foaf:Image" width="510" /></p>
+<p class="tip"> When running cabling, be careful not to deform it with fasteners - zip ties installed too tightly or incorrect staples can damage the cable. Be aware of the cable's bend radius- bending a cable too much can cause damage. If running a cable through a wall, use a grommet and reinforcing the cable when running it over an edge, for example by reinforcing it with multiple layers of electrical tape or something similar. If installing outdoors on high points like rooftops, best practice is to use shielded cable and connectors, as well as a lightning arrestor.</p>
 
 <ul>
 	<li>Pull out enough cable to enter the building and run it to where the power supply (Power over Ethernet adapter) will be located. When in doubt, pull extra cable. It may be a little wasteful, but will save you time in the long run. Cut the cable, then run the end through the hole into the building.</li>

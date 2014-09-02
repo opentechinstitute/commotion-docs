@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__476 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/inventory_the_neighborhood_title.png?itok=qgv6sh9C" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
+<p><img alt="Inventory the Neighborhood graphic" class="threefourths-width" src="/files/styles/large/public/inventory_the_neighborhood_title.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -24,7 +24,7 @@ lang: en
 
 <p>Creating an inventory of your entire neighborhood takes time. You may start your inventory with a few potential sites or a small area in your neighborhood. You can repeat these steps as you continue to grow and plan the network.</p>
 
-<p>You may want to do the <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong>&nbsp;and “Wireless Challenges” activities before you inventory areas of your neighborhood.</p>
+<p>You may want to do the <strong><a href="/docs/cck/planning/design-your-network-every-network-tells-story">Every Network Tells a Story</a></strong> and <a href="/docs/cck/planning/wireless-challenges">Wireless Challenges</a> activities before you inventory areas of your neighborhood.</p>
 
 <p><strong>Time required: 2 to 3 hours, depending on the size of the area you want to inventory.</strong></p>
 </section>

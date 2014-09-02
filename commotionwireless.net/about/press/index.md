@@ -4,7 +4,7 @@ title: Press
 site_section: about
 categories: 
 created: 2012-07-16
-changed: 2014-04-11
+changed: 2014-06-16
 post_author: admin
 lang: en
 ---
@@ -18,19 +18,19 @@ Media Relations Associate<br />
 </p>
 <h2>Press Releases &amp; News</h2>
 <ul>
-  <li><a href="/blog/2014/04/11/commotion-router-1.1rc1-release-notes/">Commotion 1.1rc1 Released</a></li>
-  <li><a href="http://oti.newamerica.net/node/99668">Open Technology Institute Releases Commotion 1.0 Mesh Networking Toolkit</a></li>
-  <li><a href="http://newamerica.org/pressroom/2013/release_oti_launches_new_version_of_commotion_free_open_source_wireless_networking_so">Commotion Developer Release 2</a> (9/17/2013)</li>
-  <li><a href="http://newamerica.org/pressroom/2013/press_release_agenda_released_for_international_summit_for_community_wireless_network">Agenda for International Summit for Community Wireless Networks Released</a> (9/11/2013)</li>
-  <li><a href="http://oti.newamerica.net/pressroom/2013/release_oti_launches_commotion_beta_free_wireless_mesh_network_software">Commotion Developer Release 1.1 </a>(3/20/2013)</li>
+  <li>6/13/2014 - <a href="/blog/2014/06/13/commotion-router-1.1rc2-release-notes/">Commotion 1.1rc2 Released</a></li>
+  <li>4/11/2014 - <a href="/blog/2014/04/11/commotion-router-1.1rc1-release-notes/">Commotion 1.1rc1 Released</a></li>
+  <li>12/30/2013 - <a href="http://oti.newamerica.net/node/99668">Open Technology Institute Releases Commotion 1.0 Mesh Networking Toolkit</a></li>
+  <li>9/17/2013 - <a href="http://newamerica.org/pressroom/2013/release_oti_launches_new_version_of_commotion_free_open_source_wireless_networking_so">Commotion Developer Release 2</a></li>
+  <li>9/11/2013 - <a href="http://newamerica.org/pressroom/2013/press_release_agenda_released_for_international_summit_for_community_wireless_network">Agenda for International Summit for Community Wireless Networks Released</a></li>
+  <li>3/20/2013 - <a href="http://oti.newamerica.net/pressroom/2013/release_oti_launches_commotion_beta_free_wireless_mesh_network_software">Commotion Developer Release 1.1 </a></li>
 </ul>
 
 <h2>Images &amp; Media</h2>
 <h3>Logos &amp; Images</h3>
 
 <ul>
-	<li>Commotion Logo (<a href="/media/206">large .svg</a> | <a href="/media/207">small .svg</a>)</li>
-	<li>Open Technology Institute (<a href="/media/204">color</a> | <a href="/media/205">black/white</a>)</li>
+	<li>Commotion Logo (<a href="/files/commotion-logo.svg">large .svg</a>)</li>
 </ul>
 
 <h3>Video</h3>
