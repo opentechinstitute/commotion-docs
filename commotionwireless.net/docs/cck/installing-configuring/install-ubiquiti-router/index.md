@@ -3,15 +3,16 @@ layout: cck
 title: Install on a Ubiquiti Router
 site_section: docs
 sub_section: [cck,cck-installing]
-pdf: cck/installing-configuring/1-Install_on_a_Ubiquiti_Router.pdf
+pdf: cck/installing-configuring/CCK-Install_on_Ubiquiti_Router.pdf
 pdf-all: true
 categories: 
 created: 2013-09-27
-changed: 2014-01-13
+changed: 2014-09-04
 post_author: critzo
 lang: en
 ---
-  <p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
+
+<p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
