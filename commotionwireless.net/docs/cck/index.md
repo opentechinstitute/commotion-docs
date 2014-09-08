@@ -36,6 +36,7 @@ lang: en
 
 <ul>
 	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a>: A step-by-step process for installing Commotion Wireless on Ubiquiti routers, which are amenable to changing operating systems.</li>
+	<li><a href="/docs/cck/installing-configuring/install-tplink-router">Install on a TP-Link Router</a>: A step-by-step process for installing Commotion Wireless on TP-Link routers, which are amenable to changing operating systems.</li>
 	<li><a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a>: Instructions on configuring a Commotion wireless node through the Commotion Setup Wizard and through the administration interface.</li>
 	<li><a href="/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a>: How a node should be configured depends on how it needs to funtion on the mesh network. Learn about the most common Commotion configurations.</li>
 	<li><a href="/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a>: For hardware configurations that involve multiple nodes at a single site, or other unique situations, this guide provides instructions.</li>
