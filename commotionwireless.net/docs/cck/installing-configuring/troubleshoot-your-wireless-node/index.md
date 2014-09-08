@@ -74,12 +74,12 @@ lang: en
 			<p><a href="#no-splash-page">Are you not seeing the splash page after associating with the access point?</a></p>
 			</td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__641 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_internet_question.png" style="width: 100px; height: 94px; margin: 16px 10px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><a href="#no-internet">Are you getting the splash page, but still cannot connect to the Internet?</a></p>
 			</td>
-		</tr>
+		</tr>-->
 	</tbody>
 </table>
 </section>
@@ -254,16 +254,16 @@ lang: en
 
 			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__537 img__view_mode__media_large attr__format__media_large" height="138" src="/files/Troubleshooting_CCK_Broken_Mesh_Link.png" typeof="foaf:Image" width="480" /></p>
 
-			<p>If you are associated with an AP and you know there is an upstream Internet Gateway in the mesh, but you cannot get online, there may be a broken mesh link. Make sure that all the nodes are meshing properly to the Gateway. You can check the node’s routes list to see if it is connecting to any other nodes.</p>
+			<p>If you are associated with an AP and you know there is an upstream Internet Gateway in the mesh, but you cannot get online, there may be a broken mesh link. Make sure that all the nodes are meshing properly to the Gateway. You can check the node’s host net announcements (HNAs) list to see if any nodes on the network are providing a gateway.</p>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
 			<p><strong>Check for a Gateway.</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__538 img__view_mode__media_large attr__format__media_large" height="395" src="/files/olsr_routes.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__538 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_HNAs.png" typeof="foaf:Image" width="480" /></p>
 
-			<p>To see the routes list in the Commotion admin interface, go to<strong> </strong>the Status page and <strong>click on Nearby Mesh Devices.</strong> This lists any routes the node has in its table. If the node has an announced network entry of 0.0.0.0 anywhere in this table, then it knows there is a Gateway to the Internet somewhere in the network. If the node does not have a 0.0.0.0 route in the table, then it does not see a route to the Internet. Check the mesh network connections to make sure that all routers are meshing properly, and that the signal links are strong enough between nodes.</p>
+			<p>To see the list of host net announcements in the Commotion admin interface, go to <strong>Advanced -> Status -> OLSR</strong> and then <strong>click on the HNA tab</strong>. This lists any non-mesh subnets attached to the mesh network, such as client networks and gateways to the internet. If the node has an announced network entry of 0.0.0.0 anywhere in this list, then it knows there is a Gateway to the Internet somewhere in the network. If the node does not have a 0.0.0.0 entry in the list, then it does not see a route to the Internet. Check the mesh network connections to make sure that all routers are meshing properly, and that the signal links are strong enough between nodes.</p>
 			</td>
 		</tr>
 		<tr>
@@ -282,7 +282,7 @@ lang: en
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__521 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
 <strong>The welcome page comes up on the client device.</strong></p>
 </section>
-
+<!--
 <section id="no-internet">
 <h2>Welcome Page shown, but no Internet: If the welcome page comes up, but you can't get to the Internet</h2>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__522 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_internet_no.png" style="width: 100px; height: 93px; float: right; margin: 17px 10px;" typeof="foaf:Image" />
@@ -304,7 +304,7 @@ lang: en
 	</tbody>
 </table>
 </section>
-
+-->
 <section id="bug-report">
 <h2>Report a Bug</h2>
 
