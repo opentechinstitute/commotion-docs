@@ -150,8 +150,8 @@ li.static-nodrop a:visited {
   padding-top: 35px;
   position: relative;
 }
-.contentcontainer a:link, .contentcontainer a:visited {
-  border-bottom: 3px solid #E8FF00;
+.contentcontainer a:link {
+  border-bottom: 2px solid #E8FF00;
   color: #4D4D4D;
   text-decoration: none;
   background: none;
@@ -160,7 +160,7 @@ li.static-nodrop a:visited {
   font-weight: bold;
 }
 .contentcontainer a:hover, .contentcontainer a:visited {
-  border-bottom: 3px solid #FF739C;
+  border-bottom: 2px solid #FF739C;
   color: #4D4D4D;
   background: none;
 }
@@ -280,9 +280,8 @@ div.pageheadings hr {
   text-decoration: none;
 }
 .footer-wrapper a:hover {
-  color: #FFFFFF;
-  background: #000000;
-  text-decoration: none;
+  color: #000000;
+  border-bottom: 2px solid #E8FF00;
 }
 .left-third {
   width: 90%;
@@ -316,9 +315,8 @@ div.pageheadings hr {
 }
 .right-third a:hover,
 .left-twothird a:hover {
-  color: #E8FF00;
-  background: #000000;
-  border-bottom: none;
+  color: #000000;
+  border-bottom: 2px solid #FF739C;
 }
 .left-twothird {
   width: 95%;

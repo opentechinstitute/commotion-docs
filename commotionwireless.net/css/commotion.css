@@ -272,8 +272,7 @@ div.pageheadings hr {
   text-decoration: none;
 }
 .footer-wrapper a:hover {
-  color: #FFFFFF;
-  background: #000000;
+  color: #000000;
   text-decoration: none;
 }
 /* .container {
@@ -312,10 +311,14 @@ div.pageheadings hr {
 }
 .right-third a:hover,
 .left-twothird a:hover {
-  color: #E8FF00;
-  background: #000000;
-  border-bottom: none;
+  color: #000000;
+  border-bottom: 3px solid #FF739C;
 }
+.right-third a.img,
+.left-twothird a.img {
+  border: none;
+}
+
 .left-twothird {
   width: 65%;
   min-width: 400px;
@@ -644,6 +647,11 @@ div#download-button-block .download-button a.button {
   padding: 30px 0 25px;
   position: relative;
 }
+.cck-content a:link img {
+  background: #EAE8E8;
+  border-bottom: none; 
+}
+
 .cck-section-page ul.submenu {
   list-style-type: none;
   margin: 20px 0;
@@ -663,6 +671,7 @@ div#download-button-block .download-button a.button {
   text-decoration: none;
   display: block;
 }
+
 .cck-section-page ul.submenu a:hover {
   background: #CCCCCC;
   border-left: 2px solid #666666;
@@ -691,6 +700,7 @@ div#download-button-block .download-button a.button {
 .cck-download-pdf a:hover {
   color: #FFFFFF;
 }
+
 div.cck-download-pdf {
   margin-top: 1em;
   display: block;
@@ -731,7 +741,6 @@ div.cck-download-pdf {
 }
 .bug-report a:hover,
 .send-feedback a:hover {
-  background-color: #000000;
   color: #FFFFFF;
 }
 .send-feedback {
@@ -757,7 +766,6 @@ div.cck-download-pdf {
   color: #000000;
 }
 .translate-help a:hover {
-  background: #000000;
   color: #FFFFFF;
 }
 .tag {
