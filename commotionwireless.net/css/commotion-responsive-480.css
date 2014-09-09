@@ -329,7 +329,7 @@ div.pageheadings hr {
   top: 3em;
 }
 .left-twothird img {
-  width: 95%;
+  width: 100%;
   height: auto;
 }
 .left-twothird h2 {
@@ -539,7 +539,7 @@ div#download-button-block .download-button a.button {
 
 .cck-content {
   background: #EAE8E8;
-  padding: 0.5em;
+  margin: 0px;
 }
 .cck-content h2 {
   display: block;
@@ -584,7 +584,8 @@ div#download-button-block .download-button a.button {
   text-decoration: underline !important;
 }
 .cck-content table {
-  width: 100%;
+  width: 90%;
+  margin: 0 1em 1em 1em;
 }
 .cck-content tr:hover, .cck-content td.active {
   background: none repeat scroll 0 0 white;
