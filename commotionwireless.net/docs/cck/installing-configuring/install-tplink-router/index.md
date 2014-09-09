@@ -7,7 +7,7 @@ pdf: cck/installing-configuring/CCK-Install_on_TP-Link_Router.pdf
 pdf-all:
 categories: 
 created: 2014-09-08
-changed: 2014-09-10
+changed: 2014-09-09
 post_author: andygunn
 lang: en
 ---
@@ -21,9 +21,7 @@ lang: en
 
 <p>We have written this guide because the Open Technology Institute is expanding Commotion router software support for TP-Link routers. The software is an alternative operating system, similar to Linux for your home or office computer. TP-Link hardware comes from the factory installed with their custom software - just like a new computer usually comes with Microsoft Windows or Mac OSX installed. Installing Commotion on your router instead will add new features to your router, including the ability to mesh with other routers that use Commotion.</p>
 
-<p>The installation process should take about 45 minutes to an hour. If these steps do not work for you, or if you have a router that failed to properly flash Commotion or will not respond in any way, then please see the External Resources section.</p>
-
-<p><strong>Time required: 15 to 30 minutes.</strong></p>
+<p>The installation process should take about <strong>15 to 30 minutes</strong>. If these steps do not work for you, or if you have a router that failed to properly flash Commotion or will not respond in any way, then please see the <strong>Extra Resources</strong> section.</p>
 </section>
 
 <section id="section-materials-and-supplies-needed">
@@ -46,6 +44,8 @@ lang: en
 
 <p>Download “Factory” Commotion image for your hardware:<br />
 <a href="/download/routers">https://commotionwireless.net/download/routers</a></p>
+
+<p>Make sure the TP-Link router model number and version match exactly. For example, the Commotion image for the WR842ND V1 will not work on the WR842ND <strong>V2</strong>!</p>
 
 <p><img src="/files/CCK-Install_TP-Link_download_screenshot.png" style="max-width:700px;" /></p>
 
@@ -70,18 +70,17 @@ lang: en
 <section id="load-software">
 <h2>Load the Software</h2>
 
-<p>1. Open your Web browser and enter <strong>http://192.168.0.1</strong> in the address bar. This is the IP address of the router. A prompt for an administrator password should appear.</p>
+<p>1. Open your Web browser and enter <a href="http://192.168.0.1">http://192.168.0.1</a> in the address bar. This is the IP address of the router. A prompt for an administrator password should appear.</p>
 <p><img src="/files/CCK-Install_TP-Link_admin_login1.png" style="max-width:400px;" /></p>
 
-<p>2. Log in to the interface:</p>
-<pre>
-Username: admin
-Password: admin
-</pre>
+<p>2. Log in to the interface:<br />
+<strong>Username: admin<br />
+Password: admin</strong></p>
+
 <p><img src="/files/CCK-Install_TP-Link_admin_login2.png" style="max-width:400px;" /></p>
 
 <p>3. Navigate to the System Tools menu and click the "Firmware Update" submenu.</p>
-<p><img src="/files/CCK-Install_TP-Link_firmware_menu.png" style="max-width:800px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_firmware_menu.png" style="max-width:700px;" /></p>
 
 <p>4. Click the “Choose File” button and select the appropriate Commotion “factory” image for your TP-Link router. Make sure the router model number and version match!</p>
 <p><img src="/files/CCK-Install_TP-Link_firmware_upload1.png" style="max-width:700px;" /></p>
@@ -92,7 +91,9 @@ Password: admin
 <p>6. The router will reboot. Wait a few minutes, and then go to http://thisnode in your Web browser. If you see the Commotion screen, congratulations! You now have a Commotion wireless router!</p>
 <p><img src="/files/CCK-Install_TP-Link_Commotion_thisnode.png" style="max-width:400px;" /></p>
 
-<p>You can continue to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a> module. Those instructions provide guidance on how to configure the Commotion software for the first time.</p>
+<p>&nbsp;</p>
+
+<p>You should continue to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a> document next. It provides instructions on how to configure the Commotion software for the first time.</p>
 </section>
 
 <section id="section-definitions">
@@ -109,19 +110,13 @@ Password: admin
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>For more help, or if this guide doesn't work for you, take a look at the <a href="/docs/cck/installing-configuring/install-and-recover-tftp">Install and Recover with TFTP</a> module. After the software has been installed, you can proceed to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a> module.</p>
+<p>After the software has been installed, you can proceed to the <a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a> module.</p>
 </section>
 
 <section class="external-resources" id="section-external-resources">
 <h2>External Resources</h2>
 
-<p>Guides for setting static IP addresses:</p>
+<p>If you are having trouble, or this guide didn't work for you, you will need to consult the specific installation instructions for your router on the OpenWRT website. Please proceed to <a href="http://wiki.openwrt.org/toh/start">http://wiki.openwrt.org/toh/start</a> and search for your router in the list. If you can't find the router in the list, confirm you have the exact TP-Link router model <strong>and</strong> version for the Commotion image. If those do not match, the router firmware may not install or may function incorrectly.</p>
 
-<ul>
-	<li><strong>Windows - <a href="http://www.howtogeek.com/howto/19249/how-to-assign-a-static-ip-address-in-xp-vista-or-windows-7/" target="_blank">http://www.howtogeek.com/howto/19249/how-to-assign-a-static-ip-address-in-xp-vista-or-windows-7/</a></strong></li>
-	<li><strong>Mac - <a href="http://osxdaily.com/2010/12/17/set-static-ip-address-mac/" target="_blank">http://osxdaily.com/2010/12/17/set-static-ip-address-mac/</a></strong></li>
-	<li><strong>Linux - <a href="http://www.sudo-juice.com/how-to-a-set-static-ip-in-ubuntu/" target="_blank">http://www.sudo-juice.com/how-to-a-set-static-ip-in-ubuntu/</a></strong></li>
-	<li>You can also perform an Internet search for your specific operating system to find more information, or other guides.</li>
-</ul>
 </section>
  
