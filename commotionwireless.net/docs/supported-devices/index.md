@@ -4,13 +4,14 @@ title: Supported Devices
 site_section: docs
 categories: 
 created: 2013-07-07
-changed: 2013-12-28
+changed: 2014-09-15
 post_author: critzo
 lang: en
 ---
-  <p>Commotion is supported on a variety of devices and platforms. We list devices as "supported" after active testing on the latest release of our software. We're constantly testing new devices and documenting our work on our developer site, <a href="https://wiki.commotionwireless.net">wiki.commotionwireless.net</a>.</p>
 
-<p>If your device is not listed here, we encourage you to look on the <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_in_testing">developer site wiki</a>, or <a href="/contact">contact us</a> to ask about it!</p>
+<p>Commotion is supported on a variety of devices and platforms. We list devices as "supported" after active testing with the latest release of our software. We're constantly testing new devices and documenting our work on our <a href="https://wiki.commotionwireless.net">developer wiki</a>.</p>
+
+<p>If your device is not listed here, we encourage you to look on the wiki page for <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_in_testing">router testing hardware</a>, or <a href="/contact">contact us</a> to ask about it!</p>
 
 <div id="routers" style="width:100%;">
 <h2>Supported Devices by Category</h2>
@@ -27,39 +28,44 @@ lang: en
 	</thead>
 	<tbody>
 		<tr>
-			<th>Ubiquity</th>
-			<td>Ubiquiti Picostation M2/M5</td>
-			<td>R1, DR 2</td>
+			<th>Ubiquiti</th>
+			<td>PicoStation M2</td>
+			<td>Release 1 & 1.1, DR2</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Ubiquiti Bullet M2/M5</td>
-			<td>R1, DR 2</td>
+			<td>Bullet M2/M5</td>
+			<td>Release 1 & 1.1, DR2</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Ubiquiti Nanostation M2/M5</td>
-			<td>R1, DR 2</td>
+			<td>NanoStation M2/M5</td>
+			<td>Release 1 & 1.1, DR2</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Ubiquiti Rocket M2/M5</td>
-			<td>R1, DR 2</td>
+			<td>Rocket M2/M5</td>
+			<td>Release 1 & 1.1, DR2</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Ubiquiti Unifi Outdoor</td>
-			<td>R1, DR 2</td>
+			<td>UniFi AP</td>
+			<td>Release 1 & 1.1</td>
 		</tr>
 		<tr>
-			<th style="vertical-align:top">&nbsp;</th>
-			<td class="rteleft" style="vertical-align:top">&nbsp;</td>
-			<td class="rteleft" style="vertical-align:top">&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>UniFi Outdoor</td>
+			<td>Release 1 & 1.1</td>
 		</tr>
 		<tr>
-			<th style="vertical-align:top">TP-Link</th>
-			<td class="rteleft" style="vertical-align:top">TL-WDR4300</td>
-			<td class="rteleft" style="vertical-align:top">R1, DR 2</td>
+			<th>TP-Link</th>
+			<td>TL-WDR3600</td>
+			<td>Release 1.1</td>
+		</tr>
+		<tr>
+			<th>&nbsp;</th>
+			<td>TL-WDR4300</td>
+			<td>Release 1.1</td>
 		</tr>
 	</tbody>
 </table>
@@ -144,11 +150,11 @@ lang: en
 		</tr>
 		<tr>
 			<th>Mac OS X v10.7, 10.8</th>
-			<td class="rtecenter"><a href="https://code.commotionwireless.net/projects/commotion/wiki/2013_Development_Roadmap"><em>See development roadmap</em></a></td>
+			<td class="rtecenter"><a href="https://wiki.commotionwireless.net/doku.php/project_scope/development_roadmap">See development roadmap</a></td>
 		</tr>
 		<tr>
 			<th>Windows</th>
-			<td class="rtecenter"><a href="https://code.commotionwireless.net/projects/commotion/wiki/2013_Development_Roadmap"><em>See development roadmap</em></a></td>
+			<td class="rtecenter"><a href="https://wiki.commotionwireless.net/doku.php/project_scope/development_roadmap">See development roadmap</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -167,7 +173,7 @@ lang: en
 	<tbody>
 		<tr>
 			<th>OpenBTS</th>
-			<td class="rtecenter"><a href="http://code.commotionwireless.net/projects/commotion/wiki/2013_Development_Roadmap">See development roadmap</a></td>
+			<td class="rtecenter"><a href="https://wiki.commotionwireless.net/doku.php/project_scope/development_roadmap">See development roadmap</a></td>
 		</tr>
 	</tbody>
 </table>
