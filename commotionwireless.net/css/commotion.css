@@ -555,7 +555,9 @@ div#download-button-block .download-button a.button {
 
 .cck-content {
   background: #EAE8E8;
-  padding: 0.5em;
+  margin: 0 0 0 68px;
+  padding: 1em 0 0 0;
+  max-width: 540px;
 }
 .cck-content-container {
   float: left;
@@ -608,7 +610,8 @@ div#download-button-block .download-button a.button {
   text-decoration: underline !important;
 }
 .cck-content table {
-  width: 100%;
+  width: 95%;
+  margin: 0 1em 1em 1em;
 }
 .cck-content tr:hover, .cck-content td.active {
   background: none repeat scroll 0 0 white;
