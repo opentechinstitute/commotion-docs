@@ -3,113 +3,138 @@ layout: cck
 title: Install and Recover with TFTP
 site_section: docs
 sub_section: [cck,cck-installing]
-pdf: cck/installing-configuring/5-Install_and_Recover_with_TFTP.pdf
+pdf: cck/installing-configuring/CCK-Install_with_TFTP.pdf
 pdf-all: true
 categories: 
 created: 2013-09-27
-changed: 2014-01-13
+changed: 2014-09-15
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__354 img__view_mode__media_original attr__format__media_original" height="486" src="/files/install_with_TFTP_support003_0.png" typeof="foaf:Image" width="510" /></p>
+
+<p><img src="/files/CCK-Recover_with_TFTP_support1.png" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
 
-<p>This document is designed to help you install the Commotion software if the Install on a Ubiquiti Device instructions did not work, or if your router has malfunctioning software and needs to be installed again or updated. It contains instructions on using a protocol called Trivial File Transfer Protocol (TFTP) to install the software.</p>
+<p>This document is designed to help you recover the Commotion software if the <a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Device</a> instructions did not work, or if your router has malfunctioning software and needs to be installed again or updated. It contains instructions on using a protocol called Trivial File Transfer Protocol (TFTP) to install the software.</p>
 
-<p>Start these instructions after you have prepared your computer and gathered your supplies, but before you get to installing the software. You will find instructions specific to the operating system you are running on your computer - either Windows, Mac OSX, or Linux. Please proceed to the section for your operating system below.</p>
+<p>You will find instructions specific to the operating system you are running on your computer - either Windows, Mac OSX, or Linux. Please proceed to the section for your operating system below.</p>
 
 <p><strong>This process takes longer than the basic instructions. Add another half hour to an hour for the additional setup steps on these pages.</strong></p>
 
-<h3>MATERIALS + SUPPLIES NEEDED</h3>
+<h4>Materials + supplies needed</h4>
 
-<p>Same materials and supplies block as in the <a class="module">Install on a Ubiquiti Device</a>.</p>
-
-<h2>Setup for all platforms</h2>
-
-<p>Configure your computer's wired connection with the address 192.168.1.254.</p>
-
-<h2>Instructions for Windows</h2>
-
-<h3>GETTING STARTED</h3>
-
-<p>This guide should work with any version of Microsoft Windows from Windows XP on. If you aren't sure what version of Windows you have, click on the Start Menu and type <code>winver</code> in to the Run menu or the Search box. The most likely responses are Windows XP, Windows Vista, or Windows 7</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__284 img__view_mode__media_original attr__format__media_original" height="350" src="/files/install_with_TFTP_support001.png" typeof="foaf:Image" width="510" /></p>
-
-<h3>PREPARE YOUR COMPUTER FOR TFTP</h3>
-
-<p>The Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
-
-<p>1. If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</p>
-
-<p>2. Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable<br />
-plugs in.</p>
-
-<p>3. While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</p>
-
-<p>4. While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance:</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__285 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance01.png" typeof="foaf:Image" width="510" /></p>
-
-<p>1. The two middle lights, one orange and one green, will light continuously, then go out.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__286 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance02.png" typeof="foaf:Image" width="510" /></p>
-
-<p>2. The lights from left to right will light up in order: red, orange, green, and green again.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__287 img__view_mode__media_original attr__format__media_original" height="232" src="/files/router_dance03.png" typeof="foaf:Image" width="510" /></p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__288 img__view_mode__media_original attr__format__media_original" height="232" src="/files/router_dance04.png" typeof="foaf:Image" width="510" /></p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__289 img__view_mode__media_original attr__format__media_original" height="237" src="/files/router_dance05.png" typeof="foaf:Image" width="510" /></p>
-
-<p>3. The 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" height="237" src="/files/router_dance06.png" typeof="foaf:Image" width="510" /></p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance07.png" typeof="foaf:Image" width="510" /></p>
-
-<p>When this happens, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute passes and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__292 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance08.png" typeof="foaf:Image" width="510" /></p>
-
-<p>Note that the recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
-
-<h3>INSTALL THE SOFTWARE ON THE ROUTER</h3>
-
-<p>You can either install the Commotion software onto your router with a graphical user interface (GUI) program for TFTP, or by using the command line. We recommend the GUI option if you are new to this process.</p>
-
-<p><strong>Using a GUI Interface</strong></p>
-
-<p>There are a few graphical user interface (GUI) programs to facilitate TFTP transfer on Windows. This guide discusses TFTP2.</p>
-
-<p><strong>TFTP2</strong></p>
-
-<p>TFTP2 is a very simple TFTP client that includes only the settings necessary to install the software. You can download TFTP2 from our developer site and install the program.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__293 img__view_mode__media_original attr__format__media_original" height="411" src="/files/TFTP2_1_0.png" typeof="foaf:Image" width="510" /></p>
+<p>To recover a Commotion installation, you will need the following items on-hand:</p>
 
 <ol>
-	<li>Enter 192.168.1.20, the router’s IP address, in the “Server” field.</li>
-	<li>Leave the “Password” field blank</li>
-	<li>Open the file broswer, navigate to where you downloaded the Commotion software file, and select it.</li>
-	<li>Put the router in TFTP mode as described above, and immediately after, click “Upgrade.”</li>
-	<li>If your router is ready and the IP addresses are properly configured, a blue progress bar will appear. When it is finished, you will see this screen (ignore the “Retry” line).</li>
+    <li>A computer with an Ethernet port.</li>
+    <li>A Ubiquiti router and its Power over Ethernet (PoE) adapter and power cable.</li>
+    <li>Access to a power outlet.</li>
+    <li>Two Ethernet cables.</li>
+    <li>The appropriate Commotion software image from the <a href="/download/routers/">downloads</a> page.</li>
 </ol>
 
-<p>Once you have installed TFTP2, make sure your computer's IP address is set correctly as discussed above in <a class="module">Install on a Ubiquiti Device. Then, prepare your router and open TFTP2.</a></p>
+<p>Proceed to the installaton instructions for your platform, below:</p>
+<ul>
+    <li><a href="#instructions-for-windows">Microsoft Windows</a></li>
+    <li><a href="#instructions-for-mac-osx">Mac OSX</a></li>
+    <li><a href="#instructions-for-linux">Debian-based Linux</a></li>
+</ul>
+</section>
 
-<h3>USING THE COMMAND LINE</h3>
+<section id="instructions-for-windows">
+<h2>Instructions for Windows</h2>
+
+<h3>Getting started</h3>
+
+<p>This guide should work with any version of Microsoft Windows from Windows XP on. If you aren't sure what version of Windows you have, click on the Start Menu and type <code>winver</code> in to the Run menu or the Search box. The most likely responses are Windows XP, Windows Vista, or Windows 7.</p>
+
+<p>You can either install the Commotion software onto your router with a graphical user interface (GUI) program for TFTP, or by using the command line. We recommend the GUI option if you are new to this process. First download the <a href="http://www.shadowsoftware.net/shadowgameworld/downloads/tftp2.exe" target="_blank">TFTP2 client</a> and install it on your computer. After this, you will prepare the router for TFTP and then load the software.</p>
+
+<h3>Prepare your computer for TFTP</h3>
+
+<p>First, configure your computer's wired connection with the address <strong>192.168.1.254</strong>. You can do this in the Control Panel section for network connections, under the Ethernet port settings.</p>
+
+<p>Next, the Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
+
+<p><img src="/files/CCK-Recover_with_TFTP_support2.png" /></p>
+
+<ol class="rteindent1">
+    <li>If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</li>
+    <li>Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</li>
+    <li>While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</li>
+    <li>While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance, shown below.</li>
+</ol>
+
+<p>There are two possible sequences of lights for Ubiquiti routers. Your device will go through one of the two light progressions below.</p>
+
+<h4>Original Ubiquiti light sequence</h4>
+<p>First, the two middle lights - one Orange and one Green - will light for a few seconds, then go out.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
+
+<p>Next, the lights from left to right will light up in order: Red, Orange, Green, and Green again.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
+
+<p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p>&nbsp;</p>
+
+<h4>New Ubiquiti light sequence</h4>
+<p>First, the two middle lights, One orange and one Green, will light for a few seconds, then go out. The lights will remain off for about 10 sections - be patient!</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
+
+<p>Next, all of the lights will flash on, then turn off. This will happen three times.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
+
+<p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
+
+<p>Once the router is in the final stage - where the two sets of lights are flashing back and forth, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute pass and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
+
+<p>&nbsp;</p>
+
+<p class="tip">Recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
+
+
+<h3>Install the software on the router</h3>
+
+<p>We will go through the GUI installation process first, which is recommended. If the TFTP2 program does not work for you, proceed to the command line instructions below and try those.</p>
+
+<h4>Using a GUI Interface</h4>
+
+<p>TFTP2 is a very simple TFTP client that includes only the settings necessary to install the software. Use the link in <a href="#section-external-resources">External Resources</a> below to download and install the program before proceeding, if you haven't done that already.</p>
+
+<p><img src="/files/CCK-Recover_with_TFTP_windows_GUI.png" /></p>
+<ol>
+	<li>Enter <strong>192.168.1.20</strong>, the router’s IP address, in the “Server” field.</li>
+	<li>Leave the “Password” field blank</li>
+	<li>Open the file broswer, navigate to where you downloaded the Commotion software file, and select it.</li>
+	<li>Put the router in TFTP mode as described above (if it isn't already), and click “Upgrade.”</li>
+	<li>If your router is ready and the IP addresses are properly configured, a blue progress bar will appear. When it is finished, you will see the message "Firmware was upgraded successfuly!" (ignore the “Retry” line).</li>
+</ol>
+
+<p>After a minute or two, the router should reboot and start loading Commotion. Proceed to the document <a href="/docs/cck/installing-configuring/configure-commotion/">Configure Commotion</a> to finish setting up the device.</p>
+
+<h4>Using the command line</h4>
+
+<p>If the TFTP2 program doesn't work for you, try using TFTP on the Windows command line. The specific instructions are slightly different for different versions of Windows, so read below for your specific version.</p>
 
 <p><strong>Windows XP</strong></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__294 img__view_mode__media_original attr__format__media_original" height="206" src="/files/WinXP-Run-CMD_0.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="/files/WinXP-Run-CMD_0.png" /></p>
 
 <p>This version of Windows has a TFTP client built-in. You will just need to browse to your Command Prompt by clicking the Start Menu, selecting Run, and typing <code>cmd</code>.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__295 img__view_mode__media_original attr__format__media_original" height="298" src="/files/16-XP_command_prompt_0.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="/files/16-XP_command_prompt_0.png" /></p>
 
 <p>You should get a window titled <code>&quot;C:\WINDOWS\system32\cmd.exe&quot;</code>, or similar.</p>
 
@@ -119,14 +144,11 @@ plugs in.</p>
 
 <p>First, we need to navigate to the folder where you saved the Commotion image file.</p>
 
-<p>To do that, type in: <code>
-  cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
+<p>To do that, type in: <code>cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
 
-<p>This may look something like <strong>cd Desktop</strong> or <strong>cd Downloads</strong> - or something else. If you aren't sure, you can use the Windows Explorer file browser to find the file, and then click in the top address bar. The full directory path should appear. You can then type this in to the Command Prompt after the <code>cd command</code>.</p>
+<p>This may look something like <strong>cd Desktop</strong> or <strong>cd Downloads</strong> - or something else. If you aren't sure, you can use the Windows Explorer file browser to find the file, and then click in the top address bar. The full directory path should appear. You can then type this in to the Command Prompt after the <code>cd</code> command.</p>
 
-<p><once address="" all="" an="" and="" are="" can="" client.="" command="" file="" go.="" have="" image="" in="" ip="" it="" name="" of="" one="" option="" p="" proper="" run="" set="" tftp="" the="" to="" type="" you=""> </once></p>
-
-<p>It should look something like this: <code>  C:\your\path\tftp -i 192.168.1.20 put exact-name-of-file.bin</code></p>
+<p>It should look something like this: <code>tftp -i 192.168.1.20 put exact-name-of-file.bin</code></p>
 
 <p><strong>The command breaks down in to these parts:</strong></p>
 
@@ -143,35 +165,34 @@ The address of the router we are working on.</p>
 The command to the TFTP program to send a file from the PC to the device.</p>
 
 <p><code>exact-name-of-file.bin</code><br />
-The Commotion image for our hardware, as mentioned in the document <a class="module">Install on a Ubiquiti Device</a></p>
+The Commotion image for our hardware, as downloaded from the <a href="/download/routers/">Commotion downloads</a> page</p>
 
-<p>Once you have executed that command, there should be some text or a progress indicator that lets you know if the file transferred to the device correctly. If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then head back to the Install on a Ubiquiti Device document and finish installing Commotion.</p>
+<p>Once you have executed that command, there should be some text or a progress indicator that lets you know if the file transferred to the device correctly. If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly.</p>
+
+<p> If all goes well, after a minute or two, the router should reboot and start loading Commotion. Proceed to the document <a href="/docs/cck/installing-configuring/configure-commotion/">Configure Commotion</a> to finish setting up the device.</p>
 
 <p><strong>Windows Vista and Windows 7</strong></p>
 
 <p>These versions of Windows don't come with a TFTP client by default, but it can be installed fairly easily in the "Add Windows components" menu. In order to find this menu:</p>
 
-<p>Click the Start Menu, then Control Panel.</p>
-
-<p>In the window that opens, select the "Programs" option.</p>
-
-<p>There should be an option to "Turn Windows features on or off", select this.</p>
-
-<p>A "Windows Features" menu should appear - scroll until you see the "TFTP Client" option, then select it and hit Ok or Apply.</p>
-
-<p>The TFTP client should install.</p>
+<ol class="rteindent1">
+    <li>Click the Start Menu, then Control Panel.</li>
+    <li>In the window that opens, select the "Programs" option.</li>
+    <li>There should be an option to "Turn Windows features on or off", select this.</li>
+    <li>A "Windows Features" menu should appear - scroll until you see the "TFTP Client" option, then select it and hit Ok or Apply.</li>
+    <li>The TFTP client should install.</li>
+</ol>
 
 <p>From here, you can use the Windows XP instructions above, since everything should work identically once the client is installed.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__296 img__view_mode__media_original attr__format__media_original" height="270" src="/files/install_with_TFTP_support002.png" typeof="foaf:Image" width="510" /></p>
 </section>
+
 
 <section id="instructions-for-mac-osx">
 <h2>Instructions for Mac OSX</h2>
 
 <p>This guide should work with any version of Mac OSX.</p>
 
-<h3>PREPARE YOUR COMPUTER FOR TFTP</h3>
+<h3>Getting started</h3>
 
 <p>The Ubiquiti device is listening for a TFTP connection on a specific address. For your computer to connect, it will need an IP address with the following settings:</p>
 
@@ -179,83 +200,90 @@ The Commotion image for our hardware, as mentioned in the document <a class="mod
 Subnet mask: <code>255.255.255.0</code><br />
 Gateway: <code>192.168.1.1</code></p>
 
-<p>If you need help assigning a static IP address for your Mac computer, check out this guide.</p>
+<p>There is a command line or a graphical user interface (GUI) option to install the Commotion software onto your router. Both methods are discussed in detail below, but we recommend following the GUI method. You can download the GUI program MacTFTP Client and install it on your computer. You can download the program from <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">Mac Technologies</a>.</p>
 
-<p>There is a command line or a graphical user interface (GUI) option to install the Commotion software onto your router. Both methods are discussed in detail below, but we recommend following the GUI method. You can download the GUI program MacTFTP Client and install it on your computer. You can download the program from <a href="http://mactechnologies.com" target="_blank">mactechnologies.com</a>.</p>
-
-<h3>PREPARE THE ROUTER FOR RECOVERY MODE</h3>
+<h3>Prepare your computer for TFTP</h3>
 
 <p>The Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
 
-<p>1. If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_support2.png" /></p>
 
-<p>2. Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</p>
+<ol class="rteindent1">
+    <li>If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</li>
+    <li>Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</li>
+    <li>While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</li>
+    <li>While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance, shown below.</li>
+</ol>
 
-<p>3. While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</p>
+<p>There are two possible sequences of lights for Ubiquiti routers. Your device will go through one of the two light progressions below.</p>
 
-<p>4. While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance:</p>
+<h4>Original Ubiquiti light sequence</h4>
+<p>First, the two middle lights - one Orange and one Green - will light for a few seconds, then go out.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__284 img__view_mode__media_original attr__format__media_original" height="350" src="/files/install_with_TFTP_support001.png" typeof="foaf:Image" width="510" /></p>
+<p>Next, the lights from left to right will light up in order: Red, Orange, Green, and Green again.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
 
-<p>1. The two middle lights, one orange and one green, will light continuously, then go out.</p>
+<p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p>&nbsp;</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__286 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance02.png" typeof="foaf:Image" width="510" /></p>
+<h4>New Ubiquiti light sequence</h4>
+<p>First, the two middle lights, One orange and one Green, will light for a few seconds, then go out. The lights will remain off for about 10 sections - be patient!</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
 
-<p>2. The lights from left to right will light up in order: red, orange, green, and green again.</p>
+<p>Next, all of the lights will flash on, then turn off. This will happen three times.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__287 img__view_mode__media_original attr__format__media_original" height="232" src="/files/router_dance03.png" typeof="foaf:Image" width="510" /></p>
+<p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__288 img__view_mode__media_original attr__format__media_original" height="232" src="/files/router_dance04.png" typeof="foaf:Image" width="510" /></p>
+<p>Once the router is in the final stage - where the two sets of lights are flashing back and forth, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute pass and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__289 img__view_mode__media_original attr__format__media_original" height="237" src="/files/router_dance05.png" typeof="foaf:Image" width="510" /></p>
+<p>&nbsp;</p>
 
-<p>3. The 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p class="tip">Recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" height="237" src="/files/router_dance06.png" typeof="foaf:Image" width="510" /></p>
+<h3>Install the software on the router</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance07.png" typeof="foaf:Image" width="510" /></p>
+<p>You will now install the Commotion software using the GUI program. If it doesn't work, try using the command line method below.</p>
 
-<p>When this happens, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute passes and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
+<h4>Using the GUI Interface</h4>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__292 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance08.png" typeof="foaf:Image" width="510" /></p>
+<p>The MacTFTP Client includes only the settings necessary to install the software on a device. You can download it from the link in <a href="#section-external-resources">External Resources</a> and install the program, if you haven't already.</p>
 
-<p>Note that the recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
+<p>Once you have installed MacTFTP Client, make sure your computer's IP address is set correctly as mentioned above in <strong>Getting Started</strong>. Then prepare your router and open the MacTFTP Client.</p>
 
-<h3>INSTALL THE SOFTWARE ON THE ROUTER</h3>
-
-<p>You can either install the Commotion software onto your router using a graphical user interface (GUI) program for TFTP, or using the command line. We recommend the GUI option if you are new to this process.</p>
-
-<p><strong>Using a GUI Interface</strong></p>
-
-<p>This guide discusses a client called MacTFTP Client by MacTechnologies Consulting.</p>
-
-<p><strong>MacTFTP Client (GUI)</strong></p>
-
-<p>The MacTFTP Client includes only the settings necessary to install the software on a device. You can download it from mactechnologies.com and install the program.</p>
-
-<p>Once you have installed MacTFTP Client, make sure your computer's IP address is set correctly as mentioned above in Prepare your Computer for TFTP. Then prepare your router and open the MacTFTP Client.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__297 img__view_mode__media_original attr__format__media_original" height="336" src="/files/MacTFTP_1_0.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="/files/MacTFTP_1_0.png" /></p>
 
 <ol>
 	<li>Make sure the “Send” button is highlighted.</li>
-	<li>Enter 192.168.1.20, the router’s IP address, in the “Address” field.</li>
+	<li>Enter <strong>192.168.1.20</strong>, the router’s IP address, in the “Address” field.</li>
 	<li>Leave the “Password” field blank.</li>
 	<li>Open the file broswer, navigate to where you downloaded the Commotion image, and select it. Put the router in TFTP mode, and immediately after.</li>
 	<li>Click “Start”</li>
 </ol>
 
-<p>If your router is ready in TFTP mode and the IP addresses are properly configured, a blue progress bar will appear. When it is finished, you will see this screen.</p>
+<p>After the software loads, you should see the message "Transfer completed successfully". After a minute or two, the router should reboot and start loading Commotion. Proceed to the document <a href="/docs/cck/installing-configuring/configure-commotion/">Configure Commotion</a> to finish setting up the device.</p>
 
-<h3>USING THE COMMAND LINE</h3>
+
+<h4>Using the command line</h4>
 
 <p>All versions of Macintosh OSX should have a TFTP client installed. It is accessible from the Terminal program, which is a text-based interface to the OSX system. You can find this program by navigating from the Applications folder to the Utilities folder.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__298 img__view_mode__media_original attr__format__media_original" height="314" src="/files/OSX_screengrab_2_0.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="/files/OSX_screengrab_2_0.png" /></p>
 
 <p>From there, launch the program titled "Terminal", it should open a command line interface titled "Terminal - bash", or something similar.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__300 img__view_mode__media_original attr__format__media_original" height="314" src="/files/OSX_screengrab_3_1.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="/files/OSX_screengrab_3_1.png" /></p>
 
 <p>The window may look different, depending on the version of OSX you are using. You should see a prompt that looks something like:</p>
 
@@ -265,7 +293,7 @@ Gateway: <code>192.168.1.1</code></p>
 
 <p>This may look something like <strong>cd Desktop</strong> or <strong>cd Downloads</strong> - or something else. If you aren't sure, you can use the Finder to browse to the file, and then hit <code>command I</code>. The "Get Info" dialog should appear, where you can find the full path under the General tab, labeled "Where:". You can then type this in to the Terminal after the <code>cd command</code>. To verify the files are in your current directory, you can type ls, which should display a listing of files.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__301 img__view_mode__media_original attr__format__media_original" height="314" src="/files/OSX_screengrab_4-1.png" typeof="foaf:Image" width="510" /></p>
+<p><img src="/files/OSX_screengrab_4-1.png" /></p>
 
 <p>Once you are in the proper directory, you can run the TFTP client. To do this, just type <code>tftp</code> at the prompt and hit enter. Your command line should change to the following:</p>
 
@@ -283,53 +311,50 @@ Gateway: <code>192.168.1.1</code></p>
 
 <p>You should see some numbers flash by, then a line that states something like "<code>Sent ### bytes in ##.# seconds [### bits per second]</code>". You can then type quit at the prompt, and your terminal will change back to the normal mode.</p>
 
-<p>If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then head back to <a class="module">Install on a Ubiquiti Device</a>.</p>
+<p>If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then proceed to <a href="/docs/cck/installing-configuring/configure-commotion/">Configure Commotion</a> to finish setting up the device.</p>
 </section>
+
 
 <section id="instructions-for-linux">
 <h2>Instructions for Linux</h2>
+
+<h3>Getting Started</h3>
 
 <p>Depending on your distribution of Linux, you may or may not not have a TFTP client installed by default. You can check this at the terminal, and if it turns out you do not TFTP installed, it will be possible to install a client at the terminal, then use it.</p>
 
 <p>First, open the Terminal application:</p>
 
-<p>If you use Gnome as your window manager, you should be able to find a terminal program in the main menu, under Accessories &gt; Terminal.</p>
-
-<p>If you use KDE as your window manager, you should be able to access the terminal program in the KMenu, under System &gt; Konsole.</p>
-
-<p>If you use another window manager, chances are you know how to access the terminal already.</p>
+<ul>
+    <li>If you use Gnome as your window manager, you should be able to find a terminal program in the main menu, under <strong>Accessories -> Terminal</strong>.</li>
+    <li>If you use KDE as your window manager, you should be able to access the terminal program in the KMenu, under <strong>System -> Konsole</strong>.</li>
+    <li>If you use another window manager, chances are you know how to access the terminal already.</li>
+</ul>
 
 <p>If you aren't sure, or don't have a window manager, just go to a terminal by pressing ALT, CTRL and the number 1 or 2. This should bring up a full screen terminal. You will most likely have to log in using whatever credentials you first set up on the computer.</p>
 
-<p>From here, you will see a prompt similar to: <code>  computername:~ $</code></p>
+<p>From here, you will see a prompt similar to: <code>computername:~ $</code></p>
 
-<p>Type <code>which tftp </code> at this prompt and hit enter. This will return one of two things: the location of the tftp program if you have it installed, or it will return an error.</p>
+<p>Type: <code>which tftp </code> at this prompt and hit enter. This will return one of two things: the location of the tftp program if you have it installed, or it will return an error.</p>
 
-<p>If you have a tftp client, the output should look like: <code>
-  /usr/bin/tftp</code></p>
+<p>If you have a tftp client, the output should look like: <code>/usr/bin/tftp</code></p>
 
-<p>If you don't have one, the output will look something like: <code>
-  which: no tftp in (/path...</code></p>
+<p>If you don't have one, the output will look something like: <code>which: no tftp in (/path...</code></p>
 
 <p>If you have a TFTP client installed, you can skip down a few steps. If you don't have one, you will need to install a client before moving on. How you install this is dependent on which distribution of Linux you are using. We will detail the commands to type for the few most common distributions below. The commands are shown at the normal prompt we started from above. You will need to know the administrator (root) password you set up when the system was first installed.</p>
 
-<p>Ubuntu:<br />
-<code> $ sudo aptitude install tftp</code></p>
+<p>Ubuntu: <code>$ sudo aptitude install tftp</code></p>
 
-<p>Debian:<br />
-<code> $ sudo apt-get install tftp</code></p>
+<p>Debian: <code>$ sudo apt-get install tftp</code></p>
 
-<p>Arch:<br />
-<code> $ sudo pacman -Ss tftp-hpa</code></p>
+<p>Arch: <code>$ sudo pacman -Ss tftp-hpa</code></p>
 
-<p>Fedora:<br />
-<code> $ sudo rpm -i tftp</code></p>
+<p>Fedora: <code>$ sudo rpm -i tftp</code></p>
 
 <p>Since we can't cover every distribution of Linux, if you aren't sure how to install the TFTP client package on your computer, use Google!</p>
 
 <p>After typing in the correct command for your distribution, you should see a confirmation on the screen that your package was installed. To verify, you can type <code>which tftp</code> at the prompt again. If you receive a single path response, as show above, you should be good to go.</p>
 
-<h3>PREPARE YOUR COMPUTER FOR TFTP</h3>
+<h3>Prepare your computer for TFTP</h3>
 
 <p>The Ubiquiti device is listening for a TFTP connection from only a single source, or computer with a specific address. You will need to set the IP address of your computer with the following settings:</p>
 
@@ -337,54 +362,61 @@ Gateway: <code>192.168.1.1</code></p>
 Subnet mask: <code>255.255.255.0</code><br />
 Gateway: <code>192.168.1.1</code></p>
 
-<p>If you need help assigning a static IP address for your Linux computer, check out this guide.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__284 img__view_mode__media_original attr__format__media_original" height="350" src="/files/install_with_TFTP_support001.png" typeof="foaf:Image" width="510" /></p>
-
-<h3>PREPARE THE ROUTER FOR RECOVERY MODE</h3>
+<p>If you need help assigning a static IP address for your Linux computer, search for your specific version of linux and "static IP address".</p>
 
 <p>The Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
 
-<p>1. If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_support2.png" /></p>
 
-<p>2. Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</p>
+<ol class="rteindent1">
+    <li>If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</li>
+    <li>Take a paper clip with one end bent out, and gently depress the Reset button on the underside of the wireless router, next to where the Ethernet cable plugs in.</li>
+    <li>While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</li>
+    <li>While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance, shown below.</li>
+</ol>
 
-<p>3. While holding the Reset button down, plug in the Ethernet cable, which will power on the router.</p>
+<p>There are two possible sequences of lights for Ubiquiti routers. Your device will go through one of the two light progressions below.</p>
 
-<p>4. While keeping the Reset button held down, watch the lights on the front of the unit. The lights under the triangle will do a special dance:</p>
+<h4>Original Ubiquiti light sequence</h4>
+<p>First, the two middle lights - one Orange and one Green - will light for a few seconds, then go out.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__285 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance01.png" typeof="foaf:Image" width="510" /></p>
+<p>Next, the lights from left to right will light up in order: Red, Orange, Green, and Green again.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
 
-<p>1. The two middle lights, one orange and one green, will light continuously, then go out.</p>
+<p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p>&nbsp;</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__286 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance02.png" typeof="foaf:Image" width="510" /></p>
+<h4>New Ubiquiti light sequence</h4>
+<p>First, the two middle lights, One orange and one Green, will light for a few seconds, then go out. The lights will remain off for about 10 sections - be patient!</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
 
-<p>2. The lights from left to right will light up in order: red, orange, green, and green again.</p>
+<p>Next, all of the lights will flash on, then turn off. This will happen three times.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__287 img__view_mode__media_original attr__format__media_original" height="232" src="/files/router_dance03.png" typeof="foaf:Image" width="510" /></p>
+<p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__288 img__view_mode__media_original attr__format__media_original" height="232" src="/files/router_dance04.png" typeof="foaf:Image" width="510" /></p>
+<p>Once the router is in the final stage - where the two sets of lights are flashing back and forth, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute pass and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__289 img__view_mode__media_original attr__format__media_original" height="237" src="/files/router_dance05.png" typeof="foaf:Image" width="510" /></p>
+<p>&nbsp;</p>
 
-<p>3. The 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
+<p class="tip">Recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" height="237" src="/files/router_dance06.png" typeof="foaf:Image" width="510" /></p>
+<h3>Install the software on the router</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance07.png" typeof="foaf:Image" width="510" /></p>
+<p>Now we need to navigate to the folder where you saved the Commotion image file for your router.</p>
 
-<p>When this happens, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute passes and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
-
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__292 img__view_mode__media_original attr__format__media_original" height="235" src="/files/router_dance08.png" typeof="foaf:Image" width="510" /></p>
-
-<p>Note that the recovery mode is only enabled for a short amount of time. If the router does not accept the software, you will need to restart the Reset button process. Typically you will need to restart if it has been in recovery mode for more than three minutes.</p>
-
-<h3>INSTALL THE SOFTWARE ON THE ROUTER</h3>
-
-<p>Now we need to navigate to the folder where you saved the Commotion image file, as mentioned in the document <a class="module">Install on a Ubiquiti Device</a>.</p>
-
-<p>To do that, type in: <code>
-  cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
+<p>To do that, type in: <code>cd &quot;path to the folder where you saved the file&quot;</code> and hit Enter.</p>
 
 <p>This may look something like <strong>cd ~/Desktop</strong> or <strong>cd ~/Downloads</strong> - or something else. If you aren't sure, you can use Nautilus in Gnome to browse to the file, and hit Control-L. This should display the path to the directory you are viewing. Using Konqueror in KDE, browse to the file, and then read the path in the top statusbar.</p>
 
@@ -403,7 +435,7 @@ Gateway: <code>192.168.1.1</code></p>
 
 <p>You should see some numbers flash by, then a line that states something like "<code>Sent ### bytes in ##.# seconds [### bits per second]</code>". You can then type quit at the prompt, and your terminal will change back to the normal mode.</p>
 
-<p>If there is an error message, go back and make sure you are in the correct directory, and that you typed everything in correctly. You can then head back to Install on a Ubiquiti Device and finish installing Commotion.</p>
+<p> If all goes well, after a minute or two, the router should reboot and start loading Commotion. Proceed to the document <a href="/docs/cck/installing-configuring/configure-commotion/">Configure Commotion</a> to finish setting up the device.</p>
 </section>
 
 <section id="section-definitions">
@@ -428,8 +460,8 @@ Gateway: <code>192.168.1.1</code></p>
 
 <p>For Graphical User Interfaces (GUIs) to help with the TFTP process:</p>
 
-<p>Windows: <a href="https://code.commotionwireless.net/attachments/download/272/tftp2.exe" target="_blank">https://code.commotionwireless.net/attachments/download/272/tftp2.exe</a></p>
+<p>Windows: <a href="http://www.shadowsoftware.net/shadowgameworld/downloads/tftp2.exe" target="_blank">TFTP2 from Shadow Software</a></p>
 
-<p>Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">http://www.mactechnologies.com/index.php?page=downloads#tftpclient</a></p>
+<p>Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">Mac Technologies TFTP client</a></p>
 </section>
- 
+
