@@ -63,7 +63,7 @@ lang: en
 <table>
 	<tbody>
 		<tr>
-			<td align="center" valign="middle" width="110px;"><img alt="Organizer" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center" valign="middle" width="110px;"><img alt="Organizer" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;"/><br />
 			<strong>Organizer</strong></td>
 			<td valign="middle"><strong>Evaluate the Social Opportunities and Challenges:</strong>
 			<ol>
@@ -76,7 +76,7 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td align="center" valign="middle"><img alt="Handy-Person" class="media-image attr__typeof__foaf:Image img__fid__462 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center" valign="middle"><img alt="Handy-Person" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" /><br />
 			<strong>Handy-Person</strong></td>
 			<td valign="middle"><strong>Evaluate the Mounting and Power Options:</strong>
 			<ol>
@@ -88,7 +88,7 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td align="center"><img alt="Technologist" class="media-image attr__typeof__foaf:Image img__fid__463 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center"><img alt="Technologist" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" /><br />
 			<strong>Technologist</strong></td>
 			<td valign="middle"><strong>Evaluate the Wireless Networking Potential:</strong>
 			<ol>
