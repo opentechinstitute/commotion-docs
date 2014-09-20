@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="Inventory the Neighborhood graphic" class="threefourths-width" src="/files/styles/large/public/inventory_the_neighborhood_title.png" /></p>
+<p><img alt="Inventory the Neighborhood graphic" src="/files/styles/large/public/inventory_the_neighborhood_title.png" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
