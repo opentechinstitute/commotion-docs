@@ -32,13 +32,13 @@ lang: en
 <section id="materials-and-supplies-needed">
 <h3>MATERIALS + SUPPLIES NEEDED</h3>
 
-<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__484 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" style="width: 480px; height: 408px;" typeof="foaf:Image" /></a></p>
+<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="Site Worksheet" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" /></a></p>
 
-<p>Printouts of the <strong><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheets</a></strong>&nbsp;you can take with you into the neighborhood to collect information about places that might make good installation sites. You will need one for each location.</p>
+<p>Printouts of the <strong><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheets</a></strong> you can take with you into the neighborhood to collect information about places that might make good installation sites. You will need one for each location.</p>
 
-<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__483 img__view_mode__media_large attr__format__media_large" height="348" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" typeof="foaf:Image" width="457" /></a></p>
+<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="Neighborhood Inventory Spreadsheet" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" /></a></p>
 
-<p><strong><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf">Neighborhood Inventory Spreadsheet</a></strong>&nbsp;you can use to organize, store, and use the information you gathered out in the neighborhood. You can copy this example spreadsheet or make your own.</p>
+<p><strong><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf">Neighborhood Inventory Spreadsheet</a></strong> you can use to organize, store, and use the information you gathered out in the neighborhood. You can copy this example spreadsheet or make your own.</p>
 
 <p>Pens</p>
 
@@ -63,7 +63,7 @@ lang: en
 <table>
 	<tbody>
 		<tr>
-			<td align="center" valign="middle" width="110px;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center" valign="middle" width="110px;"><img alt="Organizer" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
 			<strong>Organizer</strong></td>
 			<td valign="middle"><strong>Evaluate the Social Opportunities and Challenges:</strong>
 			<ol>
@@ -76,7 +76,7 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td align="center" valign="middle"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__462 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center" valign="middle"><img alt="Handy-Person" class="media-image attr__typeof__foaf:Image img__fid__462 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
 			<strong>Handy-Person</strong></td>
 			<td valign="middle"><strong>Evaluate the Mounting and Power Options:</strong>
 			<ol>
@@ -88,8 +88,8 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td align="center"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__463 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Techie</strong></td>
+			<td align="center"><img alt="Technologist" class="media-image attr__typeof__foaf:Image img__fid__463 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<strong>Technologist</strong></td>
 			<td valign="middle"><strong>Evaluate the Wireless Networking Potential:</strong>
 			<ol>
 				<li>What are the tallest buildings in the area?</li>
