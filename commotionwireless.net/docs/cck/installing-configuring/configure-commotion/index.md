@@ -139,14 +139,20 @@ lang: en
 <section id="Access-Administration-interface">
 <h2>Access Administration interface</h2>
 
-<p>Now, log in to the Administrator configuration pages. After the Commotion Setup Wizard, your browser should take you to the admin page automatically. If it does not, type <strong>thisnode/</strong> into your browser’s URL bar and press “Enter”.</p>
+<p>Now, log in to the Administrator configuration pages. After the Commotion Setup Wizard, your browser should take you to the admin page automatically. If it does not, type <strong>thisnode/</strong> into your browser’s URL bar and press “Enter”. Now click on the <strong>Administration</strong> button at the bottom of the page.</p>
 
-<p class="tip">&nbsp;You will encounter a certificate warning here, accept it and move on.<br />
-<img src="/files/CCK_ConfigureRouters_CertError.png" style="max-width:510px;" /></p>
+<p class="tip">&nbsp;You will now be making a secure connection to your node (note the "https" in the address bar of your browser -- the "s" stands for secure). You will encounter a certificate warning here because the node's certificate that is used to create the secure connection was not signed by a "certificate authority" and so the browser cannot verify the node's identity. You should be cautious when you see these warnings because they often mean that your secure connection to a website may be insecure, but in this case it simply means the node's certificate was self-signed.<br/><br/>
 
-<p>Click on the <strong>Administration</strong> button at the bottom of the page. You will be prompted for a username and password. The administration username is always "root" - enter it if necessary. You set the administrator password during the Commotion Setup Wizard, enter it and hit the "Login" button.</p>
+<!--You may want to record the "fingerprint" of the node's certificate, which is a uniquely identifying string. By writing down this fingerprint, you can verify in the future that the node is presenting the same certificate, and thus your connection is secure. You can check our browser-specific <a href="/docs/cck/installing-configuring/certificate-verification">certificate verification instructions</a> to find the certificate's fingerprint.<br/><br/>-->
 
-<p><img src="/files/CCK-Configure_administrator_login.png" typeof="foaf:Image" width="400" /></p>
+Understanding why you got this warning, you can now accept the self-signed certificate to continue.<br/><br/>
+<img src="/files/CCK-Configure_cert_warning.png" style="max-width:510px;" /></p>
+
+<p>You will be prompted for a username and password. The administration username is always "root" - enter it if necessary. You set the administrator password during the Commotion Setup Wizard, enter it and hit the "Login" button.</p>
+
+<p><img src="/files/CCK-Configure_administrator_login.png" style="max-width:600px;" /></p>
+<p>&nbsp;</p>
+
 </section>
 
 <section id="Configure-common-options">
@@ -387,7 +393,7 @@ lang: en
 
 <p>Occasionally there are new releases of the Commotion Wireless software, available on the <a href="/download/">Downloads page</a>. Please download the "sysupgrade" version and follow these directions.</p>
 
-<p class="tip">&nbsp;Read the <a href="https://commotionwireless.net/download/verify-signatures">Verifying Signatures</a> page for more information on making sure you have real Commotion images.</p>
+<p class="tip">&nbsp;Read the <a href="/download/verify-signatures">Verifying Signatures</a> page for more information on making sure you have real Commotion images.</p>
 
 <p>Be sure to record your node and network settings so that you can re-enter them when you run Setup Wizard on the new version of Commotion.</p>
 
