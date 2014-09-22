@@ -145,12 +145,14 @@ lang: en
 
 <!--You may want to record the "fingerprint" of the node's certificate, which is a uniquely identifying string. By writing down this fingerprint, you can verify in the future that the node is presenting the same certificate, and thus your connection is secure. You can check our browser-specific <a href="/docs/cck/installing-configuring/certificate-verification">certificate verification instructions</a> to find the certificate's fingerprint.<br/><br/>-->
 
-Understanding why you got this warning, you can now accept the self-signed certificate to continue.<br /><br />
+Understanding why you got this warning, you can now accept the self-signed certificate to continue.<br/><br/>
 <img src="/files/CCK-Configure_cert_warning.png" style="max-width:510px;" /></p>
 
 <p>You will be prompted for a username and password. The administration username is always "root" - enter it if necessary. You set the administrator password during the Commotion Setup Wizard, enter it and hit the "Login" button.</p>
 
-<p><img src="/files/CCK-Configure_administrator_login.png" typeof="foaf:Image" width="400" /></p>
+<p><img src="/files/CCK-Configure_administrator_login.png" style="max-width:600px;" /></p>
+<p>&nbsp;</p>
+
 </section>
 
 <section id="Configure-common-options">
