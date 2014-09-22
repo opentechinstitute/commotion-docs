@@ -49,12 +49,14 @@ lang: en
 <section id="how-do-applications-work">
 <h2>How do applications work?</h2>
 <p>Many of the applications we use today are “network applications,” which get and send information for the application to another computer on a network. For example, applications that live on a website - such as Social Media tools or webmail -- live on a web server. </p>
-
+<br />
 <h3>Network Applications</h3>
 <p>In network applications -- such as a website, your computer sends a message across the network to a server, which sends your device (the “client”) the content of the webpage in response.</p>
 
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510">
-
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="400">
+<br />
+<br />
+<br />
 <h3>Smartphone Application or Computer Application</h3>
 <p>A smartphone application or software program is an application that you download to your device (a smartphone or a computer). For downloaded applications -- your application can send and receive information with the device it is installed on. Many smartphone and computer applications also make use of the features of a network application. For example, your writing application or word processor saves documents to a location on your computer.</p>
 
@@ -70,7 +72,8 @@ lang: en
 </ol></p>
 
 <p>To learn more about networking basics, check out the activities in the <a href="https://commotionwireless.net/docs/cck/networking/learn-networking-basics">CCK Networking Module: “Learn Networking Basics.”</a> The web server can be located anywhere on a network - including someone’s laptop within the network or on another computer somewhere on the Internet.</p>
-
+<br />
+<br />
 <h3>Local Applications</h3>
 <p>Network applications talk to a web server, but that web server does not have to be on the Internet. It can live in many places - the Internet, the local network, or even be someone’s laptop. Running applications on a local web server within your network -- such as on a laptop -- allows you and your community to have tools and services just for you. Many applications do not need access to the Internet to work, which means that the applications running on a local web server would be useable whether your network has Internet access or not! In the same way that the mesh network allows multiple people to share network resources, running a local application server makes it possible to share information without going out to the Internet - keeping local communications local and more efficient.</p>
 
@@ -84,11 +87,14 @@ lang: en
 	<li>What are the differences between the different options? What are the benefits and challenges of the different options?</li>
 </ol>
 
-<img alt="Internet Chat" src="/files/CCK_LocalApps_internet_application.png" width="400">
+<p>
+<img alt="Internet Chat" src="/files/CCK_LocalApps_internet_application.png" width="300">
 <em>Chat via the Internet</em>
-
-<img alt="Mesh Chat" src="/files/CCK_LocalApps_mesh_application.png" width="400">
+<br />
+<br />
+<img alt="Mesh Chat" src="/files/CCK_LocalApps_mesh_application.png" width="300">
 <em>Chat via Peer-to-Peer</em></p>
+</p>
 
 <p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong><a href="/docs/cck/local-applications/locating-a-local-server/">Locating a Local Server</a></strong>. To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
 </section>
