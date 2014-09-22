@@ -2,12 +2,12 @@
 layout: cck
 title: What is an App?
 site_section: docs
-sub_section: [cck,cck-local-apps]
+sub_section: [cck,cck-localapps]
 pdf: 
 pdf-all: true
 categories: 
 created: 2014-06-05
-changed: 2014-08-25
+changed: 2014-09-2
 post_author: georgia
 lang: en
 ---
@@ -84,13 +84,13 @@ lang: en
 	<li>What are the differences between the different options? What are the benefits and challenges of the different options?</li>
 </ol>
 
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_LocalApps_internet_application.png" typeof="foaf:Image" width="510">
+<img alt="Internet Chat" src="/files/CCK_LocalApps_internet_application.png" width="400">
 <em>Chat via the Internet</em>
 
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_LocalApps_mesh_application.png" typeof="foaf:Image" width="510">
+<img alt="Mesh Chat" src="/files/CCK_LocalApps_mesh_application.png" width="400">
 <em>Chat via Peer-to-Peer</em></p>
 
-<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
+<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong><a href="/docs/cck/local-applications/locating-a-local-server/">Locating a Local Server</a></strong>. To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
 </section>
  
 <section id="definitions">
@@ -109,7 +109,7 @@ lang: en
 
 <p>For information about how mesh networks work, read the <strong><a href="/docs/cck/networking/intro-to-mesh/">Intro to Mesh</a></strong> module.</p>
 
-<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). </p>
+<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong><a href="/docs/cck/local-applications/locating-a-local-server/">Locating a Local Server</strong></a></p>
 
 <p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
 

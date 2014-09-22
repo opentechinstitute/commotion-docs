@@ -2,16 +2,16 @@
 layout: cck
 title: Locating a Local Server
 site_section: docs
-sub_section: [cck,cck-local-apps]
+sub_section: [cck,cck-localapps]
 pdf: 
 pdf-all: true
 categories: 
 created: 2014-08-25
-changed: 2014-08-25
+changed: 2014-09-2
 post_author: georgia
 lang: en
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__476 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/inventory_the_neighborhood_title.png?itok=qgv6sh9C" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
+<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png"></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -43,7 +43,7 @@ lang: en
 
 <p><strong>Activity:</strong> Diagramming & Siting a Local Application Server on Your Network</p>
 
-<p>Materials: <a href="https://commotionwireless.net/docs/cck/planning/design-your-network-construction-elements">Commotion Construction Kit Construction Elements</a></p>
+<p><strong> Materials: </strong><a href="https://commotionwireless.net/docs/cck/planning/design-your-network-construction-elements">Commotion Construction Kit Construction Elements</a></p>
 
 <p>Using the <a href="https://commotionwireless.net/docs/cck/planning/design-your-network-construction-elements">Construction Elements</a>, create a diagram of your network. If you are just getting started, this could be a diagram of the plan that you have so far, or you can work with someone else on the plan for their network. </p>
 
@@ -63,7 +63,6 @@ lang: en
 </ul>
 
 <p>These questions are designed to help you think about some of the social, technical and administrative issues that might affect where you decide to put a local server on your network. Is there anything missing? Are there additional questions that should be added to this list?</p>
-
 </section>
 
 <section id="assessment-steps">
@@ -73,13 +72,22 @@ lang: en
 
 <p><strong>2. Find or create a detailed map of the area and layer your network diagram over the map.</strong>You can use an up-to-date paper map, or a map from an online platform like OpenStreetMap or Google Maps.</p>
 
-<p><strong>3. If you don’t have enough information about a site, you may need to go to the site and assess what resources and challenges are there.</strong> You may find the <a htef="https://commotionwireless.net/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheet</a> from the <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventory Module</a> helpful for the visit. Photos are very helpful for capturing many details about buildings.</p>
+<p><strong>3. If you don’t have enough information about a site, you may need to go to the site and assess what resources and challenges are there.</strong> You may find the <a href="https://commotionwireless.net/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheet</a> from the <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventory Module</a> helpful for the visit. Photos are very helpful for capturing many details about buildings.</p>
 
 <p><strong>4. Using the criteria that you have developed, what is/are the best location(s) for a local server, or possibly multiple local servers, on your network?</strong> It might help to map out how information flows through the network given your different options. How does the experience of using applications change with the different configurations?</p>
 
 <p><strong>5.  Once you and your community have decided on a location, work with your community to install the server and setup the applications.</p>
 
 <p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon). To explore applications that other communities use, check out the list of applications on the Commotion Wiki -- <a href="https://wiki.commotionwireless.net/doku.php/development_resources/application_server/start">Possible Local Applications</a></p>
+
+<p>
+	<img alt="Example Network Diagram - Map" src="/files/CCK-LocalApps-ServerLocateExample.jpg">
+	<em>Example Map of a local network to assess where to place a local server.</em>
+	<br />
+	<img alt="Example Network Diagram - Map" src="/files/CCK-LocalApps-ServerLocateExample.jpg">
+	<em>Example Map of a local network to assess where to place a local server.</em>
+</p>
+
 </section>
 
 
@@ -90,9 +98,7 @@ lang: en
 
 <p>For information about how mesh networks work, read the <strong><a href="/docs/cck/networking/intro-to-mesh/">Intro to Mesh</a></strong> module.</p>
 
-<p>To learn more about setting up a local application server and determining an ideal location on the network for it, check out the module on <strong>Locating a Local Server</strong> (Coming Soon). </p>
-
-<p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon).</p>
+<p>To learn more about methods for facilitating and brainstorming in a community meeting, check out the <strong>Collecting Community Feedback</strong> module (Coming Soon). </p>
 
 <p>Check out some ideas and installation guides on the Commotion wiki around possible applications that many community networks use on the <a href="https://wiki.commotionwireless.net/doku.php/development_resources/application_server/start">Possible Local Applications</a>.</p>
 </section>
