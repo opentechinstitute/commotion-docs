@@ -66,7 +66,7 @@ lang: en
 
 <ul>
 	<li><a href="/docs/cck/local-applications/what-is-an-app">What is an App?</a>: An introductory guide to applications.</li>
-	<li><a href="/docs/cck/local-applications/locating-a-local-server">Siting a Server</a>: How to decide where to put a local server.</li>
+	<li><a href="/docs/cck/local-applications/locating-a-local-server">Locating a Local Server</a>: How to decide where to put a local server.</li>
 </ul>
 
 <p>&nbsp;</p>
