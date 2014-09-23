@@ -19,4 +19,9 @@
 {% include docs_cck_networking_menu.html %}
 {% endif %}
 </li>
+  <li {% if page.url contains '/docs/cck/local-applications' %} class="active" {% endif %}><a href="{% if page.lang != 'en' %}/{{ page.lang }}{% endif %}/docs/cck/local-applications">Local Applications</a>
+{% if page.sub_section contains 'cck-localapps' %}
+{% include docs_cck_localapps_menu.html %}
+{% endif %}
+</li>
 </ul>

@@ -62,6 +62,13 @@ lang: en
 	<li><a href="/docs/cck/networking/wireless-challenges">Design your Network: Wireless Challenges</a>: A simple guide to wireless challenges to help improve network planning&nbsp;and troubleshooting.</li>
 </ul>
 
+<h3>Local Applications</h3>
+
+<ul>
+	<li><a href="/docs/cck/local-applications/what-is-an-app">What is an App?</a>: An introductory guide to applications.</li>
+	<li><a href="/docs/cck/local-applications/locating-a-local-server">Locating a Local Server</a>: How to decide where to put a local server.</li>
+</ul>
+
 <p>&nbsp;</p>
 
 <p class="rtecenter"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Commotion Construction Kit</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
