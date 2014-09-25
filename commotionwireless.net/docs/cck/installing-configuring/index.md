@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Commotion Construction Kit - Installing + Configuring
 site_section: docs
 sub_section: [cck,cck-installing]
@@ -10,7 +10,9 @@ changed: 2014-08-20
 post_author: critzo
 lang: en
 ---
-<div class="cck-section-page">
-{% include docs_cck_installing_menu.html %}
-</div>
+<p><img src="/files/CCK_CommonConfigs_Intro.png"><p>
+<section>
+<h2>Installing + Configuring</h2>
+{% include_relative modules.html %}
+</section>
  
