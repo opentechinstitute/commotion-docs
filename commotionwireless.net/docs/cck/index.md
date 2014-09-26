@@ -20,6 +20,9 @@ lang: en
 
 <p>You can also download a <a href="http://files.opentechinstitute.org/~commotion/CCK-All PDFs-12-17-2013.zip">.zip archive file</a> of containing PDF versions of all current Commotion Construction Kit modules and supporting activities.</p>
 
+<h3>Getting Started</h3>
+<ul><li><a href="/docs/cck/about-community-wireless">What is a community network?</a> An introduction to community networks to help you get started.</li></ul>
+
 <h3>Planning</h3>
 {% include_relative planning/modules.html %}
 
