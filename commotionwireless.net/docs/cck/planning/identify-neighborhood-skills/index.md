@@ -3,7 +3,7 @@ layout: cck
 title: Identify Neighborhood Skills
 site_section: docs
 sub_section: [cck,cck-planning]
-pdf: cck/planning/6-Identify_Neighborhood_Skills.pdf
+pdf: cck/planning/CCK-Neighborhood_Skills.pdf
 pdf-all: true
 categories: 
 created: 2013-11-02
@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__464 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
+<p><img src="/files/styles/large/public/identify-neighborhood-skills-title.png" style="max-width:510px;" /></p>
 
 <h2>Identify Neighborhood Skills</h2>
 
@@ -35,7 +35,7 @@ Paper</p>
 <section id="activity">
 <h3>Activity 1: Network Skills</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__466 img__view_mode__media_large attr__format__media_large" height="352" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png?itok=KeGkBmMA" typeof="foaf:Image" width="480" /></p>
+<p><img src="/files/styles/large/public/identify-neighborhood-skills-listskills.png" style="max-width:510px;" /></p>
 
 <p>As a group or within small groups, write a list of skills that will be necessary to plan, build and maintain your wireless network. Think about the skills needed to do tasks such as making flyers, flashing routers, mounting hardware, connecting electricity to rooftops, buying equipment, and finding other community members that would like to be involved.</p>
 

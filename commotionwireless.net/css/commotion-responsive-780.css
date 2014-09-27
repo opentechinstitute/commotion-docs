@@ -140,7 +140,7 @@ li.static-nodrop a:visited {
   padding-top: 35px;
   position: relative;
 }
-.contentcontainer a:link, .contentcontainer a:visited {
+.contentcontainer a:link {
   border-bottom: 3px solid #E8FF00;
   color: #4D4D4D;
   text-decoration: none;
@@ -272,8 +272,7 @@ div.pageheadings hr {
   text-decoration: none;
 }
 .footer-wrapper a:hover {
-  color: #FFFFFF;
-  background: #000000;
+  color: #000000;
   text-decoration: none;
 }
 .left-third {
@@ -308,9 +307,8 @@ div.pageheadings hr {
 }
 .right-third a:hover,
 .left-twothird a:hover {
-  color: #E8FF00;
-  background: #000000;
-  border-bottom: none;
+  color: #000000;
+  border-bottom: 3px solid #FF739C;
 }
 .left-twothird {
   width: 55%;
@@ -321,12 +319,10 @@ div.pageheadings hr {
 .left-twothird h2 {
   margin-left: 0;
 }
-.left-twothird a {
-  text-decoration: underline;
-}
+
 .left-twothird img {
     height: auto;
-    width: 95%;
+    width: 100%;
 }
 .blog-pubdata {
   margin-left: 1.3em;
@@ -520,7 +516,7 @@ div#download-button-block .download-button a.button {
 
 .cck-content {
   background: #EAE8E8;
-  padding: 0.5em;
+  margin: 0px;
 }
 .cck-content h2 {
   display: block;
@@ -565,7 +561,8 @@ div#download-button-block .download-button a.button {
   text-decoration: underline !important;
 }
 .cck-content table {
-  width: 100%;
+  width: 90%;
+  margin: 0 1em 1em 1em;
 }
 .cck-content tr:hover, .cck-content td.active {
   background: none repeat scroll 0 0 white;

@@ -9,13 +9,13 @@ changed: 2014-03-04
 post_author: critzo
 lang: en
 ---
-  <p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in trainings around the world and at home. It is a “do it ourselves” guide to building wireless mesh networks.</p>
+<p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in workshops around the world and at home. It is a “do it ourselves” guide to building community wireless networks.</p>
 
 <div><span style="padding:10px;background-color:Gray;font-size:1em;display:block;"><img alt="" class="noscale" height="10" src="/files/styles/large/public/arrow_wht.png" style="vertical-align:middle;margin-right:10px;" width="29" /><a href="https://www.transifex.com/projects/p/commotion-documentation/" style="color:white;target:new tab front;">HELP US TRANSLATE THE COMMOTION CONSTRUCTION KIT</a></span></div>
 
 <p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" /></p>
 
-<p>You will be able to use them on your own or to work with a group of people. There is no one right way to move through them. You will find tools to help you learn the software and build and mount the hardware, as well as tools to help you organize with others in your neighborhood to plan, build, and promote a network. The modules are designed to be used by individuals or groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.</p>
+<p>You can use them on your own or to work with a group of people. There is no one right way to move through the activities. You will find tools to help you learn the software and build and mount the hardware, as well as tools to help you organize with others in your neighborhood to plan, build, and promote a network. The modules are designed to be used by individuals or groups for self-guided learning or to teach workshops or trainings. Start to explore anywhere and let us know how it goes for you.</p>
 
 <p>Like the Commotion software, these materials are open source, which means development on them continues and community involvement is critical. This first wave of modules represents a work in progress. The current set of modules are briefly described below.</p>
 
@@ -36,6 +36,7 @@ lang: en
 
 <ul>
 	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a>: A step-by-step process for installing Commotion Wireless on Ubiquiti routers, which are amenable to changing operating systems.</li>
+	<li><a href="/docs/cck/installing-configuring/install-tplink-router">Install on a TP-Link Router</a>: A step-by-step process for installing Commotion Wireless on TP-Link routers, which are amenable to changing operating systems.</li>
 	<li><a href="/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a>: Instructions on configuring a Commotion wireless node through the Commotion Setup Wizard and through the administration interface.</li>
 	<li><a href="/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a>: How a node should be configured depends on how it needs to funtion on the mesh network. Learn about the most common Commotion configurations.</li>
 	<li><a href="/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a>: For hardware configurations that involve multiple nodes at a single site, or other unique situations, this guide provides instructions.</li>
@@ -59,6 +60,13 @@ lang: en
 	<li><a href="/docs/cck/networking/learn-networking-basics">Learn Networking Basics</a>: An introductory guide to networking.</li>
 	<li><a href="/docs/cck/networking/learn-wireless-basics">Learn Wireless Basics</a>: An introduction to how wireless technology works.</li>
 	<li><a href="/docs/cck/networking/wireless-challenges">Design your Network: Wireless Challenges</a>: A simple guide to wireless challenges to help improve network planning&nbsp;and troubleshooting.</li>
+</ul>
+
+<h3>Local Applications</h3>
+
+<ul>
+	<li><a href="/docs/cck/local-applications/what-is-an-app">What is an App?</a>: An introductory guide to applications.</li>
+	<li><a href="/docs/cck/local-applications/locating-a-local-server">Locating a Local Server</a>: How to decide where to put a local server.</li>
 </ul>
 
 <p>&nbsp;</p>

@@ -18,6 +18,7 @@ lang: en
 <ul class="rteindent1">
     <li>Understanding Commotion (coming soon!)</li>
     <li><a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Install on a Ubiquiti Router</a></li>
+    <li><a href="/docs/cck/installing-configuring/install-tplink-router/">Install on a TP-Link Router</a></li>
     <li><a href="/docs/cck/installing-configuring/configure-commotion/">Configure the Commotion software</a></li>
 </ul>
 
