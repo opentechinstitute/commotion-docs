@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cck
 title: Commotion Construction Kit - Networking
 site_section: docs
 sub_section: [cck,cck-networking]
@@ -10,7 +10,10 @@ changed: 2014-08-20
 post_author: critzo
 lang: en
 ---
-<div class="cck-section-page">
-{% include docs_cck_networking_menu.html %}
-</div>
+<p><img src="/files/CCK_WirelessBasics_Wave2.png" style="background-color:white; padding:60px;0px;60px;0px;"><p>
+<section>
+<h2>Networking</h2>
+{% include cck/building-mounting-modules.html %}
+</section>
+
  
