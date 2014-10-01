@@ -41,7 +41,7 @@ lang: en
 
 <p><img src="/files/cck/about-community-wireless/one-server.png" style="background-color:white; padding:10px;"></p>
 
-<h3>Or, from multiple servers across.</h3>
+<h3>Or, from multiple servers.</h3>
 
 <p><img src="/files/cck/about-community-wireless/multi-servers.png" style="background-color:white; padding:10px;"></p>
 
@@ -58,7 +58,7 @@ lang: en
 <h2>How do we get started?</h2>
 <p>Each network will have their own process, but these steps are an example of how you might get started:
 <ol>
-  <li><strong>Identify Community Partners and Define Partnership</strong><br />
+  <li><strong>Identify Community Partners and Define Common Goals</strong><br />
   The essential step is to decide which partners will develop, plan and maintain the network.</li>
   <li><strong>Outreach and Planning</strong><br />
   <a href="/docs/cck/planning/survey-your-neighbors" style="font-weight:normal">Surveys</a>, community meetings, and transparent or participatory budgeting can ensure that the network gets local support.  Manage expectations by presenting the project as a collaborative effort, not a free service.</li>

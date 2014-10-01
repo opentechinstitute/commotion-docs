@@ -24,19 +24,19 @@ lang: en
 <ul><li><a href="/docs/cck/about-community-wireless">What is a community network?</a> An introduction to community networks to help you get started.</li></ul>
 
 <h3>Planning</h3>
-{% include_relative planning/modules.html %}
+{% include cck/planning-modules.html %}
 
 <h3>Installing and Configuring</h3>
-{% include_relative installing-configuring/modules.html %}
+{% include cck/installing-configuring-modules.html %}
 
 <h3>Building and Mounting</h3>
-{% include_relative building-mounting/modules.html %}
+{% include cck/building-mounting-modules.html %}
 
 <h3>Networking</h3>
-{% include_relative networking/modules.html %}
+{% include cck/networking-modules.html %}
 
 <h3>Local Applications</h3>
-{% include_relative local-applications/modules.html %}
+{% include cck/local-applications-modules.html %}
 
 <p>&nbsp;</p>
 

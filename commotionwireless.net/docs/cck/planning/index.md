@@ -15,6 +15,5 @@ lang: en
 
 <section>
 <h2>Planning</h2>
-
-{% include_relative  modules.html %} 
+{% include  cck/planning-modules.html %} 
 </section>

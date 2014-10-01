@@ -10,10 +10,10 @@ changed: 2014-08-20
 post_author: critzo
 lang: en
 ---
-<p><img src="/files/CCK_WirelessBasics_Wave2.png"><p>
+<p><img src="/files/CCK_WirelessBasics_Wave2.png" style="background-color:white; padding:60px;0px;60px;0px;"><p>
 <section>
 <h2>Networking</h2>
-{% include_relative modules.html %}
+{% include cck/building-mounting-modules.html %}
 </section>
 
  

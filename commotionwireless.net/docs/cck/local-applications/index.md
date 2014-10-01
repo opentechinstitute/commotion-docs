@@ -14,7 +14,7 @@ lang: en
 <p><img src="/files/CCK_LocalApps_overview.png"><p>
 <section>
 <h2>Local Applications</h2>
-{% include_relative modules.html %}
+{% include cck/local-applications-modules.html %}
 </section>
 
  

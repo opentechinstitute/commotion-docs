@@ -14,7 +14,7 @@ lang: en
 <p><img src="/files/prep_install_finish_support008.png"><p>
 <section>
 <h2>Building and Mounting</h2>
-{% include_relative modules.html %}
+{% include cck/building-mounting-modules.html %}
 </section>
 
  
