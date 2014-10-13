@@ -89,8 +89,8 @@ Project ideas due dates:
 
 * Round 1: September 15, 2014
 * Round 2: December 15, 2014
-* Round 3: February 15, 2014
-* Round 4: April 15, 2014
+* Round 3: February 15, 2015
+* Round 4: April 15, 2015
 
 Suggested Reading
 -----------------
