@@ -30,7 +30,7 @@ Media Relations Associate<br />
 <h3>Logos &amp; Images</h3>
 
 <ul>
-	<li>Commotion Logo (<a href="/files/commotion-logo.svg">large .svg</a>)</li>
+	<li><a href="/files/CommotionLogoLarge.svg">Commotion Logo</a> (svg)</li>
 </ul>
 
 <h3>Video</h3>
