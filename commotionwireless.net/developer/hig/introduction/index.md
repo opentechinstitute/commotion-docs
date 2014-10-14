@@ -11,7 +11,7 @@ lang: en
 ---
   <h2>Introduction</h2>
 
-<p>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. It is currently being developed by multiple organizations around the globe, including the <a href="http://newamerica.org/oti" target="_blank">Open Technology Institute</a>, <a href="http://theworkdept.com/" target="_blank">The Work Department</a>, <a href="https://guardianproject.info/" target="_blank">The Guardian Project</a>, and <a href="http://www.servalproject.org/" target="_blank">The Serval Project</a>.</p>
+<p>Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks. It is currently being developed by multiple organizations around the globe, including the <a href="http://newamerica.org/oti" target="_blank">Open Technology Institute</a>, <a href="http://theworkdept.com/" target="_blank">The Work Department</a>, <a href="https://guardianproject.info/" target="_blank">The Guardian Project</a>, and <a href="http://www.servalproject.org/" target="_blank">The Serval Project</a>.</p>
 
 <p>These Human Interface Guidelines are intended to unite developers and designers in creating a consistent and accessible user experience across Commotion tools. People working on Commotion software should adhere to these guidelines and make suggestions for improving them as needed. We want Commotion to be accessible to a broad population of users around the world, and a coordinated design approach can facilitate widespread adoption.</p>
 

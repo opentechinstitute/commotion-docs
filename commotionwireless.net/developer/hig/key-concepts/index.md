@@ -15,7 +15,7 @@ lang: en
 
 <ul>
 	<li>This language should be used when including a short description of the project:<br />
-	<em>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. More at www.commotionwireless.net.</em><br />
+	<em>Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks. More at www.commotionwireless.net.</em><br />
 	&nbsp;</li>
 	<li>This language should be added when you have more space or on “about” pages:<br />
 	<em>The project is collaboratively developed by The Open Technology Initiative, The Work Department, The Guardian Project, The Serval Project, and volunteers within the community.</em></li>
