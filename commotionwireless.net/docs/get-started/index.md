@@ -86,11 +86,10 @@ Community networks are built by a coalition of community anchor institutions, co
 		<li><a href="/docs/cck/installing-configuring">Installing + Configuring</a></li>
 		<li><a href="/docs/cck/building-mounting">Building + Mounting</a></li>
 		<li><a href="/docs/cck/networking">Networking</a></li>
+		<li><a href="/docs/cck/local-applications">Local Applications</a></li>
 	</ul>
 	</li>
 	<li><a href="/docs/supported-devices">Commotion Supported Devices</a></li>
 	<li><a href="/download">Download Commotion Software</a></li>
-	<li><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Installing Commotion on Wireless Routers</a></li>
-	<li><a href="/docs/cck/installing-configuring/configure-commotion">Configuring Commotion on your Router</a></li>
 </ul>
  
