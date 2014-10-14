@@ -74,7 +74,7 @@
         <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/routers" title="Downloads for supported routers">Routers</a></li>
         <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/android" title="Downloads for supported cellular phones.">Phones</a></li>
         <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/computers">Computers</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li>
+<!--         <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/openbts" title="Downloads for supported cellular network gateways.">Cellular Networks</a></li> -->
         <li role="presentation"><a role="menuitem" tabindex="-3" href="/download/verify-signatures" title="">Verifying Downloads</a></li>
       </ul>
     </li>

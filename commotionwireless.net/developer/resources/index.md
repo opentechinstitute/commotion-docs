@@ -20,7 +20,7 @@ If you are interested in helping develop the Commotion Wireless software, or wan
 	<li><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:commotion_client_architecture">Linux app development guide</a></li>
 	<li><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:commotion_client_architecture">Windows app development guide</a></li>
 	<li><a href="commotion-mac/">Mac OS X and iOS app development guide</a></li>
-	<li><a href="https://wiki.commotionwireless.net/doku.php?id=general_openbts_notes">Open GSM development guide</a></li>
+<!-- 	<li><a href="https://wiki.commotionwireless.net/doku.php?id=general_openbts_notes">Open GSM development guide</a></li> -->
 </ul>
 
 <h2>Architectures</h2>
