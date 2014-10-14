@@ -79,7 +79,7 @@ Commotion documentation should clearly discuss any issues of privacy and data re
 
 <p>In addition to abilities that Commotion can offer at the network level, the documentation should point to privacy and anonymity resources above the mesh network layer. While software can prevent some attacks against privacy and anonymity, the documentation should outline any vulnerabilities associated with traffic analysis and radio monitoring.</p>
 
-<p><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture" target="_blank">Read more about Commotion Security Architecture.</a></p>
+<p><a href="https://wiki.commotionwireless.net/doku.php/commotion_architecture/start" target="_blank">Read more about Commotion Security Architecture.</a></p>
 
 <h2>Common footer</h2>
 
