@@ -43,13 +43,13 @@ lang: en
 <p>&nbsp;</p>
 </div>
 
-<div style="width:75%;">
+<!--<div style="width:75%;">
 <h3><a href="/download/openbts" name="OpenBTS" title="OpenBTS"><img alt="OpenBTS" src="/files/cellTower3.png" style="margin-left: 0.3em; margin-right: 0.3em; height: 125px; width: 125px; float: left;" /></a>Cellular Networks</h3>
 
 <p><strong>Current Version: in development</strong><br />
 <br />
 <strong><a href="/download/openbts">Commotion for OpenBTS</a></strong> network devices is currently available in unsupported pre-release.</p>
-</div>
+</div>-->
 
 <p>&nbsp;</p>
  
