@@ -23,7 +23,7 @@ lang: en
 	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
 	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
 </ul>
-<a href="https://commotionwireless.net/understanding-commotions-warning-label">For More Info Click Here</a></div>
+<a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
 </div>
 
 <p>Pre-built downloads for the Commotion android devices we currently support are listed below.</p>
@@ -32,20 +32,12 @@ lang: en
 
   * <strong>Your phone must be rooted</strong> to run this package. 
   * Commotion Android will connect to Commotion networks up to Commotion Router PR3. However, it is not fully feature compatible with Commotion Router 1.0 or higher.
-  * See the <a href="/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.
+  * See the <a href="/docs/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.
 
 </p>
 
-<p>&nbsp;</p>
-
 <p><strong>Current Release</strong> = (PR3)&nbsp; Pre-Release 3<br />
 <strong>Next Release</strong> = v1.0</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
 
 <h3>Stable Builds:</h3>
 

@@ -15,7 +15,7 @@ lang: en
 
 <ul>
 	<li>This language should be used when including a short description of the project:<br />
-	<em>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. More at www.commotionwireless.net.</em><br />
+	<em>Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks. More at www.commotionwireless.net.</em><br />
 	&nbsp;</li>
 	<li>This language should be added when you have more space or on “about” pages:<br />
 	<em>The project is collaboratively developed by The Open Technology Initiative, The Work Department, The Guardian Project, The Serval Project, and volunteers within the community.</em></li>
@@ -79,7 +79,7 @@ Commotion documentation should clearly discuss any issues of privacy and data re
 
 <p>In addition to abilities that Commotion can offer at the network level, the documentation should point to privacy and anonymity resources above the mesh network layer. While software can prevent some attacks against privacy and anonymity, the documentation should outline any vulnerabilities associated with traffic analysis and radio monitoring.</p>
 
-<p><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture" target="_blank">Read more about Commotion Security Architecture.</a></p>
+<p><a href="https://wiki.commotionwireless.net/doku.php/commotion_architecture/start" target="_blank">Read more about Commotion Security Architecture.</a></p>
 
 <h2>Common footer</h2>
 

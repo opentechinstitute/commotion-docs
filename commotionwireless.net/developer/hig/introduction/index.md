@@ -11,7 +11,7 @@ lang: en
 ---
   <h2>Introduction</h2>
 
-<p>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. It is currently being developed by multiple organizations around the globe, including the <a href="http://oti.newamerica.net/" target="_blank">Open Technology Institute</a>, <a href="http://theworkdept.com/" target="_blank">The Work Department</a>, <a href="https://guardianproject.info/" target="_blank">The Guardian Project</a>, and <a href="http://www.servalproject.org/" target="_blank">The Serval Project</a>.</p>
+<p>Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks. It is currently being developed by multiple organizations around the globe, including the <a href="http://newamerica.org/oti" target="_blank">Open Technology Institute</a>, <a href="http://theworkdept.com/" target="_blank">The Work Department</a>, <a href="https://guardianproject.info/" target="_blank">The Guardian Project</a>, and <a href="http://www.servalproject.org/" target="_blank">The Serval Project</a>.</p>
 
 <p>These Human Interface Guidelines are intended to unite developers and designers in creating a consistent and accessible user experience across Commotion tools. People working on Commotion software should adhere to these guidelines and make suggestions for improving them as needed. We want Commotion to be accessible to a broad population of users around the world, and a coordinated design approach can facilitate widespread adoption.</p>
 
@@ -36,7 +36,7 @@ lang: en
 
 <p>Now, consider how this user experience might be different for someone joining an existing network with a mobile phone in order to access a service somewhere on the local network.</p>
 
-<p>(See <strong><a href="https://wiki.commotionwireless.net/doku.php?id=use_case_development" target="_blank">Developing a use case</a></strong> for tips on brainstorming user scenarios.)</p>
+<p>(See <strong><a href="https://wiki.commotionwireless.net/doku.php/project_scope/use_case_development" target="_blank">Developing a use case</a></strong> for tips on brainstorming user scenarios.)</p>
 
 <p>These different user experiences will, of course, require slightly different interfaces. The neighbor setting up four routers on rooftops will require different tools than a visiting friend who wants to log into the network and access a community file server, but both of these users should experience some shared elements. Both of these users will encounter the Commotion product name, and both will learn a few key terms. In the case of the neighbor who is setting up the network, much of this learning will happen while they read through documentation or use the OpenWRT configuration interface. They will spend quite a bit of time entering settings and becoming familiar with user interface look and feel.</p>
 

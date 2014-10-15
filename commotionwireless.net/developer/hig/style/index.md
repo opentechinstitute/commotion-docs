@@ -23,7 +23,7 @@ lang: en
 
 <p>Since a mesh network is flexible and can change shape, so can the logo. The main difference between the digital and print version of the mid logo is that the digital version has a slight drop shadow. This helps it to stand out more on a screen. Otherwise they are exactly the same.</p>
 
-<p><img alt="" src="http://commotion-kb-062512.jackpine.theworkdept.com/sites/commotion-kb-062512.jackpine.theworkdept.com/files/HIG_53.png" /></p>
+<p><img alt="" src="/files/HIG_53.png" /></p>
 
 <p>&nbsp;</p>
 
