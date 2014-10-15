@@ -67,6 +67,11 @@ lang: en
 			<td>TL-WDR4300</td>
 			<td>Release 1.1</td>
 		</tr>
+		<tr>
+			<th>Mikrotik</th>
+			<td>RB411AH</td>
+			<td>Release 1.1</td>
+		</tr>
 	</tbody>
 </table>
 </div>
