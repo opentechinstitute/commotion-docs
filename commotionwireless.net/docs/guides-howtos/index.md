@@ -19,6 +19,7 @@ lang: en
     <li>Understanding Commotion (coming soon!)</li>
     <li><a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Install on a Ubiquiti Router</a></li>
     <li><a href="/docs/cck/installing-configuring/install-tplink-router/">Install on a TP-Link Router</a></li>
+    <li><a href="/docs/cck/installing-configuring/install-mikrotik-router/">Install on a MikroTik Router</a></li>
     <li><a href="/docs/cck/installing-configuring/configure-commotion/">Configure the Commotion software</a></li>
 </ul>
 
@@ -37,6 +38,11 @@ lang: en
 <ul class="rteindent1">
     <li><a href="/docs/cck/building-mounting/learn-rooftop-basics/">Learn Rooftop Basics</a></li>
     <li><a href="/docs/cck/building-mounting/prep-install-rooftop-nodes/">Prep and Install Rooftop Nodes</a></li>
+</ul>
+
+<p><strong>For setting up an installation environment</strong> - for example, with certain MikroTik routers:</strong></p>
+<ul class="rteindent1">
+    <li><a href="/docs/guides-howtos/installation-server-setup/">Installation Server Setup guide</a></li>
 </ul>
 
 <p>For technical tips, tweaks and everything else, see the <a href="https://wiki.commotionwireless.net/doku.php#general_resources">General Resources</a> section of the <a href="http://wiki.commotionwireless.net/">Commotion Wiki</a>.</p>
