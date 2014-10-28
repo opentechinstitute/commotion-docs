@@ -3,7 +3,7 @@ description: "Commotion is an open-source communication tool that uses wireless 
 
 encoding: utf-8
 url: "commotionwireless.net"
-port: 80
+port: 4000 
 piwik:
   base_url: piwik.opentechinstitute.org
   site_id: 1
