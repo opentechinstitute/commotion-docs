@@ -4,18 +4,19 @@ title: Download Commotion
 site_section: download
 categories: 
 created: 2012-10-18
-changed: 2014-01-02
+changed: 2014-10-31
 post_author: OTI
 lang: en
 ---
-  <p>Welcome to the Commotion downloads page! Here you can find links to pre-built downloads for all of the currently supported Commotion devices.</p>
+
+<p>Welcome to the Commotion downloads page! Here you can find links to pre-built downloads for all of the currently supported Commotion devices.</p>
 
 <h2>Choose the type of device you wish to use Commotion with:</h2>
 
 <div style="width:75%;">
 <h3><a href="/download/routers" name="Routers" title="Routers"><img alt="Routers" src="/files/router3.png" style="margin-left: 0.3em; margin-right: 0.3em; float: left; height: 125px; width: 125px;" /></a>Routers</h3>
 
-<p><strong>Current Version: 1.0</strong></p>
+<p><strong>Current Version: 1.1</strong></p>
 
 <p><strong><a href="/download/routers">Commotion Router</a></strong> is a distribution of OpenWRT Linux for use on supported routers.</p>
 

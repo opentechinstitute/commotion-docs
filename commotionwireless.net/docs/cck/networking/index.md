@@ -13,7 +13,5 @@ lang: en
 <p><img src="/files/CCK_WirelessBasics_Wave2.png" style="background-color:white; padding:60px;0px;60px;0px;"><p>
 <section>
 <h2>Networking</h2>
-{% include cck/building-mounting-modules.html %}
+{% include cck/networking-modules.html %}
 </section>
-
- 
