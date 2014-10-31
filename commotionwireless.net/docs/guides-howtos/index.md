@@ -17,7 +17,8 @@ lang: en
 <p><strong>For installing and setting up Commotion for the first time:</strong></p>
 <ul class="rteindent1">
     <li>Understanding Commotion (coming soon!)</li>
-    <li><a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Install on a Ubiquiti Router</a></li>
+    <li><a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Install on a Ubiquiti AirMax Router</a></li>
+    <li><a href="/docs/cck/installing-configuring/install-unifi-router/">Install on a Ubiquiti UniFi router</a></li>
     <li><a href="/docs/cck/installing-configuring/install-tplink-router/">Install on a TP-Link Router</a></li>
     <li><a href="/docs/cck/installing-configuring/install-mikrotik-router/">Install on a MikroTik Router</a></li>
     <li><a href="/docs/cck/installing-configuring/configure-commotion/">Configure the Commotion software</a></li>
