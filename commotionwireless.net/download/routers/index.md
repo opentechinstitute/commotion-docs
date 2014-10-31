@@ -51,7 +51,7 @@ lang: en
     </tr>
   </thead>
   <tbody>
-    <tr class="file even"><td colspan="5"><strong>PicoStation M2, Bullet M2 and Bullet M5 models</strong></td>
+    <tr class="file even"><td colspan="5"><strong>PicoStation M2, Bullet M2 and M5, AirGrid M2 and M5 models</strong></td>
     </tr>
     <tr class="file odd">
 	<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
