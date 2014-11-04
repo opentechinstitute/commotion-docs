@@ -1,6 +1,6 @@
 ---
 layout: cck
-title: Install on a Ubiquiti Router
+title: Install on a Ubiquiti AirMax Router
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Install_on_Ubiquiti_Router.pdf
