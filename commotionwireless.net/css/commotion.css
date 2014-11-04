@@ -429,7 +429,7 @@ div#download-button-block .download-button a.button {
 }
 /* Files Download Table */
 .contentcontainer table.files {
-    width: 960px;
+    width: 600px;
     border: 1px #ccc solid;
 }
 .contentcontainer table.files thead th {
