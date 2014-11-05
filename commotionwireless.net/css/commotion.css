@@ -430,27 +430,33 @@ div#download-button-block .download-button a.button {
 /* Files Download Table */
 .contentcontainer table.files {
     width: 600px;
-    border: 1px #ccc solid;
+    border: 1px #CCCCCC solid;
 }
-.contentcontainer table.files thead th {
-  background: #F7F7F7;
-}
-.contentcontainer table.files tr.even, .contentcontainer table.files tr.odd {
-    background-color: #EEEEEE;
+.contentcontainer table.files thead {
+    background: #F7F7F7;
     border-bottom: 1px solid #CCCCCC;
-/*     padding: 0.1em 0.6em; */
+}
+.contentcontainer table.files tr.even {
+    background-color: #F1F5FA;
+    border-bottom: 1px solid #CCCCCC;
+}
+.contentcontainer table.files tr.odd {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
 }
 .contentcontainer table.files td {
     text-align: left;
     padding: .5em 5px;
     word-wrap: break-word;
 }
-.contentcontainer table.files tr.even td{
+/*
+.contentcontainer table.files tr.even td {
    background: #F1F5FA;
 }
 .contentcontainer table.files tr.odd td {
-  background: #fff;
+  background: #FFFFFF;
 }
+*/
 
 .contentcontainer table.files .signature {
     background: url("/images/seal.png") no-repeat scroll right center rgba(0, 0, 0, 0);

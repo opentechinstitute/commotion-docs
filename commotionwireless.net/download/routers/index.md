@@ -51,7 +51,8 @@ lang: en
     </tr>
   </thead>
   <tbody>
-    <tr class="file even"><td colspan="5"><strong>PicoStation M2, Bullet M2 and M5, AirGrid M2 and M5 models</strong></td>
+    <tr class="file even">
+	<td colspan="4"><strong>PicoStation M2, Bullet M2 and M5, AirGrid M2 and M5 models</strong></td>
     </tr>
     <tr class="file odd">
 	<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -65,7 +66,8 @@ lang: en
 	<td>d73edd5c9b6606f029a50d5a8cf57edb</td>
 	<td>5.1 MB</td>
     </tr>
-    <tr class="file even"><td colspan="5"><strong>NanoStation M2 and M5, NanoBridge M2 and M5 models</strong></td>
+    <tr class="file even">
+	<td colspan="4"><strong>NanoStation M2 and M5, NanoBridge M2 and M5 models</strong></td>
     </tr>
     <tr class="file odd">
 	<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -79,7 +81,8 @@ lang: en
 	<td>96b8b4f96670fa4449a9ec30fefa0f90</td>
 	<td>5.1 MB</td>
     </tr>
-    <tr class="file even"><td colspan="5"><strong>Rocket M2 and M5 models</strong></td>
+    <tr class="file even">
+	<td colspan="4"><strong>Rocket M2 and M5 models</strong></td>
     </tr>
     <tr class="file odd">
 	<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-rocket-m-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -113,7 +116,8 @@ lang: en
     </tr>
   </thead>
   <tbody>
-    <tr class="file even"><td colspan="5"><strong>UniFi AP-Outdoor</strong></td>
+    <tr class="file even">
+	<td colspan="4"><strong>UniFi AP-Outdoor</strong></td>
     </tr>
     <tr class="file odd">
 	<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -127,7 +131,8 @@ lang: en
 	<td>5d13188412eb1b4f94bceec0e3b281ec</td>
 	<td>5.1 MB</td>
     </tr>
-    <tr class="file even"><td colspan="5"><strong>UniFi AP and AP-LR models</strong></td>
+    <tr class="file even">
+	<td colspan="4"><strong>UniFi AP and AP-LR models</strong></td>
     </tr>
     <tr class="file odd">
 	<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin" title="openwrt-ar71xx-generic-ubnt-unifi-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -161,7 +166,8 @@ lang: en
       </tr>
   </thead>
   <tbody>
-      <tr class="file even"><td colspan="5"><strong>WDR3600</strong></td>
+      <tr class="file even">
+	  <td colspan="4"><strong>WDR3600</strong></td>
       </tr>
       <tr class="file odd">
          <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-factory.bin" title="openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -175,7 +181,8 @@ lang: en
          <td>7b10c4f8ab23176064afcbe875df0001</td>
          <td>5.1 MB</td>
       </tr>
-      <tr class="file even"><td colspan="5"><strong>WDR4300</strong></td>
+      <tr class="file even">
+	  <td colspan="4"><strong>WDR4300</strong></td>
       </tr>
       <tr class="file odd">
          <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/generic/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin" title="openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin"><strong>Factory Install File</strong></a></td>
@@ -209,7 +216,8 @@ lang: en
       </tr>
   </thead>
   <tbody>
-      <tr class="file even"><td colspan="5"><strong>RB411, RB411/AH</strong></td>
+      <tr class="file even">
+	  <td colspan="4"><strong>RB411, RB411/AH</strong></td>
       </tr>
       <tr class="file odd">
          <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://downloads.commotionwireless.net/router/1.1/ar71xx/nand/openwrt-ar71xx-nand-vmlinux-initramfs.elf" title="openwrt-ar71xx-nand-vmlinux-initramfs.elf"><strong>Boot Image</strong></a></td>
