@@ -3,7 +3,7 @@ layout: cck
 title: Configure Commotion
 site_section: docs
 sub_section: [cck,cck-installing]
-pdf: cck/installing-configuring/2-Configure_Commotion.pdf
+pdf: cck/installing-configuring/CCK-Configure_Commotion.pdf
 pdf-all: true
 categories: 
 created: 2013-11-05
