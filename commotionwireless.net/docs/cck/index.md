@@ -32,7 +32,7 @@ lang: en
 <h3>Building and Mounting</h3>
 {% include cck/building-mounting-modules.html %}
 
-<h3>Networking</h3>
+<h3>Wireless and Networking</h3>
 {% include cck/networking-modules.html %}
 
 <h3>Local Applications</h3>
