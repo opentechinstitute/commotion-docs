@@ -34,3 +34,5 @@ Please include the following information to make your bug report as useful as po
   <li>Please describe what behavior you expected:</li>
   <li>Please describe what behavior you experienced that you believe is wrong:</li>
 </ul>
+
+For general discussion on using the Commotion Wireless software, join the [Commotion Discuss](https://lists.chambana.net/mailman/listinfo/commotion-discuss) mailing list. For in-depth technical discussion or questions, or for discussing the development of the software, join the [Commotion Dev](https://lists.chambana.net/mailman/listinfo/commotion-announce) mailing list.
