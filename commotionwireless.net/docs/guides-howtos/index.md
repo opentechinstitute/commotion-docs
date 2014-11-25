@@ -14,6 +14,11 @@ lang: en
 
 <p>Below are a few "quick start" documents, to get you up and running with Commotion fast. For community organizing, learning and planning activities, see the full <a href="/docs/cck">Commotion Construction Kit</a>.</p>
 
+<p><strong>For choosing routers and hardware for your network</strong></p>
+<ul>
+    <li><a href="/docs/guides-howtos/recommended-hardware/">Recommended Routers for Commotion</a></li>
+</ul>
+
 <p><strong>For installing and setting up Commotion for the first time:</strong></p>
 <ul class="rteindent1">
     <li>Understanding Commotion (coming soon!)</li>

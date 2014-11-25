@@ -12,7 +12,7 @@ lang: en
 ---
 <p><img src="/files/CCK_CommonConfigs_Intro.png"><p>
 <section>
-<h2>Installing + Configuring</h2>
+<h2>Installing and Configuring</h2>
 {% include cck/installing-configuring-modules.html %}
 </section>
  
