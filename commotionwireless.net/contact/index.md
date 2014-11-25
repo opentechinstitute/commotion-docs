@@ -16,3 +16,5 @@ Fax: 202-986-3696 <br />
 
 For questions, comments, support or other inquiries, email us:
 <code>support at commotionwireless dot net</code>
+
+For general discussion on using the Commotion Wireless software, join the [Commotion Discuss](https://lists.chambana.net/mailman/listinfo/commotion-discuss) mailing list. For in-depth technical discussion or questions, or for discussing the development of the software, join the [Commotion Dev](https://lists.chambana.net/mailman/listinfo/commotion-announce) mailing list.
