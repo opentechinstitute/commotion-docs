@@ -92,7 +92,7 @@ lang: en
 <p>United States</p>
 
 <ul>
-	<li><a href="http://www.metamesh.org/">MetaMesh - Pittsburgh, PA</a></li>
+	<li><a href="http://www.pittmesh.net/">PittMesh - Pittsburgh, PA</a></li>
 	<li><a href="http://www.milemesh.com/">MileMesh - Hoboken, NJ</a></li>
 	<li><a href="http://columbiaheightscwn.net">Columbia Heights, Washington, DC</a></li>
 	<li>Mt. Pleasant, Washington, DC</li>
