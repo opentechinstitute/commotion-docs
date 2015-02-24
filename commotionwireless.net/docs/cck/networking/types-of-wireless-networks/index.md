@@ -11,90 +11,242 @@ changed: 2015-02-23
 post_author: Andy Gunn
 lang: en
 ---
-!["Types of Wireless graphic"](/files/CCK_TypesofNetworks_Intro_graphic.png "Types of Wireless Networks")
+
+<img src="/files/CCK_TypesofNetworks_Intro_graphic.png" alt="Types of Wireless Networks" />
 
 <section id="introduction">
-## Introduction
+<h2>Introduction</h2>
 
-Community Wireless Networks can be designed in many ways. To help you understand these different methods for designing networks, this document covers the basics of what different devices do in wireless networks, and how they can be used in different configurations. Using the knowledge and activities in this document, you can work with others to design the wireless network that works best for your community.
+<p>Community Wireless Networks can be designed in many ways. To help you understand these different methods for designing networks, this document covers the basics of what different devices do in wireless networks, and how they can be used in different configurations. Using the knowledge and activities in this document, you can work with others to design the wireless network that works best for your community.</p>
 
-Reading and working through [Learn Wireless Basics](/docs/cck/networking/learn-wireless-basics/) before this document will help you with some of the concepts used in designing wireless networks. It provides some necessary background information for this document.
+<p>Reading and working through <a href="/docs/cck/networking/learn-wireless-basics">Learn Wireless Basics</a> before this document will help you with some of the concepts used in designing wireless networks. It provides some necessary background information for this document.</p>
 
-Reading through this material should take about 30 to 45 minutes. Working through the activities, or diving deeper into the subject with a group may take longer.
+<p>Reading through this material should take about 30 to 45 minutes. Working through the activities, or diving deeper into the subject with a group may take longer.</p>
 </section>
 
 <section id="wireless-device-roles">
-## Wireless Device Roles
+<h2>Wireless Device Roles</h2>
 
-There are three major “modes” a Wi-Fi device can use. These modes define the role a Wi-Fi device has in the network, and networks must be built out of combinations of devices operating in these different modes. How the devices are configured depends on the types of connections you want to use between parts of the network.
+<p>There are three major “modes” a Wi-Fi device can use. These modes define the role a Wi-Fi device has in the network, and networks must be built out of combinations of devices operating in these different modes. How the devices are configured depends on the types of connections you want to use between parts of the network.</p>
 
-In discussing these modes and the examples below, several types of devices are used. In addition to the phones, tablets, and laptops you use in accessing a network, routers make up the hardware that runs the network. These routers are defined in [Learn Networking Basics](/docs/cck/networking/learn-networking-basics/), but for the sake of this document the quick definition of a router is a network device that can connect one network to another, determine what traffic can pass between them, and perform other functions on a network, such as assigning IP addresses.
+<p>In discussing these modes and the examples below, several types of devices are used. In addition to the phones, tablets, and laptops you use in accessing a network, routers make up the hardware that runs the network. These routers are defined in <a href="/docs/cck/networking/learn-networking-basics/">Learn Networking Basics</a>, but for the sake of this document the quick definition of a router is a network device that can connect one network to another, determine what traffic can pass between them, and perform other functions on a network, such as assigning IP addresses.</p>
 
-### The three wireless roles are:
+<h4>The three wireless roles are:</h4>
 
-<img src="/files/Client_mode_icon.png" style="max-height: 25px"> **Wireless Clients (Station)**
+<p><img src="/files/Client_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="Client mode icon (C)">
+<strong>Wireless Clients (Station)</strong>
+</p>
 
+<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_Client.png" style="float:left; max-width:200px; margin:10px;" alt="Wireless clients in a network">
+Devices such as computers, tablets, and phones are common Clients on a network. When you are accessing a wireless hotspot, or the router in your home or office, your device is the client. This client mode is also known as “station mode” as well.
+<br /><br />
+Some routers can operate as Clients as well, which allows them to act like the wireless card in a computer, and connect to other Access Points. This can bridge two Ethernet networks, or connect to more distant APs.
+<br /><br />
+A Wireless Client is similar to a person in the audience of a play or movie. They are one of several or many people accessing information through the same conduit - someone speaking.
+</p>
+
+<p><img src="/files/AP_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="AP mode icon (A)">
+<strong>Access Points (Master)</strong>
+</p>
+
+<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_AP.png" style="float:left; max-width:200px; margin:10px;" alt="Access points in a network">
+Most wireless networks are made using Access Points - devices that host and control the wireless connection for laptops, tablets, or smart phones. If you use Wi-Fi in your home or office, it is most likely through an Access Point. When a router is set up as an AP, it is said to be in “Master” or “Infrastructure” mode.
+<br /><br />
+An AP is sometimes a stand-alone device that bridges between a wireless and wired (Ethernet) network, or is part of a router. APs can cover a range of areas with a wireless signal, depending on the power of the device and the type of antenna. There are also some APs that are weatherproof, designed to be mounted outdoors.
+<br /><br />
+An Access Point is similar to a person on stage, addressing an audience or crowd - they are providing the information for everyone else. Those audience members can ask questions of the person on the stage, and receive a response.
+</p>
+
+<p><img src="/files/Mesh_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="Mesh mode icon (M)">
+<strong>Ad-Hoc Node (Mesh)</strong>
+</p>
+
+<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_AdHoc.png" style="float:left; max-width:200px; margin:10px;" alt="Mesh nodes in a network">
+Some wireless devices (laptops, smart phones, or wireless routers) support a mode called Ad-Hoc. This allows those devices to connect together directly, without an Access Point in-between controlling the connection. This forms a different type of network - in Ad-Hoc mode, all devices are responsible for sending and receiving messages to the other devices - without anything else in between. In an Ad-Hoc network, every device must be in this role, and using the same configuration to participate. Not all devices use this mode, and some have it as a “hidden” feature.
+<br /><br />
+Ad-Hoc devices are used to create a Mesh network, so when they are in this mode, they are called “Mesh Nodes”.
+<br /><br />
+An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable discussion. They can take equal part in the conversation, raising their hand when they want to speak so the others will listen. If someone at the end of the table cannot hear, one of the individuals in-between can repeat the original message for the listener.
+</p>
+
+<p><strong>Quick Activity:</strong> Describe the differences in the two example networks below. What are the roles and relationships between the different colored nodes in the networks?</p>
+
+<table style="background-color:lightblue; border:1px solid black;">
+	<tr>
+		<td style="text-align: center;"><strong>Example 1</strong><br />
+		<img src="/files/CCK_TypesofNetworks_AdHoc_example.png" style="max-width:200px;" alt="Mesh network" />
+		</td>
+		<td style="text-align: center;"><strong>Example 2</strong><br />
+		<img src="/files/CCK_TypesofNetworks_AP_example.png" style="max-width:250px;" alt="AP network" />
+		</td>
+	</tr>
+	<tr>
+		<td>Role of the Pink Nodes:
+		<br /><br /> __________________________________
+		<br /><br />
+		Relationship between nodes:
+		<br /><br /> __________________________________
+		</td>
+		<td>
+		Role of the Yellow nodes:
+		<br /><br /> __________________________________
+		<br /><br /> 
+		Role of the Blue nodes:
+		<br /><br /> __________________________________
+		<br /><br />
+		Relationship between nodes:
+		<br /><br /> __________________________________
+		</td>
+	</tr>
+</table>
+
+<p>The two networks above are Ad-Hoc and Infrastructure (Access Point) networks. Are there places or times in a social situation where you are in an Access Point or Client situation? Are there places or times when you are in an Ad-Hoc situation?</p>
 </section>
 
-<section id="what-are-the-wireless-challenges">
-<h2>What are the Wireless Challenges?</h2>
+<section id="what-connects-to-what">
+<h2>What connects to what?</h2>
 
-<p>Each scenario presents a specific challenge or problem that comes up when working with wireless equipment. They are categorized as:</p>
+<p>From the roles above, you can see that Clients always need to connect to an Access Point, and Mesh nodes all connect to each other. It should also be noted that due to how Wi-Fi is designed, this also prevents different roles from connecting to each other as well.</p>
 
-<p><strong>Distance</strong>—Wireless signals lose power the further they travel, no matter the type of antenna.<br />
-<img alt="" class="media-image" height="288" src="/files/styles/large/public/CCK_Wireless_Challenges_distance.png" width="510" /></p>
+<p>Access Points cannot connect to each other wirelessly:</p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoAP.png" alt="AP to AP won't connect" /></p>
 
-<p><strong>Line of Sight</strong>—Wireless signals can encounter total barriers, preventing connections.<br />
-<img alt="" class="media-image" height="241" src="/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png" width="510" /></p>
+<p>Clients cannot connect to each other wirelessly:</p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoClient.png" alt="Client to client won't connect" /></p>
 
-<p><strong>Barriers</strong>—Wireless signals lose signal strength through solid objects.<br />
-<img alt="" class="media-image" height="266" src="/files/styles/large/public/CCK_Wireless_Challenges_barriers.png" width="510" /></p>
+<p>Clients cannot connect to Ad-Hoc (Mesh) devices wirelessly:</p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoMesh.png" alt="Client to Mesh won't connect" /></p>
 
-<p><strong>Interference</strong>—Routers can be too loud, making it impossible for them to hear each other.<br />
-<img alt="" class="media-image" height="237" src="/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png" width="510" /></p>
-
-<p><strong>Weather</strong>—Weather conditions can disrupt wireless signals.<br />
-<img alt="" class="media-image" height="471" src="/files/styles/large/public/CCK_Wireless_Challenges_weather.png" width="510" /></p>
-
-<p><strong>Electrical power issues</strong>—Routers need steady electricity to work correctly.<br />
-<img alt="" class="media-image" height="330" src="/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png" width="510" /></p>
+<p>Access Points cannot connect to Ad-Hoc (Mesh) devices wirelessly:</p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoMesh.png" alt="AP to Mesh won't connect" /></p>
 </section>
 
-<section id="going-through-the-wireless-challenges">
-<h2>Going through the Wireless Challenges</h2>
+<section id="wireless-devices-in-networks">
+<h2>Wireless devices in networks</h2>
 
-<p>The Wireless Challenge Problem and Solution sets can be studied at your own pace, if you are going through them on your own. Download the PDF of <a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Problems and Solutions</a>, then go through each scenario one by one. Draw the solution to the problem presented in each case, and then compare your solution to the examples on the pages following. No cheating!</p>
+<p>Treat the three types of roles above - Clients, Access Points, and Ad-Hoc nodes - as the building blocks for large networks. Below are several examples that demonstrate how devices configured for different roles can be used.</p>
 
-<p>If you are working as a group, we suggest this activity:</p>
+<h3>Access Point - Home or Office network</h3>
+<p>Wireless networks used in your home or office are generally a combination of a router and a wireless Access Point (AP).</p>
 
+<p><img src="/files/CCK_TypesofNetworks_Devices_AP_network.png" alt="Small access point network" /></p>
+<p>In the diagram above:</p>
 <ul>
-	<li>Print out just the "Problem" pages, or set aside the "Solution" pages for later.</li>
-	<li>Break in to small groups or pairs, or work individually.</li>
-	<li>The small groups draw solutions on each flashcard, and save them until everyone is finished.</li>
-	<li>The groups then compare the solutions with each other, and finally with the example solutions provided.</li>
+    <li><strong>1</strong> represents the connection to the Internet (Optional - networks can function without the Internet).</li>
+    <li><strong>2</strong> represents the router that assigns IP addresses and provides a firewall between your network and the Internet.</li>
+    <li><strong>A</strong> represents the Access Point, providing a wireless bridge between the router and the users’ devices.</li>
+    <li><strong>C</strong> represent user devices, such as laptops, tablets, and smartphones.</li>
 </ul>
 
-<p>Keep in mind, there are many possible solutions to the Wireless Challenges presented here. The examples shown are just one or two options. If you think of new solutions, or think we have made a mistake somewhere, please let us know! Get in touch using the <a href="https://commotionwireless.net/contact">feedback form</a>.</p>
+<p>In many home networks, or small office networks, the router and AP may be combined into a single device. This is usually just called a wireless router. It may also have a DSL, Cable, 3G, or 4G port to provide the connection to the Internet. In large office scenarios, there may be several AP devices spread throughout the building to provide more even wireless coverage, connected back to the router through long Ethernet cables.</p>
+
+<h3>Point to Point link - Long Distance Connections</h3>
+<p>Wireless networks can be used to connect distant buildings or areas. It usually requires very focused antennas - such as a dish antenna - that can send a narrow beam in a specific direction. This is discussed in <a href="/docs/cck/networking/learn-wireless-basics/">Learn Wireless Basics</a> - so go there for more details on how that works.</p>
+
+<p>A long-distance connection is often called a “point-to-point”, or “PtP” link. The name describes the concept: two points are connected together, and nothing else. This requires two wireless devices: one configured as an Access Point; the other configured as a Client. In the example below, two wireless devices are configured to create a point-to-point link.</p>
+
+<h4>Omnidirectional Access Point and Client Link</h4>
+<p><img src="/files/CCK_TypesofNetworks_PtP_example1.png" alt="Short distance point-to-point network" /></p>
+
+<ul>
+    <li><strong>A</strong> represents the wireless device setup as an Access Point.</li>
+    <li><strong>C</strong> represents the wireless device setup as a Client, connected to the Access Point.</li>
+    <li><strong>1</strong> represents computers connected with Ethernet cables to the wireless devices. These computers are connected to each other over the Point-to-Point link.</li>
+</ul>
+
+<p>This could look like the building-to-building connection, as shown below:</p>
+<p><img src="/files/CCK_TypesofNetworks_PtP_example1_building.png" alt="Short distance point-to-point network between buildings" /></p>
+
+<p>&nbsp;</p>
+<h4>Long-distance directional Access Point and Client Link</h4>
+
+<p>Here we have another example of a point-to-point link, but where the routers have dish antennas for greater link distance.</p>
+
+<p><img src="/files/CCK_TypesofNetworks_PtP_example2.png" alt="Long distance point-to-point network" /></p>
+
+<p>In the diagram above:</p>
+<ul>
+    <li><strong>A</strong> represents the wireless device setup as an Access Point.</li>
+    <li><strong>C</strong> represents the wireless device setup as a Client, connected to the Access Point.</li>
+    <li><strong>1</strong> represents dish antennas that focus the wireless signal, allowing connections over long distances.</li>
+    <li><strong>2</strong> represents computers connected with Ethernet cables to the wireless devices. These computers are connected to each other over the Point-to-Point link.</li>
+</ul>
+
+<p>This could look like the network below, where an AP mounted on a tower is able to connect with a Client device in a home very far away, since the dishes are facing one another.</p>
+<p><img src="/files/CCK_TypesofNetworks_PtP_example2_building.png" alt="Long distance point-to-point network between buildings" /></p>
+
+<p>In both of these examples, there are just two wireless devices linked together - and the antennas determine the range at which they can connect. The more focused the signal, the further the point-to-point link can reach. As the distance between the devices grow, it is more an more important to focus the signal with antennas - at both ends of the connection. Otherwise one end may hear the other, but not be loud enough to be heard!</p>
+
+<p>&nbsp;</p>
+
+<h3>Point to MultiPoint - Wireless Internet Service Provider model</h3>
+
+<p>If we combine the two principles used in the networks above - many client devices connecting to an Access Point, and more powerful antennas used for outdoor devices to create longer links - we can create Point to Multipoint networks. These are larger-scale Access Point networks, where there is a single device in the “center”, controlling all of the Clients connected to it and bridging those connections to the Internet.</p>
+
+<p>These types of networks are used by Wireless Internet Service Providers (WISPs) to connect homes and businesses to the Internet. Instead of running cables around a neighborhood or town, they put up one or more powerful Access Points on a tall building or tower. By installing directional wireless devices in a Client role on other rooftops, and pointing them back at the tall building or tower, those buildings can be connected to the WISP’s networks, and thereby the Internet.</p>
+
+<p>The diagram below demonstrates one model for how this works. There is a powerful Access Point mounted on a high building, and several nearby buildings with rooftop wireless Client devices: this forms the Point-to-Multipoint network. Connected to each of the Client devices is an indoor router or Access Point, which allows users to connect their computers, laptops, tablets, or smartphones to the WISP network.</p>
+
+<p><img src="/files/CCK_TypesofNetworks_PtMP_example.png" alt="Point to MultiPoint network between buildings" /></p>
+
+<p>In the diagram above:</p>
+
+<ul>
+    <li><strong>1</strong> represents the connection to the Internet.</li>
+    <li><strong>A</strong> represents an Access Point providing the signal for Client devices to connect to.</li>
+    <li><strong>2</strong> represents a powerful omnidirectional (all directions) antenna, sending the wireless signal to a large area around the building.</li>
+    <li><strong>C</strong> represent Client wireless devices on the roof of other buildings, linking to the powerful Access Point, and able to connect to the Internet through that AP.</li>
+    <li><strong>3</strong> represents small Access Points distributing wireless service inside the building.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3>Mesh - Neighbor-to-neighbor Networks</h3>
+
+<p>A mesh network takes the principle of Point-to-Multipoint, and extends it to the idea of every node connecting to every other node in range. In effect, this creates a “Multipoint-to-Multipoint” network. This requires that all the devices are in the Ad-Hoc mode - wireless devices all in AP mode or Client mode can’t perform the same function. For more information on how this principle works, see the <a href="/docs/cck/networking/intro-to-mesh/">Introduction to Mesh</a> document.</p>
+
+<p>The diagram below demonstrates one model for how this works. Wireless mesh nodes are installed on the rooftops of various buildings, and those nodes that are in range and don’t have anything blocking the signals will connect. These nodes will share all resources connected to them such as local servers hosting applications and connections to the Internet. They can also be connected to computers, Access Points, or routers inside the buildings so users can access the resources anywhere on the network.</p>
+
+<p><img src="/files/CCK_TypesofNetworks_Mesh_example.png" alt="Mesh network between buildings" /></p>
+
+<p>In the diagram above:</p>
+
+<ul>
+    <li><strong>A</strong> represents the connection to the Internet.</li>
+    <li><strong>B</strong> represents a Mesh Node with a connection to the Internet, with an omnidirectional (all directions) antenna.</li>
+    <li><strong>C</strong> represents Mesh Nodes with omnidirectional (all directions) antennas. These nodes are receiving Internet access from Mesh Node <strong>B</strong>. They may be connected to different devices inside the building.</li>
+    <li><strong>D</strong> represents small Access Points distributing wireless service inside the building.</li>
+</ul>
+
+<h3>Hybrid Networks</h3>
+
+<p>When designing and building town or community-sized networks, it may be difficult or impossible to use a single method to connect everyone. For instance, a single Point-to-Multipoint network may not cover an entire community. Mesh nodes can be used to extend client sites to nearby buildings. Point-to-point connections can bridge longer distances and join several disconnected networks together.</p>
+
+<p>In the diagram below, we can see an example of a hybrid network. There is no single example that can cover all of the possible uses for a network! In the activity that follows, you will explore the different ways to build a network by working through scenarios.</p>
+
+<p><img src="/files/CCK_TypesofNetworks_Hybrid_example.png" alt="Hybrid network between buildings" /></p>
+
+<p>One last note before we move on to the activity - in the examples above, and in the activity that follows, the diagrams focus on building networks across rooftops or from building to building. This is generally the best way to build networks that cover neighborhoods, towns, or communities. In the diagrams, the way people connect to this network isn’t always shown.</p>
+
+<p>Keep in mind that these rooftop routers may not provide connections to users on the ground, or in buildings. A good way to provide these connections is by attaching Access Points to an Ethernet port on the rooftop router. This indoor Access Point can be set up to use the rooftop network as the source of connections to the Internet, or to provide access to applications and servers on the network. A detailed look at this is below:</p>
+
+<p><img src="/files/CCK_TypesofNetworks_Indoor_APs.png" alt="Always use indoor Access Points" style="max-width: 300px;" /></p>
+
+<p>In the diagram:</p>
+
+<ul>
+    <li><strong>A</strong> represents the rooftop wireless device. It could be a Mesh Node, or Client router.</li>
+    <li><strong>B</strong> represents the Ethernet cable running out to the rooftop from the Power over Ethernet adapter.</li>
+    <li><strong>C</strong> represents a Power over Ethernet (PoE) adapter - a common way to power outdoor wireless devices.</li>
+    <li><strong>D</strong> represents an Access Point, connected to the neighborhood or community network through the rooftop router.</li>
+</ul>
+
 </section>
 
-<section id="rules-for-solving-the-challenges">
-<h2>Rules for Solving the Challenges</h2>
+<section id="group-activity">
+<h2>Group Activity</h2>
 
-<p>When you go through the Wireless Challenges, there are a few guidelines for how to read the connections between nodes, and how to draw your own.</p>
 
-<p><strong>Wireless link quality</strong>—Solid or dashed lines show the strength of the link between two nodes. A solid green line is best; a dashed yellow line is okay; and a dotted pink or red line is a bad or broken link.<br />
-<img alt="" class="media-image" height="249" src="/files/CCK_Wireless_Challenges_signal_quality_rules.png" width="510" /></p>
-
-<p><strong>Wireless signal strength</strong>—Routers have different speaking and listening powers.</p>
-
-<p><img alt="" class="media-image" height="295" src="/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2.png" width="480" /><br />
-&nbsp;</p>
-
-<p><strong>Appropriate power levels</strong>—Due to the different speaking and listening powers, choose routers carefully. It is important to use the lowest power router that creates a good link. Using routers that have too much speaking power can cause interference.<br />
-<img alt="" class="media-image" height="468" src="/files/CCK_Wireless_Challenges_power_levels_rules.png" width="510" /></p>
-
-<p><strong>Links over long distance</strong>—Some links will need routers that have more power to reach further.<br />
-<img alt="" class="media-image" height="242" src="/files/CCK_Wireless_Challenges_distance_rules.png" width="510" /></p>
 </section>
 
 <section id="section-definitions">
