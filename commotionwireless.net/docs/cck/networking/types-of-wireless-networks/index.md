@@ -4,7 +4,7 @@ title: Types of Wireless Networks
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/CCK-Types_of_Wireless_Networks.pdf
-pdf-all: true
+pdf-all: false
 categories: 
 created: 2015-02-23
 changed: 2015-02-23
@@ -45,6 +45,8 @@ Some routers can operate as Clients as well, which allows them to act like the w
 A Wireless Client is similar to a person in the audience of a play or movie. They are one of several or many people accessing information through the same conduit - someone speaking.
 </p>
 
+<p>&nbsp;</p>
+
 <p><img src="/files/AP_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="AP mode icon (A)">
 <strong>Access Points (Master)</strong>
 </p>
@@ -57,6 +59,8 @@ An AP is sometimes a stand-alone device that bridges between a wireless and wire
 An Access Point is similar to a person on stage, addressing an audience or crowd - they are providing the information for everyone else. Those audience members can ask questions of the person on the stage, and receive a response.
 </p>
 
+<p>&nbsp;</p>
+
 <p><img src="/files/Mesh_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="Mesh mode icon (M)">
 <strong>Ad-Hoc Node (Mesh)</strong>
 </p>
@@ -68,6 +72,8 @@ Ad-Hoc devices are used to create a Mesh network, so when they are in this mode,
 <br /><br />
 An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable discussion. They can take equal part in the conversation, raising their hand when they want to speak so the others will listen. If someone at the end of the table cannot hear, one of the individuals in-between can repeat the original message for the listener.
 </p>
+
+<p>&nbsp;</p>
 
 <p><strong>Quick Activity:</strong> Describe the differences in the two example networks below. What are the roles and relationships between the different colored nodes in the networks?</p>
 
@@ -109,17 +115,18 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p>From the roles above, you can see that Clients always need to connect to an Access Point, and Mesh nodes all connect to each other. It should also be noted that due to how Wi-Fi is designed, this also prevents different roles from connecting to each other as well.</p>
 
 <p>Access Points cannot connect to each other wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoAP.png" alt="AP to AP won't connect" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoAP.png" alt="AP to AP won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>Clients cannot connect to each other wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoClient.png" alt="Client to client won't connect" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoClient.png" alt="Client to client won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>Clients cannot connect to Ad-Hoc (Mesh) devices wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoMesh.png" alt="Client to Mesh won't connect" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoMesh.png" alt="Client to Mesh won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>Access Points cannot connect to Ad-Hoc (Mesh) devices wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoMesh.png" alt="AP to Mesh won't connect" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoMesh.png" alt="AP to Mesh won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 </section>
+
 
 <section id="wireless-devices-in-networks">
 <h2>Wireless devices in networks</h2>
@@ -175,6 +182,8 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p>This could look like the network below, where an AP mounted on a tower is able to connect with a Client device in a home very far away, since the dishes are facing one another.</p>
 <p><img src="/files/CCK_TypesofNetworks_PtP_example2_building.png" alt="Long distance point-to-point network between buildings" /></p>
 
+<p>&nbsp;</p>
+
 <p>In both of these examples, there are just two wireless devices linked together - and the antennas determine the range at which they can connect. The more focused the signal, the further the point-to-point link can reach. As the distance between the devices grow, it is more an more important to focus the signal with antennas - at both ends of the connection. Otherwise one end may hear the other, but not be loud enough to be heard!</p>
 
 <p>&nbsp;</p>
@@ -218,6 +227,8 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
     <li><strong>D</strong> represents small Access Points distributing wireless service inside the building.</li>
 </ul>
 
+<p>&nbsp;</p>
+
 <h3>Hybrid Networks</h3>
 
 <p>When designing and building town or community-sized networks, it may be difficult or impossible to use a single method to connect everyone. For instance, a single Point-to-Multipoint network may not cover an entire community. Mesh nodes can be used to extend client sites to nearby buildings. Point-to-point connections can bridge longer distances and join several disconnected networks together.</p>
@@ -230,7 +241,7 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 
 <p>Keep in mind that these rooftop routers may not provide connections to users on the ground, or in buildings. A good way to provide these connections is by attaching Access Points to an Ethernet port on the rooftop router. This indoor Access Point can be set up to use the rooftop network as the source of connections to the Internet, or to provide access to applications and servers on the network. A detailed look at this is below:</p>
 
-<p><img src="/files/CCK_TypesofNetworks_Indoor_APs.png" alt="Always use indoor Access Points" style="max-width: 300px;" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Indoor_APs.png" alt="Always use indoor Access Points" style="max-width: 300px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>In the diagram:</p>
 
@@ -246,6 +257,55 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <section id="group-activity">
 <h2>Group Activity</h2>
 
+<p>Since there are so many ways to build wireless networks to cover your town or community, we recommend working through these pen-and-paper activities. Download the <a href="/files/cck/networking/CCK-Types_of_Wireless_Networks-Worksheets.pdf">network worksheets</a> and <a href="/files/cck/networking/CCK-Types_of_Wireless_Networks-Worksheet-Solutions.pdf">example solutions</a> and try your hand at designing wireless networks.</p>
+
+<p><img src="/files/CCK_TypesofNetworks_Worksheet_pages.png" alt="Worksheet downloads icon" /></p>
+
+<ul>
+    <li>If you are working through the activity on your own, try printing out the worksheets first and draw in a possible solution to each of the scenarios. You can then review the example solutions and see how your networks compare with some others.</li>
+    <li>We recommend you work through this activity with a group of your community members, especially when planning and designing a network. First print out a few sets of the network worksheets, and break into groups of two or three people (depending on how many people are gathered). Draw solutions to each scenario, then meet back up and compare all of your solutions to the scenarios. You can also look through the example solutions and compare them to what your groups came up with. Discuss what solutions might be best for your community.</li>
+</ul>
+
+<p>There are a few basic rules to follow when working through the activity.</p>
+
+<p><strong>1.</strong> There are three types of routers you will use:
+
+<ol type="a">
+    <li><strong>Omnidirectional.</strong> These can send and receive wireless signals in every direction.</li>
+    <img src="/files/CCK_TypesofNetworks_Activity_omni_router.png" alt="Omnidirectional router" style="max-width: 150px; display: block; margin-left: auto; margin-right: auto;" /><br />
+    <li><strong>Sector.</strong> These send and receive wireless signals in a limited arc. Limit the connections these routers make to a wedge-shaped area.</li>
+    <img src="/files/CCK_TypesofNetworks_Activity_sector_router.png" alt="Sector router" style="max-width: 200px; display: block; margin-left: auto; margin-right: auto;" /><br />
+    <li><strong>Focused.</strong> These send and receive wireless signals in a narrow beam. Limit the connections to a single thin line.</li>
+    <img src="/files/CCK_TypesofNetworks_Activity_focused_router.png" alt="Focused router" style="max-width: 250px; display: block; margin-left: auto; margin-right: auto;" />
+</ol>
+
+<p>&nbsp;</p>
+
+<p><strong>2.</strong> You have a limited amount of equipment available for each network. Each worksheet has icons of the types and number of pieces of equipment. The example below provides three omnidirectional, one sector, and one focused router:</p>
+<p><img src="/files/CCK_TypesofNetworks_Activity_equipment.png" alt="Activity rule - equipment" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>&nbsp;</p>
+
+<p><strong>3.</strong> You can “configure” the wireless equipment in your network to serve any of the wireless roles - AP, client, or ad-hoc node (mesh). The equipment can be any combination of roles, they don’t have to all be the same role. Label each router with an “A”, “C”, or “M” depending on the role.</p>
+<p><img src="/files/CCK_TypesofNetworks_Activity_configurations.png" alt="Activity rule - configurations" /></p>
+<p>&nbsp;</p>
+
+<p><strong>4.</strong> You can assume that all of the wireless equipment in the examples are within range of each other - the signals will reach.</p>
+<p><img src="/files/CCK_TypesofNetworks_Activity_distance.png" alt="Activity rule - distance" /></p>
+<p>&nbsp;</p>
+
+<p><strong>5.</strong> Remember that Clients can only connect to Access Points. APs cannot connect to each other wirelessly, Clients cannot connect to each other wirelessly, and Mesh nodes cannot connect to APs or Clients wirelessly.</p>
+<p><img src="/files/CCK_TypesofNetworks_Activity_connections.png" alt="Activity rule - connections" /></p>
+<p>&nbsp;</p>
+
+<p><strong>6.</strong> Many Clients can connect to a single Access Point. Ad-hoc (mesh) devices can have connections to multiple other mesh devices at once.
+<p><img src="/files/CCK_TypesofNetworks_Activity_multiple-connect.png" alt="Activity rule - multiple connections" /></p>
+<p>&nbsp;</p>
+
+<p><strong>7.</strong> If you want to connect different combinations of devices together, you can “wire” them together, as if you plugged an Ethernet cable in between the devices. This way devices that normally cannot connect wirelessly can still be networked. For example, an Access Point or Client can be connected to a Mesh node with an Ethernet cable.</p>
+<p><img src="/files/CCK_TypesofNetworks_Activity_Ethernet.png" alt="Activity rule - using Ethernet" style="max-width: 420px; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>&nbsp;</p>
+
+<p>Now download and print out the <a href="/files/cck/networking/CCK-Types_of_Wireless_Networks-Worksheets.pdf"> worksheets</a> and <a href="/files/cck/networking/CCK-Types_of_Wireless_Networks-Worksheet-Solutions.pdf">example solutions</a>, and try out some designs!</p>
 
 </section>
 
@@ -253,13 +313,28 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <h2>Definitions</h2>
 
 <dl>
-	<dt>Interference</dt>
-	<dd>Anything which changes or disrupts a signal as it travels along a channel between a source and a receiver. In the case of wireless, this typically refers to other signals or noise that the router needs to filter out when listening for other signals.</dd>
+    <dt>Ad-hoc Network / Device Network</dt>
+    <dd>On some devices (e.g. laptops) some available network connections are shown as computer to computer networks. These are networks that may be ad-hoc mesh networks or point to point links between computers for small file sharing. The term “ad-hoc” can also refer to unplanned, decentralized network connections.</dd>
+
+    <dt>Antenna</dt>
+    <dd>Converts electrical signals to radio waves. It is normally connected to a radio transmitter or radio receiver, and is the interface between the electrical signals in the radio, and the movement of the signals through the air.</dd>
+
+    <dt>AP (Access Point)</dt>
+    <dd>A device that allows wireless devices to connect to a wired network using Wi-Fi or related standards Client Device : The device with a wifi radio that you use to connect to a wireless access point, e.g. a computer, cell phone or tablet device.</dd>
+
+    <dt>Ethernet</dt>
+    <dd>A type of networking protocol - it defines the types of cables and connections that are used to wire computers, switches, and routers together. Most often Ethernet cabling is Category 5 or 6, made up of twisted pair wiring similar to phone cables.</dd>
+
+    <dt>PoE (Power over Ethernet)</dt>
+    <dd>describes systems which pass electrical power along with data on Ethernet cabling.</dd>
+
+    <dt>Node</dt>
+    <dd>An individual device in a mesh network.</dd>
 </dl>
 </section>
 
 <section class="related-information" id="section-related-information">
 <h2>Related Information</h2>
 
-<p>This module is intended to come immediately after <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Design your Network: Every Network Tells a Story</a>. It should also lead in to <u>Learn About Wireless</u>. The sequence is designed to take communities or individuals from planning a network, through learning about common problems, to specifics about how wireless signals and equipment work.</p>
+<p>This document is intended to be used after you have worked through <a href="/docs/cck/planning/design-your-network-every-network-tells-story/">Every Network Tells a Story</a>, and <a href="/docs/cck/networking/learn-wireless-basics/">Learn Wireless Basics</a>. It is a partner document to <a href="/docs/cck/networking/wireless-challenges/">Wireless Challenges</a>, and can be done before or after that activity.</p>
 </section>
