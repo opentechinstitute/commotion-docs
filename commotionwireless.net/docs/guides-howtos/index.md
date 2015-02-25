@@ -38,6 +38,7 @@ lang: en
 <p><strong>Guides to using local applications on your network:</strong></p>
 <ul class="rteindent1">
     <li><a href="/docs/guides-howtos/local-applications/">Local Applications in Commotion</a></li>
+    <li><a href="/docs/guides-howtos/local-applications/hostnames.html">Hostnames for Local Application Servers</a></li>
 </ul>
 
 <p><strong>For installing your Commotion nodes permanently on rooftops or in buildings:</strong></p>
