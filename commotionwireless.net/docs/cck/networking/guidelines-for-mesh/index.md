@@ -203,3 +203,24 @@ Creating clusters of mesh networks on separate channels can reduce the number of
 
 With certain wireless channels in different parts of the community, the network becomes more complicated and less dynamic. This requires more planning, and can make things more difficult to set up or fix as the network grows.
 
+
+## Definitions
+
+**AP (Access Point):** device that allows wireless devices to connect to a wired network using Wi-Fi or related standards.
+
+**Ad-hoc Network / Device Network:** On some devices (e.g. laptops) some available network connections are shown as computer to computer networks. These are networks that may be ad-hoc mesh networks or point to point links between computers for small file sharing. The term “ad-hoc” can also refer to unplanned, decentralized network connections.
+
+**Antenna:** Converts electrical signals to radio waves. It is normally connected to a radio transmitter or radio receiver, and is the interface between the electrical signals in the radio, and the movement of the signals through the air.
+
+**Client Device:** The device with a wifi radio that you use to connect to a wireless access point, e.g. a computer, cell phone or tablet device.
+
+**Ethernet:** A type of networking protocol - it defines the types of cables and connections that are used to wire computers, switches, and routers together. Most often Ethernet cabling is Category 5 or 6, made up of twisted pair wiring similar to phone cables.
+
+**Node:** An individual device in a mesh network.
+
+**Router:** A device that determines how messages move through a computer network.
+
+
+## Related Information
+
+This document is designed to accompany [Types of Wireless Networks](/docs/cck/networking/types-of-wireless-networks) and [Wireless Challenges](/docs/cck/networking/wireless-challenges). Use it a set of basic rules for setting up your network, or troubleshooting problems. Remember that not all guidelines will apply to your network - but as it grows and expands, it may be necessary to change things around!
