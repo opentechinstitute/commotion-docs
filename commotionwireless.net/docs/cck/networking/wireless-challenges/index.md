@@ -7,8 +7,8 @@ pdf: cck/networking/Wireless_Challenges.pdf
 pdf-all: false
 categories: 
 created: 2013-11-04
-changed: 2014-08-04
-post_author: critzo
+changed: 2014-04-15
+post_author: Andy Gunn
 lang: en
 ---
 ![Wireless Challenges intro graphic](/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png "Intro graphic")

@@ -4,11 +4,11 @@ title: Conception de réseaux - les défis inhérents aux réseaux sans fil
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/Defis_sans_fil.pdf
-pdf-all: true
+pdf-all: false
 categories: fr
 created: 2013-11-04
-changed: 2013-11-27
-post_author: critzo
+changed: 2015-04-15
+post_author: Andy Gunn
 lang: fr
 ---
 <p><img alt="Wireless Challenges graphic" src="/files/CCK_Wireless_Challenges_intro_graphic.png" /></p>
