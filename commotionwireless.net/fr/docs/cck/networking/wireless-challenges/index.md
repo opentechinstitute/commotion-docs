@@ -3,12 +3,12 @@ layout: cck
 title: Conception de réseaux - les défis inhérents aux réseaux sans fil
 site_section: docs
 sub_section: [cck,cck-networking]
-pdf: cck/networking/CCK-Defis_sans_fil.pdf
-pdf-all: true
+pdf: cck/networking/Defis_sans_fil.pdf
+pdf-all: false
 categories: fr
 created: 2013-11-04
-changed: 2013-11-27
-post_author: critzo
+changed: 2015-04-15
+post_author: Andy Gunn
 lang: fr
 ---
 <p><img alt="Wireless Challenges graphic" src="/files/CCK_Wireless_Challenges_intro_graphic.png" /></p>
@@ -25,9 +25,11 @@ lang: fr
 <section id="materials-and-supplies-needed">
 <h4>MATERIEL + FOURNITURE REQUISE</h4>
 
-<p><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png"></a></p>
 
-<p><a href="/files/cck/networking/Problemes_et_solutions.pdf">Supports visuels : problèmes et solutions</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Problemes_et_solutions.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Scenarios_des_Problemes.pdf">Supports visuels : Scénario problème Feuilles</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Scenarios_des_Problemes.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
+
+<p><a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf">Supports visuels : Exemple solutions aux scénarios Problème</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
 
 <p>(Facultatif) Les schémas de routage contenus dans le module <a href="/fr/docs/cck/planning/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>.</p>
 
@@ -48,7 +50,7 @@ lang: fr
 <p><strong>2. Comme polycopes auxquels vous vous référerez pendant votre travail.</strong> Dans ce cas, vous aurez à imprimer plusieurs exemplaires de la liste des problèmes  (en laissant, momentanément, les solutions de côté). Distribuez les supports visuels contenant la liste des problèmes et penchez-vous sur chaque problème, individuellement, en groupe, en plusieurs petits groupes ou par paires. Comparez les solutions proposées, d'abord, les unes avec les autres, puis à celles proposées dans l'exemple.  </p>
 </div>
 
-<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas. </p>
+<p>Si vous traitez les difficultés inhérentes aux réseaux sans fil en groupe, vous pouvez vous servir de la <a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf">présentation</a> afin d'introduire le concept et enchaîner avec les règles, explicitées plus bas. </p>
 </section>
 <section id="what-are-the-wireless-challenges">
 <h3>Quels sont les défis auxquels sont confrontés les réseaux sans fil ?</h3>
@@ -70,7 +72,7 @@ lang: fr
 <section id="going-through-the-wireless-challenges">
 <h3>Les défis auxquels sont confrontés les réseaux sans fil</h3>
 
-<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="/files/cck/networking/Problemes_et_solutions.pdf">Problèmes et Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie ! </p>
+<p>Si vous vous y prenez seul pour traiter les problèmes inhérents aux réseaux sans fil, vous pouvez procéder à votre propre rythme. Téléchargez la version PDF de : <a href="/files/cck/networking/Scenarios_des_Problemes.pdf">Problèmes</a> et <a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf">Exemple Solutions</a> et parcourez les scénarios, un à un. Rédigez les solutions aux problèmes soulevés par les scénarios et comparez-les aux exemples proposés dans les pages suivantes. Surtout pas de tricherie ! </p>
 
 <p>Si vous travaillez en groupe, nous vous suggérons de suivre les tâches suivantes :  </p>
 
@@ -80,14 +82,14 @@ lang: fr
 	<li>Le sous-groupes inscrivent les solutions sur chaque support visuel et les gardent de côté jusqu'à ce que tout le monde ait terminé.</li>
 	<li>Suite à quoi, les groupes comparent les solutions, d'abord, les unes aux autres, puis à celles proposées dans l'exemple.</li>
 </ul>
-<p>Ayez à l'esprit qu'il existe plusieurs solutions possibles aux difficultés soulevées par ce document, qui ne propose que deux ou trois cas de figure. Si vous parvenez à une solution innovante ou si vous estimez que nous avons commis une erreur, nous vous prions de bien vouloir nous le faire savoir ! Vous pouvez nous contacter en vous servant<a href="/contact">du formulaire de feedback.</a>.</p>
+<p>Ayez à l'esprit qu'il existe plusieurs solutions possibles aux difficultés soulevées par ce document, qui ne propose que deux ou trois cas de figure. Si vous parvenez à une solution innovante ou si vous estimez que nous avons commis une erreur, nous vous prions de bien vouloir nous le faire savoir ! Vous pouvez nous contacter en vous servant <a href="/contact">du formulaire de feedback.</a>.</p>
 </section>
 <section id="rules-for-solving-the-challenges">
 <h3>Les règles à suivre pour la résolution des difficultés</h3>
 
 <p>Pour traiter les difficultés que peuvent rencontrer les réseaux sans fil, il est nécessaire de savoir comment lire les connexions entre différents nœuds et comment établir votre propre connexion. </p>
 
-<p><strong>La qualité des liaisons sans fil</strong>—Les lignes illustrent l'intensité de la liaison entre deux nœuds, selon qu'elles soient continues ou pointillées. Une ligne verte continue est synonyme de forte intensité. Une ligne jaune pointillée veut dire que la liaison est acceptable. Une ligne pointillée rouge ou rose veut dire que la liaison est mauvaise ou qu'elle a été interrompue. <br><img alt="" src="/files/CCK_Wireless_Challenges_signal_quality_rules.png"></p>
+<p><strong>La qualité des liaisons sans fil</strong>—Les lignes illustrent l'intensité de la liaison entre deux nœuds, selon qu'elles soient continues ou pointillées. Une ligne verte continue est synonyme de forte intensité. Une ligne jaune pointillée veut dire que la liaison est acceptable. Une ligne pointillée rouge ou rose veut dire que la liaison est mauvaise ou qu'elle a été interrompue. <br><img alt="" src="/files/WirelessChallenges-Rules-signal-quality.png"></p>
 
 <p><strong>L'intensité du signal sans fil</strong>—Les routeurs sont dotés de différentes intensités d'écoute et d'émission. </p>
 
