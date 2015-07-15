@@ -5,7 +5,7 @@ categories: [UI,UX,Research]
 created: 2012-05-09
 changed: 2013-07-26
 post_author: The Work Department
-lang: es
+lang: sp
 ---
   Con el objetivo de crear una experiencia de usuario tanto intuitiva como accesible (UX) mediante un muestreo de los dispositivos en los que se ejecutará Commotion, encuestamos y analizamos la situación actual de las interfaces existentes. Desplegamos una red de prueba usando los tres componentes de software actualmente en fase de desarrollo: Commotion en un Ubiquiti Picostation (router), el OLSR Mesh Tether de The Guardian Project en un dispositivo Android (teléfono) y Commotion en Linux (laptop). Anticipando el próximo trabajo del Proyecto Serval en torno a dispositivos móviles de malla con Commotion, también investigamos el actual lanzamiento de Serval Mesh. Documentamos cada paso con capturas de pantalla, <a href="http://www.flickr.com/photos/24639042@N07/collections/72157629382917618/" target="blank">que están compiladas aquí</a>.
 Después de la auditoría inicial, comparamos y contrastamos cada flujo de trabajo, documentando cualquier problema que surgió durante el proceso, y entonces fuimos capaces de hacer recomendaciones sobre cómo mejorar cada una de las interfaces y los flujos de trabajo, y hacerlos compatibles entre plataformas.
