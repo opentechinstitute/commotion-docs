@@ -1,0 +1,128 @@
+\subsection*{Intro}
+
+This documentation will walk you through how to create a Commotion Client extension using the provided templates and Qt Designer. This documentation follows the development of the core extension responsable for managing Commotion configuration files. You can find the code for the version of the extension built in this tutorial in the \char`\"{}docs/extensions/tutorial\char`\"{} folder. The current Commotion config extension can be found in \char`\"{}commotion\+\_\+client/extension/core/config\+\_\+manager.\char`\"{} This tutorial will not keep up to date with this extension as it evolves unless there are core changes in the commotion A\+P\+I that require us to update sections to maintain current with the A\+P\+I.
+
+\subsection*{Design}
+
+Commotion comes with a \href{http://json.org/}{\tt J\+S\+O\+N} based network configuration file. This file contains the mesh settings for a Commotion network. These profiles currently contain the following values. ``` \{ \char`\"{}announce\char`\"{}\+: \char`\"{}true\char`\"{}, \char`\"{}bssid\char`\"{}\+: \char`\"{}02\+:\+C\+A\+:\+F\+F\+:\+E\+E\+:\+B\+A\+:\+B\+E\char`\"{}, \char`\"{}bssidgen\char`\"{}\+: \char`\"{}true\char`\"{}, \char`\"{}channel\char`\"{}\+: \char`\"{}5\char`\"{}, \char`\"{}dns\char`\"{}\+: \char`\"{}208.\+67.\+222.\+222\char`\"{}, \char`\"{}domain\char`\"{}\+: \char`\"{}mesh.\+local\char`\"{}, \char`\"{}encryption\char`\"{}\+: \char`\"{}psk2\char`\"{}, \char`\"{}ip\char`\"{}\+: \char`\"{}100.\+64.\+0.\+0\char`\"{}, \char`\"{}ipgen\char`\"{}\+: \char`\"{}true\char`\"{}, \char`\"{}ipgenmask\char`\"{}\+: \char`\"{}255.\+192.\+0.\+0\char`\"{}, \char`\"{}key\char`\"{}\+: \char`\"{}c0\+M\+M0t10n!r0cks\char`\"{}, \char`\"{}mdp\+\_\+keyring\char`\"{}\+: \char`\"{}/etc/commotion/keys.\+d/mdp.\+keyring/serval.\+keyring\char`\"{}, \char`\"{}mdp\+\_\+sid\char`\"{}\+: \char`\"{}0000000000000000000000000000000000000000000000000000000000000000\char`\"{}, \char`\"{}mode\char`\"{}\+: \char`\"{}adhoc\char`\"{}, \char`\"{}netmask\char`\"{}\+: \char`\"{}255.\+192.\+0.\+0\char`\"{}, \char`\"{}serval\char`\"{}\+: \char`\"{}false\char`\"{}, \char`\"{}ssid\char`\"{}\+: \char`\"{}commotionwireless.\+net\char`\"{}, \char`\"{}type\char`\"{}\+: \char`\"{}mesh\char`\"{} \char`\"{}routing\char`\"{}\+: \char`\"{}olsr\char`\"{} \char`\"{}family\char`\"{}\+:\char`\"{}1pv4\char`\"{} \} ```
+
+Any good user interface starts with a need and a user needs assessment. We {\itshape need} an interface that will allow a user to understand, and edit a configuration file. Our initial {\itshape user needs assessment} revealed two groups of users.
+
+Basic Users\+:
+\begin{DoxyItemize}
+\item These users want to be able to download, or be given, a config file and use it to connect to a network with the least ammount of manipulation.
+\item These users want interfaces based upon tasks, not configuration files, when they do modify their settings.
+\item When these users download a configuration file they want it to be named somthing that allows it to be easy to identify later/
+\end{DoxyItemize}
+
+Intermediate/\+Advanced Users
+\begin{DoxyItemize}
+\item These users desire all the attributes that are listed under the {\itshape basic user.}
+\item These users also want an interface where they can quickly manipulate all the network settings quickly without having to worry about abstractions that have been layered on for new users.
+\begin{DoxyItemize}
+\item These abstractions make advanced users feel lost and frustrated because they know what they want to do, but can not find the \char`\"{}user friendly\char`\"{} term that pairs with the actual device behavior.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+Our needs assessment identified two different extensions. One extension is a device configuration interface that abstracts individual networking tasks into their component parts for easy configuration by a new user. The second extension is a configuration file loader, downloader, editor, and applier. This second extension is what we will build here.
+
+The Commotion \href{http://commotionwireless.net/developer/hig/key-concepts}{\tt Human Interface Guidelines} have some key concepts for user interface that we should use to guide our page design.
+
+{\bfseries Common Language\+:} The Commotion config file uses a series of abbreviations for each section. Because this menu is focused on more advanced users we should provide not only the abbreviation, but the technical term for the object that any value interacts with.
+
+{\bfseries Common U\+I Terms\+:} Beyond simply the config file key, and the true technical term, as new users start to interact more competantly with Commotion it will be confusing if the common terms we use in the basic interfaces is not also included. As such we will want to use the {\itshape common term} where one exists.
+
+Taking just one value we can sketch out how the interface will represent it.
+
+{\ttfamily \char`\"{}ssid\char`\"{}\+: \char`\"{}commotionwireless.\+net\char`\"{}}
+
+
+
+Beyond the consitancy provided by common terms, common groupings are also important. In order to ensure that a user can easily modify related configurations. We have grouped the configuration values in the following two groups.
+
+``` security \{ \char`\"{}announce\char`\"{} \char`\"{}encryption\char`\"{} \char`\"{}key
+  \char`\"{}serval\char`\"{}
+  \char`\"{}mdp\+\_\+keyring\char`\"{}
+  \char`\"{}mdp\+\_\+sid" \}
+
+networking \{ \char`\"{}routing\char`\"{} \char`\"{}mode\char`\"{} \char`\"{}type\char`\"{} \char`\"{}channel\char`\"{} \char`\"{}ssid\char`\"{} \char`\"{}bssidgen\char`\"{} \char`\"{}bssid\char`\"{} \char`\"{}domain\char`\"{} \char`\"{}family\char`\"{} \char`\"{}netmask\char`\"{} \char`\"{}ip\char`\"{} \char`\"{}ipgen\char`\"{} \char`\"{}ipgenmask\char`\"{} \char`\"{}dns\char`\"{} \} ```
+
+T\+O\+D\+O\+:
+\begin{DoxyItemize}
+\item Show process of designing section headers
+\item Show final design
+\end{DoxyItemize}
+
+\subsection*{The Qt Designer}
+
+Now that we have the basic layout we can go to Qt Designer and create our page. Qt Designer is far more full featured than what we will cover here. A quick online search will show you far better demonstrations than I can give. Also, showing off Qt is not the focus of this tutorial.
+
+First we create a new dialogue. Since our design was a series of sections that are filled with a variety of values I am going to start by creating a single section title.
+
+Using our design document I know that I want the section header to be about 15px and bold. I can do this in a few ways. I can set the font directly in the \char`\"{}property editor\char`\"{}, use the \char`\"{}property editor\char`\"{} to create a style\+Sheet to apply to the section header, or use an existing style sheet using the \char`\"{}\+Add Resource\char`\"{} button in the style\+Sheet importer or in the code. I recoomend the last option because you can use existing Commotion style sheets to make your extension fit the overall style of the application. The \char`\"{}\+Main\char`\"{} section will have instructions on how to apply a existing Commotion style sheet to your G\+U\+I.
+
+$<$pictures of the three ways to style a item.$>$
+
+Feel free to use whatever works for you. To make it easy for me to create consistant styling later I am just going to do everything unstyled in the Qt Designer and then call in a style-\/sheet in the \char`\"{}\+Main\char`\"{} section.
+
+Not that I have my section header I am going copy it three times and set the \char`\"{}object\+Name\char`\"{} and the user-\/facing text of each. Once this extension is functional I will go back through and replace all the text with user-\/tested text. For now, lets just get it working.
+
+$<$picture of settings text in place.$>$
+
+Now that are section headers are created we are goign to have to go in and create our values. Qt Designer has a variety of widgets that you can choose from. I am only going to go over the creation of one widget to show you how to put them together.
+
+First we are going to make a simple text-\/entry field following the design we created before. The following was created using four \char`\"{}label's\char`\"{} and one \char`\"{}line edit\char`\"{} box.
+
+$<$picture of plain dialogue settings.$>$
+
+In the end, I won't be using labels for the help-\/text pop-\/up or the question mark. I realized that the easiest way to show the help-\/text pop up was to simply use the question-\/marks existing tool-\/tip object. There are two ways I could have implemented the question-\/mark icon.
+
+I can use a label for the question mark icon because non-\/interactive icons are easily made into graphics by using the \char`\"{}property editor.\char`\"{} In the Q\+Label section click the \char`\"{}pixmap\char`\"{} property and choose \char`\"{}\+Choose Resource\char`\"{} in the dropdown menu to the right. This will allow you to choose a resource to use for your image. You can choose the \char`\"{}commotion\+\_\+client/assets/commotion\+\_\+assets.\+qrc\char`\"{} file to use any of the standard Commotion icons. We have tried to make sure that we have any sizes you might need of our standard icons.
+
+I would like the question mark to be clickable to make the help-\/text tooltip pop up without forcing the user to wait. To do this I added a push button, chose the same question mark item for its \char`\"{}icon,\char`\"{} set its text to be blank, and checked the \char`\"{}flat\char`\"{} attribute.
+
+Now that we have the objects needed for the value we will use a layout to place them next to each other. I will use a horizontal layout to place the value header and the question mark next to each other. I have placed a \char`\"{}horizontal spacer\char`\"{} between them to push them to the edges of the horizontal layout. After copying my value header I am going to place it, the text entry box, and the static help text in a vertical layout.
+
+Not that I have the basic components created I am going to create the first value that I need with a text-\/box entry form, B\+S\+S\+I\+D. After copying the object, the first thing I did was change the object\+Name of each element to reflect its value. I already have text for this field so I added it where appropriate. For the tooltip, I clicked on the question mark button and and edited the tool\+Tip text.
+
+After completing this widget I copied it for every text box, and used its parts to construct all the other widgets I needed. Once each set of values in a section were complete I select the section header and all section values and use the \char`\"{}\+Lay Out Vertcally\char`\"{} button to place them in a singular layout. I then went through and named all the layouts to accurately reflect the contents inside of them.
+
+Once I have completed all the values I have to add the finishing touches before I can connect this to its backend. By clicking on some empty space outside of all my objects I selected the main window. I gave it the \char`\"{}object\+Name\char`\"{} View\+Port, a \char`\"{}window\+Icon\char`\"{} form the commotion assets, and a \char`\"{}window\+Title.\char`\"{} Now that the window is also set I can save this object and load it up in my back-\/end.
+
+This object saves as a ui file. If you are developing from within the commotion\+\_\+clients repository you can use the existing makefile with the commant {\ttfamily make test} to have it compile your ui file into a python file you can sub-\/class from. It will also create a temporary compiled commotion\+\_\+assets\+\_\+rc.\+py file that will be needed to use any of the core Commotion assets without fully building the pyqt project. Once you have run {\ttfamily make test} A python file named \char`\"{}\+Ui\+\_\+$<$your file name$>$.\+py\char`\"{} will be created in the same directory as your .ui file.
+
+\subsection*{The Backend}
+
+\paragraph*{The Config}
+
+Before the main window will load your application it needs a configuration file to load it from. This config file should be placed in your extensions main directory. For testing, you can place a copy of it in the folder \char`\"{}commotion\+\_\+client/data/extensions/.\char`\"{} The Commotion client will then automatically load your extension from its place in the \char`\"{}commotion\+\_\+client/extensions/contrib\char`\"{} directory. We will cover how to package your extension for installation in the last section.
+
+Create a file in your main extension directory called {\ttfamily config.\+json}. In that file place a json structure including the following items. ``` \{ \char`\"{}name\char`\"{}\+:\char`\"{}config\+\_\+manager\char`\"{}, \char`\"{}menu\+Item\char`\"{}\+:\char`\"{}\+Configuration Editor\char`\"{}, \char`\"{}parent\char`\"{}\+:\char`\"{}\+Advanced\char`\"{}, \char`\"{}settings\char`\"{}\+:\char`\"{}settings\char`\"{}, \char`\"{}taskbar\char`\"{}\+:\char`\"{}task\+\_\+bar\char`\"{}, \char`\"{}main\char`\"{}\+:\char`\"{}main\char`\"{}, \char`\"{}tests\char`\"{}\+:\char`\"{}test\+\_\+suite\char`\"{} \} ``` The \char`\"{}taskbar,\char`\"{} \char`\"{}tests,\char`\"{} and \char`\"{}settings,\char`\"{} values are optional. But we will be making them in this tutorial. You can find explanations of each value at \href{https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:commotion_client_architecture#extension_config_properties}{\tt https\+://wiki.\+commotionwireless.\+net/doku.\+php?id=commotion\+\_\+architecture\+:commotion\+\_\+client\+\_\+architecture\#extension\+\_\+config\+\_\+properties}
+
+Once you have a config file in place we can actually create the logic behind our application.
+
+\subsubsection*{Main}
+
+The main component of your extension is the \char`\"{}main\char`\"{} python file as identified by the config. This file should be placed in the root of your extension's directory structure. I reccomend starting from the \char`\"{}main.\+py\char`\"{} template in the \char`\"{}docs/extension\+\_\+template\char`\"{} directory in the commotion structure. That is what I will be starting from here.
+
+\paragraph*{Loading your extensions G\+U\+I}
+
+First you wan't to import your extension's ui. If you are creating an add on you will use an import from the extensions directory using a style similar to {\ttfamily from extensions.\+contrib.$<$Y\+O\+U\+R\+\_\+\+E\+X\+T\+E\+N\+S\+I\+O\+N$>$.ui import Ui\+\_\+$<$Y\+O\+U\+R\+\_\+\+E\+X\+T\+E\+N\+S\+I\+O\+N$>$}. Since I will be building a core extension I will be using the following statement. ``` from extensions.\+core.\+config\+\_\+manager.\+ui import Ui\+\_\+config\+\_\+manager.\+py ```
+
+Then you will extend the G\+U\+I that you created using the View\+Port class.
+
+``` class View\+Port(Ui\+\_\+config\+\_\+manager.\+View\+Port)\+: ```
+
+If you are using the template the configuration is ready to apply stylesheets, and setup unit tests.
+
+\paragraph*{Stylesheets}
+
+Before we create our back-\/end we should finish the front end. The last step is going to be applying a style sheet to our object. I will quickly go over pyqt style sheets and then show you how to apply one of the default Commotion style sheets to your object.
+
+\paragraph*{Unit Tests}
+
+\paragraph*{Taskbar}
+
+\subsubsection*{Settings}
+
+\subsubsection*{Packaging an extension}

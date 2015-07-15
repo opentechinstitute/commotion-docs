@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: Verifying Commotion Downloads 
+title: Vericando Descargas Commotion
 site_section: download
 categories: 
 created: 2013-06-10
@@ -8,71 +8,71 @@ changed: 2013-09-20
 post_author: OTI
 lang: es
 ---
- <h2>What is a signature and why should I check it?</h2>
+ <h2>¿Qué es una firma y por qué debería verificarla?</h2>
  <hr>
- <p>How do you know that the Commotion software you have is really the one we made? Depending on your situation, some person or entity might try to get you to download a fake version of Commotion. And if you're running a fake version of Commotion, not only is your security in jeopardy, but so is the security of everyone on your Commotion network.</p>
- <p>An attacker could try a variety of attacks to get you to download a fake version of Commotion. For example, he could trick you into thinking some other website is a great place to download Commotion. That's why you should always download Commotion from <strong>https</strong>://commotionwireless.net/. The https part means there's encryption and authentication between your browser and the website, making it much harder for the attacker to modify your download. But it's not perfect. Depending on where you live, the Commotion website may not be accessible to you. Large companies sometimes force employees to use a modified browser, so the company can listen in on all their browsing. There have even been <a href="https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-about-it">examples</a> of attackers who have the ability to trick your browser into thinking you're talking to a website with https when you're not.</p>
- <p>Some software sites, including Commotion, list <a href="http://en.wikipedia.org/wiki/Cryptographic_hash_function">md5 hashes</a> alongside the software on their website, so users can verify that they downloaded the file without any errors. These "checksums" help you answer the question "Did I download this file correctly from whoever sent it to me?" They do a good job at making sure you didn't have any random errors in your download, but they don't help you figure out whether you were downloading it from the attacker. The better question to answer is: "Is this file that I just downloaded the file that Commotion intended me to get?"</p>
- <h2>Where do I get the signatures and the keys that made them?</h2>
+ <p>¿Cómo sabes que el software Commotion que tienes es realmente el que nosotros hicimos? Dependiendo de tu situación, alguna persona o entidad puede tratar de que descargues una versión falsa de Commotion. Y si estás ejecutando una versión falsa de Commotion, no solo tu seguridad está en riesgo, sino también la seguridad de todos en tu red Commotion.</p>
+ <p>Un atacante puede probar con una variedad de ataques para que descargues una versión falsa de Commotion. Por ejemplo, te puede engañar al hacerte pensar que otro sitio es genial para descargar Commotion. Es por ello que siempre debes descargar Commotion de <strong>https</strong>://commotionwireless.net/. La parte https significa que hay un cifrado y autentificación entre tu navegador y el sitio web, haciendo que sea mucho más difícil para que el atacante pueda modificar tu descarga. Pero no es perfecto. Dependiente de donde vivas, el sitio web Commotion puede no ser accesible para ti. Las grandes compañías a veces forzan a sus empleados a usar un navegador modificado, para que la compañía pueda escuchar todas sus navegaciones. Incluso han habido <a href="https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-about-it">ejemplos</a> de atacantes que tienen la habildad de engañar a tu navegador para que piense que está hablando con un sitio web con https cuando no lo estás haciendo.</p>
+ <p>Algunos sitios de software, incluido Commotion, listan <a href="http://en.wikipedia.org/wiki/Cryptographic_hash_function">md5 hashes</a> junto con el software de su sitio web, para que los usuarios puedan verificar que han descargado el archivo sin errores. Estos "checksums" te ayudan a responder la pregunta "¿Descargué correctamente este archivo de quien quiera que me lo haya enviado?" Hacen un buen trabajo al asegurarse que no tuviste ningún error aleatorio en tu descarga, pero no te ayudan a descubrir si lo descargaste de un atacante. La mejor pregunta a responder es: "¿Fue este archivo que acabo de descargar, el archivo que Commotion quería que descargara?"</p>
+ <h2>¿De donde obtengo las firmas y las claves que las hacen?</h2>
  <hr>
- <p>Each file on <a href="https://commotionwireless.net/download">our download page</a> is accompanied by a signature, which you can download by clicking on the seal icon (<img alt="" src="/sites/commotionwireless.net/themes/kb/images/seal.png" style="height:20px; width:21px" />) next to the image name.</p>
+ <p>Cada archivo en <a href="/download">nuestra páginda de descargas</a> está acompañado de una firma, que puedes descarcar al dar click en ícono del sello (<img alt="" src="/images/seal.png" style="height:20px; width:21px" />) junto al nombre de la imagen.</p>
  <p><img alt="" src="/files/sigs.png" style="height:352px; width:492px" /></p>
- <p>The signature file will have the same name as the image file, but with the extension ".asc". These .asc files are GPG signatures. They allow you to verify the file you've downloaded is exactly the one that we intended you to get. For example, openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin is accompanied by openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin.asc.</p>
- <p>Below are instructions for how to verify these signatures, depending on your operating system.</p>
+ <p>El archivo de la firma tendrá el mismo nombre que el archivo de la imagen, pero con la extensión ".asc". Estos archivos .asc son firmas GPG. Te permiten verificar que el archivo que descargaste sea exactamente el que querías obtener. Por ejemplo, openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin está acompañado de openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin.asc.</p>
+ <p>Abajo hay instrucciones de como verificar estas firmas, dependiendo de tu sistema operativo.</p>
  <h3>Windows</h3>
  <hr>
- <p>You need to have GnuPG installed before you can verify signatures. Download it from <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a>.</p>
- <p>Once it's installed, use GnuPG to import the Commotion Developer signing key. Since GnuPG for Windows is a command-line tool, you will need to use cmd.exe. Unless you edit your PATH environment variable, you will need to tell Windows the full path to the GnuPG program. If you installed GnuPG with the default values, the path should be something like this: C:\Program Files\Gnu\GnuPg\gpg.exe.</p>
+ <p>Necesitas tener GnuPG instalado antes de verificar las firmas. Descárgalo de <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a>.</p>
+ <p>Una vez instalado, usa GnuPG para importar la clave de acceso del Desarrollador Commotion Developer. Ya que GnuPG para Windows es una herramienta de línea de comandos, necesitarás usar cmd.exe. A menos que edites tu variable de ambiente PATH, necesitarás decirle a Windows el path completo para el programa GnuPG. Si instalaste GnuPG con los valores por defecto, el path solo debería ser algo como esto: C:\Program Files\Gnu\GnuPg\gpg.exe.</p>
 	"C:\Program Files\Gnu\GnuPg\gpg.exe" --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0xD01D01F1
-After importing the key, you can verify that the fingerprint is correct:</p>
+Después de importar la clave, puedes verificar que tu huella digital sea correcta:</p>
 
 	"C:\Program Files\Gnu\GnuPg\gpg.exe" --fingerprint 0xD01D01F1
- <p>You should see:</p>
+ <p>Deberías ver:</p>
 	pub   4096R/D01D01F1 2013-05-17
 	Key fingerprint = 55A5 25F8 EFE5 7820 BA2A 40F7 D3F5 4B1E D01D 01F1
 	uid                  Commotion Developers (Master Signing Key) &lt;commotion-dev@lists.chambana.net&gt;
 	sub   4096R/AC84AB94 2013-05-17
- <p>To verify the signature of the file you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the file and its signature to your Desktop, run:</p>
+ <p>Para verificar tu firma en el archivo que descargaste, necesitarás descargar el archivo ".asc" también. Asumiendo que descargaste el archivo y su firma en tu Escritorio, ejecuta:</p>
 
 	"C:\Program Files\Gnu\GnuPg\gpg.exe" --verify C:\Users\Alice\Desktop\openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin.asc C:\Users\Alice\Desktop\openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin
- <p>The output should say "Good signature":</p>
+ <p>El resultado debería decir "Buena firma":</p>
 
-	gpg: Signature made Thu 23 May 2013 09:24:14 PM EDT using RSA key ID D01D01F1
-	gpg: Good signature from "Commotion Developers (Master Signing Key) &lt;commotion-dev@lists.chambana.net&gt;"
-	gpg: WARNING: This key is not certified with a trusted signature!
-	gpg:          There is no indication that the signature belongs to the owner.
+	gpg: Firma hecha el Jue 23 May 2013 09:24:14 PM EDT usando RSA key ID D01D01F1
+	gpg: Buena firma de "Commotion Developers (Master Signing Key) &lt;commotion-dev@lists.chambana.net&gt;"
+	gpg: ¡ADVERTENCIA: Esta clave no está certificada con una firma confiable!
+	gpg:          No hay indicación de que la firma pertenezca al dueño.
 	Primary key fingerprint: 55A5 25F8 EFE5 7820 BA2A 40F7 D3F5 4B1E D01D 01F1
- <p>Notice that there is a warning because you haven't assigned a trust index to this person. This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer. The best method is to meet the developer in person and exchange key fingerprints.</p>
+ <p>Nota que hay una advertencia porque no has asignado un directorio confiable a esta persona. *********Esto significa que GnuPG verificado que la clave hizo tal firma, *******This means that GnuPG verified that the key made that signature,************ pero depende de ti decidir si esa clave realmente pertenece al desarrollador. **********El mejor método es conocer al desarrollador en persona e intercambiar huellas digitales************The best method is to meet the developer in person and exchange key fingerprints.</p>
  <h3>Mac OS X</h3>
  <hr>
- <p>You need to have GnuPG installed before you can verify signatures. You can install it from <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a>.</p>
- <p>Once it's installed, use GnuPG to import the Commotion Developer signing key. Import the key (0xD01D01F1) by starting the terminal (under "Applications") and typing:</p>
+ <p>Necesitas tener GnuPG instalado antes de verificar las firmas. Puedes instalarlas de <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a>.</p>
+ <p>Una vez instalado, usa GnuPG para importar la clave de acceso del Desarrollador Commotion. Importa la clave (0xD01D01F1) al prender la terminal (bajo "Aplicaciones") y escribir:</p>
 
 	gpg --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0xD01D01F1
- <p>After importing the key, you can verify that the fingerprint is correct:</p>
+ <p>Después de importar la clave, puedes verificar que la huella digital sea correcta:</p>
 
 	gpg --fingerprint 0xD01D01F1
- <p>You should see:</p>
+ <p>Deberías ver:</p>
 
 	pub   4096R/D01D01F1 2013-05-17
 	Key fingerprint = 55A5 25F8 EFE5 7820 BA2A 40F7 D3F5 4B1E D01D 01F1
 	uid                 Commotion Developers (Master Signing Key) &lt;commotion-dev@lists.chambana.net&gt;
 	sub   4096R/AC84AB94 2013-05-17
- <p>To verify the signature of the file you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the file and its signature to your Desktop, run:</p>
+ <p>Para verificar esta firma del archivo que descargaste, necesitarás descargar el archivo ".asc" también. Asumiendo que descargaste el archivo y su firma a tu Escritorio, ejecuta:</p>
 
 	gpg --verify /Users/Alice/openwrt-ar71xx-generic-ubnt-bullet-m-squashfs-factory.bin{.asc,}
- <p>The output should say "Good signature":</p>
+ <p>El resultado debería decir "Buena firma":</p>
 
-	gpg: Signature made Thu 23 May 2013 09:24:14 PM EDT using RSA key ID D01D01F1
-	gpg: Good signature from "Commotion Developers (Master Signing Key) &lt;commotion-dev@lists.chambana.net&gt;"
-	gpg: WARNING: This key is not certified with a trusted signature!
-	gpg:          There is no indication that the signature belongs to the owner.
+	gpg: Firma hecha el Jue Thu 23 May 2013 09:24:14 PM EDT usando RSA key ID D01D01F1
+	gpg: Buena firma de "Commotion Developers (Master Signing Key) &lt;commotion-dev@lists.chambana.net&gt;"
+	gpg: ¡ADVERTENCIA: Esta clave no está certificada con una firma confiable!
+	gpg:          No hay indicación de que la firma pertenezca al dueño.
 	Primary key fingerprint: 55A5 25F8 EFE5 7820 BA2A 40F7 D3F5 4B1E D01D 01F1
- <p>Notice that there is a warning because you haven't assigned a trust index to this person. This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer. The best method is to meet the developer in person and exchange key fingerprints.</p>
+ <p>Nota que hay una advertencia porque no has asignado un directorio confiable a esta persona. *********Esto significa que GnuPG verificado que la clave hizo tal firma, *******This means that GnuPG verified that the key made that signature,************ pero depende de ti decidir si esa clave realmente pertenece al desarrollador. **********El mejor método es conocer al desarrollador en persona e intercambiar huellas digitales************The best method is to meet the developer in person and exchange key fingerprints.</p>
  <h3>Linux</h3>
  <hr>
- <p>Most Linux distributions come with gpg pre-installed, so users who want to verify their Commotion download can just follow along with the instructions above for "Mac OS X".</p>
- <p>See <a href="http://www.gnupg.org/documentation/">http://www.gnupg.org/documentation/</a> to learn more about GPG.</p>
+ <p>La mayoría de las distribuciones Linux vienen con gpg pre-instalado, para que los usuarios que quieran verificar sus descargas Commotion puedan solo seguir las instrucciones abajo para "Mac OS X".</p>
+ <p>Ve <a href="http://www.gnupg.org/documentation/">http://www.gnupg.org/documentation/</a> para aprender más de GPG.</p>
  <hr>
-<p>This tutorial borrows heavily from documentation created by the <a href="https://www.torproject.org/docs/verifying-signatures.html.en" target="_blank">Tor Project</a>.</p>
+<p>Este tutorial toma prestado mucha de la documentación creada por el <a href="https://www.torproject.org/docs/verifying-signatures.html.en" target="_blank">Proyecto Tor</a>.</p>
 

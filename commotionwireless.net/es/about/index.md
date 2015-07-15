@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: About Commotion
+title: Acerca de Commotion
 site_section: about
 categories: 
 created: 2012-07-16
@@ -8,31 +8,31 @@ changed: 2013-12-18
 post_author: admin
 lang: es
 ---
-  <p>Commotion is a free,&nbsp;open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. Commotion provides a way for you to share your Internet connection with the people around you, but it&nbsp;is not a replacement for your Internet connection. Read more about how Commotion works on our <a href="/about/faq">Frequently Asked Questions</a> page.</p>
+<p>Commotion es una herramienta gratuita, de código abierto que usa dispositivos inalámbricos para crear redes mesh descentralizadas. Commotion provee una forma para que compartas tu conexión a Internet con las personas a tu alrededor, pero no es un reemplazo para tu conexión a Internet. Lee más acerca de como trabaja Commotion en nuestra sección de <a href="/about/faq">Preguntas Frecuentes (FAQ)</a> de nuestra página.</p>
 
-<p><img alt="Mesh Networking Across Devices" src="/files/housesMesh_0.png" style="height:124px; width:419px" /></p>
+<p><img alt="Redes Mesh Entre Dispositivos" src="/files/housesMesh_0.png" style="height:124px; width:419px" /></p>
 
-<p>Wireless mesh networks allow devices to connect directly to each other without going through a centralized point. Mesh networks are self-healing and can grow organically. They also allow for easy sharing of services over the network, such as Internet and applications.</p>
+<p>Las redes mesh inalámbricas permiten a los dispositivos conectarse directamente los unos con los otros sin pasar por un punto centralizado. Las redes mesh tienen propiedades de auto-curación y pueden crecer orgánicamente. También permiten que sea fácil compartir servicios sobre la red, como Internet y aplicaciones.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__547 img__view_mode__media_large attr__format__media_large" height="176" src="/files/styles/large/public/testMesh_1.png?itok=bhNg-QkK" typeof="foaf:Image" width="419" /></p>
 
-<h2>We aim to:</h2>
+<h2>Nuestro objetivo:</h2>
 
 <ul>
-	<li>create a simple, easy-to-use communications tool that anyone can set up and use without technical expertise</li>
-	<li>provide a platform for building community wireless networks and hosting local applications</li>
-	<li>build a tool for creating infrastructure that is resilient against surveillance and disruption</li>
-	<li>develop a flexible, open-source software platform that programmers around the globe can continually adapt and build upon</li>
+	<li>crear una herramienta de comunicaciones simple y fácil de usar que cualquiera pueda instalar y usar sin ser técnicos expertos</li>
+	<li>proveer una plataforma para construir redes inalámbricas comunitarias y hospedar aplicaciones locales</li>
+	<li>construir una herramienta para crear infraestructura que sea resiliente contra la vigilancia y las interrupciones</li>
+	<li>desarrollar una plataforma flexible, de código abierto, que los programadores alrededor del mundo puedan continuamente adaptar y construir sobre ella</li>
 </ul>
 
-<h2>Want to learn more?</h2>
+<h2>¿Quieres aprender más?</h2>
 
-<p><a href="/about/where-its-used">Learn more about where Commotion is being tested</a>. To learn how Commotion works, read <a href="/docs/get-started">our documentation</a>.</p>
+<p><a href="/about/where-its-used">Aprende más acerca de dónde se está probando Commotion</a>. Para aprender cómo funciona Commotion, lee <a href="/docs/get-started">nuestra documentación</a>.</p>
 
-<p>Feel free to <a href="contact">contact us</a>.</p>
+<p>Ten la libertad de <a href="contact">contactarnos</a>.</p>
 
 <hr />
-<p>Commotion is led by the <a href="http://oti.newamerica.net" target="_blank">Open Technology Institute</a>.</p>
+<p>Commotion es liderado por el <a href="http://newamerica.org/oti" target="_blank">Open Technology Institute</a>.</p>
 
-<p><a class="img" href="http://oti.newamerica.net"><img alt="Open Technology Institute logo" src="/files/OTI-Institute-CMYK%20%5BConverted%5D-01.png" style="height:90px; width:300px" title="Open Technology Institute logo" /></a></p>
+<p><a class="img" href="http://newamerica.org/oti"><img alt="Open Technology Institute logo" src="/files/opentechnology_black.png" title="logo del Open Technology Institute" /></a></p>
  
