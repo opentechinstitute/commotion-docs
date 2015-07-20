@@ -1,0 +1,78 @@
+\hypertarget{classcommotion__client_1_1utils_1_1validate_1_1Networking}{\section{commotion\+\_\+client.\+utils.\+validate.\+Networking Class Reference}
+\label{classcommotion__client_1_1utils_1_1validate_1_1Networking}\index{commotion\+\_\+client.\+utils.\+validate.\+Networking@{commotion\+\_\+client.\+utils.\+validate.\+Networking}}
+}
+Inheritance diagram for commotion\+\_\+client.\+utils.\+validate.\+Networking\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcommotion__client_1_1utils_1_1validate_1_1Networking}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1validate_1_1Networking_af83f8af7dc9fd426c27d7fd214051edc}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcommotion__client_1_1utils_1_1validate_1_1Networking_af83f8af7dc9fd426c27d7fd214051edc}
+
+\item 
+def \hyperlink{classcommotion__client_1_1utils_1_1validate_1_1Networking_aaeee5dedbe589a997ddf820b17359c35}{ipaddr}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1validate_1_1Networking_af284adbbe8265ea379d64d3d6ee66342}{{\bfseries log}}\label{classcommotion__client_1_1utils_1_1validate_1_1Networking_af284adbbe8265ea379d64d3d6ee66342}
+
+\item 
+\hypertarget{classcommotion__client_1_1utils_1_1validate_1_1Networking_a2728d53728c499c4da34412a8b773216}{{\bfseries translate}}\label{classcommotion__client_1_1utils_1_1validate_1_1Networking_a2728d53728c499c4da34412a8b773216}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcommotion__client_1_1utils_1_1validate_1_1Networking_aaeee5dedbe589a997ddf820b17359c35}{\index{commotion\+\_\+client\+::utils\+::validate\+::\+Networking@{commotion\+\_\+client\+::utils\+::validate\+::\+Networking}!ipaddr@{ipaddr}}
+\index{ipaddr@{ipaddr}!commotion\+\_\+client\+::utils\+::validate\+::\+Networking@{commotion\+\_\+client\+::utils\+::validate\+::\+Networking}}
+\subsubsection[{ipaddr}]{\setlength{\rightskip}{0pt plus 5cm}def commotion\+\_\+client.\+utils.\+validate.\+Networking.\+ipaddr (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{ip\+\_\+addr, }
+\item[{}]{addr\+\_\+type = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcommotion__client_1_1utils_1_1validate_1_1Networking_aaeee5dedbe589a997ddf820b17359c35}
+\begin{DoxyVerb}Checks if a string is a validly formatted IPv4 or IPv6 address.
+
+@param ip str A ip address to be checked
+@param addr_type int The appropriate version number: 4 for IPv4, 6 for IPv6.
+\end{DoxyVerb}
+ 
+
+References commotion\+\_\+client.\+G\+U\+I.\+menu\+\_\+bar.\+Menu\+Bar.\+translate, commotion\+\_\+client.\+extensions.\+config\+\_\+editor.\+main.\+View\+Port.\+translate, commotion\+\_\+client.\+G\+U\+I.\+main\+\_\+window.\+Main\+Window.\+translate, commotion\+\_\+client.\+G\+U\+I.\+toolbar\+\_\+builder.\+Tool\+Bar.\+translate, commotion\+\_\+client.\+utils.\+validate.\+Client\+Config.\+translate, commotion\+\_\+client.\+G\+U\+I.\+extension\+\_\+toolbar.\+Extension\+Tool\+Bar.\+translate, commotion\+\_\+client.\+G\+U\+I.\+toolbar.\+Tool\+Bar.\+translate, commotion\+\_\+client.\+utils.\+extension\+\_\+manager.\+Extension\+Manager.\+translate, commotion\+\_\+client.\+G\+U\+I.\+extension\+\_\+toolbar.\+Menu\+Item.\+translate, commotion\+\_\+client.\+commotion\+\_\+client.\+Commotion\+Client\+Application.\+translate, commotion\+\_\+client.\+utils.\+validate.\+Networking.\+translate, and commotion\+\_\+client.\+utils.\+extension\+\_\+manager.\+Config\+Manager.\+translate.
+
+
+\begin{DoxyCode}
+323 
+324     \textcolor{keyword}{def }\hyperlink{classcommotion__client_1_1utils_1_1validate_1_1Networking_aaeee5dedbe589a997ddf820b17359c35}{ipaddr}(self, ip\_addr, addr\_type=None):
+325         \textcolor{stringliteral}{"""}
+326 \textcolor{stringliteral}{        Checks if a string is a validly formatted IPv4 or IPv6 address.}
+327 \textcolor{stringliteral}{}
+328 \textcolor{stringliteral}{        @param ip str A ip address to be checked}
+329 \textcolor{stringliteral}{        @param addr\_type int The appropriate version number: 4 for IPv4, 6 for IPv6.}
+330 \textcolor{stringliteral}{        """}
+331         \textcolor{keywordflow}{try}:
+332             addr = ipaddress.ip\_address(str(ip\_addr))
+333         \textcolor{keywordflow}{except} ValueError:
+334             self.log.warning(self.\hyperlink{classcommotion__client_1_1utils_1_1validate_1_1Networking_a2728d53728c499c4da34412a8b773216}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"The value \{0\} is not an validly formed
+       IP-address."}).format(ip\_addr))
+335             \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+336         \textcolor{keywordflow}{if} addr\_type:
+337             \textcolor{keywordflow}{if} addr.version == addr\_type:
+338                 \textcolor{keywordflow}{return} \textcolor{keyword}{True}
+339             \textcolor{keywordflow}{else}:
+340                 self.log.warning(self.\hyperlink{classcommotion__client_1_1utils_1_1validate_1_1Networking_a2728d53728c499c4da34412a8b773216}{translate}(\textcolor{stringliteral}{"logs"}, \textcolor{stringliteral}{"The value \{0\} is not an validly formed
+       IPv\{1\}-address."}).format(ip\_addr, addr\_type))
+341                 \textcolor{keywordflow}{return} \textcolor{keyword}{False}
+342         \textcolor{keywordflow}{else}:
+343             \textcolor{keywordflow}{return} \textcolor{keyword}{True}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+commotion\+\_\+client/utils/validate.\+py\end{DoxyCompactItemize}

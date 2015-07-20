@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Community Technology Nodes : Do-It-Ourselves Guides to Neighborhood Networks">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/main.css">
+    <title>{{ include.title }}</title>
+</head>
+
+<body>
+  <div id="header">
+
+  <!-- NAV TITLE BAR -->
+  <nav> 
+    <div class="color-bar">
+      <div class="color0">&nbsp;</div>
+      <div class="color1">&nbsp;</div>
+      <div class="color2">&nbsp;</div>
+      <div class="color3">&nbsp;</div>
+      <div class="color4">&nbsp;</div>
+    </div>
+    <div class="nav-title"><a href="{{site.baseurl}}/">{{site.title}}</a></div>
+    <ul>
+      {% for node in site.data.menu %}
+      <li class=""><a href="{{site.baseurl}}/{{node.url}}">{{node.title}}</a></li>
+      {% endfor %}
+    </ul>
+<!--    <div id="homebutton">
+      <div  class="faicon">
+	<span class="fa-stack">
+	  <a href="{{site.baseurl}}/index.html" id="homelink">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
+	  </a>
+	</span>
+      </div>
+-->
+<div class="title-bar">- {{ page.title }}</div>
+  </nav>
+
+  
+
+</div>
+  <div id="main_content_wrap" class="outer">
+    <div class="center-arrow-down" align="center"></div>

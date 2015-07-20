@@ -1,12 +1,13 @@
-{% include header.html %}
-{% include header-nav.html %} 
-{% include pageheadings.html %} 
-{% include content-area-open.html %} 
-{% include right-col-start.html %}
-{% include sub-sections-menu.html %}
-{% include right-col-end.html %}
-{% include left-twothird-open.html %}
+
+
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+
+<section id="main_content" class="inner home-width">
+
+<div class="content">
 {{ content }}
-{% include left-twothird-close.html %}
-{% include content-area-close.html %} 
+</div>
+
+</section>
+
 {% include footer.html %}

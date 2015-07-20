@@ -1,0 +1,84 @@
+\hypertarget{namespacetests_1_1utils_1_1extension__manager__tests}{\section{tests.\+utils.\+extension\+\_\+manager\+\_\+tests Namespace Reference}
+\label{namespacetests_1_1utils_1_1extension__manager__tests}\index{tests.\+utils.\+extension\+\_\+manager\+\_\+tests@{tests.\+utils.\+extension\+\_\+manager\+\_\+tests}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1ConfigManagerTests}{Config\+Manager\+Tests}
+\item 
+class \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1ExtensionLibraries}{Extension\+Libraries}
+\item 
+class \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1ExtensionSettingsTestCase}{Extension\+Settings\+Test\+Case}
+\item 
+class \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings}{Get\+Config\+Settings}
+\item 
+class \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings}{Load\+Config\+Settings}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacetests_1_1utils_1_1extension__manager__tests_a369ad0d8b9b3bbcba076f242c0eeec0e}{test\+\_\+init\+\_\+extension\+\_\+config}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}This program is a part of The Commotion Client
+
+Copyright (C) 2014  Seamus Tuohy s2e@opentechinstitute.org
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacetests_1_1utils_1_1extension__manager__tests_a369ad0d8b9b3bbcba076f242c0eeec0e}{\index{tests\+::utils\+::extension\+\_\+manager\+\_\+tests@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests}!test\+\_\+init\+\_\+extension\+\_\+config@{test\+\_\+init\+\_\+extension\+\_\+config}}
+\index{test\+\_\+init\+\_\+extension\+\_\+config@{test\+\_\+init\+\_\+extension\+\_\+config}!tests\+::utils\+::extension\+\_\+manager\+\_\+tests@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests}}
+\subsubsection[{test\+\_\+init\+\_\+extension\+\_\+config}]{\setlength{\rightskip}{0pt plus 5cm}def tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+test\+\_\+init\+\_\+extension\+\_\+config (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{namespacetests_1_1utils_1_1extension__manager__tests_a369ad0d8b9b3bbcba076f242c0eeec0e}
+\begin{DoxyVerb}Test that init extension config properly handles the various use cases.\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+531 
+532 \textcolor{keyword}{def }\hyperlink{namespacetests_1_1utils_1_1extension__manager__tests_a369ad0d8b9b3bbcba076f242c0eeec0e}{test\_init\_extension\_config}(self):
+533     \textcolor{stringliteral}{"""Test that init extension config properly handles the various use cases."""}
+534     \textcolor{comment}{#ext\_type MUST be core|global|user}
+535     with self.assertRaises(ValueError):
+536         self.ext\_mgr.init\_extension\_config(\textcolor{stringliteral}{'pineapple'})
+537         
+538         \textcolor{comment}{#Check for an empty directory.}
+539         self.ext\_mgr.libraries[\textcolor{stringliteral}{'user'}] = os.path.abspath(\textcolor{stringliteral}{"tests/temp/"})
+540         self.ext\_mgr.init\_extension\_config(\textcolor{stringliteral}{'user'})
+541         self.assertFalse(self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}].has\_configs())
+542         self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}] = \textcolor{keywordtype}{None}
+543 
+544         \textcolor{comment}{#populate with populated directory}
+545         self.ext\_mgr.libraries[\textcolor{stringliteral}{'user'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+546         self.ext\_mgr.init\_extension\_config(\textcolor{stringliteral}{'user'})
+547         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}].has\_configs())
+548         self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}] = \textcolor{keywordtype}{None}
+549         
+550         \textcolor{comment}{#check all types on default call}
+551         self.ext\_mgr.libraries[\textcolor{stringliteral}{'user'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+552         self.ext\_mgr.libraries[\textcolor{stringliteral}{'global'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+553         self.ext\_mgr.libraries[\textcolor{stringliteral}{'core'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+554         self.ext\_mgr.init\_extension\_config()
+555         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}].has\_configs())
+556         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'global'}].has\_configs())
+557         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'core'}].has\_configs())
+558         self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}] = \textcolor{keywordtype}{None}
+559         self.ext\_mgr.extensions[\textcolor{stringliteral}{'global'}] = \textcolor{keywordtype}{None}
+560         self.ext\_mgr.extensions[\textcolor{stringliteral}{'core'}] = \textcolor{keywordtype}{None}        
+\end{DoxyCode}
