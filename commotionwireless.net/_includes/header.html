@@ -11,68 +11,68 @@
 </head>
 
 <body>
-  <div id="header">
+    <div id="header">
     <!-- NAV TITLE BAR -->
     <nav> 
-      <div class="color-bar">
-	<div class="color0">&nbsp;</div>
-	<div class="color1">&nbsp;</div>
-	<div class="color2">&nbsp;</div>
-	<div class="color3">&nbsp;</div>
-	<div class="color4">&nbsp;</div>
-      </div>
+        <div class="color-bar">
+            <div class="color0">&nbsp;</div>
+            <div class="color1">&nbsp;</div>
+            <div class="color2">&nbsp;</div>
+            <div class="color3">&nbsp;</div>
+            <div class="color4">&nbsp;</div>
+        </div>
 
-<!-- Drop down bars: menu-dropdown.css -->
-      <div id="primary_nav_wrap">
-	<ul>
-	  <li><i class="fa fa-bars"></i>
-	    <ul>
-	      <li><a href="/">Home</a></li>
-	      <li><a href="/docs/cck/">Do-it-ourselves Guide to Community Wireless</a></li>
-	      <li><a href="/docs/intro-ct/">Community Technology</a></li>
-	      <li><a href="/docs/project-planning/">Project Planning</a></li>
-	      <li><a href="/docs/facilitation/">Facilitation</a></li>
-	      <li><a href="/docs/blog/">Blog</a></li>
-	      <li><a href="/contribute.html">Contribute</a></li>
-	    </ul>
-	  </li>
-	</ul>
-      </div>
-<!-- END Drop down bars -->
+    <!-- Drop down bars: menu-dropdown.css -->
+        <div id="primary_nav_wrap">
+        <ul>
+        <li><i class="fa fa-bars"></i>
+            <ul>
+            <li><a href="{{site.baseurl}}">Home</a></li>
+            <li><a href="{{site.baseurl}}/about">About</a></li>
+            <li><a href="{{site.baseurl}}/blog">Blog</a></li>
+            <li><a href="{{site.baseurl}}/docs">Documentation</a></li>
+            <li><a href="{{site.baseurl}}/download">Download</a></li>
+            <li><a href="{{site.baseurl}}/docs/cck">For Organizers</a></li>
+            <li><a href="{{site.baseurl}}/developer/resources">For Developers</a></li>
+            </ul>
+        </li>
+        </ul>
+        </div>
+    <!-- END Drop down bars -->
 
-      <div id="maintitle"><a href="{{site.baseurl}}/">{{site.title}}</a></div>
-      <ul>
-	{% for node in site.data.menu %}
-	<li class=""><a href="{{site.baseurl}}/{{node.url}}">{{node.title}}</a></li>
-	{% endfor %}
-      </ul>
-<!--
-	    <div id="homebutton">
-	      <div  class="faicon">
-		<span class="fa-stack">
-		  <a href="{{site.baseurl}}/index.html" id="homelink">
-		    <i class="fa fa-circle fa-stack-2x"></i>
-		    <i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
-		  </a>
-		</span>
-	      </div>
-	    </div>
--->
+        <div id="maintitle"><a href="{{site.baseurl}}/">{{site.title}}</a></div>
+        <ul>
+        {% for node in site.data.menu %}
+        <li class=""><a href="{{site.baseurl}}/{{node.url}}">{{node.title}}</a></li>
+        {% endfor %}
+        </ul>
+    <!--
+            <div id="homebutton">
+            <div  class="faicon">
+            <span class="fa-stack">
+            <a href="{{site.baseurl}}/index.html" id="homelink">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-level-up fa-stack-1x fa-inverse"></i>
+            </a>
+            </span>
+            </div>
+            </div>
+    -->
     </nav>
     
     <div id="header_wrap" class="outer">
-      <header class="inner {{include.width}} align-center">     
-	<h1 id="project_title">{{ include.title }}</h1>
-	<h2 id="project_tagline">{{ include.subtitle }}</h2>
-	{% if page.abstract %}
-	<section id="header-text">
-	  <p>{{ page.abstract }}</p>
-	</section>
-	{% endif %}
-      </header>
+    <header class="inner {{include.width}} align-center">     
+    <h1 id="project_title">{{ include.title }}</h1>
+    <h2 id="project_tagline">{{ include.subtitle }}</h2>
+    {% if page.abstract %}
+    <section id="header-text">
+    <p>{{ page.abstract }}</p>
+    </section>
+    {% endif %}
+    </header>
     </div>
     
     
-  </div>
-  <div id="main_content_wrap" class="outer">
+</div>
+<div id="main_content_wrap" class="outer">
     <div class="center-arrow-down" align="center"></div>
