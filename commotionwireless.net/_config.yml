@@ -1,6 +1,9 @@
 name: "Commotion Wireless"
 description: "Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks."
 
+baseurl: ""
+exclude: [attic]
+
 encoding: utf-8
 url: "commotionwireless.net"
 port: 4000 
@@ -14,5 +17,3 @@ permalink: /blog/:year/:month/:day/:title
 category_dir: /blog/category
 paginate: 10
 paginate_path: "blog/page-:num"
-
-exclude: [attic]
