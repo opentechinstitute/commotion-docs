@@ -65,8 +65,8 @@ grid:
     <div class="grid-cell grid-gallery">
       <div class="figure">
 	<a href="{{site.baseurl}}{{post.url}}">
-	  {% if cell.img %}
-	  <img src="{{site.baseurl}}{{post.img}}" />
+	  {% if post.teaser_image %}
+	  <img src="/{{site.imageurl}}/{{post.teaser_image}}" />
 	  {% else %}
 	  <img src="{{site.baseurl}}/icons/map.svg" style="padding:70px;"/>
 	  {% endif %}
