@@ -61,16 +61,16 @@ grid:
 <h3>Blog Posts + Reports</h3>
 <div class="grid home-width">
   <div class="grid-row">
-    {% for cell in site.categories.blog limit:6 %}
+    {% for post in site.posts limit:6 %}
     <div class="grid-cell grid-gallery">
       <div class="figure">
-	<a href="{{site.baseurl}}{{cell.url}}">
+	<a href="{{site.baseurl}}{{post.url}}">
 	  {% if cell.img %}
-	  <img src="{{site.baseurl}}{{cell.img}}" />
+	  <img src="{{site.baseurl}}{{post.img}}" />
 	  {% else %}
 	  <img src="{{site.baseurl}}/icons/map.svg" style="padding:70px;"/>
 	  {% endif %}
-	</a><div class="caption">{{cell.title}}</div>
+	</a><div class="caption">{{post.title}}</div>
       </div>
     </div>
     {% if forloop.last == false %}
