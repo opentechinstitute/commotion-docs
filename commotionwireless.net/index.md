@@ -9,34 +9,34 @@ post_author: oti
 lang: en
 grid:
  - cck:
-   title: Neighborhood Network Construction Kit
-   url: /docs/cck/index.html
+   title: Commotion Construction Kit
+   url: /docs/cck
    image: /icons/cck.svg
    text: A build-it-ourselves guide to community wireless networks
- - ct-intro:
-   title: Community Technology
-   url: /docs/intro-ct/index.html
+ - about:
+   title: About Commotion
+   url: /about
    image: /icons/stewards.svg
-   text: Activities for discussing digital justice and digital stewardship.
- - skillshares:
-   title: Skillshares
-   url:
+   text: 
+ - download:
+   title: Download
+   url: /download
    image: /icons/skillshare.png
-   text: (coming soon)
- - project-planning:
-   title: Project Planning Tools
-   text: Tools to help define and plan projects.
+   text: 
+ - documentation:
+   title: Documentation
+   text: 
    url: /docs/project-planning/
    image: /icons/projectplanning.svg
- - facilitation:
-   title: Facilitation Tools
-   text: Tools for facilitating community projects (draft).
-   url: /docs/facilitation/
+ - organizers:
+   title: For Organizers
+   text:
+   url: /docs/cck
    image: /icons/facilitation.svg
- - workshop-ideas:
-   title: Workshop Ideas
-   text: Workshop agendas for a half-day or four-days
-   url: /docs/workshops
+ - developers:
+   title: For Developers
+   text:
+   url: /docs/resources
    image: /icons/workshop-agenda.png
 ---
  
