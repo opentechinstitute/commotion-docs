@@ -36,7 +36,7 @@ grid:
  - developers:
    title: For Developers
    text:
-   url: /docs/resources
+   url: /developer/resources
    image: /icons/workshop-agenda.png
 ---
  
