@@ -1,0 +1,757 @@
+\hypertarget{util_8h}{\section{src/util.h File Reference}
+\label{util_8h}\index{src/util.\+h@{src/util.\+h}}
+}
+
+
+utility functions for the Commotion daemon  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdint.\+h$>$}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{util_8h_af3ee80d1bd2745bd7fed4a9b59067ff1}{\#define {\bfseries N\+E\+W}(O, T)~O\#\#\+\_\+create(sizeof(T\#\#\+\_\+t), T\#\#\+\_\+proto)}\label{util_8h_af3ee80d1bd2745bd7fed4a9b59067ff1}
+
+\item 
+\hypertarget{util_8h_af07df0e5b812c3055ffcc5ee7a7d65fb}{\#define {\bfseries \+\_\+}(N)~proto.\+N}\label{util_8h_af07df0e5b812c3055ffcc5ee7a7d65fb}
+
+\item 
+\hypertarget{util_8h_aba72aa079b3f6d2a09f075693b6140ce}{\#define {\bfseries L\+O\+W\+E\+R\+C\+A\+S\+E}(N)~for ( ; $\ast$N; ++N) $\ast$N = tolower($\ast$N);}\label{util_8h_aba72aa079b3f6d2a09f075693b6140ce}
+
+\item 
+\hypertarget{util_8h_a17924addcdece8b86316e2543acc5a11}{\#define {\bfseries U\+P\+P\+E\+R\+C\+A\+S\+E}(N)~for ( ; $\ast$N; ++N) $\ast$N = toupper($\ast$N);}\label{util_8h_a17924addcdece8b86316e2543acc5a11}
+
+\item 
+\hypertarget{util_8h_a29b7451465deac204c5f7cb1f9c6e1fc}{\#define {\bfseries M\+A\+X\+\_\+\+A\+R\+G\+S}~16}\label{util_8h_a29b7451465deac204c5f7cb1f9c6e1fc}
+
+\item 
+\hypertarget{util_8h_a07b8ba937fd75a40931657a93d64926b}{\#define {\bfseries B\+S\+S\+I\+D\+\_\+\+S\+I\+Z\+E}~6}\label{util_8h_a07b8ba937fd75a40931657a93d64926b}
+
+\item 
+\hypertarget{util_8h_ab098c38641727ba2aebc3621c6b9401c}{\#define {\bfseries B\+S\+S\+I\+D\+\_\+\+S\+T\+R\+\_\+\+S\+I\+Z\+E}~18}\label{util_8h_ab098c38641727ba2aebc3621c6b9401c}
+
+\item 
+\hypertarget{util_8h_a3b8e23da3811868feb2eb899f267d622}{\#define {\bfseries E\+S\+S\+I\+D\+\_\+\+S\+I\+Z\+E}~32}\label{util_8h_a3b8e23da3811868feb2eb899f267d622}
+
+\item 
+\hypertarget{util_8h_a5745e8a075423456b2ee9bbe723bc5f6}{\#define {\bfseries F\+R\+E\+Q\+\_\+\+S\+I\+Z\+E}~4}\label{util_8h_a5745e8a075423456b2ee9bbe723bc5f6}
+
+\item 
+\hypertarget{util_8h_ab7ef411847b693e526afebd2891a96e5}{\#define {\bfseries C\+H\+A\+N\+\_\+\+S\+I\+Z\+E}~2}\label{util_8h_ab7ef411847b693e526afebd2891a96e5}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{util_8h_aa7ded4861e1d9f143ff7895190e1920f}{typedef int($\ast$ {\bfseries file\+\_\+iter} )(const char $\ast$path, const char $\ast$filename)}\label{util_8h_aa7ded4861e1d9f143ff7895190e1920f}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+size\+\_\+t \hyperlink{util_8h_a961e5ee0f4941f07c0c5333e6cdd0fbd}{strlcat} (char $\ast$dst, const char $\ast$src, const size\+\_\+t size)
+\begin{DoxyCompactList}\small\item\em concatenates two strings \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{util_8h_ad8618012c7dd73f31b3ae67d737f5d81}{strlcpy} (char $\ast$dest, const char $\ast$src, const size\+\_\+t size)
+\begin{DoxyCompactList}\small\item\em copies a string \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{util_8h_aef41c1bda0e4c01b392a6d53c8e1b250}{snprintfcat} (char $\ast$str, size\+\_\+t size, const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em prints output from string \char`\"{}str\char`\"{} in a specified format \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{util_8h_a796d323883be8a12fb532650c33dd9e9}{strstrip} (const char $\ast$s, char $\ast$out, const size\+\_\+t outlen)
+\begin{DoxyCompactList}\small\item\em removes white space from a given string (to parse for arguments) \end{DoxyCompactList}\item 
+int \hyperlink{util_8h_aa2bdad1d2d047c4d139f58d1e36d7e3a}{compare\+\_\+version} (const char $\ast$aver, const char $\ast$bver)
+\begin{DoxyCompactList}\small\item\em compares version numbers of two software releases \end{DoxyCompactList}\item 
+int \hyperlink{util_8h_a7f3fbaf6ce8bc88138b3879ac4d7e696}{process\+\_\+files} (const char $\ast$dir\+\_\+path, file\+\_\+iter loader)
+\begin{DoxyCompactList}\small\item\em processes file paths \end{DoxyCompactList}\item 
+int \hyperlink{util_8h_abe2803bf574168dbb00c7d925e19311f}{string\+\_\+to\+\_\+argv} (const char $\ast$input, char $\ast$$\ast$argv, int $\ast$argc, const size\+\_\+t max)
+\begin{DoxyCompactList}\small\item\em parses a string and converts into a set of arguments \end{DoxyCompactList}\item 
+int \hyperlink{util_8h_ac91964df8965bca2fedef46aa8b9701f}{argv\+\_\+to\+\_\+string} (char $\ast$$\ast$argv, const int argc, char $\ast$output, const size\+\_\+t max)
+\begin{DoxyCompactList}\small\item\em converts argument vectors to a single string \end{DoxyCompactList}\item 
+void \hyperlink{util_8h_a59daebdf6fd62b5f3278203eaac0a1ed}{mac\+\_\+string\+\_\+to\+\_\+bytes} (char $\ast$macstr, unsigned char mac\mbox{[}6\mbox{]})
+\begin{DoxyCompactList}\small\item\em converts a M\+A\+C address from a string to individual bytes \end{DoxyCompactList}\item 
+void \hyperlink{util_8h_a672118d9eaf9812381995b78b4928841}{print\+\_\+mac} (unsigned char mac\mbox{[}6\mbox{]})
+\begin{DoxyCompactList}\small\item\em prints M\+A\+C address from M\+A\+C array \end{DoxyCompactList}\item 
+int \hyperlink{util_8h_a9b69bf84ea5b9f5a14f8143819cd0520}{wifi\+\_\+freq} (const int channel)
+\begin{DoxyCompactList}\small\item\em sets Wi-\/\+Fi frequency corresponding to specified channel \end{DoxyCompactList}\item 
+int \hyperlink{util_8h_ab9f1168eab6ce8233c2d0b78376f5724}{wifi\+\_\+chan} (const int frequency)
+\begin{DoxyCompactList}\small\item\em sets Wi-\/\+Fi channel corresponding to specified freuency \end{DoxyCompactList}\item 
+void \hyperlink{util_8h_a188ea8c443d6fc902e3f2cb8161b00f2}{get\+\_\+bssid} (const char $\ast$essid, const unsigned int channel, char $\ast$bssid)
+\begin{DoxyCompactList}\small\item\em generates a B\+S\+S\+I\+D from hash of E\+S\+S\+I\+D and channel \end{DoxyCompactList}\item 
+void \hyperlink{util_8h_a04b9be5761870c98157effa97032dfc1}{hexdump} (void $\ast$mem, unsigned int len)
+\begin{DoxyCompactList}\small\item\em prints a raw byte array in hex and ascii output \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+utility functions for the Commotion daemon 
+
+\begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\+net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{util_8h_ac91964df8965bca2fedef46aa8b9701f}{\index{util.\+h@{util.\+h}!argv\+\_\+to\+\_\+string@{argv\+\_\+to\+\_\+string}}
+\index{argv\+\_\+to\+\_\+string@{argv\+\_\+to\+\_\+string}!util.\+h@{util.\+h}}
+\subsubsection[{argv\+\_\+to\+\_\+string}]{\setlength{\rightskip}{0pt plus 5cm}int argv\+\_\+to\+\_\+string (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{argv, }
+\item[{const int}]{argc, }
+\item[{char $\ast$}]{output, }
+\item[{const size\+\_\+t}]{max}
+\end{DoxyParamCaption}
+)}}\label{util_8h_ac91964df8965bca2fedef46aa8b9701f}
+
+
+converts argument vectors to a single string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & pointer to argument list \\
+\hline
+{\em argc} & number of arguments \\
+\hline
+{\em output} & concatenated string of arguments \\
+\hline
+{\em max} & maximum length of the string \\
+\hline
+\end{DoxyParams}
+
+
+References strlcat().
+
+
+\begin{DoxyCode}
+184                                                                                 \{
+185   \textcolor{keywordtype}{int} i;
+186   \textcolor{keywordflow}{for}(i = 0; i < argc; i++) \{
+187     \hyperlink{util_8c_a961e5ee0f4941f07c0c5333e6cdd0fbd}{strlcat}(output, argv[i], max);
+188     \hyperlink{util_8c_a961e5ee0f4941f07c0c5333e6cdd0fbd}{strlcat}(output, \textcolor{stringliteral}{" "}, max);
+189   \}
+190   \textcolor{keywordflow}{if}(i < argc) \{
+191     ERROR(\textcolor{stringliteral}{"Failed to concatenate all of argv."});
+192     \textcolor{keywordflow}{return} 0;
+193   \} 
+194   \textcolor{keywordflow}{return} 1; 
+195 \}
+\end{DoxyCode}
+\hypertarget{util_8h_aa2bdad1d2d047c4d139f58d1e36d7e3a}{\index{util.\+h@{util.\+h}!compare\+\_\+version@{compare\+\_\+version}}
+\index{compare\+\_\+version@{compare\+\_\+version}!util.\+h@{util.\+h}}
+\subsubsection[{compare\+\_\+version}]{\setlength{\rightskip}{0pt plus 5cm}int compare\+\_\+version (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{aver, }
+\item[{const char $\ast$}]{bver}
+\end{DoxyParamCaption}
+)}}\label{util_8h_aa2bdad1d2d047c4d139f58d1e36d7e3a}
+
+
+compares version numbers of two software releases 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aver} & version number for software 'a' \\
+\hline
+{\em bver} & version number for software 'b' \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+117                                                         \{
+118   \textcolor{keywordtype}{char} *a, *b, *anext, *bnext;
+119   \textcolor{keywordtype}{long} \textcolor{keywordtype}{int} avalue, bvalue;
+120 
+121   \textcolor{comment}{// Grab pointer to first number in each version string.}
+122   a = strpbrk(aver, \textcolor{stringliteral}{"0123456789"});
+123   b = strpbrk(bver, \textcolor{stringliteral}{"0123456789"});
+124 
+125   \textcolor{keywordflow}{while}(a && b) \{
+126     \textcolor{comment}{// Convert characters to number.}
+127     avalue = strtol(a, &anext, 10);
+128     bvalue = strtol(b, &bnext, 10);
+129 
+130     \textcolor{keywordflow}{if}(avalue < bvalue) \textcolor{keywordflow}{return} -1;
+131     \textcolor{keywordflow}{if}(avalue > bvalue) \textcolor{keywordflow}{return} 1;
+132 
+133     a = strpbrk(anext, \textcolor{stringliteral}{"0123456789"});
+134     b = strpbrk(bnext, \textcolor{stringliteral}{"0123456789"});
+135   \}
+136 
+137   \textcolor{comment}{// If valid characters remain in 1 string, assume a point release.}
+138   \textcolor{keywordflow}{if}(b) \textcolor{keywordflow}{return} -1;
+139   \textcolor{keywordflow}{if}(a) \textcolor{keywordflow}{return} 1;
+140 
+141   \textcolor{comment}{// Versions are identical.}
+142   \textcolor{keywordflow}{return} 0;
+143 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a188ea8c443d6fc902e3f2cb8161b00f2}{\index{util.\+h@{util.\+h}!get\+\_\+bssid@{get\+\_\+bssid}}
+\index{get\+\_\+bssid@{get\+\_\+bssid}!util.\+h@{util.\+h}}
+\subsubsection[{get\+\_\+bssid}]{\setlength{\rightskip}{0pt plus 5cm}void get\+\_\+bssid (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{essid, }
+\item[{const unsigned int}]{channel, }
+\item[{char $\ast$}]{bssid}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a188ea8c443d6fc902e3f2cb8161b00f2}
+
+
+generates a B\+S\+S\+I\+D from hash of E\+S\+S\+I\+D and channel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em essid} & The E\+S\+S\+I\+D to hash \\
+\hline
+{\em channel} & an integer of the channel \\
+\hline
+{\em bbsid} & The returned 6-\/byte B\+S\+S\+I\+D \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+315                                                                         \{
+316   DEBUG(\textcolor{stringliteral}{"ESSID: %s, Channel: %d"}, essid, chan);
+317   \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} hash[BSSID\_SIZE];
+318   memset(hash, \textcolor{charliteral}{'\(\backslash\)0'}, \textcolor{keyword}{sizeof}(hash));
+319   \textcolor{keywordtype}{char} channel[CHAN\_SIZE];
+320   memset(channel, \textcolor{charliteral}{'\(\backslash\)0'}, \textcolor{keyword}{sizeof}(channel));
+321   \textcolor{keywordtype}{int} i;
+322   \hyperlink{structMD5__CTX}{MD5\_CTX} ctx;
+323   MD5\_Init(&ctx);
+324 
+325   MD5\_Update(&ctx, essid, strlen(essid));
+326   MD5\_Final(hash, &ctx);
+327   DEBUG(\textcolor{stringliteral}{"Hash: %s"}, (\textcolor{keywordtype}{char} *)hash);
+328 
+329   \textcolor{keywordflow}{for}(i = 0; i < BSSID\_SIZE - CHAN\_SIZE; i++)
+330   \{
+331     bssid[i] = hash[i];
+332     DEBUG(\textcolor{stringliteral}{"BSSID byte %d as char: %c, as int: %d"}, i, bssid[i], bssid[i]);
+333   \}
+334 
+335   \textcolor{comment}{/*}
+336 \textcolor{comment}{   * Set the first byte to 0x02 (the value of}
+337 \textcolor{comment}{   * a link-local ethernet address) which is}
+338 \textcolor{comment}{   * required for a valid bssid.}
+339 \textcolor{comment}{   */}
+340   bssid[0] = 0x02;
+341 
+342   bssid[i] = chan / 10;
+343   bssid[i + 1] = chan % 10;
+344 
+345   DEBUG(\textcolor{stringliteral}{"BSSID buffer: %s"}, (\textcolor{keywordtype}{char} *)bssid);
+346 
+347   \textcolor{keywordflow}{return};
+348 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a04b9be5761870c98157effa97032dfc1}{\index{util.\+h@{util.\+h}!hexdump@{hexdump}}
+\index{hexdump@{hexdump}!util.\+h@{util.\+h}}
+\subsubsection[{hexdump}]{\setlength{\rightskip}{0pt plus 5cm}void hexdump (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{mem, }
+\item[{unsigned int}]{len}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a04b9be5761870c98157effa97032dfc1}
+
+
+prints a raw byte array in hex and ascii output 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mem} & the byte array to print \\
+\hline
+{\em len} & length of the byte array \\
+\hline
+\end{DoxyParams}
+
+
+References H\+E\+X\+D\+U\+M\+P\+\_\+\+C\+O\+L\+S.
+
+
+\begin{DoxyCode}
+372 \{
+373   \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i, j;
+374   
+375   \textcolor{keywordflow}{for}(i = 0; i < len + ((len % \hyperlink{util_8c_acf2c5fe0549ea905f765ac31e9718403}{HEXDUMP\_COLS}) ? (\hyperlink{util_8c_acf2c5fe0549ea905f765ac31e9718403}{HEXDUMP\_COLS} - len % 
+      \hyperlink{util_8c_acf2c5fe0549ea905f765ac31e9718403}{HEXDUMP\_COLS}) : 0); i++)
+376   \{
+377     \textcolor{comment}{/* print offset */}
+378     \textcolor{keywordflow}{if}(i % HEXDUMP\_COLS == 0)
+379     \{
+380       printf(\textcolor{stringliteral}{"0x%06x: "}, i);
+381     \}
+382     
+383     \textcolor{comment}{/* print hex data */}
+384     \textcolor{keywordflow}{if}(i < len)
+385     \{
+386       printf(\textcolor{stringliteral}{"%02x "}, 0xFF & ((\textcolor{keywordtype}{char}*)mem)[i]);
+387     \}
+388     \textcolor{keywordflow}{else} \textcolor{comment}{/* end of block, just aligning for ASCII dump */}
+389     \{
+390       printf(\textcolor{stringliteral}{"   "});
+391     \}
+392     
+393     \textcolor{comment}{/* print ASCII dump */}
+394     \textcolor{keywordflow}{if}(i % HEXDUMP\_COLS == (HEXDUMP\_COLS - 1))
+395     \{
+396       \textcolor{keywordflow}{for}(j = i - (HEXDUMP\_COLS - 1); j <= i; j++)
+397       \{
+398   \textcolor{keywordflow}{if}(j >= len) \textcolor{comment}{/* end of block, not really printing */}
+399   \{
+400     putchar(\textcolor{charliteral}{' '});
+401   \}
+402   \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(isprint(((\textcolor{keywordtype}{char}*)mem)[j])) \textcolor{comment}{/* printable char */}
+403   \{
+404     putchar(0xFF & ((\textcolor{keywordtype}{char}*)mem)[j]);        
+405   \}
+406   \textcolor{keywordflow}{else} \textcolor{comment}{/* other char */}
+407   \{
+408     putchar(\textcolor{charliteral}{'.'});
+409   \}
+410       \}
+411       putchar(\textcolor{charliteral}{'\(\backslash\)n'});
+412     \}
+413   \}
+414 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a59daebdf6fd62b5f3278203eaac0a1ed}{\index{util.\+h@{util.\+h}!mac\+\_\+string\+\_\+to\+\_\+bytes@{mac\+\_\+string\+\_\+to\+\_\+bytes}}
+\index{mac\+\_\+string\+\_\+to\+\_\+bytes@{mac\+\_\+string\+\_\+to\+\_\+bytes}!util.\+h@{util.\+h}}
+\subsubsection[{mac\+\_\+string\+\_\+to\+\_\+bytes}]{\setlength{\rightskip}{0pt plus 5cm}void mac\+\_\+string\+\_\+to\+\_\+bytes (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{macstr, }
+\item[{unsigned char}]{mac\mbox{[}6\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a59daebdf6fd62b5f3278203eaac0a1ed}
+
+
+converts a M\+A\+C address from a string to individual bytes 
+
+
+\begin{DoxyParams}{Parameters}
+{\em macstr} & M\+A\+C string \\
+\hline
+{\em mac} & an array for storing the M\+A\+C address \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+197                                                              \{
+198   memset(mac, \textcolor{charliteral}{'\(\backslash\)0'}, 6);
+199   sscanf(macstr, \textcolor{stringliteral}{"%hhx:%hhx:%hhx:%hhx:%hhx:%hhx"}, &mac[0], &mac[1], &mac[2], &mac[3], &mac[4], &mac[5]);
+200   \textcolor{keywordflow}{return};
+201 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a672118d9eaf9812381995b78b4928841}{\index{util.\+h@{util.\+h}!print\+\_\+mac@{print\+\_\+mac}}
+\index{print\+\_\+mac@{print\+\_\+mac}!util.\+h@{util.\+h}}
+\subsubsection[{print\+\_\+mac}]{\setlength{\rightskip}{0pt plus 5cm}void print\+\_\+mac (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{mac\mbox{[}6\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a672118d9eaf9812381995b78b4928841}
+
+
+prints M\+A\+C address from M\+A\+C array 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mac} & array storing M\+A\+C address \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+203                                      \{
+204   printf(\textcolor{stringliteral}{"%02x:%02x:%02x:%02x:%02x:%02x"}, mac[0] & 0xff, mac[1] & 0xff, mac[2] & 0xff, mac[3] & 0xff, mac[4
+      ] & 0xff, mac[5] & 0xff);
+205   \textcolor{keywordflow}{return};
+206 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a7f3fbaf6ce8bc88138b3879ac4d7e696}{\index{util.\+h@{util.\+h}!process\+\_\+files@{process\+\_\+files}}
+\index{process\+\_\+files@{process\+\_\+files}!util.\+h@{util.\+h}}
+\subsubsection[{process\+\_\+files}]{\setlength{\rightskip}{0pt plus 5cm}int process\+\_\+files (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{dir\+\_\+path, }
+\item[{file\+\_\+iter}]{loader}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a7f3fbaf6ce8bc88138b3879ac4d7e696}
+
+
+processes file paths 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+path} & string of the directory path \\
+\hline
+{\em loader} & number of directories in the file path \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\+\_\+plugins\+\_\+load(), and co\+\_\+profile\+\_\+import\+\_\+files().
+
+
+\begin{DoxyCode}
+145                                                           \{
+146   \textcolor{keywordtype}{size\_t} path\_size = strlen(dir\_path);
+147   CHECK((path\_size > 0) && (path\_size <= PATH\_MAX), \textcolor{stringliteral}{"Invalid path length!"});
+148   DIR *dir\_iter = NULL;
+149   CHECK((dir\_iter = opendir(dir\_path)), \textcolor{stringliteral}{"Could not read directory!"});
+150   \textcolor{keyword}{struct }dirent *dir\_entry = NULL;
+151   DEBUG(\textcolor{stringliteral}{"Processing files in directory %s"}, dir\_path);
+152   
+153   \textcolor{keywordflow}{while}((dir\_entry = readdir(dir\_iter)) != NULL) \{
+154     DEBUG(\textcolor{stringliteral}{"Checking file %s"}, dir\_entry->d\_name);
+155     \textcolor{keywordflow}{if}(!strcmp(dir\_entry->d\_name, \textcolor{stringliteral}{"."})) \textcolor{keywordflow}{continue};
+156     \textcolor{keywordflow}{if}(!strcmp(dir\_entry->d\_name, \textcolor{stringliteral}{".."})) \textcolor{keywordflow}{continue};
+157     \textcolor{keywordflow}{if}(!(*loader)(dir\_path, dir\_entry->d\_name)) \textcolor{keywordflow}{break};
+158   \}
+159 
+160   \textcolor{keywordflow}{if}(dir\_iter) closedir(dir\_iter);
+161   \textcolor{keywordflow}{return} 1;
+162 
+163 error:
+164   \textcolor{keywordflow}{return} 0;
+165 \}
+\end{DoxyCode}
+\hypertarget{util_8h_aef41c1bda0e4c01b392a6d53c8e1b250}{\index{util.\+h@{util.\+h}!snprintfcat@{snprintfcat}}
+\index{snprintfcat@{snprintfcat}!util.\+h@{util.\+h}}
+\subsubsection[{snprintfcat}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t snprintfcat (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{str, }
+\item[{size\+\_\+t}]{size, }
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{util_8h_aef41c1bda0e4c01b392a6d53c8e1b250}
+
+
+prints output from string \char`\"{}str\char`\"{} in a specified format 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string to be printed \\
+\hline
+{\em size} & size of string \\
+\hline
+{\em format} & output format \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+74                                                                     \{
+75   \textcolor{keywordtype}{size\_t} result;
+76   va\_list args;
+77   \textcolor{keywordtype}{size\_t} len = strnlen(str, size);
+78 
+79   va\_start(args, format);
+80   result = vsnprintf(str + len, size - len, format, args);
+81   va\_end(args);
+82 
+83   \textcolor{keywordflow}{return} result + len;
+84 \}
+\end{DoxyCode}
+\hypertarget{util_8h_abe2803bf574168dbb00c7d925e19311f}{\index{util.\+h@{util.\+h}!string\+\_\+to\+\_\+argv@{string\+\_\+to\+\_\+argv}}
+\index{string\+\_\+to\+\_\+argv@{string\+\_\+to\+\_\+argv}!util.\+h@{util.\+h}}
+\subsubsection[{string\+\_\+to\+\_\+argv}]{\setlength{\rightskip}{0pt plus 5cm}int string\+\_\+to\+\_\+argv (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{input, }
+\item[{char $\ast$$\ast$}]{argv, }
+\item[{int $\ast$}]{argc, }
+\item[{const size\+\_\+t}]{max}
+\end{DoxyParamCaption}
+)}}\label{util_8h_abe2803bf574168dbb00c7d925e19311f}
+
+
+parses a string and converts into a set of arguments 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the string to be parsed \\
+\hline
+{\em argv} & pointer to argument list \\
+\hline
+{\em argc} & number of arguments read from the string \\
+\hline
+{\em max} & maximum length of string \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+167                                                                                 \{
+168   \textcolor{keywordtype}{int} count = 0;
+169   \textcolor{keywordtype}{char} *saveptr = NULL;
+170   \textcolor{keywordtype}{char} *token = NULL;
+171   \textcolor{keywordtype}{char} *input\_tmp = strdup(input);
+172   CHECK\_MEM(token = strtok\_r(input\_tmp, \textcolor{stringliteral}{" "}, &saveptr));
+173   \textcolor{keywordflow}{while}(token && count < max) \{
+174     argv[count++] = token;
+175     token = strtok\_r(NULL, \textcolor{stringliteral}{" "}, &saveptr);
+176   \}
+177   *argc = count;
+178   \textcolor{keywordflow}{return} 1; 
+179 error:
+180   free(input\_tmp);
+181   \textcolor{keywordflow}{return} 0;
+182 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a961e5ee0f4941f07c0c5333e6cdd0fbd}{\index{util.\+h@{util.\+h}!strlcat@{strlcat}}
+\index{strlcat@{strlcat}!util.\+h@{util.\+h}}
+\subsubsection[{strlcat}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t strlcat (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{dst, }
+\item[{const char $\ast$}]{src, }
+\item[{const size\+\_\+t}]{size}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a961e5ee0f4941f07c0c5333e6cdd0fbd}
+
+
+concatenates two strings 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dst} & destination for new string \\
+\hline
+{\em src} & string to be added to \\
+\hline
+{\em size} & size of combined strings \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by argv\+\_\+to\+\_\+string().
+
+
+\begin{DoxyCode}
+61 \{
+62   \textcolor{keywordtype}{size\_t} used, length, copy;
+63 
+64   used = strlen(dst);
+65   length = strlen(src);
+66   \textcolor{keywordflow}{if} (size > 0 && used < size - 1) \{
+67     copy = (length >= size - used) ? size - used - 1 : length;
+68     memcpy(dst + used, src, copy);
+69     dst[used + copy] = \textcolor{charliteral}{'\(\backslash\)0'};
+70   \}
+71   \textcolor{keywordflow}{return} used + length;
+72 \}
+\end{DoxyCode}
+\hypertarget{util_8h_ad8618012c7dd73f31b3ae67d737f5d81}{\index{util.\+h@{util.\+h}!strlcpy@{strlcpy}}
+\index{strlcpy@{strlcpy}!util.\+h@{util.\+h}}
+\subsubsection[{strlcpy}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t strlcpy (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{dest, }
+\item[{const char $\ast$}]{src, }
+\item[{const size\+\_\+t}]{size}
+\end{DoxyParamCaption}
+)}}\label{util_8h_ad8618012c7dd73f31b3ae67d737f5d81}
+
+
+copies a string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dst} & destination for new string \\
+\hline
+{\em src} & string to be copied \\
+\hline
+{\em size} & size of string \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\+\_\+iface\+\_\+add(), and strstrip().
+
+
+\begin{DoxyCode}
+51 \{
+52   \textcolor{keyword}{const} \textcolor{keywordtype}{size\_t} length = strlen(src);
+53   \textcolor{keywordflow}{if} (size != 0) \{
+54     memmove(dest, src, (length > size - 1) ? size - 1 : length);
+55     dest[size - 1] = \textcolor{charliteral}{'\(\backslash\)0'};
+56   \}
+57   \textcolor{keywordflow}{return} length;
+58 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a796d323883be8a12fb532650c33dd9e9}{\index{util.\+h@{util.\+h}!strstrip@{strstrip}}
+\index{strstrip@{strstrip}!util.\+h@{util.\+h}}
+\subsubsection[{strstrip}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t strstrip (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{s, }
+\item[{char $\ast$}]{out, }
+\item[{const size\+\_\+t}]{outlen}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a796d323883be8a12fb532650c33dd9e9}
+
+
+removes white space from a given string (to parse for arguments) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & string to parse \\
+\hline
+{\em out} & output from the string (with white space removed) \\
+\hline
+{\em outlen} & length of the output \\
+\hline
+\end{DoxyParams}
+
+
+References strlcpy().
+
+
+\begin{DoxyCode}
+101                                                          \{
+102   \textcolor{keywordtype}{size\_t} len = strlen(s);
+103   \textcolor{keyword}{const} \textcolor{keywordtype}{char} *ptr = s;
+104   \textcolor{keywordflow}{if}(len == 0) \textcolor{keywordflow}{return} 0;
+105 
+106   \textcolor{keywordflow}{while}(*ptr && isspace(*ptr)) \{
+107     ++ptr; 
+108     --len;
+109   \}
+110 
+111   \textcolor{keywordflow}{if}(len <= outlen) \{
+112     \hyperlink{util_8c_ad8618012c7dd73f31b3ae67d737f5d81}{strlcpy}(out, ptr, len + 1);
+113     \textcolor{keywordflow}{return} len;
+114   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} -1;
+115 \}
+\end{DoxyCode}
+\hypertarget{util_8h_ab9f1168eab6ce8233c2d0b78376f5724}{\index{util.\+h@{util.\+h}!wifi\+\_\+chan@{wifi\+\_\+chan}}
+\index{wifi\+\_\+chan@{wifi\+\_\+chan}!util.\+h@{util.\+h}}
+\subsubsection[{wifi\+\_\+chan}]{\setlength{\rightskip}{0pt plus 5cm}int wifi\+\_\+chan (
+\begin{DoxyParamCaption}
+\item[{const int}]{frequency}
+\end{DoxyParamCaption}
+)}}\label{util_8h_ab9f1168eab6ce8233c2d0b78376f5724}
+
+
+sets Wi-\/\+Fi channel corresponding to specified freuency 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frequency} & specified frequency \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+261                                    \{
+262   \textcolor{keywordflow}{if}(frequency < 5080) \{
+263     \textcolor{keywordflow}{return} (frequency - 5000)/5;
+264   \}
+265   \textcolor{keywordflow}{switch}(frequency) \{
+266     \textcolor{keywordflow}{case} 2412:
+267       \textcolor{keywordflow}{return} 1;
+268       \textcolor{keywordflow}{break};
+269     \textcolor{keywordflow}{case} 2417:
+270       \textcolor{keywordflow}{return} 2;
+271       \textcolor{keywordflow}{break};
+272     \textcolor{keywordflow}{case} 2422:
+273       \textcolor{keywordflow}{return} 3;
+274       \textcolor{keywordflow}{break};
+275     \textcolor{keywordflow}{case} 2427:
+276       \textcolor{keywordflow}{return} 4;
+277       \textcolor{keywordflow}{break};
+278     \textcolor{keywordflow}{case} 2432:
+279       \textcolor{keywordflow}{return} 5;
+280       \textcolor{keywordflow}{break};
+281     \textcolor{keywordflow}{case} 2437:
+282       \textcolor{keywordflow}{return} 6;
+283       \textcolor{keywordflow}{break};
+284     \textcolor{keywordflow}{case} 2442:
+285       \textcolor{keywordflow}{return} 7;
+286       \textcolor{keywordflow}{break};
+287     \textcolor{keywordflow}{case} 2447:
+288       \textcolor{keywordflow}{return} 8;
+289       \textcolor{keywordflow}{break};
+290     \textcolor{keywordflow}{case} 2452:
+291       \textcolor{keywordflow}{return} 9;
+292       \textcolor{keywordflow}{break};
+293     \textcolor{keywordflow}{case} 2457:
+294       \textcolor{keywordflow}{return} 10;
+295       \textcolor{keywordflow}{break};
+296     \textcolor{keywordflow}{case} 2462:
+297       \textcolor{keywordflow}{return} 11;
+298       \textcolor{keywordflow}{break};
+299     \textcolor{keywordflow}{case} 2467:
+300       \textcolor{keywordflow}{return} 12;
+301       \textcolor{keywordflow}{break};
+302     \textcolor{keywordflow}{case} 2472:
+303       \textcolor{keywordflow}{return} 13;
+304       \textcolor{keywordflow}{break};
+305     \textcolor{keywordflow}{case} 2484:
+306       \textcolor{keywordflow}{return} 14;
+307       \textcolor{keywordflow}{break};
+308     \textcolor{keywordflow}{default}:
+309       ERROR(\textcolor{stringliteral}{"Not a valid frequency!"});
+310       \textcolor{keywordflow}{return} 0;
+311   \}
+312 
+313 \}
+\end{DoxyCode}
+\hypertarget{util_8h_a9b69bf84ea5b9f5a14f8143819cd0520}{\index{util.\+h@{util.\+h}!wifi\+\_\+freq@{wifi\+\_\+freq}}
+\index{wifi\+\_\+freq@{wifi\+\_\+freq}!util.\+h@{util.\+h}}
+\subsubsection[{wifi\+\_\+freq}]{\setlength{\rightskip}{0pt plus 5cm}int wifi\+\_\+freq (
+\begin{DoxyParamCaption}
+\item[{const int}]{channel}
+\end{DoxyParamCaption}
+)}}\label{util_8h_a9b69bf84ea5b9f5a14f8143819cd0520}
+
+
+sets Wi-\/\+Fi frequency corresponding to specified channel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & specified channel \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+208                                  \{
+209   \textcolor{keywordflow}{if}(channel > 14) \{
+210     \textcolor{keywordflow}{return} 5000 + 5*channel;
+211   \}
+212   \textcolor{keywordflow}{switch}(channel) \{
+213     \textcolor{keywordflow}{case} 1:
+214       \textcolor{keywordflow}{return} 2412;
+215       \textcolor{keywordflow}{break};
+216     \textcolor{keywordflow}{case} 2:
+217       \textcolor{keywordflow}{return} 2417;
+218       \textcolor{keywordflow}{break};
+219     \textcolor{keywordflow}{case} 3:
+220       \textcolor{keywordflow}{return} 2422;
+221       \textcolor{keywordflow}{break};
+222     \textcolor{keywordflow}{case} 4:
+223       \textcolor{keywordflow}{return} 2427;
+224       \textcolor{keywordflow}{break};
+225     \textcolor{keywordflow}{case} 5:
+226       \textcolor{keywordflow}{return} 2432;
+227       \textcolor{keywordflow}{break};
+228     \textcolor{keywordflow}{case} 6:
+229       \textcolor{keywordflow}{return} 2437;
+230       \textcolor{keywordflow}{break};
+231     \textcolor{keywordflow}{case} 7:
+232       \textcolor{keywordflow}{return} 2442;
+233       \textcolor{keywordflow}{break};
+234     \textcolor{keywordflow}{case} 8:
+235       \textcolor{keywordflow}{return} 2447;
+236       \textcolor{keywordflow}{break};
+237     \textcolor{keywordflow}{case} 9:
+238       \textcolor{keywordflow}{return} 2452;
+239       \textcolor{keywordflow}{break};
+240     \textcolor{keywordflow}{case} 10:
+241       \textcolor{keywordflow}{return} 2457;
+242       \textcolor{keywordflow}{break};
+243     \textcolor{keywordflow}{case} 11:
+244       \textcolor{keywordflow}{return} 2462;
+245       \textcolor{keywordflow}{break};
+246     \textcolor{keywordflow}{case} 12:
+247       \textcolor{keywordflow}{return} 2467;
+248       \textcolor{keywordflow}{break};
+249     \textcolor{keywordflow}{case} 13:
+250       \textcolor{keywordflow}{return} 2472;
+251       \textcolor{keywordflow}{break};
+252     \textcolor{keywordflow}{case} 14:
+253       \textcolor{keywordflow}{return} 2484;
+254       \textcolor{keywordflow}{break};
+255     \textcolor{keywordflow}{default}:
+256       ERROR(\textcolor{stringliteral}{"Not a valid channel!"});
+257       \textcolor{keywordflow}{return} 0;
+258   \}
+259 \}
+\end{DoxyCode}
