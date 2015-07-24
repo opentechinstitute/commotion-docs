@@ -26,7 +26,7 @@ grid:
  - documentation:
    title: Documentation
    text: 
-   url: /docs/project-planning/
+   url: /docs
    image: /icons/projectplanning.svg
  - organizers:
    title: For Organizers
