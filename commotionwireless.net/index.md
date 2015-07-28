@@ -2,7 +2,7 @@
 layout: default
 title: "Commotion Wireless"
 tagline:
-categories: 
+categories:
 created: 2013-09-20
 changed: 2015-07-20
 post_author: oti
@@ -17,15 +17,15 @@ grid:
    title: About Commotion
    url: /about
    image: /icons/stewards.svg
-   text: 
+   text:
  - download:
    title: Download
    url: /download
    image: /icons/skillshare.png
-   text: 
+   text:
  - documentation:
    title: Documentation
-   text: 
+   text:
    url: /docs
    image: /icons/projectplanning.svg
  - organizers:
@@ -39,10 +39,10 @@ grid:
    url: /developer/resources
    image: /icons/workshop-agenda.png
 ---
- 
+
 <div class="grid home-width">
   <div class="grid-row">
-    
+
     {% for cell in page.grid %}
     <div class="grid-cell">
       <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
@@ -50,10 +50,10 @@ grid:
       <h5>{{cell.text}}</h5>
     </div>
     {% if forloop.last == false %}
-    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %} 
+    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %}
     {% endif %}
     {% endfor %}
-    
+
   </div>
 </div>
 
@@ -74,7 +74,7 @@ grid:
       </div>
     </div>
     {% if forloop.last == false %}
-    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %} 
+    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %}
     {% endif %}
     {% endfor %}
   </div>
@@ -82,22 +82,3 @@ grid:
     <div class="grid-cell"><a href="{{site.baseurl}}/blog/">MORE POSTS > </a></div>
   </div>
 </div>
-
-
-<div id="planning" class="section">
-  <h3>Planning to Host a Workshop?</h3>
-  
-</div>
-
-<div id="contribute" class="section">
-  <h3>Contribute</h3>
-</div>
-
-<div id="other-resources" class="section">
-  <h3>Other Resources</h3>
-  <ul>
-    <li><a href="https://commotionwireless.net/">Commotion Wireless</a></li>
-  </ul>
-</div>
-
-   
