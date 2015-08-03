@@ -44,12 +44,10 @@ grid:
   <div class="grid-row">
 
     {% for cell in page.grid %}
-    <a href="{{site.baseurl}}{{cell.url}}" class="simple">
-        <div class="grid-cell">
-            <img src="{{site.baseurl}}{{cell.image}}" class="grid-icon">
-            <h4>{{cell.title}}</h4>
-            <h5>{{cell.text}}</h5>
-        </div>
+    <a href="{{site.baseurl}}{{cell.url}}" class="grid-cell simple">
+        <img src="{{site.baseurl}}{{cell.image}}" class="grid-icon">
+        <h4>{{cell.title}}</h4>
+        <h5>{{cell.text}}</h5>
     </a>
     {% if forloop.last == false %}
     {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %}
