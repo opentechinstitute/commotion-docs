@@ -1,0 +1,346 @@
+\hypertarget{serval-dna_8c}{\section{plugins/serval-\/dna/serval-\/dna.c File Reference}
+\label{serval-dna_8c}\index{plugins/serval-\/dna/serval-\/dna.\+c@{plugins/serval-\/dna/serval-\/dna.\+c}}
+}
+
+
+re-\/implementation of the serval-\/dna daemon as a commotiond plugin  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdbool.\+h$>$}\\*
+{\ttfamily \#include $<$poll.\+h$>$}\\*
+{\ttfamily \#include $<$serval.\+h$>$}\\*
+{\ttfamily \#include $<$serval/conf.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}debug.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}plugin.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}socket.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}loop.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}util.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}tree.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}profile.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}cmd.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}serval-\/dna.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}crypto.\+h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structco__alarm__t}{co\+\_\+alarm\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{serval-dna_8c_a14e0b93876e52cc552f15e115574a5f7}{\#define {\bfseries \+\_\+alarm}~42}\label{serval-dna_8c_a14e0b93876e52cc552f15e115574a5f7}
+
+\item 
+\hypertarget{serval-dna_8c_a424c673123b463e7d8bdd369464d4ca3}{\#define {\bfseries I\+S\+\_\+\+A\+L\+A\+R\+M}(J)~(I\+S\+\_\+\+E\+X\+T(J) \&\& ((\hyperlink{structco__alarm__t}{co\+\_\+alarm\+\_\+t} $\ast$)J)-\/$>$\+\_\+exttype == \+\_\+alarm)}\label{serval-dna_8c_a424c673123b463e7d8bdd369464d4ca3}
+
+\item 
+\#define {\bfseries S\+C\+H\+E\+D\+U\+L\+E}(X, Y, D)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{serval-dna_8c_a1555be4d16034b506577764fbd2cfb5d}{serval\+\_\+socket\+\_\+cb} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$context)
+\item 
+\hypertarget{serval-dna_8c_a00d4df9eabb0ac594cc118143943392f}{int {\bfseries serval\+\_\+timer\+\_\+cb} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$context)}\label{serval-dna_8c_a00d4df9eabb0ac594cc118143943392f}
+
+\item 
+int \hyperlink{serval-dna_8c_ac6820e398043d975ed62c7ef795b4bb9}{\+\_\+schedule} (struct \+\_\+\+\_\+sourceloc \+\_\+\+\_\+whence, struct sched\+\_\+ent $\ast$alarm)
+\item 
+int \hyperlink{serval-dna_8c_a0ac6aba06cbf32257e8d8780e7e714d7}{\+\_\+unschedule} (struct \+\_\+\+\_\+sourceloc \+\_\+\+\_\+whence, struct sched\+\_\+ent $\ast$alarm)
+\item 
+int \hyperlink{serval-dna_8c_abdd84be4acf337a90ceac0a33493a41b}{\+\_\+watch} (struct \+\_\+\+\_\+sourceloc \+\_\+\+\_\+whence, struct sched\+\_\+ent $\ast$alarm)
+\item 
+\hypertarget{serval-dna_8c_a48af839503a9b8e7cdea4139c0df172e}{int {\bfseries \+\_\+unwatch} (struct \+\_\+\+\_\+sourceloc \+\_\+\+\_\+whence, struct sched\+\_\+ent $\ast$alarm)}\label{serval-dna_8c_a48af839503a9b8e7cdea4139c0df172e}
+
+\item 
+\hypertarget{serval-dna_8c_ab65e09211a66e5e4a54fcb0e963af7fe}{int {\bfseries co\+\_\+plugin\+\_\+name} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8c_ab65e09211a66e5e4a54fcb0e963af7fe}
+
+\item 
+\hypertarget{serval-dna_8c_adc9141d5a1e77b476cdbbda5368d280b}{{\bfseries S\+C\+H\+E\+M\+A} (serval)}\label{serval-dna_8c_adc9141d5a1e77b476cdbbda5368d280b}
+
+\item 
+\hypertarget{serval-dna_8c_a2fdb05eee64a7e5ebcf76b5859c92839}{{\bfseries S\+C\+H\+E\+M\+A} (mdp)}\label{serval-dna_8c_a2fdb05eee64a7e5ebcf76b5859c92839}
+
+\item 
+\hypertarget{serval-dna_8c_a3bbb939458a3edc82ae0bfe5602967df}{int {\bfseries co\+\_\+plugin\+\_\+register} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8c_a3bbb939458a3edc82ae0bfe5602967df}
+
+\item 
+\hypertarget{serval-dna_8c_a0eccb03577be7f0f0e22a4d427f8773f}{int {\bfseries co\+\_\+plugin\+\_\+init} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8c_a0eccb03577be7f0f0e22a4d427f8773f}
+
+\item 
+\hypertarget{serval-dna_8c_adef3d509f8db4a677d75c4bca5142d8a}{int {\bfseries co\+\_\+plugin\+\_\+shutdown} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8c_adef3d509f8db4a677d75c4bca5142d8a}
+
+\item 
+\hypertarget{serval-dna_8c_a31d498ab46d883bda2967eca577b8890}{int {\bfseries serval\+\_\+daemon\+\_\+handler} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{serval-dna_8c_a31d498ab46d883bda2967eca577b8890}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{serval-dna_8c_a7a52b0448c6882066b1f48ba930b679a}{keyring\+\_\+file $\ast$ {\bfseries keyring}}\label{serval-dna_8c_a7a52b0448c6882066b1f48ba930b679a}
+
+\item 
+\hypertarget{serval-dna_8c_ae6dcf225692e114eb5dade5319d1c2b1}{char $\ast$ {\bfseries serval\+\_\+path}}\label{serval-dna_8c_ae6dcf225692e114eb5dade5319d1c2b1}
+
+\item 
+\hypertarget{serval-dna_8c_aa3bc9a031270798ec23f3e4d5d8bd194}{\hyperlink{structco__socket__t}{co\+\_\+socket\+\_\+t} {\bfseries co\+\_\+socket\+\_\+proto} = \{\}}\label{serval-dna_8c_aa3bc9a031270798ec23f3e4d5d8bd194}
+
+\item 
+\hypertarget{serval-dna_8c_aee0ec69f237cb29e0fc7ff6de57f4c71}{\hyperlink{structsvl__crypto__ctx}{svl\+\_\+crypto\+\_\+ctx} $\ast$ {\bfseries global\+\_\+ctx} = N\+U\+L\+L}\label{serval-dna_8c_aee0ec69f237cb29e0fc7ff6de57f4c71}
+
+\item 
+\hypertarget{serval-dna_8c_a0df258448a082ec4ee8793665db88117}{bool {\bfseries serval\+\_\+registered} = false}\label{serval-dna_8c_a0df258448a082ec4ee8793665db88117}
+
+\item 
+\hypertarget{serval-dna_8c_a67540b930502e6cd48eb1f9bf6fd9392}{bool {\bfseries daemon\+\_\+started} = false}\label{serval-dna_8c_a67540b930502e6cd48eb1f9bf6fd9392}
+
+\item 
+\hypertarget{serval-dna_8c_a35312d60364fde2d5ba79a8eb0ec7425}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries err\+\_\+msg}}\label{serval-dna_8c_a35312d60364fde2d5ba79a8eb0ec7425}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+re-\/implementation of the serval-\/dna daemon as a commotiond plugin 
+
+\begin{DoxyAuthor}{Author}
+Dan Staples (dismantl), \href{mailto:danstaples@opentechinstitute.org}{\tt danstaples@opentechinstitute.\+org} 
+\end{DoxyAuthor}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{serval-dna_8c_aacacf16451a2f743536bca42c4ebfd3a}{\index{serval-\/dna.\+c@{serval-\/dna.\+c}!S\+C\+H\+E\+D\+U\+L\+E@{S\+C\+H\+E\+D\+U\+L\+E}}
+\index{S\+C\+H\+E\+D\+U\+L\+E@{S\+C\+H\+E\+D\+U\+L\+E}!serval-\/dna.\+c@{serval-\/dna.\+c}}
+\subsubsection[{S\+C\+H\+E\+D\+U\+L\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+C\+H\+E\+D\+U\+L\+E(
+\begin{DoxyParamCaption}
+\item[{}]{X, }
+\item[{}]{Y, }
+\item[{}]{D}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8c_aacacf16451a2f743536bca42c4ebfd3a}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\{ \(\backslash\)
+static \textcolor{keyword}{struct }profile\_total \_stats\_##X=\{.name=\textcolor{stringliteral}{""} #X \textcolor{stringliteral}{""},\}; \(\backslash\)
+static \textcolor{keyword}{struct }sched\_ent \_sched\_##X=\{\(\backslash\)
+.stats = &\_stats\_##X, \(\backslash\)
+.function=X,\(\backslash\)
+\}; \(\backslash\)
+\_sched\_##X.alarm=(gettime\_ms()+Y);\(\backslash\)
+\_sched\_##X.deadline=(gettime\_ms()+Y+D);\(\backslash\)
+schedule(&\_sched\_##X); \}
+\end{DoxyCode}
+
+
+\subsection{Function Documentation}
+\hypertarget{serval-dna_8c_ac6820e398043d975ed62c7ef795b4bb9}{\index{serval-\/dna.\+c@{serval-\/dna.\+c}!\+\_\+schedule@{\+\_\+schedule}}
+\index{\+\_\+schedule@{\+\_\+schedule}!serval-\/dna.\+c@{serval-\/dna.\+c}}
+\subsubsection[{\+\_\+schedule}]{\setlength{\rightskip}{0pt plus 5cm}int \+\_\+schedule (
+\begin{DoxyParamCaption}
+\item[{struct \+\_\+\+\_\+sourceloc}]{\+\_\+\+\_\+whence, }
+\item[{struct sched\+\_\+ent $\ast$}]{alarm}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8c_ac6820e398043d975ed62c7ef795b4bb9}
+Overridden Serval function to schedule timed events this messes up Serval's overlay interface setup 
+
+References co\+\_\+list\+\_\+append(), co\+\_\+list\+\_\+parse(), co\+\_\+loop\+\_\+add\+\_\+timer(), and co\+\_\+timer\+\_\+create().
+
+
+\begin{DoxyCode}
+160                                                                     \{
+161 \textcolor{comment}{//   DEBUG("###### SCHEDULE ######");}
+162   \hyperlink{structco__obj__t}{co\_obj\_t} *timer = NULL, *node = NULL;
+163   
+164   CHECK(alarm->function,\textcolor{stringliteral}{"No callback function associated with timer"});
+165   CHECK(!(node = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(timer\_alarms, \_alarm\_ptr\_match\_i, alarm)),\textcolor{stringliteral}{"Trying to schedule
+       duplicate alarm %p"},alarm);
+166   
+167   time\_ms\_t now = gettime\_ms();
+168   
+169   \textcolor{keywordflow}{if} (alarm->deadline < alarm->alarm)
+170     alarm->deadline = alarm->alarm;
+171   
+172   CHECK(now - alarm->alarm <= 1000,\textcolor{stringliteral}{"Alarm tried to schedule a deadline %lldms ago, from %s() %s:%d"},
+173    (now - alarm->deadline),
+174    \_\_whence.function,\_\_whence.file,\_\_whence.line);
+175   \textcolor{comment}{}
+176 \textcolor{comment}{  /** this messes up Serval's overlay interface setup */}
+177   \textcolor{comment}{// if the alarm has already expired, execute callback function}
+178 \textcolor{comment}{//   if (alarm->deadline <= now) \{}
+179 \textcolor{comment}{//     DEBUG("ALREADY EXPIRED, DEADLINE %lld %lld",alarm->alarm, gettime\_ms());}
+180 \textcolor{comment}{//     alarm->function(alarm);}
+181 \textcolor{comment}{//     return 0;}
+182 \textcolor{comment}{//   \}}
+183   
+184 \textcolor{comment}{//   DEBUG("NEW TIMER: ALARM %lld - %lld = %lld %p",alarm->alarm,now,alarm->alarm - now,alarm);}
+185   CHECK(alarm->alarm - now < 86400000,\textcolor{stringliteral}{"Timer deadline is more than 24 hrs from now, ignoring"});
+186 
+187   time\_ms\_t deadline\_time;
+188   \textcolor{keyword}{struct }timeval deadline;
+189 \textcolor{comment}{//   if (alarm->alarm - now > 1)}
+190     deadline\_time = alarm->alarm;
+191 \textcolor{comment}{//   else}
+192 \textcolor{comment}{//     deadline\_time = alarm->deadline;}
+193 
+194   deadline.tv\_sec = deadline\_time / 1000;
+195   deadline.tv\_usec = (deadline\_time % 1000) * 1000;
+196   \textcolor{keywordflow}{if} (deadline.tv\_usec > 1000000) \{
+197     deadline.tv\_sec++;
+198     deadline.tv\_usec %= 1000000;
+199   \}
+200 
+201   CHECK\_MEM((timer = \hyperlink{loop_8c_ad2df16784f2796d2415250cd0a2abd19}{co\_timer\_create}(deadline, serval\_timer\_cb, alarm)));
+202   CHECK(\hyperlink{loop_8c_a1aa3e1a56c2c4d841f4a5a481a5cbd57}{co\_loop\_add\_timer}(timer,NULL),\textcolor{stringliteral}{"Failed to add timer %ld.%06ld %p"},deadline.tv\_sec,
+      deadline.tv\_usec,alarm);
+203   CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(timer\_alarms,co\_alarm\_create(alarm)),\textcolor{stringliteral}{"Failed to add to timer\_alarms"});
+204   
+205   \textcolor{keywordflow}{return} 0;
+206   
+207 error:
+208   \textcolor{keywordflow}{if} (timer) free(timer);
+209   \textcolor{keywordflow}{return} -1;
+210 \}
+\end{DoxyCode}
+\hypertarget{serval-dna_8c_a0ac6aba06cbf32257e8d8780e7e714d7}{\index{serval-\/dna.\+c@{serval-\/dna.\+c}!\+\_\+unschedule@{\+\_\+unschedule}}
+\index{\+\_\+unschedule@{\+\_\+unschedule}!serval-\/dna.\+c@{serval-\/dna.\+c}}
+\subsubsection[{\+\_\+unschedule}]{\setlength{\rightskip}{0pt plus 5cm}int \+\_\+unschedule (
+\begin{DoxyParamCaption}
+\item[{struct \+\_\+\+\_\+sourceloc}]{\+\_\+\+\_\+whence, }
+\item[{struct sched\+\_\+ent $\ast$}]{alarm}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8c_a0ac6aba06cbf32257e8d8780e7e714d7}
+Overridden Serval function to unschedule timed events 
+
+References co\+\_\+list\+\_\+delete(), co\+\_\+list\+\_\+parse(), co\+\_\+loop\+\_\+get\+\_\+timer(), and co\+\_\+loop\+\_\+remove\+\_\+timer().
+
+
+\begin{DoxyCode}
+213                                                                       \{
+214 \textcolor{comment}{//   DEBUG("###### UNSCHEDULE ######");}
+215   \hyperlink{structco__obj__t}{co\_obj\_t} *alarm\_node = NULL, *timer = NULL;
+216   
+217 \textcolor{comment}{//   CHECK((alarm\_node = co\_list\_parse(timer\_alarms, \_alarm\_ptr\_match\_i, alarm)),"Attempting to unschedule
+       timer that is not scheduled");}
+218   \textcolor{keywordflow}{if} (!(alarm\_node = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(timer\_alarms, \_alarm\_ptr\_match\_i, alarm))) \textcolor{keywordflow}{goto} error;
+219   \hyperlink{list_8c_a80fbd77f231ae88663c5d0bb25bdfd6c}{co\_list\_delete}(timer\_alarms,alarm\_node);
+220   co\_obj\_free(alarm\_node);
+221   
+222   \textcolor{comment}{// Get the timer associated with the alarm}
+223   CHECK((timer = \hyperlink{loop_8c_aac6c95a37b381c1584dbd0e8776c69a3}{co\_loop\_get\_timer}(alarm,NULL)),\textcolor{stringliteral}{"Could not find timer to remove"});
+224   CHECK(\hyperlink{loop_8c_a15cca15cee610bb8222250aef0073b8e}{co\_loop\_remove\_timer}(timer,NULL),\textcolor{stringliteral}{"Failed to remove timer from event loop"});
+225   co\_obj\_free(timer);
+226   
+227   \textcolor{keywordflow}{return} 0;
+228   
+229 error:
+230   \textcolor{keywordflow}{return} -1;
+231 \}
+\end{DoxyCode}
+\hypertarget{serval-dna_8c_abdd84be4acf337a90ceac0a33493a41b}{\index{serval-\/dna.\+c@{serval-\/dna.\+c}!\+\_\+watch@{\+\_\+watch}}
+\index{\+\_\+watch@{\+\_\+watch}!serval-\/dna.\+c@{serval-\/dna.\+c}}
+\subsubsection[{\+\_\+watch}]{\setlength{\rightskip}{0pt plus 5cm}int \+\_\+watch (
+\begin{DoxyParamCaption}
+\item[{struct \+\_\+\+\_\+sourceloc}]{\+\_\+\+\_\+whence, }
+\item[{struct sched\+\_\+ent $\ast$}]{alarm}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8c_abdd84be4acf337a90ceac0a33493a41b}
+Overridden Serval function to register sockets with event loop need to set\+: sock-\/$>$fd sock-\/$>$rfd sock-\/$>$listen sock-\/$>$uri sock-\/$>$poll\+\_\+cb sock-\/$>$fd\+\_\+registered sock-\/$>$rfd\+\_\+registered
+
+References co\+\_\+fd\+\_\+create(), co\+\_\+list\+\_\+append(), co\+\_\+list\+\_\+parse(), co\+\_\+loop\+\_\+add\+\_\+socket(), and serval\+\_\+socket\+\_\+cb().
+
+
+\begin{DoxyCode}
+234                                                                  \{
+235 \textcolor{comment}{//   DEBUG("OVERRIDDEN WATCH FUNCTION!");}
+236   \hyperlink{structco__socket__t}{co\_socket\_t} *sock = NULL;
+237   \textcolor{comment}{}
+238 \textcolor{comment}{  /** need to set:}
+239 \textcolor{comment}{   *  sock->fd}
+240 \textcolor{comment}{   *  sock->rfd}
+241 \textcolor{comment}{   *  sock->listen}
+242 \textcolor{comment}{   *  sock->uri}
+243 \textcolor{comment}{   *  sock->poll\_cb}
+244 \textcolor{comment}{   *  sock->fd\_registered}
+245 \textcolor{comment}{   *  sock->rfd\_registered}
+246 \textcolor{comment}{   */}
+247   
+248   \textcolor{keywordflow}{if} ((alarm->\_poll\_index == 1) || \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(sock\_alarms, \_alarm\_ptr\_match\_i, alarm)) \{
+249     WARN(\textcolor{stringliteral}{"Socket %d already registered: %d"},alarm->poll.fd,alarm->\_poll\_index);
+250   \} \textcolor{keywordflow}{else} \{
+251     sock = (\hyperlink{structco__socket__t}{co\_socket\_t}*)NEW(co\_socket, co\_socket);
+252     
+253     sock->fd = (\hyperlink{structco__fd__t}{co\_fd\_t}*)\hyperlink{socket_8c_ab2e5544e69816fead5d69bedddf46aaf}{co\_fd\_create}((\hyperlink{structco__obj__t}{co\_obj\_t}*)sock,alarm->poll.fd);
+254     sock->rfd\_lst = co\_list16\_create();
+255     sock->listen = \textcolor{keyword}{true};
+256     \textcolor{comment}{// NOTE: Aren't able to get the Serval socket uris, so instead use string representation of fd}
+257     sock->uri = h\_calloc(1,6);
+258     hattach(sock->uri,sock);
+259     sprintf(sock->uri,\textcolor{stringliteral}{"%d"},sock->fd->fd);
+260     sock->fd\_registered = \textcolor{keyword}{false};
+261     sock->local = NULL;
+262     sock->remote = NULL;
+263   
+264     sock->poll\_cb = \hyperlink{serval-dna_8c_a1555be4d16034b506577764fbd2cfb5d}{serval\_socket\_cb};
+265   
+266     \textcolor{comment}{// register sock}
+267     CHECK(\hyperlink{loop_8c_aecd6703f3b0738ef8dd9c31967dc48bf}{co\_loop\_add\_socket}((\hyperlink{structco__obj__t}{co\_obj\_t}*)sock, (
+      \hyperlink{structco__obj__t}{co\_obj\_t}*)sock->fd) == 1,\textcolor{stringliteral}{"Failed to add socket %d"},sock->fd->fd);
+268     DEBUG(\textcolor{stringliteral}{"Successfully added socket %d"},sock->fd->fd);
+269   
+270     sock->fd\_registered = \textcolor{keyword}{true};
+271     \textcolor{comment}{// NOTE: it would be better to get the actual poll index from the event loop instead of this:}
+272     alarm->\_poll\_index = 1;
+273     alarm->poll.revents = 0;
+274     
+275     CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(sock\_alarms, co\_alarm\_create(alarm)),\textcolor{stringliteral}{"Failed to add to sock\_alarms"})
+      ;
+276     DEBUG(\textcolor{stringliteral}{"Successfully added to sock\_alarms %p"},alarm);
+277   \}
+278   
+279   \textcolor{keywordflow}{return} 0;
+280 error:
+281   \textcolor{keywordflow}{if} (sock) free((\hyperlink{structco__obj__t}{co\_obj\_t}*)sock);
+282   \textcolor{keywordflow}{return} -1;
+283 \}
+\end{DoxyCode}
+\hypertarget{serval-dna_8c_a1555be4d16034b506577764fbd2cfb5d}{\index{serval-\/dna.\+c@{serval-\/dna.\+c}!serval\+\_\+socket\+\_\+cb@{serval\+\_\+socket\+\_\+cb}}
+\index{serval\+\_\+socket\+\_\+cb@{serval\+\_\+socket\+\_\+cb}!serval-\/dna.\+c@{serval-\/dna.\+c}}
+\subsubsection[{serval\+\_\+socket\+\_\+cb}]{\setlength{\rightskip}{0pt plus 5cm}int serval\+\_\+socket\+\_\+cb (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{self, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{context}
+\end{DoxyParamCaption}
+)}}\label{serval-dna_8c_a1555be4d16034b506577764fbd2cfb5d}
+Callback function for when Serval socket has data to read 
+
+References co\+\_\+list\+\_\+parse().
+
+
+
+Referenced by \+\_\+watch().
+
+
+\begin{DoxyCode}
+117                                                         \{
+118 \textcolor{comment}{//   DEBUG("SERVAL\_SOCKET\_CB");}
+119   \hyperlink{structco__socket__t}{co\_socket\_t} *sock = (\hyperlink{structco__socket__t}{co\_socket\_t}*)\textcolor{keyword}{self};
+120   \hyperlink{structco__obj__t}{co\_obj\_t} *node = NULL;
+121   \textcolor{keyword}{struct }sched\_ent *alarm = NULL;
+122   
+123   \textcolor{comment}{// find alarm associated w/ sock, call alarm->function(alarm)}
+124   \textcolor{keywordflow}{if} ((node = \hyperlink{list_8c_a53067bb4fab9f78bdc6e69381bbccd16}{co\_list\_parse}(sock\_alarms, \_alarm\_fd\_match\_i, &sock->fd->fd))) \{
+125     alarm = ((\hyperlink{structco__alarm__t}{co\_alarm\_t}*)node)->alarm;
+126     alarm->poll.revents = sock->events;
+127     
+128     alarm->function(alarm); \textcolor{comment}{// Serval callback function associated with alarm/socket}
+129     alarm->poll.revents = 0;
+130     
+131     \textcolor{keywordflow}{return} 1;
+132   \}
+133   
+134   \textcolor{keywordflow}{return} 0;
+135 \}
+\end{DoxyCode}

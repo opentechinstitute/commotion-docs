@@ -1,6 +1,6 @@
----
+﻿---
 layout: downloads
-title: Download Commotion for Desktop/Laptop Computers
+title: Descarga para Commotion para Computadoras de Escritorio/Laptops
 categories: 
 created: 2013-07-06
 changed: 2013-12-31
@@ -9,72 +9,40 @@ lang: es
 ---
 <div class="warning-label">
 <div class="warning-top">
-<h2>WARNING</h2>
+<h2>ADVERTENCIA</h2>
 </div>
 
 <div class="warning-bottom">
 <h2>Commotion</h2>
 
 <ul>
-        <li><a href="/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
-        <li><a href="/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
-        <li><a href="/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
+        <li><a href="/understanding-commotions-warning-label#anonymity">No puede esconder tu identidad</a></li>
+        <li><a href="/understanding-commotions-warning-label#internet">No previene el monitoreo del tráfico de internet</a></li>
+        <li><a href="/understanding-commotions-warning-label#monitoring">No provee fuerte seguridad contra el monitoreo sobre el enmallado</a></li>
         <li><a href="/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
 </ul>
-<a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
+<a href="/understanding-commotions-warning-label">Para Mayor Información Da Click Aquí</a></div>
 </div>
-<h2>Linux</h2>
+<h2>Cliente Commotion</h2>
+<p>El equipo de desarrollo de Commotion ha rediseñado la hoja de ruta para un cruce-compilado/cruce-de-plataforma del Cliente Commotion. El desarrollo activo del <a href="https://github.com/opentechinstitute/commotion-client">Cliente Commotion </a> está en proceso.</p>
 
-<p>Commotion Linux is an application bundle currently packaged for Debian, Ubuntu and other Debian based distros. Development of Commotion Linux is ongoing, but it is now near DR2 feature parity with Commotion OpenWRT.</p>
+<p>El desarrollo del Cliente Commotion se enfocará primero en una aplicación completamente funcional para Linux, seguida por clientes para Mac y Windows.</p>
 
-<p>We expect release of Commotion Linux v1.0 in early 2014, with an easier PPA-based installation process.</p>
+<h2>Prototipo de Clientes sin Soporte</h2>
 
-<h3>Features</h3>
+<h3>Linux</h3>
+<p>Nuestro prototipo de cliente que llevó a este cambio en la dirección de diseño fue Commotion Linux. El desarrollo Inicial de Commotion Linux resultó en paquetes .deb compatibles con Ubuntu y Debian Linux. Nosotros proveemos los <a href="https://downloads.commotionwireless.net/linux" target="_blank">paquetes Commotion Linux .deb</a> para la posteridad y el uso de las partes interesadas. Ve el archivo de Leeme en el **paquete commotion-linux-py.deb** para las instrucciones de instalación. Nota que Commotion Linuz es compatible con nuestra versión DR2, pero no es compatible con versiones más recientes de Commotion como Commotion Router 1.0 y 1.1. Tampoco está soportado por el equipo de Commotion.</p>
 
-<ul>
-	<li>Encrypted backhaul</li>
-	<li>Service advertisement</li>
-	<li>Network-manager and "fallback" connection paths.</li>
-	<li>Auto-generation and retainment of IBSS cell parameters and IP addresses</li>
-	<li>Extensive logging, dumped to various files in /tmp</li>
-	<li>Various bugfixes and usability enhancements</li>
-	<li>Tested, confirmed working with the following distros:
-	<ul>
-		<li>Ubuntu 12.04 or greater&nbsp;</li>
-	</ul>
-	</li>
-</ul>
+<h3>Mac OS</h3>
 
-<p>A more extensive readme can be found in the <a href="http://downloads.commotionwireless.net/linux/commotion-linux-py_0.2-1_all.deb">commotion-linux-py.deb</a> package, which can be downloaded from<a href="https://downloads.commotionwireless.net/linux"> https://downloads.commotionwireless.net/linux</a></p>
+<p>Commotion MeshBook es una  OSX utility app de código abierto que permite a las computadoras Mac crear y conectarse a las redes mesh, o dispositivos enmallados. Una conexión básica de cliente y administrador de perfil está disponible para versiones OS X 10.7 y 10.8. Commotion MeshBook es un concepto de prototipo y ya no está en desarrollo activo.</p>
 
-<h3>Installation</h3>
+<p>Commotion MeshBook será sustituido por <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p> 
 
-<p>Currently you must install the Commotion Linux client packages with <em>dpkg</em>, and resolve dependencies that may not be installed on your system. We will soon be publishing Commotion Linux in a PPA, so installation of Commotion Linux can be down through your system's package manager.</p>
+<p>EL prototipo Commotion MeshBook está disponible en nuestra <a href="https://github.com/opentechinstitute/commotion-meshbook" target="_blank">página del Proyecto Github</a> si estás interesado en construir, probar y contribuir a la aplicación Commotion MeshBook.</p>
 
-<ul>
-	<li>Download all the packages available at <a href="https://downloads.commotionwireless.net/linux">https://downloads.commotionwireless.net/linux</a></li>
-	<li>Install them with:</li>
-</ul>
+<h3>Windows</h3>
 
-<pre>
-cd $DOWNLOAD_DIRECTORY
-sudo dpkg -i *.deb</pre>
-
-<ul>
-	<li>You will almost certainly see dependency errors during this process resolve them with:</li>
-</ul>
-
-<pre>
-sudo apt-get install -f sudo dpkg -i *.debi</pre>
-
-<h2>Mac</h2>
-
-<p>Commotion MeshBook is an open-source OSX utility app that allows Mac computer to create and connect to mesh networks and meshed devices. A basic networking client and profile manager is available for OS X versions 10.7 and 10.8. Commotion MeshBook is currently in development and is unsupported.</p>
-
-<p>Go to our <a href="https://github.com/opentechinstitute/commotion-meshbook" target="_blank">Github Project page</a> if you are interested in building, testing or contributing to the Commotion MeshBook app.<br />
-<em>(external link: OTI Github Project page)</em></p>
-
-<h2>Windows</h2>
-
-<p>The Commotion client for Windows operating systems is currently in development and is unsupported. You can follow development and find instructions on compiling the Commotion Windows client on our <a href="https://github.com/opentechinstitute/commotion-winmesh">Github Project, commotion-winmesh</a>.</p>
+<p>El cliente Commotion para los sistemas operativos de Windows es una prueba de un  concepto de prototipo y no tiene soporte. Las personas interesadas pueden encontrar instrucciones para compilar el cliente Commotion Windows en nuestro <a href="https://github.com/opentechinstitute/commotion-winmesh">Proyecto Github, commotion-winmesh</a>.</p>
  
+<p>Commotion WinMesh será sustituido por <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p> 

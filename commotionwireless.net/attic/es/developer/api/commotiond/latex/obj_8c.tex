@@ -1,0 +1,173 @@
+\hypertarget{obj_8c}{\section{src/obj.c File Reference}
+\label{obj_8c}\index{src/obj.\+c@{src/obj.\+c}}
+}
+
+
+Commotion object model.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stddef.\+h$>$}\\*
+{\ttfamily \#include $<$stdbool.\+h$>$}\\*
+{\ttfamily \#include $<$stdint.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}debug.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}obj.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}tree.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}extern/halloc.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{obj_8c_ad5857aa82e57ef7002c73ee8d331f01f}{\#define {\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+B\+I\+N}(L)}\label{obj_8c_ad5857aa82e57ef7002c73ee8d331f01f}
+
+\item 
+\hypertarget{obj_8c_a41a4d95009790bb8731d6985ad66888c}{\#define {\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+S\+T\+R}(L)}\label{obj_8c_a41a4d95009790bb8731d6985ad66888c}
+
+\item 
+\#define {\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R}(T, L)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{obj_8c_ab3cba706aeee7856a8993d086021a35a}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+B\+I\+N} (8)}\label{obj_8c_ab3cba706aeee7856a8993d086021a35a}
+
+\item 
+\hypertarget{obj_8c_a287044f3f69a60a16f5915a30ea70da2}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+B\+I\+N} (16)}\label{obj_8c_a287044f3f69a60a16f5915a30ea70da2}
+
+\item 
+\hypertarget{obj_8c_a10375982dec828c8fc47d401641d42c1}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+B\+I\+N} (32)}\label{obj_8c_a10375982dec828c8fc47d401641d42c1}
+
+\item 
+\hypertarget{obj_8c_a0dfc07e7746f674b3aa111d675dbcda3}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+S\+T\+R} (8)}\label{obj_8c_a0dfc07e7746f674b3aa111d675dbcda3}
+
+\item 
+\hypertarget{obj_8c_a42f40cd2c9f3d9be056a380b9770af51}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+S\+T\+R} (16)}\label{obj_8c_a42f40cd2c9f3d9be056a380b9770af51}
+
+\item 
+\hypertarget{obj_8c_a480336bf35aa0c8da618b449ba84ba73}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+S\+T\+R} (32)}\label{obj_8c_a480336bf35aa0c8da618b449ba84ba73}
+
+\item 
+\hypertarget{obj_8c_a04e687a85b4642263219dc51cac5ed40}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (int, 8)}\label{obj_8c_a04e687a85b4642263219dc51cac5ed40}
+
+\item 
+\hypertarget{obj_8c_a4ec1c197b4c71b375e7324ba608f5c8e}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (int, 16)}\label{obj_8c_a4ec1c197b4c71b375e7324ba608f5c8e}
+
+\item 
+\hypertarget{obj_8c_acef3da3c8d98624c6eb7b902c482d5cd}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (int, 32)}\label{obj_8c_acef3da3c8d98624c6eb7b902c482d5cd}
+
+\item 
+\hypertarget{obj_8c_af45df099093a9aa72c273b0fa621b313}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (int, 64)}\label{obj_8c_af45df099093a9aa72c273b0fa621b313}
+
+\item 
+\hypertarget{obj_8c_aa9de7b8396235b5321b693ea6c57df33}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (uint, 8)}\label{obj_8c_aa9de7b8396235b5321b693ea6c57df33}
+
+\item 
+\hypertarget{obj_8c_a66e7f34bf1a6a564ec32db8559b85513}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (uint, 16)}\label{obj_8c_a66e7f34bf1a6a564ec32db8559b85513}
+
+\item 
+\hypertarget{obj_8c_a0d9795b0584034fa8760d8e2c6780ff3}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (uint, 32)}\label{obj_8c_a0d9795b0584034fa8760d8e2c6780ff3}
+
+\item 
+\hypertarget{obj_8c_ad2a4e49a45dc82128bd2babf7b9929d8}{{\bfseries \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R} (uint, 64)}\label{obj_8c_ad2a4e49a45dc82128bd2babf7b9929d8}
+
+\item 
+\hypertarget{obj_8c_a9c5effb684f53dd90b9466ff73d678f6}{int {\bfseries co\+\_\+nil\+\_\+alloc} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$output, const uint8\+\_\+t flags)}\label{obj_8c_a9c5effb684f53dd90b9466ff73d678f6}
+
+\item 
+\hypertarget{obj_8c_af33a7792abd38d92dfe7d6b984d39ead}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries co\+\_\+nil\+\_\+create} (const uint8\+\_\+t flags)}\label{obj_8c_af33a7792abd38d92dfe7d6b984d39ead}
+
+\item 
+\hypertarget{obj_8c_ae981079ff73d1556deaa70d856267de6}{int {\bfseries co\+\_\+bool\+\_\+alloc} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$output, const bool input, const uint8\+\_\+t flags)}\label{obj_8c_ae981079ff73d1556deaa70d856267de6}
+
+\item 
+\hypertarget{obj_8c_a99df2e512f3e4d4f6b37d45470f96f4c}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries co\+\_\+bool\+\_\+create} (const bool input, const uint8\+\_\+t flags)}\label{obj_8c_a99df2e512f3e4d4f6b37d45470f96f4c}
+
+\item 
+\hypertarget{obj_8c_ac44934f48e3b77c5fcc8703043c1f9c0}{int {\bfseries co\+\_\+fixint\+\_\+alloc} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$output, const int input, const uint8\+\_\+t flags)}\label{obj_8c_ac44934f48e3b77c5fcc8703043c1f9c0}
+
+\item 
+\hypertarget{obj_8c_a843bd8385ff023aaa19fbefe2887eb3a}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries co\+\_\+fixint\+\_\+create} (const int input, const uint8\+\_\+t flags)}\label{obj_8c_a843bd8385ff023aaa19fbefe2887eb3a}
+
+\item 
+\hypertarget{obj_8c_ae268895cfd912ef27f2cf1cde09b91ba}{int {\bfseries co\+\_\+float32\+\_\+alloc} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$output, const float input, const uint8\+\_\+t flags)}\label{obj_8c_ae268895cfd912ef27f2cf1cde09b91ba}
+
+\item 
+\hypertarget{obj_8c_ace46098225b5c69b37b88eff38a886dd}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries co\+\_\+float32\+\_\+create} (const double input, const uint8\+\_\+t flags)}\label{obj_8c_ace46098225b5c69b37b88eff38a886dd}
+
+\item 
+\hypertarget{obj_8c_a833e5c094ad8a06950b0fcbd0a8b174f}{int {\bfseries co\+\_\+float64\+\_\+alloc} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$output, const double input, const uint8\+\_\+t flags)}\label{obj_8c_a833e5c094ad8a06950b0fcbd0a8b174f}
+
+\item 
+\hypertarget{obj_8c_aec046eb3cc4cd2e805cf98935f2c594d}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries co\+\_\+float64\+\_\+create} (const double input, const uint8\+\_\+t flags)}\label{obj_8c_aec046eb3cc4cd2e805cf98935f2c594d}
+
+\item 
+\hypertarget{obj_8c_aea45e98d9cbfffbce21ab10e80f261e8}{void {\bfseries co\+\_\+obj\+\_\+free} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object)}\label{obj_8c_aea45e98d9cbfffbce21ab10e80f261e8}
+
+\item 
+\hypertarget{obj_8c_a90c15664fb94ed7850904d14eb2f84b9}{size\+\_\+t {\bfseries co\+\_\+obj\+\_\+raw} (char $\ast$$\ast$data, const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object)}\label{obj_8c_a90c15664fb94ed7850904d14eb2f84b9}
+
+\item 
+\hypertarget{obj_8c_a4e61a66d53c85091d81de49ae5d40c33}{size\+\_\+t {\bfseries co\+\_\+obj\+\_\+data} (char $\ast$$\ast$data, const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object)}\label{obj_8c_a4e61a66d53c85091d81de49ae5d40c33}
+
+\item 
+\hypertarget{obj_8c_a26033858f20a99166f920d4f96d2f5ab}{size\+\_\+t {\bfseries co\+\_\+obj\+\_\+import} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, const char $\ast$input, const size\+\_\+t in\+\_\+size, const uint8\+\_\+t flags)}\label{obj_8c_a26033858f20a99166f920d4f96d2f5ab}
+
+\item 
+\hypertarget{obj_8c_a9ad3b006ba90441eaebcd023fa475ccc}{int {\bfseries co\+\_\+obj\+\_\+getflags} (const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object)}\label{obj_8c_a9ad3b006ba90441eaebcd023fa475ccc}
+
+\item 
+\hypertarget{obj_8c_aaa0c2be4866510a50356bcff9119499c}{void {\bfseries co\+\_\+obj\+\_\+setflags} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$object, const int flags)}\label{obj_8c_aaa0c2be4866510a50356bcff9119499c}
+
+\item 
+\hypertarget{obj_8c_a7f63b22883d3c02c69d3971cb378b09d}{int {\bfseries co\+\_\+str\+\_\+copy} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$dst, const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$src, const size\+\_\+t size)}\label{obj_8c_a7f63b22883d3c02c69d3971cb378b09d}
+
+\item 
+\hypertarget{obj_8c_a5ae69bdb9672569fcf993bb147fd932a}{int {\bfseries co\+\_\+str\+\_\+cat} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$dst, const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$src, const size\+\_\+t size)}\label{obj_8c_a5ae69bdb9672569fcf993bb147fd932a}
+
+\item 
+\hypertarget{obj_8c_afafe7c043f441b8fc1ad71a75c836977}{int {\bfseries co\+\_\+str\+\_\+cmp} (const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$a, const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$b)}\label{obj_8c_afafe7c043f441b8fc1ad71a75c836977}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Commotion object model. 
+
+\begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\+net} 
+\end{DoxyAuthor}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{obj_8c_a5cd4cee5a804b72c03a6e13249bc7e87}{\index{obj.\+c@{obj.\+c}!\+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R@{\+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R}}
+\index{\+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R@{\+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R}!obj.\+c@{obj.\+c}}
+\subsubsection[{\+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+\+D\+E\+F\+I\+N\+E\+\_\+\+I\+N\+T\+E\+G\+E\+R(
+\begin{DoxyParamCaption}
+\item[{}]{T, }
+\item[{}]{L}
+\end{DoxyParamCaption}
+)}}\label{obj_8c_a5cd4cee5a804b72c03a6e13249bc7e87}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordtype}{int} co\_##T##L##\_alloc(\hyperlink{structco__obj__t}{co\_obj\_t} *output, \(\backslash\)
+    \textcolor{keyword}{const} T##L##\_t input, \textcolor{keyword}{const} uint8\_t flags) \(\backslash\)
+    \{ \(\backslash\)
+      output->\_type = \_##T##L; \(\backslash\)
+      output->\_flags = flags; \(\backslash\)
+      output->\_ref = 0; \(\backslash\)
+      (((co\_##T##L##\_t *)output)->data) = (uint32\_t)input; \(\backslash\)
+      return 1; \(\backslash\)
+    \} \(\backslash\)
+  co\_obj\_t *co\_##T##L##\_create(\(\backslash\)
+    \textcolor{keyword}{const} T##L##\_t input, \textcolor{keyword}{const} uint8\_t flags) \(\backslash\)
+    \{ \(\backslash\)
+      int output\_size = \textcolor{keyword}{sizeof}(T##L##\_t) + \textcolor{keyword}{sizeof}(\hyperlink{structco__obj__t}{co\_obj\_t}); \(\backslash\)
+      co\_obj\_t *output = h\_calloc(1, output\_size); \(\backslash\)
+      CHECK\_MEM(output); \(\backslash\)
+      CHECK(co\_##T##L##\_alloc(output, input, flags), \(\backslash\)
+          \textcolor{stringliteral}{"Failed to allocate object."}); \(\backslash\)
+      return output; \(\backslash\)
+    error: \(\backslash\)
+      return NULL; \(\backslash\)
+    \}
+\end{DoxyCode}

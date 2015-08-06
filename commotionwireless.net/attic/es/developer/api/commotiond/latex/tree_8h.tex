@@ -1,0 +1,1071 @@
+\hypertarget{tree_8h}{\section{src/tree.h File Reference}
+\label{tree_8h}\index{src/tree.\+h@{src/tree.\+h}}
+}
+
+
+String-\/indexed search tree for Commotion object system.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stddef.\+h$>$}\\*
+{\ttfamily \#include $<$stdint.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}debug.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}extern/halloc.\+h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries \+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E}(L)
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{tree_8h_afcdad391890650a29103f10b43ee7fe2}{typedef struct \hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} {\bfseries \+\_\+treenode\+\_\+t}}\label{tree_8h_afcdad391890650a29103f10b43ee7fe2}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{tree_8h_ae3f9c03dcdb1a5e121ba490951a65466}{struct \hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} {\bfseries \+\_\+\+\_\+attribute\+\_\+\+\_\+} ((packed))}\label{tree_8h_ae3f9c03dcdb1a5e121ba490951a65466}
+
+\item 
+\hypertarget{tree_8h_aabbd92a5880e8e1e0823250aad051e75}{{\bfseries \+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E} (16)}\label{tree_8h_aabbd92a5880e8e1e0823250aad051e75}
+
+\item 
+\hypertarget{tree_8h_af69794c19158396aec6f852d75b6b61f}{{\bfseries \+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E} (32)}\label{tree_8h_af69794c19158396aec6f852d75b6b61f}
+
+\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{tree_8h_ae96bd7e7dec0cc1aecdb8a8ef0b32986}{co\+\_\+node\+\_\+key} (\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$node)
+\begin{DoxyCompactList}\small\item\em return key object for given node \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{tree_8h_abb14871ec360d05cf9874dbd4b7540d2}{co\+\_\+node\+\_\+value} (\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$node)
+\begin{DoxyCompactList}\small\item\em return value object for given node \end{DoxyCompactList}\item 
+\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$ \hyperlink{tree_8h_ac2ddc55e7b91f2b50df96d93621cc92d}{co\+\_\+tree\+\_\+find\+\_\+node} (\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em find node in given tree \end{DoxyCompactList}\item 
+\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$ \hyperlink{tree_8h_a03bc6725b699b74e9dd8b32f8893b1c2}{co\+\_\+tree\+\_\+root} (const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree)
+\begin{DoxyCompactList}\small\item\em return root node of tree object \end{DoxyCompactList}\item 
+ssize\+\_\+t \hyperlink{tree_8h_a037aa6ee160ade41778b16c31166949a}{co\+\_\+tree\+\_\+length} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree)
+\begin{DoxyCompactList}\small\item\em return length (number of key-\/value pairs) of given tree \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{tree_8h_a59bc6048d3c52d982f8d265d5ff6a674}{co\+\_\+tree\+\_\+find} (const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em return value from given tree that corresponds to key \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{tree_8h_aa24cad2537567dabf4b499ec105bb4f1}{co\+\_\+tree\+\_\+delete} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen)
+\begin{DoxyCompactList}\small\item\em delete value from given tree that corresponds to key \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_a1693a84a751373827f76a7383322e105}{co\+\_\+tree\+\_\+insert} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$value)
+\begin{DoxyCompactList}\small\item\em insert object into given tree and associate with key \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_addca60a763c4f4109fc73894ad1be5ea}{co\+\_\+tree\+\_\+insert\+\_\+unsafe} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$value)
+\begin{DoxyCompactList}\small\item\em insert object into given tree and associate with key, where value is not tied to tree \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_ac3c8163287668df5325049a42354ad48}{co\+\_\+tree\+\_\+insert\+\_\+force} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$value)
+\begin{DoxyCompactList}\small\item\em insert object into given tree and associate with key (overwrite if it exists) \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_afe2ecea97d8ddb7e6d61d1e78974daff}{co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$value)
+\begin{DoxyCompactList}\small\item\em insert object into given tree and associate with key, where value is not tied to tree (overwrite if it exists) \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_a98d4a71092b76fc213aff11aecfea1cb}{co\+\_\+tree\+\_\+set\+\_\+str} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, const char $\ast$value, const size\+\_\+t vlen)
+\begin{DoxyCompactList}\small\item\em set value contained in an object in the tree with a specified key (if a string) \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_aa36940ca19024780bd57da9a47194f07}{co\+\_\+tree\+\_\+set\+\_\+int} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, const signed long value)
+\begin{DoxyCompactList}\small\item\em set value contained in an object in the tree with a specified key (if an int) \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_aa7fd84b17af9c4402fd66d9778e91413}{co\+\_\+tree\+\_\+set\+\_\+uint} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, const unsigned long value)
+\begin{DoxyCompactList}\small\item\em set value contained in an object in the tree with a specified key (if an unsigned int) \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_a6af2c159ed709de04f69edb820548af0}{co\+\_\+tree\+\_\+set\+\_\+float} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root, const char $\ast$key, const size\+\_\+t klen, const double value)
+\begin{DoxyCompactList}\small\item\em set value contained in an object in the tree with a specified key (if a float) \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_a85f5ae243dc4c77813da2a99d189b69c}{co\+\_\+tree\+\_\+process} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree, const co\+\_\+iter\+\_\+t iter, void $\ast$context)
+\begin{DoxyCompactList}\small\item\em process tree with given iterator function \end{DoxyCompactList}\item 
+void \hyperlink{tree_8h_a69c45752c5cab97c72512d4d50781fb6}{co\+\_\+tree\+\_\+destroy} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$root)
+\begin{DoxyCompactList}\small\item\em free tree structure \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{tree_8h_a8fb27da4a74cbfe0ba1d3537e3bd83bd}{co\+\_\+tree\+\_\+raw} (char $\ast$output, const size\+\_\+t olen, const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree)
+\begin{DoxyCompactList}\small\item\em dump raw representation of tree \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{tree_8h_adce5da6ec6de712ac6f996847fa71b49}{co\+\_\+tree\+\_\+import} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$tree, const char $\ast$input, const size\+\_\+t ilen)
+\begin{DoxyCompactList}\small\item\em import raw representation of tree \end{DoxyCompactList}\item 
+void \hyperlink{tree_8h_a6e250d193f7644bd16c49101d4bb5617}{co\+\_\+tree\+\_\+print\+\_\+indent} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree, int indent)
+\begin{DoxyCompactList}\small\item\em print tree with indent \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_a9c1930bf91267d4163412121eb46cec1}{co\+\_\+tree\+\_\+print} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree)
+\begin{DoxyCompactList}\small\item\em print tree \end{DoxyCompactList}\item 
+int \hyperlink{tree_8h_aad624bba1d869c2950b4f770d04847e6}{co\+\_\+tree\+\_\+print\+\_\+raw} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$tree)
+\begin{DoxyCompactList}\small\item\em print raw dump of tree \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{tree_8h_a905bc08acb1ae8967dba62fc4453ef49}{char {\bfseries splitchar}}\label{tree_8h_a905bc08acb1ae8967dba62fc4453ef49}
+
+\item 
+\hypertarget{tree_8h_ad23e9436afe9f9d8a5b3f344fb83dd35}{\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$ {\bfseries low}}\label{tree_8h_ad23e9436afe9f9d8a5b3f344fb83dd35}
+
+\item 
+\hypertarget{tree_8h_afec67169e89f26bb5280f04cbf43f299}{\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$ {\bfseries equal}}\label{tree_8h_afec67169e89f26bb5280f04cbf43f299}
+
+\item 
+\hypertarget{tree_8h_aa5854f79f045b2c482045eb1029da344}{\hyperlink{struct__treenode__t}{\+\_\+treenode\+\_\+t} $\ast$ {\bfseries high}}\label{tree_8h_aa5854f79f045b2c482045eb1029da344}
+
+\item 
+\hypertarget{tree_8h_adb7b6e4324610549e97e7e313db5b546}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries key}}\label{tree_8h_adb7b6e4324610549e97e7e313db5b546}
+
+\item 
+\hypertarget{tree_8h_a2ae5e49b50c06e2ab027d75d2b7f1c29}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries value}}\label{tree_8h_a2ae5e49b50c06e2ab027d75d2b7f1c29}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+String-\/indexed search tree for Commotion object system. 
+
+\begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\+net} 
+\end{DoxyAuthor}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{tree_8h_a78c42d83e66bd93450099b27221d9d28}{\index{tree.\+h@{tree.\+h}!\+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E@{\+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E}}
+\index{\+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E@{\+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E}!tree.\+h@{tree.\+h}}
+\subsubsection[{\+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+\+D\+E\+C\+L\+A\+R\+E\+\_\+\+T\+R\+E\+E(
+\begin{DoxyParamCaption}
+\item[{}]{L}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a78c42d83e66bd93450099b27221d9d28}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keyword}{typedef} \textcolor{keyword}{struct }\_\_attribute\_\_((packed)) \{ \hyperlink{structco__obj__t}{co\_obj\_t} \_header; uint##L##\_t \_len; \(\backslash\)
+  \_treenode\_t *root;\} co\_tree##L##\_t; \textcolor{keywordtype}{int} co\_tree##L##\_alloc(\(\backslash\)
+  \hyperlink{structco__obj__t}{co\_obj\_t} *output); \hyperlink{structco__obj__t}{co\_obj\_t} *co\_tree##L##\_create(\textcolor{keywordtype}{void});
+\end{DoxyCode}
+
+
+\subsection{Function Documentation}
+\hypertarget{tree_8h_ae96bd7e7dec0cc1aecdb8a8ef0b32986}{\index{tree.\+h@{tree.\+h}!co\+\_\+node\+\_\+key@{co\+\_\+node\+\_\+key}}
+\index{co\+\_\+node\+\_\+key@{co\+\_\+node\+\_\+key}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+node\+\_\+key}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+node\+\_\+key (
+\begin{DoxyParamCaption}
+\item[{{\bf \+\_\+treenode\+\_\+t} $\ast$}]{node}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_ae96bd7e7dec0cc1aecdb8a8ef0b32986}
+
+
+return key object for given node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & node to return object for \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+90 \{
+91   \textcolor{keywordflow}{if}(node != NULL)
+92     \textcolor{keywordflow}{return} node->key;
+93   \textcolor{keywordflow}{else}
+94     \textcolor{keywordflow}{return} NULL;
+95 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_abb14871ec360d05cf9874dbd4b7540d2}{\index{tree.\+h@{tree.\+h}!co\+\_\+node\+\_\+value@{co\+\_\+node\+\_\+value}}
+\index{co\+\_\+node\+\_\+value@{co\+\_\+node\+\_\+value}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+node\+\_\+value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+node\+\_\+value (
+\begin{DoxyParamCaption}
+\item[{{\bf \+\_\+treenode\+\_\+t} $\ast$}]{node}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_abb14871ec360d05cf9874dbd4b7540d2}
+
+
+return value object for given node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & node to return object for \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+99 \{
+100   \textcolor{keywordflow}{if}(node != NULL)
+101     \textcolor{keywordflow}{return} node->value;
+102   \textcolor{keywordflow}{else}
+103     \textcolor{keywordflow}{return} NULL;
+104 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_aa24cad2537567dabf4b499ec105bb4f1}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+delete@{co\+\_\+tree\+\_\+delete}}
+\index{co\+\_\+tree\+\_\+delete@{co\+\_\+tree\+\_\+delete}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+delete}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+tree\+\_\+delete (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_aa24cad2537567dabf4b499ec105bb4f1}
+
+
+delete value from given tree that corresponds to key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+228 \{
+229   \hyperlink{structco__obj__t}{co\_obj\_t} *value = NULL;
+230   \textcolor{keywordflow}{if}(CO\_TYPE(root) == \_tree16)
+231   \{
+232     ((co\_tree16\_t *)root)->root = \_co\_tree\_delete\_r(((co\_tree16\_t *)root)->root, \(\backslash\)
+233       ((co\_tree16\_t *)root)->root, key, klen, &value);
+234   \} 
+235   \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(CO\_TYPE(root) == \_tree32) 
+236   \{
+237     ((co\_tree32\_t *)root)->root = \_co\_tree\_delete\_r(((co\_tree32\_t *)root)->root, \(\backslash\)
+238       ((co\_tree32\_t *)root)->root, key, klen, &value);
+239   \}
+240 
+241   CHECK(value != NULL, \textcolor{stringliteral}{"Failed to delete value."});
+242   CHECK(\_co\_tree\_decrement(root) >= 0, \textcolor{stringliteral}{"Failed to decrement value."});
+243   \textcolor{keywordflow}{return} value;
+244 error:
+245   \textcolor{keywordflow}{return} NULL;
+246 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a69c45752c5cab97c72512d4d50781fb6}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+destroy@{co\+\_\+tree\+\_\+destroy}}
+\index{co\+\_\+tree\+\_\+destroy@{co\+\_\+tree\+\_\+destroy}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+destroy}]{\setlength{\rightskip}{0pt plus 5cm}void co\+\_\+tree\+\_\+destroy (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a69c45752c5cab97c72512d4d50781fb6}
+
+
+free tree structure 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object to free \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+576 \{
+577     \textcolor{keywordflow}{if}(root) \{
+578         h\_free(root);
+579     \}
+580 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a59bc6048d3c52d982f8d265d5ff6a674}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+find@{co\+\_\+tree\+\_\+find}}
+\index{co\+\_\+tree\+\_\+find@{co\+\_\+tree\+\_\+find}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+find}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+tree\+\_\+find (
+\begin{DoxyParamCaption}
+\item[{const {\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a59bc6048d3c52d982f8d265d5ff6a674}
+
+
+return value from given tree that corresponds to key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+cmd\+\_\+desc(), co\+\_\+cmd\+\_\+exec(), co\+\_\+cmd\+\_\+hook(), co\+\_\+cmd\+\_\+hook\+\_\+str(), co\+\_\+cmd\+\_\+usage(), co\+\_\+profile\+\_\+get(), co\+\_\+profile\+\_\+get\+\_\+float(), co\+\_\+profile\+\_\+get\+\_\+int(), co\+\_\+profile\+\_\+get\+\_\+str(), co\+\_\+profile\+\_\+get\+\_\+uint(), and co\+\_\+response\+\_\+get().
+
+
+\begin{DoxyCode}
+174 \{
+175   DEBUG(\textcolor{stringliteral}{"Get from tree: %s"}, key);
+176   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = NULL;
+177   CHECK((n = \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root)) != NULL, \textcolor{stringliteral}{"Specified object is not a tree."});
+178   n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(n, key, klen);
+179 
+180   CHECK(n != NULL, \textcolor{stringliteral}{"Unable to find value."});
+181   \textcolor{keywordflow}{return} n->value;
+182 error:
+183   \textcolor{keywordflow}{return} NULL; 
+184 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_ac2ddc55e7b91f2b50df96d93621cc92d}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+find\+\_\+node@{co\+\_\+tree\+\_\+find\+\_\+node}}
+\index{co\+\_\+tree\+\_\+find\+\_\+node@{co\+\_\+tree\+\_\+find\+\_\+node}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+find\+\_\+node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \+\_\+treenode\+\_\+t}$\ast$ co\+\_\+tree\+\_\+find\+\_\+node (
+\begin{DoxyParamCaption}
+\item[{{\bf \+\_\+treenode\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_ac2ddc55e7b91f2b50df96d93621cc92d}
+
+
+find node in given tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree in which to search \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\+\_\+tree\+\_\+find(), co\+\_\+tree\+\_\+insert(), co\+\_\+tree\+\_\+insert\+\_\+unsafe(), co\+\_\+tree\+\_\+set\+\_\+float(), co\+\_\+tree\+\_\+set\+\_\+int(), co\+\_\+tree\+\_\+set\+\_\+str(), and co\+\_\+tree\+\_\+set\+\_\+uint().
+
+
+\begin{DoxyCode}
+141 \{
+142   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = root;
+143   \textcolor{keywordtype}{size\_t} i = 0;
+144 
+145   \textcolor{keywordflow}{while}(i < klen && n) 
+146   \{
+147     \textcolor{keywordflow}{if} (key[i] < n->splitchar) 
+148     \{
+149       n = n->low; 
+150     \} 
+151     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (key[i] == n->splitchar) 
+152     \{
+153       i++;
+154       \textcolor{keywordflow}{if}(i < klen) n = n->equal; 
+155     \} 
+156     \textcolor{keywordflow}{else} 
+157     \{
+158       n = n->high; 
+159     \}
+160   \}
+161 
+162   \textcolor{keywordflow}{if}(n) 
+163   \{
+164     \textcolor{keywordflow}{return} n;
+165   \} 
+166   \textcolor{keywordflow}{else} 
+167   \{
+168     \textcolor{keywordflow}{return} NULL; 
+169   \}
+170 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_adce5da6ec6de712ac6f996847fa71b49}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+import@{co\+\_\+tree\+\_\+import}}
+\index{co\+\_\+tree\+\_\+import@{co\+\_\+tree\+\_\+import}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+import}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t co\+\_\+tree\+\_\+import (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$$\ast$}]{tree, }
+\item[{const char $\ast$}]{input, }
+\item[{const size\+\_\+t}]{ilen}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_adce5da6ec6de712ac6f996847fa71b49}
+
+
+import raw representation of tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & target pointer of new, imported tree object \\
+\hline
+{\em input} & input buffer \\
+\hline
+{\em ilen} & length of input buffer \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+import(), co\+\_\+tree\+\_\+import(), and co\+\_\+tree\+\_\+insert().
+
+
+
+Referenced by co\+\_\+list\+\_\+import(), and co\+\_\+tree\+\_\+import().
+
+
+\begin{DoxyCode}
+660 \{
+661   \textcolor{keywordtype}{size\_t} length = 0, olen = 0, read = 0, klen = 0;
+662   \textcolor{keywordtype}{char} *kstr = NULL;
+663   \textcolor{keywordtype}{int} i = 0;
+664   \hyperlink{structco__obj__t}{co\_obj\_t} *obj = NULL;
+665   \textcolor{keyword}{const} \textcolor{keywordtype}{char} *cursor = input;
+666   \textcolor{keywordflow}{switch}((uint8\_t)input[0])
+667   \{
+668     \textcolor{keywordflow}{case} \_tree16:
+669       length = *((uint16\_t *)(input + 1));
+670       *tree = co\_tree16\_create();
+671       cursor += \textcolor{keyword}{sizeof}(uint16\_t) + 1;
+672       read = \textcolor{keyword}{sizeof}(uint16\_t) + 1;
+673       \textcolor{keywordflow}{break};
+674     \textcolor{keywordflow}{case} \_tree32:
+675       length = (uint32\_t)(*(uint32\_t*)(input + 1));
+676       *tree = co\_tree32\_create();
+677       cursor += \textcolor{keyword}{sizeof}(uint32\_t) + 1;
+678       read = \textcolor{keyword}{sizeof}(uint32\_t) + 1;
+679       \textcolor{keywordflow}{break};
+680     \textcolor{keywordflow}{default}:
+681       SENTINEL(\textcolor{stringliteral}{"Not a tree."});
+682       \textcolor{keywordflow}{break};
+683   \}
+684   \textcolor{keywordflow}{while}(i < length && read <= ilen)
+685   \{
+686     DEBUG(\textcolor{stringliteral}{"Importing tuple:"});
+687     \textcolor{keywordflow}{if}((uint8\_t)cursor[0] == \_str8)
+688     \{
+689       DEBUG(\textcolor{stringliteral}{"Reading key..."});
+690       cursor += 1;
+691       read += 1;
+692       klen = (uint8\_t)cursor[0];
+693       kstr = (\textcolor{keywordtype}{char} *)&cursor[1];
+694       cursor += klen + 1;
+695       read += klen + 1;
+696 
+697       DEBUG(\textcolor{stringliteral}{"Reading value..."});
+698       \textcolor{keywordflow}{switch}((uint8\_t)cursor[0])
+699       \{
+700         \textcolor{keywordflow}{case} \_list16:
+701         \textcolor{keywordflow}{case} \_list32:
+702           olen = \hyperlink{list_8c_a07c935572c069373bddadf2907a09b2b}{co\_list\_import}(&obj, cursor, ilen - read);
+703           \textcolor{keywordflow}{break};
+704         \textcolor{keywordflow}{case} \_tree16:
+705         \textcolor{keywordflow}{case} \_tree32:
+706           olen = \hyperlink{tree_8c_adce5da6ec6de712ac6f996847fa71b49}{co\_tree\_import}(&obj, cursor, ilen - read);
+707           \textcolor{keywordflow}{break};
+708         \textcolor{keywordflow}{default}:
+709           olen = co\_obj\_import(&obj, cursor, ilen - read, 0);
+710           \textcolor{keywordflow}{break};
+711       \}
+712       CHECK(olen > 0, \textcolor{stringliteral}{"Failed to import object."});
+713       cursor +=olen;
+714       read += olen;
+715 
+716       DEBUG(\textcolor{stringliteral}{"Inserting value into tree with key."});
+717       CHECK(\hyperlink{tree_8c_a1693a84a751373827f76a7383322e105}{co\_tree\_insert}(*tree, kstr, klen, obj), \textcolor{stringliteral}{"Failed to insert object."});
+718       i++;
+719     \}
+720   \}
+721   \textcolor{keywordflow}{return} read;
+722 error:
+723   \textcolor{keywordflow}{if}(obj != NULL) co\_obj\_free(obj);
+724   \textcolor{keywordflow}{return} -1;
+725 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a1693a84a751373827f76a7383322e105}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+insert@{co\+\_\+tree\+\_\+insert}}
+\index{co\+\_\+tree\+\_\+insert@{co\+\_\+tree\+\_\+insert}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+insert}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+insert (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a1693a84a751373827f76a7383322e105}
+
+
+insert object into given tree and associate with key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value object to insert \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+tree\+\_\+import(), and dispatcher\+\_\+cb().
+
+
+\begin{DoxyCode}
+333 \{
+334   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(\hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root), key, klen)
+      ;
+335   CHECK(n == NULL, \textcolor{stringliteral}{"Key exists."});
+336   \textcolor{keywordflow}{return} \_co\_tree\_insert(root, key, klen, value, \textcolor{keyword}{true});
+337 error:
+338   \textcolor{keywordflow}{return} 0;
+339 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_ac3c8163287668df5325049a42354ad48}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+insert\+\_\+force@{co\+\_\+tree\+\_\+insert\+\_\+force}}
+\index{co\+\_\+tree\+\_\+insert\+\_\+force@{co\+\_\+tree\+\_\+insert\+\_\+force}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+insert\+\_\+force}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+insert\+\_\+force (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_ac3c8163287668df5325049a42354ad48}
+
+
+insert object into given tree and associate with key (overwrite if it exists) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value object to insert \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+353 \{
+354   \textcolor{keywordflow}{return} \_co\_tree\_insert(root, key, klen, value, \textcolor{keyword}{true});
+355 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_addca60a763c4f4109fc73894ad1be5ea}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+insert\+\_\+unsafe@{co\+\_\+tree\+\_\+insert\+\_\+unsafe}}
+\index{co\+\_\+tree\+\_\+insert\+\_\+unsafe@{co\+\_\+tree\+\_\+insert\+\_\+unsafe}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+insert\+\_\+unsafe}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+insert\+\_\+unsafe (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_addca60a763c4f4109fc73894ad1be5ea}
+
+
+insert object into given tree and associate with key, where value is not tied to tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value object to insert \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+\begin{DoxyCode}
+343 \{
+344   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(\hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root), key, klen)
+      ;
+345   CHECK(n == NULL, \textcolor{stringliteral}{"Key exists."});
+346   \textcolor{keywordflow}{return} \_co\_tree\_insert(root, key, klen, value, \textcolor{keyword}{false});
+347 error:
+348   \textcolor{keywordflow}{return} 0;
+349 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_afe2ecea97d8ddb7e6d61d1e78974daff}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force@{co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force}}
+\index{co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force@{co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+insert\+\_\+unsafe\+\_\+force (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_afe2ecea97d8ddb7e6d61d1e78974daff}
+
+
+insert object into given tree and associate with key, where value is not tied to tree (overwrite if it exists) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value object to insert \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+359 \{
+360   \textcolor{keywordflow}{return} \_co\_tree\_insert(root, key, klen, value, \textcolor{keyword}{false});
+361 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a037aa6ee160ade41778b16c31166949a}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+length@{co\+\_\+tree\+\_\+length}}
+\index{co\+\_\+tree\+\_\+length@{co\+\_\+tree\+\_\+length}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+length}]{\setlength{\rightskip}{0pt plus 5cm}ssize\+\_\+t co\+\_\+tree\+\_\+length (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a037aa6ee160ade41778b16c31166949a}
+
+
+return length (number of key-\/value pairs) of given tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & tree object \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+123 \{ 
+124   \textcolor{keywordflow}{return} \_co\_tree\_change\_length(tree, 0);
+125 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a9c1930bf91267d4163412121eb46cec1}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+print@{co\+\_\+tree\+\_\+print}}
+\index{co\+\_\+tree\+\_\+print@{co\+\_\+tree\+\_\+print}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+print}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+print (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a9c1930bf91267d4163412121eb46cec1}
+
+
+print tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & tree object to print \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+print\+\_\+indent().
+
+
+
+Referenced by co\+\_\+response\+\_\+print().
+
+
+\begin{DoxyCode}
+823 \{
+824   CHECK\_MEM(tree);
+825 
+826   \hyperlink{tree_8c_a6e250d193f7644bd16c49101d4bb5617}{co\_tree\_print\_indent}(tree,0);
+827 
+828   \textcolor{keywordflow}{return} 1;
+829 error:
+830   \textcolor{keywordflow}{return} 0;
+831 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a6e250d193f7644bd16c49101d4bb5617}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+print\+\_\+indent@{co\+\_\+tree\+\_\+print\+\_\+indent}}
+\index{co\+\_\+tree\+\_\+print\+\_\+indent@{co\+\_\+tree\+\_\+print\+\_\+indent}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+print\+\_\+indent}]{\setlength{\rightskip}{0pt plus 5cm}void co\+\_\+tree\+\_\+print\+\_\+indent (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree, }
+\item[{int}]{indent}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a6e250d193f7644bd16c49101d4bb5617}
+
+
+print tree with indent 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & tree object to print \\
+\hline
+{\em indent} & level of indent \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+tree\+\_\+print().
+
+
+\begin{DoxyCode}
+810 \{
+811   \textcolor{keywordtype}{int} count = 0;
+812   
+813   \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < indent; i++) printf(\textcolor{stringliteral}{"  "});
+814   printf(\textcolor{stringliteral}{"\{\(\backslash\)n"});
+815   \_co\_tree\_print\_r(tree, \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(tree), &count, indent+1);
+816   \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < indent; i++) printf(\textcolor{stringliteral}{"  "});
+817   printf(\textcolor{stringliteral}{"\}"});
+818   \textcolor{keywordflow}{if} (!indent) printf(\textcolor{stringliteral}{"\(\backslash\)n"});
+819 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_aad624bba1d869c2950b4f770d04847e6}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+print\+\_\+raw@{co\+\_\+tree\+\_\+print\+\_\+raw}}
+\index{co\+\_\+tree\+\_\+print\+\_\+raw@{co\+\_\+tree\+\_\+print\+\_\+raw}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+print\+\_\+raw}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+print\+\_\+raw (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_aad624bba1d869c2950b4f770d04847e6}
+
+
+print raw dump of tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & tree object to print \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+root().
+
+
+\begin{DoxyCode}
+859 \{
+860   CHECK\_MEM(tree);
+861   \_co\_tree\_print\_raw\_r(tree, \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(tree));
+862   \textcolor{keywordflow}{return} 1;
+863 error:
+864   \textcolor{keywordflow}{return} 0;
+865 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a85f5ae243dc4c77813da2a99d189b69c}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+process@{co\+\_\+tree\+\_\+process}}
+\index{co\+\_\+tree\+\_\+process@{co\+\_\+tree\+\_\+process}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+process}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+process (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree, }
+\item[{const co\+\_\+iter\+\_\+t}]{iter, }
+\item[{void $\ast$}]{context}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a85f5ae243dc4c77813da2a99d189b69c}
+
+
+process tree with given iterator function 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & tree object to process \\
+\hline
+{\em iter} & iterator function \\
+\hline
+{\em context} & additional arguments to iterator \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\+\_\+cmd\+\_\+process().
+
+
+\begin{DoxyCode}
+556 \{
+557   \textcolor{keywordflow}{switch}(CO\_TYPE(tree))
+558   \{
+559     \textcolor{keywordflow}{case} \_tree16:
+560       \_co\_tree\_process\_r(tree, ((co\_tree16\_t *)tree)->root, iter, context);
+561       \textcolor{keywordflow}{break};
+562     \textcolor{keywordflow}{case} \_tree32:
+563       \_co\_tree\_process\_r(tree, ((co\_tree32\_t *)tree)->root, iter, context);
+564       \textcolor{keywordflow}{break};
+565     \textcolor{keywordflow}{default}:
+566       SENTINEL(\textcolor{stringliteral}{"Object is not a tree."});
+567       \textcolor{keywordflow}{break};
+568   \}
+569   \textcolor{keywordflow}{return} 1;
+570 error:
+571   \textcolor{keywordflow}{return} 0;
+572 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a8fb27da4a74cbfe0ba1d3537e3bd83bd}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+raw@{co\+\_\+tree\+\_\+raw}}
+\index{co\+\_\+tree\+\_\+raw@{co\+\_\+tree\+\_\+raw}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+raw}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t co\+\_\+tree\+\_\+raw (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{output, }
+\item[{const size\+\_\+t}]{olen, }
+\item[{const {\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a8fb27da4a74cbfe0ba1d3537e3bd83bd}
+
+
+dump raw representation of tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & output buffer \\
+\hline
+{\em olen} & length of output buffer \\
+\hline
+{\em tree} & tree to dump \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+list\+\_\+raw(), and co\+\_\+response\+\_\+alloc().
+
+
+\begin{DoxyCode}
+624 \{
+625   \textcolor{keywordtype}{char} *out = output;
+626   \textcolor{keywordtype}{size\_t} written = 0;
+627   \textcolor{keywordflow}{switch}(CO\_TYPE(tree))
+628   \{
+629     \textcolor{keywordflow}{case} \_tree16:
+630       memmove(out, &(tree->\_type), \textcolor{keyword}{sizeof}(tree->\_type));
+631       out += \textcolor{keyword}{sizeof}(tree->\_type);
+632       written += \textcolor{keyword}{sizeof}(tree->\_type);
+633       memmove(out, &(((co\_tree16\_t *)tree)->\_len), \textcolor{keyword}{sizeof}(((co\_tree16\_t *)tree)->\_len));
+634       out += \textcolor{keyword}{sizeof}(((co\_tree16\_t *)tree)->\_len);
+635       written += \textcolor{keyword}{sizeof}(((co\_tree16\_t *)tree)->\_len);
+636       \textcolor{keywordflow}{break};
+637     \textcolor{keywordflow}{case} \_tree32:
+638       memmove(out, &(tree->\_type), \textcolor{keyword}{sizeof}(tree->\_type));
+639       out += \textcolor{keyword}{sizeof}(tree->\_type);
+640       written += \textcolor{keyword}{sizeof}(tree->\_type);
+641       memmove(out, &(((co\_tree32\_t *)tree)->\_len), \textcolor{keyword}{sizeof}(((co\_tree32\_t *)tree)->\_len));
+642       out += \textcolor{keyword}{sizeof}(((co\_tree32\_t *)tree)->\_len);
+643       written += \textcolor{keyword}{sizeof}(((co\_tree32\_t *)tree)->\_len);
+644       \textcolor{keywordflow}{break};
+645     \textcolor{keywordflow}{default}:
+646       SENTINEL(\textcolor{stringliteral}{"Not a tree object."});
+647       \textcolor{keywordflow}{break};
+648   \}
+649   
+650   \_co\_tree\_raw\_r(&out, &olen, &written, \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(tree));
+651   DEBUG(\textcolor{stringliteral}{"Tree bytes written: %d"}, (\textcolor{keywordtype}{int})written);
+652   \textcolor{keywordflow}{return} written;
+653 error:
+654   \textcolor{keywordflow}{return} -1;
+655 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a03bc6725b699b74e9dd8b32f8893b1c2}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+root@{co\+\_\+tree\+\_\+root}}
+\index{co\+\_\+tree\+\_\+root@{co\+\_\+tree\+\_\+root}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+root}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \+\_\+treenode\+\_\+t}$\ast$ co\+\_\+tree\+\_\+root (
+\begin{DoxyParamCaption}
+\item[{const {\bf co\+\_\+obj\+\_\+t} $\ast$}]{tree}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a03bc6725b699b74e9dd8b32f8893b1c2}
+
+
+return root node of tree object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & tree object that contains root \\
+\hline
+\end{DoxyParams}
+
+
+Referenced by co\+\_\+profile\+\_\+export\+\_\+file(), co\+\_\+tree\+\_\+find(), co\+\_\+tree\+\_\+insert(), co\+\_\+tree\+\_\+insert\+\_\+unsafe(), co\+\_\+tree\+\_\+print\+\_\+indent(), co\+\_\+tree\+\_\+print\+\_\+raw(), co\+\_\+tree\+\_\+raw(), co\+\_\+tree\+\_\+set\+\_\+float(), co\+\_\+tree\+\_\+set\+\_\+int(), co\+\_\+tree\+\_\+set\+\_\+str(), and co\+\_\+tree\+\_\+set\+\_\+uint().
+
+
+\begin{DoxyCode}
+70 \{
+71   CHECK\_MEM(tree);
+72   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = NULL;
+73   \textcolor{keywordflow}{if}(CO\_TYPE(tree) == \_tree16)
+74   \{
+75     n = ((co\_tree16\_t *)tree)->root;
+76   \} 
+77   \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(CO\_TYPE(tree) == \_tree32) 
+78   \{
+79     n = ((co\_tree32\_t *)tree)->root;
+80   \}
+81   \textcolor{keywordflow}{else} SENTINEL(\textcolor{stringliteral}{"Specified object is not a tree."});
+82 
+83   \textcolor{keywordflow}{return} n;
+84 error:
+85   \textcolor{keywordflow}{return} NULL;
+86 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a6af2c159ed709de04f69edb820548af0}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+set\+\_\+float@{co\+\_\+tree\+\_\+set\+\_\+float}}
+\index{co\+\_\+tree\+\_\+set\+\_\+float@{co\+\_\+tree\+\_\+set\+\_\+float}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+set\+\_\+float}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+set\+\_\+float (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{const double}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a6af2c159ed709de04f69edb820548af0}
+
+
+set value contained in an object in the tree with a specified key (if a float) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value to insert \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+profile\+\_\+set\+\_\+float().
+
+
+\begin{DoxyCode}
+525 \{
+526   DEBUG(\textcolor{stringliteral}{"Get from tree: %s"}, key);
+527   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = NULL;
+528   CHECK((n = \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root)) != NULL, \textcolor{stringliteral}{"Specified object is not a tree."});
+529   n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(n, key, klen);
+530   CHECK(n != NULL, \textcolor{stringliteral}{"Failed to find key in tree."});
+531   CHECK(\_co\_node\_set\_float(n, value), \textcolor{stringliteral}{"Unable to set float for node."});
+532 
+533   \textcolor{keywordflow}{return} 1;
+534 error:
+535   \textcolor{keywordflow}{return} 0;
+536 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_aa36940ca19024780bd57da9a47194f07}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+set\+\_\+int@{co\+\_\+tree\+\_\+set\+\_\+int}}
+\index{co\+\_\+tree\+\_\+set\+\_\+int@{co\+\_\+tree\+\_\+set\+\_\+int}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+set\+\_\+int}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+set\+\_\+int (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{const signed long}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_aa36940ca19024780bd57da9a47194f07}
+
+
+set value contained in an object in the tree with a specified key (if an int) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value to insert \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+profile\+\_\+set\+\_\+int().
+
+
+\begin{DoxyCode}
+450 \{
+451   DEBUG(\textcolor{stringliteral}{"Get from tree: %s"}, key);
+452   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = NULL;
+453   CHECK((n = \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root)) != NULL, \textcolor{stringliteral}{"Specified object is not a tree."});
+454   n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(n, key, klen);
+455   CHECK(n != NULL, \textcolor{stringliteral}{"Failed to find key in tree."});
+456   CHECK(\_co\_node\_set\_int(n, value), \textcolor{stringliteral}{"Unable to set integer for node."});
+457   \textcolor{keywordflow}{return} 1;
+458 error:
+459   \textcolor{keywordflow}{return} 0;
+460 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_a98d4a71092b76fc213aff11aecfea1cb}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+set\+\_\+str@{co\+\_\+tree\+\_\+set\+\_\+str}}
+\index{co\+\_\+tree\+\_\+set\+\_\+str@{co\+\_\+tree\+\_\+set\+\_\+str}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+set\+\_\+str}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+set\+\_\+str (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{const char $\ast$}]{value, }
+\item[{const size\+\_\+t}]{vlen}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_a98d4a71092b76fc213aff11aecfea1cb}
+
+
+set value contained in an object in the tree with a specified key (if a string) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value to insert \\
+\hline
+{\em vlen} & length of value \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+profile\+\_\+set\+\_\+str().
+
+
+\begin{DoxyCode}
+409 \{
+410   DEBUG(\textcolor{stringliteral}{"Get from tree: %s"}, key);
+411   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = NULL;
+412   CHECK((n = \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root)) != NULL, \textcolor{stringliteral}{"Specified object is not a tree."});
+413   n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(n, key, klen);
+414   CHECK(n != NULL, \textcolor{stringliteral}{"Failed to find key in tree."});
+415   CHECK(\_co\_node\_set\_str(n, value, vlen), \textcolor{stringliteral}{"Unable to set string for node."});
+416   \textcolor{keywordflow}{return} 1;
+417 error:
+418   \textcolor{keywordflow}{return} 0;
+419 \}
+\end{DoxyCode}
+\hypertarget{tree_8h_aa7fd84b17af9c4402fd66d9778e91413}{\index{tree.\+h@{tree.\+h}!co\+\_\+tree\+\_\+set\+\_\+uint@{co\+\_\+tree\+\_\+set\+\_\+uint}}
+\index{co\+\_\+tree\+\_\+set\+\_\+uint@{co\+\_\+tree\+\_\+set\+\_\+uint}!tree.\+h@{tree.\+h}}
+\subsubsection[{co\+\_\+tree\+\_\+set\+\_\+uint}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+tree\+\_\+set\+\_\+uint (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{root, }
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{const unsigned long}]{value}
+\end{DoxyParamCaption}
+)}}\label{tree_8h_aa7fd84b17af9c4402fd66d9778e91413}
+
+
+set value contained in an object in the tree with a specified key (if an unsigned int) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & tree object \\
+\hline
+{\em key} & key to search for \\
+\hline
+{\em klen} & length of key \\
+\hline
+{\em value} & value to insert \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find\+\_\+node(), and co\+\_\+tree\+\_\+root().
+
+
+
+Referenced by co\+\_\+profile\+\_\+set\+\_\+uint().
+
+
+\begin{DoxyCode}
+491 \{
+492   DEBUG(\textcolor{stringliteral}{"Get from tree: %s"}, key);
+493   \hyperlink{struct__treenode__t}{\_treenode\_t} *n = NULL;
+494   CHECK((n = \hyperlink{tree_8c_a03bc6725b699b74e9dd8b32f8893b1c2}{co\_tree\_root}(root)) != NULL, \textcolor{stringliteral}{"Specified object is not a tree."});
+495   n = \hyperlink{tree_8c_ac2ddc55e7b91f2b50df96d93621cc92d}{co\_tree\_find\_node}(n, key, klen);
+496   CHECK(n != NULL, \textcolor{stringliteral}{"Failed to find key in tree."});
+497   CHECK(\_co\_node\_set\_uint(n, value), \textcolor{stringliteral}{"Unable to set unsigned integer for node."});
+498 
+499   \textcolor{keywordflow}{return} 1;
+500 error:
+501   \textcolor{keywordflow}{return} 0;
+502 \}
+\end{DoxyCode}

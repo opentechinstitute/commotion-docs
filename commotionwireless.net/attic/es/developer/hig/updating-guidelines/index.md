@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: Updating these guidelines
+title: Actualizando estas guías
 site_section: developers
 sub_section: [hig]
 categories: 
@@ -9,16 +9,16 @@ changed: 2013-12-25
 post_author: michael@theworkdept.com
 lang: es
 ---
-  <p>These Human Interface Guidelines are maintained by the Open Technology Institute and new versions are released as needed. If you have suggestions for updating them, <a href="/contact">please contact us</a>.</p>
+  <p>Estas guías de Interfaz Humana se mantienen por el Instituto de Tecnología Abierta y se lanzan nuevas versiones conforme se necesitan. Si tienes sugerencias para actualizarlas, <a href="/contact">por favor contáctanos</a>.</p>
 
-<h2>Suggested future content</h2>
+<h2>Contenido futuro sugerido</h2>
 
-<p>These additional topics will be useful to include in future iterations of this HIG:</p>
+<p>Estos temas adicionales pueden ser útiles para incluir en futuras iteraciones de este HIG:</p>
 
 <ol>
-	<li>Details about how Commotion licences should be referenced or included in the user interface</li>
-	<li>Outline of vulnerabilities associated with traffic analysis and radio monitoring</li>
-	<li>Should additional log details be available?</li>
-	<li>How should users avoid creating duplicate node names?</li>
+	<li>Detalles acerca de como las licencias Commotion pueden ser referenciadas o incluidas en la interfaz de usuario</li>
+	<li>Subrayar las vulnerabilidades asociadas con el análisis de tráfico y monitoreo de radio</li>
+	<li>¿Debería haber detalles log adicionales disponibles? *******Should additional log details be available?</li>
+	<li>¿Cómo deberían los usuarios evitar crear nombres de nodos duplicados</li>
 </ol>
  
