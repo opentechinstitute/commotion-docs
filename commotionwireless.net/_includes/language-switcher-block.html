@@ -1,0 +1,21 @@
+<div class="lang-switch">
+<p>Language: 
+<a {% if page.lang contains 'en' %} class="active-lang"{% endif %} href="
+{% if page.url contains '/fr' %}{{ page.url | remove_first:'/fr' }}
+{% elsif page.url contains '/es' %}{{ page.url | remove_first:'/es' }}
+{% else %}{{ page.url }}
+{% endif %}" title="English">En</a> | 
+
+<a {% if page.lang contains 'fr' %} class="active-lang"{% endif %} href="
+{% if page.url contains '/fr' %}{{ page.url }}
+{% elsif page.url contains '/es' %}{{ page.url | replace_first:'/es','/fr' }}
+{% else %}{{ page.url | prepend:'/fr' }}
+{% endif %}" title="French">Fr</a> |
+
+<a {% if page.lang contains 'es' %} class="active-lang"{% endif %} href="
+{% if page.url contains '/es' %}{{ page.url }}
+{% elsif page.url contains '/fr' %}{{ page.url | replace_first:'/fr','/es' }}
+{% else %}{{ page.url | prepend:'/es' }}
+{% endif %}" title="Spanish">Es</a>  
+</p>
+</div>
