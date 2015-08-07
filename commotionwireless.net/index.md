@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: front
 title: "Commotion Wireless"
 tagline:
 categories:

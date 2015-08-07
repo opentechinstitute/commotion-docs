@@ -1,0 +1,24 @@
+<!--
+Summary: Unique layout for main site index.
+Parent Template: default
+
+Notes:
+Mainly exists to prevent language/contact sidebar from squeezing category tiles
+-->
+
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+
+<section id="main_content" class="inner home-width">
+
+<div class="content">
+{{ content }}
+</div>
+<div class="nav">
+<div id="sidemenu">
+{% include sub-sections-menu.html %}
+</div>
+</div>
+
+</section>
+
+{% include footer.html %}
