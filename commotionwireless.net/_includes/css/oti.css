@@ -352,3 +352,10 @@ a img, a:link img {
 #sidemenu .highlight {
   background-color: {{site.data.colors.yellow}};
 }
+
+#sidemenu .heading {
+    background-color:{{site.data.colors.lightblack}};
+    padding:10px 10px;
+    font-weight:600;
+    color:{{site.data.colors.white}};
+}
