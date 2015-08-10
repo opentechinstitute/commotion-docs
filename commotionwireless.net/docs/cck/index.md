@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: collection
+definition: cck
 title: Commotion Construction Kit
 site_section: docs
-sub_section: [cck]
+sub_section: [docs, cck]
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
