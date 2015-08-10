@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Get the Word Out - Flyer Design
 site_section: docs
 sub_section: [cck,cck-planning]

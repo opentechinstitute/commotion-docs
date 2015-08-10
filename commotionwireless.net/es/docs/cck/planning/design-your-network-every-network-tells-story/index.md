@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Diseñe su red - Cada red cuenta una historia
 site_section: docs
 sub_section: [cck,cck-planning]

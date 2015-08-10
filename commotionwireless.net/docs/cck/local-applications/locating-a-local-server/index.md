@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Locating a Local Server
 site_section: docs
 sub_section: [cck,cck-localapps]

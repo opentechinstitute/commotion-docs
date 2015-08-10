@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Prep and Install Rooftop Nodes
 site_section: docs
 sub_section: [cck,cck-building]

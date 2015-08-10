@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Introduction aux réseaux maillés
 site_section: docs
 sub_section: [cck,cck-networking]

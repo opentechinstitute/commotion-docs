@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title:  Aprenda sobre montajes en tejados
 site_section: docs
 sub_section: [cck,cck-building]

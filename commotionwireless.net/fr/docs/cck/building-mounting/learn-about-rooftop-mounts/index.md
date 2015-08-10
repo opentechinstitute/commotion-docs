@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Learn about Rooftop Mounts
 site_section: docs
 sub_section: [cck,cck-building]

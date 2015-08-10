@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Install and Recover with TFTP
 site_section: docs
 sub_section: [cck,cck-installing]

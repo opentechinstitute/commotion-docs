@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Reunir herramientas y equipamiento inalámbrico
 site_section: docs
 sub_section: [cck,cck-building]

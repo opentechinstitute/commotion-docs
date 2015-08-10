@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Commotion Construction Kit - About Community Networks
 site_section: docs
 sub_section: [cck,cck-about-cw]

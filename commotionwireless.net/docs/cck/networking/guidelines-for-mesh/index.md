@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Guidelines for Mesh Networks
 site_section: docs
 sub_section: [cck,cck-networking]

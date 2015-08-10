@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Commotion Construction Kit - Installing + Configuring
 site_section: docs
 sub_section: [cck,cck-installing]

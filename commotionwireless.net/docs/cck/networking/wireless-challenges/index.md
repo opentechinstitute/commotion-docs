@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Design Your Network - Wireless Challenges
 site_section: docs
 sub_section: [cck,cck-networking]

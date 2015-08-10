@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Troubleshoot Your Wireless Node
 site_section: docs
 sub_section: [cck,cck-installing]

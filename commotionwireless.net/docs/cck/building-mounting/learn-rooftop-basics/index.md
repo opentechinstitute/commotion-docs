@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Learn Rooftop Basics
 site_section: docs
 sub_section: [cck,cck-building]

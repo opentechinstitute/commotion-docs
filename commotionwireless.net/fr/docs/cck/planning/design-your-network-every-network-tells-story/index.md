@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: collection
 title: Concevez votre réseau - chaque réseau raconte une histoire
 site_section: docs
 sub_section: [cck,cck-planning]
