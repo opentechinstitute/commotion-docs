@@ -1,6 +1,6 @@
 ---
 title: "Commotion Wireless Blog Index"
-layout: blog-index
+layout: default
 lang: es
 ---
 <div class="blog-index">
