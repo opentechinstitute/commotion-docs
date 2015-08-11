@@ -1,0 +1,10 @@
+title: Get Involved
+categories: [docs, get-involved]
+baseurl: docs/get-involved
+sections: # leave this line empty
+ - title: Help Others
+   id: help-others
+ - title: Contribute to Commotion
+   id: contribute
+ - title: Promote the Project
+   id: promote
