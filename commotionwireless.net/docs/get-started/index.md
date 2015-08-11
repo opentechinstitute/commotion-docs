@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection
 title: Get Started
 site_section: docs
 categories: 
