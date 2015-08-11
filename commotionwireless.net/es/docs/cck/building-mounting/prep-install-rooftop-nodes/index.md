@@ -1,6 +1,6 @@
-﻿---
+---
 layout: cck
-title: Prepara e Instala Nodos en el Techo
+title: Prep and Install Rooftop Nodes
 site_section: docs
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/4-Prep_and_Install_Rooftop_Nodes.pdf
@@ -14,199 +14,199 @@ lang: es
   <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__338 img__view_mode__media_original attr__format__media_original" height="388" src="/files/prep_install_finish_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="introduction">
-<h2>Introducción</h2>
+<h2>Introduction</h2>
 
-<p>Esta guía tiene la intención de proporcionar algunos pasos fáciles de seguir para la instalación de tu equipo inalámbrico. Leela para preparar, y usarla llevar un registro de las tareas el día de la instalación.</p>
+<p>This guide is intended to provide some easy to follow steps for your wireless equipment installation. Read it over to prepare, and use it to keep track of tasks on installation day.</p>
 
-<p>A continuación encontrarás secciones en:</p>
+<p>Following you will find sections on:</p>
 
-<p>Preparación de nodos inalámbricos</p>
+<p>Wireless node preparation</p>
 
-<p>Preparación del sitio</p>
+<p>Site preparation</p>
 
-<p>Instalación de nodos inalámbricos</p>
+<p>Wireless node installation</p>
 
-<p>Tareas de limpiar, probar y después de la instalación</p>
+<p>Clean-up, testing and post-installation tasks</p>
 
-<p>La revisión de estos materiales sólo se debe tomar alrededor de una hora, aunque si lo estás utilizando en un aula o entorno de enseñanza, puede tomar más tiempo. Ten en cuenta que esto es una visión general de todos los pasos necesarios para instalar equipos en el techo. Cada paso en el camino tomará tiempo - de hecho, las instalaciones de los techos puede tomar entre dos y seis horas, dependiendo de las condiciones y el equipo.</p>
+<p>Review of these materials should only take about an hour, though if you are using it in a classroom or instructional setting, it may take longer. Keep in mind this is a broad overview of all the steps required to install rooftop equipment. Each step along the way will take time - in fact, rooftop installations may take anywhere between two and six hours, depending on site conditions and equipment.</p>
 
-<p><strong>Tiempo requerido: 1-6 horas.</strong></p>
+<p><strong>Time required: 1-6 hours.</strong></p>
 
-<h3>MATERIALES + PROVISIONES NECESARIAS</h3>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
 <p>Router</p>
 
-<p>Equipo de montaje &amp; hardware</p>
+<p>Mounting equipment &amp; hardware</p>
 
-<p>Plan del sitio</p>
+<p>Site plan</p>
 
-<p>Cable Ethernet</p>
+<p>Ethernet cable</p>
 
-<p>Adapador de Poder sobre Ethernet (Power over Ethernet (PoE) adapter)</p>
+<p>Power over Ethernet (PoE) adapter</p>
 
-<p>Bolsa de herramientas</p>
+<p>Tool bag</p>
 </section>
 
 <section id="wireless-node-preparation">
-<h2>Preparación del Nodo Inalámbrico</h2>
+<h2>Wireless Node Preparation</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__339 img__view_mode__media_original attr__format__media_original" height="256" src="/files/prep_install_finish_support002_003.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Esta guía tiene la intención de proveer algunos pasos fáciles-de-seguir para tu instalación de equipo inalámbrico. Es especialmente útil para llevar registro de las tareas el día que planees trabajar, pero te recomendamos leerlo antes para estar lo mejor preparado.</p>
+<p>This guide is intended to provide some easy-to-follow steps for your wireless equipment installation. It is especially helpful to keep track of tasks the day you are planning on working, but we recommend you read it over beforehand in order to best prepare.</p>
 
-<p>El primer paso es obtener el hardware inalámbrico e instalar el software mesh personalizado. Puedes hacerlo el día de la instalación, o días previos. Si tu red del vecindario tiene configuraciones particulares para la red, asegúrate de obtenerlas antes de empezar a instalar el software.</p>
+<p>The first step is to get the wireless hardware and install the custom mesh software. You can do this on the day of the install, or in the days leading up to it. If your neighborhood network has particular settings for the network, make sure to get those as well before installing the software.</p>
 
-<p>1. Adquiere un router inalámbrico Commotion compatible que sea apropiado para la ubicación.</p>
+<p>1. Acquire a Commotion Wireless compatible router that is appropriate for the location.</p>
 
-<p>2. Descarga la versión de software apropiada en el sitio web de Commotion (commotionwireless.net). Puedes encontrar las instrucciones en el módulo <a href="/docs/cck/installing-configuring/install-ubiquiti-router">Instala en un Router.</a></p>
+<p>2. Download the appropriate version of software at the Commotion website (commotionwireless.net). You can find instructions in the module <a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Router.</a></p>
 
-<p>3. Graba las direcciones MAC de nodos inalámbricos – una Identificación única que puedes usar para monitorear el hardware, en caso de que necesites servicio del fabricante.</p>
+<p>3. Record the wireless node's MAC address - a unique ID that you can use to keep track of the hardware, in case you need service from the manufacturer.</p>
 
-<p>Para encontrar la dirección MAC: Mira en la etiqueta del fondo o en el fondo de la cubierta del router por un código que se ve como  aa:bb:cc:dd:ee:ff – esa es la dirección MAC de tu router. Es una combinación única de números y letras que identifica el dispositivo específico.</p>
+<p>To find the MAC address: look on the bottom label or inside the bottom cover of the router for a code that looks like aa:bb:cc:dd:ee:ff - that is the MAC address of your router. It is a unique combination of numbers and letters that identifies the specific device.</p>
 
-<p>Para encontrar las direcciones IP MESH: en la interfaz de administrador de Commotion, navega a Status&gt;OLSR, luego da clic en "Interfaces" y guarda el número que comienza con 5. Se ve como 5.x.y.z, donde x, y, y z son números.</p>
+<p>To find the Mesh IP address: in the Commotion administrator interface, navigate to Status&gt;OLSR, then click on "Interfaces" and record the number that starts with 5. It looks like 5.x.y.z, where x, y, and z are numbers.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__340 img__view_mode__media_original attr__format__media_original" height="332" src="/files/prep_install_finish_nodetag.png" typeof="foaf:Image" width="510" /></p>
 
-<p class="tip">Puedes escribir el nombre del nodo en la caja con un marcador permanente un una etiqueta impresa si tienes como hacer etiquetas.</p>
+<p class="tip">You can write the node's name on the case with a permanent marker, or a printed label if you have a label maker.</p>
 </section>
 
 <section id="site-preparation">
-<h2>Preparación del Sitio</h2>
+<h2>Site Preparation</h2>
 
-<p>Es buena idea visitar el sitio donde planeas instalar tu nuevo nodo wireless días antes o una semana antes de la propia instalación. Esto perimte que haya más tiempo para prepararse y adquirir cualquier equipo o hardware faltante.</p>
+<p>It is a good idea to visit the site where you plan on installing a new wireless node a few days or a week before the actual installation. This allows more time to prepare and acquire any missing equipment or hardware.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__341 img__view_mode__media_original attr__format__media_original" height="365" src="/files/prep_install_finish_support004.png" typeof="foaf:Image" width="510" /></p>
 
-<p>1. Haz algunas evaluaciones del sitio. Usando las guías y ejemplos en  <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventaría al Vecindario</a> para evaluar los edificios y sitios para instalaciones inalámbricas. El documento incluye una serie de preguntas y cosas que buscar, y es un buen lugar donde empezar.</p>
+<p>1. Do a site assessment. An example site assessment guide is available in the <a href="#">Determine Installation Needs</a> module. The guide includes a set of questions and things to look for, but cannot cover every possibility for installation sites.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__342 img__view_mode__media_original attr__format__media_original" height="313" src="/files/prep_install_finish_support005.png" typeof="foaf:Image" width="510" /></p>
 
-<p>2. Elige la mejor ubicación para el montaje en el techo basado en la visibilidad de otros techos. Toma en cuenta que las señales inalámbricas funcionan mejor cuando hay una linea clara de vista entre los nodos. También decide que tipo de montaje instalarás. EL módulo <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprende de Montajes en los Techos</a> te puede ayudar a decidir.</p>
+<p>2. Pick the best mounting location on the roof based on visibility to other rooftops. Keep in mind wireless signals work best when there is a clear line of sight between the nodes. Also figure out what kind of mount you will use to install. The module <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you decide.</p>
 
-<p>3. Identifica donde correrá el cable Ethernet a lo largo del techo y entrará en el edificio.</p>
+<p>3. Identify where the Ethernet cable will run along the roof and enter the building.</p>
 
-<p>4. Identifica donde se conectará el adaptador de Poder sobre Ethernet (Power over Ethernet, PoE).</p>
+<p>4. Identify where the Power over Ethernet (PoE) adapter will plug in.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__343 img__view_mode__media_original attr__format__media_original" height="168" src="/files/prep_install_finish_support005_a.png" typeof="foaf:Image" width="510" /></p>
 
-<p>4a. Si el nodo esta montando en un recinto o en interiores, intenta encontrar una ubicación accesible que lo mantenga fuera de la interacción diaria.</p>
+<p>4a. If the node is mounted in an enclosure or indoors, try to find an accessible location that keeps it out of the way from everyday interaction.</p>
 
-<p>4b. Si el dueño del edificio o el anfitrión del nodo quiere donar ancho de banda para hacer que el nodo sea una puerta a Internet, coloca el adaptador PoE donde pueda ser conectado al router del anfitrión fácilmente.</p>
+<p>4b. If the building owner or node host wants to donate bandwidth to make the node an Internet gateway, put the PoE adapter where it can plug into the host's router easily.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__344 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support007.png" typeof="foaf:Image" width="510" /></p>
 
-<p>5. Adquiere el hardware de montaje apropiado.</p>
+<p>5. Acquire the proper mounting hardware.</p>
 
-<p>El módulo <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprende de los Montajes en los Techos</a> puede ayudarte a identificar el hardware correcto. Hay muchos lugares para encontrar el hardware de montaje – tu ferretería local o tienda de electrónicos puede tener algo, paro hay varios vendedores en línea también.</p>
+<p>The module <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> can help you identify the right hardware. There are many places to find mounting hardware - your local hardware or electronics store may have some, but there are various vendors online as well.</p>
 
-<p>Revisa que tengas todo el hardware necesario para el montaje, como las anclas de concreto, pernos, abrazaderas, etc.</p>
+<p>Check that you have all the necessary hardware for mounting, such as concrete anchors, bolts, clamps, etc.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__345 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support006.png" typeof="foaf:Image" width="510" /></p>
 
-<p>6. Verifica que la bolsa de herramientas tenga todo lo que necesitas para montar el hardware y el sitio de instalación.</p>
+<p>6. Verify that the tool bag has everything you need for the mounting hardware and installation site.</p>
 </section>
 
 <section id="wireless-node-installation">
-<h2>Instalación de Nodo Inalámbrico</h2>
+<h2>Wireless Node Installation</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__346 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support008.png" typeof="foaf:Image" width="510" /></p>
 
-<p>¡Día de Instalación! Ahora podrás subir al techo e instalar el nuevo equipo para tu red comunitaria – pero asegúrate de trabajar de un modo seguro y responsable. Te recomendamos ir al módulo <a href="/docs/cck/building-mounting/learn-rooftop-basics">Aprende lo básico de los techos</a> y revisar las guías de seguridad en el techo antes de comenzar tu instalación.</p>
+<p>Installation day! Now you get to go up on the roof and install new equipment for the community network - but make sure you are working in a safe and responsible way. We recommend going through <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a> module and reviewing some rooftop safety guidelines before you start your installation.</p>
 
-<p>Puedes dividir el trabajo en tres partes: instalar el montaje del hardware; instalar el nodo y la fuente de energía; y correr el cable Ethernet entre el nodo y la fuente de energía.</p>
+<p>You can break the job into three parts: installing the mounting hardware; installing the node and power supply; and running the Ethernet cable between the node and power supply.</p>
 
-<p>1. Instala el montaje de hardware. Esto variará dependiendo del tipo de montaje que estés usando. Si vino como kit, ¡lee y sigue las instrucciones de instalación! Para más información, ve al módulo <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprende de los Montajes en los Techos</a> disponible.</p>
+<p>1. Install the mounting hardware. This will vary depending on the type of mount you are using. If it came as a kit, read and follow the installation instructions! For more information, refer to the <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> module.</p>
 
-<p>Para un kit de montaje de cornisas o anclas, perfora los agujeros necesarios para las anclas. Asegúrate de usar anclas apropiadas para el exterior (de plástico o metal).</p>
+<p>For an eaves or anchor mount kit, drill the holes necessary for the anchors. Make sure to use outdoor rated anchors (plastic or metal).</p>
 
-<p>Para un kit de montaje en chimenea, ¡asegúrate de que el amarre esté extremadamente apretado!</p>
+<p>For a chimney mount kit, make sure the strap is extremely tight!</p>
 
-<p>Para montajes de techo sin penetración, asegúrate de usar por lo menos algunos bloques de concreto (bloques de 4" de grosor son suficiente – no necesitas bloques completos de 8" de grosor).</p>
+<p>For a non-penetrating roof mount, make sure to use at least a few concrete blocks (4" thick blocks are enough - you don't need full 8" thick blocks).</p>
 
-<p>2. Pon el nodo inalámbrico al mástil montado. Usa abrazaderas metálicas o ataduras de plástico de uso rudo o para exteriores si es posible. Esto evitará que el nodo inalámbrico se resbale o se enrede en el mástil.</p>
+<p>2. Attach the wireless node to the mounted mast. Use metal hose clamps or heavy-duty outdoor rated plastic zip-ties if possible. This will keep the wireless node from slipping or twisting off the mast.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__347 img__view_mode__media_original attr__format__media_original" height="359" src="/files/prep_install_finish_support009.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Si es posible, coloca las luces del indicador en el nodo hacia la calle o hacia el piso, para que sean visibles sin tener que subir al techo. Esto ayudará a la solución de problemas en el futuro.</p>
+<p>If possible, face the indicator lights on the node towards the street or ground, so they are visible without climbing onto the roof. This can help with troubleshooting in the future.</p>
 
-<p>Si estás usando un nodo direccional, apúntalo directamente hacia donde debería enlazarse con otro nodo.</p>
+<p>If you are using a directional node, point it directly to where it should link to another node.</p>
 
-<p>Conecta el conector Ethernet hacia en nodo y cierra el armazón.</p>
+<p>Plug in the Ethernet connector into the node and close the housing.</p>
 
-<p>Conecta el adaptador PoE y aseguralo de algún modo, para que no esté colgando de la conexión de poder. Ataduras de plástico o sujetadores montados en la pared podrían ayudar con esto.</p>
+<p>Plug in the Power over Ethernet (PoE) adapter and secure it in some way, so it isn't hanging by the power plug. Zip-ties or a wall-mounted enclosure may help with this.</p>
 
-<p>4. Corre el cable Ethernet entre el nodo inalámbrico y el adaptador PoE.</p>
+<p>4. Run the Ethernet cable between the wireless node and the Power over Ethernet adapter.</p>
 
-<p>Sigue los tips en el módulo "Aprende lo Básico de los Techos" sobre como correr el cable Ethernet, asegurarlo al mástil, las paredes y sobre las superficies del techo</p>
+<p>Follow the tips in the "Learn Rooftop Basics" module for how to run the Ethernet cable, and how to secure it to the mast, walls and on roof surfaces.</p>
 
-<p>Asegúrate que el cable Ethernet este asegurado de tal manera que el cable no pueda ser pisoteado, y no se arrastrará con el viento durante una tormenta.</p>
+<p>Make sure the Ethernet cable is secured in such a way that the cable cannot be stepped on, and will not whip around in the wind during a storm.</p>
 
-<p>5. Instala los conectores RJ45 a las puntas del cable Ethernet. Cada punta debería ser conectada independientemente, usando el código apropiado de color para el orden de los cables (conocido como T568B). Luego conecta el cable hacia el Nodo y el adaptador PoE, y terminaste con los pasos de la instalación</p>
+<p>5. Install the RJ45 connectors on the Ethernet cable ends. Each end should be wired identically, using the proper color code for the wire order (known as T568B). Then plug the cable into the Node and PoE adapter, and you are finished with the installation steps</p>
 </section>
 
 <section id="clean-up">
-<h2>Limpiar, Preparar y la Post-Instalación</h2>
+<h2>Clean up, Testing and Post-Installation</h2>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__348 img__view_mode__media_original attr__format__media_original" height="428" src="/files/prep_install_finish_support010.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Ninguna instalación está terminada a menos que dejes el lugar viéndose mejor que cuando llegaste. ¡Nunca dejes un desastre! Asegúrate de no haber dejado ningún agujero sin sellar en el exterior del edificio por donde pueda entrar agua.</p>
+<p>No installation is finished unless you leave the site looking better than when you arrived. Never leave a mess! Make sure you have not left any unsealed holes in the building exterior where water may enter.</p>
 
-<h3>1. LIMPIA EL TECHO Y LA UBICACIÓN DEL POE.</h3>
+<h3>1. CLEAN UP THE ROOFTOP AND POE LOCATION.</h3>
 
-<p>Corta cualquier pedazo suelto o extendido de las ataduras de plástico.</p>
+<p>Cut off any loose or extending ends from zip-ties.</p>
 
-<p>Limpia cualquier cable o piezas de cable.</p>
+<p>Clean up any wire or cable pieces.</p>
 
-<p>Revisa que los bucles de servicio en el cable estén asegurados de algún modo.</p>
+<p>Ensure service loops in the cable are secured in some way.</p>
 
-<p>Barre cualquier polvo de mortero / polvo de madera si taladraste.</p>
+<p>Sweep away mortar dust / wood dust if you did any drilling.</p>
 
-<h3>2. CHECA LA CONECTIVIDAD AL NODO INALÁMBRICO.</h3>
+<h3>2. CHECK CONNECTIVITY TO THE WIRELESS NODE.</h3>
 
-<p>Después de unos cuantos minutos, asócialo con el Punto de Acceso (Access Point, AP) en tu teléfono o laptop. Confirma que te conectaste.</p>
+<p>After a couple of minutes, associate with the Access Point (AP) on your phone or a laptop. Confirm that you can connect.</p>
 
-<p>Trae la página de Administración del nodo inalámbrico.</p>
+<p>Bring up the wireless node's Administration page.</p>
 
-<p>Navega a la página de estatus OLSR que muestra los nodos de tus vecinos en la mesh, si hay alguno. Confirma que este nodo esté conectado a los otros.</p>
+<p>Navigate to the OLSR status page that shows you neighbor nodes on the mesh, if there are any. Confirm that this node is connected to others.</p>
 
-<p>SI hay una Puerta de Acceso a Internet en tu red, checa que puedas salir del Internet.</p>
+<p>If there is an Internet Gateway on your network, check that you can get out to the Internet.</p>
 
-<h3>3. GRABA CUALQUIER INFORMACIÓN NECESARIA ACERCA DE LA INSTLACIÓN EN TU DOCUMENTACIÓN DE LA RED.</h3>
+<h3>3. RECORD ANY NECESSARY INFORMATION ABOUT THE INSTALLATION IN YOUR NETWORK'S DOCUMENTATION.</h3>
 
-<p>Por ejemplo, en adición al nombre del nodo, direcciones MAC y direcciones de IP, toma nota de la ubicación y que funcionó y que no funcionó, así como cualquier seguimiento o pasos próximos.</p>
+<p>For example, in addition to the node name, MAC address, and IP address, make a note of the location and what worked and did not work, as well as any follow-up or next steps.</p>
 </section>
 
 <section id="definitions">
-<h2>Definiciones</h2>
+<h2>Definitions</h2>
 
 <dl>
-	<dt>Direcciones MAC</dt>
-	<dd>Una combinación única de números y letras que identifican a un dispositivo específico.</dd>
-	<dt>Dirección IP</dt>
-	<dd>Una secuencia única de números separada por puntos que identifica a cada dispositivo unido a una red.</dd>
-	<dt>Linea de Vista</dt>
-	<dd>Un camino sin obstrucción para que las señales inalámbricas viajen entre edificios o dispositivos.</dd>
+	<dt>MAC Address</dt>
+	<dd>a unique combination of numbers and letters that identifies a specific device.</dd>
+	<dt>IP Address</dt>
+	<dd>A unique string of numbers separated by periods that identifies each device attached to a network.</dd>
+	<dt>Line of Sight</dt>
+	<dd>An unobstructed path for wireless signals to travel between buildings or devices.</dd>
 </dl>
 </section>
 
 <section class="related-information" id="related-information">
-<h2>Información Relacionada</h2>
+<h2>Related Information</h2>
 
-<p>Otros módulos referenciados en este:</p>
+<p>Other modules referenced in this one:</p>
 
-<p><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Instala un Router Ubiquitir</a></p>
+<p><a href="/docs/cck/installing-configuring/install-ubiquiti-router">Install on a Ubiquiti Router</a></p>
 
-<p><a href="/docs/cck/planning/inventory-the-neighborhood">Inventorio del Vecindario</a></p>
+<p><a href="/docs/cck/planning/inventory-the-neighborhood">Inventory the Neighborhood</a></p>
 
-<p><a href="/docs/cck/building-mounting/learn-rooftop-basics">Aprende lo básico de los techos</a></p>
+<p><a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a></p>
 
-<p><a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprende de Montajes en los Techos</a></p>
+<p><a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a></p>
 </section>
 
 <section class="external-resources" id="external-resources">
-<h2>Recursos Externos</h2>
+<h2>External Resources</h2>
 
-<p>Consulta el sitio web de Commotion Wireless commotionwireless.net para más información o documentación sobre instalar el software en tus dispositivos.</p>
+<p>Consult the Commotion Wireless website commotionwireless.net for more information or documentation on installing the software on your devices.</p>
 </section>
  

@@ -1,45 +1,47 @@
-﻿---
+---
 layout: downloads
-title: Descarga Commotion Andoid
+title: Download Commotion Andoid
 categories: 
 created: 2013-06-28
-changed: 2014-06-06
+changed: 2013-12-31
 post_author: grady
 lang: es
 ---
 ## Commotion Android
 
-<div class="warning-label">
+  <div class="warning-label">
 <div class="warning-top">
-<h2>ADVERTENCIA</h2>
+<h2>WARNING</h2>
 </div>
 
 <div class="warning-bottom">
 <h2>Commotion</h2>
 
 <ul>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#anonymity">No puede esconder tu identidad</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#internet">No previene el monitoreo del tráfico de internet</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">No provee fuerte seguridad contra el monitoreo sobre el enmallado</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Puede atorarse con interferencias de radio/datos</a></li>
+	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
+	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
+	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
+	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
 </ul>
-<a href="/understanding-commotions-warning-label">Para Mayor Información Da Click Aquí</a></div>
+<a href="https://commotionwireless.net/understanding-commotions-warning-label">For More Info Click Here</a></div>
 </div>
 
-<p>Las cescargas pre-construidas para dispositivos android Commotion que actualmente soportamos están listadas abajo.</p>
+<p>Here you can find pre-built downloads for the Commotion android devices we currently support.</p>
 
-<p><strong>POR FAVOR TOMA NOTA:</strong>
+<p><strong>NOTE: Your phone must be rooted</strong> to run this package. See the <a href="/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.</p>
 
-  * <strong>Tu teléfono debe estar enrutado</strong> para correr este paquete. 
-  * Commotion Android se conectará con las redes Commotion hasta el Router Commotion PR3. No obstante, no está completamente compatible en características con el Router Commotion 1.0 o más altos.
-  * Ve la página de <a href="/docs/supported-devices/#phones">Hardware Soportado por Commotion Android</a> para información de dispositivos específicos.
+<p>&nbsp;</p>
 
-</p>
+<p><strong>Current Release</strong>&nbsp;= (PR3)&nbsp; Pre-Release 3<br />
+<strong>Next Release</strong>&nbsp;= v1.0</p>
 
-<p><strong>Lanzamiento Actual</strong> = (PR3)&nbsp; Pre-Lanzamiento 3<br />
-<strong>Nuevo Lanzamiento</strong> = v1.0</p>
+<p>&nbsp;</p>
 
-<h3>Construcciones Estables:</h3>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Stable Builds:</h3>
 
 <table class="files list">
 	<thead>
@@ -52,17 +54,16 @@ lang: es
 	</thead>
 	<tbody>
 		<tr>
-			<th colspan="4">Pre-Lanzamiento Desarrollador (PR3)</th>
+			<th colspan="4">Developer Pre-Release (PR3)</th>
 		</tr>
 		<tr>
-			<td><a href="https://downloads.commotionwireless.net/android/commotion-android.apk" title="Commotion MeshTether for Android">CommotionMeshTether-pr3.apk</a></td>
+			<td><a href="https://code.commotionwireless.net/attachments/download/129/CommotionMeshTether-pr3.apk" title="Commotion MeshTether for Android">CommotionMeshTether-pr3.apk</a></td>
 			<td>09/17/2012 02:36 am</td>
-			<td>2.2 MB</td>
+			<td>1 MB</td>
 			<td>d80f078b6150daa1cb4dd6e79d134eea</td>
 		</tr>
 	</tbody>
 </table>
-<p>&nbsp;</p>
 
-<p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Código Fuente</a></p>
+<p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Source Code</a></p>
  

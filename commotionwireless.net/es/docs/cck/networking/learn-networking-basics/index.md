@@ -1,49 +1,49 @@
-﻿---
+---
 layout: cck
-title:  Aprende lo Básico de las Redes
+title: Learn Networking Basics
 site_section: docs
 sub_section: [cck,cck-networking]
-pdf: cck/networking/CCK-Learn_Networking_Basics.pdf
+pdf: cck/networking/1-Learn_Networking_Basics.pdf
 pdf-all: true
 categories: 
 created: 2013-11-07
-changed: 2014-08-22
+changed: 2013-11-26
 post_author: critzo
 lang: es
 ---
 <section id="introduction">
 <p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" /></p>
 
-<h2>Introducción</h2>
+<h2>Introduction</h2>
 
-<p>Este documento cubre los conceptos básicos de cómo funciona la creación de redes, y cómo utilizar diferentes dispositivos para construir redes. Las redes de computadoras han existido durante muchos años, y con el paso del tiempo las tecnologías se han vuelto más rápidas y menos costosas. Las redes se componen de varios dispositivos-de computadora, switches, routers-conectados entre sí por cables o señales inalámbricas. Entender los fundamentos de cómo las redes se organizan es un paso importante en la construcción de redes inalámbricas en una comunidad o barrio.</p>
+<p>This document covers the basics of how networking works, and how to use different devices to build networks. Computer networking has existed for many years, and as time has passed the technologies have become faster and less expensive. Networks are made up of various devices—computers, switches, routers—connected together by cables or wireless signals. Understanding the basics of how networks are put together is an important step in building a wireless network in a community or neighborhood.</p>
 
-<p>Este módulo cubre los conceptos de:</p>
+<p>This module covers the concepts of:</p>
 
 <ol class="rteindent1">
-	<li>Clientes y servidores—cómo los servicios como el correo electrónico y las páginas web se conectan usando redes.</li>
-	<li>Direcciones IP—cómo los dispositivos se pueden encontrar en una red.</li>
-	<li>Centrales de redes, switches y cables—los bloques de construcción de hardware de cualquier red.</li>
-	<li>Routers y firewalls—cómo organizar y controlar el flujo del tráfico en la red.</li>
+	<li>Clients and servers—how services such as e-mail and web pages connect using networks.</li>
+	<li>IP addresses—how devices on a network can be found.</li>
+	<li>Network hubs, switches and cables—the hardware building blocks of any network.</li>
+	<li>Routers and firewalls—how to organize and control the flow of traffic on a network.</li>
 </ol>
 
-<p>Leer este material debe tomar entre media hora y una hora. Explorar las actividades y los detalles del tema con un grupo tomará más tiempo.</p>
+<p>Reading through this material should take between half an hour to an hour. Exploring the activities and details of the subject with a group will take longer.</p>
 </section>
 
 <section id="clients-and-servers">
-<h2>Clientes and Servidores</h2>
+<h2>Clients and Servers</h2>
 
-<p>Una relación importante en las redes es aquella del <strong>servidor</strong> y el <strong>cliente</strong>. Un servidor es una computadora que almacena contenido y servicios como un sitio web, un archivo de medios o una aplicación de chat. Un buen ejemplo de un servidor es la computadora que almacena el sitio web para la página de búsqueda de Google: <a href="http://www.google.com"><strong>http://www.google.com</strong></a>. El servidor almacena esa página, y la envía cuando se solicita.</p>
+<p>An important relationship on networks is that of the <strong>server</strong> and the <strong>client</strong>. A server is a computer that holds content and services such as a website, a media file, or a chat application. A good example of a server is the computer that holds the website for Google’s search page: <a href="http://www.google.com"><strong>http://www.google.com</strong></a>. The server holds that page, and sends it out when requested.</p>
 
-<p>Un cliente es una computadora diferente, como tu laptop o teléfono celular, que solicita ver, descargar o utilizar el contenido. El cliente puede conectarse a través de una red de intercambio de información. Por ejemplo, cuando solicitas la página de búsqueda de Google con tu navegador web, tu computadora es el cliente.</p>
+<p>A client is a different computer, such as your laptop or cell phone, that requests to view, download, or use the content. The client can connect over a network to exchange information. For instance, when you request Google’s search page with your web browser, your computer is the client.</p>
 
-<p>En el siguiente ejemplo, dos computadoras están conectadas entre sí mediante un cable Ethernet. Estas computadoras son capaces de verse entre sí y comunicarse a través del cable. La computadora cliente solicita una página web de la computadora servidor. El sitio web se entrega desde el servidor, y se muestra en el navegador web del cliente.</p>
+<p>In the example below, two computers are connected together with an Ethernet cable. These computers are able to see each other and communicate over the cable. The client computer asks for a website from the server computer. The website is delivered from the server, and displayed on the client’s web browser.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510" /></p>
 
-<p>La mayoría de las solicitudes y entrega de contenido en redes son similares a, o se basan en, una relación de cliente con el servidor. En una red, el servidor puede estar ubicado casi en cualquier lugar, y si el cliente tiene la dirección, puede acceder a los contenidos en el servidor.</p>
+<p>Most requests and content delivery on networks are similar to, or are based on, a client to server relationship. On a network, the server can be located almost anywhere, and if the client has the address, it can access the content on the server.</p>
 
-<p><strong>Activity:</strong> Cuál es un ejemplo del mundo real de una relación cliente y servidor:</p>
+<p><strong>Activity:</strong> What is one real world example of a client and server relationship:</p>
 
 <pre>
 
@@ -53,134 +53,134 @@ Client: _________________
 
 Server:_________________</pre>
 
-<p class="rteindent1"><em>Ejemplo:<br />
-cliente: receptor de radio en tu carro<br />
-servidor: estación de radio</em></p>
+<p class="rteindent1"><em>Example:<br />
+client: radio receiver in your car<br />
+server: radio station</em></p>
 </section>
 
 <section id="ip-addresses">
-<h2>Direcciones IP</h2>
+<h2>IP Addresses</h2>
 
-<p>Para poder enviar y dirigir datos a través de la red, las computadoras necesitan ser capaces de identificar los destinos y orígenes. Esta identificación es una dirección IP (Protocolo de Internet). Una <strong>dirección IP</strong> es solo un set te cuatro números entre 1 y 254, separados por puntos. Un ejemplo de una dirección IP es <strong>173.194.43.7</strong>.</p>
+<p>In order to send and direct data across a network, computers need to be able to identify destinations and origins. This identification is an IP—Internet Protocol—address. An <strong>IP address</strong> is just a set of four numbers between 1 and 254, separated by dots. An example of an IP address is <strong>173.194.43.7</strong>.</p>
 
-<p>Una dirección IP es similar a una dirección de calle. Las partes de la dirección describen donde en el mundo se ubica el edificio, otra parte lo reduce al estado o ciudad, luego el área dentro del estado o ciudad, luego la ubicación de la calle.</p>
+<p>An IP address is similar to a street address. Parts of the address describe where in the world the building is located, another part narrows it down to a state or city, then the area within that state or city, then the location on the street.</p>
 
-<p>Abajo podemos ver <strong>Calle 192.168.1</strong>. En ella hay tres casas:</p>
+<p>Below we can see <strong>192.168.1 Street</strong>. On it are three houses:</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__627 img__view_mode__media_original attr__format__media_original" height="189" src="/files/CCK_Networking_Basics_IP_address_street.png" typeof="foaf:Image" width="510" /></p>
 
-<p>La direcciones completas para cada una de estas casas son: 192.168.1.<strong>20</strong>, 192.168.1.<strong>21</strong>, y 192.168.1.<strong>22</strong>.</p>
+<p>The complete addresses for each of these houses is: 192.168.1.<strong>20</strong>, 192.168.1.<strong>21</strong>, and 192.168.1.<strong>22</strong>.</p>
 
-<p>Existen diferentes clasificaciones o tipos de direcciones IP. Una red puede ser pública, o puede ser privada. Las direcciones IP públicas son accesibles en cualquier lugar en Internet. Las direcciones IP privadas no lo son, y la mayoría están normalmente escondidas detrás de un dispositivo con una dirección IP pública.</p>
+<p>There are different classifications, or types of IP addresses. A network can be public, or it can be private. Public IP addresses are accessible anywhere on the Internet. Private IP addresses are not, and most are typically hidden behind a device with a public IP address.</p>
 
-<p>Aquí podemos ver un ejemplo—una calle con dos edificios con <strong>direcciones IP públicas</strong>—representando computadoras con direcciones que son visibles a todo el Internet. Estos edificios pueden estar en cualquier parte del mundo, pero sus direcciones están completas, así que sabemos exactamente donde están y les podemos mandar mensajes.</p>
+<p>Here we can see an example—a street with two buildings with <strong>public IP addresses</strong>—representing computers with addresses that are visible to the entire Internet. These buildings might be anywhere in the world, but their addresses are complete, so we know exactly where they are and can send messages to them.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__628 img__view_mode__media_original attr__format__media_original" height="218" src="/files/CCK_Networking_Basics_IP_address_public.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Para ver un ejemplo de como las direcciones IP públicas y privadas se usan comunmente, demos otro vistazo a <strong>Calle 192.168.1</strong>. Tenemos un nuevo edificio en la calle. Ese edificio tiene una dirección IP pública, y una dirección IP privada. Hay también una barda que bloquea el resto del Internet de ver y pasar mensajes a direcciones en la calle.</p>
+<p>To see an example of how public and private IP addresses are commonly used, let’s take another look at <strong>192.168.1 Street</strong>. We have a new building on the street. That building has a public IP address, and a private IP address. There is also a fence that blocks the rest of the Internet from seeing and passing messages to addresses on the street.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
 
-<p>El edificio postal controla los mensajes que viajan entre el Internet y la calle, dando seguimiento a los mensajes que salen a la calle, y dirigiendo mensajes de regreso a la casa correcta. En la calle, tiene la dirección  <strong>192.168.1.1</strong>, y en Internet tiene la dirección <strong>74.10.10.50</strong>.</p>
+<p>The postal building controls messages that travel between the Internet and the street, keeping track of messages that leave the street, and directs return messages to the right house. On the street, it has the address <strong>192.168.1.1</strong>, and on the Internet it has the address <strong>74.10.10.50</strong>.</p>
 
-<p><strong>Activity:</strong> Encuentra la dirección IP asignada a tu computadora, y tu red.</p>
+<p><strong>Activity:</strong> Find the IP addresses assigned to your computer, and your network.</p>
 
 <pre>
 
 
-¿Cuál es la dirección IP de tu computadora? ____________________
+What is the IP address for your computer? ____________________
 
 
-Navega a <a href="http://ip.mayfirst.org"><strong>http://ip.mayfirst.org/</strong></a> 
-y escribe la dirección IP que reporta: ____________________
+Browse to <a href="http://ip.mayfirst.org"><strong>http://ip.mayfirst.org/</strong></a> 
+and write down the IP address it reports: ____________________
 </pre>
 
-<p>¿Son estos números los mismos o diferentes? ¿Por qué?</p>
+<p>Are these numbers the same, or different? Why?</p>
 </section>
 
 <section id="network-hubs-and-switches">
-<h2>Centrales de Red y Switches</h2>
+<h2>Network Hubs and Switches</h2>
 
-<p>Tradicionalmente, las computadoras se conectan unas a otras usando cables—creando una red. El cable usando más a menudo es Ethernet, que consuste en cuatro pares de cables dentro de una cubierta de plástico. Es físicamente similar a los cables de teléfono, pero puede transportar muchos más datos.</p>
+<p>Traditionally, computers are connected to each other using cables—creating a network. The cable used most often is Ethernet, which consists of four pairs of wires inside of a plastic jacket. It is physically similar to phone cables, but can transport much more data.</p>
 
-<p>Pero los cables y computadoras solas no hacen una buena red, por lo que una pronta solución fue utilizar una red <strong>central</strong>. Los cables Ethernet de la computadora se conectan al dispositivo similar al centro de una bicicleta de ruedas—donde todas las radios se unen en el centro.</p>
+<p>But cables and computers alone do not make a good network, so one early solution was to use a network <strong>hub</strong>. The Ethernet cables from the computer connect to the device similar to the hub of a bike wheel—where all of the spokes come together in the center.</p>
 
-<p>Un ejemplo de como funciona una central se muestra abajo. Una computadora <strong>A</strong> quiere enviar un mensaje a una computadora <strong>B</strong>. Envía un mensaje a través del cable Ethernet a la central, luego la central repite el mensaje a todas las computadoras conectadas.</p>
+<p>An example of how a hub works is shown below. Computer <strong>A</strong> wants to send a message to computer <strong>B</strong>. It sends the message through the Ethernet cable to the hub, then the hub repeats the message to all of the connected computers.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__630 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_hub.png" typeof="foaf:Image" width="510" /></p>
 
-<p>Una red usando una central se puede alentar si muchas computadores están mandando mensajes, ya que podrían intentar y enviar mensajes al mismo tiempo y confundir a la central. Para ayudar con este problema, las redes comenzaron a usar otro dispositivo llamado <strong>switch</strong>. En lugar de repetir todos los mensajes que llegan, un switch solo envía el mensaje al destino previsto. Esto elimina la repetición innecesaria de la central.</p>
+<p>A network using a hub can slow down if many computers are sending messages, since they may try and send messages at the same time and confuse the hub. To help with this problem, networks began to use another device called a <strong>switch</strong>. Instead of repeating all messages that come in, a switch only sends the message to the intended destination. This eliminates the unnecessary repetition of the hub.</p>
 
-<p>Usando un switch, una computadora <strong>A</strong> envía un mensaje a una computadora <strong>B</strong>—las otras computadoras no ven ese mensaje. Esas computadoras pueden envíar otros mensajes al mimso tiempo sin interferir.</p>
+<p>Using a switch, computer <strong>A</strong> sends a message to computer <strong>B</strong>—the other computers do not see the message. Those computers can send other messages at the same time without interfering.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__631 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_switch.png" typeof="foaf:Image" width="510" /></p>
 
-<p>No obstante, los switches tienen limitaciones—ellos solo saben acerca de las direcciones de los equipos que están conectados directamente a ellos. Así que, solo puedes enviar mensajes a un pequeño número de dispositivos—sin embargo, ¡el switch tiene muchos puertos! Si necesitas enviar un mensaje a una computadora o a otra red, se necesitará enviar a través de un router, que discutimos a continuación.</p>
+<p>Switches do have a limitation though—they only know about the addresses of equipment that is plugged directly into them. So, you can only send messages to a small number of devices—however many ports the switch has! If you need to send a message to a computer on another network, it will need to be sent through a router, which we discuss next.</p>
 </section>
 
 <section id="routers-and-firewalls">
-<h2>Routers y Firewalls</h2>
+<h2>Routers and Firewalls</h2>
 
-<p><strong>Routers</strong> hacen la mayoría del trabajo duro en una red – toman las decisiones acerca de todos los mensajes que viajan en la red, y si pasan mensajes de y a redes externas. Hay tres funciones principales:</p>
+<p><strong>Routers</strong> do the majority of the hard work on a network - they make the decisions about all the messages that travel on the network, and whether to pass messages to and from outside networks. There are three main functions:</p>
 
 <table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
 	<tbody>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__632 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_1.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Separar y Crear Puentes</strong></p>
+			<p><strong>Separate and Bridge</strong></p>
 
-			<p>Los routers se separan en secciones, o crean puentes en diferentes redes juntos, como vemos en el ejemplo de abajo-la red privada de Calle 192.168.1 Street está conectada con un puente al Internet con una dirección IP pública.</p>
+			<p>Routers separate networks into sections, or bridge different networks together, as we see in the example above—the private network of 192.168.1 Street is bridged to the Internet with a public IP address.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__633 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_2.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Asignar IPs</strong></p>
+			<p><strong>Assign IPs</strong></p>
 
-			<p>Pueden asignar direcciones IP. En el ejemplo de Calle 192.168.1, si una nueva casa está construida en la calle, obtendría cualquier número más alto que estuviera disponible. En el caso de los routers, asignan direcciones IP usando DHCP—Dynamic Host Configuration Protocol.**************</p>
+			<p>They can assign IP addresses. In the example of 192.168.1 Street, if a new house is built on the street, it would get whatever the next highest house number available. In the case of routers, they assign IP addresses using DHCP—Dynamic Host Configuration Protocol.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__634 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_3.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Firewall y Protección</strong></p>
+			<p><strong>Firewall and Protect</strong></p>
 
-			<p>Pueden filtrar mensajes o mantener a los usuarios fuera de las redes privadas. La mayoría de los routers tienen un Firewall construido adentro. Esta es una función de software que mantiene a los mensajes no deseados sin alcanzar a las computadoras adentro, o partes privadas, de la red.</p>
+			<p>They can filter messages or keep users out of private networks. Most routers have a Firewall built in. This is a software function that keeps unwanted messages from reaching the computers on the inside, or private part, of the network.</p>
 			</td>
 		</tr>
 	</tbody>
 </table>
 
-<p>Miremos de nuevo Calle 192.168.1, y el edificio de servicio postal que incluimos cuando tenían una dirección pública para toda la calle. Como resultado, ese edificio de servicio postal está actuando como un <strong>Router</strong>.</p>
+<p>Let us take another look at 192.168.1 Street, and the postal service building we included when it had a public address for the entire street. As it turns out, that postal service building is acting as a <strong>Router</strong>.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
 
-<p>En este caso, el edificio de servicio postal esta enrutando mensajes entre el resto del Internet usando su dirección pública y la calle con direcciones privadas.</p>
+<p>In this case, the postal service building is routing messages between the rest of the Internet using its public address and the street with private addresses.</p>
 </section>
 
 <section id="section-definitions">
-<h2>Definiciones</h2>
+<h2>Definitions</h2>
 
 <dl>
-	<dt>DHCP—Dynamic Host Configuration Protocol********************</dt>
-	<dd>Asigna direcciones IP a dispositivos cliente, como computadoras de escritorio, laptops, y teléfonos, cuando están conectadas a Ethernet o conectadas a redes inalámbricas.</dd>
+	<dt>DHCP—Dynamic Host Configuration Protocol</dt>
+	<dd>It assigns IP addresses to client devices, such as desktop computers, laptops, and phones, when they are plugged into Ethernet or connect to Wireless networks.</dd>
 	<dt>Ethernet</dt>
-	<dd>Un tipo de protocolo de redes—define los tipos de cables y conexiones que se usan para conectar computadoras, switches, y routers juntos. A menudo los cables Ethernet son categoría 5 o 6, hechos de pares de cables enredados similares a los cables de teléfono.</dd>
-	<dt>Central**************Hub</dt>
-	<dd>Un dispositivo de red que repite el tráfico que recibe a todos los dispositivos conectados.</dd>
+	<dd>A type of networking protocol—it defines the types of cables and connections that are used to wire computers, switches, and routers together. Most often Ethernet cabling is Category 5 or 6, made up of twisted pair wiring similar to phone cables.</dd>
+	<dt>Hub</dt>
+	<dd>A network device that repeats the traffic it receives to all connected devices.</dd>
 	<dt>Switch</dt>
-	<dd>Un dispositivo de red que envía tráfico y lo recibe a un dispositivo específico conectado, como una sola computadora de escritorio o laptop.</dd>
+	<dd>A network device that sends traffic it receives to a specific connected device, such as a single desktop computer or laptop.</dd>
 	<dt>Router</dt>
-	<dd>Un dispositivo que puede conectar a través de un puente diferentes redes, determina que tráfico puede pasar a través de ellas, y realiza otras funciones en una red, como asignar direcciones IP.</dd>
+	<dd>A network device that can bridge between different networks, determine what traffic can pass between them, and perform other functions on a network, such as assigning IP addresses.</dd>
 	<dt>Firewall</dt>
-	<dd>Una función tipicamente realizada por routers, esto filtra el tráfico entre redes y puede protegerlas de interferencias o ataques.</dd>
+	<dd>A function typically performed by routers, this filters traffic between networks and can protect them from interference or attacks.</dd>
 </dl>
 </section>
 
 <section class="related-information" id="section-related-information">
-<h2>Información Relacionada</h2>
+<h2>Related Information</h2>
 
-<p>Este módulo tiene la intención de proporcionar algunos antecedentes útiles sobre las redes. Recomendamos leer próximo documento (¡pero que aún no está terminado!) Aprende Acerca de las Redes Inalámbricas después de esta guía.</p>
+<p>This module is intended to provide some helpful background on networking. We recommend reading the upcoming (but not finished!) Learn about Wireless after this guide.</p>
 </section>
  

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: cck
-title: Solución de Problemas de tu Nodo Inalámbrico
+title: Troubleshoot Your Wireless Node
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/4-Troubleshoot_Your_Wireless_Node.pdf
@@ -11,81 +11,81 @@ changed: 2013-12-23
 post_author: critzo
 lang: es
 ---
- <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
+  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
 
 <section id="introduction">
-<h2>Introducción</h2>
+<h2>Introduction</h2>
 
-<p>Este documento incluye&nbsp;pasos para identificar y &nbsp;resolver los problemas más comunes que pueda surgir con tu router Commotion o red inalámbrica. Incluye:</p>
+<p>This document includes&nbsp;steps to identify and&nbsp;solve the most common problems that may arise with your Commotion router or wireless network. It includes:</p>
 
 <ul>
-	<li>Algunos ejemplos de los problemas más comunes de redes.</li>
-	<li>Una guía paso a paso para evaluar y solucionar los problemas.</li>
-	<li>Algunos suministros que podrías necesitar para solucionar los problemass.</li>
-	<li>Ligas a los recursos que puedas necesitar mientras trabajas fuera de línea.</li>
+	<li>Some examples of the most common network problems.</li>
+	<li>A step by step guide to assess and troubleshoot issues.</li>
+	<li>Some supplies you may need for troubleshooting issues.</li>
+	<li>Links to resources that may be needed while offline.</li>
 </ul>
 
-<p>Dependiendo de la severidad del problema, puede tomarte desde <strong>cinco minutos hasta varias horas</strong> para exitosamente solucionar problemas de un nodo o red.</p>
+<p>Depending on the severity of the problem, it may take anywhere from <strong>five minutes to several hours</strong> to successfully troubleshoot the node or network.</p>
 </section>
 
 <section id="materials-and-supplies-needed">
-<h3>MATERIALES + SUMINISTROS NECESARIOS</h3>
+<h3>MATERIALS + SUPPLIES NEEDED</h3>
 
-<p>Para solucionar problemas de tu nodo, necesitarás los siguientes artículos a la mano:</p>
+<p>To troubleshoot your node, you will need the following items on-hand:</p>
 
 <ul>
-	<li>Una impresión, o acceso fuera de línea a, este documento (puedes imprimir esta página web)</li>
-	<li>Un cable Ethernet extra</li>
-	<li>Una computadora con un puerto Ethernet</li>
-	<li>La imagen de software Commotion, si necesitas iniciar de nuevo</li>
-	<li>(Optional) Una impresión de, o acceso fuera de linea a, <a href="https://commotionwireless.net/docs/cck/installing-configuring/common-configuration">Configuraciones Comunes</a> y <a href="https://commotionwireless.net/docs/cck/installing-configuring/configure-commotion">Configura Commotion</a></li>
-	<li>(Opcional) Un router de soporte</li>
+	<li>A print out of, or offline access to, this document (you can print this web page)</li>
+	<li>An extra Ethernet cable</li>
+	<li>A computer with an Ethernet port</li>
+	<li>The Commotion software image, if you need to start over</li>
+	<li>(Optional) A print out of, or offline access to, <a href="https://commotionwireless.net/docs/cck/installing-configuring/common-configuration">Common Configurations</a> and <a href="https://commotionwireless.net/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+	<li>(Optional) A backup router</li>
 </ul>
 </section>
 
 <section id="troubleshooting-overview">
-<h3>Información general sobre problemas comunes</h3>
+<h3>Overview of Common Problems</h3>
 
-<p>El problema más común que un usuario de una red inalámbrica experimentará será no poder conectarse a la red o al Internet. No puede haber muchas causas para los problemas comunes con la red. Problemas con el hardware del router, un cable Ethernet, un adaptador de corriente, la electricidad, la puerta de enlace de Internet, o el software Commotion podrían ser una parte del problema. El proceso de solución de problemas es trabajar a través de opciones y descartar problemas al ver lo que está sucediendo en cada parte de la conexión de red.</p>
+<p>The most common problem a wireless network&nbsp;user will experience is not being able to connect to the network, or to the Internet. There could be many causes for common problems with the network. Issues with the router hardware, an Ethernet cable, a power adapter, electricity, the Internet Gateway, or the Commotion software could be a part of the problem. The troubleshooting process is to work through options, and rule out issues by seeing what is happening at each part of the network connection.</p>
 
-<p><b>Comienza la solución de problemas al hacerte estas preguntas&nbsp;y al ir&nbsp;a la primera sección donde tu respuesta sea "no":</b></p>
+<p><b>Start troubeshooting by asking these questions&nbsp;and going&nbsp;to the first section where your answer is "no":</b></p>
 
 <table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
 	<tbody>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__637 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_power_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><a href="#no-power">¿Está prendido el router?</a></p>
+			<p><a href="#no-power">Is the router powered on?</a></p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__638 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_visibleap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><a href="#no-visible-ap">¿Puedes ver el punto de acceso en tu dispositivo de cliente?</a></p>
+			<p><a href="#no-visible-ap">Can you see the access point on your client device?</a></p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__639 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_associateap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
-			<td><a href="#cant-connect-ap">¿Puedes conectarte al punto de acceso con tu dispositivo cliente?</a></td>
+			<td><a href="#cant-connect-ap">Can you connect to the access point with your client device?</a></td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__640 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_splashed_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><a href="#no-splash-page">¿No estás viendo la página splash después de asociarte con el punto de acceso?</a></p>
+			<p><a href="#no-splash-page">Are you not seeing the splash page after associating with the access point?</a></p>
 			</td>
 		</tr>
-		<!--<tr>
+		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__641 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_internet_question.png" style="width: 100px; height: 94px; margin: 16px 10px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><a href="#no-internet">¿Estás obteniendo la página splash, pero simplemente no puedes conectarte a Internet?</a></p>
+			<p><a href="#no-internet">Are you getting the splash page, but still cannot connect to the Internet?</a></p>
 			</td>
-		</tr>-->
+		</tr>
 	</tbody>
 </table>
 </section>
 
 <section id="no-power">
-<h2>Problemas de poder: Si el router no está prendido</h2>
+<h2>Power Issues: If the router is not on</h2>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__512 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" />
 
 <p>&nbsp;</p>
@@ -97,9 +97,9 @@ lang: es
 			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__714 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/troubleshooting_checkPOE.png?itok=XFS1ormf" style="width: 240px; height: 185px;" typeof="foaf:Image" /></p>
 			</td>
 			<td>
-			<p><strong>¿Tiene el adaptador PoE poder?</strong></p>
+			<p><strong>Does the Power over Ethernet (PoE) adapter have power?</strong></p>
 
-			<p>Asegurate que el adaptador PoE esté completamente conectado a una conexión eléctrica y que la luz de poder en el adaptador PoE este prendida.</p>
+			<p>Make sure the PoE adapter is fully plugged-in to the electrical socket and that the power light on the PoE adapter is on.</p>
 			</td>
 		</tr>
 		<tr>
@@ -107,22 +107,30 @@ lang: es
 			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__524 img__view_mode__media_large attr__format__media_large" height="262" src="/files/troubleshoot_checkoutlet.png" typeof="foaf:Image" width="237" /></p>
 			</td>
 			<td>
-			<p><strong>¿Sirve la toma de corriente?</strong></p>
+			<p><strong>Does the outlet work?</strong></p>
 
-			<p>Si el PoE no está prendido, revisa la toma de corriente con otro aparato eléctrico que sepas que funciona. Si ese dispositivo tampoco se alimenta, usa otra toma.</p>
+			<p>If the PoE does not turn on, check the electrical outlet with another electrical device that you know works. If that device also does not get power, try a different outlet.</p>
 
-			<p>Si la toma funciona, el adaptador PoE puede estar dañado. Intenta reemplazado el adaptador PoE.</p>
+			<p>If the power outlet works, the PoE adapter may be bad. Try replacing the PoE adapter.</p>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
-			<p><strong>Checa los cables.</strong><br />
+			<p><strong>Check the cables.</strong><br />
 			<img alt="" class="media-image attr__typeof__foaf:Image img__fid__525 img__view_mode__media_large attr__format__media_large" height="290" src="/files/troubleshoot_checkcables.png" typeof="foaf:Image" width="480" /><br />
-			Si el adaptador PoE tiene poder pero el router no, puede ser un problema con el cable Ethernet entre el PoE y el router. Intenta con un cable Ethernet diferente.</p>
+			If the PoE adapter has power but the router does not, it may be a problem with the Ethernet cable between the PoE and the router. Try a different Ethernet cable.</p>
 
-			<p>Revisa para asegurarte que todos los cables estén firmemente conectados, entre el adaptador PoE y el router, entre el adaptador PoE.******************Check to be sure all cables are securely plugged-in, between the PoE adapter and router, between the PoE adapter</strong></p>
+			<p>Check to be sure all cables are securely plugged-in, between the PoE adapter and router, between the PoE adapter’s LAN port and switch or Gateway modem (if applicable), and between the PoE adapter and electric outlet.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__526 img__view_mode__media_large attr__format__media_large" height="480" src="/files/troubleshoot_routerpower.png" typeof="foaf:Image" width="195" /></p>
+			</td>
+			<td>
+			<p><strong>If the router still does not have power…</strong></p>
 
-			<p>Si los pasos de arriba no resuelven el problema de poder, desconecta y reconecta el adaptador PoE para reinicar el adaptador y el router. Espera un minuto o dos para dejar que el router reinicie antes de intentar iniciar sesión. Si esto no funciona, entonces hay un problema con el router y deberías reemplazarlo.</p>
+			<p>If the above steps do not solve the power problem, unplug and re-plug the PoE adapter to restart the adapter and router. Wait a minute or two to let the router reboot before attempting to login. If this does not work, then there is a problem with the router and you should replace it.</p>
 			</td>
 		</tr>
 	</tbody>
@@ -131,11 +139,11 @@ lang: es
 <h3>Power: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
-<strong>En este punto, sabes que el suministro de energía para el router está bien. Muévete a la siguiente sección de solución de problemas.</strong></p>
+<strong>At this point, you know the electricity supply for the router is good. Move on to the next troubleshooting section.</strong></p>
 </section>
 
 <section id="no-visible-ap">
-<h2>No hay Puntos de Acceso Visibles: Si no puedes ver el Punto de Acceso</h2>
+<h2>No visible Access Point: If you cannot see the AP</h2>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__514 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
@@ -143,41 +151,41 @@ lang: es
 	<tbody>
 		<tr>
 			<td colspan="2">
-			<p><strong>¿Estás lo suficientemente cerca del punto de acceso?</strong></p>
+			<p><strong>Are you near enough to the access point?</strong></p>
 
 			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__527 img__view_mode__media_large attr__format__media_large" height="110" src="/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
 
-			<p>Asegúrate de estar lo suficientemente cerca del Punto de Acceso para que sea visible en tu dispositivo inalámbrico. También, checa si hay condiciones del ambiente alrededor del nodo que estén bloqueando la señal.</p>
+			<p>Make sure you are close enough to the AP for it to be visible to your wireless device. Also, check if any environmental conditions around the node are blocking the signal.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__528 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_Hidden_AP.png" style="width: 250px; height: 91px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Está escondido el punto de acceso?</strong></p>
+			<p><strong>Is the access point hidden?</strong></p>
 
-			<p>Si sabes que hay un Punto de Acceso y estás cerca del router, pero aún así no puedes ver el punto de acceso en tu dispositivo de cliente, el administrador de red puede haber configurado el punto de acceso a invisible. Intenta ingresar el punto de acceso de forma manual en tu dispositivo y su administrador de red.</p>
+			<p>If you know there is an AP and you are close to the router, but you still cannot see the AP on your client device, the network administrator may have set the AP to invisible. Try entering the AP name manually on your client device in its network manager.</p>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
-			<p><strong>¿Está el Punto de Acceso habilitado en el nodo?</strong></p>
+			<p><strong>Is the AP enabled on the node?</strong></p>
 
 			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__738 img__view_mode__media_large attr__format__media_large" height="213" src="/files/styles/large/public/adv_network_wifi.png?itok=fZX0pK5a" typeof="foaf:Image" width="480" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__530 img__view_mode__media_large attr__format__media_large" height="169" src="/files/Troubleshoot_enable_ap.png" typeof="foaf:Image" width="480" /></p>
 
-			<p>En la interfaz del administrador, ve a <strong>Advanced -&gt; Network -&gt; WiFi</strong>&nbsp;y asegúrate de que el punto de acceso este habilitado. Si cambias esta configuración puede ser que necesites reiniciar el nodo.</p>
+			<p>In the admin interface, go to <strong>Advanced -&gt; Network -&gt; WiFi</strong>&nbsp;and make sure the “Master” access point is enabled. If you change this setting, you may need to reboot your node.</p>
 			</td>
 		</tr>
 	</tbody>
 </table>
 
-<h3>AP Visibilidad: Revisada</h3>
+<h3>AP Visibility: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
-<strong>El punto de acceso es visible.</strong></p>
+<strong>The AP is visible.</strong></p>
 </section>
 
 <section id="cant-connect-ap">
-<h2>No puedes conectar el Punto de Acceso: Tu dispositivo no está sosteniendo una conexión</h2>
+<h2>Cannot connect to the Access Point: Your device isn't holding a connection</h2>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__516 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
@@ -185,94 +193,145 @@ lang: es
 	<tbody>
 		<tr>
 			<td colspan="2">
-			<p><strong>¿Estás muy lejos del punto de acceso?</strong></p>
+			<p><strong>Are you too far from the access point?</strong></p>
 
 			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__527 img__view_mode__media_large attr__format__media_large" height="110" src="/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
 
-			<p>Debido a que los nodos a menudo tienen una señal más fuerte que tu dispositivo cliente, podrías ser capaz de ver una señal fuerte en tu dispositivo cliente, pero tu dispositivo cliente puede no ser lo suficientemente poderoso para comunicarse con el nodo a distancia.</p>
+			<p>Because nodes often have more signal strength than your client device, you may be able to see a strong signal on your client device, but your client device may not be powerful enough to communicate with the node from a distance.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__531 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshoot_device_powercycle.png" style="width: 175px; height: 300px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Reinicia lo inalámbrico y/o tu dispositivo.</strong></p>
+			<p><strong>Restart wireless and/or your device.</strong></p>
 
-			<p>Si aún no puedes conectarte, intenta apagando y prendiendo de nuevo la radio Wi-Fi en tu dispositivo cliente o reiniciando el dispositivo.</p>
+			<p>If you still cannot connect, try turning off and back on the Wi-Fi radio on your client device or restarting the device.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__532 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_Connect_AP.png" style="width: 240px; height: 65px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Asegurate de intentar conectar el Punto de Acceso, no la señal (mesh) ad-hoc.</strong></p>
+			<p><strong>Make sure you are trying to connect to the AP, not to the ad-hoc (mesh) signal.</strong></p>
 
-			<p>Usualmente la diferencia entre dos tipos de señal está indicada por su icono en tu administrador de redes de tu dispositivo cliente.</p>
+			<p>Usually the difference between the two kinds of signals is indicated by their icon on your client device's network manager.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__533 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_Secure_AP.png" style="width: 240px; height: 122px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Si el Punto de Acceso es seguro, asegúrate de que tengas la clave correcta o contraseña de red, para ello.</strong></p>
+			<p><strong>If the AP is secure, make sure you have the right network key, or password, for it.</strong></p>
 
-			<p>Esta es generalmente diferente de la contraseña de administración de raíz.</p>
+			<p>This is usually different from the root admin password.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__534 img__view_mode__media_large attr__format__media_large" height="109" src="/files/Wireless_Interference_problem.png" typeof="foaf:Image" width="240" /></td>
 			<td>
-			<p><strong>¿Hay demasiados routers en el cuarto?</strong></p>
+			<p><strong>Are there too many routers in the room?</strong></p>
 
-			<p>Puede haber mucha interferencia en el mismo canal Wi-Fi. Para reducir la interferencia, intenta remover algunos routers, espaciando los routers más separados, o apagando algunos routers.</p>
+			<p>There may be too much interference on the same Wi-Fi channel. To reduce interference, try removing some routers, spacing the routers further apart, or turning down the power on some of the routers.</p>
 			</td>
 		</tr>
 	</tbody>
 </table>
 
-<h3>Punto de Acceso asociado con el Cliente: Revisado</h3>
+<h3>AP Associated with Client: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__713 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
-<strong>El dispositivo cliente está conectado al Punto de Acceso.</strong></p>
+<strong>The client device is connected to the AP.</strong></p>
 </section>
 
 <section id="no-splash-page">
-<h2>No hay Página de Bienvenida: Si estás en en el Punto de Acceso pero no hay lista de anuncios host net (HNAs) para ver si hay nodos en la red proporcionando una puerta de entrada ******************No Welcome Page: If you are on the AP but arens host net announcements (HNAs) list to see if any nodes on the network are providing a gateway.</p>
+<h2>No Welcome Page: If you are on the AP but aren’t directed to the landing page</h2>
+<img alt="" class="media-image attr__typeof__foaf:Image img__fid__518 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_no.png" style="width: 100px; height: 91px; float: right; margin: 19px 10px;" typeof="foaf:Image" />
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__519 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshoot_notsplashed.png" style="width: 510px; height: 169px;" typeof="foaf:Image" /></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<p><strong>Check the status of the network.</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__537 img__view_mode__media_large attr__format__media_large" height="138" src="/files/Troubleshooting_CCK_Broken_Mesh_Link.png" typeof="foaf:Image" width="480" /></p>
+
+			<p>If you are associated with an AP and you know there is an upstream Internet Gateway in the mesh, but you cannot get online, there may be a broken mesh link. Make sure that all the nodes are meshing properly to the Gateway. You can check the node’s routes list to see if it is connecting to any other nodes.</p>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
-			<p><strong>Busca una Puerta de Entrada.</strong></p>
+			<p><strong>Check for a Gateway.</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__538 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_HNAs.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__538 img__view_mode__media_large attr__format__media_large" height="395" src="/files/olsr_routes.png" typeof="foaf:Image" width="480" /></p>
 
-			<p>Para ver los anuncios host net en la interfaz de administración Commotion, ve a ************To see the list of host net announcements in the Commotion admin interface, go to******* <strong>Advanced -> Status -> OLSR</strong> y luego <strong>da clic en la tabla HNA</strong>. Esto lista cualquier subnet sin malla adjuntada a la red mesh, como redes de clientes y puertas de entrada de 0.0.0.0 en cualquier lugar de la lista, luego sabe que hay una Puerta de Entrada al Internet en algún lugar de la red. Si el nodo no tiene una entrada  0.0.0.0 en la lista, entonces no ve una ruta al Internet. Revisa las conexiones de red mesh para asegurarte que todos los routers estén enmallados correctamente, y que las señales de los enlaces sean lo suficientemente fuertes entre nodos.</p>
+			<p>To see the routes list in the Commotion admin interface, go to<strong> </strong>the Status page and <strong>click on Nearby Mesh Devices.</strong> This lists any routes the node has in its table. If the node has an announced network entry of 0.0.0.0 anywhere in this table, then it knows there is a Gateway to the Internet somewhere in the network. If the node does not have a 0.0.0.0 route in the table, then it does not see a route to the Internet. Check the mesh network connections to make sure that all routers are meshing properly, and that the signal links are strong enough between nodes.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__539 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_plug_Ethernet_modem.png" style="width: 210px; height: 109px;" typeof="foaf:Image" /></td>
 			<td>
-			<p><strong>Si aún no puedes acceder al Internet, conecta un cable Ethernet directamente al módem de la Puerta de Entrada.</strong></p>
+			<p><strong>If you still cannot access the Internet, plug an Ethernet cable directly into the Gateway modem.</strong></p>
 
-			<p>Si puedes acceder de esta forma, entonces el problema es con el nodo Commotion. Si no puedes acceder de esta forma, entonces hay un problema con la conexión a Internet, que está fuera del alcance de esta guía.</p>
+			<p>If you can access the Internet this way, then the problem is with the Commotion node. If you cannot access the Internet this way, then there is a problem with the Internet connection, which is beyond the scope of this guide.</p>
 			</td>
 		</tr>
 	</tbody>
 </table>
 
-<h3>Página de Bienvenida: Revisada</h3>
+<h3>Welcome Page: Checked</h3>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__521 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
-<strong>La página de bienvenida aparece en el dispositivo cliente.</strong></p>
+<strong>The welcome page comes up on the client device.</strong></p>
 </section>
-<!--
+
 <section id="no-internet">
-<h2>Página de Bienvenida mostrada, pero no Internet: Si la página de bienvenida aparece, pero no puedes entrar a Internet</h2>
+<h2>Welcome Page shown, but no Internet: If the welcome page comes up, but you can't get to the Internet</h2>
 <img alt="" class="media-image attr__typeof__foaf:Image img__fid__522 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_internet_no.png" style="width: 100px; height: 93px; float: right; margin: 17px 10px;" typeof="foaf:Image" />
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td colspan="2">
-			<p><strong>Si estás siendo dirigido a la página de bienvenida, pero aún así ******************If you are being directed to the landing page, but still cancomputer to computersuch as for file sharing.*********** El término también puede referirse a conexiones de red sin planeación, descentralizadas.</dd>
-	<dt>Dispositivo Cliente</dt>
-	<dd>El dispositivo con radio WiFi que usas para conectarte a un punto de acceso inalámbrico, por ejemplo, una computadora, celular, o dispositivo de tableta.</dd>
+			<p><strong>If you are being directed to the landing page, but still can’t get to the Internet after you click the link, then there is likely a problem with the Gateway to the Internet.</strong></p>
+
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__739 img__view_mode__media_original attr__format__media_original" height="265" src="/files/welcomePage.png" typeof="foaf:Image" width="600" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong><span style="font-size:72px;">?</span></strong></p>
+			</td>
+			<td>Please see the advanced network troubleshooting guide to diagnose these issues.</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section id="bug-report">
+<h2>Report a Bug</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__540 img__view_mode__media_large attr__format__media_large" height="100" src="/files/bug.png" typeof="foaf:Image" width="82" /></p>
+
+			<p><a href="https://commotionwireless.net/report">https://commotionwireless.net/report</a></p>
+			</td>
+			<td>
+			<p>If you believe there is a problem with the Commotion software,&nbsp;<a href="https://commotionwireless.net/report">visit this link and file a bug report</a>, describing your configuration and the problem you experience.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section id="section-definitions">
+<h2>Definitions</h2>
+
+<dl>
+	<dt>Ad-hoc Network / Device Network</dt>
+	<dd>On some devices, such as laptops, some network connections are shown as “computer to computer” networks. These are networks that may be mesh networks or point to point connections between computers—such as for file sharing. The term “ad-hoc” can also refer to unplanned, decentralized network connections.</dd>
+	<dt>Client Device</dt>
+	<dd>The device with a WiFi radio that you use to connect to a wireless access point, e.g. a computer, cell phone, or tablet device.</dd>
 	<dt>AP (Access Point)</dt>
 	<dd>A device that allows wireless devices to connect to a wired network using WiFi or related standards.</dd>
 	<dt>PoE (Power over Ethernet)</dt>
@@ -287,18 +346,17 @@ lang: es
 </section>
 
 <section class="related-information" id="section-related-information">
-<h2>Información Relacionada</h2>
+<h2>Related Information</h2>
 
-<p>Hay muchos otros documentos en el Kit de Construcción Commotion que tienen información relacionada sobre configurar y hacer cambios en tu nodo:</p>
+<p>There are several other documents in the Commotion Construction Kit that hold related information on configuring and making changes to your node:</p>
 
 <ul>
-	<li><a href="https://commotionwireless.net/docs/cck/installing-configuring/configure-commotion">Configura Commotion</a></li>
-	<li><a href="https://commotionwireless.net/docs/cck/installing-configuring/common-configuration">Configuraciones Comunes</a></li>
+	<li><a href="https://commotionwireless.net/docs/cck/installing-configuring/configure-commotion">Configure Commotion</a></li>
+	<li><a href="https://commotionwireless.net/docs/cck/installing-configuring/common-configuration">Common Configurations</a></li>
 </ul>
 </section>
 
 <section class="related-information" id="section-external-resources">
-<h2>Recursos Externos</h2>
-Recomendamos leer el Capítulo 15 de <a href="http://wndw.net/">Redes Inalámbricas en el Mundo en Desarrollo</a>, sobre mantenimiento y solución de problemas.****************
-Wireless Networking in the Developing World</a>, on maintenance and troubleshooting.</section>
-
+<h2>External Resources</h2>
+We recommend reading through Chapter 15 of <a href="http://wndw.net/">Wireless Networking in the Developing World</a>, on maintenance and troubleshooting.</section>
+ 

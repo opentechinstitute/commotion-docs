@@ -1,6 +1,6 @@
-﻿---
-layout: cck
-title: Kit de Construcción Commotion - Construyendo y Montando
+---
+layout: default
+title: Commotion Construction Kit - Building + Mounting
 site_section: docs
 sub_section: [cck,cck-building]
 pdf-all: true
@@ -10,11 +10,7 @@ changed: 2014-08-20
 post_author: critzo
 lang: es
 ---
-
-<p><img src="/files/prep_install_finish_support008.png"><p>
-<section>
-<h2>Construyendo y Montando</h2>
-{% include cck/building-mounting-modules.html %}
-</section>
-
+<div class="cck-section-page">
+{% include docs_cck_building_menu.html %}
+</div>
  
