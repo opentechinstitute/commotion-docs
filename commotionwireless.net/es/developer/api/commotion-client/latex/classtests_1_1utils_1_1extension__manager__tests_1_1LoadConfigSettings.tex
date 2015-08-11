@@ -1,0 +1,100 @@
+\hypertarget{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings}{\section{tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Load\+Config\+Settings Class Reference}
+\label{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings}\index{tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Load\+Config\+Settings@{tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Load\+Config\+Settings}}
+}
+Inheritance diagram for tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Load\+Config\+Settings\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_a6a030c80c178c3d3f0ca0ad4603121c1}{test\+\_\+load\+\_\+core\+\_\+ext}
+\item 
+def \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_ad545de88fc2f5eba813161fa4cb31d83}{test\+\_\+init\+\_\+extension\+\_\+config}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Functions Covered:
+  load_all
+  init_extension_config\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_ad545de88fc2f5eba813161fa4cb31d83}{\index{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings}!test\+\_\+init\+\_\+extension\+\_\+config@{test\+\_\+init\+\_\+extension\+\_\+config}}
+\index{test\+\_\+init\+\_\+extension\+\_\+config@{test\+\_\+init\+\_\+extension\+\_\+config}!tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings}}
+\subsubsection[{test\+\_\+init\+\_\+extension\+\_\+config}]{\setlength{\rightskip}{0pt plus 5cm}def tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Load\+Config\+Settings.\+test\+\_\+init\+\_\+extension\+\_\+config (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_ad545de88fc2f5eba813161fa4cb31d83}
+\begin{DoxyVerb}Test that init extension config properly handles the various use cases.\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+111 
+112     \textcolor{keyword}{def }\hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_ad545de88fc2f5eba813161fa4cb31d83}{test\_init\_extension\_config}(self):
+113         \textcolor{stringliteral}{"""Test that init extension config properly handles the various use cases."""}
+114         \textcolor{comment}{#ext\_type MUST be core|global|user}
+115         with self.assertRaises(ValueError):
+116             self.ext\_mgr.init\_extension\_config(\textcolor{stringliteral}{'pineapple'})
+117 
+118         \textcolor{comment}{#Check that an empty directory does nothing.}
+119         self.ext\_mgr.libraries[\textcolor{stringliteral}{'user'}] = os.path.abspath(\textcolor{stringliteral}{"tests/temp/"})
+120         self.ext\_mgr.init\_extension\_config(\textcolor{stringliteral}{'user'})
+121         with self.assertRaises(KeyError):
+122             self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}].has\_configs()
+123 
+124         \textcolor{comment}{#populate with populated directory}
+125         self.ext\_mgr.libraries[\textcolor{stringliteral}{'user'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+126         self.ext\_mgr.init\_extension\_config(\textcolor{stringliteral}{'user'})
+127         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}].has\_configs())
+128         self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}] = \textcolor{keywordtype}{None}
+129         
+130         \textcolor{comment}{#check all types on default call}
+131         self.ext\_mgr.libraries[\textcolor{stringliteral}{'user'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+132         self.ext\_mgr.libraries[\textcolor{stringliteral}{'global'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+133         self.ext\_mgr.libraries[\textcolor{stringliteral}{'core'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+134         self.ext\_mgr.init\_extension\_config()
+135         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}].has\_configs())
+136         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'global'}].has\_configs())
+137         self.assertTrue(self.ext\_mgr.extensions[\textcolor{stringliteral}{'core'}].has\_configs())
+138         self.ext\_mgr.extensions[\textcolor{stringliteral}{'user'}] = \textcolor{keywordtype}{None}
+139         self.ext\_mgr.extensions[\textcolor{stringliteral}{'global'}] = \textcolor{keywordtype}{None}
+140         self.ext\_mgr.extensions[\textcolor{stringliteral}{'core'}] = \textcolor{keywordtype}{None}        
+        
+\end{DoxyCode}
+\hypertarget{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_a6a030c80c178c3d3f0ca0ad4603121c1}{\index{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings}!test\+\_\+load\+\_\+core\+\_\+ext@{test\+\_\+load\+\_\+core\+\_\+ext}}
+\index{test\+\_\+load\+\_\+core\+\_\+ext@{test\+\_\+load\+\_\+core\+\_\+ext}!tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Load\+Config\+Settings}}
+\subsubsection[{test\+\_\+load\+\_\+core\+\_\+ext}]{\setlength{\rightskip}{0pt plus 5cm}def tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Load\+Config\+Settings.\+test\+\_\+load\+\_\+core\+\_\+ext (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_a6a030c80c178c3d3f0ca0ad4603121c1}
+\begin{DoxyVerb}Test that all core extension directories are loaded upon running load_core.\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+97 
+98     \textcolor{keyword}{def }\hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1LoadConfigSettings_a6a030c80c178c3d3f0ca0ad4603121c1}{test\_load\_core\_ext}(self):
+99         \textcolor{stringliteral}{"""Test that all core extension directories are loaded upon running load\_core."""}
+100         \textcolor{comment}{#get all extensions currently loaded}
+101         self.ext\_mgr.libraries[\textcolor{stringliteral}{'core'}] = os.path.abspath(\textcolor{stringliteral}{"tests/mock/extensions/"})
+102         self.ext\_mgr.libraries[\textcolor{stringliteral}{'global'}] = os.path.abspath(\textcolor{stringliteral}{"tests/temp/"})
+103         global\_dir = QtCore.QDir(self.ext\_mgr.libraries[\textcolor{stringliteral}{'global'}])
+104         global\_exts = global\_dir.entryList(QtCore.QDir.AllDirs|QtCore.QDir.NoDotAndDotDot)
+105         loaded = self.ext\_mgr.load\_core()
+106         self.ext\_mgr.user\_settings.beginGroup(\textcolor{stringliteral}{"extensions"})
+107         k = self.ext\_mgr.user\_settings.allKeys()
+108         \textcolor{keywordflow}{for} ext \textcolor{keywordflow}{in} global\_exts:
+109             contains = (ext \textcolor{keywordflow}{in} k)
+110             self.assertTrue(contains, \textcolor{stringliteral}{"Core extension \{0\} should have been loaded, but was not."}.format(ext
+      ))
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+tests/utils/extension\+\_\+manager\+\_\+tests.\+py\end{DoxyCompactItemize}

@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: Design Principles
+title: Principios de Diseño
 site_section: developers
 sub_section: [hig]
 categories: 
@@ -9,60 +9,42 @@ changed: 2013-12-25
 post_author: michael@theworkdept.com
 lang: es
 ---
-  <h2>Ease of Use</h2>
+ <h2>Facilidad de uso**********Ease of Use</h2>
 
-<p>Wireless networking is a complex topic for most people and often a source of frustration for the average user. Commotion interfaces should use simple language and offer frequent feedback to guide a user through various processes. If it is designed with the following principles in mind, Commotion can teach users about wireless networking and increase public knowledge about the topic.</p>
+<p>La red inalámbrica es un tema complejo para la mayoría de la gente y, a menudo una fuente de frustración para el usuario intermedio. Las interfaces de Commotion deben utilizar un lenguaje sencillo y ofrecer retroalimentación frecuente para guiar a un usuario a través de diversos procesos. Si está diseñado con los siguientes principios en mente, Commotion puede enseñar a los usuarios acerca de las redes inalámbricas y aumentar el conocimiento público sobre el tema.</p>
 
-<h2>Consistency</h2>
+<h2>Consistencia</h2>
 
-<p>Commotion is an evolving project that many people will contribute to over time and across continents. In order to encourage widespread adoption and peer-to-peer education on the project, users must have a consistent experience using the software. Processes, language, and visual style must remain similar across different Commotion implementations. This allows people to transfer their knowledge and skills from old versions to new and from one device to another. Our shared intention is to foster an environment in which people are comfortable trying out Commotion, recommending it to others, and teaching their community how to benefit from it.</p>
+<p>Commotion es un proyecto en evolución al que mucha contribuye a través del tiempo y los continentes. Con el fin de fomentar la adopción generalizad y educación de igual a igual en el proyecto, los usuarios deben tener una experiencia consistente utilizando el software. Los procesos, el lenguaje y el estilo visual deben permanecer similares a través de diferentes implementaciones Commotion. Esto permite a las personas transferir sus conocimientos y habilidades de las versiones antiguas a nuevas y de un dispositivo a otro. Nuestra intención compartida es fomentar un ambiente en el que las personas se sienten cómodos probando Commotion, recomendándolo a otros, y enseñando a su comunidad cómo beneficiarse de él.</p>
 
-<h2>Accessibility</h2>
+<h2>Accesibilidad</h2>
 
-<p>Commotion tools should be developed with universal accessibility in mind to ensure that users with visual, mobility, auditory, or other impairments can successfuly use it. Testing should also include users of various abilities. Any interface element that a user can interact with should be accessible using a variety of methods. Here are a few simple principles that should guide Commotion development:</p>
+<p>Las herramientas Commotion deberían ser desarrolladas con accesibilidad universal en mente para asegurar que los usuarios con impedimentos visuales, de movilidad, auditivos u otros, puedan usarlas exitosamente. Las pruebas deberían también incluir usuarios con varias habilidades. Cualquier elemento de la interfaz con el que un usuario interactúa debería ser accesible al usar una variedad de métodos. Aquí hay algunos principios simples que deben guiar el desarrollo Commotion:</p>
 
 <ol>
-	<li>Use alt or description text to describe images that can't be read by a screen reader.</li>
-	<li>Design interfaces that use contrasting colors, especially when text is present. This is useful for people with visual impariments or people who try to increase the contrast of their operating system UI.</li>
-	<li>While color coding is a helpful organizational tool, don't require users to distinguish between colors in order to interact with your interface. This is useful for people who may have difficulty distinguishing certain colors.</li>
-	<li>Make sure that a user can navigate your app using only a keyboard if needed. This is useful for people using assistive devices.</li>
+	<li>Usa alt o texto descriptivo para describir imágenes que no puedan seer leídas por un lector de pantalla.</li>
+	<li>Diseña interfaces que usen colores contrastantes, específicamente cuando el texto este presente. Esto es útil para las personas con impedimentos visuales o personas que tratan de incrementar el contrastante de su sistema operativo UI.</li>
+	<li>Mientras que los códigos de colores son una herramienta organizacional útil, no requiere que los usuarios distingan entre colores para poder interactuar con tu interfaz. Esto es útil para las personas que puedan tener dificultad distinguiendo algunos colores.</li>
+	<li>Asegúrate que un usuario pueda navegar tu aplicación usando solo un teclado si es necesario. Esto es útil para las personas que usan dispositivos de asistencia.</li>
 </ol>
 
-<p>There are many more principles of accessible application development. Numerous resources are available to guide designers and developers — here are a few examples that we've found helpful:</p>
+<p>Hay muchos más principios de desarrollo de aplicaciones accesibles. Numerosos recursos están disponibles para guiar las acciones de los diseñadores y desarrolladores y les asegura que van a través de los pasos de un proceso. Los usuarios deben recibir un mensaje positivo, sonido o validación cuando una red se ha configurado correctamente y las instrucciones de qué hacer a continuación. Cuando se produce un error, un mensaje de error, fácil de entender, debería ayudar al usuario a comprender qué hacer al respecto.</p>
 
-<div class="field field-name-body field-type-text-with-summary field-label-hidden clearfix">
-<div class="field-items">
-<div class="field-item even">
-<p><a href="http://www.onevoiceict.org/http%3A//www.onevoiceict.org/first-seven-steps-accessible-mobile-apps/learn-about-accessibility" target="_top">Find out how users with disabilities access apps to ensure your design will be accessible</a></p>
-
-<p><a href="http://developer.android.com/guide/topics/ui/accessibility/index.html" target="_blank">Accessibility on Android</a></p>
-
-<p><a href="http://en.wikipedia.org/wiki/Web_accessibility" target="_blank">Web accessibility on Wikipedia</a></p>
-
-<p><a class="headline source-org" href="http://mashable.com/2011/04/20/design-for-visually-impaired/" target="_blank">5 Ways to Ensure Your Site Is Accessible to the Visually Impaired</a></p>
-</div>
-</div>
-</div>
-
-<h2>Feedback</h2>
-
-<p>Feedback acknowledges a person’s actions and assures them that they are going through steps in a process. Users should receive a positive message, sound or validation feature when a network has been successfully configured and instructions on what to do next. When an error occurs, an easy-to-understand error message should help the user understand what to do about it.</p>
-
-<p>Depending on the application, you may include animations that show progress in between states, as shown below.</p>
+<p>Dependiendo de la aplicación, puedes incluir animaciones que muestran el progreso de entre los estados, como se muestra abajo.</p>
 
 <h2><img alt="" src="/files/feedback.png" style="margin-bottom:5px; margin-top:5px; width:871px" /></h2>
 
-<h2>Status bar and notifications</h2>
+<h2>Barra de estatus y notificaciones</h2>
 
-<p>Whenever possible, an application should be developed using the standard Commotion status bar icon. The icon indicates that Commotion software is running and the speed of the network a user is connected to, if applicable. On Android, it is appropriate to place this on the right side with the other standard icons.</p>
+<p>Cada vez que sea posible, una aplicación debe desarrollarse usando la ícono de la barra de estatus estándar de Commotion. El ícono indica que el software Commotion esta corriendo y la velocidad de la red a la que el usuario está conectado, si es aplicable. En Android, es apropiado colocar esto en el lado correcto con los otros íconos estándar.</p>
 
-<p>On mobile phones and desktop applications, a notification should always be present when a device is connected to a mesh network. When the notification is tapped, the Commotion application should reopen. On Android, this is considered an “ongoing notification” indicating a significant process that continues until the user ends it. It is appropriate to also include an icon in the left side of the status bar when the notification is present. This distinct icon shows how many nodes the device is connected to.</p>
+<p>En teléfonos móviles y aplicaciones de escritorio, una notificación debería siempre estar presente cuando un dispositivo se conecte a una red mesh. Cuando se toca la notificación, la aplicación Commotion debería reabrir. En Android, esto se considera un indicativo, un proceso significativo que continúa hasta que el usuario lo termina. Es conveniente también incluir un icono en la parte izquierda de la barra de estado cuando la notificación está presente. Este icono distintivo muestra a cuántos nodos el dispositivo está conectado.</p>
 
 <p><img alt="" src="/files/status%20bar%20and%20notifications.png" style="width:841px" /></p>
 
-<h2>Screen size and orientation</h2>
+<h2>Tamaño y la orientación de la pantalla</h2>
 
-<p>Commotion mobile apps, web applications and websites should be responsive to screen or browser size.</p>
+<p>Las aplicaciones móviles Commotion, aplicaciones web y sitios web deberían responder a los tamaños de pantalla y navegador.</p>
 
-<p>Mobile developers should be especially sensitive to screen orientation. Users can rotate mobile devices at any time and for a variety of reasons. Sometimes a task may feel most natural in a certain orientation -- portrait or landscape. If a device is rotated for any reason, Commotion should respond appropriately and maintain its focus on the primary task at hand. The app should start in the same orientation as the app menu that launches it. On Android phones that have a physical keyboard, the app menu is often in landscape orientation when the keyboard is open.</p>
- 
+<p>Los desarrolladores móviles deben ser especialmente sensibles a la orientación de la pantalla. Los usuarios pueden girar los dispositivos móviles en cualquier momento y por una variedad de razones. A veces, una tarea puede sentirse más natural en una orientación determinada -- un retrato o paisaje. Si un dispositivo se hace girar por cualquier razón, Commotion debe responder de manera adecuada y mantener su enfoque en la tarea principal que nos ocupa. La aplicación debería comenzar en la misma orientación que el menú de aplicaciones que lo lanza. En los teléfonos Android que tienen un teclado físico, el menú de aplicaciones esta a menudo en orientación horizontal cuando el teclado está abierto.</p>
+

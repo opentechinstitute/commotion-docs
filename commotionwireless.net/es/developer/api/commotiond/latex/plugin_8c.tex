@@ -1,0 +1,116 @@
+\hypertarget{plugin_8c}{\section{src/plugin.c File Reference}
+\label{plugin_8c}\index{src/plugin.\+c@{src/plugin.\+c}}
+}
+
+
+The commotiond plugin loader.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$dirent.\+h$>$}\\*
+{\ttfamily \#include $<$dlfcn.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}obj.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}cmd.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}debug.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}util.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}plugin.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{plugin_8c_a301bfa21e7d6abdbe460cb111c51cf04}{int \hyperlink{plugin_8c_a301bfa21e7d6abdbe460cb111c51cf04}{co\+\_\+plugins\+\_\+shutdown} (void)}\label{plugin_8c_a301bfa21e7d6abdbe460cb111c51cf04}
+
+\begin{DoxyCompactList}\small\item\em shuts down and closes all plugins \end{DoxyCompactList}\item 
+\hypertarget{plugin_8c_a263c376dbbf53d37087ae611bd403f85}{int \hyperlink{plugin_8c_a263c376dbbf53d37087ae611bd403f85}{co\+\_\+plugins\+\_\+start} (void)}\label{plugin_8c_a263c376dbbf53d37087ae611bd403f85}
+
+\begin{DoxyCompactList}\small\item\em starts all loaded plugins \end{DoxyCompactList}\item 
+int \hyperlink{plugin_8c_a532e7a11be4beacd27d4d8e3a4c06944}{co\+\_\+plugins\+\_\+init} (size\+\_\+t index\+\_\+size)
+\begin{DoxyCompactList}\small\item\em initializes global plugin list \end{DoxyCompactList}\item 
+int \hyperlink{plugin_8c_a61e497614e5af8d009a76709c91b34d8}{co\+\_\+plugins\+\_\+load} (const char $\ast$dir\+\_\+path)
+\begin{DoxyCompactList}\small\item\em loads all plugins in specified path \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The commotiond plugin loader. 
+
+\begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\+net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{plugin_8c_a532e7a11be4beacd27d4d8e3a4c06944}{\index{plugin.\+c@{plugin.\+c}!co\+\_\+plugins\+\_\+init@{co\+\_\+plugins\+\_\+init}}
+\index{co\+\_\+plugins\+\_\+init@{co\+\_\+plugins\+\_\+init}!plugin.\+c@{plugin.\+c}}
+\subsubsection[{co\+\_\+plugins\+\_\+init}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+plugins\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{size\+\_\+t}]{index\+\_\+size}
+\end{DoxyParamCaption}
+)}}\label{plugin_8c_a532e7a11be4beacd27d4d8e3a4c06944}
+
+
+initializes global plugin list 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index\+\_\+size} & specifies size of index for plugins list (16 or 32 bit) \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+plugins\+\_\+shutdown().
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+95 \{
+96   \textcolor{keywordflow}{if}(index\_size == 16)
+97   \{
+98     CHECK((\_plugins = (\hyperlink{structco__obj__t}{co\_obj\_t} *)co\_list16\_create()) != NULL, \textcolor{stringliteral}{"Plugin list creation failed."});
+99   \}
+100   \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(index\_size == 32)
+101   \{
+102     CHECK((\_plugins = (\hyperlink{structco__obj__t}{co\_obj\_t} *)co\_list32\_create()) != NULL, \textcolor{stringliteral}{"Plugin list creation failed."});
+103   \}
+104   \textcolor{keywordflow}{else} SENTINEL(\textcolor{stringliteral}{"Invalid list index size."});
+105 
+106   \textcolor{keywordflow}{return} 1;
+107 
+108 error:
+109   \hyperlink{plugin_8c_a301bfa21e7d6abdbe460cb111c51cf04}{co\_plugins\_shutdown}();
+110   \textcolor{keywordflow}{return} 0;
+111 \}
+\end{DoxyCode}
+\hypertarget{plugin_8c_a61e497614e5af8d009a76709c91b34d8}{\index{plugin.\+c@{plugin.\+c}!co\+\_\+plugins\+\_\+load@{co\+\_\+plugins\+\_\+load}}
+\index{co\+\_\+plugins\+\_\+load@{co\+\_\+plugins\+\_\+load}!plugin.\+c@{plugin.\+c}}
+\subsubsection[{co\+\_\+plugins\+\_\+load}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+plugins\+\_\+load (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{dir\+\_\+path}
+\end{DoxyParamCaption}
+)}}\label{plugin_8c_a61e497614e5af8d009a76709c91b34d8}
+
+
+loads all plugins in specified path 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+path} & directory to load plugins from \\
+\hline
+\end{DoxyParams}
+
+
+References process\+\_\+files().
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+153                                           \{
+154   \textcolor{keywordflow}{return} \hyperlink{util_8c_a7f3fbaf6ce8bc88138b3879ac4d7e696}{process\_files}(dir\_path, \_co\_plugins\_load\_i);
+155 \}
+\end{DoxyCode}
