@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Style
 site_section: developers
@@ -9,17 +9,21 @@ changed: 2013-09-04
 post_author: michael@theworkdept.com
 lang: es
 ---
- <h2>Elementos Centrales</h2>
+  <h2>Core Elements</h2>
 
 <p><strong>Logo</strong></p>
 
-<p>El logo está hecho de distintas partes. Hay un nombre para el logotipo. *******Luego, hay varios círculos rosas que representan en la red mesh. El ot permite que toda la palabra Commotion se escriba.********** Then, there are several pink circles that represent in the mesh network. The ot allow for the whole Commotion word to be spelled out.*****</p>
+<p>The full logo is made up of several parts. There is the name or logotype “Commotion”. Then, there are several pink circles that represent “nodes” in the mesh network. The o’s in the word Commotion also represent nodes. These nodes are connected by pink lines, forming a mini mesh network.</p>
+
+<p>The full logo should be used whenever there is enough horizontal space to do so. There are other versions of the logo where the full-size logo doesn't fit.</p>
+
+<p>There is the mid-sized logo and the tiny-logo, which should be used when the space doesn’t allow for the whole Commotion word to be spelled out.</p>
 
 <p><img alt="" src="/files/HIG_52.png" /></p>
 
-<p>Ya que una red mes es flexible y puede cambiar de forma, también lo puede hacer el logo. Las principales diferencias entre la versión digital y la versión impresa del mid logo es que la versión digital tiene un punto de sombra sutil. Ayuda a que resalte más en la pantalla. Fuera de eso, son exactamente iguales.</p>
+<p>Since a mesh network is flexible and can change shape, so can the logo. The main difference between the digital and print version of the mid logo is that the digital version has a slight drop shadow. This helps it to stand out more on a screen. Otherwise they are exactly the same.</p>
 
-<p><img alt="" src="/files/HIG_53.png" /></p>
+<p><img alt="" src="http://commotion-kb-062512.jackpine.theworkdept.com/sites/commotion-kb-062512.jackpine.theworkdept.com/files/HIG_53.png" /></p>
 
 <p>&nbsp;</p>
 
@@ -27,57 +31,61 @@ lang: es
 
 <p><strong>Color</strong></p>
 
-<p>La paleta de colores consiste en dos colores primarios y un set de colores secundarios. Los colores primarios se usan para la mayoría del logo y aplicaciones tipográficas. *****Y los nodos en el logo siempre son negros *****and nodes in the logo are always black********** y la red mesh es generalmente rosa. Dependiendo de la aplicación, las lineas mesh pueden cambiar de colores.</p>
+<p>The color palette consists of two primary colors and a set of secondary colors. The primary colors are used for most of the logo and typographic applications. ‘Commotion’ and nodes in the logo are always black and the mesh is generally pink. Depending on the application, the mesh lines may change colors.</p>
 
-<p>Los colores secundarios serán aplicados dependiendo de las necesidades de las distintas interfaces de usuario y la utilidad de la red.</p>
+<p>The secondary colors will be applied depending on the needs of the various user interfaces and the utility of the network.</p>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__251 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/color_0.png?itok=eUHJg4SJ" style="width: 379px; height: 480px;" typeof="foaf:Image" /></p>
 
 <p>&nbsp;</p>
 
-<p><strong>Fuentes</strong></p>
+<p><strong>Fonts</strong></p>
 
-<p>Hay dos fuentes que se recomiendan usar con la marca Commotion: Avenir y ASAP. Avenir está hecha para impresiones, y se recomienda cuando se diseña algo que se va a imprimir. ASAP, del otro lado, está hecha para ser vista en la pantalla y por tanto cualquier cosa que se diseñe para ser digital debería usar ASAP.</p>
+<p>There are two fonts that are recommended for use with the Commotion brand: Avenir and ASAP. Avenir is made for print, and is recommended when designing anything that will be printed. ASAP, on the other hand, was made for viewing on screen and therefore anything that is designed to be digital should use ASAP.</p>
 
-<p>ASAP es una fuente libre y de código abierto que <a href="http://www.google.com/webfonts/specimen/Asap" target="_blank">puede ser descargada aquí</a>. Avenir puede ser comprada en numerosas tiendas de fuentes. (Si no puedes adquirir Avenir, usa ASAP en su lugar.)</p>
+<p>ASAP is a free and open-source font that <a href="http://www.google.com/webfonts/specimen/Asap" target="_blank">can be downloaded here</a>. Avenir can be purchased from numerous font stores. (If you are unable to acquire Avenir, use ASAP instead.)</p>
 
-<p>Los encabezados deberían ser grandes y fácil de leer. Los sub-encabezados deberían estar todos en letras mayúsculas y en uno de los colores de la paleta de colores de abajo. Un sub-encabezado debería ser de alrededor de 1/3 del tamaño del encabezado.&nbsp; &nbsp;</p>
+<p>Headings should be large and easy to read. The subhead should be in all capital letters and in one of the colors from the color palette above. A subhead should be about 1/3 of the size of the heading.&nbsp; &nbsp;</p>
 
-<p>La copia de cuerpo debería ser de alrededor de 1/3 del tamaño del encabezado y en negro. Para hacer que el texto sea más fácil de leer, permite que haya espacio entre líneas extra.</p>
+<p>Body copy should also be about 1/3 of the size of the heading and in black. To make the text easier to read, allow for some extra line spacing.</p>
 
 <p><img alt="" src="/files/HIG_57.png" style="margin-bottom:10px; margin-top:10px" /></p>
 
-<h2>Componentes Gráficos</h2>
+<h2>Graphic components</h2>
 
-<p><strong>Componentes centrales</strong></p>
+<p><strong>Core components</strong></p>
 
-<p>Los componentes centrales de la identidad Commotions son simples pero pueden ser usados para hacer otras imágenes. ***********Estas partes son y*******These parts are and*** </p>
+<p>The core components of the Commotion identity are simple but can be used to make other images. These parts are “the nodes,” and “the line.”</p>
 
-<p>Sé creativo con estas partes y haz diagramas gráficos o íconos o cualquier otro gráfico que se necesite.</p>
+<p>Be creative with these parts and make graphs diagrams or icons or any other graphic that is needed.</p>
 
-<p><strong>Estilo de Ilustración</strong></p>
+<p><strong>Illustration style</strong></p>
 
-<p>Para las ilustraciones que son más complejas que un nodo simple y línea, recomendamos utilizar un contorno grueso negro y agregar sombreado y color utilizando la paleta esbozada y bloques de patrones de colores y puntos de diferentes tamaños y colores.</p>
+<p>For illustrations that are more complex than a simple node and line, we recommend using a thick black outline and adding shading and color using the outlined palette and blocks of color and dot patterns of various sizes and colors.</p>
 
 <p><img alt="" src="/files/HIG_58b.png" /></p>
 
-<p><strong>Iconos Estándar</strong></p>
+<p><strong>Standard Icons</strong></p>
 
-<p>Recomendamos utilizar los siguientes siete iconos estándar en toda Commotion para representar procesos y menús comunes. Deberías usar estos iconos siempre que sea práctico. Este conjunto de iconos puede evolucionar con el tiempo a medida que Commotion y su comunidad crece.</p>
+<p>We recommend using the following seven standard icons throughout Commotion to represent common processes and menus. You should use these icons whenever practical. This icon set may evolve over time as Commotion and its community grows.</p>
 
 <p><img alt="" src="/files/icons.png" /></p>
 
-<p>Si ciertas guías de una plataforma recomiendan uso de iconos nativos o no eres capaz de usar elementos personalizados, usa la iconografía nativa de la plataforma en su lugar. Por ejemplo, los iconos de  <strong>Crea una red</strong> y <strong>Únete a una red</strong>se podrían reemplazar con iconos nativos si eso se requiere:</p>
+<p>If a certain platform's guidlines recomend native icon use or you are unable to use custom elements, use your platform's native iconography instead. For example, the <strong>Create a network</strong> and <strong>Join a network</strong> icons could replaced with native icons if needed:</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/files/androidicon1.png" />&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/files/androidicon2.png" /></p>
 
-<h2>Lenguaje Visual</h2>
+<h2>Visual language</h2>
 
-<p>Hay seis tipos de lenguaje visual que pueden ser usados en aplicaciones Commotion:</p>
+<p>There are six types of visual language that can be used in Commotion applications:</p>
 
 <ol>
-	<li><strong>Lenguaje Descriptivo</strong> es el contenido dentro de la barra negra a menudo localizada en la parte de arriba de la interfaz de usuario. Este lenguaje explica un paso en el proceso y crea un marco de trabajo guía. Este enfoque incorpora contenido instruccional y basado en narrativa. Lenguaje descriptivo o texto blanco en un fondo negro.</li>
-	<li><strong>***Lenguaje de Acción*****Action Language***</strong> es contenido que aparece en rosa y requiere acción, ya sea si has creado exitosamente una red XYZ!******* whether itYou've successfully created XYZ network!**** Otras personas se pueden unir al elegir XYZ como su nombre de red."</li>
+	<li><strong>Descriptive Language</strong> is the content contained in the black bar often located at the top of the user interface. This language explains a step in the process and creates a guiding framework. This approach blends instructional and narrative-based content. Descriptive language is themed in black text on a white background or white text on a black background.</li>
+	<li><strong>Action Language</strong> is content that appears in pink and requires action, whether it’s a form field or button to apply a configuration setting. Action-oriented icons should have a pink frame, as demonstrated.</li>
+	<li><strong>Learning Language</strong> is content that appears within one of the two documentation tiers -- inline below fields in grey or as a grey and black tooltip.</li>
+	<li><strong>Warning Language</strong> is content that is very important and notes a serious change in settings, like the pop-up that appears when a user attempts to change the mesh network or channel while already connected to a network.</li>
+	<li><strong>In-progress Language</strong> is content that is attached to either validation or detection points in a process, as demonstrated. The animation overrides the UI with a predominantly white background and a message in purple.</li>
+	<li><strong>Success and Failure Language</strong> describes the most recent successful or failed process completed by the software. For example, after creating a new network, Commotion would tell the user, “You've successfully created XYZ network! Other people can join by choosing XYZ as their network name."</li>
 </ol>
 
 <p><img alt="" src="/files/visual_language.png" style="margin-bottom:15px; margin-top:15px" /></p>
@@ -88,30 +96,30 @@ lang: es
 
 <p><img alt="" src="/files/HIG_599Bb.png" /></p>
 
-<p>Con la excepción aprender lenguaje/lenguaje de aprendizaje,*******With the exception of learning language,****** estos mensajes deben estar claramente desplegados dentro de la aplicación y dar al usuario la opción de cerrar o colapsar el mensaje. Los mensajes no deben desaparecer basados en un tiempo de espera arbitrario.</p>
+<p>With the exception of learning language, these messages should be clearly displayed within the application and give the user the option to close or collapse the message. The messages should not disappear based on an arbitrary timeout.</p>
 
-<p>Learning Language can appear as a tooltip (on hover or tap) or persistently below form fields. In the <a href="http://www.flickr.com/photos/24639042@N07/sets/72157629570342842/with/7132460719/" target="_blank">early UI mockups</a>, the designers chose to place the tooltips in the right-hand gutter on a desktop-sized screen. On a mobile device, it would not be practical to place the tooltips in the gutter, so a designer might decide to provide an option to expand the below-field Learning Language to show more information and provide links to external documentation.</p>*****************
+<p>Learning Language can appear as a tooltip (on hover or tap) or persistently below form fields. In the <a href="http://www.flickr.com/photos/24639042@N07/sets/72157629570342842/with/7132460719/" target="_blank">early UI mockups</a>, the designers chose to place the tooltips in the right-hand gutter on a desktop-sized screen. On a mobile device, it would not be practical to place the tooltips in the gutter, so a designer might decide to provide an option to expand the below-field Learning Language to show more information and provide links to external documentation.</p>
 
-<h2>Escribiendo</h2>
+<h2>Writing</h2>
 
-<p>Las palabras que usas en tus aplicaciones son importantes. Puede ya sea ayudar a nuevos usuarios, usar redes mesh efectivamente o desalentarlos de que siquiera comiencen. Las aplicaciones Commotion deberían hablarle a los usuarios más básicos de computadoras y guiarlos a través de los procesos mientras potencialmente enseñan nuevos conceptos. Ve la sección de <a href="/developer/hig/key-concepts"><strong>lenguaje común</strong></a> para una lista detallada de términos para usar consistentemente en la interfaz de usuario. La terminología avanzada que requiere conocimiento significativo previo para entenderse debería ser reservada para el área avanzada de tu software.</p>
+<p>The words you use in your application are important. They can either help new users effectively use mesh networks or discourage them from even getting started. Commotion applications should speak to the most basic computer user and guide them through processes while teaching potentially new concepts. See the <a href="/developer/hig/key-concepts"><strong>Common language</strong></a> section for a detailed list of terms to use consistently in the user interface. Advanced terminology that requires significant prior knowledge to understand should be reserved for the advanced area of your software.</p>
 
-<p>Aquí hay unos tipos útiles para las guías de <a href="http://developer.android.com/design/style/writing.html" target="_blank">Diseño Android</a> disponibles:</p>
+<p>Here are useful writing tips from the <a href="http://developer.android.com/design/style/writing.html" target="_blank">Android Design</a> guidelines:</p>
 
 <ol>
-	<li>Mantenlo corto. Sé conciso, simple y preciso. Comienza con un límite de 30 caracteres (incluyendo espacios), y no uses más a menos que sea necesario.</li>
-	<li>Mantenlo simple. Pretende que estás hablando con alguien que es inteligente y competente, pero que no sabe nada de juerga técnica y puede no hablar Inglés****** muy bien. Usa palabras cortas, verbos activos y sustantivos comunes.</li>
-	<li>Sé amigable. Usa contracciones. Hablale directamente al lector usando la segunda persona (“tú”). Si tu texto no se lee como lo dirías en una conversación casual, es probable que no sea la manera en que debas escribirlo. No seas abrupto o molesto y haz que el usuario se sienta seguro, feliz y enérgico.</li>
-	<li>Pon lo más importante primero. Las primeras dos palabras (alrededor de 11 caracteres, incluyendo espacios) deberían incluir por lo menos una prueba de la información más importante en la cuerda. Si no comienzan de nuevo.</li>
-	<li>Describe solo lo que sea necesario, y no más. No trates de explicar diferencias sutiles. Se perderán en la mayoría de los usuarios.</li>
-	<li>Evita la repetición. Si un término significativo se repite dendro de una pantalla o bloque de texto, encuentra una manera de usarlo solo una vez.</li>
+	<li>Keep it brief. Be concise, simple and precise. Start with a 30 character limit (including spaces), and don't use more unless absolutely necessary.</li>
+	<li>Keep it simple. Pretend you're speaking to someone who's smart and competent, but doesn't know technical jargon and may not speak English very well. Use short words, active verbs, and common nouns.</li>
+	<li>Be friendly. Use contractions. Talk directly to the reader using second person ("you"). If your text doesn't read the way you'd say it in casual conversation, it's probably not the way you should write it. Don't be abrupt or annoying and make the user feel safe, happy and energized.</li>
+	<li>Put the most important thing first. The first two words (around 11 characters, including spaces) should include at least a taste of the most important information in the string. If they don't, start over.</li>
+	<li>Describe only what's necessary, and no more. Don't try to explain subtle differences. They will be lost on most users.</li>
+	<li>Avoid repetition. If a significant term gets repeated within a screen or block of text, find a way to use it just once.</li>
 </ol>
 
-<p><strong>He aquí algunos ejemplos de buena escritura que puedes usar para Commotion:</strong></p>
+<p><strong>Here are some examples of good writing that you may use for Commotion:</strong></p>
 
-<p>"¡Parece que hay una red mesh a la que puedes unirte! Seleccione una red abajo o crear una nueva red mesh."</p>
+<p>"It looks like there is a mesh network you can join! Select a network below or create a new mesh network."</p>
 
-<p></p>
+<p>“You're connected to <strong>Sparkles</strong> mesh network. Your node name is <strong>Josh21</strong> and you are using <strong>Channel 5</strong>. You're connected to 5 nodes and 2 clients are connected to you. You aren't connected to the internet.”</p>
 
-<p>"No hay ninguna red mesh cercana. ¿Quieres crear una nueva red mesh?
-
+<p>"There aren't any nearby mesh networks. Would you like to create a new mesh network?"</p>
+ 

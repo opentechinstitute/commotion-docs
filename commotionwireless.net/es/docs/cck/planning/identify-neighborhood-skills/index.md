@@ -1,9 +1,9 @@
-﻿---
+---
 layout: cck
-title: Identifica las Habilidades del Vecindario
+title: Identify Neighborhood Skills
 site_section: docs
 sub_section: [cck,cck-planning]
-pdf: cck/planning/CCK-Neighborhood_Skills.pdf
+pdf: cck/planning/6-Identify_Neighborhood_Skills.pdf
 pdf-all: true
 categories: 
 created: 2013-11-02
@@ -11,92 +11,91 @@ changed: 2013-11-27
 post_author: critzo
 lang: es
 ---
-<p><img src="/files/styles/large/public/identify-neighborhood-skills-title.png" style="max-width:510px;" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__464 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
 
-<h2>Identifica las Habilidades del Vecindario</h2>
+<h2>Identify Neighborhood Skills</h2>
 
 <section id="introduction">
-<h3>Introducción</h3>
+<h3>Introduction</h3>
 
-<p>La construcción de las redes requiere una combinación de tareas sociales, técnicas y físicas, tales como hablar con la gente, escuchar, la formación de asociaciones, la solución de problemas de ingeniería inalámbrica y la instalación de hardware. Estas habilidades casi nunca se encuentran en una sola persona. Más a menudo, un individuo es más fuerte en un área.</p>
+<p>Network building requires a combination of social, technical and physical tasks, such as talking to people, listening, forming partnerships, solving wireless engineering problems and installing hardware. These skills are almost never found in a single person. More often, an individual is strongest in one area.</p>
 
-<p>En estas actividades, examinarás las diferentes habilidades que necesitarás para planear, construir y mantener tu red y cómo encontrarlas en tu comunidad.</p>
+<p>In these activities, you will examine the different skillsets you will need to plan, build and maintain your network and how to find them in your community.</p>
 
-<p><strong>Tiempo requerido: 45 minutos.</strong></p>
+<p><strong>Time required: 45 minutes.</strong></p>
 </section>
 
 <section id="materials-and-supplies-needed">
-<h4>MATERIALES + SUMINISTROS NECESARIOS</h4>
+<h4>MATERIALS + SUPPLIES NEEDED</h4>
 
-<p>Pluma<br />
-Papel</p>
+<p>Pen<br />
+Paper</p>
 </section>
 
 <section id="activity">
-<h3>Actividad 1: Habilidades de red</h3>
+<h3>Activity 1: Network Skills</h3>
 
-<p><img src="/files/styles/large/public/identify-neighborhood-skills-listskills.png" style="max-width:510px;" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__466 img__view_mode__media_large attr__format__media_large" height="352" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png?itok=KeGkBmMA" typeof="foaf:Image" width="480" /></p>
 
-<p>Como grupo o en pequeños grupos, escribe una lista de habilidades que serán necesarias para planificar, construir y mantener su red inalámbrica. Piensen en las habilidades necesarias para realizar tareas tales como hacer volantes, flashing routers,******* montar hardware, conectar electricidad para los tejados, comprar equipos, y la búsqueda de otros miembros de la comunidad que deseen participar.</p>
+<p>As a group or within small groups, write a list of skills that will be necessary to plan, build and maintain your wireless network. Think about the skills needed to do tasks such as making flyers, flashing routers, mounting hardware, connecting electricity to rooftops, buying equipment, and finding other community members that would like to be involved.</p>
 
-<p>Luego, piensa en las diferentes habilidades que sabes que existen dentro de tu comunidad y cómo esos conocimientos pueden beneficiar a la red. Por ejemplo, un artista puede ayudar a hacer volantes o crear arte donde hay nodos inalámbricos, y un carpintero puede ayudar a hacer montajes de hardware para diferentes lugares. Añade las habilidades de la comunidad a la lista.</p>
-<p class="tip"> Intenta hacer que cualquier operador de radio amateur se comprometa (HAM). Cuando se trata de correr cables y montar antenas, ellos serán quienes tendrán experiencia y herramientas, así como típicamente un fuerte sentido de servicio a la comunidad.</p>
+<p>Next, think of the different skills you know exist within the community and how those skills might benefit the network. For example, an artist can help make flyers or create art where there are wireless nodes, and a carpenter can help make hardware mounts for different locations. Add those community skills to the list.</p>
 </section>
 
 <section id="lesson">
-<h3>Roles en la Red</h3>
+<h3>Roles in the Network</h3>
 
-<p>En lugar de tratar de hacer todo solo, lo mejor es involucrar a varias personas con diferentes conjuntos de habilidades. A continuación se presentan tres tipos comunes de contribuyentes y ejemplos de las habilidades que contribuyen a una red de comunitaria saludable:</p>
+<p>Rather than trying to do everything alone, it is best to involve multiple people with different skillsets. Below are three common types of contributors and example skills that contribute to a healthy community network:</p>
 
 <table>
 	<tbody>
 		<tr>
 			<td align="center" valign="middle" width="180px;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Organizador</strong></td>
+			<strong>Organizer</strong></td>
 			<td valign="middle">Outreach<br />
-			Trabajando con y reclutando voluntarios<br />
-			Realizando juntas comunitarias<br />
-			Contactando socios comunitarios importantes<br />
-			Conduciendo encuestas comunitarias<br />
-			Presupuestos y Finanzas</td>
+			Working with and recruiting volunteers<br />
+			Holding community meetings<br />
+			Reaching out to important community partners<br />
+			Conducting community surveys<br />
+			Budgeting and finance</td>
 		</tr>
 		<tr>
 			<td align="center" valign="middle"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__462 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Persona Hábil</strong></td>
-			<td valign="middle">Montando hardware en techos o parques<br />
-			Conectando electricidad en los sitios<br />
-			Construyendo monturas para que otros las usen<br />
-			Enseñando a las personas a montar sus propias monturas<br />
-			Comprando y manejando el equipo</td>
+			<strong>Handy-Person</strong></td>
+			<td valign="middle">Mounting hardware on rooftops or in parks<br />
+			Connecting electricity to the sites<br />
+			Building mounts for others to use<br />
+			Teaching people how to build their own mounts<br />
+			Purchasing and managing equipment</td>
 		</tr>
 		<tr>
 			<td align="center"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__463 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
-			<strong>Técnico</strong></td>
+			<strong>Techie</strong></td>
 			<td valign="middle">Installing mesh software on routers<br />
-			Configurar routers<br />
-			Enseñar a otros a instalar y configurar routers<br />
-			Solución de Problemas de  redes<br />
-			Creando aplicaciones locales</td>
+			Configuring routers<br />
+			Teaching others to install and configure routers<br />
+			Troubleshooting network problems<br />
+			Creating local applications</td>
 		</tr>
 	</tbody>
 </table>
 
-<p>IPersonas individuales en la comunidad pueden asumir estas funciones especializadas. O, dependiendo de quién está involucrado, algunas personas pueden compartir un papel o asumir más de una función. También, algunas habilidades pueden caer dentro de múltiples roles. Al reducir las formas en que pueden contribuir, es más fácil que más gente participe.</p>
+<p>Individual people in the community may take on these specialized roles. Or, depending on who is involved, some people may share a role or take on more than one role. Also, some skills may fall within multiple roles. By narrowing down the ways people can contribute, it is easier for more people to participate.</p>
 
-<p><strong>¿Cómo se compara esta lista con la lista que hicieron en la primera actividad?</strong></p>
+<p><strong>How does this list compare to the list you made in the first activity?</strong></p>
 </section>
 
 <section id="activity">
-<h3>Actividad 2: Nombra a tal Persona</h3>
+<h3>Activity 2: Name that Person</h3>
 
-<p>>Al lado de la habilidad escriban el tipo de persona, organización o individuo específico que conozcan que tiene esa habilidad. La gente que pueden incluir: electricistas, carpinteros, diseñadores gráficos, dueños de negocios locales, tiendas de hardware, líderes comunitarios específicos y organizadores, artistas, etc.</p>
+<p>Next to the skill write the kind of person, organization or the specific individual that you know has that skill. People you might include: electricians, carpenters, graphic designers, local business owners, hardware shops, specific community leaders and organizers, artists, etc.</p>
 
-<p>Para esta actividad pueden utilizar la lista de abajo o utilicen la lista de las habilidades que desarrollaron en la sesión de lluvia de ideas.</p>
+<p>For this activity you can use the list below or use the list of skills you developed in the brainstorming session.</p>
 
 <table width="100%">
 	<thead>
 		<tr>
-			<th class="rteleft" colspan="2">Llenen el tipo de persona, organización o individuo específico con dicha habilidad.</th>
+			<th class="rteleft" colspan="2">Fill-in the kind of person, organization or the specific individual with this skill.</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -105,76 +104,76 @@ Papel</p>
 			<td nowrap="nowrap" style="text-decoration:underline;">example:community center</td>
 		</tr>
 		<tr>
-			<td>Trabajando con y reclutando voluntarios.</td>
+			<td>Working with and recruiting volunteers.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Realizando juntas comunitarias.</td>
+			<td>Holding community meetings.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Contactando socios comunitarios importantes.</td>
+			<td>Reaching out to important community partners.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Conduciendo encuestas comunitarias.</td>
+			<td>Conducting community surveys.</td>
 			<td><u>example:Anna</u></td>
 		</tr>
 		<tr>
-			<td>Presupuestos y Finanzas.</td>
+			<td>Budgets and finance.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Montando hardware en techos o parques.</td>
+			<td>Mounting hardware on rooftops or in parks.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Conectando electricidad en los sitios.</td>
+			<td>Connecting electricity to the sites.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Construyendo monturas para que otros las usen.</td>
+			<td>Building mounts for others to use.</td>
 			<td style="text-decoration:underline;">example:carpenter</td>
 		</tr>
 		<tr>
-			<td>Enseñando a las personas a montar sus propias monturas.</td>
+			<td>Teaching people how to build their own mounts.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Comprando y manejando el equipo.</td>
+			<td>Purchasing and managing equipment.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Instalando software mesh en los routers.</td>
+			<td>Install mesh software on routers.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Configurar routers.</td>
+			<td>Configuring routers.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Enseñar a otros a instalar y configurar router.</td>
+			<td>Teaching others to install and configure routers.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Solución de Problemas de  redes.</td>
+			<td>Troubleshooting network problems.</td>
 			<td>____________________________</td>
 		</tr>
 		<tr>
-			<td>Creando aplicaciones locales.</td>
+			<td>Creating local applications.</td>
 			<td>____________________________</td>
 		</tr>
 	</tbody>
 </table>
 
-<p>¿Qué habilidades tiene ya el grupo? ¿Qué habilidades necesitas para encontrar? Identifica una estrategia para acercarte a cada persona, organización o grupo que has identificado. ¿Dónde encontrarías estas habilidades? ¿Quién en tu comunidad podría asumir estos roles?</p>
+<p>What skills does the group already have? What skills do you need to find? Identify a strategy for reaching out to each person, organization or group you have identified. Where would you find these skills? Who in your community might take on these roles?</p>
 </section>
 <!--
 <section id="section-definitions">
-<h3>Definiciones</h3>
+<h3>Definitions</h3>
 </section>
 
 <section class="related-information" id="section-related-information">
-<h3>Información Relacionada</h3>
+<h3>Related Information</h3>
 </section>
 --> 
