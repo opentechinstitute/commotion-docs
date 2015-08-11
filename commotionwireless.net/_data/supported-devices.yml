@@ -1,0 +1,12 @@
+title: Supported Devices
+categories: [docs, supported devices]
+baseurl: docs/supported-devices
+sections: # leave this line empty
+ - title: Routers
+   id: routers
+ - title: Cellular Phones
+   id: phones
+ - title: Computers
+   id: computers
+ - title: Cellular Networks
+   id: cellular 

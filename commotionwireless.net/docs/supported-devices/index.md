@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: collection
+definition: supported-devices
 title: Supported Devices
 site_section: docs
 categories: 
@@ -13,10 +14,10 @@ lang: en
 
 <p>If your device is not listed here, we encourage you to look on the wiki page for <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_in_testing">router testing hardware</a>, or <a href="/contact">contact us</a> to ask about it!</p>
 
-<div id="routers" style="width:100%;">
+<div style="width:100%;">
 <h2>Supported Devices by Category</h2>
 
-<h3>Routers</h3>
+<h3 id="routers">Routers</h3>
 
 <table class="files list" style="width:960px" summary="Commotion supported routers by manufacturer">
 	<thead>
@@ -76,8 +77,8 @@ lang: en
 </table>
 </div>
 
-<div id="phones" style="width:100%;">
-<h3>Cell phones</h3>
+<div style="width:100%;">
+<h3 id="phones">Cell phones</h3>
 
 <table class="files list" style="width:960px" summary="Commotion supported cell phones by mobile device type">
 	<thead>
@@ -138,8 +139,8 @@ lang: en
 </table>
 </div>
 
-<div id="computers" style="width:100%;">
-<h3>Computers</h3>
+<div style="width:100%;">
+<h3 id="computers">Computers</h3>
 
 <table class="files list" style="width:960px" summary="Commotion supported desktop and laptop supported computers by operating system">
 	<thead>
@@ -165,8 +166,8 @@ lang: en
 </table>
 </div>
 
-<div id="cellular" style="width: 100%;">
-<h3>Cellular networks</h3>
+<div style="width: 100%;">
+<h3 id="cellular">Cellular networks</h3>
 
 <table class="files list" style="width:960px" summary="Commotion supported open cellular network devices">
 	<thead>
