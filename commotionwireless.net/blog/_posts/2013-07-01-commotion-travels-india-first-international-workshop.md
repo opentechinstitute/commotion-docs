@@ -7,7 +7,7 @@ changed: 2013-12-19
 post_author: Ryan Gerety
 lang: en
 ---
- <img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/mountains_cropped.JPG" style="height:344px; width:400px" />
+ <img alt="" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/icons/mountains_cropped.JPG" style="height:344px; width:400px" />
  The Open Technology Institute traveled to Dharamshala, India the first week of June for the first international <a href="http://commotionwireless.net/">Commotion Wireless</a> workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI's Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.
 Some important ideas from the field, conversation, and debate that we brought home with us included:
 <ul>

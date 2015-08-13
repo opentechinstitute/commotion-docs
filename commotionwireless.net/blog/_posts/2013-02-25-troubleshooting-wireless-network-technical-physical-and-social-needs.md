@@ -8,7 +8,7 @@ post_author: Georgia Bullen
 lang: en
 ---
  
-<p><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/rhiwifi1.jpg" width="400"></p>
+<p><img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/icons/rhiwifi1.jpg" width="400"></p>
 
 Collaboratively designed by <a href="http://rhicenter.org/">Red Hook Initiative (RHI)</a> and New America Foundation’s Open Technology Institute (OTI), the RHI WiFi network served as <a href="http://www.forbes.com/sites/deannazandt/2012/11/10/what-sandy-has-taught-us-about-technology-relief-and-resilience/">critical infrastructure</a> to support emergency responders, recovery workers, and local public housing residents after “Superstorm” Sandy damaged other means of communication. With life slowly returning to normal, the gears are shifting to long-term sustainability, and we want to be sure that RHI Wifi is stable and strong enough for further expansion. To that end, technologists and field engineers from OTI met with our colleagues and partners in Red Hook at the end of January to troubleshoot and reinforce the network. One goal was to prepare for the Red Hook Digital Stewards program, a model <a href="http://alliedmedia.org/news/2012/10/22/amp-partners-open-technology-institute-launch-digital-stewards-program">developed in Detroit</a> meant to train community technologists who can extend and maintain the network. Another goal was to better monitor and document the network as a testing ground for <a href="https://commotionwireless.net/">Commotion</a>, the communications tool -- under development at OTI -- that runs the RHI WiFi network.
 
