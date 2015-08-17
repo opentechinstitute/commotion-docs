@@ -1,7 +1,7 @@
 ---
-layout: cck
+layout: collection
 title: New CCK module title
-site_section: help
+site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/name-of-pdf-for-this-module.pdf
 pdf-all: true
@@ -31,7 +31,8 @@ inventory-the-neighborhood
 wireless-challenges
 </code>
 
-If we need a new module called "Planning Essentials", we would first create a folder in /docs/cck/planning/ called: <code>planning-essentials</code>. This will ensure our new URL conforms to the syntax for others.
+If we need a new module called "Planning Essentials", we would first create a folder in /docs/cck/planning/ called: <code>planning-essentials</code>.
+This will ensure our new URL conforms to the syntax for others.
 
 ### Make a copy of this sample file
 
