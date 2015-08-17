@@ -17,6 +17,7 @@ nav ul {
   text-align:right;
   padding:0;
   margin:0px 5% 0px 80px;
+  z-index: 201;
 }
 
 nav ul li {
