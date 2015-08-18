@@ -89,11 +89,8 @@
     <!-- END Drop down bars -->
 
         <div id="maintitle"><a href="{{site.baseurl}}/">{{site.title}}</a></div>
-        <ul>
-        {% for node in site.data.menu %}
-        <li class=""><a href="{{site.baseurl}}/{{node.url}}">{{node.title}}</a></li>
-        {% endfor %}
-        </ul>
+
+        <!-- ul here will create a flat list at the right side of navbar -->
     </nav>
 
     <div id="header_wrap" class="outer">
