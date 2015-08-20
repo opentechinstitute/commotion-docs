@@ -1,3 +1,22 @@
+.toggle-menu {
+    border: 1px grey;
+    background-color: black;
+    margin: auto;
+    min-height: 20px;
+    min-width: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.toggle-menu:hover,
+.toggle-menu:active {
+    background-color: lightgrey;
+    color: black;
+    border: 1px black;
+    box-shadow: 1px 1px darkgrey;
+}
+
 #menu-dropdown,
 #menu-dropdown ul,
 #menu-dropdown li,
