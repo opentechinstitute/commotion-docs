@@ -1,8 +1,11 @@
 $(document).ready(function() {
-    $('#primary_nav_wrap > ul > li > a').click(function() {
+    $('button.toggle-menu').click(function() {
+        $(this).next('div').toggle();
+    });
+    $('#menu-dropdown > ul > li > a').click(function() {
         var checkElement = $(this).next();
 
-        $('#primary_nav_wrap li').removeClass('active');
+        $('#menu-dropdown li').removeClass('active');
         $(this).closest('li').addClass('active');
 
         if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
@@ -10,7 +13,7 @@ $(document).ready(function() {
             checkElement.slideUp('fast');
         }
         if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
-            $('#primary_nav_wrap ul ul:visible').slideUp('fast');
+            $('#menu-dropdown ul ul:visible').slideUp('fast');
             checkElement.slideDown('fast');
         }
 
