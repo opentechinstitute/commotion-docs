@@ -2,10 +2,10 @@ $(document).ready(function() {
     $('button.toggle-menu').click(function() {
         $(this).next('div').toggle();
     });
-    $('#menu-dropdown > ul > li > a').click(function() {
+    $('.accordion > ul > li > a').click(function() {
         var checkElement = $(this).next();
 
-        $('#menu-dropdown li').removeClass('active');
+        $('.accordion li').removeClass('active');
         $(this).closest('li').addClass('active');
 
         if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
             checkElement.slideUp('fast');
         }
         if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
-            $('#menu-dropdown ul ul:visible').slideUp('fast');
+            $('.accordion ul ul:visible').slideUp('fast');
             checkElement.slideDown('fast');
         }
 
