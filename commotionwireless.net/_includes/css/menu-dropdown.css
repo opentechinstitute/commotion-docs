@@ -1,6 +1,11 @@
+/* Position/Function styles for Hamburger + Accordion menu */
 #primary_nav_wrap {
     clear: both;
     float: left;
+
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 #primary_nav_wrap .accordion {
@@ -11,22 +16,69 @@
 .accordion ul {
     list-style-type: none;
     margin-left: 0;
+    text-align: left;
+
+    margin:0;
+    padding: 0;
+/*    position: relative;
+    float: left; */
+}
+
+.accordion ul a {
+   display:block;
+   color:white;
+   text-decoration:none;
+   font-weight:500;
+   font-size:12px;
+   line-height:32px;
+   padding:0px 0px;
 }
 
 .accordion ul li {
     line-height: 150%;
     min-width: 100px;
-    border: 1px lightgrey;
-    background-color: blue;
-    color: white;
+
+   text-align: left;  
+   margin:0;
+   padding:10px 15px;
+   /*
+   min-width: 20px;
+   position:relative;
+   float:left;
+    */
 }
 
-.accordion ul ul li {
-    background-color: lightblue;
-    color: black;
+#primary_nav_wrap ul li:hover > ul {   
+   display:block;
 }
 
 .accordion ul ul {
     display: none;
+    padding: 5px 5px;
+  
+    background-color:black;
+    padding:0;
+    /*
+    position:absolute;
+    top:100%;
+    left:0;
+    */
 }
 
+.accordion ul ul a {
+    line-height: 120%;
+    padding: 0;
+}
+
+.accordion ul ul li {
+
+    max-width: 300px;
+    width: 300px;
+    float: none;
+    background-color: black; /* otherwise background is short */
+}
+
+.accordion ul ul:hover,
+.accordion ul ul li:hover {
+    background-color: rgba(255,255,255,.25);
+}
