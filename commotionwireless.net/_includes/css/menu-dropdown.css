@@ -6,11 +6,16 @@
     margin: 0;
     padding: 0;
     text-align: left;
+    position: relative;
 }
 
 #primary_nav_wrap .accordion {
     display: none;
     width: 150px;
+}
+
+.accordion {
+    position: absolute;
 }
 
 .accordion ul {
@@ -38,7 +43,7 @@
     line-height: 150%;
     min-width: 100px;
 
-   text-align: left;  
+   text-align: left;
    margin:0;
    padding:10px 15px;
    /*
@@ -48,14 +53,14 @@
     */
 }
 
-#primary_nav_wrap ul li:hover > ul {   
+#primary_nav_wrap ul li:hover > ul {
    display:block;
 }
 
 .accordion ul ul {
     display: none;
     padding: 5px 5px;
-  
+
     background-color:black;
     padding:0;
     /*
