@@ -25,8 +25,8 @@
 
     margin:0;
     padding: 0;
-/*    position: relative;
-    float: left; */
+
+    background-color:black;
 }
 
 .accordion ul a {
@@ -46,11 +46,6 @@
    text-align: left;
    margin:0;
    padding:10px 15px;
-   /*
-   min-width: 20px;
-   position:relative;
-   float:left;
-    */
 }
 
 #primary_nav_wrap ul li:hover > ul {
