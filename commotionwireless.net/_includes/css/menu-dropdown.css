@@ -68,7 +68,7 @@
     background-color: black; /* otherwise background is short */
 }
 
-.accordion ul ul:hover,
+/*.accordion ul ul:hover,*/
 .accordion ul ul li:hover {
     background-color: rgba(255,255,255,.25);
 }
