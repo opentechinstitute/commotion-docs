@@ -75,7 +75,7 @@
 .accordion ul ul li {
 
     max-width: 300px;
-    width: 300px;
+    /*width: 300px;*/
     float: none;
     background-color: black; /* otherwise background is short */
 }
