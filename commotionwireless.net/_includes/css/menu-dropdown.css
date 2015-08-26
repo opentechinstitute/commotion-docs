@@ -2,10 +2,26 @@
 #primary_nav_wrap {
     clear: both;
     float: left;
-    margin: 10px 0 0 10px;
+    /*margin: 10px 0 0 10px;*/
     padding: 0;
     text-align: left;
     position: relative;
+}
+
+#primary_nav_wrap button.toggle-menu {
+    padding: 8%;
+    margin: 5px 8%;
+    background-color: black;
+    border: 1px darkgrey solid;
+    color: white;
+    opacity: 0.75;
+    font-family: inherit;
+}
+
+#primary_nav_wrap button.toggle-menu:hover {
+    color: black;
+    border: 1px black solid;
+    background-color: lightgrey; 
 }
 
 #primary_nav_wrap .accordion {
