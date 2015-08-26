@@ -55,6 +55,7 @@
 .accordion ul li {
     line-height: 150%;
     min-width: 100px;
+    width: 100%;
     text-align: left;
     margin:0;
     padding:10px 15px;
