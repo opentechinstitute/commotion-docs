@@ -83,9 +83,6 @@ nav a:hover {
 
 
 
-
-
-
 #homebutton img {
     width: 100%;
 }
@@ -116,4 +113,10 @@ nav a:hover {
 
 .image a, .image a:hover {
     border-bottom: none;
+}
+
+.lang-switch li {
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 25px;
 }
