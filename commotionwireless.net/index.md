@@ -1,7 +1,7 @@
 ---
 layout: front
-title: "Commotion Wireless"
-tagline:
+title: "The Commotion Wireless Project"
+tagline: "Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks."
 categories:
 created: 2013-09-20
 changed: 2015-07-20
