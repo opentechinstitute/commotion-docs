@@ -3,6 +3,7 @@
     clear: both;
     float: left;
     /*margin: 10px 0 0 10px;*/
+    margin-left: 5%;
     padding: 0;
     text-align: left;
     position: relative;
@@ -10,7 +11,7 @@
 
 #primary_nav_wrap button.toggle-menu {
     padding: 8%;
-    margin: 5px 8%;
+    margin: 5px 8% 5px 0;
     background-color: black;
     border: 1px darkgrey solid;
     color: white;
