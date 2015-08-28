@@ -16,7 +16,7 @@ grid:
  - about:
    title: About Commotion
    url: /about
-   image: /icons/stewards.svg
+   image: /icons/commotion-round-web.svg
    text:
  - download:
    title: Download
