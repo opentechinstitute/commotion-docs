@@ -21,7 +21,7 @@ grid:
  - download:
    title: Download
    url: /download
-   image: /icons/skillshare.png
+   image: /icons/Download.svg
    text:
  - documentation:
    title: Documentation
