@@ -27,7 +27,7 @@ grid:
    title: Documentation
    text:
    url: /docs
-   image: /icons/projectplanning.svg
+   image: /icons/workshop-agenda.svg
  - organizers:
    title: For Organizers
    text:
