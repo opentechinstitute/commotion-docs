@@ -37,7 +37,7 @@ grid:
    title: For Developers
    text:
    url: /developer/resources
-   image: /icons/workshop-agenda.png
+   image: /icons/Developer.svg
 ---
 
 <div class="grid home-width">
