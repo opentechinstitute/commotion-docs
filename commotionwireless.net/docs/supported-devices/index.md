@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 definition: supported-devices
 title: Supported Devices
 site_section: docs

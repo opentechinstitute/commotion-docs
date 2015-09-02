@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Design your Network - Every Network Tells a Story
 site_section: docs
 sub_section: [cck,cck-planning]

@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Install on a Ubiquiti Router
 site_section: docs
 sub_section: [cck,cck-installing]

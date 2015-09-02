@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Diseñe su red - elementos de construcción
 site_section: docs
 sub_section: [cck,cck-planning]

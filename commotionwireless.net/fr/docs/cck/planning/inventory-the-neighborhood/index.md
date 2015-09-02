@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: L'inventaire de voisinage
 site_section: docs
 sub_section: [cck,cck-planning]

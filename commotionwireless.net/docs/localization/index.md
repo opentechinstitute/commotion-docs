@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 definition: localization
 title: Commotion Localization
 site_section: docs

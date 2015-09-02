@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Design your Network- Construction Elements
 site_section: docs
 sub_section: [cck,cck-planning]

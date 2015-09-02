@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 definition: get-started
 title: Get Started
 site_section: docs

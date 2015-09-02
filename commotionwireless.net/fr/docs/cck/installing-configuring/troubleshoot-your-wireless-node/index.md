@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Intervenir pour régler un problème dans votre noeud sans-fil
 site_section: docs
 sub_section: [cck,cck-installing]

@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Conception de réseaux - les défis inhérents aux réseaux sans fil
 site_section: docs
 sub_section: [cck,cck-networking]

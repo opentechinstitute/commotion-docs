@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Survey Your Neighbors
 site_section: docs
 sub_section: [cck,cck-planning]

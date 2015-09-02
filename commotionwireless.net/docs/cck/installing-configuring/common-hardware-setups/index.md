@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Common Hardware Setups
 site_section: docs
 sub_section: [cck,cck-installing]

@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Configurations communes
 site_section: docs
 sub_section: [cck,cck-installing]

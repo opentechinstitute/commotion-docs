@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 definition: cck
 title: Commotion Construction Kit
 site_section: docs

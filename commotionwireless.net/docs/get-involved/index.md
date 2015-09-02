@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 definition: get-involved
 title: Get Involved
 site_section: docs

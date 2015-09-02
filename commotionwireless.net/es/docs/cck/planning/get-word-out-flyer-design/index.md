@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Difunda el mensaje - Diseño de panfletos
 site_section: docs
 sub_section: [cck,cck-planning]

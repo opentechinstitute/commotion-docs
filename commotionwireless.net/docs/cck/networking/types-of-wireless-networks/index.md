@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Types of Wireless Networks
 site_section: docs
 sub_section: [cck,cck-networking]

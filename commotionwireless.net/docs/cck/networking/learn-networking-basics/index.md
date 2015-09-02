@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Learn Networking Basics
 site_section: docs
 sub_section: [cck,cck-networking]

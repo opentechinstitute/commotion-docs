@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: default
 title: Identification des compétences du voisinage
 site_section: docs
 sub_section: [cck,cck-planning]
