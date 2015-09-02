@@ -19,14 +19,4 @@ This example illustrates how a top level section page for the CCK looks. It basi
 </div>
 </code>
 
-Menus and other content files that get included in the site pages are stored in the <code>_includes</code> directory, and need to be updated when new pages or sub pages are added. 
-You can explore the content of included files in the _includes folder, but it's appropriate to just ask the site maintainer to update the menus with new pages when you submit new 
-content in a pull request on Github.
-
-The <code>collection</code> layout uses a data file (<code>/_data/cck.yml</code>) to build the CCK sidebar. To add a new module, open cck.yml and add a new entry to
-+ the <code>sections:</code> field in the following format:
-+ <pre>
-+  - title: New Module Title
-+    id: module-folder-name
-+ </pre>
-
+Menus and other content files that get included in the site pages are stored in the <code>_includes</code> directory, and need to be updated when new pages, site sections or sub pages are added. You can explore the content of included files in the _incldues folder, but it's appropriate to just ask teh site maintainer to update the menus with new pages when you submit new content in a pull request on Github.
