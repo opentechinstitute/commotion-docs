@@ -10,6 +10,12 @@ $(document).ready(function() {
         $('.accordion li').removeClass('active');
         $(this).closest('li').addClass('active');
 
+        // reset icon on inactive element
+        if ($('.accordion i').hasClass('fa-minus')) {
+            $('.accordion i').removeClass('fa-minus').addClass('fa-plus');
+        }
+
+        // set icon on active element
         if (iconElement.hasClass('fa-plus')) {
             iconElement.removeClass('fa-plus').addClass('fa-minus');
         } else {
