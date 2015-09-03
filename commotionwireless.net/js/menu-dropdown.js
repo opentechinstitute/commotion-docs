@@ -3,15 +3,24 @@ $(document).ready(function() {
         $(this).next('div').toggle();
     });
     $('.accordion > ul > li > a').click(function() {
-        var checkElement = $(this).next();
+        var origElement = $(this);
+        var checkElement = origElement.next();
+        var iconElement = origElement.find('i');
 
         $('.accordion li').removeClass('active');
         $(this).closest('li').addClass('active');
+
+        if (iconElement.hasClass('fa-plus')) {
+            iconElement.removeClass('fa-plus').addClass('fa-minus');
+        } else {
+            iconElement.removeClass('fa-minus').addClass('fa-plus');
+        }
 
         if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
             $(this).closest('li').removeClass('active');
             checkElement.slideUp('fast');
         }
+
         if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
             $('.accordion ul ul:visible').slideUp('fast');
             checkElement.slideDown('fast');
