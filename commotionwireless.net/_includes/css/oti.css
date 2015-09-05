@@ -57,14 +57,14 @@
   color: white;
 }
 
-a, a:visited, a:link { 
+a, a:visited, a:link {
   border-bottom: 2px solid #e8ff00;
   color: inherit;
   font-weight:bold;
   text-decoration: none;
 }
 
-a:hover { 
+a:hover {
     border-bottom: 2px solid #fe739b;
 }
 
@@ -253,7 +253,7 @@ a img, a:link img {
 /* HEADER */
 
 #header_wrap {
-    background-image: url({{site.baseurl}}/files/website/background.png);
+    /*background-image: url({{site.baseurl}}/files/website/background.png);*/
     background-color: black;
     background-size: auto 100%;
     background-repeat: repeat-x;
@@ -330,7 +330,7 @@ a img, a:link img {
 }
 
 #sidemenu ul ul li a, #menu ul ul li a:link, #menu ul ul li a:visited {
-    padding:5px 20px; 
+    padding:5px 20px;
 }
 
 #sidemenu ul li a, #menu ul li a:link, #menu ul li a:visited {
@@ -341,7 +341,7 @@ a img, a:link img {
     border-bottom: medium none;
     font-weight: normal;
     margin: 0px;
-    padding:8px 20px; 
+    padding:8px 20px;
     width:100%;
 }
 
