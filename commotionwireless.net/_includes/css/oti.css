@@ -253,10 +253,10 @@ a img, a:link img {
 /* HEADER */
 
 #header_wrap {
-    /*background-image: url({{site.baseurl}}/files/website/background.png);*/
+    background-image: url({{site.baseurl}}/icons/commotion-mesh-background.svg);
     background-color: black;
-    background-size: auto 100%;
-    background-repeat: repeat-x;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: 0% 100%;
 }
 
