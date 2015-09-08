@@ -1,7 +1,7 @@
 ﻿---
 title: "Commotion Inalámbrico"
 layout: front
-lang: sp
+lang: es
 ---
 <div id="slideshow">
   <div id="banner-slide" class="slideshow-inner">
