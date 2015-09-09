@@ -10,7 +10,7 @@
 }
 
 #primary_nav_wrap button.toggle-menu {
-    padding: 8%;
+    padding: 2.5%;
     margin: 5px 8% 5px 0;
     background-color: black;
     border: 1px darkgrey solid;
@@ -22,7 +22,7 @@
 #primary_nav_wrap button.toggle-menu:hover {
     color: black;
     border: 1px black solid;
-    background-color: lightgrey; 
+    background-color: lightgrey;
 }
 
 #primary_nav_wrap .accordion {
