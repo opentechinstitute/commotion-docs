@@ -264,6 +264,14 @@ a img, a:link img {
   /*max-width: 700px;*/
 }
 
+.project_logo {
+    height:100%;
+    width: auto;
+    max-height:100px;
+    float:left;
+    margin-right:15px;
+}
+
 /* FOOTER */
 
 #footer_wrap.outer {
