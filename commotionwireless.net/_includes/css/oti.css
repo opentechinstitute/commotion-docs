@@ -253,11 +253,11 @@ a img, a:link img {
 /* HEADER */
 
 #header_wrap {
-    background-image: url({{site.baseurl}}/icons/commotion_full_web_inverse.svg);
     background-color: black;
+    /*background-image: url({{site.baseurl}}/icons/commotion_full_web_inverse.svg);
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: 0% 100%;
+    background-position: 0% 100%;*/
 }
 
 #project_tagline {
