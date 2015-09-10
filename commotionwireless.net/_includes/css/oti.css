@@ -270,6 +270,7 @@ a img, a:link img {
     max-height:100px;
     float:left;
     margin-right:15px;
+    vertical-align:top;
 }
 
 /* FOOTER */
