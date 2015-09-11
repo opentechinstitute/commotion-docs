@@ -3,10 +3,10 @@
 {% include header.html width="home-width" title=site.title subtitle=page.title %}
 
 <section id="main_content" class="inner home-width">
-
-<div class="content blog">
-{{ content }}
-</div>
+    <h2>{{ page.created }} / {{ page.post_author }}</h2>
+    <div class="content blog">
+        {{ content }}
+    </div>
 
 </section>
 
