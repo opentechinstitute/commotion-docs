@@ -1,13 +1,21 @@
-
-
-{% include header.html width="home-width" title=site.title subtitle=page.title %}
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
 
 <section id="main_content" class="inner home-width">
-    <h2>{{ page.created }} / {{ page.post_author }}</h2>
-    <div class="content blog">
-        {{ content }}
+
+    <div class="content">
+        <div class="left-side">
+            <h2>{{ page.created }} / {{ page.post_author }}
+            {{ content }}
+        </div>
+        <div class="right-side">
+            <div class="nav">
+                <div id="sidemenu">
+                    {% include blog-sidebar-menu.html %}
+                </div>
+            </div>
+        </div>
     </div>
+
 </section>
 
-{% include blog-sidebar-menu.html %}
 {% include footer.html %}
