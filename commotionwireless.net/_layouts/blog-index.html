@@ -1,0 +1,24 @@
+{% comment %}
+    Identical to layout: blog.html except for the date/author heading.
+{% endcomment %}
+
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+
+<section id="main_content" class="inner home-width">
+
+    <div class="content">
+        <div class="left-side">
+            {{ content }}
+        </div>
+        <div class="right-side">
+            <div class="nav">
+                <div id="sidemenu">
+                    {% include blog-sidebar-menu.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% include footer.html %}
