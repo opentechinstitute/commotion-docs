@@ -368,3 +368,9 @@ a img, a:link img {
     font-weight:600;
     color:{{site.data.colors.white}};
 }
+
+#sidemenu .post-calendar,
+#sidemenu .tag-cloud {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
