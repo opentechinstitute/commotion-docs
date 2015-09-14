@@ -271,6 +271,8 @@ a img, a:link img {
     float:left;
     margin-right:15px;
     vertical-align:top;
+    top: 50%;
+    transform: translateY(-25%);
 }
 
 /* FOOTER */
