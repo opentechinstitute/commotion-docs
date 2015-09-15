@@ -1,11 +1,11 @@
 ﻿---
-layout: cck
+layout: default
 title: Identifica las Habilidades del Vecindario
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/CCK-Neighborhood_Skills.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
@@ -177,4 +177,4 @@ Papel</p>
 <section class="related-information" id="section-related-information">
 <h3>Información Relacionada</h3>
 </section>
---> 
+-->

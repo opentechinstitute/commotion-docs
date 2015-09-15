@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Gather Tools and Wireless Equipment
 site_section: docs
 sub_section: [cck,cck-building]

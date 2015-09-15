@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Concevoir votre réseau - éléments de construction
 site_section: docs
 sub_section: [cck,cck-planning]

@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Introduction to Mesh
 site_section: docs
 sub_section: [cck,cck-networking]

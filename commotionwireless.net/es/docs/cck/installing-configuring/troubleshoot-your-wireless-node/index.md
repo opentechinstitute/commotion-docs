@@ -1,11 +1,11 @@
 ﻿---
-layout: cck
+layout: default
 title: Solución de Problemas de tu Nodo Inalámbrico
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/4-Troubleshoot_Your_Wireless_Node.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-04
 changed: 2013-12-23
 post_author: critzo
@@ -301,4 +301,3 @@ lang: es
 <h2>Recursos Externos</h2>
 Recomendamos leer el Capítulo 15 de <a href="http://wndw.net/">Redes Inalámbricas en el Mundo en Desarrollo</a>, sobre mantenimiento y solución de problemas.****************
 Wireless Networking in the Developing World</a>, on maintenance and troubleshooting.</section>
-

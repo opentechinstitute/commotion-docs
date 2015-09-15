@@ -1,11 +1,11 @@
 ﻿---
-layout: cck
-title: Instalando en un Router Ubiquiti AirMax 
+layout: default
+title: Instalando en un Router Ubiquiti AirMax
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Install_on_Ubiquiti_Router.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2014-09-04
 post_author: critzo
@@ -194,4 +194,3 @@ Warning! It is very important that you do not port labeled POE into your compute
 	<li>También puedes hacer una búsqueda en Internet por tu sistema operativo específico para encontrar más información, u otras guías.</li>
 </ul>
 </section>
-

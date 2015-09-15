@@ -1,11 +1,11 @@
 ﻿---
-layout: cck
+layout: default
 title: Diseña tu Red – Elementos de Construcción
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/7-Design_your_Network_Construction_Elements.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -52,4 +52,3 @@ lang: es
 
 <p><a href="http://thenounproject.com" target="_blank">thenounproject.com</a> tiene gráficos que puedes usar junto con estos Elementos.</p>
 </section>
- 

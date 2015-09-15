@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Commotion Contruction Kit - Planning
 site_section: docs
 sub_section: [cck,cck-planning]

@@ -1,0 +1,73 @@
+\hypertarget{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings}{\section{tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Get\+Config\+Settings Class Reference}
+\label{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings}\index{tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Get\+Config\+Settings@{tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Get\+Config\+Settings}}
+}
+Inheritance diagram for tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Get\+Config\+Settings\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_abb00849dbf033d220046921187102261}{test\+\_\+get\+\_\+installed}
+\item 
+def \hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_ad7405dd268be73fd701a305f057b6443}{test\+\_\+check\+\_\+installed}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_ad7405dd268be73fd701a305f057b6443}{\index{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings}!test\+\_\+check\+\_\+installed@{test\+\_\+check\+\_\+installed}}
+\index{test\+\_\+check\+\_\+installed@{test\+\_\+check\+\_\+installed}!tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings}}
+\subsubsection[{test\+\_\+check\+\_\+installed}]{\setlength{\rightskip}{0pt plus 5cm}def tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Get\+Config\+Settings.\+test\+\_\+check\+\_\+installed (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_ad7405dd268be73fd701a305f057b6443}
+\begin{DoxyVerb}Test that get_installed function properly checks & returns if extensions are installed.\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+155 
+156     \textcolor{keyword}{def }\hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_ad7405dd268be73fd701a305f057b6443}{test\_check\_installed}(self):
+157         \textcolor{stringliteral}{"""Test that get\_installed function properly checks & returns if extensions are installed."""}
+158         \textcolor{comment}{#test empty first}
+159         self.assertFalse(self.ext\_mgr.check\_installed())
+160         self.assertFalse(self.ext\_mgr.check\_installed(\textcolor{stringliteral}{"test"}))
+161         \textcolor{comment}{#add a value to settings}
+162         self.ext\_mgr.user\_settings.setValue(\textcolor{stringliteral}{"test/type"}, \textcolor{stringliteral}{"global"})
+163         self.ext\_mgr.user\_settings.sync()
+164         self.assertTrue(self.ext\_mgr.check\_installed())
+165         self.assertTrue(self.ext\_mgr.check\_installed(\textcolor{stringliteral}{"test"}))
+166         self.assertFalse(self.ext\_mgr.check\_installed(\textcolor{stringliteral}{"pineapple"}))
+
+\end{DoxyCode}
+\hypertarget{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_abb00849dbf033d220046921187102261}{\index{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings}!test\+\_\+get\+\_\+installed@{test\+\_\+get\+\_\+installed}}
+\index{test\+\_\+get\+\_\+installed@{test\+\_\+get\+\_\+installed}!tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings@{tests\+::utils\+::extension\+\_\+manager\+\_\+tests\+::\+Get\+Config\+Settings}}
+\subsubsection[{test\+\_\+get\+\_\+installed}]{\setlength{\rightskip}{0pt plus 5cm}def tests.\+utils.\+extension\+\_\+manager\+\_\+tests.\+Get\+Config\+Settings.\+test\+\_\+get\+\_\+installed (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_abb00849dbf033d220046921187102261}
+\begin{DoxyVerb}Test that get_installed function properly checks & returns installed extensions.\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+143 
+144     \textcolor{keyword}{def }\hyperlink{classtests_1_1utils_1_1extension__manager__tests_1_1GetConfigSettings_abb00849dbf033d220046921187102261}{test\_get\_installed}(self):
+145         \textcolor{stringliteral}{"""Test that get\_installed function properly checks & returns installed extensions."""}
+146         empty\_inst = self.ext\_mgr.get\_installed()
+147         self.assertEqual(empty\_inst, \{\})
+148         \textcolor{comment}{#add a value to settings}
+149         self.ext\_mgr.user\_settings.setValue(\textcolor{stringliteral}{"test/type"}, \textcolor{stringliteral}{"global"})
+150         self.ext\_mgr.user\_settings.sync()
+151         one\_item = self.ext\_mgr.get\_installed()
+152         self.assertEqual(len(one\_item), 1)
+153         self.assertIn(\textcolor{stringliteral}{"test"}, one\_item)
+154         self.assertEqual(one\_item[\textcolor{stringliteral}{'test'}], \textcolor{stringliteral}{'global'})
+ 
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+tests/utils/extension\+\_\+manager\+\_\+tests.\+py\end{DoxyCompactItemize}

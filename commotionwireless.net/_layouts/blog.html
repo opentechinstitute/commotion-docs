@@ -1,16 +1,24 @@
-{% include header.html %}
-{% include header-nav.html %} 
-{% include pageheadings.html %} 
-{% include content-area-open.html %} 
-{% include right-col-start.html %}
-{% include blog-rss-block.html %}
-{% include posts-by-date-min.html %}
-{% include site-tag-cloud.html %}
-{% include right-col-end.html %}
-{% include left-twothird-open.html %}
-{% include blog-header.html %}
-{{ content }}
-{% include blog-footer.html %}
-{% include left-twothird-close.html %}
-{% include content-area-close.html %} 
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+
+<section id="main_content" class="inner home-width">
+
+    <div class="content">
+        <div class="left-side">
+            {% if page.url != '/blog/' and page.url != '/blog/index.html' and page.url != '/blog/by-date.html' %}
+                <h2>{{ page.created }} / {{ page.post_author }}</h2>
+            {% endif %}
+
+            {{ content }}
+        </div>
+        <div class="right-side">
+            <div class="nav">
+                <div id="sidemenu">
+                    {% include blog-sidebar-menu.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 {% include footer.html %}

@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Inventory the Neighborhood
 site_section: docs
 sub_section: [cck,cck-planning]

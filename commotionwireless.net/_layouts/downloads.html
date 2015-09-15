@@ -1,9 +1,16 @@
-{% include header.html %}
-{% include header-nav.html %} 
-{% include pageheadings.html %} 
-{% include content-area-open.html %}
-{% include download-nav.html %} 
+
+
+
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+
+<section id="main_content" class="inner home-width">
+
+<div class="content">
 {% include verifying-downloads.html %} 
+
 {{ content }}
-{% include content-area-close.html %} 
+</div>
+
+</section>
+
 {% include footer.html %}

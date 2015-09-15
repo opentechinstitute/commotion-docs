@@ -1,11 +1,11 @@
 ﻿---
-layout: cck
+layout: default
 title:  Aprende de los Montajes en los Techos
 site_section: docs
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/3-Learn_about_Rooftop_Mounts.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -173,4 +173,3 @@ lang: es
 	<li>Montaje sin penetración: Búsqueda de "montaje de techo sin penetración" "VMP FRM-125," "Perfect Vision NPR6B," o "NPR-18C3." Ordena un tapete de plástico para proteger el techo del hardware sin penetración también – búsqueda de: "tapete de montaje para montura sin penetración," o "NPRMAT8"</li>
 </ul>
 </section>
- 

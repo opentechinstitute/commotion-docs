@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Configurer Commotion
 site_section: docs
 sub_section: [cck,cck-installing]

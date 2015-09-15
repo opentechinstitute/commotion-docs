@@ -1,5 +1,6 @@
 ---
 layout: default
+definition: localization
 title: Commotion Localization
 site_section: docs
 categories: 
@@ -8,11 +9,11 @@ changed: 2013-09-20
 post_author: critzo
 lang: en
 ---
-  <p>Welcome to the Commotion localization guide. This quick guide will walk you through the steps and procedures involved in translating Commotion.</p>
+<p>Welcome to the Commotion localization guide. This quick guide will walk you through the steps and procedures involved in translating Commotion.</p>
 
 <p>In order to make Commotion available to communities all over the world, we are localizing it in multiple languages. We are currently looking for volunteer translators to participate in the French, Spanish and Arabic localization of the project. We are especially interested in professionals who have experience working with technical texts.</p>
 
-<h2>Sign Up</h2>
+<h2 id="sign-up">Sign Up</h2>
 
 <p>The first step to get started is to sign up for the Commotion L10n projects. We have two projects –</p>
 
@@ -20,7 +21,7 @@ lang: en
 
 <p>If you already have an account on Transifex, you only need to join the language team(s) of your choice. If you are new, then you need to create an account first.</p>
 
-<h2>Translating</h2>
+<h2 id="translating">Translating</h2>
 
 <h3>Online Translation</h3>
 
@@ -34,7 +35,7 @@ lang: en
 
 <p>There are several choices with regard to tools for offline translation. If the source files are in HTML format, then you can use <a href="http://www.omegat.org/">OmegaT</a>. If the files are in the pot format, then you can use <a href="http://www.poedit.net/">Poedit</a>, <a href="http://virtaal.translatehouse.org/">Virtaal</a> or <a href="http://www.omegat.org/">OmegaT</a>. You are free to use any other tool of your choice.</p>
 
-<h2>Communicating</h2>
+<h2 id="communicating">Communicating</h2>
 
 <p>Collaboration is the backbone of the open-source community. Interacting with your co-translators will not only help you engage in meaningful conversations around your work, but will also give you a feel of the open-source community at large. The communication channels available to you include:</p>
 
@@ -60,10 +61,3 @@ lang: en
 
 <p class="rteindent1">Join us on IRC:<br />
 #commotion on the freenode.net server</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
- 

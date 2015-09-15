@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Install on a Ubiquiti UniFi Router
 site_section: docs
 sub_section: [cck,cck-installing]

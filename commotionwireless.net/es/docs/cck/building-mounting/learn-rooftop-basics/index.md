@@ -1,11 +1,11 @@
 ﻿---
-layout: cck
+layout: default
 title: Aprende lo básico de los techos
 site_section: docs
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/2-Learn_Rooftop_Basics.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-09-28
 post_author: critzo
@@ -114,4 +114,3 @@ lang: es
 
 <p>Asegúrate de traer cualquier otra impresión que puedas necesitar en el techo – como el módulo <a href="#">Haz un Cable Ethernet</a> (próximamente), las instrucciones para poner montajes en el techo, mapas de tu vecindario, ¡o cualquier otra cosa que creas útil!</p>
 </section>
- 

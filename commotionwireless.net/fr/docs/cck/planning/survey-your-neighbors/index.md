@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Faites une enquête dans votre quartier
 site_section: docs
 sub_section: [cck,cck-planning]

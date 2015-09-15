@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Install on a MikroTik Router
 site_section: docs
 sub_section: [cck,cck-installing]
