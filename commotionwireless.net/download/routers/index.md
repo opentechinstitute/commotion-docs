@@ -1,7 +1,7 @@
 ---
-layout: downloads
+layout: default
 title: Download Commotion Router
-categories: 
+categories:
 created: 2013-06-28
 changed: 2014-08-01
 post_author: areynold

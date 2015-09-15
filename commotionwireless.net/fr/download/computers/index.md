@@ -1,5 +1,5 @@
 ---
-layout: downloads
+layout: default
 title: Download Commotion for Desktop/Laptop Computers
 categories: 
 created: 2013-07-06
