@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: Acerca de Commotion
 site_section: about
-categories: 
+categories:
 created: 2012-07-16
 changed: 2013-12-18
 post_author: admin
 lang: es
 ---
+
 <p>Commotion es una herramienta gratuita, de código abierto que usa dispositivos inalámbricos para crear redes mesh descentralizadas. Commotion provee una forma para que compartas tu conexión a Internet con las personas a tu alrededor, pero no es un reemplazo para tu conexión a Internet. Lee más acerca de como trabaja Commotion en nuestra sección de <a href="/about/faq">Preguntas Frecuentes (FAQ)</a> de nuestra página.</p>
 
 <p><img alt="Redes Mesh Entre Dispositivos" src="/files/housesMesh_0.png" style="height:124px; width:419px" /></p>
@@ -35,4 +36,3 @@ lang: es
 <p>Commotion es liderado por el <a href="http://newamerica.org/oti" target="_blank">Open Technology Institute</a>.</p>
 
 <p><a class="img" href="http://newamerica.org/oti"><img alt="Open Technology Institute logo" src="/files/opentechnology_black.png" title="logo del Open Technology Institute" /></a></p>
- 

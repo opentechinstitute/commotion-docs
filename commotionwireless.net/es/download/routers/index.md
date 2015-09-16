@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Descarga Commotion Router
-categories: 
+categories:
 created: 2013-06-28
 changed: 2014-08-01
 post_author: areynold
@@ -28,7 +28,7 @@ lang: es
 
 <p>Commotion Router es una distribución de OpenWRT Linux que soporta los routers inalámbricos listados abajo por vendedor. Si no estás seguro que archivo descargar, checa la lista completa de <a href="/docs/supported-devices">dispositivos que actualmente soportamos</a>.</p>
 
-<p>Para instrucciones sobre obtener la configuración de Commotion en tu router, ve las instrucciones de instalación, ligadas a cada una de las secciones del fabricante abajo. Después de la instalación, checa las páginas de Commotion <a href="/docs/cck/installing-configuring/configure-commotion/">de Configuración</a> 
+<p>Para instrucciones sobre obtener la configuración de Commotion en tu router, ve las instrucciones de instalación, ligadas a cada una de las secciones del fabricante abajo. Después de la instalación, checa las páginas de Commotion <a href="/docs/cck/installing-configuring/configure-commotion/">de Configuración</a>
 si necesitas ayuda en configurar el hardware. Si te estas actualizando de versiones más viejas de Commotion (Pre-lanzamientos, Lanzamientos Desarrolladores, o versiones 1.0), lee a través de la <a href="https://wiki.commotionwireless.net/doku.php?id=general_resources:documentation:router:upgrading_from_previous_versions">Guía de Actualización</a> en nuestro <a href="https://wiki.commotionwireless.net/">wiki</a>.</p>
 
 <p>El lanzamiento actual de Commotion es <strong>v1.1 "Grumpy Cat"</strong></p>

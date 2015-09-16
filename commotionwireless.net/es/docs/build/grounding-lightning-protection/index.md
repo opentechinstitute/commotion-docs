@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Conexión a tierra y protección contra rayos
-categories: 
+categories:
 created: 2013-07-30
 changed: 2013-08-05
 post_author: critzo
@@ -56,4 +56,3 @@ lang: es
 </ul>
 
 <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__248 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/outdoor_surge_arrestor.jpg?itok=Y4k9Cgr-" style="width: 250px; height: 165px; float: right;" typeof="foaf:Image" />El protector exterior debe estar instalado directamente debajo del Router del techo, tan cerca del piso como sea posible. Esto es para minimizar lo largo del cable entre el protector y la varilla de tierra o el conductor de piso, ya que deberían estar instalados en el piso o en el sótano. Debería montarse con dos pequeños tornillos a la madera, concreto o base de ladrillo del edificio.</p>
-

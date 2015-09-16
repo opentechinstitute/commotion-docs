@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Conceptos Clave
 site_section: developers
 sub_section: hig
-categories: 
+categories:
 created: 2012-06-25
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -100,4 +100,3 @@ La documentación Commotion debería discutir claramente cualquier problema de p
 <img alt="" src="/files/HIG_25b.png" style="border-style:solid; border-width:1px; height:113px; margin-bottom:5px; margin-top:5px; width:419px" /></p>
 
 <p>&nbsp;</p>
- 

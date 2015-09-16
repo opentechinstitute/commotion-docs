@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: Guías para Redes Mesh
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/Guidelines_for_Mesh_Networks.pdf
 pdf-all:
-categories: 
+categories:
 created: 2015-03-31
 changed: 2015-04-01
 post_author: Andy Gunn
@@ -63,7 +63,7 @@ Hay varias maneras de dividir la función entre dispositivos:
 El rendimiento se puede aumentar mediante el uso más routers o routers más caros. También puede tomar más tiempo para configurar la red, ya que existen dispositivos adicionales. Aún así, las ganancias de rendimiento son muy significativas.
 
 
-## Minimiza los saltos en la red 
+## Minimiza los saltos en la red
 
 ### Problema
 
@@ -136,8 +136,8 @@ Siempre habrá alguna interferencia y disminuciones en el rendimiento a medida q
 ![Hardware mesh – usa equipo MIMO](/files/Mesh-hardware-MIMO-equipment.png)
 
 Algunos routers que soportan niveles de datos MIMO*********** Some routers that support MIMO data rates:
-* Modelos de exterior Ubiquiti NanoStation M, NanoBridge M, Rocket M, UniFi AP, y UniFi AP 
-* Modelos TP-Link WDR3600 y WDR4300 
+* Modelos de exterior Ubiquiti NanoStation M, NanoBridge M, Rocket M, UniFi AP, y UniFi AP
+* Modelos TP-Link WDR3600 y WDR4300
 * Modelos MikroTik RB411 y RB433 con tarjetas de radio R52nM o R52Hn.
 
 
@@ -173,7 +173,7 @@ Mayor rendimiento con los routers adicionales viene con gastos adicional de tene
 
 
 
-## Segmenta la red en secciones más pequeñas 
+## Segmenta la red en secciones más pequeñas
 
 ### Problema
 

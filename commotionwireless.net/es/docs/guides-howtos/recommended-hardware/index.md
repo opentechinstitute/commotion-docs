@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Routers Recomendados para Commotion
 site_section: docs
 sub_section: [guides]
-categories: 
+categories:
 created: 2014-11-24
 changed: 2014-11-24
 post_author: Andy Gunn

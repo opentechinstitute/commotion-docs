@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Descargas Commotion
 site_section: download
-categories: 
+categories:
 created: 2012-10-18
 changed: 2014-10-31
 post_author: OTI
@@ -53,4 +53,3 @@ lang: es
 </div>-->
 
 <p>&nbsp;</p>
- 

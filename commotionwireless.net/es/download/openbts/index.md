@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Descarga Commotion OpenBTS
-categories: 
+categories:
 created: 2013-06-28
 changed: 2013-12-31
 post_author: grady
@@ -62,4 +62,3 @@ lang: es
 </table>
 
 <p><a class="button" href="https://github.com/opentechinstitute/commotion-openbts" id="openbts-source-btn">Código Fuente</a></p>
- 

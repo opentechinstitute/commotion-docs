@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Junta las herramientas y el Equipo Inalámbrico
 site_section: docs

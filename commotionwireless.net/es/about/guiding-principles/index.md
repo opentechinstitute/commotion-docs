@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: Principios Guía
 site_section: about
-categories: 
+categories:
 created: 2013-07-14
 changed: 2013-07-18
 post_author: critzo
 lang: es
 ---
+
 <div class="about-content">
 <h2>Principios guía del proyecto Commotion</h2>
 
@@ -29,10 +30,10 @@ lang: es
 
 A través de nuestro trabajo, nos guíamos por estos principios:
 
-<h3>Apertura</h3> 
+<h3>Apertura</h3>
 <p>Nuestro código abierto, procesos, materiales y reportes están abiertos y disponibles. Alentamos la participación de individuos y comunidades adaptando, mejorando y utilizando nuestras herramientas.</p>
 
-<h3>Privacidad</h3> 
+<h3>Privacidad</h3>
 <p>Apoyamos y defendemos el derecho a la privacidad y la libertad de la vigilancia; nuestras tecnologías están diseñadas para la seguridad y confianza; nuestros métodos de investigación son respetuosos y sensibles a las preocupaciones sobre la privacidad.</p>
 
 <h3>Justicia</h3>
@@ -41,7 +42,7 @@ A través de nuestro trabajo, nos guíamos por estos principios:
 <h3>Auto-determinación Colectiva</h3>
 <p>Los socios de la comunidad deciden cómo quieren comprometerse y cómo quieren usar nuestras herramientas. Nosotros seguimos su ejemplo.</p>
 
-<h3>Servicio</h3> 
+<h3>Servicio</h3>
 <p>Mostramos respeto y damos de regreso a las comunidades con las que nos involucramos local y virtualmente.</p>
 
 <h3>Integridad</h3>
@@ -49,4 +50,4 @@ A través de nuestro trabajo, nos guíamos por estos principios:
 
 <hr>
 <span id="footnote1"><strong>(1)</strong> Como miembros de <a href="http://detroitdjc.org/principles/" target="_blank">la Coalición de Justicia Digital de Detroit</a>, creemos que la comunicación es un derecho humano fundamental; estamos asegurando tal derecho para la era digital al promover el acceso, la participación, la propiedad comunitaria y las comunidades saludables.</span>
-</div> 
+</div>

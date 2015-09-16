@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: Configuraciones Avanzadas de Hardware
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Advanced_Hardware_Setups.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2014-08-13
 changed: 2014-08-13
 post_author: andygunn
@@ -52,7 +52,7 @@ lang: es
    <li><strong>(F)</strong> Representa el módem o router del Proveedor de Servicio de Internet (Internet Service Provider, ISP), conectado al Internet. Provee direcciones IP al puerto local con DHCP.</li>
    <li><strong>(G)</strong> Representa el Internet.</li>
 </ul>
-   
+
 <p>El diagrama de abajo demuestra como se vería esto con el equipo instalado en un edificio:</p>
 <p><img src="/files/CCK_CommonConfigs_05_Nodes_meshed_via_Ethernet_with_gateway_building.png" style="max-width:700px;" /></p>
 
@@ -79,7 +79,7 @@ lang: es
    <li>En el menú que se jala hacia abajo, selecciona, y asegúrate que esté checado***************In the pull-down menu, select , and make sure is checked.***********</li>
    <li>"Guardar y aplicar" estas configuraciones.</li>
 </ol>
-   
+
 <p>En tercer lugar, habilita el meshing sobre el Ethernet para que los nodos se conecten al switch.</p>
 
 <ol class="rteindent1">

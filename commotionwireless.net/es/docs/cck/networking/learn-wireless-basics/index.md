@@ -1,4 +1,4 @@
-﻿---
+---
 layout: cck
 title: Aprende Acerca de las Redes Inalámbricas
 site_section: docs
@@ -391,4 +391,3 @@ Hay también excelentes documentos en Wikipedia acerca de <a href="http://en.wik
 Para mayor información sobre que frecuencias están disponibles en tu país o área regulatoria, por favor ve este artículo de Wikipedia en <a href="http://en.wikipedia.org/wiki/List_of_WLAN_channels" target="_blank">canales inalámbricos</a>.
 </p>
 </section>
-

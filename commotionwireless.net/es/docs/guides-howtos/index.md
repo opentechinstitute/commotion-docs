@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Guías y Paso a Paso**********Guides and How-tos
 site_section: docs
 sub_section: [guides]
-categories: 
+categories:
 created: 2014-08-22
 changed: 2014-08-22
 post_author: andygunn

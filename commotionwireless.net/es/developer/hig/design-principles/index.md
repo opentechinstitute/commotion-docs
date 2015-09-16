@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Principios de Diseño
 site_section: developers
 sub_section: [hig]
-categories: 
+categories:
 created: 2012-07-03
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -47,4 +47,3 @@ lang: es
 <p>Las aplicaciones móviles Commotion, aplicaciones web y sitios web deberían responder a los tamaños de pantalla y navegador.</p>
 
 <p>Los desarrolladores móviles deben ser especialmente sensibles a la orientación de la pantalla. Los usuarios pueden girar los dispositivos móviles en cualquier momento y por una variedad de razones. A veces, una tarea puede sentirse más natural en una orientación determinada -- un retrato o paisaje. Si un dispositivo se hace girar por cualquier razón, Commotion debe responder de manera adecuada y mantener su enfoque en la tarea principal que nos ocupa. La aplicación debería comenzar en la misma orientación que el menú de aplicaciones que lo lanza. En los teléfonos Android que tienen un teclado físico, el menú de aplicaciones esta a menudo en orientación horizontal cuando el teclado está abierto.</p>
-

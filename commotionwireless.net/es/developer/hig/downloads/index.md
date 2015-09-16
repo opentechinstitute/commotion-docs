@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Descargas
 site_section: developers
 sub_section: [hig]
-categories: 
+categories:
 created: 2012-07-03
 changed: 2013-07-06
 post_author: michael@theworkdept.com
@@ -35,4 +35,3 @@ lang: es
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
- 

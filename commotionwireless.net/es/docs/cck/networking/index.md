@@ -1,10 +1,10 @@
-﻿---
+---
 layout: cck
 title: Kit de Construcción Commotion - Redes
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-07
 changed: 2014-08-20
 post_author: critzo

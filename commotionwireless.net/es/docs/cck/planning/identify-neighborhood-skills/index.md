@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Identifica las Habilidades del Vecindario
 site_section: docs

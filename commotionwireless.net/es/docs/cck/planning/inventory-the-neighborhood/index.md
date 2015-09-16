@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Inventaría al Vecindario
 site_section: docs

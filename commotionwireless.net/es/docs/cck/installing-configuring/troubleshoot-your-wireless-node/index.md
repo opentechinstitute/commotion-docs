@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Solución de Problemas de tu Nodo Inalámbrico
 site_section: docs

@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: FAQ
 site_section: about
-categories: 
+categories:
 created: 2013-07-14
 changed: 2014-04-14
 post_author: Chris Ritzo
 lang: es
 ---
+
 <div class="faq-content">
 <h2>General</h2>
 
@@ -16,7 +17,7 @@ lang: es
 
 <h3>¿Commotion provee acceso a Internet? Es posible compartir acceso a Internet con Commotion?</h3>
 <p>Commotion no provee acceso a Internet.</p>
-<p>Ciertamente puedes compartir acceso a Internet usando Commotion, aunque recomendamos que consultes los Términos de Servicio de tu Proveedor de Servicios de Internet (ISP). Todo lo que se requiere es conectar un router con Commotion instalado a una conexión a Internet existente para proveer una puerta de acceso a Internet. El router Commotion compartirá banda ancha con otros dispositivos en la red mesh de esa conexión. Múltiples routers pueden ser usados para esto en una red mesh para proveer múltipless puertas de acceso y banda ancha adicional. Ve a la sección "Uno o más nodos conectados a una puerta de acceso" en la <a href="/docs/cck/installing-configuring/common-hardware-setups/">página de configuraciones de hardware común</a>.</p> 
+<p>Ciertamente puedes compartir acceso a Internet usando Commotion, aunque recomendamos que consultes los Términos de Servicio de tu Proveedor de Servicios de Internet (ISP). Todo lo que se requiere es conectar un router con Commotion instalado a una conexión a Internet existente para proveer una puerta de acceso a Internet. El router Commotion compartirá banda ancha con otros dispositivos en la red mesh de esa conexión. Múltiples routers pueden ser usados para esto en una red mesh para proveer múltipless puertas de acceso y banda ancha adicional. Ve a la sección "Uno o más nodos conectados a una puerta de acceso" en la <a href="/docs/cck/installing-configuring/common-hardware-setups/">página de configuraciones de hardware común</a>.</p>
 
 <h3>¿Cómo funciona Commotion?</h3>
 <p>Commotion es un software que está instalado en routers inalámbricos. Permite la creación de redes de comunicaciones (mesh) usuario-a-usuario. La meta del Proyecto Commotion es proveer un paquete fácil de ensamblar de software y documentación que hace que construir redes mesh sea accesible para una amplia audiencia.</p>
@@ -32,7 +33,7 @@ lang: es
 
 <h3>Hay alguna diferencia entre esta tecnología y otros proveedores mesh de bajo costo o firmwares como Open-Mesh, DD-WRT, Freifunk, etc.</h3>
 <p>La respuesta corta es sí, hay muchas diferencias, pero también hay una cantidad significativa de coincidencias. Por ejemplo, ambos Commotiony Freifunk usan OpenWRT como base pero tiene diferentes sets de aplicaciones debido a sus diferentes casos de uso.</p>
-   
+
 <p>Cada uno de estos proyectos tiene metas y prioridades que se reflejan en sus opciones de diseño. Commotion está primordialmente diseñado para un empacar firmware con buen soporte, gratis y de código abierto con configuraciones por defecto y herramientas administrativas que hacen posible para los nuevos usuarios construir y mantener una red con el mínimo soporte exterior.</p>
 
 <h3>¿Cómo puedo escuchar acerca de los últimos desarrollos Commotion?</h3>
@@ -57,7 +58,7 @@ lang: es
 
 <h3>Commotion es compatible con los routers de múltiples radios (5Ghz y 2.4Ghz)?</h3>
 <p>A partir de la versión 1.0 del router Commotion, el soporte está habilitado para dispositivos de doble radio. Probamos y publicamos imágenes para nuevos routers compatibles en la medida en que tenemos dispositivos disponibles. Revisar <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_in_testing">nuestra página wiki de hardware que estamos probando</a> para ver los dispositivos que estamos probando, el equipo de desarrollo y otros contribuidores al proyecto, con router Commotion. También tenemos una lista de <a href="https://wiki.commotionwireless.net/doku.php?id=development_resources:router:hardware_compatibility_list">routers potencialmente compatibles</a>, en nuestra wiki de desarrollo.</p>
- 
+
 <h3>¿Quién puede descargar y utilizar el software?</h3>
 <p>Cualquier persona. Commotion es un proyecto de código abierto y que además tiene la meta central de asegurarse que está disponible libremente para aquellos que lo necesitan, y que funciona de forma correcta en el hardware disponible, y que puede adecuarse para atender las necesidades locales. Trabajamos para hacerlo fácilmente accesible y distribuible. </p>
 
@@ -133,7 +134,7 @@ lang: es
 
 <h2>Construyendo redes</h2>
 <h3>¿OTI construye redes? ¿Cómo es que OTI decide dónde trabajar? ¿Cómo es que decide dónde implementar Commotion? ¿Cómo es que OTI decide con quién trabajar en esos países? ¿Y cómo OTI conecta con las personas en el territorio?</h3>
-<p>OTI no implementa Commotion. OTI brinda apoyo a las comunidades a través de talleres, herramientas y recursos. OTI busca que los socios de las comunidades decidan cómo quieren involucrarse y cómo quieren utilizar las herramientas. Nosotros los seguimos a ellos.</p> 
+<p>OTI no implementa Commotion. OTI brinda apoyo a las comunidades a través de talleres, herramientas y recursos. OTI busca que los socios de las comunidades decidan cómo quieren involucrarse y cómo quieren utilizar las herramientas. Nosotros los seguimos a ellos.</p>
 <p>Nosotros nos asociamos con individuos y grupos que trabajan en una gran variedad de temas de justicia social. OTI promueve las comunicaciones asequibles, universales y ubicuas a través de colaboraciones con comunidades, investigadores, industria, y grupos de interés público, y está comprometido con maximizar los potenciales de las tecnologías de innovación abierta. En el campo, OTI trabaja directamente con las comunidades al utilizar las herramientas basadas en aprendizajes de proyectos y diseño participativo, para construir y dar soporte a las insfraestucturas de tecnología controlada por las comunidades como una forma de auto-gobernanza. Los socios de las comundiades deciden cómo quieren involucrarse en el uso de la herramienta. OTI únicamente publica sobre proyectos o socios que quieren aparecer en nuestro sitio. </p>
 
 <h3>Leí sobre {la red en la comunidad X}—¿Cómo puedo hacer eso en mi comunidad?</h3>
@@ -166,13 +167,13 @@ lang: es
 <h3>Soy investigador, grupo comunitario, organización sin fines de lucro, entidad civil, etc., interesado en colaborar con OTI/Commotion.</h3>
 <p>¡Gracias por acercarte! Antes de comenzar, recomendamos que explores nuestros recursos en la página web de Commotion. Si estás pensando en comenzar una red, el Kit de Construcción Commotion está diseñado para ayudarte a través de la planeación, construcción, instalación, y las necesidades básicas de las redes para comenzar una red inalámbrica usando Commotion. </p>
 <ul>
-<li>Únete a la <a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">lista de Discusión Commotion</a></li> 
+<li>Únete a la <a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">lista de Discusión Commotion</a></li>
 <li>Los investigadores pueden leer antecedentes de nuestro reporte disponible <a href="http://oti.newamerica.net/publications/policy/universities_as_hubs_for_next_generation_networks">Universidades como</a> Hubs.</li>
-<li>Descubre como <a href="/docs/get-started">comenzar</a>.</li> 
+<li>Descubre como <a href="/docs/get-started">comenzar</a>.</li>
 <li>Lee acerca de los costos <a href="/blog/2014/04/14/how-much-does-it-cost/">potenciales para construir redes Commotion.</a></li>
 </ul>
 
 <h3>¿Podrías decirme acerca de/conectarme con comunidades haciendo redes mesh?</h3>
 <p>Sí. Casi todos los usuarios Commotion están en<a href="https://lists.chambana.net/mailman/listinfo/commotion-discuss">la lista de discusión Commotion</a> y hemos compilado una serie de  <a href="/about/where-its-used">casos de estudio en proyectos específicos</a>.</p>
 
-</div> 
+</div>

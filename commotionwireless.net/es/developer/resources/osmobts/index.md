@@ -1,10 +1,10 @@
-﻿---
+---
 layout: default
 title: OsmoBTS
-categories: 
+categories:
 created: 2013-06-28
 changed: 2013-07-26
 post_author: grady
 lang: es
 ---
-  <p>¡La documentación OsmoBTS está próxima en llegar!</p> 
+  <p>¡La documentación OsmoBTS está próxima en llegar!</p>

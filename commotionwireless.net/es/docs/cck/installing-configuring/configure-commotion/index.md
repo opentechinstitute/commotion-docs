@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Configura Commotion
 site_section: docs

@@ -1,8 +1,8 @@
-﻿---
+---
 layout: doxygen
 title: Referencia API - commotiond
 site_section: developers
-categories: 
+categories:
 created: 2014-06-06 13:22:04.584366
 changed: 2014-06-06 13:22:04.584366
 post_author: Commotion

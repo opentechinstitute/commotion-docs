@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: Dónde se usa
 site_section: about
-categories: 
+categories:
 created: 2013-06-28
 changed: 2014-04-22
 post_author: gerety
 lang: es
 ---
+
 <p>El proyecto Commotion tiene redes piloto en Detroit, Red Hook y ha construido eventos y redes en conferencias como la <a href="http://amc.alliedmedia.org/">Conferencia Allied Media</a>, <a href="http://conference.freepress.net/">Conferencia Nacional para la Reforma de los Medios</a>, y <a href="http://wirelesssummit.org">La Cumbre Internacional para las Redes Inalámbricas Comunitarias</a>.</p>
 
 <h3>Capacitación Internacional en Sayada, Túnez</h3>
@@ -114,4 +115,3 @@ lang: es
 </ul>
 
 <p>Muchas redes inalámbricas comunitarias, corriendo en Commotion y otros software mesh, pueden encontrarse en esta <a href="http://en.wikipedia.org/wiki/List_of_wireless_community_networks_by_region">página de</a> Wikipedia. ¡Alentamos a las redes a que se agreguen a sí mismas a la lista también!</p>
- 

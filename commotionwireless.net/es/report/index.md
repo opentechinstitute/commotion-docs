@@ -1,11 +1,11 @@
-﻿---
+---
 layout: default
 title: Reporta un Probmea
-categories: 
+categories:
 created: 2014-04-06
 changed: 2014-04-06
 post_author: critzo
-lang: es	
+lang: es
 ---
 <h2>When to report a bug</h2>
 
@@ -17,7 +17,7 @@ lang: es
 <p>Los reportes de problemas son vitales para el proceso de desarrollo Commotion. El vaivén que acompaña el reporte de un problema le permite al equipo de Commotion capturar las observaciones vitales acerca del comportamiento de la plataforma en el campo. Esta conversación le permite a los desarrolladores mejorar su entendimiento de comportamiento en el campo. Esta conversación le permite a los desarrolladores mejorar su comportamiento para que puedan enfrentarlo..</p>
 
 <p>El objetivo de estas conversaciones es juntar tanta información como sea posible. Abajo hay una lista corta de preguntas que ayudarán a los desarrolladores a recrear tu experiencia en nuestro laboratorio.</p>
-	
+
 Envía tu reporte del problema a:
 <code>support arroba commotionwireless punto net</code>
 
@@ -25,7 +25,7 @@ Por favor incluye la siguiente información para hacer tu reporte del problema t
 <ul>
   <li>Tu Nombre:</li>
   <li>Tu Dirección de correo electrónico:</li>
-  <li>¿Qué tipo de problema es?<br /> 
+  <li>¿Qué tipo de problema es?<br />
       - Trivial (problema cosmético) <br />
       - Menor (perdida menor de función) <br />
       - Mayor (perdida mayor de función) <br />

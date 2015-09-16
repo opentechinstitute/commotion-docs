@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Procesos Clave
 site_section: developers
 sub_section: [hig]
-categories: 
+categories:
 created: 2012-07-03
 changed: 2013-07-14
 post_author: michael@theworkdept.com
@@ -100,4 +100,3 @@ lang: es
 <p><img alt="" src="/files/join%20as%20a%20client.png" /></p>
 
 <p>&nbsp;</p>
- 

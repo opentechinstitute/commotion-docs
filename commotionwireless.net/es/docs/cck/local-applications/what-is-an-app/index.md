@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: ¿Qué es una App?
 site_section: docs
 sub_section: [cck,cck-localapps]
-pdf: 
+pdf:
 pdf-all: true
-categories: 
+categories:
 created: 2014-06-05
 changed: 2014-09-2
 post_author: georgia
@@ -98,7 +98,7 @@ lang: es
 
 <p>Para aprender más sobre configurar un servidor de aplicaciones locales y determinar la ubicación ideal de la red para ello, revisa el módulo de <strong><a href="/docs/cck/local-applications/locating-a-local-server/">Localizando un Servidor Local</a></strong>. Para descubrir que tipos de aplicaciones necesita tu comunidad, revisa el módulo de <strong>Determinando las Necesidades Comunitarias</strong> (Próximamente).</p>
 </section>
- 
+
 <section id="definitions">
 <h2>Definiciones</h2>
 

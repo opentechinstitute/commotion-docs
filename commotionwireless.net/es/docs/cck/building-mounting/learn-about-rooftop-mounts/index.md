@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title:  Aprende de los Montajes en los Techos
 site_section: docs

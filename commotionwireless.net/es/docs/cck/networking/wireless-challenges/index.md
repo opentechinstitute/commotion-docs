@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: Diseña tu Red - Retos inalámbricos
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/CCK-Wireless_Challenges.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-04
 changed: 2014-08-04
 post_author: critzo
@@ -127,6 +127,6 @@ lang: es
 <section class="related-information" id="section-related-information">
 <h2>Información relacionada</h2>
 
-<p> Se pretende que este módulo siga inmediatamente después <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Diseña tu Red: Cada Red Cuenta una Historia </a>. También debe dirigir hacia <u>Aprende sobre Inalámbricas </u>. 
+<p> Se pretende que este módulo siga inmediatamente después <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Diseña tu Red: Cada Red Cuenta una Historia </a>. También debe dirigir hacia <u>Aprende sobre Inalámbricas </u>.
 La secuencia esta diseñada para llevar a un individuo o comunidad a través de la planeación de una red, el aprendizaje acerca de los problemas comunes, hasta especificaciones sobre cómo funcionan los equipamientos y señales inalámbricas.</p>
 </section>

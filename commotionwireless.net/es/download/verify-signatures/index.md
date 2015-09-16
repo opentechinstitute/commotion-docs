@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Vericando Descargas Commotion
 site_section: download

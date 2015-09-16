@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Introducción a las Redes Mesh
 site_section: docs

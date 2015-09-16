@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Aprende lo básico de los techos
 site_section: docs

@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Hostnames para Servidores de Aplicaciones Locales
 site_section: docs
 sub_section: [guides]
-categories: 
+categories:
 created: 2015-02-25
 changed: 2015-02-25
 post_author: Dan Staples
@@ -42,11 +42,11 @@ De tu programa Terminal (por ejemplo: La app Terminal en Mac, OSX, PuTTY en Wind
    RSA key fingerprint is 00:a3:58:57:6a:9b:d5:7a:43:05:43:d8:8e:03:55:f3.
    Are you sure you want to continue connecting (yes/no)? yes
    Warning: Permanently added 'thisnode,169.254.6.53' (RSA) to the list of known hosts.
-   root@thisnode's password: 
+   root@thisnode's password:
 
 Luego verás un banner de texto sobre Commotion, seguido por una solicitud de comando:
 
-   root@testbed-1-3684304437:~# 
+   root@testbed-1-3684304437:~#
 
 <div class="sidebar">
 La clave de huella digital RSA*********The RSA key fingerprint********* será diferente en cada nodo, así que se te podría presentar un mensaje de error. Hay una buena razón para esto, pero la explicación está un poco fuera de este tema, así que solo sigue las instrucciones para arreglar el error. La segunda cosa a notar es que el cursor no se moverá mientras escribes la contraseña para el nodo. El banner de Commotion es tu señal de que iniciaste sesión.
@@ -93,7 +93,7 @@ Si tu red está conectada a Internet, es recomendable colocarla tan cerca de la 
 **Desventajas:**
 
 * Los servidores DNS pueden ser complicados de instalar y configurar.
-* Hay un solo punto de falla, lo que significa que si el servidor DNS, o el nodo al que está conectado, se desconecta, toda la red será incapaz de resolver tus hostnames personalizados. 
+* Hay un solo punto de falla, lo que significa que si el servidor DNS, o el nodo al que está conectado, se desconecta, toda la red será incapaz de resolver tus hostnames personalizados.
 
 Si tienes una red muy grande, o necesitas frecuentemente agregar o cambiar hostnames, configurar un servidor DNS puede ser la mejor opción.
 

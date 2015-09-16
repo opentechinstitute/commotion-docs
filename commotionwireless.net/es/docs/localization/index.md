@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Localización Commotion
 site_section: docs
-categories: 
+categories:
 created: 2013-08-29
 changed: 2013-09-20
 post_author: critzo
@@ -65,4 +65,3 @@ You can join as many teams as you want. Transifex breaks up translatable content
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
-

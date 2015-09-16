@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title:  Corre la Voz: Diseño de Volantes
 site_section: docs

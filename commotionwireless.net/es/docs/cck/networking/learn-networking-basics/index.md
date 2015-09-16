@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title:  Aprende lo Básico de las Redes
 site_section: docs

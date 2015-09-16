@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: Instala en a TP-Link Router
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Install_on_TP-Link_Router.pdf
 pdf-all:
-categories: 
+categories:
 created: 2014-09-08
 changed: 2014-09-09
 post_author: andygunn
@@ -42,7 +42,7 @@ lang: es
 <section id="section-download-commotion">
 <h2>Descarga Commotion</h2>
 
-<p>Descarga la imagen 
+<p>Descarga la imagen
 ownload Commotion image for your hardware:<br />
 <a href="/download/routers">https://commotionwireless.net/download/routers</a></p>
 

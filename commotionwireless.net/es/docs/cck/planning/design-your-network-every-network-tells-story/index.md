@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title:  Diseña tu Red: Cada Red Cuenta una Historia
 site_section: docs

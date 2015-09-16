@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Instalando en un Router Ubiquiti AirMax
 site_section: docs

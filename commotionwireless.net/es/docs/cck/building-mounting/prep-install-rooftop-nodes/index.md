@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Prepara e Instala Nodos en el Techo
 site_section: docs

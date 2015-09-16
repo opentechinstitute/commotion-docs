@@ -1,8 +1,7 @@
-﻿---
+---
 layout: default
-title: Entendiendo la 
-Understanding Commotion's Warning Label
-categories: 
+title: Entendiendo la Understanding Commotion's Warning Label
+categories:
 created: 2013-02-14
 changed: 2013-02-21
 post_author: s2e
@@ -47,7 +46,7 @@ Commotion no protege las comunicaciones de un usuario de ser monitoreadas una ve
  <li><a href="https://help.riseup.net/en/riseup-vpn">https://help.riseup.net/en/riseup-vpn</a></li>
  </ul>
  <p><strong> OpenVPN</strong></p>
- <ul> 
+ <ul>
  <li><a href="http://openvpn.net/index.php/access-server/download-openvpn-as-sw.html">http://openvpn.net/index.php/access-server/download-openvpn-as-sw.html</a></li>
  </ul>
  <p><strong> OTR</strong></p>

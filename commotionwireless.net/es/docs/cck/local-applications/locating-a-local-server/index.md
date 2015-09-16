@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
-title: Localizando a un Servidor Local 
+title: Localizando a un Servidor Local
 site_section: docs
 sub_section: [cck,cck-localapps]
-pdf: 
+pdf:
 pdf-all: true
-categories: 
+categories:
 created: 2014-08-25
 changed: 2014-09-2
 post_author: georgia
@@ -45,4 +45,3 @@ lang: es
 
 </p>
 </section>
-

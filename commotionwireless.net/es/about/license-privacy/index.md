@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: Licencia y Privacidad
 site_section: about
-categories: 
+categories:
 created: 2012-07-16
 changed: 2013-07-19
 post_author: admin
 lang: es
 ---
+
   <p>Este programa es de software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General de GNU (GNU General Public License) como se publican por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (según tu opción) cualquier versión posterior.</p>
 
 <p>Este programa está distribuido con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; sin siquiera implementar la garantía de COMERCIALIZACIÓN o ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Véase la Licencia Pública General GNU para más detalles.</p>
@@ -51,4 +52,3 @@ Copyright (C) 2013 Josh King</p>
 <p>Si deseas dejar de recibir comunicaciones de nosotros en cualquier momento, por favor háznoslo saber por correo electrónico, llamándonos o escribiéndonos (ve la página de Contacto). Los usuarios que eligen no aceptar las cookies son bienvenidos a nuestro sitio Web, pero hay ciertas aplicaciones que puede que no estén completamente disponibles.</p>
 
 <p>También respetamos las preferencias disponibles de no-seguir en la mayoría de los navegadores web. También intentamos diseñar nuestro sitio usando técnicas progresivas de mejora, proveyendo a lo usuarios que eligen bloquear el javasript, flash, etc., una experiencia completa de nuestro sitio mientras que a la vez respetamos esta elección.</p>
- 

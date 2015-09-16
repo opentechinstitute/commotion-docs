@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Descarga Commotion Andoid
-categories: 
+categories:
 created: 2013-06-28
 changed: 2014-06-06
 post_author: grady
@@ -30,7 +30,7 @@ lang: es
 
 <p><strong>POR FAVOR TOMA NOTA:</strong>
 
-  * <strong>Tu teléfono debe estar enrutado</strong> para correr este paquete. 
+  * <strong>Tu teléfono debe estar enrutado</strong> para correr este paquete.
   * Commotion Android se conectará con las redes Commotion hasta el Router Commotion PR3. No obstante, no está completamente compatible en características con el Router Commotion 1.0 o más altos.
   * Ve la página de <a href="/docs/supported-devices/#phones">Hardware Soportado por Commotion Android</a> para información de dispositivos específicos.
 
@@ -65,4 +65,3 @@ lang: es
 <p>&nbsp;</p>
 
 <p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Código Fuente</a></p>
- 

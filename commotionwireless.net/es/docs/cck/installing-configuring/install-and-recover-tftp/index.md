@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Instala y Recupera con TFTP
 site_section: docs

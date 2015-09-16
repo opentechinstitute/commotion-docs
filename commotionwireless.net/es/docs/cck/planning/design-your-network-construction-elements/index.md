@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Diseña tu Red – Elementos de Construcción
 site_section: docs

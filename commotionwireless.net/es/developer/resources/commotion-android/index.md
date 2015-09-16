@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
-title: Recursos de Desarrollador Commotion-Android 
+title: Recursos de Desarrollador Commotion-Android
 site_section: developers
 sub_section: devresources
-categories: 
+categories:
 created: 2014-02-27
 changed: 2014-02-27
 post_author: areynold
