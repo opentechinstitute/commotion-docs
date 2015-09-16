@@ -260,8 +260,8 @@ Full-Width Styles
 }
 
 #header {
- background-color: #333;
- border-bottom: 10px solid #333;
+ background-color: black;
+ border-bottom: 10px solid black;
 }
 
 #header_wrap .inner, #header_wrap .inner-guide {
