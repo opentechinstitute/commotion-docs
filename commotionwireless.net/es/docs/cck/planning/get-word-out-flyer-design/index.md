@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Corre la Voz: Diseño de Volantes
+title:  Corre la Voz&#58; Diseño de Volantes
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/4-Get_the_Word_Out_Flyer_Design.pdf

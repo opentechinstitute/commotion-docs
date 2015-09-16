@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Diseña tu Red: Cada Red Cuenta una Historia
+title: "Diseña tu Red&#58; Cada Red Cuenta una Historia"
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
