@@ -18,5 +18,5 @@ markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
 category_dir: /blog/category
-paginate: 10
-paginate_path: "blog/page-:num"
+# paginate: 10
+# paginate_path: "blog/page-:num"
