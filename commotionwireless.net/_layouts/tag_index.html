@@ -3,10 +3,10 @@ layout: blog-index
 ---
 <div class="blog-index">
     <ul>
-    {% for post in site.categories[page.category] %}
+    {% for post in site.tags[page.tag] %}
     <li><a href="{{ post.url }}">{{ post.title }}</a><br />
     <span class="index-day">{{ post.date | date_to_html_string }}</span> / <span class="author">{{ post.post_author }}</span><br />
-    <span class="tag"> Tags: {{ post.categories | category_links }}</span></li>
+    <span class="tag"> Tags: {{ post.tags | tag_links }}</span></li>
     {% endfor %}
     </ul>
 </div>
