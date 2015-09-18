@@ -1,0 +1,20 @@
+// Collection of all SCSS files used in the site
+
+// HIG and OTI variables
+// Location: /_sass
+@import "hig";
+
+// Custom Bootstrap variable overrides
+// Location: /_sass
+// @import "custom-bootstrap-variables";
+
+// Vendor bootstrap variables
+// Location: /_assets/bower_components/bootstrap
+// @import "variables"
+
+// Vendor bootstrap modules -- Disable unused
+// Location: /_assets/bower_components/bootstrap
+// @import navs
+
+// Custom classes and overrides
+// Location: /_sass
