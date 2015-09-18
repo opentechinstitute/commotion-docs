@@ -20,3 +20,8 @@ permalink: /blog/:year/:month/:day/:title
 category_dir: /blog/category
 # paginate: 10
 # paginate_path: "blog/page-:num"
+
+sass:
+    load_paths:
+        - _assets/bower_components/bootstrap-sass/assets
+        - _sass
