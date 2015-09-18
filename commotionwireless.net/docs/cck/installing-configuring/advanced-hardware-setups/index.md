@@ -3,7 +3,7 @@ layout: cck
 title: Advanced Hardware Setups
 site_section: docs
 sub_section: [cck,cck-installing]
-pdf: cck/installing-configuring/CCK-Advanced_Hardware_Setups.pdf
+pdf: cck/installing-configuring/Advanced_Hardware_Setups.pdf
 created: 2014-08-13
 changed: 2015-09-16
 post_author: andygunn
@@ -22,12 +22,12 @@ Sometimes you will need to connect multiple nodes together at a single site, and
 
 
 ### Jump to the solution you need
-1. [Meshing with Ethernet with DHCP](#meshing-with-ethernet-with-dhcp)
-2. [Meshing with Ethernet with Static IPs](#meshing-with-ethernet-with-static-addressing)
-3. [Meshing with Ethernet with a Static Gateway](#meshing-with-ethernet-with-a-static-gateway)
+1. [Mesh with Ethernet with DHCP](#mesh-with-ethernet-with-dhcp)
+2. [Mesh with Ethernet with Static IPs](#mesh-with-ethernet-with-static-addressing)
+3. [Mesh with Ethernet with a Static Gateway](#mesh-with-ethernet-with-a-static-gateway)
 
 
-## Meshing with Ethernet with DHCP
+## Mesh with Ethernet with DHCP
 
 ### Using a gateway to the Internet with DHCP for automatic assignment of IP addresses
 
@@ -60,7 +60,7 @@ Now, set the nodes to “gateway only” to prevent issues with the nodes bootin
 ![Additional network interfaces](/files/Additional-network-interfaces.png)
 
 1. In the “Gateway Configuration” pull-down menu, select “This device should ALWAYS try to acquire a DHCP lease”, and make sure “Advertise your gateway to the mesh” is checked.
-2. "Save and apply" these settings.
+2. **Save**, then **Save and apply** these settings.
 
 
 #### Enable meshing over the Ethernet port
@@ -71,7 +71,10 @@ At the bottom of the page, under the interfaces section, click on the "Add" butt
 
 1. On the next page, click radio button for the "WAN" interface under "Network".
 2. In the “Mode” pull down menu, select "Ether".
-3. Scroll to the bottom of the page and "Save and Apply" these changes.
+
+![OLSR add WAN interface](/files/Services-OLSR-add-WAN.png)
+
+Scroll to the bottom of the page and "Save and Apply" these changes.
 
 
 #### Change Firewall Settings
@@ -85,11 +88,11 @@ like this:
 
 Under “Allow forward to *destination zones*”, click the boxes next to “lan” and “mesh”. This will enable
 traffic to pass from WAN to LAN and MESH. The screen should now look like:
-![Firewall zones changed](/files/firewall-zones-changed.png)
+![Firewall configuration changed](/files/firewall-conf-changed.png)
 
 Hit “Save & Apply”. Click on “General Settings” at the top of the page. You should be returned to the
 “Firewall – Zone Settings” page. Scroll down and look at the table of zones. It should look like this:
-![Firewall configuration changed](/files/firewall-conf-changed.png)
+![Firewall zones changed](/files/firewall-zones-changed.png)
 
 #### Reboot and Verify
 Reboot the router to verify the settings.
@@ -102,7 +105,7 @@ Do these steps for each Commotion node connected to the switch. When all the nod
 *Tip: Mounting wireless routers very close to each other can cause interference. For best performance, we recommend mounting equipment on separate poles, with two or three meters (6 to 10 feet) between them and using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can [buy these commercially](http://www.rfarmor.com), or [make your own from metal building studs](http://gowasabi.net/content/importance-shielding).*
 
 
-## Meshing with Ethernet with Static addressing
+## Mesh with Ethernet with Static addressing
 
 ### Static IP addresses, without a Gateway to the Internet
 
@@ -174,11 +177,11 @@ like this:
 
 Under “Allow forward to *destination zones*”, click the boxes next to “lan” and “mesh”. This will enable
 traffic to pass from WAN to LAN and MESH. The screen should now look like:
-![Firewall zones changed](/files/firewall-zones-changed.png)
+![Firewall configuration changed](/files/firewall-conf-changed.png)
 
 Hit “Save & Apply”. Click on “General Settings” at the top of the page. You should be returned to the
 “Firewall – Zone Settings” page. Scroll down and look at the table of zones. It should look like this:
-![Firewall configuration changed](/files/firewall-conf-changed.png)
+![Firewall zones changed](/files/firewall-zones-changed.png)
 
 
 #### Add a HNA to the Static IP range
@@ -203,14 +206,12 @@ Finally, plug each node into the switch and reboot the node one more time. This 
 * Browse to **Advanced -> System -> Reboot**.
 * Click “Perform reboot” and wait for the device to restart.
 
-Do these steps for each Commotion node connected to the switch. When you set the IP on those nodes, you must set it to a different address in the same subnet you configured above. In the example given, you would set the addresses to 172.16.100.2, 172.16.100.3, and so on.
-
 Do these steps for each Commotion node connected to the switch. When all the nodes have been configured, you can confirm that they are meshing over the wired Ethernet connections by connecting to one of the nodes and browsing to the **Basic Menu -> Status**. Then click on “Nearby Mesh Devices” and look under the “OLSR Links” section. You should see entries for all of the nodes connected to the switch, and they should have IP addresses on the same subnet, as given out by the modem or router. These will look like 192.168.x.y, or 10.0.x.y, or something similar. That entry will have an ETX value of 0.100. If this is the case, the nodes are successfully meshing with Ethernet.
 
 *Tip: Mounting wireless routers very close to each other can cause interference. For best performance, we recommend mounting equipment on separate poles, with two or three meters (6 to 10 feet) between them and using metal shields on the back of directional nodes. These reduce the wireless signal radiated from the back of the equipment, reducing the interference. You can [buy these commercially](http://www.rfarmor.com), or [make your own from metal building studs](http://gowasabi.net/content/importance-shielding).*
 
 
-## Meshing with Ethernet with a Static Gateway
+## Mesh with Ethernet with a Static Gateway
 
 ### Using Static IP addressing, with a Gateway to the Internet
 
@@ -292,11 +293,11 @@ like this:
 
 Under “Allow forward to *destination zones*”, click the boxes next to “lan” and “mesh”. This will enable
 traffic to pass from WAN to LAN and MESH. The screen should now look like:
-![Firewall zones changed](/files/firewall-zones-changed.png)
+![Firewall configuration changed](/files/firewall-conf-changed.png)
 
 Hit “Save & Apply”. Click on “General Settings” at the top of the page. You should be returned to the
 “Firewall – Zone Settings” page. Scroll down and look at the table of zones. It should look like this:
-![Firewall configuration changed](/files/firewall-conf-changed.png)
+![Firewall zones changed](/files/firewall-zones-changed.png)
 
 
 #### Add a HNA to the Static IP range
@@ -315,14 +316,10 @@ Click the “Add” button to create a new line, and put the following settings 
 At the bottom of the page, hit “Save & Apply”.
 
 
-
 Finally, plug each node into the switch and reboot the node one more time. This will ensure the IP address configurations are in the correct state.
 
 1. Browse to **Advanced -> System -> Reboot**.
 2. Click “Perform reboot” and wait for the device to restart.
-
-
-Do these steps for each Commotion node connected to the switch. When you set the IP on those nodes, you must set it to a different address in the same subnet you configured above. In the example given, you would set the addresses to 192.168.50.3, 192.168.50.4, and so on.
 
 Do these steps for each Commotion node connected to the switch. When all the nodes have been configured, you can confirm that they are meshing over the wired Ethernet connections by connecting to one of the nodes and browsing to the **Basic Menu -> Status**. Then click on “Nearby Mesh Devices” and look under the “OLSR Links” section. You should see entries for all of the nodes connected to the switch, and they should have IP addresses on the same subnet, as given out by the modem or router. These will look like 192.168.x.y, or 10.0.x.y, or something similar. That entry will have an ETX value of 0.100. If this is the case, the nodes are successfully meshing with Ethernet.
 
