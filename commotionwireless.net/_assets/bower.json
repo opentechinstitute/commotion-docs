@@ -1,0 +1,20 @@
+{
+  "name": "_assets",
+  "version": "0.0.0",
+  "homepage": "https://commotionwireless.net",
+  "authors": [
+    "Andrew Reynolds <andrew@chambana.net>"
+  ],
+  "description": "Bower assets for commotionwireless.net",
+  "license": "GPL v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5"
+  }
+}
