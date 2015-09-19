@@ -1,0 +1,27 @@
+// Defines full-width commotion color bar
+.color-bar {
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    width: 100%;
+    float: left;
+
+    div.commotion-pink {
+        float: left;
+        width: 5%;
+    }
+    div.commotion-blue {
+        float: left;
+        width: 43.5%;
+    }
+    div.commotion-gold {
+        float: left;
+        width: 3%;
+    }
+    div.commotion-yellow {
+        float: left;
+        width: 43.5%;
+    }
+    div.commotion-purple {
+        width: 5%;
+        float: left;
+    }
+}
