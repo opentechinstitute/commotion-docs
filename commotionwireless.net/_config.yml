@@ -23,5 +23,5 @@ category_dir: /blog/category
 
 sass:
     load_paths:
-        - _assets/bower_components/bootstrap-sass/assets/stylesheets
+        - assets/bower_components/bootstrap-sass/assets/stylesheets
         - _sass
