@@ -9,28 +9,33 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/main.css">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <!-- <script src="/js/jquery-ui/jquery-ui.min.js"></script> -->
+    <script src="{{ site.baseurl }}/_assets/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+    <!-- Sanity check -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <!-- End sanity check -->
     <title>{{ include.title }}</title>
 </head>
 
 <body>
     <div id="header">
-    <!-- NAV TITLE BAR -->
-    <nav class="navbar navbar-default">
-        <div class="color-bar">
-            <div class="commotion-pink">&nbsp;</div>
-            <div class="commotion-blue">&nbsp;</div>
-            <div class="commotion-gold">&nbsp;</div>
-            <div class="commotion-yellow">&nbsp;</div>
-            <div class="commotion-purple">&nbsp;</div>
-        </div>
+        <!-- NAV TITLE BAR -->
+        <nav class="navbar navbar-default">
+            <div class="color-bar">
+                <div class="commotion-pink">&nbsp;</div>
+                <div class="commotion-blue">&nbsp;</div>
+                <div class="commotion-gold">&nbsp;</div>
+                <div class="commotion-yellow">&nbsp;</div>
+                <div class="commotion-purple">&nbsp;</div>
+            </div>
 
-    <!-- Drop down bars: menu-dropdown.css -->
-        {% include menu-dropdown.html %}
-    <!-- END Drop down bars -->
+            <!-- Drop down bars: menu-dropdown.css -->
+            {% include menu-dropdown.html %}
+            <!-- END Drop down bars -->
 
-        <div id="maintitle">
-            <!-- <a href="{{site.baseurl}}/">
+            <div id="maintitle">
+                <!-- <a href="{{site.baseurl}}/">
                 {{site.title}}
             </a> -->
         </div>
@@ -42,15 +47,15 @@
     <div id="header_wrap" class="outer">
         <header class="inner {{include.width}} align-center">
             <img src="{{site.baseurl}}/icons/commotion_full_web_inverse.svg" alt="The Commotion Wireless Project logo." class="project_logo">
-    <h1 id="project_title">{{ include.title }}</h1>
-    <h2 id="project_tagline" style="max-width:100%;">{{ include.subtitle }}</h2>
-    {% if page.abstract %}
-    <section id="header-text">
-    <p>{{ page.abstract }}</p>
-    </section>
-    {% endif %}
+            <h1 id="project_title">{{ include.title }}</h1>
+            <h2 id="project_tagline" style="max-width:100%;">{{ include.subtitle }}</h2>
+            {% if page.abstract %}
+            <section id="header-text">
+                <p>{{ page.abstract }}</p>
+            </section>
+            {% endif %}
 
-    </header>
+        </header>
     </div>
 
 
