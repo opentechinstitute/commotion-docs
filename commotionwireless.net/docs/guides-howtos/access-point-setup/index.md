@@ -20,9 +20,9 @@ You can read more about this type of network design in [Guidelines for Mesh Netw
 If you want to skip straight to the configurations, select here:
 
 1. [Router using NAT - with default firmware](#router-using-nat-with-default-firmware)
-2. [Router using NAT - with Commotion](#)
-3. [Router as a pass-through - with default firmware](#)
-4. [Router as a pass-through - with Commotion](#)
+2. [Router using NAT - with Commotion](#router-using-nat-with-commotion-firmware)
+3. [Router as a pass-through - with default firmware](#router-as-pass-through-with-default-firmware)
+4. [Router as a pass-through - with Commotion](#router-as-pass-through-with-commotion-firmware)
 
 *Note: This guide is written for networks that are using single-radio or single-band Wi-Fi devices for the rooftop routers. If you are using dual-radio or dual-band Wi-Fi routers, you can skip to the end of the document and read the [Dual-radio or Dual-band routers](#dual-radio-or-dual-band-routers) section.*
 
@@ -64,7 +64,7 @@ Note that you don't have to use the same setup everywhere on the network. Some p
 
 ## Access Point Configurations
 
-Below there are four options for setting up your access points. The first two options use NAT, and have the option of using the default firmware on a router or Commotion. The second options use the router as a pass-through, and can either use the default firmware or Commotion.
+Below there are four options for setting up your access points. The first two options use NAT, and have the option of using the default firmware or Commotion on a router. The second options use the router as a pass-through, and can either use the default firmware or Commotion.
 
 ### Router using NAT
 
@@ -72,16 +72,45 @@ Both configurations described below use the hardware setup shown here:
 
 ![AP using NAT diagram](/files/AP-diagram-using-NAT.png)
 
-* The Commotion router is configured to always provide DHCP on the WAN port, and has the AP disabled.
+* The Commotion router is configured to always provide DHCP on the WAN port, and has the AP disabled or removed.
 * The Access Point router is configured with default settings, and has the cable from the Commotion router plugged into the blue WAN port.
 
 #### Router using NAT with default firmware
 
+There are many, many options for Access Points out there. This guide cannot cover them all, so instead it will just show the options for configuring TP-Link routers and Access Points. Other router manufacturer's menus will look similar.
 
+To setup the router with NAT, using a default firmware, just plug in the cable from the Commotion router to the **blue WAN port**. If there is only one port (regardless of what it is named), plug it in there. The WAN port may be another color, such as yellow or red.
+
+First, **Set the Admin password** - Default passwords are easy to guess, and can lead to security issues. Set the administrator password to something strong, but easy for your maintainers to remember.
+
+![Default firmware set password](/files/TP-Link-firmware-set-password.png)
+
+Second, **Name the Access Point SSID** - This is what people see on their Wi-Fi devices when they want to connect. Make it something recognizable so everyone knows it is an AP for the community network.
+![Default firmware name AP](/files/TP-Link-firmware-name-AP.png)
+
+The rest of the settings on the AP you can leave as default. It should now be ready to use as an Access Point.
 
 #### Router using NAT with Commotion firmware
 
+If you have any router with the Commotion firmware installed, you can set it up as a simple AP. It requires a number of configuration changes, since Commotion is setup to do many different things by default. Plug in the cable from the meshing Commotion router into the **blue WAN port**. If there is only one port, (regardless of what it is named), plug it in there. The WAN port may be another color, such as yellow or red.
 
+First, **Configure Commotion with the Setup Wizard** - You must first run through the Commotion setup wizard, as though you were using the router as a mesh neighbor. Name the Access Point something recognizable so everyone knows it is an AP for the community network.
+
+Second, **Remove the Wireless Mesh connection** - Go to **Basic Configuration -> Network Settings -> Mesh Network**. Hit the "Delete" button on the right side of the screen, then "Save and Apply". Confirm the changes.
+![Delete the mesh interface](/files/Commotion-delete-mesh-interface.png)
+
+Third, **Remove the Gateway test script** - Go to **Advanced -> System -> Scheduled Tasks**.
+![Scheduled tasks menu](/files/Scheduled-tasks-menu.png)
+Remove the line in the text box that looks like:
+
+```
+ * * * * *              /usr/sbin/ff_olsr_test_gw.sh
+```
+
+Hit "Submit". The page should now look like this:
+![Scheduled tasks GW check removed](/files/Scheduled-tasks-menu-GW-check-removed.png)
+
+Reboot the Commotion router. It should now be ready to use as an Access Point.
 
 ### Router as a pass-through
 
@@ -89,9 +118,14 @@ Both configurations described below use the hardware setup shown here:
 
 ![AP without NAT diagram](/files/AP-diagram-without-NAT.png)
 
-* The Commotion router is configured to always provide DHCP on the WAN port, and has the AP disabled.
-* The Access Point router is configured to have DHCP off, and has the cable from the Commotion router plugged in the **yellow LAN port**.
+* The Commotion router is configured to always provide DHCP on the WAN port, and has the AP disabled or removed.
+* The Access Point router is configured to have DHCP off, and has the cable from the Commotion router plugged in the **yellow LAN port**. The blue WAN port is not used.
 
+#### Router as pass-through with default firmware
+
+
+
+#### Router as pass-through with Commotion firmware
 
 
 
