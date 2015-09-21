@@ -33,7 +33,7 @@ lang: en
 <ul class="rteindent1">
     <li><a href="/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a></li>
     <li><a href="/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a></li>
-    <li><a href="/docs/guides-howtos/access-point-setup">Access Point Setup</a> - how to configure Access Points to connect to your mesh routers.</li>
+    <li><a href="/docs/guides-howtos/access-point-setup">Access Point Setup</a> - How to configure Access Points to connect to your mesh routers.</li>
 </ul>
 
 <p><strong>Guides to using local applications on your network:</strong></p>
