@@ -3,7 +3,7 @@ layout: default
 title: Guides and How-tos
 site_section: docs
 sub_section: [guides]
-categories: 
+categories:
 created: 2014-08-22
 changed: 2014-08-22
 post_author: andygunn
@@ -33,6 +33,7 @@ lang: en
 <ul class="rteindent1">
     <li><a href="/docs/cck/installing-configuring/common-hardware-setups/">Common Hardware Setups</a></li>
     <li><a href="/docs/cck/installing-configuring/advanced-hardware-setups/">Advanced Hardware Setups</a></li>
+    <li><a href="/docs/guides-howtos/access-point-setup">Access Point Setup</a> - how to configure Access Points to connect to your mesh routers.</li>
 </ul>
 
 <p><strong>Guides to using local applications on your network:</strong></p>
