@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  Exploring Commotion with Wireshark - a Tutorial
-categories: [development,wireshark,debugging]
+tags: [development,wireshark,debugging]
 created: 2014-02-04
 changed: 2014-02-04
 teaser_image: styles/large/public/ws_olsr_traffic.png

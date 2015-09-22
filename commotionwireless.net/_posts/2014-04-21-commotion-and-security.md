@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion and Security
-categories: [security]
+tags: [security]
 created: 2014-04-21
 changed: 2014-04-21
 teaser_image: 
