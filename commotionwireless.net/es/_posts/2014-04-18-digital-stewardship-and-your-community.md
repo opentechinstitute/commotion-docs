@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Administración digital y tu comunidad
-categories: [Community Technology,detroit,digital stewards,mesh,Community Engagement]
+categories: [es]
+tags: [Community Technology,detroit,digital stewards,mesh,Community Engagement]
 created: 2014-04-18
 changed: 2014-04-18
 teaser_image: posts/041814-Digital_stewards_blog_post_small.png

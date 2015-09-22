@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Commotion DR2 notas de lanzamiento
-categories: [release]
+categories: [es]
+tags: [release]
 created: 2013-09-19
 changed: 2013-09-19
 post_author: Josh King

@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Cambios de última hora de Commotion R1
-categories: [R1,upgrade]
+categories: [es]
+tags: [R1,upgrade]
 created: 2014-01-10
 changed: 2014-01-10
 post_author: Dan Staples

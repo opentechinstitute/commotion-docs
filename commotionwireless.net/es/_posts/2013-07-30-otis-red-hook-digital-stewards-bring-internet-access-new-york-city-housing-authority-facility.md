@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Los Administradores Digitales de Red Hook de OTI llevan el acceso a Internet al Edificio de la Autoridad de Viviendas de la Ciudad de Nueva York
-categories: [red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance]
+categories: [es]
+tags: [red hook,community wireless,mesh,site visits,digital stewards,routers,maintenance]
 created: 2013-07-30
 changed: 2013-07-30
 post_author: Georgia Bullen

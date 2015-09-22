@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: COMUNICADO DE PRENSA – Nuevas Herramientas de Apoyo a Comunidades para Construir su Propia Infraestructura de Comunicación Inalámbrica
-categories: [community wireless,Detroit,red hook,tools,CCK,digital stewards]
+categories: [es]
+tags: [community wireless,Detroit,red hook,tools,CCK,digital stewards]
 created: 2013-10-01
 changed: 2013-12-19
 post_author: Darby Hickey

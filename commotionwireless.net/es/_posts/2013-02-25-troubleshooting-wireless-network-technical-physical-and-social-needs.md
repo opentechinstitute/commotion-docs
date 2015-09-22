@@ -1,6 +1,8 @@
-﻿---
+---
 layout: blog
-title: Solucionando los problemas de una Red Inalámbrica – Categorías Técnicas, Físicas y de Necesidades Sociales: [red hook,hardware,community wireless,mesh,troubleshooting,site visits,maintenance]
+title: Solucionando los problemas de una Red Inalámbrica – Categorías Técnicas, Físicas y de Necesidades Sociales
+categories: [es]
+tags: [red hook,hardware,community wireless,mesh,troubleshooting,site visits,maintenance]
 created: 2013-02-25
 changed: 2013-07-26
 post_author: Georgia Bullen

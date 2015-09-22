@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Notas de lanzamiento de la versión Router Commotion v1 
-categories: [release]
+categories: [es]
+tags: [release]
 created: 2013-12-30
 changed: 2013-12-31
 post_author: Josh King

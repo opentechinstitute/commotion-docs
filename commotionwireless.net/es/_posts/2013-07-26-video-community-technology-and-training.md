@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Video - Comunidad, tecnología, y entrenamiento
-categories: [digital stewards,community wireless,mesh,Detroit,red hook]
+categories: [es]
+tags: [digital stewards,community wireless,mesh,Detroit,red hook]
 created: 2013-07-26
 changed: 2013-07-30
 post_author: Darby Hickey

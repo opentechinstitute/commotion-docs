@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Commotion y la Seguridad
-categories: [security]
+categories: [es]
+tags: [security]
 created: 2014-04-21
 changed: 2014-04-21
 teaser_image: 

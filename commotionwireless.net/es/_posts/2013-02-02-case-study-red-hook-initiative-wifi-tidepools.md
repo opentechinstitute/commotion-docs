@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Caso de Estudio – Red Hook Initiative WiFi y Tidepools
-categories: [red hook,hardware,cost,community wireless,applications,Research,mesh]
+categories: [es]
+tags: [red hook,hardware,cost,community wireless,applications,Research,mesh]
 created: 2013-02-02
 changed: 2013-07-26
 post_author: Georgia Bullen

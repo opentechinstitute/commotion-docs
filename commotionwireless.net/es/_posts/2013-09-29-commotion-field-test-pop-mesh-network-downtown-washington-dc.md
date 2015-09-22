@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Prueba de campo de Commotion – red mesh Pop-up, en el centro de Washington, DC
-categories: []
+categories: [es]
+tags: []
 created: 2013-09-29
 changed: 2013-11-04
 post_author: Georgia Bullen

@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Nuevo lanzamiento Commotion (DR1) listo para pruebas
-categories: []
+categories: [es]
+tags: []
 created: 2013-03-13
 changed: 2013-07-26
 post_author: OTI

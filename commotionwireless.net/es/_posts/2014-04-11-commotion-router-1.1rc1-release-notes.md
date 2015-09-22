@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Versión candidata 1 del Router Commotion v1.1 "Grumpy Cat" 
-categories: [release]
+categories: [es]
+tags: [release]
 created: 2014-02-04
 changed: 2014-04-11
 teaser_image: commotion_logo_100x100.png

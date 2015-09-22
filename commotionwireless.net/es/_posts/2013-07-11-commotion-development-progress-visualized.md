@@ -1,7 +1,8 @@
-﻿---
+---
 layout: blog
 title: Visualizando el progreso de desarrollo de Commotion
-categories: [development,visualization]
+categories: [es]
+tags: [development,visualization]
 created: 2013-07-11
 changed: 2013-12-19
 post_author: Seamus Tuohy
