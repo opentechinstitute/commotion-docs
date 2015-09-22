@@ -123,7 +123,24 @@ Both configurations described below use the hardware setup shown here:
 
 #### Router as pass-through with default firmware
 
+To setup the router with as a pass-through (also known as an AP bridge), using a default firmware, just plug in the cable from the Commotion router to the **yellow LAN port**. If there is only one port (regardless of what it is named), plug it in there. The LAN ports may be another color, such as white or black.
 
+First, **Set a Static IP on the LAN port** - Since the AP router won't give out IP addresses after you disable DHCP, set this IP so the router's Administrator interface will be accessible in the future. It is recommended to label the AP with this static IP so you don't forget it.
+
+![Static IP on LAN](/files/TP-Link-firmware-static-IP.png)
+
+Second, **Disable DHCP on the LAN** - Since the Commotion router will be handing out IP addresses with DHCP, you don't need a second DHCP server on the router. Having two DHCP servers can lead to unexpected results, and often things will not work correctly.
+
+![Disable DHCP on the LAN](/files/TP-Link-firmware-disable-DHCP.png)
+
+Third, **Set the Admin password** - Default passwords are easy to guess, and can lead to security issues. Set the administrator password to something strong, but easy for your maintainers to remember.
+
+![Default firmware set password](/files/TP-Link-firmware-set-password.png)
+
+Fourth, **Name the Access Point SSID** - This is what people see on their Wi-Fi devices when they want to connect. Make it something recognizable so everyone knows it is an AP for the community network.
+![Default firmware name AP](/files/TP-Link-firmware-name-AP.png)
+
+The rest of the settings on the AP you can leave as default. It should now be ready to use as an Access Point.
 
 #### Router as pass-through with Commotion firmware
 
