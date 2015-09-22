@@ -164,6 +164,12 @@ Next, **Disable DHCP on the LAN port(s)** - Go to **Advanced -> System -> Startu
 Scroll down until you see "dnsmasq", then click the button labeled "Enabled". This will toggle it to "Disabled".
 ![Advanced Startup disable dnsmasq](/files/Advanced-disable-dnsmasq.png)
 
+Finally, reboot the router. It should now be ready to use as an Access Point.
+
+
 ## Dual-radio or Dual-band routers
 
-Blah blah dual band
+
+![Dual-band Wi-Fi router](/files/Dual-band-Wi-Fi-device.png)
+
+![Dual-radio Wi-Fi router](/files/Dual-radio-Wi-Fi-device.png)
