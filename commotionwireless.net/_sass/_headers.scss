@@ -1,3 +1,20 @@
+nav.navbar.navbar-default {
+    background: #2e2e2e url(/icons/pattern.png) repeat;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+
+    a, a:link, a:visited {
+        color: white;
+        opacity:.75;
+        font-weight: normal;
+    }
+
+    a:hover {
+        opacity: 1;
+    }
+}
+
 // Aligns plain text with regular links
 .nav {
     > li {
