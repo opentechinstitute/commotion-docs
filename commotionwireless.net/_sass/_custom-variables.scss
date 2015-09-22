@@ -1,5 +1,5 @@
 // Duplicates vendor bootstrap variables.
-// Remove any unused. Leave vendor file clean.
+// On update, copy new vendor vars. Leave vendor file clean.
 
 $bootstrap-sass-asset-helper: false !default;
 //
