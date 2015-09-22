@@ -126,15 +126,12 @@ Both configurations described below use the hardware setup shown here:
 To setup the router with as a pass-through (also known as an AP bridge), using a default firmware, just plug in the cable from the Commotion router to the **yellow LAN port**. If there is only one port (regardless of what it is named), plug it in there. The LAN ports may be another color, such as white or black.
 
 First, **Set a Static IP on the LAN port** - Since the AP router won't give out IP addresses after you disable DHCP, set this IP so the router's Administrator interface will be accessible in the future. It is recommended to label the AP with this static IP so you don't forget it.
-
 ![Static IP on LAN](/files/TP-Link-firmware-static-IP.png)
 
 Second, **Disable DHCP on the LAN** - Since the Commotion router will be handing out IP addresses with DHCP, you don't need a second DHCP server on the router. Having two DHCP servers can lead to unexpected results, and often things will not work correctly.
-
 ![Disable DHCP on the LAN](/files/TP-Link-firmware-disable-DHCP.png)
 
 Third, **Set the Admin password** - Default passwords are easy to guess, and can lead to security issues. Set the administrator password to something strong, but easy for your maintainers to remember.
-
 ![Default firmware set password](/files/TP-Link-firmware-set-password.png)
 
 Fourth, **Name the Access Point SSID** - This is what people see on their Wi-Fi devices when they want to connect. Make it something recognizable so everyone knows it is an AP for the community network.
@@ -144,7 +141,28 @@ The rest of the settings on the AP you can leave as default. It should now be re
 
 #### Router as pass-through with Commotion firmware
 
+If you have any router with the Commotion firmware installed, you can set it up as a simple AP without NAT. It requires a number of configuration changes, since Commotion is setup to do many different things by default. Plug in the cable from the meshing Commotion router into the **yellow LAN port**. If there is only one port, (regardless of what it is named), plug it in there. The LAN port(s) may be another color, such as black or white.
 
+First, **Configure Commotion with the Setup Wizard** - You must first run through the Commotion setup wizard, as though you were using the router as a mesh neighbor. Name the Access Point something recognizable so everyone knows it is an AP for the community network.
+
+Second, **Remove the Wireless Mesh connection** - Go to **Basic Configuration -> Network Settings -> Mesh Network**. Hit the "Delete" button on the right side of the screen, then "Save and Apply". Confirm the changes.
+![Delete the mesh interface](/files/Commotion-delete-mesh-interface.png)
+
+Third, **Set a Static IP on the LAN port** - Since the meshing Commotion router will be handing out IP addresses with DHCP, you don't need a second DHCP server on the router. Having two DHCP servers can lead to unexpected results, and often things will not work correctly. Go to **Advanced -> Network -> Interfaces** and click "Edit" in the row next to "LAN".
+![Network Interfaces - edit LAN](/files/Network-Interfaces-edit-LAN.png)
+
+Under "Protocol", select "Static Address" in the pull down menu, then click "Switch Protocol". Confirm that you really want to switch the protocol.
+![Interfaces - edit LAN switch protocol](/files/Interface-edit-LAN-switch-protocol.png)
+
+Enter the static IP you want to use in the future to access the LAN on the Access Point.
+![Interfaces - edit LAN add Static IP](/files/Interface-edit-LAN-static-IP.png)
+This will be important if you need to do any maintenance or change settings on the AP. It is recommended to label the AP with the static IP address so you don't forget it in the future.
+
+Next, **Disable DHCP on the LAN port(s)** - Go to **Advanced -> System -> Startup**.
+![Advanced Startup menu](/files/Advanced-Startup-menu.png)
+
+Scroll down until you see "dnsmasq", then click the button labeled "Enabled". This will toggle it to "Disabled".
+![Advanced Startup disable dnsmasq](/files/Advanced-disable-dnsmasq.png)
 
 ## Dual-radio or Dual-band routers
 
