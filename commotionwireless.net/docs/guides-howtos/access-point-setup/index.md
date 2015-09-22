@@ -169,7 +169,28 @@ Finally, reboot the router. It should now be ready to use as an Access Point.
 
 ## Dual-radio or Dual-band routers
 
+Some Wi-Fi routers and Access Points are dual-band, or dual-radio. This gives these devices additional capabilities and options for mesh and AP connections.
 
+**Dual Band**
+
+Dual-band Wi-Fi devices can use both common Wi-Fi frequency bands - 2.4GHz and 5GHz. Most older smartphones and laptops support only 2.4GHz, and nearly every AP and router available today provides 2.4GHz access because of this. Newer smartphones and laptops also can access Wi-Fi routers on 5GHz channels.
 ![Dual-band Wi-Fi router](/files/Dual-band-Wi-Fi-device.png)
+*Dual-band Wi-Fi router using the 5GHz band for Mesh connections, and the 2.4GHz band for connections to users*
 
+**Dual Radio**
+
+Even a dual-band Wi-Fi device can only transmit and receive signals on a single channel in a band - for instance channel 11 on the 2.4GHz band, or channel 40 on the 5GHz band. Dual-radio devices have a second set of transmitters and receivers that allow operation on two Wi-Fi channels in the same band - for instance channel 1 and 11 on the 2.4GHz band, or channel 40 and 148 on the 5GHz band. These two radios can often be set to separate bands as well, allowing the router to operate as a dual-band device.
 ![Dual-radio Wi-Fi router](/files/Dual-radio-Wi-Fi-device.png)
+*Dual-radio Wi-Fi router using channel 1 on the 2.4GHz band for Mesh connections, and channel 6 on the 2.4GHz band for connections to users*
+
+
+### Using Dual-band or Dual-radio devices
+
+If you are using dual-radio or dual-band Wi-Fi routers to build your community wireless network, you have the option of combining the functions of two routers into one. Since the two functions can happen simultaneously, there is significantly less or no performance loss.
+
+The only challenge with using a single device for both neighborhood mesh connections and an Access Point is placement: routers used for mesh links should be placed high to reach further, routers used for Access Points should be placed lower to reach people. This can be overcome somewhat with a creative use of directional antennas.
+![AP and Mesh router setup diagrams](/files/AP-setup-option-diagrams.png)
+
+In the diagram above, you have dual-band or dual-radio routers that are providing an omnidirectional (all-around) wireless signal for mesh connections. There is also an external directional antenna providing a Wi-Fi access point to an area on the ground around the building. The directional antenna provides a more focused signal, as well as allows the Access Point to better pick up the signals from laptops and smartphones on the ground.
+
+This concept is explored further in the blog post [Do it yourself antennas for Community Networks](https://commotionwireless.net/blog/2014/11/05/do-it-yourself-antennas-for-community-networks/).
