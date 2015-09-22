@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
 layout: blog
 title: "Commotion Pi: Construye un Nodo MESH RPi"
 categories: [es]
 tags: [Raspberry Pi, mesh, developement, guest post]
+=======
+﻿---
+layout: blog
+title: "Commotion Pi: Construye un Nodo MESH RPi"
+categories: [Raspberry Pi, mesh, developement, guest post]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-06-12
 changed: 2014-06-12
 post_author: Joshua Besneatte

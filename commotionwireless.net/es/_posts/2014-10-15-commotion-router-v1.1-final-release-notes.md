@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
 layout: blog
 title: Router Commotion v1.1 "Grumpy Cat" ¡Lanzamiento público!
 categories: [es]
 tags: [release]
+=======
+﻿---
+layout: blog
+title: Router Commotion v1.1 "Grumpy Cat" ¡Lanzamiento público!
+categories: [release]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-10-15
 changed: 2014-10-15
 teaser_image: commotion_logo_100x100.png

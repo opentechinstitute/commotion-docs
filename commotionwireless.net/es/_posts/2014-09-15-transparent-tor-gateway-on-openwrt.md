@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
 layout: blog
 title: Puerta de Entrada Transparente con Tor en OpenWRT 
 categories: [es]
 tags: [Tor, OpenWRT]
+=======
+﻿---
+layout: blog
+title: Puerta de Entrada Transparente con Tor en OpenWRT 
+categories: [Tor, OpenWRT]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-09-15
 changed: 2014-09-15
 teaser_image: posts/torlogo.png

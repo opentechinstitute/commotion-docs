@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
 layout: blog
 title: Construyendo Redes Mesh Pop-up 
 categories: [es]
 tags: [pop-up mesh, urban]
+=======
+﻿---
+layout: blog
+title: Construyendo Redes Mesh Pop-up 
+categories: [pop-up mesh, urban]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2013-10-30
 changed: 2013-12-19
 post_author: Ryan Gerety

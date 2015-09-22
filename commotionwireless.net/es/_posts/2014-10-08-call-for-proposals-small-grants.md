@@ -1,8 +1,12 @@
 ---
 layout: blog
 title: "Llamado para propuestas: Proyectos internacionales de Mesh en Commotion Inalámbrico"
+<<<<<<< HEAD
 categories: [es]
 tags: [commotion, community wireless, oti, digital stewards]
+=======
+categories: [commotion, community wireless, oti, digital stewards]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-10-08
 changed: 2014-10-08
 post_author: Open Technology Institute

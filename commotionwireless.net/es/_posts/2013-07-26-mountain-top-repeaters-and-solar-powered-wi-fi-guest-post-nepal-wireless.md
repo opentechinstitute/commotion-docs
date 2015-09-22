@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
 layout: blog
 title: Repetidores en la cima de la montaña y  Wi-Fi alimentado por energía solar - Contribución de Nepal Wireless al blog 
 categories: [es]
 tags: [Guest post,community wireless]
+=======
+﻿---
+layout: blog
+title: Repetidores en la cima de la montaña y  Wi-Fi alimentado por energía solar - Contribución de Nepal Wireless al blog 
+categories: [Guest post,community wireless]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2013-07-26
 changed: 2013-12-19
 post_author: Guest Post from Nepal Wireless

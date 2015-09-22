@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
 layout: blog
 title: Integrando el diseño y desarrollo para dar forma a la identidad de marca de Commotion
 categories: [es]
 tags: [UI,branding,Identity,Research]
+=======
+﻿---
+layout: blog
+title: Integrando el diseño y desarrollo para dar forma a la identidad de marca de Commotion
+categories: [UI,branding,Identity,Research]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2012-05-01
 changed: 2013-07-26
 post_author: The Work Department

@@ -1,14 +1,20 @@
 ---
 layout: blog
+<<<<<<< HEAD
 title: Construyendo una comunidad en línea exitosa para el desarrollo de código abierto
 categories: [es]
 tags: [recommendations, research]
+=======
+title: Construyendo una comunidad en linea exitosa para el desarrollo de codigo abierto
+categories: [recommendations, research]
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2012-05-30
 changed: 2013-07-26
 post_author: The Work Department
 lang: es
 ---
 
+<<<<<<< HEAD
 Con el fin de ayudar a construir la comunidad en línea de Commotion más eficaz, hemos llevado a cabo una investigación básica para comprender las infraestructuras que otras comunidades de software de desarrollo utilizan. Nos centramos en proyectos de código abierto que se utilizan ampliamente. Encontramos que, si bien existe una gran variedad de estrategias de comunicación, estructuras de gobierno y culturas sociales, hay algunos elementos comunes que al parecer hacen a una comunidad fuerte y eficaz.
 
 En nuestro informe completo a la Open Technology Initiative, revisamos Drupal, Mozilla, Android y Ubuntu Linux. En este post, incluimos una comparación simplificada de esas comunidades y compartimos las conclusiones que obtuvimos de nuestra investigación.
@@ -51,4 +57,17 @@ La traducción y otros trabajos de localización deberían ser planificados en e
 **¿Quieres más?** 
 
 <a href="https://code.commotionwireless.net/projects/knowledgebase/wiki/Report_-_Building_successful_online_community_for_open-source_development" target="blank">Lee nuestro reporte completo en la wiki de Commotion</a>.
+=======
+
+
+a
+
+
+
+
+
+
+
+
+>>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 
