@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Recursos de Desarrollador
 site_section: developers
-categories: 
+categories:
 created: 2013-06-28
 changed: 2014-02-27
 post_author: areynold
@@ -38,4 +38,3 @@ Si estás interesado en ayudar a desarrollar el software Commotion Wireless, o q
 <p>Los desarrolladores Commotion se basan en una combinación de herramientas, experiencia, e intuición para depurar.*********debug********* Usamos gdb, ddms y pruebas de unidad. Lee más acerca de nuestros <a href="https://wiki.commotionwireless.net/doku.php/development_resources/testing/testing_procedures_and_methodologies">procedimientos de pruebas y metodologías</a> y procedimientos para <a href="https://wiki.commotionwireless.net/doku.php/development_resources/testing/lab_environment_testing">pruebas de laboratorio</a> en el Wiki de Desarrollo.</p>
 
 <p>Lee más acerca de <a href="https://wiki.commotionwireless.net/doku.php/development_resources/router/debugging_resources">******common debugging procedures********procedimientos de depuración comunes******</a> que usamos en el Wiki de Desarrollo****** we use on the Developer Wiki*******. Para reportar fallas y enviar arreglos, usa nuestro********** To report bugs and submit fixes, use our <a href="https://github.com/opentechinstitute">rastreador de problemas</a>.</p>
- 

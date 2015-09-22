@@ -10,7 +10,7 @@ lang: en
  
 <em>This Case Study will be published in the forthcoming edition of <a href="http://wndw.net/">Wireless Networking in the Developing World</a> and is cross-posted at <a href="http://oti.newamerica.net/blogposts/2013/case_study_red_hook_initiative_wifi_tidepools-78575">oti.newamerica.net</a>.</em>
 
-<img src="http://oti.newamerica.net/sites/newamerica.net/files/imagecache/standard_node_image/articles/images/redhook_sign2.jpg" height="300">
+<img src="http://oti.newamerica.net/sites/newamerica.net/files/imagecache/standard_node_image/articles/icons/redhook_sign2.jpg" height="300">
 
 Red Hook Initiative WiFi is a collaboratively designed mesh network. It provides Internet access to the Red Hook section of Brooklyn, NY, and serves as a platform for developing local applications and services. Red Hook Initiative has built the network in partnership with the Open Technology Institute, putting human-centered design and community engagement at the core of the project. The community expanded the network significantly following a natural disaster in Fall 2012.
 

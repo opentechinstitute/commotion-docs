@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Vericando Descargas Commotion
 site_section: download
-categories: 
+categories:
 created: 2013-06-10
 changed: 2013-09-20
 post_author: OTI
@@ -75,4 +75,3 @@ Después de importar la clave, puedes verificar que tu huella digital sea correc
  <p>Ve <a href="http://www.gnupg.org/documentation/">http://www.gnupg.org/documentation/</a> para aprender más de GPG.</p>
  <hr>
 <p>Este tutorial toma prestado mucha de la documentación creada por el <a href="https://www.torproject.org/docs/verifying-signatures.html.en" target="_blank">Proyecto Tor</a>.</p>
-

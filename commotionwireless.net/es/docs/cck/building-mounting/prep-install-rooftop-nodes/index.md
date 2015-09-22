@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title: Prepara e Instala Nodos en el Techo
 site_section: docs
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/4-Prep_and_Install_Rooftop_Nodes.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-10-01
 post_author: critzo
@@ -209,4 +209,3 @@ lang: es
 
 <p>Consulta el sitio web de Commotion Wireless commotionwireless.net para más información o documentación sobre instalar el software en tus dispositivos.</p>
 </section>
- 

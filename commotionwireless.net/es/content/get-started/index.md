@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Comienza
-categories: 
+categories:
 created: 2013-12-11
 changed: 2013-12-12
 post_author: critzo
@@ -12,4 +12,3 @@ lang: es
 Our <a href="/docs/get-started">La guía comienza</a> te explicará cómo.<br />
 <img src="/files/styles/large/public/get_started_drop_100x100.png" alt="Commotion - Cómo empezar" /></h2>
 </div>
- 

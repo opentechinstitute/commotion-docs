@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Advanced Hardware Setups
 site_section: docs
 sub_section: [cck,cck-installing]

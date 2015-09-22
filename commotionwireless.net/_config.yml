@@ -1,9 +1,15 @@
 name: "Commotion Wireless"
+fullname: "The Commotion Wireless Project"
+title: "Commotion Wireless"
 description: "Commotion is an open-source communication tool that uses wireless devices to create decentralized mesh networks."
 
+baseurl: ""
+imageurl: "files"
+
 encoding: "utf-8"
+
 url: "commotionwireless.net"
-port: 4000 
+port: 4000
 piwik:
   base_url: piwik.opentechinstitute.org
   site_id: 1
@@ -12,5 +18,5 @@ markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
 category_dir: /blog/category
-paginate: 10
-paginate_path: "blog/page-:num"
+# paginate: 10
+# paginate_path: "blog/page-:num"

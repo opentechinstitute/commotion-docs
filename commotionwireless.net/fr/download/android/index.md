@@ -1,5 +1,5 @@
 ---
-layout: downloads
+layout: default
 title: Download Commotion Andoid
 categories: 
 created: 2013-06-28

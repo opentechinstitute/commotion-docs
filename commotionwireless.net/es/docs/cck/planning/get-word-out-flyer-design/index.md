@@ -1,11 +1,11 @@
-﻿---
-layout: cck
-title:  Corre la Voz: Diseño de Volantes
+---
+layout: default
+title:  Corre la Voz&#58; Diseño de Volantes
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/4-Get_the_Word_Out_Flyer_Design.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-10-07
 post_author: critzo
@@ -145,4 +145,3 @@ lang: es
 
 <p>Atribución: "Tijera" símbolo de la colección thenounproject.com </p>
 </section>
- 

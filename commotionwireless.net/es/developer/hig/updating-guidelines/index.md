@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Actualizando estas guías
 site_section: developers
 sub_section: [hig]
-categories: 
+categories:
 created: 2012-07-03
 changed: 2013-12-25
 post_author: michael@theworkdept.com
@@ -21,4 +21,3 @@ lang: es
 	<li>¿Debería haber detalles log adicionales disponibles? *******Should additional log details be available?</li>
 	<li>¿Cómo deberían los usuarios evitar crear nombres de nodos duplicados</li>
 </ol>
- 

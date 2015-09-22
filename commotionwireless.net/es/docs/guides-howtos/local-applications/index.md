@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Local Applications in Commotion
 site_section: docs
 sub_section: [guides]
-categories: 
+categories:
 created: 2014-10-03
 changed: 2014-10-03
 post_author: Dan Staples
@@ -18,7 +18,7 @@ Applications can come in many forms. Sometimes applications are installed on a d
 
 Network applications
 --------------------
-Many of the applications we use today are , which get and send information on behalf of the application to another computer on a network. For example, 
+Many of the applications we use today are , which get and send information on behalf of the application to another computer on a network. For example,
 if you check your email using a web browser, that application is a network application since it retrieves information about the emails in your inbox from another computer. That computer is called a server, and is responsible for "serving" information to your personal device or computer. A web server is simply a server that provides information needed to display a website, while an email server is a server that sends and receives email information. A network application that requests information from a server is also referred to as a .
 
 ![Application server and client model](/files/CCK_Networking_Basics_Client_server_diagram.png)
@@ -74,7 +74,7 @@ The application is now registered with the local nodebanneds available.
 
 * Social networks:
    * Buddycloud: [http://buddycloud.com/](http://buddycloud.com/)
-   * diaspora*: [https://diasporafoundation.org/](https://diasporafoundation.org/ ) 
+   * diaspora*: [https://diasporafoundation.org/](https://diasporafoundation.org/ )
 * File storage and sync:
    * OwnCloud: [http://owncloud.org/](http://owncloud.org/)
    * Pydio: [https://pyd.io/](https://pyd.io/)

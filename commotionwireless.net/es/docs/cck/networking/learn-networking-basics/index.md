@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title:  Aprende lo Básico de las Redes
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/CCK-Learn_Networking_Basics.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-07
 changed: 2014-08-22
 post_author: critzo
@@ -91,7 +91,7 @@ servidor: estación de radio</em></p>
 ¿Cuál es la dirección IP de tu computadora? ____________________
 
 
-Navega a <a href="http://ip.mayfirst.org"><strong>http://ip.mayfirst.org/</strong></a> 
+Navega a <a href="http://ip.mayfirst.org"><strong>http://ip.mayfirst.org/</strong></a>
 y escribe la dirección IP que reporta: ____________________
 </pre>
 
@@ -183,4 +183,3 @@ y escribe la dirección IP que reporta: ____________________
 
 <p>Este módulo tiene la intención de proporcionar algunos antecedentes útiles sobre las redes. Recomendamos leer próximo documento (¡pero que aún no está terminado!) Aprende Acerca de las Redes Inalámbricas después de esta guía.</p>
 </section>
- 

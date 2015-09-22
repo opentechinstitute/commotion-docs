@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: Contribuyentes Commotion
 site_section: about
-categories: 
+categories:
 created: 2014-07-16
 changed: 2014-07-16
 post_author: admin
 lang: es
 ---
+
 <p>Commotion es creado por un largo número de contribuyentes comunitarios, ambos, voluntarios y desarrolladores pagados. Abajo hay una lista de contribuyentes presentes y pasados a el software.</p>
 
 <h2>Contribuyentes Actuales

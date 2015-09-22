@@ -1,10 +1,10 @@
-﻿---
+---
 layout: default
-title: Documentación Commotion 
+title: Documentación Commotion
 site_section: docs
 sub_section: [cck]
 pdf-all: false
-categories: 
+categories:
 created: 2014-06-06
 changed: 2014-06-06
 post_author: critzo
@@ -15,8 +15,7 @@ Ayuda/Documentación para Commotion puede ser encontrada en esta sección de est
 
 También puedes aprender como:
 
-  * <a href="/docs/get-started">Comenzar</a> con Commotion, 
-  * <a href="/docs/get-involved">Involucrarte</a> con la Comunidad Commotion, 
-  * navega la lista de <a href="/docs/supported-devices">Dispositivos Soportados</a> 
+  * <a href="/docs/get-started">Comenzar</a> con Commotion,
+  * <a href="/docs/get-involved">Involucrarte</a> con la Comunidad Commotion,
+  * navega la lista de <a href="/docs/supported-devices">Dispositivos Soportados</a>
   * y aprender más acerca de <a href="/docs/localization">los esfuerzos de Commotion</a> para traducir nuestro software en múltiples idiomas.
- 

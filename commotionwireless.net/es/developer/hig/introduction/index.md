@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: Guías de Interfaz Humana
 site_section: developers
 sub_section: [hig]
-categories: 
+categories:
 created: 2012-06-25
 changed: 2013-12-25
 post_author: critzo
@@ -66,4 +66,3 @@ lang: es
 <p>Construir una comunidad, ya sea en línea o fuera de línea, requiere organización social y cultural efectiva. Aprender y confiar juegan un rol clave en crear una red vecinal que pueda beneficiar una amplia gama de individuos. El software Commotion debería facilitar las interacciones humanas positivas que construyan una red social mientras construyen una red mesh.</p>
 
 <p>Si una aplicación Commotion permite al usuario construir o mantener una red, se debe hacer referencia a la documentación relevante de Commotion con relación a la construcción y organización de redes vecinales. ************Puedes incluir algo de este contenido en línea en el software y algunos cómo enlaces a las fuentes en línea.*******You might include some of this content inline in the software and some as links to online sources.***********</p>
-

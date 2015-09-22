@@ -1,13 +1,24 @@
-{% include header-front.html %}
+<!--
+Summary: Unique layout for main site index.
+Parent Template: default
+
+Notes:
+Mainly exists to prevent language/contact sidebar from squeezing category tiles
+-->
+
+{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+
+<section id="main_content" class="inner home-width">
+
+<div class="content">
 {{ content }}
-{% include content-area-open.html %}
-{% include right-twothird-open.html %}
-{% include blog-recent-posts.html %}
-{% include blog-rss-block.html %}
-{% include right-twothird-close.html %}
-{% include left-third-open.html %}
-{% include download-button-block.html %}
-{% include twitter-feed-block.html %}
-{% include left-third-close.html %}
-{% include content-area-close.html %}
-{% include footer-front.html %}
+</div>
+<div class="nav">
+<div id="sidemenu">
+{% include sub-sections-menu.html %}
+</div>
+</div>
+
+</section>
+
+{% include footer.html %}

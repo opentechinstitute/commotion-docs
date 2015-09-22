@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: Encuesta Vecinal
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/3-Survey_Your_Neighbors.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-11-27
 post_author: critzo
@@ -216,7 +216,7 @@ Por favor marque todo lo que usted tiene. A) Chimenea; B) Antena de televisión;
 <p>Lee las respuestas de las encuestas, y después cuéntalas en un papel o en una hoja de cálculo.</p>
 
 <ul>
-	<li> ¿Cuáles son las dos o tres principales respuestas en tus resultados de entrevista/encuesta? ¿Qué identificas como las necesidades tecnológicas más importantes? ¿Pueden estas ser cubiertas con un Proyecto de conexión inalámbrica? ¿Qué mas se necesita? (por ejemplo, conocimiento digital o entrenamiento para seguridad 
+	<li> ¿Cuáles son las dos o tres principales respuestas en tus resultados de entrevista/encuesta? ¿Qué identificas como las necesidades tecnológicas más importantes? ¿Pueden estas ser cubiertas con un Proyecto de conexión inalámbrica? ¿Qué mas se necesita? (por ejemplo, conocimiento digital o entrenamiento para seguridad
 	<li> Después de analizar los datos ¿El Proyecto que se está desarrollando debe cambiar su enfoque? ¿Por qué y cómo? </li>
 	<li> ¿Debe cambiar la forma en que se encuestó la gente? ¿Cómo y por qué??</li>
 </ul>
@@ -270,8 +270,6 @@ Por favor marque todo lo que usted tiene. A) Chimenea; B) Antena de televisión;
 <section class="external-resources" id="external-resources">
 <h2>Recursos externos</h2>
 
-<p><a href="http://surveymonkey.com" target="_blank">surveymonkey.com</a> 
+<p><a href="http://surveymonkey.com" target="_blank">surveymonkey.com</a>
 Tienes algunos Buenos recursos sobre cómo crear y administrar encuestas</p>
 </section>
- 
-

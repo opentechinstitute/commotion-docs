@@ -1,12 +1,13 @@
-﻿---
+---
 layout: default
 title: Contáctanos
-categories: 
+categories:
 created: 2014-04-06
 changed: 2014-04-06
 post_author: critzo
 lang: es
 ---
+
 Commotion está liderado por el Open Technology Institute en la Fundación New America.
 
 1899 L St., N.W., Suite 400 <br />

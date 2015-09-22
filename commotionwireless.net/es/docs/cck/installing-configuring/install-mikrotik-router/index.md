@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
-title: Instala en un Router MikroTik 
+title: Instala en un Router MikroTik
 site_section: docs
 sub_section: [cck,cck-installing]
-pdf: 
+pdf:
 pdf-all:
-categories: 
+categories:
 created: 2014-10-21
 changed: 2014-10-22
 post_author: andygunn
@@ -127,7 +127,7 @@ eth0      Link encap:Ethernet  HWaddr aa:bb:cc:dd:ee:ff
          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
          RX packets:1019 errors:0 dropped:0 overruns:0 frame:0
          TX packets:4400 errors:0 dropped:0 overruns:0 carrier:0
-         collisions:0 txqueuelen:1000 
+         collisions:0 txqueuelen:1000
 </pre></p>
 
 <p>Puedes proceder al siguiente paso de instalación, wget2nand. Si tu router no recibe una dirección IP, configura una dirección IP para la interfaz Ethernet en el nodo estaticamente. Ejecuta este comando:*********************  If your router doesn't receive an IP, set an IP address for the Ethernet interface on the node statically. Run this command:</p>
@@ -158,4 +158,3 @@ sudo service lighttpd stop
 </ul>
 
 </section>
-

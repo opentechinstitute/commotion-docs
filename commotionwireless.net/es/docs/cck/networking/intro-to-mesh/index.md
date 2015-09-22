@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title: Introducción a las Redes Mesh
 site_section: docs
 sub_section: [cck,cck-networking]
 pdf: cck/networking/2-Introduction_to_Mesh.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-11
 changed: 2013-12-02
 post_author: critzo
@@ -174,4 +174,3 @@ ion</h2>
 
 <p>Una vez que tengas entendimiento de lo básico de las redes mesh, intenta poner tu conocimiento en práctica con el módulo <a href="/docs/cck/planning/design-your-network-every-network-tells-story"><strong>Toda Red Cuenta una Historia</strong></a>.</p>
 </section>
-

@@ -8,7 +8,7 @@ post_author: Georgia Bullen
 lang: en
 ---
  
-<img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/images/DS_classBW.jpg" width="600">
+<img src="http://oti.newamerica.net/sites/newamerica.net/files/articles/icons/DS_classBW.jpg" width="600">
 
 *Community members launched two new wireless networks at the end of April in Detroit neighborhoods, with a third one still in the works. Built on the Commotion mesh wireless platform, these networks function as local communications infrastructure: they act as an intranet for community interactions, and connect to the global Internet.* Detroiters trained as technologists and community organizers -- <a href="http://alliedmedia.org/news/2012/10/22/amp-partners-open-technology-institute-launch-digital-stewards-program">"Digital Stewards"</a> -- are building these new networks with support from Detroit’s Allied Media Projects (AMP), the Open Technology Institute (OTI) at New America Foundation in Washington, DC, and the Detroit Digital Justice Coalition. AMP and OTI developed the Digital Stewards training program to grow local digital resources while also creating teaching tools that can be used in other contexts, such as <a href="http://brooklyn.ny1.com/content/top_stories/179131/red-hook-group-bridges-digital-gap-left-by-storm">Brooklyn</a> where OTI has partnered with another another community group to implement the Digital Stewards program. OTI plans to share the tools online so that any community globally can use them for a "do-it-ourselves" approach to building local wireless networks.
 

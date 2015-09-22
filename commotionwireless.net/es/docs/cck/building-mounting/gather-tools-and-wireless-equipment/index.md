@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title: Junta las herramientas y el Equipo Inalámbrico
 site_section: docs
 sub_section: [cck,cck-building]
 pdf: cck/building-mounting/1-Gather_Tools_and_Wireless_Equipment.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2013-11-22
 post_author: critzo
@@ -385,4 +385,3 @@ Si el nodo Commotion esta conectado al puerto WAN del router (Internet), la cone
 
 <p>Este módulo debería ser considerado como un acompañamiento para <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prepara e Instala Nodos en el Techo</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprende de las Montajes en los Techos</a>, y <a href="/docs/cck/building-mounting/learn-rooftop-basics">Aprende de lo básico de los techos</a>.</p>
 </section>
-

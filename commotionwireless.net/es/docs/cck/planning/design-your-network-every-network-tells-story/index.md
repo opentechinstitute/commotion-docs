@@ -1,11 +1,11 @@
-﻿---
-layout: cck
-title:  Diseña tu Red: Cada Red Cuenta una Historia
+---
+layout: default
+title: "Diseña tu Red&#58; Cada Red Cuenta una Historia"
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2014-03-04
 post_author: critzo
@@ -247,4 +247,3 @@ lang: es
 
 <p>Alternativamente, preparate para hablar con tus vecinos acerca de tu red propuesta al hacer un volante (<a href="/docs/cck/planning/get-word-out-flyer-design">Corre la Voz: Diseño de Volantes</a>) o conduciendo una encuesta para ver quien esta dispuesto a contribuir (<a href="/docs/cck/planning/survey-your-neighbors">Encuesta a tus Vecinos</a>)</p>
 </section>
- 

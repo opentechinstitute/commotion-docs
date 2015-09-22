@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Commotion Construction Kit - Building + Mounting
 site_section: docs
 sub_section: [cck,cck-building]

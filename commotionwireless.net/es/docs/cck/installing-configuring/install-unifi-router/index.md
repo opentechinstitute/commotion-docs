@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: Instala en un Router Ubiquiti UniFi
 site_section: docs
 sub_section: [cck,cck-installing]
-pdf: 
+pdf:
 pdf-all: true
-categories: 
+categories:
 created: 2013-10-31
 changed: 2014-10-31
 post_author: andygunn
@@ -120,7 +120,7 @@ lang: es
 <section class="related-information" id="section-related-information">
 <h2>Información Relacionada</h2>
 
-<p>Para más ayuda, o si esta guía no funcionó para ti, échale un vistazo al foro <a href="http://community.ubnt.com/t5/UniFi-Wireless/HOWTO-Unbrick-your-UniFi-AP/td-p/338684">Ubiquiti sobre UniFi recovery***********</a>. 
+<p>Para más ayuda, o si esta guía no funcionó para ti, échale un vistazo al foro <a href="http://community.ubnt.com/t5/UniFi-Wireless/HOWTO-Unbrick-your-UniFi-AP/td-p/338684">Ubiquiti sobre UniFi recovery***********</a>.
 Después de que el software se haya instalado, puedes proceder al módulo <a href="/docs/cck/installing-configuring/configure-commotion">Configura Commotion</a>.</p>
 </section>
 
@@ -136,4 +136,3 @@ Después de que el software se haya instalado, puedes proceder al módulo <a hre
 	<li>También puedes hacer una búsqueda en Internet por tu sistema operativo específico para encontrar más información, u otras guías.</li>
 </ul>
 </section>
-

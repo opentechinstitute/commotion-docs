@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Trabajos
 site_section: about
-categories: 
+categories:
 created: 2012-07-16
 changed: 2013-12-15
 post_author: admin
@@ -19,4 +19,4 @@ lang: es
 <ul>
 	<li><a href="/jobs/commotion-dashboard">Escritorio de redes de Commotion</a></li>
 </ul>
---> 
+-->

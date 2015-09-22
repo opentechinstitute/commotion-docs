@@ -1,8 +1,9 @@
 ---
 layout: default
+definition: cck
 title: Commotion Construction Kit
 site_section: docs
-sub_section: [cck]
+sub_section: [docs, cck]
 categories: 
 created: 2013-09-20
 changed: 2014-03-04
@@ -20,22 +21,22 @@ lang: en
 
 <p>You can also download a <a href="http://files.opentechinstitute.org/~commotion/CCK-All PDFs-12-17-2013.zip">.zip archive file</a> of containing PDF versions of all current Commotion Construction Kit modules and supporting activities.</p>
 
-<h3>Getting Started</h3>
+<h3 id="introduction">Getting Started</h3>
 <ul><li><a href="/docs/cck/about-community-wireless">What is a community network?</a> An introduction to community networks to help you get started.</li></ul>
 
-<h3>Planning</h3>
+<h3 id="planning">Planning</h3>
 {% include cck/planning-modules.html %}
 
-<h3>Installing and Configuring</h3>
+<h3 id="installing-configuring">Installing and Configuring</h3>
 {% include cck/installing-configuring-modules.html %}
 
-<h3>Building and Mounting</h3>
+<h3 id="building-mounting">Building and Mounting</h3>
 {% include cck/building-mounting-modules.html %}
 
-<h3>Wireless and Networking</h3>
+<h3 id="networking">Wireless and Networking</h3>
 {% include cck/networking-modules.html %}
 
-<h3>Local Applications</h3>
+<h3 id="local-applications">Local Applications</h3>
 {% include cck/local-applications-modules.html %}
 
 <p>&nbsp;</p>

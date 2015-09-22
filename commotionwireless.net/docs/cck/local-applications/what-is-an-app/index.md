@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: What is an App?
 site_section: docs
 sub_section: [cck,cck-localapps]

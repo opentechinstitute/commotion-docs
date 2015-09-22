@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Involúcrate
 site_section: docs
-categories: 
+categories:
 created: 2013-12-11
 changed: 2013-12-12
 post_author: critzo
@@ -44,4 +44,3 @@ Cuando te enfrentes a un problema con el software, reporta la falla para que la 
 <h2>Promueve el Proyecto</h2>
 
 <p>Incluso si no eres un programador, aún así puede ayudar a que el proyecto crezca al difundir la información entre tu comunidad. Comparte nuestras entradas de blog y anima a tus amigos a participar y probar las herramientas Commotion. Aprende a configurar tu propia red de la comunidad mediante la lectura de nuestra <a href="/docs/get-started">guía Comienza</a>.</p>
- 

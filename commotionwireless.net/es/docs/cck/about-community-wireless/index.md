@@ -1,10 +1,10 @@
-﻿---
+---
 layout: cck
 title: Kit de Construcción Commotion – Acerca de las Redes Comunitarias
 site_section: docs
 sub_section: [cck,cck-about-cw]
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2014-08-20
 post_author: sifrwahid
@@ -89,4 +89,3 @@ lang: es
 
 <p>No hay forma correcta de navegar a través de las actividades. Encontrarás herramientas para que te ayuden a organizarte con otros en tu vecindario para <a href="/docs/cck/planning">planear</a>, <a href="/docs/cck/building-mounting">build</a>, y <a href="/docs/cck/planning/get-word-out-flyer-design">promover</a> la red. Los módulos están diseñados para ser usados por individuos o grupos para auto-aprendizaje o para enseñar en talleres o capacitaciones. Comienza a explorar en cualquier parte y haznos saber como te fue.</p>
 </section>
-  

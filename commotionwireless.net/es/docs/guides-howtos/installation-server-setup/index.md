@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
 title: MikroTik Installation Server Setup
 site_section: docs
 sub_section: [guides]
-pdf: 
+pdf:
 pdf-all:
-categories: 
+categories:
 created: 2014-10-21
 changed: 2014-10-22
 post_author: andygunn
@@ -64,20 +64,20 @@ lang: es
 interface=eth0
 #bind-interfaces
 
-# Puedes especificar cualquier rango dhcp-range que quieras, o por tus 
-requerimientos específicos de ambiente (por tanto si esta es un*********for instance if this is a 
+# Puedes especificar cualquier rango dhcp-range que quieras, o por tus
+requerimientos específicos de ambiente (por tanto si esta es un*********for instance if this is a
 servidor de producción*******production server)
 dhcp-range=192.168.10.100,192.168.10.120,255.255.255.0,12h
 
 dhcp-leasefile=/var/lib/misc/dnsmasq.lease
 
-# Para cada dispositivo que quieras que inicie TFTP, necesitas una entrada 
+# Para cada dispositivo que quieras que inicie TFTP, necesitas una entrada
 dhcp-host con la dirección MAC y la IP para dar al cliente.
-# Necesitarás buscar la dirección MAC del dispositivo y 
+# Necesitarás buscar la dirección MAC del dispositivo y
 agregar una línea aquí para que sea reconocido.
 dhcp-host=xx:xx:xx:xx:xx:xx,192.168.10.101
 
-# El nombre del archivo boot para ser proporcionad a los dhcp-hosts. Este 
+# El nombre del archivo boot para ser proporcionad a los dhcp-hosts. Este
 archivo debería ser guardado en el folder 'tftp-root' (véase abajo)
 dhcp-boot=openwrt-ar71xx-nand-vmlinux-initramfs-lzma.elf
 
@@ -133,5 +133,3 @@ sudo service lighttpd start
 <p>En este punto, puedes regresar a la guía <a href="/docs/cck/install-configure/install-mikrotik-router/">Instala en un Router MikroTilk</a>.</p>
 
 </section>
-
-

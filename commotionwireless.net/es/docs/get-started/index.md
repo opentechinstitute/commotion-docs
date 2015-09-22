@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Comienza
 site_section: docs
-categories: 
+categories:
 created: 2013-12-11
 changed: 2014-04-10
 post_author: Chris Ritzo
@@ -10,7 +10,7 @@ lang: es
 ---
 <h2>Redes Inalámbricas Comunitarias</h2>
 
-Las redes inalámbricas comunitarias "mesh" conectan digitalmente a las comunidades, y le permiten a los vecinos compartir acceso a Internet o usar aplicaciones hospedadas localmente. 
+Las redes inalámbricas comunitarias "mesh" conectan digitalmente a las comunidades, y le permiten a los vecinos compartir acceso a Internet o usar aplicaciones hospedadas localmente.
 
 Las redes comunitarias están construidas por una coalición de instituciones anclas comunitarias, organizaciones basadas en la comunidad, representantes municipales, e individuos trabajando juntos para planear, diseñar y desplegar una red. Las tareas de propiedad y administración se distribuyen entre la comunidad. Los Administradores Digitales son miembros de la comunidad que se encargan de la red.
 
@@ -88,4 +88,3 @@ Las redes comunitarias están construidas por una coalición de instituciones an
 	<li><a href="/docs/supported-devices">Dispositivos Soportados Commotion</a></li>
 	<li><a href="/download">Descarga el Software Commotion</a></li>
 </ul>
-

@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Commotion Construction Kit - Local Applications
 site_section: docs
 sub_section: [cck,cck-local-apps]

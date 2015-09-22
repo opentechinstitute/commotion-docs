@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
 title: Dispositivos Soportados
 site_section: docs
-categories: 
+categories:
 created: 2013-07-07
 changed: 2014-09-15
 post_author: critzo
@@ -183,4 +183,3 @@ lang: es
 	</tbody>
 </table>
 </div>
- 

@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title: Instala y Recupera con TFTP
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Install_with_TFTP.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-09-27
 changed: 2014-09-15
 post_author: critzo
@@ -312,4 +312,3 @@ Puerta de Acceso: <code>192.168.1.1</code></p>
 
 <p>Mac OSX: <a href="http://www.mactechnologies.com/index.php?page=downloads#tftpclient" target="_blank">Mac Technologies TFTP client****************</a></p>
 </section>
-

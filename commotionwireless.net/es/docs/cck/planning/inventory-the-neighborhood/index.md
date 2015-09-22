@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title: Inventaría al Vecindario
 site_section: docs
 sub_section: [cck,cck-planning]
 pdf: cck/planning/5-Inventory_the_Neighborhood.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-02
 changed: 2013-11-27
 post_author: critzo
@@ -150,4 +150,3 @@ lang: es
 
 <p>Usa el módulo <strong><a href="/docs/cck/planning/get-word-out-flyer-design">Corre la Voz: Diseño de Volantes</a>&nbsp;</strong> para hacer volantes para exponer a las personas si quieren saber acerca del proyecto.</p>
 </section>
-

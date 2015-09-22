@@ -1,11 +1,11 @@
-﻿---
-layout: cck
+---
+layout: default
 title: Configura Commotion
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Configure_Commotion.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-05
 changed: 2014-09-17
 post_author: critzo
@@ -134,7 +134,7 @@ A printed or off-line copy of the node <a href="/files/CCK_ConfigureRouters_Hand
 <p>Revisa las configuraciones, luego navega hacia abajo y da clic en *********** Skim through the settings, then scroll down and hit <strong>Guardar y Aplicar</strong>:</p>
 <p><img src="/files/CCK-Configure_setup_wizard7.png" style="max-width:600px;" /></p>
 
-<p><strong>3.</strong> Cuando termines con el Asistente de Configuración Commotion, el nodo se reiniciara. Esto tomará algunos minutos - sé paciente.<strong> </strong>Cuando el nodo comience de nuevo, automáticamente se conectará a otros nodos mesh en el área con información  correspondiente de los links mesh. **************When the node starts up again, it will automatically connect to other mesh nodes in the area with matching mesh link information. 
+<p><strong>3.</strong> Cuando termines con el Asistente de Configuración Commotion, el nodo se reiniciara. Esto tomará algunos minutos - sé paciente.<strong> </strong>Cuando el nodo comience de nuevo, automáticamente se conectará a otros nodos mesh en el área con información  correspondiente de los links mesh. **************When the node starts up again, it will automatically connect to other mesh nodes in the area with matching mesh link information.
 </section>
 
 <section id="Access-Administration-interface">
@@ -277,7 +277,7 @@ Changing the Hostname</h3>
 <ol>
 	<li>&nbsp;&nbsp;&nbsp; En la sección “Punto de Acceso”, quit ala marca de la caja bajo “Requiere una Contraseña".</li>
 	<li>&nbsp;&nbsp;&nbsp; Desplázate al fondo de la página, da clic en “Guardar &amp; Aplicar”.</li>
-	<li>&nbsp;&nbsp;&nbsp; Espera a que el sistema se actualice.</li> 
+	<li>&nbsp;&nbsp;&nbsp; Espera a que el sistema se actualice.</li>
 </ol>
 
 <p><strong>Para borrar un Punto de Acceso:</strong></p>
@@ -551,4 +551,3 @@ an IP routing protocol optimized for mobile ad hoc networks.</dd>
 	<li><a href="/docs/cck/networking/learn-networking-basics">Redes: Aprende lo Básico de las Redes</a></li>
 </ul>
 </section>
- 

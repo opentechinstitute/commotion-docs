@@ -1,11 +1,11 @@
-﻿---
+---
 layout: cck
-title: Configuraciones de Hardware Comunes 
+title: Configuraciones de Hardware Comunes
 site_section: docs
 sub_section: [cck,cck-installing]
 pdf: cck/installing-configuring/CCK-Common_Hardware_Setups.pdf
 pdf-all: true
-categories: 
+categories:
 created: 2013-11-06
 changed: 2014-08-13
 post_author: andygunn
@@ -47,7 +47,7 @@ lang: es
     <li><strong>(C)</strong> Representa el Punto de Acceso generado por el nodo Commotion para que los usuarios se conecten.</li>
     <li><strong>(D)</strong> Representa una persona usando una laptop, conectada a un Punto de Acceso de un nodo del techo.</li>
 </ul>
-    
+
 <p><strong>Pasos para Configurar:</strong></p>
 <p>Los nodos Commotion deberían enmallarese de forma inalámbrica ejecutando el Asistente de Configuración en el primer arranque, siempre y cuando los nodos están configurados con el mismo:</p>
 <ul class="rteindent1">
@@ -100,7 +100,7 @@ lang: es
 <p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_screenshot.png" style="max-width:600px;" /></p>
 
 <ol class="rteindent1">
-    <li>En el panel de administración, navega a el menú de 
+    <li>En el panel de administración, navega a el menú de
 <strong>Configuración Básica -> Configuraciones de red -> Interfaces de Redes Adicionales</strong>.</li>
     <li>En el menú que se arrastra de la “Configuración de la Puerta de Acceso”, selecciona “Este dispositivo siempre DEBE intentar de adquirir el DHCP lease”. *************************In the “Gateway Configuration” pull-down menu, select “This device should ALWAYS try to acquire a DHCP lease”.</li>
     <li>Asegúrate de que esté seleccionado “Anuncia tu puerta de entrada a la red mesh”.</li>
@@ -130,10 +130,10 @@ lang: es
 <ul class="rteindent1">
     <li><strong>Nombre de Red Mesh.</strong> Por defecto, está configurado a commotionwireless.net.</li>
     <li><strong>Canal Inalámbrico.</strong> Por defecto, son 11 para dispositivos inalámbricos de 2.4GHz.</li>
-    <li><strong>Contraseña encriptada mesh.</strong> 
+    <li><strong>Contraseña encriptada mesh.</strong>
 Las contraseñas deben coincidir através de la red. Puedes también inhabilitar el cifrado a través de la red.</li>
 </ul>
-    
+
 <p>El nodo Commotion debería proveer una dirección IP a la computadora conectada. Para asegurarte que esto sea siempre el caso, puedes configurar el nodo al modo “solo servidor DHCP”:</p>
 <p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
 
@@ -158,7 +158,7 @@ In the “Gateway Configuration” pull-down menu, select “This device should 
     <li><strong>(C)</strong> Representa el Punto de Acceso generado por el nodo Commotion para que los usuarios se conecten.</li>
     <li><strong>(D)</strong> Representa un Punto de Acceso o router externo, que no está ejecutando Commotion. Está conectado al puerto Ethernet LAN cableado del segundo nodo.</li>
 </ul>
-    
+
 <p>EL diagrama de abajo demuestra como se vería esto con el equipo instalado en el edificio:</p>
 <p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP_building.png" style="max-width:600px;" /></p>
 

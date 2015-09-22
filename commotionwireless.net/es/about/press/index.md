@@ -1,13 +1,14 @@
-﻿---
+---
 layout: default
 title: Prensa
 site_section: about
-categories: 
+categories:
 created: 2012-07-16
 changed: 2014-06-16
 post_author: admin
 lang: es
 ---
+
 <h2>Contacto de Medios</h2>
 <p>Para entrevistar a alguno de nuestros expertos en políticas, o aprender más de la Fundación New America Foundation, por favor contacta a:<br />
 <blockquote>
@@ -43,4 +44,3 @@ Asociada de las Relaciones con los Medios<br />
 <h2>Sigue a OTI</h2>
 
 <p><a href="https://twitter.com/oti"><img alt="Logo de Twitter" class="attr__format__media_large attr__typeof__foaf:Image img__fid__208 img__view_mode__media_large media-image" src="/files/styles/large/public/twitter-bird-white-on-blue.png?itok=20BcP8fY" style="height:50px; margin-left:5px; margin-right:5px; width:50px" title="Sigue a OTI en Twitter" /></a></p>
- 

@@ -1,7 +1,7 @@
 ---
-layout: downloads
+layout: default
 title: Download Commotion for Desktop/Laptop Computers
-categories: 
+categories:
 created: 2013-07-06
 changed: 2013-12-31
 post_author: critzo
@@ -37,12 +37,12 @@ lang: en
 
 <p>Commotion MeshBook is an open-source OSX utility app that allows Mac computer to create and connect to mesh networks and meshed devices. A basic networking client and profile manager is available for OS X versions 10.7 and 10.8. Commotion MeshBook is a proof of concept prototype and is no longer in active development.</p>
 
-<p>Commotion MeshBook will be superceded by <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p> 
+<p>Commotion MeshBook will be superceded by <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p>
 
 <p>The Commotion MeshBook prototype is available on our <a href="https://github.com/opentechinstitute/commotion-meshbook" target="_blank">Github Project page</a> if you are interested in building, testing or contributing to the Commotion MeshBook app.</p>
 
 <h3>Windows</h3>
 
 <p>The Commotion client for Windows operating systems is a proof of concept prototype and is unsupported. Interested persons can find instructions on compiling the Commotion Windows client on our <a href="https://github.com/opentechinstitute/commotion-winmesh">Github Project, commotion-winmesh</a>.</p>
- 
-<p>Commotion WinMesh will be superceded by <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p> 
+
+<p>Commotion WinMesh will be superceded by <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a>.</p>

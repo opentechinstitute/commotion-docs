@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Identify Neighborhood Skills
 site_section: docs
 sub_section: [cck,cck-planning]

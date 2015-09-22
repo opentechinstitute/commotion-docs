@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Guía de Montaje en el Techo
-categories: 
+categories:
 created: 2013-07-30
 changed: 2013-07-30
 post_author: critzo
@@ -76,4 +76,3 @@ lang: es
 <h3>Conclusión</h3>
 
 <p>Como propietario de una casa o propietario del edificio, usa cualquier método de arriba con el que te sientas más cómodo. *********Es de diámetro para adaptarse mejor al equipo.******It in diameter to best fit the equipment.***** Si se puedes llegar al montaje existente de manera segura, usalo por todos los medios. Una última nota: <strong>¡mantente seguro!</strong></p>
-

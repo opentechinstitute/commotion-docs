@@ -1,7 +1,7 @@
 ---
-layout: downloads
+layout: default
 title: Download Commotion Andoid
-categories: 
+categories:
 created: 2013-06-28
 changed: 2014-06-06
 post_author: grady
@@ -30,7 +30,7 @@ lang: en
 
 <p><strong>PLEASE NOTE:</strong>
 
-  * <strong>Your phone must be rooted</strong> to run this package. 
+  * <strong>Your phone must be rooted</strong> to run this package.
   * Commotion Android will connect to Commotion networks up to Commotion Router PR3. However, it is not fully feature compatible with Commotion Router 1.0 or higher.
   * See the <a href="/docs/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.
 
@@ -65,4 +65,3 @@ lang: en
 <p>&nbsp;</p>
 
 <p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Source Code</a></p>
- 
