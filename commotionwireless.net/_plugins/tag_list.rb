@@ -13,7 +13,7 @@ module Jekyll
       html = ""
       tags = context.registers[:site].tags.keys
       tags.sort.each do |tag|
-	tag_url = tag.gsub(' ','-')
+	      tag_url = tag.gsub(' ','-').downcase
         posts_in_tag = context.registers[:site].tags[tag].size
         html << "<li><a href='/blog/tag/#{tag_url}'>#{tag} (#{posts_in_tag})</a></li>\n"
       end
