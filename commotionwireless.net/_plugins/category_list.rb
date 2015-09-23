@@ -1,25 +1,25 @@
 # place this file in your plugins directory and add the tag to your sidebar
-#$ cat source/_includes/custom/asides/categories.html
+#$ cat source/_includes/custom/asides/tags.html
 #<section>
-# <h1>Categories</h1>
-# <ul id="categories">
-# {% category_list %}
+# <h1>Tags</h1>
+# <ul id="tags">
+# {% tag_list %}
 # </ul>
 #</section>
  
 module Jekyll
-  class CategoryListTag < Liquid::Tag
+  class TagListTag < Liquid::Tag
     def render(context)
       html = ""
-      categories = context.registers[:site].categories.keys
-      categories.sort.each do |category|
-	category_url = category.gsub(' ','-')
-        posts_in_category = context.registers[:site].categories[category].size
-        html << "<li><a href='/blog/category/#{category_url}'>#{category} (#{posts_in_category})</a></li>\n"
+      tags = context.registers[:site].tags.keys
+      tags.sort.each do |tag|
+	tag_url = tag.gsub(' ','-')
+        posts_in_tag = context.registers[:site].tags[tag].size
+        html << "<li><a href='/blog/tag/#{tag_url}'>#{tag} (#{posts_in_tag})</a></li>\n"
       end
       html
     end
   end
 end
  
-Liquid::Template.register_tag('category_list', Jekyll::CategoryListTag)
+Liquid::Template.register_tag('tag_list', Jekyll::TagListTag)
