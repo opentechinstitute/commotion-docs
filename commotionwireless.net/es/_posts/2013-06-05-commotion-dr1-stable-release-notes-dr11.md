@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Commotion DR1 notas de lanzamiento estable (DR1.1)
-categories: [release]
+categories: [es]
+tags: [release]
 created: 2013-06-05
 changed: 2013-07-26
 post_author: Andrew Reynolds

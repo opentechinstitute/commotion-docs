@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Little Box of Routers - Expanding Commotion Support for More Router Models 
-categories: [supported routers, testing]
+tags: [supported routers, testing]
 created: 2014-05-13
 changed: 2014-05-13
 teaser_image: posts/051314-box-o-routers.jpg

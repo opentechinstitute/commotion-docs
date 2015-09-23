@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: El Open Technology Institute respalda la Batalla de Mesh v6 
-categories: [BattleMesh,mesh,OLSR,Testing]
+categories: [es]
+tags: [BattleMesh,mesh,OLSR,Testing]
 created: 2013-03-28
 changed: 2013-07-26
 post_author: Seamus Tuohy

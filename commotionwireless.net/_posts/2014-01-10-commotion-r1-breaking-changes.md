@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion R1 Breaking Changes
-categories: [R1,upgrade]
+tags: [R1,upgrade]
 created: 2014-01-10
 changed: 2014-01-10
 post_author: Dan Staples

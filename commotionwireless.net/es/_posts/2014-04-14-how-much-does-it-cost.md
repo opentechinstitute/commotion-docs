@@ -1,7 +1,8 @@
 ---
 layout: blog
 title:  ¿Cuánto cuesta construir una red Commotion?
-categories: [planning,price,budgeting,installation]
+categories: [es]
+tags: [planning,price,budgeting,installation]
 created: 2014-04-11
 changed: 2014-06-13
 teaser_image: posts/How-much-does-it-cost-teaser-img.png

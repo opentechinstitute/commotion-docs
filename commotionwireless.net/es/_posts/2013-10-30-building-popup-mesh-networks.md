@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Construyendo Redes Mesh Pop-up 
-categories: [pop-up mesh, urban]
+categories: [es]
+tags: [pop-up mesh, urban]
 created: 2013-10-30
 changed: 2013-12-19
 post_author: Ryan Gerety

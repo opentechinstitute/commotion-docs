@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Commotion y la declaración por la libertad del Internet 
-categories: []
+categories: [es]
+tags: []
 created: 2012-11-20
 changed: 2013-02-25
 post_author: OTI

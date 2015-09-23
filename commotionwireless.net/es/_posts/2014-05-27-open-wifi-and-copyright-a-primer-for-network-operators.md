@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Wifi Abierto y Derechos de Autor – Un manual básico para Operadores de Red
-categories: [copyright, legal, community engagement, guest post, privacy]
+categories: [es]
+tags: [copyright, legal, community engagement, guest post, privacy]
 created: 2014-05-27
 changed: 2014-05-27
 teaser_image: posts/052714-open-wireless-eff.jpg

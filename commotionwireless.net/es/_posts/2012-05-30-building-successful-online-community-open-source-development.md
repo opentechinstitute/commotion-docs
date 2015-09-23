@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Construyendo una comunidad en línea exitosa para el desarrollo de código abierto
-categories: [recommendations, research]
+categories: [es]
+tags: [recommendations, research]
 created: 2012-05-30
 changed: 2013-07-26
 post_author: The Work Department

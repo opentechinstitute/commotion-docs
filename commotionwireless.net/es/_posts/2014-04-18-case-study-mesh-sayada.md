@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Caso de estudio - Mesh Sayada
-categories: [Commotion,Community Technology,digital stewards,Middle East]
+categories: [es]
+tags: [Commotion,Community Technology,digital stewards,Middle East]
 created: 2014-04-18
 changed: 2014-04-18
 teaser_image: posts/041814-Cover-Page.png

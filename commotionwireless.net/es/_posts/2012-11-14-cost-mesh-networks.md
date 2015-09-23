@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: El costo de las redes mesh 
-categories: [mesh,cost,price,hardware]
+categories: [es]
+tags: [mesh,cost,price,hardware]
 created: 2012-11-14
 changed: 2012-11-14
 post_author: Seamus Tuohy

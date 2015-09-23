@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Lanzamiento del test MeshTether 
-categories: []
+categories: [es]
+tags: []
 created: 2012-08-23
 changed: 2013-07-26
 post_author: Hans-Christoph Steiner

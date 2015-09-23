@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Una auditoria de las interfaces de usuario actuales de Commotion
-categories: [UI,UX,Research]
+categories: [es]
+tags: [UI,UX,Research]
 created: 2012-05-09
 changed: 2013-07-26
 post_author: The Work Department

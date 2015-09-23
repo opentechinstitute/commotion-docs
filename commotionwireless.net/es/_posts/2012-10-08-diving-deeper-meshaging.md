@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Profundizando en el "meshaging"
-categories: [messaging,chat,UX,applications]
+categories: [es]
+tags: [messaging,chat,UX,applications]
 created: 2012-10-08
 changed: 2012-10-29
 post_author: The Work Department

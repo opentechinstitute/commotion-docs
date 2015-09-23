@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Haz tus propias antenas para redes comunitarias
-categories: [community wireless,antennas]
+categories: [es]
+tags: [community wireless,antennas]
 created: 2014-11-05
 changed: 2014-11-05
 teaser_image: posts/DIY-antennas-hardware.png

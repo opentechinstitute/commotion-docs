@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion Field Test - Pop-up mesh network, downtown Washington, DC
-categories: []
+tags: []
 created: 2013-09-29
 changed: 2013-11-04
 post_author: Georgia Bullen

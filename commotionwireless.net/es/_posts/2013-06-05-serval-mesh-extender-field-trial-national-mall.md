@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Prueba de campo del Extensor de Serval Mesh en la Explanada Nacional
-categories: [messaging,applications,chat,site visits,serval]
+categories: [es]
+tags: [messaging,applications,chat,site visits,serval]
 created: 2013-06-05
 changed: 2013-07-26
 post_author: OTI

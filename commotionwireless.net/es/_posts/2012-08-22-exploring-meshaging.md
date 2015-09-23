@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Explorando el chat en las redes en malla - Meshaging
-categories: [messaging,Detroit]
+categories: [es]
+tags: [messaging,Detroit]
 created: 2012-08-22
 changed: 2013-07-26
 post_author: The Work Department

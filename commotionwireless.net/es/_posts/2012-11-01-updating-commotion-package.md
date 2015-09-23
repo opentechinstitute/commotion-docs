@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Actualizando un paquete Commotion
-categories: [chat,applications,routers,messaging]
+categories: [es]
+tags: [chat,applications,routers,messaging]
 created: 2012-11-01
 changed: 2012-11-06
 post_author: The Work Department

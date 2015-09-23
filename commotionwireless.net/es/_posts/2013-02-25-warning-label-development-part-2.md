@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Desarrollo de Etiqueta de Advertencia, Parte 2
-categories: [warning,label,security,anonymity,privacy,Research]
+categories: [es]
+tags: [warning,label,security,anonymity,privacy,Research]
 created: 2013-02-25
 changed: 2013-07-26
 post_author: OTI

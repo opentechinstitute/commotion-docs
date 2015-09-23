@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion Router v1 Release Notes
-categories: [release]
+tags: [release]
 created: 2013-12-30
 changed: 2013-12-31
 post_author: Josh King

@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Haciendo lluvia de ideas sobre cómo las redes eléctricas pueden trabajar con redes mesh comunitarias
-categories: [community wireless,energy,Detroit,]
+categories: [es]
+tags: [community wireless,energy,Detroit,]
 created: 2012-11-06
 changed: 2012-11-06
 post_author: The Work Department

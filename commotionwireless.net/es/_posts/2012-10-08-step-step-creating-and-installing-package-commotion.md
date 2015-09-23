@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Paso a paso - creando e instalando un paquete para Commotion
-categories: [chat,applications,routers,messaging]
+categories: [es]
+tags: [chat,applications,routers,messaging]
 created: 2012-10-08
 changed: 2012-11-21
 post_author: The Work Department

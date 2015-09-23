@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Puerta de Entrada Transparente con Tor en OpenWRT 
-categories: [Tor, OpenWRT]
+categories: [es]
+tags: [Tor, OpenWRT]
 created: 2014-09-15
 changed: 2014-09-15
 teaser_image: posts/torlogo.png
