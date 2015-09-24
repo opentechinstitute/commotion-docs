@@ -1,3 +1,28 @@
+.template-header {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid black;
+
+}
+
+.center-arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid black;
+    margin: 0 auto;
+}
+
+.center-arrow-down-ft {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #f2f2f2;
+    margin: 0 auto;
+}
+
 nav.navbar {
     background: #2e2e2e url(/icons/pattern.png) repeat;
     text-transform: uppercase;
