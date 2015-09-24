@@ -8,16 +8,16 @@ Mainly exists to prevent language/contact sidebar from squeezing category tiles
 
 {% include header.html title=page.title subtitle=page.tagline %}
 
-<section id="main_content" class="inner home-width">
+<section id="main_content" class="container" role="main">
 
-<div class="content">
-{{ content }}
-</div>
-<div class="nav">
-<div id="sidemenu">
-{% include sub-sections-menu.html %}
-</div>
-</div>
+    <div class="content">
+        {{ content }}
+    </div>
+    <div class="nav">
+        <div id="sidemenu">
+            {% include sub-sections-menu.html %}
+        </div>
+    </div>
 
 </section>
 
