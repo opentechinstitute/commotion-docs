@@ -40,6 +40,7 @@ grid:
    image: /icons/Developer.svg
 ---
 
+<!-- TODO: Look at TWBS gutter/tile/thumbnail system to construct grid -->
 <div class="grid home-width">
   <div class="grid-row">
 
