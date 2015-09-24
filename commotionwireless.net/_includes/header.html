@@ -28,18 +28,24 @@
             {% include menu-navbar-main.html %}
         </nav>
 
-        <div id="header_wrap" class="container-fluid">
-            <header class="inner {{include.width}} align-center">
-                <!-- <img src="{{site.baseurl}}/icons/commotion_full_web_inverse.svg" alt="The Commotion Wireless Project logo." class="project_logo"> -->
-                <h1 id="project_title">{{ include.title }}</h1>
-                <h2 id="project_tagline" style="max-width:100%;">{{ include.subtitle }}</h2>
-                {% if page.abstract %}
-                <section id="header-text">
-                    <p>{{ page.abstract }}</p>
-                </section>
-                {% endif %}
-
-            </header>
+        <div class="container">
+            <div id="header_wrap" class="row">
+                <div class="col-md-2">
+                    <img src="{{site.baseurl}}/icons/commotion_full_web_inverse.svg" alt="The Commotion Wireless Project logo." class="project_logo img-responsive">
+                </div>
+                <header class="col-md-8">
+                    <h1 id="project_title">{{ include.title }}</h1>
+                    <h2 id="project_tagline" class="small">{{ include.subtitle }}</h2>
+                    {% if page.abstract %}
+                    <section id="header-text">
+                        <p>{{ page.abstract }}</p>
+                    </section>
+                    {% endif %}
+                </header>
+                <div class="col-md-2">
+                    <!-- placeholder div -->
+                </div>
+            </div>
         </div>
     </header>
     <div id="main_content_wrap" class="outer">
