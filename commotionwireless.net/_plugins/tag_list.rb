@@ -12,10 +12,16 @@ module Jekyll
     def render(context)
       html = ""
       tags = context.registers[:site].tags.keys
+      lang = context.environments.first['page']['lang']
+      lang_default = context.registers[:site].config['lang_default']
       tags.sort.each do |tag|
-	      tag_url = tag.gsub(' ','-').downcase
-        posts_in_tag = context.registers[:site].tags[tag].size
-        html << "<li><a href='/blog/tag/#{tag_url}'>#{tag} (#{posts_in_tag})</a></li>\n"
+	        tag_url = tag.gsub(' ','-').downcase
+          posts_in_tag = context.registers[:site].tags[tag].size
+          if lang == lang_default
+            html << "<li><a href='/blog/tag/#{tag_url}'>#{tag} (#{posts_in_tag})</a></li>\n"
+          else
+            html << "<li><a href='/#{lang}/blog/tag/#{tag_url}'>#{tag} (#{posts_in_tag})</a></li>\n"
+          end
       end
       html
     end

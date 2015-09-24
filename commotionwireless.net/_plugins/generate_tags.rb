@@ -63,11 +63,12 @@ module Jekyll
     #  +base+          is the String path to the <source>.
     #  +tag_dir+  is the String path between <source> and the tag folder.
     #  +tag+      is the tag currently being processed.
-    def initialize(template_path, name, site, base, tag_dir, tag)
+    def initialize(template_path, name, site, base, tag_dir, lang, tag)
       @site  = site
       @base  = base
       @dir   = tag_dir
       @name  = name
+      @lang  = lang
 
       self.process(name)
 
@@ -84,6 +85,8 @@ module Jekyll
         # Set the meta-description for this page.
         meta_description_prefix  = site.config['tag_meta_description_prefix'] || 'Tag: '
         self.data['description'] = "#{meta_description_prefix}#{tag}"
+        # Set the language
+        self.data['lang'] = lang
       else
         @perform_render = false
       end
@@ -104,10 +107,10 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +tag_dir+ is the String path between <source> and the tag folder.
     #  +tag+     is the tag currently being processed.
-    def initialize(site, base, tag_dir, tag)
+    def initialize(site, base, tag_dir, lang, tag)
       template_path = File.join(base, '_layouts', 'tag_index.html')
       tag = tag.gsub('%20','-')
-      super(template_path, 'index.html', site, base, tag_dir, tag)
+      super(template_path, 'index.html', site, base, tag_dir, lang, tag)
     end
 
   end
@@ -121,9 +124,9 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +tag_dir+ is the String path between <source> and the tag folder.
     #  +tag+     is the tag currently being processed.
-    def initialize(site, base, tag_dir, tag)
+    def initialize(site, base, tag_dir, lang, tag)
       template_path = File.join(base, '_includes', 'custom', 'tag_feed.xml')
-      super(template_path, 'atom.xml', site, base, tag_dir, tag)
+      super(template_path, 'atom.xml', site, base, tag_dir, lang, tag)
 
       # Set the correct feed URL.
       self.data['feed_url'] = "#{tag_dir}/#{name}" if render?
@@ -138,9 +141,9 @@ module Jekyll
     # writes the output to a file.
     #
     #  +tag+ is the tag currently being processed.
-    def write_tag_index(tag)
-      target_dir = GenerateTags.tag_dir(self.config['tag_dir'], tag)
-      index      = TagIndex.new(self, self.source, target_dir, tag)
+    def write_tag_index(lang, tag)
+      target_dir = GenerateTags.tag_dir(self, lang, tag)
+      index      = TagIndex.new(self, self.source, target_dir, lang, tag)
       if index.render?
         index.render(self.layouts, site_payload)
         index.write(self.dest)
@@ -149,7 +152,7 @@ module Jekyll
       end
 
       # Create an Atom-feed for each index.
-      feed = TagFeed.new(self, self.source, target_dir, tag)
+      feed = TagFeed.new(self, self.source, target_dir, lang, tag)
       if feed.render?
         feed.render(self.layouts, site_payload)
         feed.write(self.dest)
@@ -162,7 +165,9 @@ module Jekyll
     def write_tag_indexes
       if self.layouts.key? 'tag_index'
         self.tags.keys.each do |tag|
-          self.write_tag_index(tag)
+          self.config['languages'].each do |lang|
+            self.write_tag_index(lang, tag)
+          end
         end
 
       # Throw an exception if the layout couldn't be found.
@@ -187,10 +192,15 @@ module Jekyll
 
     # Processes the given dir and removes leading and trailing slashes. Falls
     # back on the default if no dir is provided.
-    def self.tag_dir(base_dir, tag)
-      base_dir = (base_dir || tag_DIR).gsub(/^\/*(.*)\/*$/, '\1')
+    def self.tag_dir(site, lang, tag)
+      base_dir = (site.config['tag_dir'] || tag_DIR).gsub(/^\/*(.*)\/*$/, '\1')
       tag = tag.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
-      File.join(base_dir, tag)
+      if lang != site.config['lang_default']
+        lang = lang.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
+        File.join(lang, base_dir, tag)
+      else
+        File.join(base_dir, tag)
+      end
     end
 
   end
@@ -206,9 +216,9 @@ module Jekyll
     #
     # Returns string
     def tag_links(tags)
-      base_dir = @context.registers[:site].config['tag_dir']
+      lang = @context.environments.first['page']['lang']
       tags = tags.sort!.map do |tag|
-        tag_dir = GenerateTags.tag_dir(base_dir, tag)
+        tag_dir = GenerateTags.tag_dir(@context.registers[:site], lang, tag)
         # Make sure the tag directory begins with a slash.
         tag_dir = "/#{tag_dir}" unless tag_dir =~ /^\//
         "<a class='tag' href='#{tag_dir}/'>#{tag.gsub('%20','-')}</a>"
