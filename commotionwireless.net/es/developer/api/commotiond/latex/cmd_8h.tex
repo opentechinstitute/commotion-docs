@@ -1,0 +1,355 @@
+\hypertarget{cmd_8h}{\section{src/cmd.h File Reference}
+\label{cmd_8h}\index{src/cmd.\+h@{src/cmd.\+h}}
+}
+
+
+a mechanism for registering and controlling display of commands  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stddef.\+h$>$}\\*
+{\ttfamily \#include $<$stdint.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}obj.\+h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structco__cmd__t}{co\+\_\+cmd\+\_\+t}
+\begin{DoxyCompactList}\small\item\em a struct containing all the relevant information for a specific command \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{cmd_8h_a489bc5be0b3d235e565c2d6d087b6f46}{\#define {\bfseries C\+M\+D}(N)~static int cmd\+\_\+\#\#N(\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{cmd_8h_a489bc5be0b3d235e565c2d6d087b6f46}
+
+\item 
+\hypertarget{cmd_8h_a7e3b95848920e23ef5cbb477f061129f}{\#define {\bfseries C\+M\+D\+\_\+\+R\+E\+G\+I\+S\+T\+E\+R}(N, U, D)~co\+\_\+cmd\+\_\+register(\#N, sizeof(\#N), U, sizeof(U), D, sizeof(D), cmd\+\_\+\#\#N )}\label{cmd_8h_a7e3b95848920e23ef5cbb477f061129f}
+
+\item 
+\hypertarget{cmd_8h_a4612506956aa26ad21479070ffe18232}{\#define {\bfseries C\+M\+D\+\_\+\+O\+U\+T\+P\+U\+T}(K, V)~if($\ast$output == N\+U\+L\+L) $\ast$output = co\+\_\+tree16\+\_\+create(); \hyperlink{tree_8h_a1693a84a751373827f76a7383322e105}{co\+\_\+tree\+\_\+insert}($\ast$output, K, sizeof(K), V)}\label{cmd_8h_a4612506956aa26ad21479070ffe18232}
+
+\item 
+\hypertarget{cmd_8h_a5c6b775b5ab1f1d7ce4a2ce2cf58494e}{\#define {\bfseries H\+O\+O\+K}(N)~static int hook\+\_\+\#\#N\#\#(\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$self, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$params)}\label{cmd_8h_a5c6b775b5ab1f1d7ce4a2ce2cf58494e}
+
+\item 
+\hypertarget{cmd_8h_a9227caf6bbc6840b804ca59e141d2e23}{\#define {\bfseries H\+O\+O\+K\+\_\+\+R\+E\+G\+I\+S\+T\+E\+R}(N, C)~\hyperlink{cmd_8h_ab5c9cbfe29ece8f375bc8c13d959ddb7}{co\+\_\+cmd\+\_\+hook\+\_\+str}(N, sizeof(N), hook\+\_\+\#\#N)}\label{cmd_8h_a9227caf6bbc6840b804ca59e141d2e23}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{cmd_8h_a10872f0e0d6872d721c1d9579c248433}{typedef struct \hyperlink{structco__cmd__t}{co\+\_\+cmd\+\_\+t} {\bfseries co\+\_\+cmd\+\_\+t}}\label{cmd_8h_a10872f0e0d6872d721c1d9579c248433}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{cmd_8h_a73b87177832e35906ba391c5b931a875}{void {\bfseries co\+\_\+cmds\+\_\+shutdown} (void)}\label{cmd_8h_a73b87177832e35906ba391c5b931a875}
+
+\item 
+\hypertarget{cmd_8h_a347738d75e2ff90a62170c13933c854b}{int {\bfseries co\+\_\+cmds\+\_\+init} (const size\+\_\+t index\+\_\+size)}\label{cmd_8h_a347738d75e2ff90a62170c13933c854b}
+
+\item 
+\hypertarget{cmd_8h_acab05921459990c0ad97b04843078a1e}{struct \hyperlink{structco__cmd__t}{co\+\_\+cmd\+\_\+t} {\bfseries \+\_\+\+\_\+attribute\+\_\+\+\_\+} ((packed))}\label{cmd_8h_acab05921459990c0ad97b04843078a1e}
+
+\item 
+\hypertarget{cmd_8h_ad842ec1fdbdc69d81a073593e7b342ab}{int {\bfseries co\+\_\+cmd\+\_\+register} (const char $\ast$\hyperlink{profile_8h_a842efb72cde7678fc8a8162084b327ea}{name}, const size\+\_\+t nlen, const char $\ast$\hyperlink{cmd_8h_ace2987d249e38e296e66b62c88c629f9}{usage}, const size\+\_\+t ulen, const char $\ast$\hyperlink{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}{desc}, const size\+\_\+t dlen, co\+\_\+cb\+\_\+t handler)}\label{cmd_8h_ad842ec1fdbdc69d81a073593e7b342ab}
+
+\item 
+int \hyperlink{cmd_8h_a3e3db670f8a4187b7e198804c2e8dd6a}{co\+\_\+cmd\+\_\+exec} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$key, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$$\ast$output, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$param)
+\begin{DoxyCompactList}\small\item\em executes a command by running the function linked to in the command struct \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{cmd_8h_a49133510a4fcf530f76114c7f14e0243}{co\+\_\+cmd\+\_\+usage} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$key)
+\begin{DoxyCompactList}\small\item\em returns command usage format \end{DoxyCompactList}\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{cmd_8h_a20f5016011836ec0433eb32e9fe1af59}{co\+\_\+cmd\+\_\+desc} (\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$key)
+\begin{DoxyCompactList}\small\item\em returns command description (what the command does) \end{DoxyCompactList}\item 
+int \hyperlink{cmd_8h_a47fc07bfc4364172dccd22da5bdc6d77}{co\+\_\+cmd\+\_\+hook} (const \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$key, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$cb)
+\begin{DoxyCompactList}\small\item\em hooks callback function into a command \end{DoxyCompactList}\item 
+int \hyperlink{cmd_8h_ab5c9cbfe29ece8f375bc8c13d959ddb7}{co\+\_\+cmd\+\_\+hook\+\_\+str} (const char $\ast$key, const size\+\_\+t klen, \hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$cb)
+\begin{DoxyCompactList}\small\item\em hooks callback function into a command \end{DoxyCompactList}\item 
+int \hyperlink{cmd_8h_ae08ba46875554da0d82312ef3e10083f}{co\+\_\+cmd\+\_\+process} (co\+\_\+iter\+\_\+t iter, void $\ast$context)
+\begin{DoxyCompactList}\small\item\em process all registered commands with given iterator \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{cmd_8h_aa20afbf3f0a782bb4dea4da22df275a3}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} {\bfseries \+\_\+header}}\label{cmd_8h_aa20afbf3f0a782bb4dea4da22df275a3}
+
+\item 
+\hypertarget{cmd_8h_a05de11e79f277be86c869a1fc6a204bd}{uint8\+\_\+t {\bfseries \+\_\+exttype}}\label{cmd_8h_a05de11e79f277be86c869a1fc6a204bd}
+
+\item 
+\hypertarget{cmd_8h_a5ff8177a0b8e2c9f9c18bd0cb34e65f8}{uint8\+\_\+t {\bfseries \+\_\+len}}\label{cmd_8h_a5ff8177a0b8e2c9f9c18bd0cb34e65f8}
+
+\item 
+co\+\_\+cb\+\_\+t \hyperlink{cmd_8h_a17bc8f9abe09260e3bc9e737c92790b4}{exec}
+\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{name}
+\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{cmd_8h_ace2987d249e38e296e66b62c88c629f9}{usage}
+\item 
+\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ \hyperlink{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}{desc}
+\item 
+\hypertarget{cmd_8h_af8afcbc64e6e71b95846d87417c0e520}{\hyperlink{structco__obj__t}{co\+\_\+obj\+\_\+t} $\ast$ {\bfseries hooks}}\label{cmd_8h_af8afcbc64e6e71b95846d87417c0e520}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a mechanism for registering and controlling display of commands 
+
+\begin{DoxyAuthor}{Author}
+Josh King (jheretic), \href{mailto:jking@chambana.net}{\tt jking@chambana.\+net} 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{cmd_8h_a20f5016011836ec0433eb32e9fe1af59}{\index{cmd.\+h@{cmd.\+h}!co\+\_\+cmd\+\_\+desc@{co\+\_\+cmd\+\_\+desc}}
+\index{co\+\_\+cmd\+\_\+desc@{co\+\_\+cmd\+\_\+desc}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{co\+\_\+cmd\+\_\+desc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+cmd\+\_\+desc (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{cmd_8h_a20f5016011836ec0433eb32e9fe1af59}
+
+
+returns command description (what the command does) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the name of the command \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find(), and co\+\_\+cmd\+\_\+t\+::desc.
+
+
+\begin{DoxyCode}
+136 \{
+137   \textcolor{keywordtype}{char} *kstr = NULL;
+138   \textcolor{keywordtype}{size\_t} klen = co\_obj\_data(&kstr, key);
+139   \hyperlink{structco__cmd__t}{co\_cmd\_t} *cmd = (\hyperlink{structco__cmd__t}{co\_cmd\_t} *)\hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(\_cmds, kstr, klen - 1);
+140   
+141   CHECK((cmd != NULL), \textcolor{stringliteral}{"No such command!"});
+142   \textcolor{keywordflow}{return} cmd->\hyperlink{structco__cmd__t_a97bb000840489763d726b1e81181a5f5}{desc};
+143 error:
+144   \textcolor{keywordflow}{return} NULL;
+145 \}
+\end{DoxyCode}
+\hypertarget{cmd_8h_a3e3db670f8a4187b7e198804c2e8dd6a}{\index{cmd.\+h@{cmd.\+h}!co\+\_\+cmd\+\_\+exec@{co\+\_\+cmd\+\_\+exec}}
+\index{co\+\_\+cmd\+\_\+exec@{co\+\_\+cmd\+\_\+exec}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{co\+\_\+cmd\+\_\+exec}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+cmd\+\_\+exec (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{key, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$$\ast$}]{output, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{param}
+\end{DoxyParamCaption}
+)}}\label{cmd_8h_a3e3db670f8a4187b7e198804c2e8dd6a}
+
+
+executes a command by running the function linked to in the command struct 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the name of the command \\
+\hline
+{\em output} & return object of command \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find(), and co\+\_\+cmd\+\_\+t\+::exec.
+
+
+
+Referenced by dispatcher\+\_\+cb().
+
+
+\begin{DoxyCode}
+110 \{
+111   \textcolor{keywordtype}{char} *kstr = NULL;
+112   \textcolor{keywordtype}{size\_t} klen = co\_obj\_data(&kstr, key);
+113   \hyperlink{structco__cmd__t}{co\_cmd\_t} *cmd = (\hyperlink{structco__cmd__t}{co\_cmd\_t} *)\hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(\_cmds, kstr, klen - 1);
+114   
+115   CHECK((cmd != NULL), \textcolor{stringliteral}{"No such command!"});
+116   \textcolor{keywordflow}{return} cmd->\hyperlink{structco__cmd__t_add04e691f5afa12a19ecc870860d9e82}{exec}((\hyperlink{structco__obj__t}{co\_obj\_t} *)cmd, output, param);
+117 error:
+118   \textcolor{keywordflow}{return} 0;
+119 \}
+\end{DoxyCode}
+\hypertarget{cmd_8h_a47fc07bfc4364172dccd22da5bdc6d77}{\index{cmd.\+h@{cmd.\+h}!co\+\_\+cmd\+\_\+hook@{co\+\_\+cmd\+\_\+hook}}
+\index{co\+\_\+cmd\+\_\+hook@{co\+\_\+cmd\+\_\+hook}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{co\+\_\+cmd\+\_\+hook}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+cmd\+\_\+hook (
+\begin{DoxyParamCaption}
+\item[{const {\bf co\+\_\+obj\+\_\+t} $\ast$}]{key, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{cb}
+\end{DoxyParamCaption}
+)}}\label{cmd_8h_a47fc07bfc4364172dccd22da5bdc6d77}
+
+
+hooks callback function into a command 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the name of the command \\
+\hline
+{\em cb} & reference to callback function \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append(), and co\+\_\+tree\+\_\+find().
+
+
+\begin{DoxyCode}
+165 \{
+166   \textcolor{keywordtype}{char} *kstr = NULL;
+167   \textcolor{keywordtype}{size\_t} klen = co\_obj\_data(&kstr, key);
+168   \hyperlink{structco__cmd__t}{co\_cmd\_t} *cmd = (\hyperlink{structco__cmd__t}{co\_cmd\_t} *)\hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(\_cmds, kstr, klen);
+169 
+170   CHECK((cmd != NULL), \textcolor{stringliteral}{"No such command!"});
+171   \textcolor{keywordflow}{if}(cmd->hooks == NULL)
+172   \{
+173     cmd->hooks = co\_tree16\_create();
+174   \}
+175   CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(cmd->hooks, cb), \textcolor{stringliteral}{"Failed to add hook to command."});
+176   \textcolor{keywordflow}{return} 1;
+177 error:
+178   \textcolor{keywordflow}{return} 0;
+179 \}
+\end{DoxyCode}
+\hypertarget{cmd_8h_ab5c9cbfe29ece8f375bc8c13d959ddb7}{\index{cmd.\+h@{cmd.\+h}!co\+\_\+cmd\+\_\+hook\+\_\+str@{co\+\_\+cmd\+\_\+hook\+\_\+str}}
+\index{co\+\_\+cmd\+\_\+hook\+\_\+str@{co\+\_\+cmd\+\_\+hook\+\_\+str}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{co\+\_\+cmd\+\_\+hook\+\_\+str}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+cmd\+\_\+hook\+\_\+str (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{key, }
+\item[{const size\+\_\+t}]{klen, }
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{cb}
+\end{DoxyParamCaption}
+)}}\label{cmd_8h_ab5c9cbfe29ece8f375bc8c13d959ddb7}
+
+
+hooks callback function into a command 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the name of the command \\
+\hline
+{\em klen} & length of key string \\
+\hline
+{\em cb} & reference to callback function \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+list\+\_\+append(), and co\+\_\+tree\+\_\+find().
+
+
+\begin{DoxyCode}
+149 \{
+150   \hyperlink{structco__cmd__t}{co\_cmd\_t} *cmd = (\hyperlink{structco__cmd__t}{co\_cmd\_t} *)\hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(\_cmds, key, klen);
+151 
+152   CHECK((cmd != NULL), \textcolor{stringliteral}{"No such command!"});
+153   \textcolor{keywordflow}{if}(cmd->hooks == NULL)
+154   \{
+155     cmd->hooks = co\_tree16\_create();
+156   \}
+157   CHECK(\hyperlink{list_8c_ada7536773e05cf3dcb33ab73ac2ef84e}{co\_list\_append}(cmd->hooks, cb), \textcolor{stringliteral}{"Failed to add hook to command."});
+158   \textcolor{keywordflow}{return} 1;
+159 error:
+160   \textcolor{keywordflow}{return} 0;
+161 \}
+\end{DoxyCode}
+\hypertarget{cmd_8h_ae08ba46875554da0d82312ef3e10083f}{\index{cmd.\+h@{cmd.\+h}!co\+\_\+cmd\+\_\+process@{co\+\_\+cmd\+\_\+process}}
+\index{co\+\_\+cmd\+\_\+process@{co\+\_\+cmd\+\_\+process}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{co\+\_\+cmd\+\_\+process}]{\setlength{\rightskip}{0pt plus 5cm}int co\+\_\+cmd\+\_\+process (
+\begin{DoxyParamCaption}
+\item[{co\+\_\+iter\+\_\+t}]{iter, }
+\item[{void $\ast$}]{context}
+\end{DoxyParamCaption}
+)}}\label{cmd_8h_ae08ba46875554da0d82312ef3e10083f}
+
+
+process all registered commands with given iterator 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iter} & iterator function reference \\
+\hline
+{\em context} & other parameters passed to iterator \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+process().
+
+
+\begin{DoxyCode}
+183 \{
+184   CHECK(\hyperlink{tree_8c_a85f5ae243dc4c77813da2a99d189b69c}{co\_tree\_process}(\_cmds, iter, context), \textcolor{stringliteral}{"Failed to process commands."});
+185   \textcolor{keywordflow}{return} 1;
+186 error:
+187   \textcolor{keywordflow}{return} 0;
+188 \}
+\end{DoxyCode}
+\hypertarget{cmd_8h_a49133510a4fcf530f76114c7f14e0243}{\index{cmd.\+h@{cmd.\+h}!co\+\_\+cmd\+\_\+usage@{co\+\_\+cmd\+\_\+usage}}
+\index{co\+\_\+cmd\+\_\+usage@{co\+\_\+cmd\+\_\+usage}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{co\+\_\+cmd\+\_\+usage}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ co\+\_\+cmd\+\_\+usage (
+\begin{DoxyParamCaption}
+\item[{{\bf co\+\_\+obj\+\_\+t} $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{cmd_8h_a49133510a4fcf530f76114c7f14e0243}
+
+
+returns command usage format 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & command name \\
+\hline
+\end{DoxyParams}
+
+
+References co\+\_\+tree\+\_\+find(), and co\+\_\+cmd\+\_\+t\+::usage.
+
+
+\begin{DoxyCode}
+123 \{
+124   \textcolor{keywordtype}{char} *kstr = NULL;
+125   \textcolor{keywordtype}{size\_t} klen = co\_obj\_data(&kstr, key);
+126   \hyperlink{structco__cmd__t}{co\_cmd\_t} *cmd = (\hyperlink{structco__cmd__t}{co\_cmd\_t} *)\hyperlink{tree_8c_a59bc6048d3c52d982f8d265d5ff6a674}{co\_tree\_find}(\_cmds, kstr, klen - 1);
+127   
+128   CHECK((cmd != NULL), \textcolor{stringliteral}{"No such command!"});
+129   \textcolor{keywordflow}{return} cmd->\hyperlink{structco__cmd__t_af73f4d544979225b4f5ef4fe22f855ef}{usage};
+130 error:
+131   \textcolor{keywordflow}{return} NULL;
+132 \}
+\end{DoxyCode}
+
+
+\subsection{Variable Documentation}
+\hypertarget{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}{\index{cmd.\+h@{cmd.\+h}!desc@{desc}}
+\index{desc@{desc}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{desc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ desc}}\label{cmd_8h_ad8dfe6da143614c91598ec35c35bcc4f}
+description 
+
+Referenced by serval\+\_\+crypto\+\_\+register().
+
+\hypertarget{cmd_8h_a17bc8f9abe09260e3bc9e737c92790b4}{\index{cmd.\+h@{cmd.\+h}!exec@{exec}}
+\index{exec@{exec}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{exec}]{\setlength{\rightskip}{0pt plus 5cm}co\+\_\+cb\+\_\+t exec}}\label{cmd_8h_a17bc8f9abe09260e3bc9e737c92790b4}
+pointer to the command's function 
+
+Referenced by co\+\_\+process\+\_\+start().
+
+\hypertarget{cmd_8h_a842efb72cde7678fc8a8162084b327ea}{\index{cmd.\+h@{cmd.\+h}!name@{name}}
+\index{name@{name}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ name}}\label{cmd_8h_a842efb72cde7678fc8a8162084b327ea}
+command name 
+
+Referenced by co\+\_\+olsrd\+\_\+print\+\_\+conf(), co\+\_\+olsrd\+\_\+remove\+\_\+iface(), olsrd\+\_\+mdp\+\_\+register(), olsrd\+\_\+mdp\+\_\+sign\+\_\+register(), and serval\+\_\+crypto\+\_\+register().
+
+\hypertarget{cmd_8h_ace2987d249e38e296e66b62c88c629f9}{\index{cmd.\+h@{cmd.\+h}!usage@{usage}}
+\index{usage@{usage}!cmd.\+h@{cmd.\+h}}
+\subsubsection[{usage}]{\setlength{\rightskip}{0pt plus 5cm}{\bf co\+\_\+obj\+\_\+t}$\ast$ usage}}\label{cmd_8h_ace2987d249e38e296e66b62c88c629f9}
+usage syntax 
+
+Referenced by serval\+\_\+crypto\+\_\+register().
+

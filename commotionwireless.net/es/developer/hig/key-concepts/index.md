@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: Key Concepts
+title: Conceptos Clave
 site_section: developers
 sub_section: hig
 categories: 
@@ -9,91 +9,91 @@ changed: 2013-12-25
 post_author: michael@theworkdept.com
 lang: es
 ---
-  <h2>Common language</h2>
+  <h2>Lenguaje común</h2>
 
-<p>A successful UI running on multiple devices must share appropriate, accessible and common language. The following list of terms should be used throughout Commotion apps. Some of them include descriptions that can be included in optional tooltips for the user who needs more information. Advanced terminology that requires significant prior knowledge to understand should be reserved for the advanced area of your software.</p>
+<p>Una interfaz de usuario exitosa corriendo en múltiples dispositivos debe compartir un lenguaje apropiado, accesible y común. La siguiente lista de términos se debe utilizar en todas las aplicaciones Commotion. Algunos de ellos incluyen descripciones que se pueden incluir en la información de herramientas (tooltip) opcionales para el usuario que necesita más información. La terminología avanzada que requiere conocimiento previo importante para entenderse, se debe reservarse para el área avanzada de tu software.</p>
 
 <ul>
-	<li>This language should be used when including a short description of the project:<br />
-	<em>Commotion is an open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. More at www.commotionwireless.net.</em><br />
+	<li>Este lenguaje debe usarse cuando se incluye una corta descripción del proyecto:<br />
+	<em>Commotion es una herramienta de comunicación de código abierto que usa dispositivos inalámbricos para crear redes mesh descentralizadas. Más en www.commotionwireless.net.</em><br />
 	&nbsp;</li>
-	<li>This language should be added when you have more space or on “about” pages:<br />
-	<em>The project is collaboratively developed by The Open Technology Initiative, The Work Department, The Guardian Project, The Serval Project, and volunteers within the community.</em></li>
+	<li>Este lenguaje debería ser agregado cuando tienes más espacio o en las páginas de “acerca”:<br />
+	<em>El proyecto está siendo colaborativamente diseñado por el Instituto de Tecnología Abierta, el Departamento de Trabajo, El Proyecto Guardian, EL Proyecto Serval y voluntarios dentro de la comunidad.</em></li>
 </ul>
 
-<h2>Common UI Terms</h2>
+<h2>Términos Comunes de la Interfaz de Usuario</h2>
 
-<p>Many terms below reference a definition. A term’s definition should be included in the UI either inline or as a pop-up tooltip in order to help beginning users understand basic concepts.</p>
+<p>Muchos términos abajo se refieren a una definición. Una definición de un término debe ser incluida en la Interfaz de Usuario ya sea inline o como un tooltip pop-up********* the UI either inline or as a pop-up tooltip******* para poder ayudar a los usuarios principiantes a entender los conceptos básicos.</p>
 
 <ol>
-	<li><strong>Mesh Network Name</strong> (SSID)<br />
-	(<em>Inline definition:</em> Choose a name that is 5-12 characters. The name can include numbers, letters &amp; special characters. Must be the same among multiple nodes.)<br />
-	(<em>Pop-up tooltip:</em> The public name of a wireless network. SSID is an acronym for Service Set Identifier.)<br />
+	<li><strong>Nombre de la Red Mesh</strong> (SSID)<br />
+	(<em>Definición Inline:</em> Elige un nombre que tenga entre 5 y 12 caracteres. Debe de ser el mismo de entre los múltiples nodos.)<br />
+	(<em>Pop-up tooltip:</em> El nombre público de una red inalámbrica. SSID es un acrónimo para Service Set Identifier, que se traduce en Set Identificador de Servicio.)<br />
 	<img alt="SSID / mesh network name " src="/files/mesh_network_name.png" style="border-style:solid; border-width:1px; height:163px; margin-bottom:15px; margin-top:15px; width:552px" /></li>
-	<li><strong>Node Name</strong><br />
-	(<em>Inline definition:</em> Unique name that is 5-12 characters. You can use numbers, letters &amp; special characters.)<br />
+	<li><strong>Nombre del Nodo</strong><br />
+	(<em>Inline definition:</em> Nombre único que tenga entre 5 y 12 caracteres. Puedes usar números, letras &amp; caracteres especiales.)<br />
 	(<em>Pop-up tooltip:</em> Each device connected to the mesh network has a unique name. This name helps you identify your device.)<br />
 	<img alt="node name" src="/files/node_name.png" style="border-style:solid; border-width:1px; height:198px; margin-bottom:15px; margin-top:15px; width:552px" /></li>
 	<li><strong>Channel</strong><br />
-	(<em>Inline definition:</em> Every node on the network must have the same channel.)<br />
-	(<em>Pop-up tooltip:</em> The 2.4 GHz Wi-Fi signal range is divided into 11 smaller channels in the U.S. You can choose different channels to avoid wireless interference.)</li>
+	(<em>Inline definition:</em> Cada nodo en la red debe usar el mismo canal.)<br />
+	(<em>Pop-up tooltip:</em> La señal Wi-Fi del rango de 2.4 GHz se divide en 11 canales más pequeños en los Estados Unidos. Puedes elegir diferentes canales para evitar interferencia inalámbrica.)</li>
 	<li><strong>Node</strong><br />
-	(<em>Pop-up tooltip: </em>An individual device on a mesh network.)</li>
-	<li><strong>Client</strong><br />
-	(<em>Pop-up tooltip:</em><em> </em>A Wi-Fi device that temporarily connects to the mesh network without using Commotion software.)<br />
+	(<em>Pop-up tooltip: </em>Un dispositivo individual en una red mesh.)</li>
+	<li><strong>Cliente</strong><br />
+	(<em>Pop-up tooltip:</em><em> </em>Un dispositivo Wi-Fi que temporalmente se conecta a la red mesh sin usar el software Commotion.)<br />
 	<img alt="" src="/files/client.png" style="border-style:solid; border-width:1px; height:139px; margin-bottom:15px; margin-top:15px; width:596px" /></li>
-	<li><strong>Join a mesh network</strong></li>
-	<li><strong>Create a mesh network</strong></li>
-	<li><strong>Looking for networks...</strong></li>
-	<li><strong>Joining...</strong></li>
-	<li><strong>IP Address</strong></li>
-	<li><strong>Current speed</strong></li>
-	<li><strong>Average speed</strong></li>
-	<li><strong>Advanced</strong></li>
-	<li><strong>Help</strong></li>
+	<li><strong>Únete a una red mesh</strong></li>
+	<li><strong>Crea una red mesh</strong></li>
+	<li><strong>Buscando redes...</strong></li>
+	<li><strong>Uniéndose...</strong></li>
+	<li><strong>Direcciones IP</strong></li>
+	<li><strong>Velocidad actual</strong></li>
+	<li><strong>Velocidad promedio</strong></li>
+	<li><strong>Avanzado</strong></li>
+	<li><strong>Ayuda</strong></li>
 	<li><strong>Log</strong></li>
-	<li><strong>Quit</strong></li>
+	<li><strong>Salir</strong></li>
 </ol>
 
-<h2 id="security">Security, privacy and anonymity</h2>
+<h2 id="security">Seguridad, privacidad y anonimato</h2>
 
-<p>A significant challenge in developing Commotion is balancing ease-of-use and control over functionality. Different users will want Commotion to serve different purposes, and our choices in features and design will make some things easier and some things harder. Unfortunately, we cannot make a perfect package for all situations: we need to be clear about the limitations inherent in Commotion, especially regarding matters of security, privacy and anonymity. These three concepts are related through their importance to communities and people with “real life” concerns of oppression, surveillance, and other attacks.</p>
+<p>Un reto importante en el desarrollo de Commotion es equilibrar la facilidad de uso y control sobre la funcionalidad. Diferentes usuarios querrán que Commotion sirva para diferentes propósitos, y nuestras opciones en características y diseño harán algunas cosas más fáciles y algunas cosas más difíciles. Desafortunadamente, no podemos hacer un paquete perfecto para todas las situaciones: tenemos que tener en claro las limitaciones inherentes a Commotion, especialmente en materia de seguridad, privacidad y anonimato. Estos tres conceptos están relacionados a través de su importancia para las comunidades y las personas con problemas de la "vida real", preocupaciones sobre opresión, vigilancia, y otros ataques.</p>
 
-<p><strong>Warnings</strong></p>
+<p><strong>Advertencias</strong></p>
 
-<p>While Commotion software can’t be solely responsible for providing a definitive education on these topics, the software should make clear any risks or benefits of features that deal with security, privacy, or anonymity.</p>
+<p>Mientras que el Software Commotion no puede ser el único responsable para proveer una educación definitiva en estos temas, el software debería dejar en claro cualquier riesgo o beneficio de las aplicaciones que tiene que ver con seguridad, privacidad, o anonimato.</p>
 
-<p>When a user takes an action that could affect their security, privacy or anonymity, they should see a simple warning message that invites them to learn more by linking to external documentation. Here's an example warning that could pop-up after a user changes the node name. It should include a "Don't warn me again" checkbox to disable this warning for the future. The Commotion website should offer details about potential risks and vulnerabilities related to using the tools in common scenarios.</p>
+<p>Cuando un usuario realiza una acción que podría afectar a su seguridad, privacidad o anonimato, deberían ver un mensaje de advertencia simple que los invita a conocer más al vincularse con documentación externa. He aquí un ejemplo de advertencia que podrían aparecer en una ventana pop-up después de que un usuario cambie el nombre de nodo. Debería incluir una casilla de "No me adviertas de nuevo" para deshabilitar esta advertencia en el futuro. La página web de Commotion debería ofrecer detalles sobre los posibles riesgos y las vulnerabilidades relacionadas con el uso de las herramientas en escenarios comunes.</p>
 
 <p><img alt="" src="/files/security_0.png" style="height:392px; margin-bottom:0px; margin-top:0px; width:293px" /></p>
 
-<p><strong>Security</strong></p>
+<p><strong>Seguridad</strong></p>
 
-<p>Within the context of Commotion, you should consider the information security of data on a network as well as the physical security of people using the network. Data security involves trust, fault tolerance, and integrity of connections between mesh nodes. Physical security overlaps with privacy in many ways: can the people who have created the network be identified based on visible hardware or detectable radio signals? We have the responsibility and ability to inform users of information security concerns, but how do we introduce the topic of physical security?</p>
+<p>En el contexto de Conmoción, deberías considerar la seguridad de la información de datos en una red, así como la seguridad física de las personas que utilizan la red. La seguridad de los datos involucra a la confianza, la tolerancia a fallos, y la integridad de las conexiones entre los nodos enmallados. La seguridad física se superpone con la privacidad de muchas maneras: ¿pueden las personas que han creado la red ser identificados con base en hardware visible o señales de radio detectables? Tenemos la responsabilidad y la capacidad de informar a los usuarios acerca de preocupaciones en cuanto a seguridad de la información, pero ¿cómo se introduce el tema de la seguridad física?</p>
 
-<p>Commotion’s documentation should explain wireless network security concepts and how mesh networks and traditionally-routed networks differ with regards to security. This documentation should be referenced during the initial configuration of a network.</p>
+<p>La documentación de Commotion debería explicar los conceptos de seguridad de redes inalámbricas y como las redes mesh y redes tradicionalmente-enrutadas con respecto a la seguridad. Esta documentación deberia ser referenciada durante la configuración inicial de la red.</p>
 
-<p><strong>Privacy and Anonymity</strong><br />
+<p><strong>Privacidad y Anomimato</strong><br />
 <br />
-Commotion documentation should clearly discuss any issues of privacy and data retention. When Commotion generates and retains logs, it should provide options to anonymize the data, clear logs periodically, and disable logging. If the software collects metadata from the device, it should prompt the user to allow for this information to be spread across the network. If the platform allows it, Commotion software should allow for changing MAC addresses through the advanced settings.</p>
+La documentación Commotion debería discutir claramente cualquier problema de privacidad y retención de datos. Cuando Commotion genera y retiene entradas, debería proveer opciones para hacer anónimos a los datos, periódicamente entradas claras, y deshabilitar logging.********* Si el software colecciona metadatos del dispositivo, debería alentar al usuario a permitir que esta información se divulgara por la red. Si la plataforma lo permite, el software Commotion debería permitir que se cambiaran las direcciones MAC a través de las configuraciones avanzadas.</p>
 
-<p>In addition to abilities that Commotion can offer at the network level, the documentation should point to privacy and anonymity resources above the mesh network layer. While software can prevent some attacks against privacy and anonymity, the documentation should outline any vulnerabilities associated with traffic analysis and radio monitoring.</p>
+<p>En adición a las habilidades que Commotion puede ofrecer a nivel red, la documentación debe apuntar a los recursos de privacidad y anonimato sobre la capa de red mesh. Mientras que el software puede prevenir algunos ataques contra la privacidad y el anonimato, la documentación debería subrayar cualquier vulnerabilidad asociada con el análisis del tráfico y monitoreo de la radio.</p>
 
-<p><a href="https://wiki.commotionwireless.net/doku.php?id=commotion_architecture" target="_blank">Read more about Commotion Security Architecture.</a></p>
+<p><a href="https://wiki.commotionwireless.net/doku.php/commotion_architecture/start" target="_blank">Lee más acerca de la Arquitectura de Seguridad Commotion.</a></p>
 
-<h2>Common footer</h2>
+<h2>Pie de página común</h2>
 
-<p>A common footer menu should be available throughout the UI. This ensures that users have consistent access to standard functions of the software at all times. For web-based and desktop applications, create a common green footer in the UI.</p>
+<p>Un menú de pie de página común debería estar disponible en toda la Interfaz de Usuario. Esto asegura que los usuarios tengan acceso consistente a las funciones estándar del software todo el tiempo. Para aplicaciones basadas en la web y de escritorio, crea un pie de página común verde en la Interfaz de Usuario.</p>
 
-<p>In Android, use the native menu. The menu items can also be collapsed to the Android "action overflow" button in the navigation bar if needed.</p>
+<p>En Android, usa el menú nativo. Los iconos del menú pueden también ser colapsados al botón en Android de "action overflow" (desbordamiento de la acción)***********en la barra de navegación si es necesario.</p>
 
-<p>The menu items are:</p>
+<p>Los iconos del menú son:</p>
 
 <ol>
-	<li><strong>Advanced</strong> (Goes to a menu of advanced settings)</li>
-	<li><strong>Help</strong> (Goes to a menu of help options)</li>
-	<li><strong>Log</strong> (Goes to an activity log)</li>
-	<li><strong>Quit</strong> (Ends all mesh networking processes and closes the application)</li>
+	<li><strong>Advanzado</strong> (Va a un menú de opciones avanzadas)</li>
+	<li><strong>Ayuda</strong> (Va a un menú de opciones de ayuda)</li>
+	<li><strong>Log***************Entrada</strong> (Va a un actividad de entrada********Goes to an activity log)</li>
+	<li><strong>Salir</strong> (Finaliza todos los procesos de redes mesh y cierra la aplicación)</li>
 </ol>
 
 <p><img alt="" src="/files/HIG_24.png" style="border-style:solid; border-width:1px; height:159px; margin-bottom:15px; margin-top:15px; width:419px" /><br />
