@@ -42,7 +42,7 @@ grid:
 
 <!-- TODO: Look at TWBS gutter/tile/thumbnail system to construct grid -->
 <div class="container">
-    <div class="row">
+    <div class="row grid">
         {% for cell in page.grid %}
         <div class="col-md-4 tile">
             <a href="{{site.baseurl}}{{cell.url}}" class="simple">

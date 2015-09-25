@@ -1,0 +1,16 @@
+.tile {
+    border: thin solid lightgrey;
+    background-color: $gray-lighter;
+    text-align: center;
+    padding: 15px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.grid-icon {
+    background-color: inherit !important;
+    max-height:100px;
+    vertical-align: middle;
+}
