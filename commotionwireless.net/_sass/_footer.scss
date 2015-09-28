@@ -1,0 +1,25 @@
+#footer_wrap {
+	color: white;
+}
+
+.template-footer {
+	background-color: black;
+	
+	p {
+		color: #f2f2f2;
+	}
+	
+	a {
+		color: #f2f2f2;
+		text-decoration: underline;
+	}
+}
+
+.center-arrow-down-ft {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #f2f2f2;
+    margin: 0 auto;
+}
