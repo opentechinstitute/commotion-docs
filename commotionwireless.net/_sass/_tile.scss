@@ -13,7 +13,7 @@
     &:after {
         content: "";
         clear: both;
-    }
+    }  
 }
 
 .grid-row {
@@ -85,13 +85,13 @@ img.grid-icon {
     padding: 5px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: $screen-sm) {
     .grid { border-spacing: 0; }
     .grid-row {  display: block; }
     .grid-cell, .grid-gallery { width: 100%; float: left;}
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: $screen-xs-min) and (max-device-width: $screen-xs) {
     .grid {     border-spacing: 0; }
     .grid-row {  display: block; }
     .grid-cell, .grid-gallery { width: 100%; float: left; }
