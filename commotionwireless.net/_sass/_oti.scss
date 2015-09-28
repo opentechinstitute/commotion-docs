@@ -1,23 +1,26 @@
-a,
-a:visited,
-a:link {
-    border-bottom: 2px solid $commotion-yellow;
-    color: inherit;
-    font-weight:bold;
-    text-decoration: none;
-  
-    &:hover {
-	   border-bottom: 2px solid $commotion-pink;
-    }
-}
-
-a.simple,
-a.simple:link {
-    border-bottom: none;
-    font-weight: 500;
+// Prevent body link styles from stomping twbs nav styles
+#main_content_wrap {
+    a,
+    a:visited,
+    a:link {
+        border-bottom: 2px solid $commotion-yellow;
+        color: inherit;
+        font-weight:bold;
+        text-decoration: none;
     
-    &:hover {
-        font-weight: 800;
+        &:hover {
+        border-bottom: 2px solid $commotion-pink;
+        }
+    }
+    
+    a.simple,
+    a.simple:link {
+        border-bottom: none;
+        font-weight: 500;
+        
+        &:hover {
+            font-weight: 800;
+        }
     }
 }
 
