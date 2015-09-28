@@ -41,22 +41,21 @@ grid:
 ---
 
 <!-- TODO: Look at TWBS gutter/tile/thumbnail system to construct grid -->
-<div class="container">
-    <div class="row grid">
-        {% for cell in page.grid %}
-        <div class="col-md-4 tile">
-            <a href="{{site.baseurl}}{{cell.url}}" class="simple">
-                <img src="{{site.baseurl}}{{cell.image}}" class="grid-icon">
-            </a>
-            <h2 class="h4"><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></h2>
-            <h3 class="h5">{{cell.text}}</h3>
-        </div>
-        {% if forloop.last == false %}
-        {% cycle 'row-grid': nil, nil, '</div><div class="row">' %}
-        {% endif %}
-        {% endfor %}
+<div class="grid home-width container">
+  <div class="grid-row row">
+    {% for cell in page.grid %}
+    <div class="grid-cell">
+      <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
+      <h4><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></h4>
+      <h5>{{cell.text}}</h5>
     </div>
+    {% if forloop.last == false %}
+    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row row">' %}
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
+
 
 
 
