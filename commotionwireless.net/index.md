@@ -46,8 +46,8 @@ grid:
     {% for cell in page.grid %}
     <div class="grid-cell">
       <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
-      <h4><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></h4>
-      <h5>{{cell.text}}</h5>
+      <h2 class="h4"><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></h2>
+      <h3 class="h5 small">{{cell.text}}</h3>
     </div>
     {% if forloop.last == false %}
     {% cycle 'row-grid': nil, nil, '</div><div class="grid-row row">' %}

@@ -43,17 +43,6 @@
     }
 }
 
-.grid-cell h4 {
-  font-size: 1.2em;
-  margin: 10px 0px;
-  color: black;
-}
-
-.grid-cell h5 {
-  font-size: 1em;
-  font-weight: normal;
-}
-
 img.grid-icon { 
   background-color: inherit !important; 
   max-height:100px;
@@ -94,4 +83,16 @@ img.grid-icon {
     width: 100%;
     background-color: rgba(255,255,255,.9);
     padding: 5px;
+}
+
+@media screen and (max-width: 620px) {
+    .grid { border-spacing: 0; }
+    .grid-row {  display: block; }
+    .grid-cell, .grid-gallery { width: 100%; float: left;}
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .grid {     border-spacing: 0; }
+    .grid-row {  display: block; }
+    .grid-cell, .grid-gallery { width: 100%; float: left; }
 }
