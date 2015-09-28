@@ -1,4 +1,6 @@
-/**** GRID START ****/
+// Custom grid of square tiles.
+// Cell and row styles overlap with Bootstrap,
+// but as of v3.3.5, Bootstrap does not have easy, responsive, square cells.
 
 .grid {
     display: table;
@@ -7,11 +9,11 @@
     padding: 0;
     border: separate;
     border-spacing: 1.5em;
-}
-
-.grid:after {
-    content: "";
-    clear: both;
+    
+    &:after {
+        content: "";
+        clear: both;
+    }
 }
 
 .grid-row {
@@ -35,10 +37,10 @@
     background-color: $gray-lighter;
     text-align: center;
     padding: 15px;
-}
-
-.grid-cell:hover {
-    background-color: white;
+    
+    &:hover {
+        background-color: white;
+    }
 }
 
 .grid-cell h4 {
@@ -68,10 +70,11 @@ img.grid-icon {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color:$gray-lighter;
+    background-color: $gray-lighter;
 }
 
-.grid-gallery a, .grid-gallery a:link {
+.grid-gallery a,
+.grid-gallery a:link {
     border-bottom: none;
 }
 
@@ -92,7 +95,3 @@ img.grid-icon {
     background-color: rgba(255,255,255,.9);
     padding: 5px;
 }
-
-/**** GRID END ****/
-
-
