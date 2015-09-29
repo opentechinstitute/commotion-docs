@@ -30,11 +30,12 @@ lang: en
 <p>Pre-built downloads for the Commotion android devices we currently support are listed below.</p>
 
 <h2>PLEASE NOTE:</h2>
-
-  * <strong>Your phone must be rooted</strong> to run this package.
-  * Commotion Android will connect to Commotion networks up to Commotion Router PR3. However, it is not fully feature compatible with Commotion Router 1.0 or higher.
-  * See the <a href="/docs/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.
-
+<p>
+	<ul>
+		<li><strong>Your phone must be rooted</strong> to run this package.</li>
+		<li>Commotion Android will connect to Commotion networks up to Commotion Router PR3. However, it is not fully feature compatible with Commotion Router 1.0 or higher.</li>
+  		<li>See the <a href="/docs/supported-devices/#phones">Commotion Android Supported Hardware</a> page for device-specific information.</li>
+	</ul>
 </p>
 
 <h2>Version Information</h2>
@@ -44,7 +45,7 @@ lang: en
 
 <h3>Stable Builds:</h3>
 
-<table class="files list">
+<table class="table table-bordered">
 	<thead>
 		<tr>
 			<th>File</th>
@@ -67,4 +68,4 @@ lang: en
 </table>
 <p>&nbsp;</p>
 
-<p><a class="button" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Source Code</a></p>
+<p><button class="btn btn-default" href="https://github.com/opentechinstitute/commotion-android" id="android-source-btn">Source Code</button></p>
