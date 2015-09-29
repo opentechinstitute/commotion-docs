@@ -37,65 +37,76 @@
 }
 
 #sidemenu {
-    margin:20px 0px;
-    padding:0px 0px;
-    width:100%;
+    a,
+    a:visited,
+    a:link {
+        border-bottom: none;
+        
+        &:hover {
+            border-bottom: none;
+        }
+    }
 }
-
-#sidemenu ul {
-    padding: 0px;
-    list-style: none inside none;
-    background-color:rgba(0,255,207,1);
-}
-
-#sidemenu ul ul {
-    padding: 0px;
-    margin: 0px;
-    border-left: 3px solid $commotion-pink;
-    background-color:lightgrey;
-}
-
-#sidemenu ul li {
-    margin: 0px;
-    padding: 0px;
-}
-
-#sidemenu ul ul li a, #menu ul ul li a:link, #menu ul ul li a:visited {
-    padding:5px 20px;
-}
-
-#sidemenu ul li a, #menu ul li a:link, #menu ul li a:visited {
-    display: block;
-    color: black;
-    text-decoration: none;
-    width: 100%;
-    border-bottom: medium none;
-    font-weight: normal;
-    margin: 0px;
-    padding:8px 20px;
-    width:100%;
-}
-
-#sidemenu ul li a:hover {
-    background-color:rgba(0,0,0,.5);
-}
-
-#sidemenu .highlight {
-  background-color: $commotion-yellow;
-}
-
-#sidemenu .heading {
-    background-color: $commotion-lightblack;
-    padding:10px 10px;
-    font-weight:600;
-    color: $commotion-white;
-}
-
-#sidemenu .post-calendar,
-#sidemenu .tag-cloud {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+// #sidemenu {
+//     margin:20px 0px;
+//     padding:0px 0px;
+//     width:100%;
+// }
+// 
+// #sidemenu ul {
+//     padding: 0px;
+//     list-style: none inside none;
+//     background-color:rgba(0,255,207,1);
+// }
+// 
+// #sidemenu ul ul {
+//     padding: 0px;
+//     margin: 0px;
+//     border-left: 3px solid $commotion-pink;
+//     background-color:lightgrey;
+// }
+// 
+// #sidemenu ul li {
+//     margin: 0px;
+//     padding: 0px;
+// }
+// 
+// #sidemenu ul ul li a, #menu ul ul li a:link, #menu ul ul li a:visited {
+//     padding:5px 20px;
+// }
+// 
+// #sidemenu ul li a, #menu ul li a:link, #menu ul li a:visited {
+//     display: block;
+//     color: black;
+//     text-decoration: none;
+//     width: 100%;
+//     border-bottom: medium none;
+//     font-weight: normal;
+//     margin: 0px;
+//     padding:8px 20px;
+//     width:100%;
+// }
+// 
+// #sidemenu ul li a:hover {
+//     background-color:rgba(0,0,0,.5);
+// }
+// 
+// #sidemenu .highlight {
+//   background-color: $commotion-yellow;
+// }
+// 
+// #sidemenu .heading {
+//     background-color: $commotion-lightblack;
+//     padding:10px 10px;
+//     font-weight:600;
+//     color: $commotion-white;
+// }
+// 
+// #sidemenu .post-calendar,
+// #sidemenu .tag-cloud {
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+// }
 
 // Only reference below this point
 
