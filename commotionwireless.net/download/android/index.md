@@ -10,20 +10,21 @@ lang: en
 ## Commotion Android
 
 <div class="warning-label">
-<div class="alert alert-warning-label">
-<h2><span class="glyphicon glyphicon-alert"></span>WARNING</h2>
-</div>
-
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
-</ul>
-<a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
+	<div class="alert alert-warning-label">
+		<h2><i class="fa fa-exclamation-triangle"></i> WARNING</h2>
+	</div>
+	
+	<div class="warning-bottom">
+		<h2>Commotion</h2>
+		
+		<ul>
+			<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
+			<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
+			<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
+			<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
+		</ul>
+		<a href="/understanding-commotions-warning-label">For More Info Click Here</a>
+	</div>
 </div>
 
 <p>Pre-built downloads for the Commotion android devices we currently support are listed below.</p>
