@@ -7,7 +7,7 @@ changed: 2013-07-06
 post_author: grady
 lang: en
 ---
-  <p>The images below can be flashed on M-Series wireless routers from Ubiquiti. The router model for each image is listed above the download file.</p>
+<p>The images below can be flashed on M-Series wireless routers from Ubiquiti. The router model for each image is listed above the download file.</p>
 
 <p>Don't see your router in this list? See the <a href="https://code.commotionwireless.net/projects/commotion/wiki/Commotion_OpenWRT_Supported_Hardware">Commotion OpenWRT Supported Hardware</a> page.</p>
 

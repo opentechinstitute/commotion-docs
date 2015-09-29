@@ -9,23 +9,6 @@ lang: en
 ---
 <h2>Commotion Router</h2>
 
-<div class="warning-label">
-<div class="warning-top">
-<h2>WARNING</h2>
-</div>
-
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-	<li><a href="/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
-	<li><a href="/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
-	<li><a href="/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
-	<li><a href="/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
-</ul>
-<a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
-</div>
-
 <p>Commotion Router is a distribution of OpenWRT Linux that supports the wireless routers listed by vendor below. If you're not sure which file to download, check the full list of <a href="/docs/supported-devices">devices we currently support</a>.</p>
 
 <p>For instructions on getting Commotion set up on your router, see the installation instructions, linked in each of the manufacturer sections below. After installation, check the Commotion <a href="/docs/cck/installing-configuring/configure-commotion/">Configuration</a> pages if you need help setting up the hardware. If you are updating from older versions of Commotion (Pre-Release, Developer Release, or 1.0 versions), read through the <a href="https://wiki.commotionwireless.net/doku.php?id=general_resources:documentation:router:upgrading_from_previous_versions">Upgrade Guide</a> on our <a href="https://wiki.commotionwireless.net/">wiki</a>.</p>
