@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Download Commotion OpenBTS
 categories:
 created: 2013-06-28
