@@ -24,6 +24,19 @@
     }
 }
 
+.issue-button {
+    border: thin solid $gray-light;
+    background-color: $gray-lighter;
+    text-align: center;
+    padding: 15px;
+    margin: 12px 0px;
+    
+    &:hover {
+        background-color: white;
+    }
+}
+
+
 // Only reference below this point
 
 /* used to define the width of the header and body */
@@ -122,18 +135,6 @@
 // 
 // .collection-content p {
 //     padding: 0px 1em;
-// }
-// 
-// .issue-button {
-//     border: thin solid lightgrey;
-//     background-color: #eee;
-//     text-align: center;
-//     padding: 15px;
-//     margin: 12px 0px;
-// }
-// 
-// .issue-button:hover {
-//     background-color: white;
 // }
 // 
 // 
