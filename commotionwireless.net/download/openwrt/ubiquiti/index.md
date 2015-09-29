@@ -11,9 +11,9 @@ lang: en
 
 <p>Don't see your router in this list? See the <a href="https://code.commotionwireless.net/projects/commotion/wiki/Commotion_OpenWRT_Supported_Hardware">Commotion OpenWRT Supported Hardware</a> page.</p>
 
-<h3>Stable Builds:</h3>
+<h2>Stable Builds:</h2>
 
-<table class="files list">
+<table class="table table-bordered">
 	<thead>
 		<tr>
 			<th>File</th>
@@ -107,7 +107,9 @@ lang: en
 	</tbody>
 </table>
 
-<p><a class="button" href="https://github.com/opentechinstitute/commotion-openwrt" id="openwrt-source-btn">Source Code</a></p>
+<p>
+	<button class="btn btn-default" href="https://github.com/opentechinstitute/commotion-openwrt" id="openwrt-source-btn">Source Code</button>
+</p>
 
 <p>In addition to the main source code repository above, source code for all of the individual Commotion-OpenWRT components can be found on our <a href="https://github.com/opentechinstitute">Github page</a>.</p>
  

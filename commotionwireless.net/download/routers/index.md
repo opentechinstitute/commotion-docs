@@ -19,12 +19,17 @@ lang: en
 <p>&nbsp;</p>
 
 <table style="width:600px; ">
-<tr><td><h3 id="ubiquiti-airmax">Ubiquiti AirMax Routers</h3></td>
-<td style="align:right; vertical-align:bottom; padding-bottom:1em;"><a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Installation Instructions</a></td>
-</tr>
+  <tr>
+    <td>
+      <h3 id="ubiquiti-airmax">Ubiquiti AirMax Routers</h3>
+    </td>
+    <td style="align:right; vertical-align:bottom; padding-bottom:1em;">
+      <a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Installation Instructions</a>
+    </td>
+  </tr>
 </table>
 
-<table class="files list">
+<table class="table table-bordered">
   <thead>
     <tr>
 	<th scope="col">Router</th>

@@ -25,7 +25,7 @@ lang: en
 
 <h3>Unstable Builds:</h3>
 
-<table class="files list">
+<table class="table table-bordered">
 	<thead>
 		<tr>
 			<th>File</th>
@@ -44,4 +44,6 @@ lang: en
 	</tbody>
 </table>
 
-<p><a class="button" href="https://github.com/opentechinstitute/commotion-openbts" id="openbts-source-btn">Source Code</a></p>
+<p>
+	<button class="btn btn-default" href="https://github.com/opentechinstitute/commotion-openbts" id="openbts-source-btn">Source Code</button>
+</p>
