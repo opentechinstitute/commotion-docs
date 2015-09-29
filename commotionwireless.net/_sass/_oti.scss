@@ -44,6 +44,10 @@
     margin-bottom: 0;
 }
 
+#sidemenu .highlight {
+    background-color: $commotion-yellow;
+}
+
 #sidemenu .nav {
     background-color: rgba(0, 255, 207, 1);
 }
@@ -66,47 +70,6 @@
     border-left: 3px solid $commotion-pink;
     background-color: $gray-light;
 }
-
-
-// #sidemenu {
-//     margin:20px 0px;
-//     padding:0px 0px;
-//     width:100%;
-// }
-// 
-// #sidemenu ul {
-//     padding: 0px;
-// }
-// 
-// #sidemenu ul ul {
-//     padding: 0px;
-//     margin: 0px;
-// }
-// 
-// #sidemenu ul li {
-//     margin: 0px;
-//     padding: 0px;
-// }
-// 
-// #sidemenu ul ul li a, #menu ul ul li a:link, #menu ul ul li a:visited {
-//     padding:5px 20px;
-// }
-// 
-
-// 
-
-// 
-// #sidemenu .highlight {
-//   background-color: $commotion-yellow;
-// }
-// 
-
-// 
-// #sidemenu .post-calendar,
-// #sidemenu .tag-cloud {
-//     margin-top: 20px;
-//     margin-bottom: 20px;
-// }
 
 // Only reference below this point
 
