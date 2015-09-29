@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Download Commotion OpenWRT - Ubiquiti
 categories: 
 created: 2013-06-28
