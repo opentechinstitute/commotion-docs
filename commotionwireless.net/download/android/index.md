@@ -10,8 +10,8 @@ lang: en
 ## Commotion Android
 
 <div class="warning-label">
-<div class="warning-top">
-<h2>WARNING</h2>
+<div class="alert alert-danger">
+<h2><span class="glyphicon glyphicon-alert"></span>WARNING</h2>
 </div>
 
 <div class="warning-bottom">
