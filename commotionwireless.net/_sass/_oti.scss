@@ -49,6 +49,22 @@
         }
     }
 }
+
+#sidemenu .heading {
+    background-color: $commotion-lightblack;
+    padding:10px 10px;
+    font-weight:600;
+    color: $commotion-white;
+}
+
+// #sidemenu #ul {
+//     background-color: rgba(0, 255, 207, 1);
+// }
+// 
+// #sidemenu #ul ul {
+//     border-left: 3px solid $commotion-pink;
+//     background-color: $gray-light;
+// }
 // #sidemenu {
 //     margin:20px 0px;
 //     padding:0px 0px;
@@ -97,12 +113,7 @@
 //   background-color: $commotion-yellow;
 // }
 // 
-// #sidemenu .heading {
-//     background-color: $commotion-lightblack;
-//     padding:10px 10px;
-//     font-weight:600;
-//     color: $commotion-white;
-// }
+
 // 
 // #sidemenu .post-calendar,
 // #sidemenu .tag-cloud {
