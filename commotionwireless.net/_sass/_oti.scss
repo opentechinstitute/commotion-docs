@@ -41,9 +41,11 @@
     a:visited,
     a:link {
         border-bottom: none;
+        font-weight: normal;
         
         &:hover {
             border-bottom: none;
+            font-weight: normal;
         }
     }
 }
