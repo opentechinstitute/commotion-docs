@@ -41,6 +41,7 @@
     padding:10px 10px;
     font-weight:600;
     color: $commotion-white;
+    margin-bottom: 0;
 }
 
 #sidemenu .nav {
@@ -61,7 +62,7 @@
     }
 }
 
-#sidemenu ul ul {
+#sidemenu .nav ul {
     border-left: 3px solid $commotion-pink;
     background-color: $gray-light;
 }
