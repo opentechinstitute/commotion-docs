@@ -80,6 +80,6 @@ grid:
     {% endfor %}
   </div>
   <div class="grid-row row">
-    <div class="grid-cell"><a href="{{site.baseurl}}/blog/">MORE POSTS > </a></div>
+    <div class="grid-cell pull-left"><a href="{{site.baseurl}}/blog/">MORE POSTS > </a></div>
   </div>
 </div>
