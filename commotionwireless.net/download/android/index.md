@@ -29,7 +29,7 @@ lang: en
 
 <p>Pre-built downloads for the Commotion android devices we currently support are listed below.</p>
 
-<p><strong>PLEASE NOTE:</strong>
+<h2>PLEASE NOTE:</h2>
 
   * <strong>Your phone must be rooted</strong> to run this package.
   * Commotion Android will connect to Commotion networks up to Commotion Router PR3. However, it is not fully feature compatible with Commotion Router 1.0 or higher.
@@ -37,7 +37,9 @@ lang: en
 
 </p>
 
-<p><strong>Current Release</strong> = (PR3)&nbsp; Pre-Release 3<br />
+<h2>Version Information</h2>
+<p>
+<strong>Current Release</strong> = (PR3)&nbsp; Pre-Release 3<br />
 <strong>Next Release</strong> = v1.0</p>
 
 <h3>Stable Builds:</h3>
