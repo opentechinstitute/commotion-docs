@@ -1,10 +1,9 @@
+@import "bootstrap/mixins/alerts";
+
 $alert-warning-label-bg: $warning-label-orange;
 $alert-warning-label-border: black;
 $alert-warning-label-text: black;
 
 .alert-warning-label {
-	// 	@include alert-variant($alert-warning-label-bg, $alert-warning-label-border, $alert-warning-label-text);
-	background-color: $alert-warning-label-bg;
-	border: solid 2px $alert-warning-label-border;
-	color: $alert-warning-label-text;
+	@include alert-variant($alert-warning-label-bg, $alert-warning-label-border, $alert-warning-label-text);
 }
