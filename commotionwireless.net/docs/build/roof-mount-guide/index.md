@@ -7,7 +7,7 @@ changed: 2013-07-30
 post_author: critzo
 lang: en
 ---
-  <h2>Rooftop Mounting Guide</h2>
+<h2>Rooftop Mounting Guide</h2>
 
 <h3>Getting Started</h3>
 
@@ -19,7 +19,7 @@ lang: en
 
 <p>Get some help! Ask around your community and see if there are any professional roofers, cable TV or phone installers, or other folks that have experience working in places like this. There are two basic kinds of roof: <strong>flat</strong> and <strong>pitched</strong>. Flat roofs are often the easiest to work on, and the safest. Pitched roofs are slanted, and in some cases are very steeply slanted. We advise to only work on a roof with a shallow roof pitch. In the picture below, the roofs in the top row are safest, while the bottom two rows of roofs are likely to be tricky and dangerous.</p>
 
-<p><img alt="Examples of roof pitches" class="media-image attr__typeof__foaf:Image img__fid__238 img__view_mode__media_large attr__format__media_large" height="235" src="/files/styles/large/public/Example_of_Roof_Pitches_small_0.jpg?itok=ZBeh1EI-" typeof="foaf:Image" width="480" /></p>
+<p><img alt="Examples of roof pitches" class="img-responsive" height="235" src="/files/styles/large/public/Example_of_Roof_Pitches_small_0.jpg?itok=ZBeh1EI-" typeof="foaf:Image" width="480" /></p>
 
 <p>With either roof type, there are a variety of roof coverings and sealants to be aware of. These all protect the roof and make it waterproof. The most important rule when installing something on a roof: <strong>never drill any holes in the roof surface itself</strong>. Even if the holes are sealed properly, they will eventually leak, and lead to problems in the long run.</p>
 
@@ -29,7 +29,7 @@ lang: en
 
 <h3>Anchor Mount</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__239 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/anchor.png?itok=SRs3k49g" style="width: 52px; height: 154px; float: right; margin: 10px;" typeof="foaf:Image" />The typical anchor mount is made up of two v-shaped pieces of metal, which you attach to the chimney with screws and anchors. Kits are sometimes available at Radio Shack, or online:</p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/anchor.png?itok=SRs3k49g" style="width: 52px; height: 154px; float: right; margin: 10px;" typeof="foaf:Image" />The typical anchor mount is made up of two v-shaped pieces of metal, which you attach to the chimney with screws and anchors. Kits are sometimes available at Radio Shack, or online:</p>
 
 <ul>
 	<li>http://bit.ly/vbkbOD</li>
@@ -40,7 +40,7 @@ lang: en
 
 <h3>Strap Mount</h3>
 
-<p><img alt="Strap mount" class="media-image attr__typeof__foaf:Image img__fid__240 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/strap.png?itok=pEUVVWIV" style="width: 109px; height: 156px; float: right; margin: 10px;" typeof="foaf:Image" />A strap mount uses steel straps wrapped around the chimney, which are tightened with a wrench to secure brackets for a pole. Usually these must be ordered on-line:</p>
+<p><img alt="Strap mount" class="img-responsive" src="/files/styles/large/public/strap.png?itok=pEUVVWIV" style="width: 109px; height: 156px; float: right; margin: 10px;" typeof="foaf:Image" />A strap mount uses steel straps wrapped around the chimney, which are tightened with a wrench to secure brackets for a pole. Usually these must be ordered on-line:</p>
 
 <ul>
 	<li>http://www.starkelectronic.com/cmwalmt.htm</li>
@@ -51,7 +51,7 @@ lang: en
 
 <h3>Vent Attachments</h3>
 
-<p><img alt="Vent mount image" class="media-image attr__typeof__foaf:Image img__fid__241 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/vent.png?itok=Lte05j20" style="width: 76px; height: 167px; margin: 10px; float: right;" typeof="foaf:Image" />When there is a sturdy vent stack pipe coming out of the roof, we can mount a mast to it to extend the height. There are various kinds of mounts, but they are all essentially made up of two pieces of metal which bolt around the vent stack and your mast, and attach them firmly together. You may have luck at your local hardware store or Radio Shack finding one, but they are generally available on-line:</p>
+<p><img alt="Vent mount image" class="img-responsive" src="/files/styles/large/public/vent.png?itok=Lte05j20" style="width: 76px; height: 167px; margin: 10px; float: right;" typeof="foaf:Image" />When there is a sturdy vent stack pipe coming out of the roof, we can mount a mast to it to extend the height. There are various kinds of mounts, but they are all essentially made up of two pieces of metal which bolt around the vent stack and your mast, and attach them firmly together. You may have luck at your local hardware store or Radio Shack finding one, but they are generally available on-line:</p>
 
 <ul>
 	<li>http://bit.ly/rVtlVN</li>
@@ -62,7 +62,7 @@ lang: en
 
 <h3>Eaves Attachments</h3>
 
-<p><img alt="Eaves mount image" class="media-image attr__typeof__foaf:Image img__fid__242 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/eaves.png?itok=YtnsKHIX" style="width: 191px; height: 97px; margin: 10px; float: right;" typeof="foaf:Image" />These are placed at the end of a pitched roof, where other methods won't work. It won’t work on a flat roof, as there usually isn't an eave! It must be drilled in to the wood supports of the roof. There are various kits with different lengths of bottom supports, but look for adjustable models which can stretch out to best fit your roof:</p>
+<p><img alt="Eaves mount image" class="img-responsive" src="/files/styles/large/public/eaves.png?itok=YtnsKHIX" style="width: 191px; height: 97px; margin: 10px; float: right;" typeof="foaf:Image" />These are placed at the end of a pitched roof, where other methods won't work. It won’t work on a flat roof, as there usually isn't an eave! It must be drilled in to the wood supports of the roof. There are various kits with different lengths of bottom supports, but look for adjustable models which can stretch out to best fit your roof:</p>
 
 <ul>
 	<li>http://bit.ly/sa3im3</li>
@@ -73,7 +73,7 @@ lang: en
 
 <h3>Non-Penetrating Attachments</h3>
 
-<p><img alt="Non-penetrating mount image" class="media-image attr__typeof__foaf:Image img__fid__243 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/non-pen.png?itok=FXbcl6rD" style="width: 96px; height: 165px; margin: 10px; float: right;" typeof="foaf:Image" />This type of mounting method uses weight to secure a mast to the roof - there is no drilling or bolting required. These are generally the preferred method if you don't have a chimney or vent to mount to, but they can be used even if you do have those available. They are available from lots of sources now that satellite TV is so popular, but a few good sources:</p>
+<p><img alt="Non-penetrating mount image" class="img-responsive" src="/files/styles/large/public/non-pen.png?itok=FXbcl6rD" style="width: 96px; height: 165px; margin: 10px; float: right;" typeof="foaf:Image" />This type of mounting method uses weight to secure a mast to the roof - there is no drilling or bolting required. These are generally the preferred method if you don't have a chimney or vent to mount to, but they can be used even if you do have those available. They are available from lots of sources now that satellite TV is so popular, but a few good sources:</p>
 
 <ul>
 	<li>http://www.aisatellite.com/products.htm</li>
@@ -83,7 +83,7 @@ lang: en
 <p>There are also non-penetrating mounts for pitched roofs - they mount at the peak of the roof and have a flap that fits on each side of the roof:</p>
 
 <ul>
-	<li>* http://bit.ly/rT0vlr</li>
+	<li>http://bit.ly/rT0vlr</li>
 </ul>
 
 <p>Whichever non-penetrating hardware is used, you <strong>must</strong> do the following:</p>
