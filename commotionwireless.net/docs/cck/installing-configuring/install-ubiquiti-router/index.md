@@ -12,7 +12,7 @@ post_author: critzo
 lang: en
 ---
 
-<p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
+<p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
@@ -44,7 +44,7 @@ lang: en
 <p>Download “Factory” Commotion image for your hardware:<br />
 <a href="/download/routers">https://commotionwireless.net/download/routers</a></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__736 img__view_mode__media_large attr__format__media_large" height="300" src="/files/styles/large/public/downloadsR1.png?itok=Ik_ZrDzo" typeof="foaf:Image" width="480" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/styles/large/public/downloadsR1.png?itok=Ik_ZrDzo" typeof="foaf:Image" width="480" /></p>
 
 <p class="tip">Save the file somewhere you can access easily later. A good place to save the file is on your Desktop, or in your Downloads directory.</p>
 </section>
@@ -52,7 +52,7 @@ lang: en
 <section id="prepare-the-hardware">
 <h2>Setup the Hardware</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__443 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/install_on_ubiquiti_equipment_setup_1.png?itok=KfxWqJwJ" style="width: 510px; height: 388px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/install_on_ubiquiti_equipment_setup_1.png?itok=KfxWqJwJ" style="width: 510px; height: 388px;" typeof="foaf:Image" /></p>
 
 <p><strong>Warning! It is very important that you do not port labeled POE into your computer! You could damage your computer.</strong></p>
 
@@ -72,7 +72,7 @@ lang: en
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__486 img__view_mode__media_large attr__format__media_large" height="297" src="/files/styles/large/public/install_on_ubiquiti_changeip_0.png?itok=sMmww2fs" typeof="foaf:Image" width="250" /></p>
+			<p><img alt="" class="img-responsive" height="297" src="/files/styles/large/public/install_on_ubiquiti_changeip_0.png?itok=sMmww2fs" typeof="foaf:Image" width="250" /></p>
 			</td>
 			<td>
 			<p>1. Turn off your computer’s WIFI.</p>
@@ -97,7 +97,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__439 img__view_mode__media_large attr__format__media_large" height="212" src="/files/styles/large/public/install_on_ubiquiti_admin.png?itok=PJ3QRDwr" typeof="foaf:Image" width="228" /></p>
+			<p><img alt="" class="img-responsive" height="212" src="/files/styles/large/public/install_on_ubiquiti_admin.png?itok=PJ3QRDwr" typeof="foaf:Image" width="228" /></p>
 			</td>
 			<td>
 			<p>1. Open your Web browser and enter http://192.168.1.20 in the address bar. This is the IP address of the router. The Ubiquiti AirOS web interface should load.</p>
@@ -110,7 +110,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__467 img__view_mode__media_large attr__format__media_large" height="175" src="/files/styles/large/public/install_on_ubiquiti_login_1.png?itok=qEdPSgHq" typeof="foaf:Image" width="246" /></p>
+			<p><img alt="" class="img-responsive" height="175" src="/files/styles/large/public/install_on_ubiquiti_login_1.png?itok=qEdPSgHq" typeof="foaf:Image" width="246" /></p>
 			</td>
 			<td>
 			<p>2. Log in to the interface:<br />
@@ -125,7 +125,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__456 img__view_mode__media_large attr__format__media_large" height="181" src="/files/styles/large/public/install_on_ubiquiti_browse_0.png?itok=6PaxEOtU" typeof="foaf:Image" width="462" /></p>
+			<p><img alt="" class="img-responsive" height="181" src="/files/styles/large/public/install_on_ubiquiti_browse_0.png?itok=6PaxEOtU" typeof="foaf:Image" width="462" /></p>
 
 			<p>3. Navigate to the System tab, under the "Firmware Update" section click “Browse” and choose the Commotion file that you downloaded for your specific router.</p>
 			</td>
@@ -137,7 +137,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__457 img__view_mode__media_large attr__format__media_large" height="187" src="/files/styles/large/public/install_on_ubiquiti_upload_0.png?itok=LRZib41x" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" height="187" src="/files/styles/large/public/install_on_ubiquiti_upload_0.png?itok=LRZib41x" typeof="foaf:Image" width="480" /></p>
 
 			<p>4. Click “Upload” and wait for the next prompt.</p>
 			</td>
@@ -149,7 +149,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__458 img__view_mode__media_large attr__format__media_large" height="126" src="/files/styles/large/public/install_on_ubiquiti_update.png?itok=CzDQypDR" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" height="126" src="/files/styles/large/public/install_on_ubiquiti_update.png?itok=CzDQypDR" typeof="foaf:Image" width="480" /></p>
 
 			<p>5. Click “Update.” The device will install the software. During this stage, the first and last light under the triangle will light, and then all of the other lights will go out, except for the power light.</p>
 			</td>
@@ -161,7 +161,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__455 img__view_mode__media_large attr__format__media_large" height="192" src="/files/styles/large/public/install_on_ubiquiti_reboot_4.png?itok=39PomuMO" typeof="foaf:Image" width="220" /></p>
+			<p><img alt="" class="img-responsive" height="192" src="/files/styles/large/public/install_on_ubiquiti_reboot_4.png?itok=39PomuMO" typeof="foaf:Image" width="220" /></p>
 			</td>
 			<td>
 			<p>6. After the lights all go out, the device will reboot. Wait a few minutes until the power light and one light under the triangle hold steady green.<br />
@@ -177,7 +177,7 @@ DNS:</br />(blank)</code></p>
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__737 img__view_mode__media_original attr__format__media_original" height="239" src="/files/thisnode.png" typeof="foaf:Image" width="268" /></p>
+			<p><img alt="" class="img-responsive" height="239" src="/files/thisnode.png" typeof="foaf:Image" width="268" /></p>
 			</td>
 			<td>
 			<p>7. Go to <strong>http://thisnode</strong> in your Web browser. If you see the Commotion screen, congratulations! You now have a Commotion wireless router!</p>

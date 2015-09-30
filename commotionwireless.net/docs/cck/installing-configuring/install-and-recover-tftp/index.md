@@ -12,7 +12,7 @@ post_author: critzo
 lang: en
 ---
 
-<p><img src="/files/CCK-Recover_with_TFTP_support1.png" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_support1.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
@@ -58,7 +58,7 @@ lang: en
 
 <p>Next, the Ubiquiti router must be put in a special mode to load files on to it using TFTP. To set the router to recovery mode, it must be powered on with the Reset button pressed, until the status lights flash in a special order. To put your router in recovery mode:</p>
 
-<p><img src="/files/CCK-Recover_with_TFTP_support2.png" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_support2.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
     <li>If your router is already plugged in to power, remove the Ethernet cable from the bottom of the router. The lights on the router will go off.</li>
@@ -71,32 +71,32 @@ lang: en
 
 <h4>Original Ubiquiti light sequence</h4>
 <p>First, the two middle lights - one Orange and one Green - will light for a few seconds, then go out.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" class="img-responsive" /></p>
 
 <p>Next, the lights from left to right will light up in order: Red, Orange, Green, and Green again.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h4>New Ubiquiti light sequence</h4>
 <p>First, the two middle lights, One orange and one Green, will light for a few seconds, then go out. The lights will remain off for about 10 sections - be patient!</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" class="img-responsive" /></p>
 
 <p>Next, all of the lights will flash on, then turn off. This will happen three times.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" class="img-responsive" /></p>
 
 <p>Once the router is in the final stage - where the two sets of lights are flashing back and forth, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute pass and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
 
@@ -219,32 +219,32 @@ Gateway: <code>192.168.1.1</code></p>
 
 <h4>Original Ubiquiti light sequence</h4>
 <p>First, the two middle lights - one Orange and one Green - will light for a few seconds, then go out.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" class="img-responsive" /></p>
 
 <p>Next, the lights from left to right will light up in order: Red, Orange, Green, and Green again.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h4>New Ubiquiti light sequence</h4>
 <p>First, the two middle lights, One orange and one Green, will light for a few seconds, then go out. The lights will remain off for about 10 sections - be patient!</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" class="img-responsive" /></p>
 
 <p>Next, all of the lights will flash on, then turn off. This will happen three times.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" class="img-responsive" /></p>
 
 <p>Once the router is in the final stage - where the two sets of lights are flashing back and forth, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute pass and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
 
@@ -379,32 +379,32 @@ Gateway: <code>192.168.1.1</code></p>
 
 <h4>Original Ubiquiti light sequence</h4>
 <p>First, the two middle lights - one Orange and one Green - will light for a few seconds, then go out.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" class="img-responsive" /></p>
 
 <p>Next, the lights from left to right will light up in order: Red, Orange, Green, and Green again.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h4>New Ubiquiti light sequence</h4>
 <p>First, the two middle lights, One orange and one Green, will light for a few seconds, then go out. The lights will remain off for about 10 sections - be patient!</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" class="img-responsive" /></p>
 
 <p>Next, all of the lights will flash on, then turn off. This will happen three times.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" class="img-responsive" /></p>
 
 <p>Once the router is in the final stage - where the two sets of lights are flashing back and forth, the unit is in TFTP mode. You can release the Reset button at this point. If 30 seconds to a minute pass and the lights do not cooperate, you may need to try again. Unplug the Ethernet cable and start the process again.</p>
 

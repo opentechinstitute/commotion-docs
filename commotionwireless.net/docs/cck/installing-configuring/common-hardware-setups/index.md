@@ -12,7 +12,7 @@ post_author: andygunn
 lang: en
 ---
 
-<img alt="Commotion Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro.png" style="max-width:600px;" />
+<img alt="Commotion Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro.png" class="img-responsive" />
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -38,7 +38,7 @@ lang: en
 
 <p>The most common configuration of wireless nodes is made up of the nodes themselves, the mesh links between nodes, and any users connected to the network. It involves two or more wireless nodes, installed with the Commotion software. The nodes in the example below are an assortment of omnidirectional nodes, but the specific type doesn’t matter as long as they are within wireless range of each other.</p>
 
-<p><img src="/files/CCK_CommonConfigs_01_Nodes_meshed_wirelessly_building.png" style="max-width:800px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_01_Nodes_meshed_wirelessly_building.png" class="img-responsive" /></p>
 
 <p>In the diagram above:</p>
 <ul class="rteindent1">
@@ -63,7 +63,7 @@ lang: en
 <h2>One or more nodes connected to a gateway</h2>
 
 <p>Most networks are designed to provide services, with a connection to the global Internet being the most popular! Commotion is designed to share services across the entire mesh network by default, and will attempt to detect a gateway connection to the Internet when a node boots up. If the wireless node receives an IP address via DHCP on the wired Ethernet port, it will set itself up as a gateway.</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_building.png" style="max-width:800px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_building.png" class="img-responsive" /></p>
 
 <p>In the diagram above:</p>
 <ul class="rteindent1">
@@ -76,7 +76,7 @@ lang: en
 </ul>
 
 <p>The type of modem will vary depending on the Internet Service provider, but it should have at least two ports:</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_modem.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_modem.png" class="img-responsive" /></p>
 
 <ul class="rteindent1">
     <li><strong>(G)</strong> Shows the modem LAN port, which is connected to the Commotion WAN port. There may be multiple LAN ports on the modem or router, any should work fine.</li>
@@ -84,7 +84,7 @@ lang: en
 </ul>
 
 <p>The cable from the modem LAN port should run to the WAN port on the Commotion node. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the WAN port will typically be labeled, and is often a different color - usually blue. These examples are shown below:</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_ports.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_ports.png" class="img-responsive" /></p>
 
 <p><strong>Steps to Configure:</strong></p>
 <p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
@@ -97,7 +97,7 @@ lang: en
 <p>The first Commotion node connected to the modem should receive an IP address and configure itself as a gateway. It will advertise this on the network by default, as long as the “Advertise your gateway to the mesh” is checked in the <strong>Additional Network Interfaces</strong> menu. At this point, the user connecting with the laptop on a mesh node can access the Internet.</p>
 
 <p>After running the Setup Wizard, you can set the node to “gateway only” mode:</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_screenshot.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_screenshot.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
     <li>In the Administration panel, browse to the <strong>Basic Configuration -> Network Settings -> Additional Network Interfaces</strong> menu.</li>
@@ -111,7 +111,7 @@ lang: en
 <h2>Node connected to a local application server</h2>
 
 <p>You have a web server hosting a community blog on your computer, and you want to share it with the neighborhood network. Connect the computer to the mesh node using the wired Ethernet port. The laptop will receive an IP address on the mesh, and you can use Commotion’s application portal to add an entry for the blog, which will be advertised to the users on the mesh via the splash page on all the nodes.</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server.png" class="img-responsive" /></p>
 
 <p>In the diagram above:</p>
 <ul>
@@ -122,7 +122,7 @@ lang: en
 </ul>
 
 <p>The cable will run from the Commotion nodes’ LAN port. On most outdoor routers, there will be a single port on the unit’s PoE power supply. On routers with multiple ports, the LAN ports will typically be labeled, and are often a different color - usually yellow. These examples are shown below:</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_ports.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_ports.png" class="img-responsive" /></p>
 
 <p><strong>Steps to Configure:</strong></p>
 <p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
@@ -133,7 +133,7 @@ lang: en
 </ul>
     
 <p>The Commotion node should provide an IP address to the connected computer. To make sure this is always the case, you can set the node to “DHCP server only” mode:</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
     <li>In the Administration panel, browse to the <strong>Basic Configuration -> Network Settings -> Additional Network Interfaces</strong> menu.</li>
@@ -146,7 +146,7 @@ lang: en
 <h2>Node connected to an external AP or router</h2>
 
 <p>If there is no Internet connection inside a building, you can connect to the rooftop mesh network to provide access. Connect an indoor Access Point or router with a wireless AP to the wired Ethernet port of the Commotion node on the roof. The node will provide any users connecting to the AP with wireless devices such as smartphones and laptops with IP addresses on the mesh. These non-Commotion routers and Access Points can add wireless coverage to areas not covered by the outdoor mesh nodes. By connecting to these indoor APs, users can access the services and gateways that are on the mesh. Since Commotion isn’t compatible with every router, this method allows you to use routers and Access Points you might already have.</p>
-<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP.png" class="img-responsive" /></p>
 
 <p>In the diagram above:</p>
 <ul>
@@ -157,7 +157,7 @@ lang: en
 </ul>
     
 <p>The diagram below demonstrates what this would look like with equipment installed on a building:</p>
-<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP_building.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP_building.png" class="img-responsive" /></p>
 
 <p><strong>Steps to Configure:</strong></p>
 <p>The Commotion nodes should mesh wirelessly after running the Setup Wizard on the first boot, as long as the nodes were configured with the same:</p>
@@ -168,7 +168,7 @@ lang: en
 </ul>
 
 <p>Make sure that the Commotion node’s LAN port is plugged into the “WAN” port of the Access Point or router. The WAN port is the “incoming” connection port, where you would plug in a modem for access to the Internet. The Commotion node should provide an IP address to the AP and any users that connect. To make sure this is always the case, after running the Setup Wizard, you can set the node to “DHCP server only” mode:</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" class="img-responsive" /></p>
 <ol class="rteindent1">
     <li>In the Administration panel, browse to the <strong>Basic Configuration -> Network Settings -> Additional Network Interfaces</strong> menu.</li>
     <li>In the “Gateway Configuration” pull-down menu, select “This device should ALWAYS provide DHCP leases to clients”.</li>

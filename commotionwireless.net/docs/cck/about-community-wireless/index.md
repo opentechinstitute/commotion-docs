@@ -11,7 +11,7 @@ post_author: sifrwahid
 lang: en
 ---
 
-<p><img src="/files/get-started-starting-network.png" alt="starting a network graphic" /></p>
+<p><img src="/files/get-started-starting-network.png" alt="starting a network graphic" class="img-responsive" /></p>
 
 <section>
 <h2>Introduction</h2>
@@ -31,19 +31,19 @@ lang: en
 
 <h3>A network can distribute and share Internet access from one gateway.</h3>
 
-<p><img src="/files/cck/about-community-wireless/one-gateway.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/one-gateway.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 <h3>Or, from multiple gateways.</h3>
 
-<p><img src="/files/cck/about-community-wireless/multi-gateways.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/multi-gateways.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 <h3>A network can distribute local applications from one local server.</h3>
 
-<p><img src="/files/cck/about-community-wireless/one-server.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/one-server.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 <h3>Or, from multiple servers.</h3>
 
-<p><img src="/files/cck/about-community-wireless/multi-servers.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/multi-servers.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 </section>
 

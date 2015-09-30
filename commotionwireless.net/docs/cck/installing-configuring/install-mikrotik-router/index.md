@@ -12,7 +12,7 @@ post_author: andygunn
 lang: en
 ---
 
-<p><img alt="Install on a router graphic" src="/files/Install_MikroTik_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img alt="Install on a router graphic" src="/files/Install_MikroTik_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
@@ -86,7 +86,7 @@ lang: en
 <section id="setup-the-hardware">
 <h2>Setup the Hardware</h2>
 
-<p><img src="/files/Install_MikroTik_prepare_hardware.png" style="max-width:600px;" /></p>
+<p><img src="/files/Install_MikroTik_prepare_hardware.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
     <li>Unpack the MikroTik router and install the external antennas (if the unit has them).</li>
@@ -131,10 +131,10 @@ lang: en
 <p>Once you have the servers installed and running, plug the power adapter into an easily accessible wall outlet or power strip, then the DC power jack (or PoE Ethernet cable) on the router. If there is a power button, depress it to turn the router on.</p>
 
 <p>You should begin to see text in the terminal window running minicom, showing the MikroTik router’s boot process.</p>
-<p><img src="/files/Install_MikroTik-minicom_RouterBoot_init.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_RouterBoot_init.png" class="img-responsive" /></p>
 
 <p>Quickly hit any key on your keyboard to enter the router’s boot menu (you only have a few seconds). If you miss it, disconnect and reconnect the power to the router and start over. If you hit a key in time, you will see the menu:</p>
-<p><img src="/files/Install_MikroTik-minicom_RouterBoot_menu.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_RouterBoot_menu.png" class="img-responsive" /></p>
 <p>This is a special menu that is only accessible over the Serial Console - which is why you need the extra cable.</p>
 
 <p>Next, select <strong>o - boot device</strong> and then select <strong>1</strong> to boot once from the network (the computer you set up with the DHCP, TFTP and Web server), and then boot from the nand after that.</p>
@@ -144,13 +144,13 @@ lang: en
 <p>The router will reboot. Don’t hit a key this time, let the bootloader menu time out. Your computer should give the device a DHCP lease, recognize its MAC address and the device will boot from the file hosted in:</p>
 <p><pre>/var/lib/tftproot/</pre></p>
 <p>This will happen very fast, then the Commotion router software will start to boot.</p>
-<p><img src="/files/Install_MikroTik-minicom_RouterBoot_loading_image.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_RouterBoot_loading_image.png" class="img-responsive" /></p>
 
 <p>A large number of messages will print to the screen as Commotion boots. When the screen stops updating for a while, or you see the message “Please press Enter to activate this console” on the serial terminal screen, Commotion has fully booted. Hit <strong>Enter</strong>.</p>
-<p><img src="/files/Install_MikroTik-minicom_Commotion_booted.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_Commotion_booted.png" class="img-responsive" /></p>
 
 <p>You will see the following Commotion banner, if all went well:</p>
-<p><img src="/files/Install_MikroTik-minicom_Commotion_banner.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_Commotion_banner.png" class="img-responsive" /></p>
 
 <p>If it does not boot from the network, re-check your configuration in:
 <p><pre>/etc/dnsmasq.conf</pre></p>

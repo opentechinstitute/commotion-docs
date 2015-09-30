@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: Plan Wireless Sites
 site_section: docs
 sub_section: [cck,cck-building]
@@ -11,7 +11,8 @@ changed: 2015-05-05
 post_author: Andy Gunn
 lang: en
 ---
-![Plan Wireless Sites intro graphic](/files/Plan_wireless_sites_graphic.png "Intro graphic")
+
+<img src="/files/Plan_wireless_sites_graphic.png" class="img-responsive">
 
 ## Introduction
 

@@ -11,7 +11,7 @@ post_author: Andy Gunn
 lang: en
 ---
 
-![Intro Image](/files/gather_tools_and_equipment_support.png "Intro Image")
+<img src="/files/gather_tools_and_equipment_support.png" class="img-responsive" alt="Line art of miscellaneous tools">
 
 ## Introduction
 

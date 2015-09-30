@@ -12,7 +12,7 @@ post_author: andygunn
 lang: en
 ---
 
-<img alt="Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro2.png" style="max-width:600px;" />
+<img alt="Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro2.png" class="img-responsive" />
 
 <section id="introduction">
 <h2>Introduction</h2>

@@ -12,7 +12,7 @@ post_author: critzo
 lang: en
 ---
 
-<p><img alt="Configure Commotion graphic" src="/files/CCK_Configure_intro_graphic.png" /></p>
+<p><img alt="Configure Commotion graphic" src="/files/CCK_Configure_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -99,26 +99,26 @@ lang: en
 <p>Don’t share the passwords or information with anyone, unless you trust them on the network!</p>
 
 <p><strong>1.</strong> Start Commotion Setup Wizard by clicking on the image labeled <strong>Setup Wizard</strong>:</p>
-<p><img src="/files/CCK-Configure_setup_wizard1.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard1.png" class="img-responsive" /></p>
 <p class="tip">&nbsp; Clicking the Advanced button will disable the Commotion Setup Wizard and allow you to configure your node manually.</p>
 
 <p><strong>2.</strong> Use the information you gathered or decided on to fill in the fields in the Commotion Setup Wizard. The Setup Wizard has four required pages and one optional page. The values you enter are saved as you navigate between pages, and are applied on the Configuration Confirmation page.</p>
 
 <p><strong>Setup Wizard, page 1 - Node settings</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard2.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard2.png" class="img-responsive" /></p>
 <p>Enter the Node Name and Administration Password.</p>
 
 <p><strong>Setup Wizard, page 2 - Network settings</strong><p>
-<p><img src="/files/CCK-Configure_setup_wizard3.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard3.png" class="img-responsive" /></p>
 <p>Enter the Mesh Network Name and select the Channel. If your mesh network should encrypt traffic between mesh devices, check the appropriate box and enter the Mesh Encryption Password.</p>
 
 <p><strong>Setup Wizard, page 3 - Wireless Network</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard4.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard4.png" class="img-responsive" /></p>
 <p>If desired, configure an Access Point (AP) to provide wireless network access through this node. Enter the Access Point Name and provide a Password that people should be required to use to connect.</p>
 <p><strong>Note:</strong> If you configure an AP on the node, it <strong>must</strong> use the same channel as the Mesh network.</p>
 
 <p><strong>Setup Wizard, page 4 - Configuration complete</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard5.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard5.png" class="img-responsive" /></p>
 <p>You have now completed all the required steps to configure your mesh node.</p>
 
 <ul>
@@ -129,9 +129,9 @@ lang: en
 <p>Optionally, if you want to set additional options for how the wired WAN (Ethernet) port behaves, see <a href="#Advanced-Commotion-mesh-settings">Advanced Configuration</a> options below.</p>
 
 <p><strong>Setup Wizard - Confirm settings</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard6.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard6.png" class="img-responsive" /></p>
 <p>Skim through the settings, then scroll down and hit <strong>Save and Apply</strong>:</p>
-<p><img src="/files/CCK-Configure_setup_wizard7.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard7.png" class="img-responsive" /></p>
 
 <p><strong>3.</strong> When you finish the Commotion Setup Wizard, the node will reset. This will take a couple minutes—be patient.<strong> </strong>When the node starts up again, it will automatically connect to other mesh nodes in the area with matching mesh link information. 
 </section>
@@ -146,11 +146,11 @@ lang: en
 <!--You may want to record the "fingerprint" of the node's certificate, which is a uniquely identifying string. By writing down this fingerprint, you can verify in the future that the node is presenting the same certificate, and thus your connection is secure. You can check our browser-specific <a href="/docs/cck/installing-configuring/certificate-verification">certificate verification instructions</a> to find the certificate's fingerprint.<br/><br/>-->
 
 Understanding why you got this warning, you can now accept the self-signed certificate to continue.<br/><br/>
-<img src="/files/CCK-Configure_cert_warning.png" style="max-width:510px;" /></p>
+<img src="/files/CCK-Configure_cert_warning.png" class="img-responsive" /></p>
 
 <p>You will be prompted for a username and password. The administration username is always "root" - enter it if necessary. You set the administrator password during the Commotion Setup Wizard, enter it and hit the "Login" button.</p>
 
-<p><img src="/files/CCK-Configure_administrator_login.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_administrator_login.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 </section>
@@ -186,11 +186,11 @@ Understanding why you got this warning, you can now accept the self-signed certi
 	<li>Navigate to <strong>Basic Config -> Security -> Passwords</strong>.</li>
 	<li>Enter the existing Administration password in the field at the top of the page labeled "Current Password".</li>
 </ol>
-<p><img src="/files/CCK-Configure_current_administrator_password.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_current_administrator_password.png" class="img-responsive" /></p>
 <ol start="3">
 	<li>Under the “Administration Password” section, enter the new password in both “Password” and “Confirmation” fields.</li>
 </ol>
-<p><img src="/files/CCK-Configure_administrator_password.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_administrator_password.png" class="img-responsive" /></p>
 <ol start="4">
 	<li>Scroll down to the bottom of the page and click “Save &amp; Apply”.</li>
 	<li>Wait for the system to update. This can take up to two minutes, be patient!</li>
@@ -210,7 +210,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 	<li>Wait for the system to update.</li>
 </ol>
 
-<p><img src="/files/basic_config1_0.png" style="max-width:600px;" /></p>
+<p><img src="/files/basic_config1_0.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h3 id="mesh-settings">Changing mesh configurations</h3>
@@ -251,7 +251,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 
 <p>Navigate to <strong>Advanced -&gt; Network -&gt; WiFi&nbsp; </strong>for Advanced menu settings.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__730 img__view_mode__media_original attr__format__media_original" height="262" src="/files/network_wireless_settings1.png" typeof="foaf:Image" width="600" /></p>
+<p><img alt="" class="img-responsive" height="262" src="/files/network_wireless_settings1.png" typeof="foaf:Image" width="600" /></p>
 
 <p><strong>To change the Access Point name:</strong></p>
 
@@ -304,7 +304,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 
 <p><strong>&nbsp;This may cause the node to become unstable. Rebooting the device after changing this function should help to prevent problems.</strong></p>
 
-<p><img src="/files/network_wireless_settings1.1.png" style="max-width:600px;" /></p>
+<p><img src="/files/network_wireless_settings1.1.png" class="img-responsive" /></p>
 
 <h3 id="splash-page">Changing the Welcome Page Information</h3>
 
@@ -334,7 +334,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 	<li>Wait for the system to update.</li>
 </ol>
 
-<p><img src="/files/client_controls1.1.png" style="max-width=600px;" /></p>
+<p><img src="/files/client_controls1.1.png" class="img-responsive" /></p>
 
 <p><strong>To turn the Welcome Page on or off:</strong></p>
 
@@ -344,13 +344,13 @@ Understanding why you got this warning, you can now accept the self-signed certi
 	<li>Wait for the system to update.</li>
 </ol>
 
-<p><img src="/files/client_controls1.png" style="max-width:600px;" /></p>
+<p><img src="/files/client_controls1.png" class="img-responsive" /></p>
 
 <h3 id="bandwidth-qos">Setting Bandwidth Limits and Quality of Service settings</h3>
 
 <p>If you are hosting a Gateway node (sharing Internet with the rest of the network), you can limit the total amount of bandwidth allowed for the rest of the network, using Quality of Service (QoS).</p>
 
-<p><img src="/files/adv_qos1.png" /></p>
+<p><img src="/files/adv_qos1.png" class="img-responsive"/></p>
 
 <ol class="rteindent1">
 	<li>Navigate to <strong>Advanced -&gt;Network -&gt; QoS</strong>.</li>
@@ -372,7 +372,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 
 <h3 id="see-mesh-connections">See connections on the mesh network</h3>
 <p>You can see if the node has successfully connected to other mesh nodes by viewing the mesh visualizer.</p>
-<p><img src="/files/styles/large/public/CCK_ConfigureRouters_oslrviz.png" /></p>
+<p><img src="/files/styles/large/public/CCK_ConfigureRouters_oslrviz.png" class="img-responsive"/></p>
 <p>Navigate to the <strong>Status</strong> page and click on <strong>Nearby Mesh Devices</strong>.</p>
 <p>&nbsp;</p>
 
@@ -405,7 +405,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 	<li>Wait for the system to update.</li>
 </ol>
 
-<p><img src="/files/styles/large/public/adv_upgrade1.png" style="max-width:600px;" /></p>
+<p><img src="/files/styles/large/public/adv_upgrade1.png" class="img-responsive" /></p>
 </section>
 
 <section id="Advanced-Commotion-mesh-settings">
@@ -415,7 +415,7 @@ Understanding why you got this warning, you can now accept the self-signed certi
 
 <p>In the <strong>Basic Configuration</strong> menu, under <strong>Network Settings -> Additional Network Interfaces</strong>, there are additional options to configure how the WAN interface (the Ethernet port that is normally plugged into a router or switch with a connection to the Internet) behaves. On many devices, such as dedicated Access Points or client devices such as the Ubiquiti PicoStation or NanoStation series, there may be only one Ethernet port. On devices with multiple switch ports, this will configure the WAN port only.</p>
 
-<p class="cck-content-container"><img src="/files/CCK-Configure_additional_network_interfaces.png" style="max-width:600px;" />
+<p class="cck-content-container"><img src="/files/CCK-Configure_additional_network_interfaces.png" class="img-responsive" />
 
 <ul>
 	<li>If you want Commotion to auto-configure your wired connection, select <em>Automatically configure gateway on boot</em></li>
@@ -449,7 +449,7 @@ begin by connecting to the node's wireless access point, and going to
     <li>Go to <strong>Advanced -> Network -> Firewall</strong>.</li>
     <li>At the top of the page, click on the "Traffic Rules" tab.</li>
 </ol>
-<p><img src="/files/CCK_ConfigureRouters_Firewall1.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK_ConfigureRouters_Firewall1.png" class="img-responsive" /></p>
 <ol class="rteindent1" start="4">
     <li>Under the "Open ports on router" section, you'll fill in the following values:</li>
     <ol type="a">
@@ -459,13 +459,13 @@ begin by connecting to the node's wireless access point, and going to
     </ol>
     <li>Click the "Add" button next to the fields you just filled out.</li>
 </ol>
-<p><img src="/files/CCK_ConfigureRouters_Firewall2.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_ConfigureRouters_Firewall2.png" class="img-responsive" /></p>
 <ol class="rteindent1" start="6">
     <li>Click on "Save & Apply" at the bottom of the page.</li>
 </ol>
 
 <p>After you click "Save and Apply", the changes will be made and you will see the new entry in the Firewall rules:
-<p><img src="/files/CCK_ConfigureRouters_Firewall3.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_ConfigureRouters_Firewall3.png" class="img-responsive" /></p>
 
 <p>The node with this configuration should now allow access to the Administration panel from any computer or network connected to the WAN (Ethernet) port.</p>
 <p>&nbsp;</p>
@@ -486,7 +486,7 @@ begin by connecting to the node's wireless access point, and going to
 
 <p>This is a short hands-on test you can use to explore any Commotion node’s administrator interface. Completing this test is not required to set up a node on a network, but it can help you understand how to find important information that network administrators need to keep the network functioning properly. If you are configuring several nodes with other people, everyone can explore these details if they run through this test on their node, and fill out the answers.</p>
 
-<p><a href="/files/cck/installing-configuring/2.1-CCK-Installing-ConfigureRouters_Hands-on.pdf"><img  src="/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" style="width: 371px; height: 480px;" typeof="foaf:Image" /></a></p>
+<p><a href="/files/cck/installing-configuring/2.1-CCK-Installing-ConfigureRouters_Hands-on.pdf"><img  src="/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" class="img-responsive" typeof="foaf:Image" /></a></p>
 </section>
 
 <section id="Record-important-information">
@@ -494,7 +494,7 @@ begin by connecting to the node's wireless access point, and going to
 
 <p>As you check and change these settings, be sure to securely record the information. You can use this worksheet if it is helpful.</p>
 
-<p><a href="/files/cck/installing-configuring/2.2-CCK-Installing-ConfigureRouters_worksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__593 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" width="371" /></a></p>
+<p><a href="/files/cck/installing-configuring/2.2-CCK-Installing-ConfigureRouters_worksheet.pdf"><img alt="" class="img-responsive" height="480" src="/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" width="371" /></a></p>
 </section>
 
 <section id="section-definitions">
