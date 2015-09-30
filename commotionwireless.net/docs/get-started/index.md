@@ -16,7 +16,7 @@ Open community wireless "mesh" networks digitally connect communities, and allow
 
 Community networks are built by a coalition of community anchor institutions, community-based organizations, municipal representatives, and individuals working together to plan, design, and deploy a network.  Ownership and management duties are distributed among the community. Digital Stewards are community members that take care of the network.
 
-<img class="threefourths-width" src="/files/get-started-starting-network.png" alt="starting a network graphic" />
+<img class="img-responsive" src="/files/get-started-starting-network.png" alt="starting a network graphic" />
 
 <h2 id="suggestions">Suggested Steps</h2>
 <h3>NETWORK BUILDING STEPS</h3>
@@ -45,7 +45,7 @@ Community networks are built by a coalition of community anchor institutions, co
 <h2 id="connect">Connect with Others</h2>
 
 <p>Mesh networking begins with people. Work with your community to determine communication needs, interests, and willingness to participate and help. Start with conversations or meetings about how your group could use mesh networking. For help, see the <a href="/docs/cck/planning"><em>Planning</em> modules</a> in the <a href="/docs/cck">Commotion Construction Kit</a>. We also encourage you to <a href="/about/faq">read our frequently asked questions.</a><br />
-<img src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" /></p>
+<img src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" class="img-responsive"></p>
 
 <h2>Connect with the Commotion community</h2>
 
