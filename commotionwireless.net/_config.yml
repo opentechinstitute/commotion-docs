@@ -26,4 +26,3 @@ sass:
         - assets/bower_components/bootstrap-sass/assets/stylesheets
         - _sass
 
-exclude: [attic]
