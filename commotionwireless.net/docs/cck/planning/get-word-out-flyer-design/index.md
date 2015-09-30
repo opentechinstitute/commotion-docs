@@ -11,7 +11,7 @@ changed: 2013-10-07
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" height="250" src="/files/get_the_word_out_flyer_design_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" height="250" src="/files/get_the_word_out_flyer_design_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -42,7 +42,7 @@ lang: en
 
 <h3>ARRANGE ELEMENTS TO MAKE A DIAGRAM</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="600" src="/files/get_the_word_out_flyer_design_support002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="600" src="/files/get_the_word_out_flyer_design_support002.png" typeof="foaf:Image" width="510" /></p>
 
 <ol>
 	<li>Decide whether you want to sketch your neighborhood or use pieces from the "Design your Network: Construction Elements" module. If you're using the Construction Elements, cut out the ones you recognize from your neighborhood and any other pieces you want to use.</li>
@@ -61,19 +61,19 @@ lang: en
 <section id="sample-outreach-diagrams">
 <h2>Sample Outreach Diagrams</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic001.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="400" src="/files/get_the_word_out_flyer_design_infographic001.png" typeof="foaf:Image" width="510" /></p>
 
 <p>You can show the potential connections among a few buildings. The arrow notes a connection to the Internet.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="400" src="/files/get_the_word_out_flyer_design_infographic002.png" typeof="foaf:Image" width="510" /></p>
 
 <p>You can depict an entire neighborhood network.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="400" src="/files/get_the_word_out_flyer_design_infographic003.png" typeof="foaf:Image" width="510" /></p>
 
 <p>You can show just one section of the neighborhood network.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="400" src="/files/get_the_word_out_flyer_design_infographic004.png" typeof="foaf:Image" width="510" /></p>
 
 <p>You can show how nearby buildings can share Internet access with an occupation of the town square.</p>
 </section>
@@ -125,7 +125,7 @@ lang: en
 <section id="example-flyer">
 <h2>Example Flyer</h2>
 
-<p><a href="/files/cck/planning/4.1-CCK-Planning-flyer_design_support.pdf"><img alt="Download an example flyer" src="/files/CCK_download_icon.png" /></a></p>
+<p><a href="/files/cck/planning/4.1-CCK-Planning-flyer_design_support.pdf"><img alt="Download an example flyer" src="/files/CCK_download_icon.png" class="img-responsive" /></a></p>
 
 <p class="tip">These diagrams are not about technical details. For now, it does not matter about what equipment you are using — focus on getting the idea across so people who are new to the project can understand the basics of what you're proposing.</p>
 </section>

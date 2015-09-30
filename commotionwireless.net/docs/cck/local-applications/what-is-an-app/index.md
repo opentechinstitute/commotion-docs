@@ -53,7 +53,7 @@ lang: en
 <h3>Network Applications</h3>
 <p>In network applications -- such as a website, your computer sends a message across the network to a server, which sends your device (the “client”) the content of the webpage in response.</p>
 
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="400">
+<img alt="" class="img-responsive" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="400">
 <br />
 <br />
 <br />
@@ -88,11 +88,11 @@ lang: en
 </ol>
 
 <p>
-<img alt="Internet Chat" src="/files/CCK_LocalApps_internet_application.png" width="300">
+<img alt="Internet Chat" src="/files/CCK_LocalApps_internet_application.png" class="img-responsive" width="300">
 <em>Chat via the Internet</em>
 <br />
 <br />
-<img alt="Mesh Chat" src="/files/CCK_LocalApps_mesh_application.png" width="300">
+<img alt="Mesh Chat" src="/files/CCK_LocalApps_mesh_application.png" class="img-responsive" width="300">
 <em>Chat via Peer-to-Peer</em></p>
 </p>
 

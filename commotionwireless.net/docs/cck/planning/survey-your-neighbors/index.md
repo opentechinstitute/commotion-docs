@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" src="/files/survey_your_neighbors_support001.png" /></p>
+<p><img alt="" src="/files/survey_your_neighbors_support001.png" class="img-responsive"></p>
 
 <section id="section-introduction">
 <h2>Introduction</h2>
@@ -205,11 +205,11 @@ Internet access (optional)</p>
 
 <p>Distribute the survey with your diagram or outreach flyer so people have a clear understanding of why you are gathering the information and how you plan to use it. If you are not going to collect the survey responses on the spot, be sure to provide instructions for how to return it once completed.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__262 img__view_mode__media_original attr__format__media_original" height="569" src="/files/survey_your_neighbors_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="569" src="/files/survey_your_neighbors_support004.png" typeof="foaf:Image" width="510" /></p>
 
 <p class="tip">You may want to create a "script" that you use to introduce yourself and the project. This makes it easy to explain why you're asking questions. For example, you could say "Hello, my name is___ . I live on ____ Street and I'm interested in starting a community wireless network to help people in the neighborhood get online. Would you mind if I ask you a few questions about your experience with the Internet and computers in this area?"</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__260 img__view_mode__media_original attr__format__media_original" height="300" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" width="510" /></p>
 
 <h3>6. ANALYZE THE DATA</h3>
 
@@ -256,7 +256,7 @@ Internet access (optional)</p>
 
 <p>Once you have chosen your first few sites, use contact information from surveys to make install appointments.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__260 img__view_mode__media_original attr__format__media_original" style="width:510px;" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" width="500px"/></p>
+<p><img alt="" class="img-responsive" style="width:510px;" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" width="500px"/></p>
 </section>
 
 <section class="related-information" id="section-related-information">

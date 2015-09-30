@@ -27,7 +27,7 @@ lang: en
 <section id="materials-and-supplies-needed">
 <h3>Materials</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__678 img__view_mode__media_large attr__format__media_large" height="226" src="/files/styles/large/public/intro_to_mesh_presentation.png?itok=GLXiZJfZ" typeof="foaf:Image" width="294" /></p>
+<p><img alt="" class="img-responsive" height="226" src="/files/styles/large/public/intro_to_mesh_presentation.png?itok=GLXiZJfZ" typeof="foaf:Image" width="294" /></p>
 
 <p>Printouts of <strong><a href="/files/cck/networking/2.1-Name_That_Network.pdf">Name that Network</a>&nbsp;</strong>(optional)</p>
 </section>
@@ -43,10 +43,10 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p class="rtecenter"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__581 img__view_mode__media_large attr__format__media_large" height="114" src="/files/styles/large/public/learn_about_mesh_hier_dots.png?itok=RytU-yKU" typeof="foaf:Image" width="120" />Hierarchical /<br />
+			<p class="rtecenter"><img alt="" class="img-responsive" height="114" src="/files/styles/large/public/learn_about_mesh_hier_dots.png?itok=RytU-yKU" typeof="foaf:Image" width="120" />Hierarchical /<br />
 			Hub and Spoke</p>
 
-			<p class="rtecenter"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__582 img__view_mode__media_large attr__format__media_large" height="118" src="/files/styles/large/public/learn_about_mesh_mesh_dots.png?itok=hlYSgvH6" typeof="foaf:Image" width="123" />Mesh</p>
+			<p class="rtecenter"><img alt="" class="img-responsive" height="118" src="/files/styles/large/public/learn_about_mesh_mesh_dots.png?itok=hlYSgvH6" typeof="foaf:Image" width="123" />Mesh</p>
 			</td>
 			<td>
 			<p>Networks are groups of connected devices that move information or messages from one place to another.</p>
@@ -65,9 +65,9 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__583 img__view_mode__media_large attr__format__media_large" height="114" src="/files/styles/large/public/learn_about_mesh_hier_route.png?itok=cqjyQu5M" typeof="foaf:Image" width="120" /></p>
+			<p><img alt="" class="img-responsive" height="114" src="/files/styles/large/public/learn_about_mesh_hier_route.png?itok=cqjyQu5M" typeof="foaf:Image" width="120" /></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__584 img__view_mode__media_large attr__format__media_large" height="118" src="/files/styles/large/public/learn_about_mesh_mesh_route.png?itok=2GFtnVwy" typeof="foaf:Image" width="123" /></p>
+			<p><img alt="" class="img-responsive" height="118" src="/files/styles/large/public/learn_about_mesh_mesh_route.png?itok=2GFtnVwy" typeof="foaf:Image" width="123" /></p>
 			</td>
 			<td>
 			<p>The difference between mesh networks and other kinds of networks is that mesh networks use a particular kind of protocol for moving information from one place to another.</p>
@@ -82,7 +82,7 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__585 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/learn_about_mesh_router_laptops.png?itok=OLtgrlQl" style="width: 200px; height: 126px;" typeof="foaf:Image" /></p>
+			<p><img alt="" class="img-responsive" src="/files/styles/large/public/learn_about_mesh_router_laptops.png?itok=OLtgrlQl" style="width: 200px; height: 126px;" typeof="foaf:Image" /></p>
 			</td>
 			<td>
 			<p>Standard access points, like the one you might have at home, talk&nbsp;to computers or smartphones, but they cannot easily talk to other routers.</p>
@@ -97,7 +97,7 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__586 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/learn_about_mesh_simple_routers.png?itok=BATFARzr" style="width: 200px; height: 164px;" typeof="foaf:Image" /></p>
+			<p><img alt="" class="img-responsive" src="/files/styles/large/public/learn_about_mesh_simple_routers.png?itok=BATFARzr" style="width: 200px; height: 164px;" typeof="foaf:Image" /></p>
 			</td>
 			<td>
 			<p>By default, most routers and devices are not able to mesh. But, with the right operating system, some routers, cellphones and laptops can mesh.</p>
@@ -114,7 +114,7 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__587 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/learn_about_mesh_complex_routers.png?itok=__3JG6ZT" style="width: 300px; height: 104px;" typeof="foaf:Image" /></p>
+			<p><img alt="" class="img-responsive" src="/files/styles/large/public/learn_about_mesh_complex_routers.png?itok=__3JG6ZT" style="width: 300px; height: 104px;" typeof="foaf:Image" /></p>
 
 			<p>The more devices that are part of the mesh network, the more flexible the network becomes. Any mesh device can be the hub or central point in the network – or the network can have no central point.</p>
 			</td>
@@ -128,7 +128,7 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__588 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/learn_about_mesh_complex_routers2.png?itok=hkniUJ93" style="width: 300px; height: 129px;" typeof="foaf:Image" /></p>
+			<p><img alt="" class="img-responsive" src="/files/styles/large/public/learn_about_mesh_complex_routers2.png?itok=hkniUJ93" style="width: 300px; height: 129px;" typeof="foaf:Image" /></p>
 
 			<p>A dynamic mesh network, unlike a more “static” traditional network, constantly adapts to new conditions. It automatically adjusts its pathways to integrate new nodes that join the network and has the flexibility to reroute information when a node leaves the network.</p>
 			</td>
@@ -142,7 +142,7 @@ lang: en
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__589 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/learn_about_mesh_complex_routers3.png?itok=U9gFTEEu" style="width: 300px; height: 138px;" typeof="foaf:Image" /></p>
+			<p><img alt="" class="img-responsive" src="/files/styles/large/public/learn_about_mesh_complex_routers3.png?itok=U9gFTEEu" style="width: 300px; height: 138px;" typeof="foaf:Image" /></p>
 
 			<p>When there are many interconnected mesh nodes, the network can bypass interference, blockage, or network congestion.</p>
 

@@ -11,7 +11,7 @@ changed: 2014-03-04
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__355 img__view_mode__media_original attr__format__media_original" height="419" src="/files/design_your_network_intro.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" height="419" src="/files/design_your_network_intro.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -52,7 +52,7 @@ lang: en
 
 <p>Wireless networks are built with wireless routers. Routers can speak, listen or repeat.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__252 img__view_mode__media_original attr__format__media_original" height="450" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="450" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image" width="510" /></p>
 
 <p class="tip">Wireless networks are built using wireless routers. Meet the routers you will use for this game. Routers can speak, listen, and repeat. They all have direction and strength, meaning that they can broadcast and receive in different directions and at different distances. Broadcast strength varies a lot depending on environmental conditions.</p>
 </section>
@@ -60,7 +60,7 @@ lang: en
 <section id="low-power-omnidirectional">
 <h2>Low Power Omnidirectional (All Direction) Router</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__254 img__view_mode__media_original attr__format__media_original" height="359" src="/files/design_your_network_entas_support002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="359" src="/files/design_your_network_entas_support002.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Can broadcast and receive in all directions over a short distance</p>
 
@@ -72,7 +72,7 @@ lang: en
 <section id="high-power-omnidirectional">
 <h2>High Power Omnidirectional (All Direction) Router</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__302 img__view_mode__media_original attr__format__media_original" height="440" src="/files/design_your_network_entas_support003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="440" src="/files/design_your_network_entas_support003.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Can broadcast and receive in all directions over a medium distance</p>
 
@@ -84,7 +84,7 @@ lang: en
 <section id="high-power-sector">
 <h2>High Power Sector (Directional) Router</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="604" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="604" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Can broadcast and receive across a semi-focused area</p>
 
@@ -96,7 +96,7 @@ lang: en
 <section id="high-power-focused">
 <h2>High Power Focused (Narrow Beam) Router</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__304 img__view_mode__media_original attr__format__media_original" height="338" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="338" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Can broadcast and receive in one direction across a long distance</p>
 
@@ -108,7 +108,7 @@ lang: en
 <section id="wireless-connection">
 <h2>Wireless Connection</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__305 img__view_mode__media_original attr__format__media_original" height="360" src="/files/design_your_network_entas_support006.png" typeof="foaf:Image" width="360" /></p>
+<p><img alt="" class="img-responsive" height="360" src="/files/design_your_network_entas_support006.png" typeof="foaf:Image" width="360" /></p>
 
 <p>You can connect routers either with wires or wirelessly.</p>
 </section>
@@ -118,31 +118,31 @@ lang: en
 
 <p>When designing your map, use the following guidelines for router placement:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__306 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007a.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007a.png" typeof="foaf:Image" width="510" /></p>
 
 <p>1. Any router can connect to any other router.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__307 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image" width="510" /></p>
 
 <p>2. Omnidirectional routers can connect to many routers in any direction.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image" width="510" /></p>
 
 <p>3. High power all direction routers can go further, but not as far as sector or focused routers.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__309 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image" width="510" /></p>
 
 <p>4. Low power all direction routers can connect to nearby devices.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__310 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image" width="510" /></p>
 
 <p>5. Focused routers can connect to one other focused router straight in front of it, even across a long distance.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__311 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image" width="510" /></p>
 
 <p>6. Sector routers can connect to multiple devices in the same general direction, across short or long distances based on the partner device.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__312 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" width="510" /></p>
 
 <p>7. Two or more routers right next to each other (in the same building) can connect with a wire.</p>
 </section>
@@ -158,19 +158,19 @@ lang: en
 
 <p>Make sure to include:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__313 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support008.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support008.png" typeof="foaf:Image" width="510" /></p>
 
 <p>"Community anchors" like churches, schools, libraries, and recreation centers that are gathering-places in the neighborhood, and that may be able to share internet access.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__314 img__view_mode__media_large attr__format__media_large" src="/files/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image" /></p>
 
 <p>Homes of people who are allies or important figures in the neighborhood, especially those who would be interested in donating roof or window space for the wireless project.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__315 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="300" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Major features like rivers, highways, parks, bridges, etc.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__316 img__view_mode__media_original attr__format__media_original" height="450" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="450" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Think about who in the neighborhood needs access and has access to Internet services. Where are they located with relation to each other?</p>
 
@@ -180,15 +180,15 @@ lang: en
 
 <p>5. In the real world, every connection is a maybe. While sketching these maps is a collaborative planning exercise, it's important to remember some of the following tips:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__317 img__view_mode__media_original attr__format__media_original" height="350" src="/files/design_your_network_entas_support014.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="350" src="/files/design_your_network_entas_support014.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Draw a dotted line to note a wireless connection. Draw a solid line to note a wired connection.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__318 img__view_mode__media_original attr__format__media_original" height="450" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="450" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Line of sight: when connecting neighborhood nodes, line of sight is essential. Buildings, robust trees and other environmental features can obstruct wireless signals which can result in unreliable or nonfunctional connections.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__319 img__view_mode__media_original attr__format__media_original" height="529" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="529" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Wireless Interference: if you have too many wireless signals within one area, they can interfere with each other.</p>
 
@@ -206,9 +206,9 @@ lang: en
 
 <p>Does it connect the school to the recreation center to the church, to strengthen the organizing network that already exists?</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__542 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" width="444" /></p>
+<p><img alt="" class="img-responsive" height="480" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" width="444" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__541 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" width="444" /></p>
+<p><img alt="" class="img-responsive" height="480" src="/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" width="444" /></p>
 
 <p>Above, the first collaborative diagrams created at the Allied Media Conference in the summer of 2011.</p>
 </section>
@@ -216,9 +216,9 @@ lang: en
 <section id="cut-out">
 <h2>Cut out the routers to create your game pieces</h2>
 
-<p><img alt="" src="/files/design_your_network_entas_support_cut.png" /></p>
+<p><img alt="" src="/files/design_your_network_entas_support_cut.png" class="img-responsive" /></p>
 
-<p><a href="/files/cck/planning/1.2-CCK-Planning-Construction-Elements.pdf"><img alt="" src="/files/CCK_download_icon2.png" /></a></p>
+<p><a href="/files/cck/planning/1.2-CCK-Planning-Construction-Elements.pdf"><img alt="" src="/files/CCK_download_icon2.png" class="img-responsive" /></a></p>
 </section>
 
 <section id="section-definitions">

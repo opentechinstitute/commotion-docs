@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img src="/files/styles/large/public/identify-neighborhood-skills-title.png" style="max-width:510px;" /></p>
+<p><img src="/files/styles/large/public/identify-neighborhood-skills-title.png" class="img-responsive" /></p>
 
 <h2>Identify Neighborhood Skills</h2>
 
@@ -35,7 +35,7 @@ Paper</p>
 <section id="activity">
 <h3>Activity 1: Network Skills</h3>
 
-<p><img src="/files/styles/large/public/identify-neighborhood-skills-listskills.png" style="max-width:510px;" /></p>
+<p><img src="/files/styles/large/public/identify-neighborhood-skills-listskills.png" class="img-responsive" /></p>
 
 <p>As a group or within small groups, write a list of skills that will be necessary to plan, build and maintain your wireless network. Think about the skills needed to do tasks such as making flyers, flashing routers, mounting hardware, connecting electricity to rooftops, buying equipment, and finding other community members that would like to be involved.</p>
 
@@ -169,12 +169,4 @@ Paper</p>
 
 <p>What skills does the group already have? What skills do you need to find? Identify a strategy for reaching out to each person, organization or group you have identified. Where would you find these skills? Who in your community might take on these roles?</p>
 </section>
-<!--
-<section id="section-definitions">
-<h3>Definitions</h3>
-</section>
 
-<section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
-</section>
---> 

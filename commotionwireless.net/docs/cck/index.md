@@ -11,7 +11,7 @@ post_author: critzo
 lang: en
 ---
 
-<p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" /></p>
+<p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" class="img-responsive"></p>
 
 <p>The Commotion Construction Kit is a set of documentation tools that the Open Technology Institute has used in workshops around the world and at home. It is a “do it ourselves” guide to building community wireless networks.</p>
 

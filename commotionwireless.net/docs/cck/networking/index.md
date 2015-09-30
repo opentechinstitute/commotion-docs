@@ -10,7 +10,7 @@ changed: 2014-08-20
 post_author: critzo
 lang: en
 ---
-<p><img src="/files/CCK_WirelessBasics_Wave2.png" style="background-color:white; padding:60px;0px;60px;0px;"><p>
+<p><img src="/files/CCK_WirelessBasics_Wave2.png" class="img-responsive" style="background-color:white; padding:60px;0px;60px;0px;"><p>
 <section>
 <h2>Wireless and Networking</h2>
 {% include cck/networking-modules.html %}
