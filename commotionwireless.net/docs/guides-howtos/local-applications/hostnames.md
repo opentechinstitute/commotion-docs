@@ -10,7 +10,7 @@ post_author: Dan Staples
 lang: en
 ---
 
-<img style="float:right;height:150px;width:150px;margin:0 0 10px 10px" src="/files/commotion-logo-.png" />
+<img style="float:right;height:150px;width:150px;margin:0 0 10px 10px" src="/files/commotion-logo-.png" class="img-responsive">
 
 Sometimes, instead of using the application portal, you may want to just connect to a local application using a well-known name. Just as you would type the name of your favorite website (for example "democracynow.org") into the address bar of your browser in order to visit that website, you can assign easy-to-remember names (called "hostnames") to local application servers on your mesh network.
 

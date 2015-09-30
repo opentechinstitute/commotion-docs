@@ -10,7 +10,7 @@ post_author: andygunn
 lang: en
 ---
 
-<p><img src="/files/GuidesHowtos_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img src="/files/GuidesHowtos_intro_graphic.png" class="img-responsive" /></p>
 
 <p>Below are a few "quick start" documents, to get you up and running with Commotion fast. For community organizing, learning and planning activities, see the full <a href="/docs/cck">Commotion Construction Kit</a>.</p>
 
