@@ -4,13 +4,13 @@
 
 {% include header.html title=page.title subtitle=page.tagline %}
 
-<section id="main_content" class="inner home-width">
+<section id="main_content" class="container">
 
-    <div class="content">
-        <div class="left-side">
+    <div class="content row">
+        <div class="col-md-9">
             {{ content }}
         </div>
-        <div class="right-side">
+        <div class="col-md-3">
             <div class="nav">
                 <div id="sidemenu">
                     {% include blog-sidebar-menu.html %}
