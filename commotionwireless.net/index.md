@@ -57,25 +57,12 @@ grid:
 </div>
 
 
-
+<h3>Blog Posts + Reports</h3>
 <div class="grid home-width container">
   <div class="grid-row">
     <h3>Blog Posts + Reports</h3>
   </div>
   <div class="grid-row">
-    <div class="grid-cell">
-    <p>Foo bar baz</p>
-    </div>
-    <div class="grid-cell">
-    <p>Foo bar baz</p>
-    </div>
-    <div class="grid-cell">
-    <p>Foo bar baz</p>
-    </div>
-  </div>
-</div>
-<!-- <div class="grid home-width container">
-  <div class="grid-row row">
     {% for post in site.posts limit:6 %}
     <div class="grid-cell grid-gallery">
       <div class="figure">
@@ -89,11 +76,12 @@ grid:
       </div>
     </div>
     {% if forloop.last == false %}
-    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row row">' %}
+    {% cycle 'row-blog': nil, nil, '</div><div class="grid-row">' %}
     {% endif %}
     {% endfor %}
   </div>
-  <div class="grid-row row">
+  <div class="grid-row">
     <div class="grid-cell pull-left"><a href="{{site.baseurl}}/blog/">MORE POSTS > </a></div>
   </div>
-</div> -->
+</div>
+
