@@ -56,8 +56,6 @@ grid:
   </div>
 </div>
 
-
-<h3>Blog Posts + Reports</h3>
 <div class="grid home-width container">
   <div class="grid-row">
     <h3>Blog Posts + Reports</h3>
