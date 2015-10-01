@@ -42,7 +42,7 @@ grid:
 
 <!-- TODO: Look at TWBS gutter/tile/thumbnail system to construct grid -->
 <div class="grid home-width container">
-  <div class="grid-row row">
+  <div class="grid-row">
     {% for cell in page.grid %}
     <div class="grid-cell">
       <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
@@ -50,7 +50,7 @@ grid:
       <h3 class="h5 small">{{cell.text}}</h3>
     </div>
     {% if forloop.last == false %}
-    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row row">' %}
+    {% cycle 'row-grid': nil, nil, '</div><div class="grid-row">' %}
     {% endif %}
     {% endfor %}
   </div>
@@ -58,9 +58,23 @@ grid:
 
 
 
-
-<h3>Blog Posts + Reports</h3>
 <div class="grid home-width container">
+  <div class="grid-row">
+    <h3>Blog Posts + Reports</h3>
+  </div>
+  <div class="grid-row">
+    <div class="grid-cell">
+    <p>Foo bar baz</p>
+    </div>
+    <div class="grid-cell">
+    <p>Foo bar baz</p>
+    </div>
+    <div class="grid-cell">
+    <p>Foo bar baz</p>
+    </div>
+  </div>
+</div>
+<!-- <div class="grid home-width container">
   <div class="grid-row row">
     {% for post in site.posts limit:6 %}
     <div class="grid-cell grid-gallery">
@@ -82,4 +96,4 @@ grid:
   <div class="grid-row row">
     <div class="grid-cell pull-left"><a href="{{site.baseurl}}/blog/">MORE POSTS > </a></div>
   </div>
-</div>
+</div> -->
