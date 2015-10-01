@@ -24,6 +24,11 @@
     }
 }
 
+#main_content {
+    margin-top: $line-height-computed;
+    margin-bottom: $line-height-computed;
+}
+
 .issue-button {
     border: thin solid $gray-light;
     background-color: $gray-lighter;
