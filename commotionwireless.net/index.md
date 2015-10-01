@@ -41,7 +41,7 @@ grid:
 ---
 
 <!-- TODO: Look at TWBS gutter/tile/thumbnail system to construct grid -->
-<div class="grid home-width container">
+<div class="grid home-width">
   <div class="grid-row">
     {% for cell in page.grid %}
     <div class="grid-cell">
@@ -56,7 +56,7 @@ grid:
   </div>
 </div>
 
-<div class="grid home-width container">
+<div class="grid home-width">
   <div class="grid-row">
     <h3>Blog Posts + Reports</h3>
   </div>
