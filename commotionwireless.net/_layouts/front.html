@@ -13,9 +13,21 @@ Mainly exists to prevent language/contact sidebar from squeezing category tiles
     <div class="content">
         {{ content }}
     </div>
-    <div class="nav">
-        <div id="sidemenu">
-            {% include sub-sections-menu.html %}
+    <!-- 
+        This grid should be a simple sidenav include.
+        _tile styles conflict with twbs.
+            -->
+    <div class="nav grid container">
+        <div id="sidemenu" class="grid-row">
+            <div class="grid-cell">
+                <p><a href="/report">Report a bug</a></p>
+            </div>
+            <div class="grid-cell">
+                <p><a href="/contact">Send us feedback</a></p>
+            </div>
+            <div class="grid-cell">
+                <p><a href="/docs/localization">Help us translate</a></p>
+            </div>
         </div>
     </div>
 
