@@ -15,7 +15,7 @@ module Jekyll
       categories.sort.each do |category|
 	category_url = category.gsub(' ','-')
         posts_in_category = context.registers[:site].categories[category].size
-        html << "<li><a href='/blog/category/#{category_url}'>#{category} (#{posts_in_category})</a></li>\n"
+        html << "<li class='list-group-item'><a href='/blog/category/#{category_url}'>#{category} <span class='badge pull-right'>#{posts_in_category}</span></a></li>\n"
       end
       html
     end
