@@ -10,9 +10,11 @@ lang: en
 published: true
 ---
 
+<div class="list-group">
 {% for post in site.posts %}
-<div class="section">
+<div class="section list-group-item">
 <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> ({{post.date | date: "%F"}})
 <p>{{post.excerpt | strip_html}} <a href="{{site.baseurl}}{{post.url}}">...</a></p>
 </div>
 {% endfor %}
+</div>
