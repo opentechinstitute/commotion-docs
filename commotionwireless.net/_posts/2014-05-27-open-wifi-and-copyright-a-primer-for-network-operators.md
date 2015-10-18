@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Open Wifi and Copyright - A Primer for Network Operators
-categories: [copyright, legal, community engagement, guest post, privacy]
+tags: [copyright, legal, community engagement, guest post, privacy]
 created: 2014-05-27
 changed: 2014-05-27
 teaser_image: posts/052714-open-wireless-eff.jpg

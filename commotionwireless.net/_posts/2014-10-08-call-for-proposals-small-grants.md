@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Call for Proposals: International Commotion Mesh Wireless Projects"
-categories: [commotion, community wireless, oti, digital stewards]
+tags: [commotion, community wireless, oti, digital stewards]
 created: 2014-10-08
 changed: 2014-10-08
 post_author: Open Technology Institute

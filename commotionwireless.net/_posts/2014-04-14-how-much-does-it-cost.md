@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  How much does it cost to build a Commotion network?
-categories: [planning,price,budgeting,installation]
+tags: [planning,price,budgeting,installation]
 created: 2014-04-11
 changed: 2014-06-13
 teaser_image: posts/How-much-does-it-cost-teaser-img.png

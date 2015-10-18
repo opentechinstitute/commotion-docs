@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Commotion Pi: Build an RPi MESH Node"
-categories: [Raspberry Pi, mesh, developement, guest post]
+tags: [Raspberry Pi, mesh, developement, guest post]
 created: 2014-06-12
 changed: 2014-06-12
 post_author: Joshua Besneatte

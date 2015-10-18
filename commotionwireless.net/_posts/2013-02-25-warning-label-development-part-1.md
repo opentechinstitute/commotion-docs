@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Warning Label Development, Part 1
-categories: [warning,label,security,anonymity,privacy,Research]
+tags: [warning,label,security,anonymity,privacy,Research]
 created: 2013-02-25
 changed: 2013-07-26
 post_author: OTI

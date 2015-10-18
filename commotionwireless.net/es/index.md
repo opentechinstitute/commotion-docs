@@ -1,9 +1,8 @@
----
-layout: front
+﻿---
 title: "Commotion Inalámbrico"
-lang: sp
+layout: front
+lang: es
 ---
-
 <div id="slideshow">
   <div id="banner-slide" class="slideshow-inner">
     <ul class="bjqs">
@@ -21,3 +20,4 @@ lang: sp
     </div>
   </noscript>
 </div>      
+
