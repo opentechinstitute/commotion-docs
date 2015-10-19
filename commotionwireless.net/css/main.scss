@@ -8,9 +8,13 @@
 @import "base/custom-variables";
 @import "base/hig";
 @import "base/site-type";
-@import "module/tile";
+@import "layout/footer";
+@import "layout/headers";
 @import "layout/oti";
+@import "module/color-bar";
+@import "module/tile";
 @import "module/warning-label";
+
 
 // Vendor bootstrap core variables and mixins
 // Location: /_assets/bower_components/bootstrap-sass
@@ -67,8 +71,3 @@
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
 
-// Custom classes and overrides
-// Location: /_sass
-@import "module/color-bar";
-@import "layout/headers";
-@import "layout/footer";
