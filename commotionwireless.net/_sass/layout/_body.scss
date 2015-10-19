@@ -41,41 +41,6 @@
     }
 }
 
-#sidemenu .heading {
-    background-color: $commotion-lightblack;
-    padding:10px 10px;
-    font-weight:600;
-    color: $commotion-white;
-    margin-bottom: 0;
-}
-
-#sidemenu .highlight {
-    background-color: $commotion-yellow;
-}
-
-#sidemenu .nav {
-    background-color: rgba(0, 255, 207, 1);
-}
-
-#sidemenu .nav a, 
-#menu .nav a:link,
-#menu .nav a:visited {
-    color: black;
-    text-decoration: none;
-    border-bottom: medium none;
-    font-weight: normal;
-        
-    &:hover {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-bottom: none;
-    }
-}
-
-#sidemenu .nav ul {
-    border-left: 3px solid $commotion-pink;
-    background-color: $gray-light;
-}
-
 // Only reference below this point
 
 /* used to define the width of the header and body */

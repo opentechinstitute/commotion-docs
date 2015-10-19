@@ -1,8 +1,7 @@
----
-# Jekyll needs empty frontmatter to generate main.css
+--- 
+# Jekyll needs empty frontmatter to generate main.css 
 ---
 // Collection of all SCSS files used in the site
-
 // HIG and OTI variables
 // Location: /_sass
 @import "base/custom-variables";
@@ -12,9 +11,9 @@
 @import "layout/footer";
 @import "layout/headers";
 @import "module/color-bar";
+@import "module/sidemenu";
 @import "module/tile";
 @import "module/warning-label";
-
 
 // Vendor bootstrap core variables and mixins
 // Location: /_assets/bower_components/bootstrap-sass
@@ -70,4 +69,3 @@
 // Utility classes
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
-
