@@ -4,8 +4,8 @@
 // Collection of all SCSS files used in the site
 // HIG and OTI variables
 // Location: /_sass
-@import "base/custom-variables";
-@import "base/hig";
+@import "base/bootstrap-variable-overrides";
+@import "base/hig-variables";
 @import "base/site-type";
 @import "layout/body";
 @import "layout/footer";
@@ -14,6 +14,7 @@
 @import "module/sidemenu";
 @import "module/tile";
 @import "module/warning-label";
+@import "theme/commotion-colors";
 
 // Vendor bootstrap core variables and mixins
 // Location: /_assets/bower_components/bootstrap-sass
