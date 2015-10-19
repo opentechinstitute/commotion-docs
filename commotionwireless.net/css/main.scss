@@ -6,10 +6,10 @@
 // HIG and OTI variables
 // Location: /_sass
 @import "base/custom-variables";
-@import "hig";
+@import "base/hig";
 @import "base/site-type";
 @import "module/tile";
-@import "oti";
+@import "layout/oti";
 @import "module/warning-label";
 
 // Custom Bootstrap variable overrides
