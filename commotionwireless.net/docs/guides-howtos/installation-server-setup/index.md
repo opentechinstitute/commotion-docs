@@ -3,9 +3,9 @@ layout: cck
 title: MikroTik Installation Server Setup
 site_section: docs
 sub_section: [guides]
-pdf: 
+pdf:
 pdf-all:
-categories: 
+categories:
 created: 2014-10-21
 changed: 2014-10-22
 post_author: andygunn
@@ -60,25 +60,25 @@ lang: en
 
 <p>Dnsmasq is configured in the file <strong>/etc/dnsmasq.conf</strong>. There are many, many options for configuring dnsmasq, and below are only the lines needed for the installation server's configuration.</p>
 <pre>
-# Our server only has one ethernet port. Check yours to ensure 
+# Our server only has one ethernet port. Check yours to ensure
 you're enabling the right port
 interface=eth0
 #bind-interfaces
 
-# You can specify whatever dhcp-range you like, or per your 
-environment's specific requirements (for instance if this is a 
+# You can specify whatever dhcp-range you like, or per your
+environment's specific requirements (for instance if this is a
 production server)
 dhcp-range=192.168.10.100,192.168.10.120,255.255.255.0,12h
 
 dhcp-leasefile=/var/lib/misc/dnsmasq.lease
 
-# For each device you want to TFTP boot, you need a dhcp-host 
+# For each device you want to TFTP boot, you need a dhcp-host
 entry with the MAC address and the IP to give that client.
-# You'll need to look up the MAC address of the device and 
+# You'll need to look up the MAC address of the device and
 add a line here for it to be recognized.
 dhcp-host=xx:xx:xx:xx:xx:xx,192.168.10.101
 
-# The name of the boot file to be provided to dhcp-hosts. This 
+# The name of the boot file to be provided to dhcp-hosts. This
 file should be saved in the 'tftp-root' folder (see below)
 dhcp-boot=openwrt-ar71xx-nand-vmlinux-initramfs-lzma.elf
 
@@ -164,8 +164,6 @@ sudo service lighttpd start
 
 <p>Lighttpd should also be running now at this point. It will be serving web pages to any computer that can connect to it, and will provide the Commotion software files to the routers attached to the switch mentioned above. To confirm lighttpd is running, open a web browser and type “http://localhost” in the URL bar. You should see the default web page - something similar to “Placeholder page”.</p>
 
-<p>At this point, you can return to the <a href="/docs/cck/install-configure/install-mikrotik-router/">Install on a MikroTik Router</a> guide.</p>
+<p>At this point, you can return to the <a href="/docs/cck/installing-configuring/install-mikrotik-router/">Install on a MikroTik Router</a> guide.</p>
 
 </section>
-
- 
