@@ -1,13 +1,8 @@
 ---
 layout: blog
-<<<<<<< HEAD
 title: Construyendo una comunidad en línea exitosa para el desarrollo de código abierto
 categories: [es]
 tags: [recommendations, research]
-=======
-title: Construyendo una comunidad en linea exitosa para el desarrollo de codigo abierto
-categories: [recommendations, research]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2012-05-30
 changed: 2013-07-26
 post_author: The Work Department

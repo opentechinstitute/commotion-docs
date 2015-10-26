@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: ¿Es Commotion Vulnerable al error Shell Shock/Bash?
 categories: [es]
 tags: [OpenWRT, security]
-=======
-﻿---
-layout: blog
-title: ¿Es Commotion Vulnerable al error Shell Shock/Bash?
-categories: [OpenWRT, security]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-09-26
 changed: 2014-09-26
 teaser_image: posts/shellshock.jpg

@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Commotion y la Seguridad
 categories: [es]
 tags: [security]
-=======
-﻿---
-layout: blog
-title: Commotion y la Seguridad
-categories: [security]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-04-21
 changed: 2014-04-21
 teaser_image: 

@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Mesh Bukavu – Diseñado una red de la nada
 categories: [es]
 tags: [guest post,community wireless,planning]
-=======
-﻿---
-layout: blog
-title: Mesh Bukavu – Diseñado una red de la nada
-categories: [guest post,community wireless,planning]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-10-27
 changed: 2014-10-27
 teaser_image: posts/Bukavu-teaser-img.png

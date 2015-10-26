@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: El equipo de Commotion participa en el Día Hack de la Libertad del Internet en DC
 categories: [es]
 tags: [ui,ux,hack day]
-=======
-﻿---
-layout: blog
-title: El equipo de Commotion participa en el Día Hack de la Libertad del Internet en DC
-categories: [ui,ux,hack day]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-01-14
 changed: 2014-01-15
 post_author: Chris Ritzo

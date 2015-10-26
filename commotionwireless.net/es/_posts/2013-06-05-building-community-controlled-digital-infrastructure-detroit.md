@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Construyendo Infraestructura Digital Controlada por la Comunidad en Detroit
 categories: [es]
 tags: [Detroit,community wireless,digital stewards,mesh,amp,amc]
-=======
-﻿---
-layout: blog
-title: Construyendo Infraestructura Digital Controlada por la Comunidad en Detroit
-categories: [Detroit,community wireless,digital stewards,mesh,amp,amc]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2013-06-05
 changed: 2013-07-26
 post_author: Georgia Bullen

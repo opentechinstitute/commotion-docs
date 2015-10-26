@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Construyendo una Red Mesh en Somalilandia Rural
 categories: [es]
 tags: [Somaliland,rural,mesh] 
-=======
-﻿---
-layout: blog
-title: Construyendo una Red Mesh en Somalilandia Rural
-categories: [Somaliland,rural,mesh] 
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2013-12-12
 changed: 2013-12-19
 post_author: Dan Hastings

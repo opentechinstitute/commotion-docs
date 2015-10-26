@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Pequeña caja de Routers – Expandiendo el apoyo Commotion para más modelos de Router
 categories: [es]
 tags: [supported routers, testing]
-=======
-﻿---
-layout: blog
-title: Pequeña caja de Routers – Expandiendo el apoyo Commotion para más modelos de Router
-categories: [supported routers, testing]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-05-13
 changed: 2014-05-13
 teaser_image: posts/051314-box-o-routers.jpg

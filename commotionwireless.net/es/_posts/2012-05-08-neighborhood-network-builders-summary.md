@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Constructores de redes comunitarias- un resumen
 categories: [es]
 tags: [UI,Detroit,community wireless,Research,recommendations,]
-=======
-﻿---
-layout: blog
-title: Constructores de redes comunitarias- un resumen
-categories: [UI,Detroit,community wireless,Research,recommendations,]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2012-05-08
 changed: 2013-07-26
 post_author: The Work Department
