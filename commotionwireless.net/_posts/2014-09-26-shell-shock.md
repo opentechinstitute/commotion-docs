@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Is Commotion Vulnerable to the Shell Shock/Bash Bug?
-categories: [OpenWRT, security]
+tags: [OpenWRT, security]
 created: 2014-09-26
 changed: 2014-09-26
 teaser_image: posts/shellshock.jpg

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Do-it-yourself antennas for Community Networks
-categories: [community wireless,antennas]
+tags: [community wireless,antennas]
 created: 2014-11-05
 changed: 2014-11-05
 teaser_image: posts/DIY-antennas-hardware.png

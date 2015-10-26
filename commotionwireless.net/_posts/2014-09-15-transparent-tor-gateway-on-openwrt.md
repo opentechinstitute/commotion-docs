@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Transparent Tor Gateway on OpenWRT
-categories: [Tor, OpenWRT]
+tags: [Tor, OpenWRT]
 created: 2014-09-15
 changed: 2014-09-15
 teaser_image: posts/torlogo.png

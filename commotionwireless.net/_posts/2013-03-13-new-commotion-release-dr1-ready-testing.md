@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: New Commotion Release (DR1) Ready for Testing
-categories: []
+tags: []
 created: 2013-03-13
 changed: 2013-07-26
 post_author: OTI

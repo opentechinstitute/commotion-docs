@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Announcing collaboration with wlan slovenija
-categories: [development, collaboration, nodewatcher]
+tags: [development, collaboration, nodewatcher]
 created: 2015-4-22
 changed: 2015-4-22
 teaser_image: posts/wlan-slovenija.png

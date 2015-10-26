@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Commotion Team participates in DC Internet Freedom Hack Day
-categories: [ui,ux,hack day]
+tags: [ui,ux,hack day]
 created: 2014-01-14
 changed: 2014-01-15
 post_author: Chris Ritzo
