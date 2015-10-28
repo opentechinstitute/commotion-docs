@@ -61,7 +61,8 @@ grid:
     <h3>Blog Posts + Reports</h3>
   </div>
   <div class="grid-row">
-    {% for post in site.posts limit:6 %}
+      {% assign postindex = site.posts | where:"lang",page.lang %}
+    {% for post in postindex limit:6 %}
     <div class="grid-cell grid-gallery">
       <div class="figure">
     <a href="{{site.baseurl}}{{post.url}}">
