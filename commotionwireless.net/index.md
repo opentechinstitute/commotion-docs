@@ -64,13 +64,13 @@ grid:
     {% for post in site.posts limit:6 %}
     <div class="grid-cell grid-gallery">
       <div class="figure">
-	<a href="{{site.baseurl}}{{post.url}}">
-	  {% if post.teaser_image %}
-	  <img src="/{{site.imageurl}}/{{post.teaser_image}}" />
-	  {% else %}
-	  <img src="{{site.baseurl}}/icons/map.svg" style="padding:70px;"/>
-	  {% endif %}
-	</a><div class="caption">{{post.title}}</div>
+    <a href="{{site.baseurl}}{{post.url}}">
+      {% if post.teaser_image %}
+      <img src="/{{site.imageurl}}/{{post.teaser_image}}" />
+      {% else %}
+      <img src="{{site.baseurl}}/icons/map.svg" style="padding:70px;" />
+      {% endif %}
+    </a><div class="caption">{{post.title}}</div>
       </div>
     </div>
     {% if forloop.last == false %}
@@ -82,4 +82,3 @@ grid:
     <div class="grid-cell pull-left"><a href="{{site.baseurl}}/blog/">MORE POSTS > </a></div>
   </div>
 </div>
-
