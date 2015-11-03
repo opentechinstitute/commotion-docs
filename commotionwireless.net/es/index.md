@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Commotion Inalámbrico"
 layout: front
 lang: es
@@ -56,7 +56,7 @@ grid:
     <h3>Blog Posts + Reports</h3>
   </div>
   <div class="grid-row">
-      {% assign postindex = site.posts | where:"lang",es %}
+      {% assign postindex = site.posts | where:"lang","es" %}
     {% for post in postindex limit:6 %}
     <div class="grid-cell grid-gallery">
       <div class="figure">
