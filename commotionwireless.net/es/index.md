@@ -8,7 +8,7 @@ grid:
    title: Kit de Construcción Commotion
    url: /docs/cck
    image: /icons/cck.svg
-   text: A build-it-ourselves guide to community wireless networks
+   text:
  - about:
    title: Acerca de Commotion
    url: /about
