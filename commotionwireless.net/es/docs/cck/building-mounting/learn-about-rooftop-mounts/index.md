@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__361 img__view_mode__media_original attr__format__media_original" height="478" src="/files/learning_rooftop_mounts_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support001.png" typeof="foaf:Image" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -48,7 +48,7 @@ lang: es
 <section id="section-types-of-roofs">
 <h2>Tipos de Techos</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__362 img__view_mode__media_large attr__format__media_large" src="/files/learning_rooftop_mounts_support002.png" style="width: 480px; height: 250px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support002.png" typeof="foaf:Image" /></p>
 
 <p>Cuando trabajes en un techo, ten mucho cuidado</strong>. Cualquier resbalo o desliz puede llevar a una caída larga, una herida seria o la muerte. Si no te sientes cómodo trabajando en el techo, no lo hagas.¡Consigue ayuda! Pregunta en tu comunidad y ve si hay algún profesional que trabaje en techos, cables de Televisión o instaladores de teléfonos, u otras personas que tengan más experiencia</p>
 
@@ -56,15 +56,15 @@ lang: es
 
 <p>Con cualquier tipo de techo, tienes que cuidar mantener las coberturas y aislantes del techo, que protegen al techo y lo hacen resistente al agua. La regla más importante cuando instales algo en el techo:  nunca caves agujeros en la superficie misma del techo. Aún si los agujeros están sellados apropiadamente, eventualmente gotearán y traerán problemas a la larga.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__363 img__view_mode__media_original attr__format__media_original" height="248" src="/files/learning_rooftop_mounts_support003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support003.png" typeof="foaf:Image" /></p>
 
 <h3>Montaje en Chimeneas</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__364 img__view_mode__media_original attr__format__media_original" height="600" src="/files/learning_rooftop_mounts_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support004.png" typeof="foaf:Image" /></p>
 
 <p>Estas son las piezas que necesitarás para un Montaje en la Chimenea.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__365 img__view_mode__media_original attr__format__media_original" height="276" src="/files/learning_rooftop_mounts_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support005.png" typeof="foaf:Image" /></p>
 
 <p>Hacer un montaje amarrándose a la chimenea es mejor cuando taladrar hacia el edificio no es una opción, por ejemplo, con estructuras viejas donde el ladrillo es más suave. Los montajes amarrados usan ataduras de acero amarradas alrededor de la chimenea, que son apretadas con una llave para asegurarlas a un poste. Usualmente las puedes pedir en línea.</p>
 
@@ -80,7 +80,7 @@ lang: es
 
 <h3>Montaje Ancla</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__366 img__view_mode__media_original attr__format__media_original" height="258" src="/files/learning_rooftop_mounts_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support006.png" typeof="foaf:Image" /></p>
 
 <p>Los montajes ancla son otra manera de poner el equipo en tu chimenea, pero también puedes usarlo en cualquier pared de mampostería. El típico montaje ancla esta hecho de dos piezas en forma de V de metal, que puedes amarrar a tu chimenea con tornillos o anclas.</p>
 
@@ -92,11 +92,11 @@ lang: es
 
 <h3>Montaje en Ventilaciones</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__367 img__view_mode__media_original attr__format__media_original" height="415" src="/files/learning_rooftop_mounts_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support007.png" typeof="foaf:Image" /></p>
 
 <p>Estas son las piezas que necesitarás en un Montaje en Ventilaciones.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__368 img__view_mode__media_original attr__format__media_original" height="518" src="/files/learning_rooftop_mounts_support008_009.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support008_009.png" typeof="foaf:Image" /></p>
 
 <p>Cuando hay un tubo de chimenea de ventilación resistente que sale del techo, se puede montar un mástil a él para extender la altura. Hay varios tipos de soportes, pero todos ellos están esencialmente constituidos por dos piezas de metal que se sujetn alrededor del tubo de ventilación y tu mástil para juntarlos firmemente. Los kits de montajes en ventilaciones a veces están disponibles en ferreterías locales o tiendas de electrónicos, así como en línea. Normalmente los kits para montajes de ventilación solo incluyen las partes para el ancla al tubo de ventilación. Necesitarás también algo al que adjuntar tu router, como una pieza de conducto eléctrico, un tubo o un mástil.</p>
 
@@ -106,11 +106,11 @@ lang: es
 
 <h3>Orilla del Techo o Ataduras a las Cornisas</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__369 img__view_mode__media_original attr__format__media_original" height="439" src="/files/learning_rooftop_mounts_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support010.png" typeof="foaf:Image" /></p>
 
 <p>Estos se colocan al final de un techo de dos aguas, donde otros métodos podrían no funcionar. No funcionarán en techos planos, que por lo general no tienen  cornisas. Los montajes en cornisas deben ser perorados dentro de la madera que soporta el techo. Puedes encontrar distintos its para difrentes largos de soportes de fondo, pero busca modelos ajustables que puedan estirarse para adaptarse mejor a tu techo.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__370 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support011.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support011.png" typeof="foaf:Image" /></p>
 
 <p>Como en todas estas instalaciones, se requiere un mástil de antena pintada o galvanizado.</p>
 
@@ -118,9 +118,9 @@ lang: es
 
 <h3>Montaje Sin Penetración</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__371 img__view_mode__media_original attr__format__media_original" height="576" src="/files/learning_rooftop_mounts_support012.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support012.png" typeof="foaf:Image" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__372 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support013.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support013.png" typeof="foaf:Image" /></p>
 
 <p>Esre tipo de método de montaje usa peso para asegurar el mástil al techo – no se requiere perforar o atornillar. Estos son los métodos preferidos si no tienes una chimenea a donde hacer el montaje, pero pueden ser usados aún si la tienes disponible.</p>
 
@@ -138,7 +138,7 @@ lang: es
 
 <p>También, ten en cuenta que puede que ya haya algo en tu techo que pueda ser utilizado para montar tu router inalámbrico. Generalmente una pipa o un mástil de antena debería ser de alrededor de 11⁄2" de diámetro para que quede mejor con el equipo. Si puedes llegar al montaje existente con seguridad, úsalo.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__373 img__view_mode__media_original attr__format__media_original" height="360" src="/files/learning_rooftop_mounts_support014.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learning_rooftop_mounts_support014.png" typeof="foaf:Image" /></p>
 </section>
 
 <section id="section-definitions">

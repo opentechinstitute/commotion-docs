@@ -11,7 +11,7 @@ post_author: critzo
 lang: es
 ---
 
-<p><img src="/files/prep_install_finish_support008.png"><p>
+<p><img src="/files/prep_install_finish_support008.png" class="img-responsive"><p>
 <section>
 <h2>Construyendo y Montando</h2>
 {% include cck/building-mounting-modules.html %}
