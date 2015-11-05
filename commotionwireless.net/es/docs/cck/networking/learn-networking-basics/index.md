@@ -12,7 +12,7 @@ post_author: critzo
 lang: es
 ---
 <section id="introduction">
-<p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" /></p>
+<p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" class="img-responsive" /></p>
 
 <h2>Introducción</h2>
 
@@ -39,7 +39,7 @@ lang: es
 
 <p>En el siguiente ejemplo, dos computadoras están conectadas entre sí mediante un cable Ethernet. Estas computadoras son capaces de verse entre sí y comunicarse a través del cable. La computadora cliente solicita una página web de la computadora servidor. El sitio web se entrega desde el servidor, y se muestra en el navegador web del cliente.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" /></p>
 
 <p>La mayoría de las solicitudes y entrega de contenido en redes son similares a, o se basan en, una relación de cliente con el servidor. En una red, el servidor puede estar ubicado casi en cualquier lugar, y si el cliente tiene la dirección, puede acceder a los contenidos en el servidor.</p>
 
@@ -67,7 +67,7 @@ servidor: estación de radio</em></p>
 
 <p>Abajo podemos ver <strong>Calle 192.168.1</strong>. En ella hay tres casas:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__627 img__view_mode__media_original attr__format__media_original" height="189" src="/files/CCK_Networking_Basics_IP_address_street.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_street.png" typeof="foaf:Image" /></p>
 
 <p>La direcciones completas para cada una de estas casas son: 192.168.1.<strong>20</strong>, 192.168.1.<strong>21</strong>, y 192.168.1.<strong>22</strong>.</p>
 
@@ -75,11 +75,11 @@ servidor: estación de radio</em></p>
 
 <p>Aquí podemos ver un ejemplo—una calle con dos edificios con <strong>direcciones IP públicas</strong>—representando computadoras con direcciones que son visibles a todo el Internet. Estos edificios pueden estar en cualquier parte del mundo, pero sus direcciones están completas, así que sabemos exactamente donde están y les podemos mandar mensajes.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__628 img__view_mode__media_original attr__format__media_original" height="218" src="/files/CCK_Networking_Basics_IP_address_public.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_public.png" typeof="foaf:Image" /></p>
 
 <p>Para ver un ejemplo de como las direcciones IP públicas y privadas se usan comunmente, demos otro vistazo a <strong>Calle 192.168.1</strong>. Tenemos un nuevo edificio en la calle. Ese edificio tiene una dirección IP pública, y una dirección IP privada. Hay también una barda que bloquea el resto del Internet de ver y pasar mensajes a direcciones en la calle.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" /></p>
 
 <p>El edificio postal controla los mensajes que viajan entre el Internet y la calle, dando seguimiento a los mensajes que salen a la calle, y dirigiendo mensajes de regreso a la casa correcta. En la calle, tiene la dirección  <strong>192.168.1.1</strong>, y en Internet tiene la dirección <strong>74.10.10.50</strong>.</p>
 
@@ -107,13 +107,13 @@ y escribe la dirección IP que reporta: ____________________
 
 <p>Un ejemplo de como funciona una central se muestra abajo. Una computadora <strong>A</strong> quiere enviar un mensaje a una computadora <strong>B</strong>. Envía un mensaje a través del cable Ethernet a la central, luego la central repite el mensaje a todas las computadoras conectadas.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__630 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_hub.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Network_hub.png" typeof="foaf:Image" /></p>
 
 <p>Una red usando una central se puede alentar si muchas computadores están mandando mensajes, ya que podrían intentar y enviar mensajes al mismo tiempo y confundir a la central. Para ayudar con este problema, las redes comenzaron a usar otro dispositivo llamado <strong>switch</strong>. En lugar de repetir todos los mensajes que llegan, un switch solo envía el mensaje al destino previsto. Esto elimina la repetición innecesaria de la central.</p>
 
 <p>Usando un switch, una computadora <strong>A</strong> envía un mensaje a una computadora <strong>B</strong>—las otras computadoras no ven ese mensaje. Esas computadoras pueden envíar otros mensajes al mimso tiempo sin interferir.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__631 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_switch.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Network_switch.png" typeof="foaf:Image" /></p>
 
 <p>No obstante, los switches tienen limitaciones—ellos solo saben acerca de las direcciones de los equipos que están conectados directamente a ellos. Así que, solo puedes enviar mensajes a un pequeño número de dispositivos—sin embargo, ¡el switch tiene muchos puertos! Si necesitas enviar un mensaje a una computadora o a otra red, se necesitará enviar a través de un router, que discutimos a continuación.</p>
 </section>
@@ -123,7 +123,7 @@ y escribe la dirección IP que reporta: ____________________
 
 <p><strong>Routers</strong> hacen la mayoría del trabajo duro en una red – toman las decisiones acerca de todos los mensajes que viajan en la red, y si pasan mensajes de y a redes externas. Hay tres funciones principales:</p>
 
-<table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__632 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_1.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
@@ -154,7 +154,7 @@ y escribe la dirección IP que reporta: ____________________
 
 <p>Miremos de nuevo Calle 192.168.1, y el edificio de servicio postal que incluimos cuando tenían una dirección pública para toda la calle. Como resultado, ese edificio de servicio postal está actuando como un <strong>Router</strong>.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" /></p>
 
 <p>En este caso, el edificio de servicio postal esta enrutando mensajes entre el resto del Internet usando su dirección pública y la calle con direcciones privadas.</p>
 </section>

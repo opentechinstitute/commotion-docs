@@ -11,7 +11,7 @@ post_author: georgia
 lang: es
 ---
 
-<p><img src="/files/CCK_LocalApps_overview.png"><p>
+<p><img src="/files/CCK_LocalApps_overview.png" class="img-responsive"><p>
 <section>
 <h2>Aplicaciones Locales</h2>
 {% include cck/local-applications-modules.html %}

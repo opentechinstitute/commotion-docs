@@ -12,7 +12,7 @@ post_author: critzo
 lang: es
 ---
 
-<p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
+<p><img alt="Install on a router graphic" src="/files/styles/large/public/install_on_ubiquiti_title.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -44,7 +44,7 @@ lang: es
 <p>Descarga la imagen Commotion para tu hardware:<br />
 <a href="/download/routers">https://commotionwireless.net/download/routers</a></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__736 img__view_mode__media_large attr__format__media_large" height="300" src="/files/styles/large/public/downloadsR1.png?itok=Ik_ZrDzo" typeof="foaf:Image" width="480" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/downloadsR1.png?itok=Ik_ZrDzo" typeof="foaf:Image" /></p>
 
 <p class="tip">Guarda el archivo en algún lugar al que puedas acceder fácilmente. Un buen lugar para guardar el archivo es en tu Escritorio, o en tu directorio de Descargas.</p>
 </section>
@@ -52,7 +52,7 @@ lang: es
 <section id="prepare-the-hardware">
 <h2>Configura el Hardware</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__443 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/install_on_ubiquiti_equipment_setup_1.png?itok=KfxWqJwJ" style="width: 510px; height: 388px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/install_on_ubiquiti_equipment_setup_1.png?itok=KfxWqJwJ" typeof="foaf:Image" /></p>
 
 <p><strong>¡Advertencia! ¡Es muy importante que no portes el POE etiquetado en tu computadora! Podrías dañar tu computadora ********************
 Warning! It is very important that you do not port labeled POE into your computer! You could damage your computer.</strong></p>
@@ -69,7 +69,7 @@ Warning! It is very important that you do not port labeled POE into your compute
 <section id="load-software">
 <h3>Carga el Software</h3>
 
-<table>
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td>
@@ -113,7 +113,7 @@ Warning! It is very important that you do not port labeled POE into your compute
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__457 img__view_mode__media_large attr__format__media_large" height="187" src="/files/styles/large/public/install_on_ubiquiti_upload_0.png?itok=LRZib41x" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__457 img__view_mode__media_large attr__format__media_large" height="187" src="/files/styles/large/public/install_on_ubiquiti_upload_0.png?itok=LRZib41x" typeof="foaf:Image" /></p>
 
 			<p>4. Da clic y espera para el siguiente prompt ************Click and wait for the next prompt.</p>
 			</td>
@@ -125,7 +125,7 @@ Warning! It is very important that you do not port labeled POE into your compute
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__458 img__view_mode__media_large attr__format__media_large" height="126" src="/files/styles/large/public/install_on_ubiquiti_update.png?itok=CzDQypDR" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__458 img__view_mode__media_large attr__format__media_large" height="126" src="/files/styles/large/public/install_on_ubiquiti_update.png?itok=CzDQypDR" typeof="foaf:Image" /></p>
 
 			<p>5. Da click El dispositovo debería instalar el software.***********Click The device will install the software. Durante esta etapa, la primera y última luz bajo el triangulo se prenderán, y luego las otras luces se apagarán, excepto la luz de encendido.</p>
 			</td>

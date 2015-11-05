@@ -53,7 +53,7 @@ lang: es
 <h3>Aplicaciones de Red</h3>
 <p>En las aplicaciones de red -- como un sitio web, tu computadora envia un mensaje a través de la red a un servidor, que envía a tu dispositivo (el “cliente”) el contenido de la página web en respuesta.</p>
 
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="400">
+<img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" >
 <br />
 <br />
 <br />

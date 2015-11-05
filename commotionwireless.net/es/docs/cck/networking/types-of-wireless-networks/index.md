@@ -12,7 +12,7 @@ post_author: Andy Gunn
 lang: en
 ---
 
-<img src="/files/CCK_TypesofNetworks_Intro_graphic.png" alt="Types of Wireless Networks" />
+<img src="/files/CCK_TypesofNetworks_Intro_graphic.png" alt="Types of Wireless Networks" class="img-responsive" />
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -33,11 +33,11 @@ lang: en
 
 <h4>The three wireless roles are:</h4>
 
-<p><img src="/files/Client_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="Client mode icon (C)">
+<p><img src="/files/Client_mode_icon.png" class="img-responsive pull-left" alt="Client mode icon (C)">
 <strong>Wireless Clients (Station)</strong>
 </p>
 
-<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_Client.png" style="float:left; max-width:200px; margin:10px;" alt="Wireless clients in a network">
+<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_Client.png" class="img-responsive pull-left" alt="Wireless clients in a network">
 Devices such as computers, tablets, and phones are common Clients on a network. When you are accessing a wireless hotspot, or the router in your home or office, your device is the client. This client mode is also known as “station mode” as well.
 <br /><br />
 Some routers can operate as Clients as well, which allows them to act like the wireless card in a computer, and connect to other Access Points. This can bridge two Ethernet networks, or connect to more distant APs.
@@ -47,11 +47,11 @@ A Wireless Client is similar to a person in the audience of a play or movie. The
 
 <p>&nbsp;</p>
 
-<p><img src="/files/AP_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="AP mode icon (A)">
+<p><img src="/files/AP_mode_icon.png" class="img-responsive pull-left" alt="AP mode icon (A)">
 <strong>Access Points (Master)</strong>
 </p>
 
-<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_AP.png" style="float:left; max-width:200px; margin:10px;" alt="Access points in a network">
+<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_AP.png" class="img-responsive pull-left" alt="Access points in a network">
 Most wireless networks are made using Access Points - devices that host and control the wireless connection for laptops, tablets, or smart phones. If you use Wi-Fi in your home or office, it is most likely through an Access Point. When a router is set up as an AP, it is said to be in “Master” or “Infrastructure” mode.
 <br /><br />
 An AP is sometimes a stand-alone device that bridges between a wireless and wired (Ethernet) network, or is part of a router. APs can cover a range of areas with a wireless signal, depending on the power of the device and the type of antenna. There are also some APs that are weatherproof, designed to be mounted outdoors.
@@ -61,11 +61,11 @@ An Access Point is similar to a person on stage, addressing an audience or crowd
 
 <p>&nbsp;</p>
 
-<p><img src="/files/Mesh_mode_icon.png" style="float:left; max-width:20px; margin:5px;" alt="Mesh mode icon (M)">
+<p><img src="/files/Mesh_mode_icon.png" class="img-responsive pull-left" alt="Mesh mode icon (M)">
 <strong>Ad-Hoc Node (Mesh)</strong>
 </p>
 
-<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_AdHoc.png" style="float:left; max-width:200px; margin:10px;" alt="Mesh nodes in a network">
+<p><img src="/files/CCK_TypesofNetworks_WiFi_icon_AdHoc.png" class="img-responsive pull-left" alt="Mesh nodes in a network">
 Some wireless devices (laptops, smart phones, or wireless routers) support a mode called Ad-Hoc. This allows those devices to connect together directly, without an Access Point in-between controlling the connection. This forms a different type of network - in Ad-Hoc mode, all devices are responsible for sending and receiving messages to the other devices - without anything else in between. In an Ad-Hoc network, every device must be in this role, and using the same configuration to participate. Not all devices use this mode, and some have it as a “hidden” feature.
 <br /><br />
 Ad-Hoc devices are used to create a Mesh network, so when they are in this mode, they are called “Mesh Nodes”.
@@ -77,7 +77,7 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 
 <p><strong>Quick Activity:</strong> Describe the differences in the two example networks below. What are the roles and relationships between the different colored nodes in the networks?</p>
 
-<table style="background-color:lightblue; border:1px solid black;">
+<table class="table table-responsive table-bordered">
 	<tr>
 		<td style="text-align: center;"><strong>Example 1</strong><br />
 		<img src="/files/CCK_TypesofNetworks_AdHoc_example.png" style="max-width:200px;" alt="Mesh network" />
@@ -115,16 +115,16 @@ An Ad-Hoc or Mesh node is similar to an individual in a group or roundtable disc
 <p>From the roles above, you can see that Clients always need to connect to an Access Point, and Mesh nodes all connect to each other. It should also be noted that due to how Wi-Fi is designed, this also prevents different roles from connecting to each other as well.</p>
 
 <p>Access Points cannot connect to each other wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoAP.png" alt="AP to AP won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoAP.png" alt="AP to AP won't connect" class="img-responsive" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>Clients cannot connect to each other wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoClient.png" alt="Client to client won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoClient.png" alt="Client to client won't connect" class="img-responsive" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>Clients cannot connect to Ad-Hoc (Mesh) devices wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoMesh.png" alt="Client to Mesh won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_ClienttoMesh.png" alt="Client to Mesh won't connect" class="img-responsive" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>Access Points cannot connect to Ad-Hoc (Mesh) devices wirelessly:</p>
-<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoMesh.png" alt="AP to Mesh won't connect" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img src="/files/CCK_TypesofNetworks_Device_connections_APtoMesh.png" alt="AP to Mesh won't connect" class="img-responsive" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" /></p>
 </section>
 
 

@@ -12,7 +12,7 @@ post_author: critzo
 lang: es
 ---
 
-<p><img src="/files/CCK-Recover_with_TFTP_support1.png" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_support1.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -70,32 +70,32 @@ lang: es
 
 <h4>Secuencia de luces Original Ubiquiti</h4>
 <p>Primero, las dos luces del centro - una Naranja y la otra Verde - se prenderán por algunos segundo, después se apagarán.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" class="img-responsive" /></p>
 
 <p>Luego, las luces de la izquierda a la derecha se prenderán en orden: Rojo, Naranja, Verde, y Verde de nuevo.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" class="img-responsive" /></p>
 
 <p>Finally, the 1st and 3rd will light, then the 2nd and 4th, over and over.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h4>Nueva secuencia de luces Ubiquiti</h4>
 <p>Primero, las dos luces del centro, Una naranja y una verde, se prenderán por unos segundos, luego se apagarán. Las luces permanecerán apagadas por alrededor de 10 secciones - ¡se paciente!</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" class="img-responsive" /></p>
 
 <p>Luego, todas las luces emitirán un flash, y luego se apagarán. Esto ocurrirá tres veces.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" class="img-responsive" /></p>
 
 <p>Finalmente, la 1era y 3era luz se prenderán, luego la 2da y 4ta, una y otra vez.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" class="img-responsive" /></p>
 
 <p>Una vez que el router esté en la etapa final - donde los dos sets de luces estén emitiendo un flash repetidamente, la unidad esta en modo TFTP. Puedes liberar el botón de Reinicio en este punto. Si pasan de 30 segundos a un minuto y las luces no cooperan, puede ser que necesites empezar de nuevo. Desconecta el cable Ethernet y comienza el proceso de nuevo.</p>
 
@@ -227,32 +227,32 @@ Puerta de Acceso: <code>192.168.1.1</code></p>
 
 <h4>Secuencia de luces Original Ubiquiti</h4>
 <p>Primero, las dos luces del centro - una Naranja y la otra Verde - se prenderán por algunos segundo, después se apagarán.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights2.png" class="img-responsive" /></p>
 
 <p>Luego, las luces de la izquierda a la derecha se prenderán en orden: Rojo, Naranja, Verde, y Verde de nuevo.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights4.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights6.png" class="img-responsive" /></p>
 
 <p>Finalmente, la 1era y 3era luz se prenderán, luego la 2da y 4ta, una y otra vez.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights7.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights8.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h4>Nueva secuencia de luces Ubiquiti</h4>
 <p>Primero, las dos luces del centro, Una naranja y una verde, se prenderán por unos segundos, luego se apagarán. Las luces permanecerán apagadas por alrededor de 10 secciones - ¡se paciente!</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new1.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new2.png" class="img-responsive" /></p>
 
 <p>Luego, todas las luces emitirán un flash, y luego se apagarán. Esto ocurrirá tres veces.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new3.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new4.png" class="img-responsive" /></p>
 
 <p>Finalmente, la 1era y 3era luz se prenderán, luego la 2da y 4ta, una y otra vez.</p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" style="max-width:400px;" /></p>
-<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new5.png" class="img-responsive" /></p>
+<p><img src="/files/CCK-Recover_with_TFTP_router_lights_new6.png" class="img-responsive" /></p>
 
 <p>Una vez que el router esté en la etapa final - donde los dos sets de luces estén emitiendo un flash repetidamente, la unidad esta en modo TFTP. Puedes liberar el botón de Reinicio en este punto. Si pasan de 30 segundos a un minuto y las luces no cooperan, puede ser que necesites empezar de nuevo. Desconecta el cable Ethernet y comienza el proceso de nuevo.</p>
 

@@ -10,7 +10,7 @@ changed: 2014-08-20
 post_author: critzo
 lang: es
 ---
-<p><img src="/files/CCK_CommonConfigs_Intro.png"><p>
+<p><img src="/files/CCK_CommonConfigs_Intro.png" class="img-responsive"><p>
 <section>
 <h2>Instalando y Configurando</h2>
 {% include cck/installing-configuring-modules.html %}
