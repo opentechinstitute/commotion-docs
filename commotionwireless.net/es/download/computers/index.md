@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Descarga para Commotion para Computadoras de Escritorio/Laptops
 categories:
 created: 2013-07-06

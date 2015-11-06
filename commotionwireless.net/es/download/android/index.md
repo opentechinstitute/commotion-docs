@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Descarga Commotion Andoid
 categories:
 created: 2013-06-28
