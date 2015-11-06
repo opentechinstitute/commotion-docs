@@ -9,23 +9,6 @@ lang: es
 ---
 <h2>Commotion Router</h2>
 
-<div class="warning-label">
-<div class="warning-top">
-<h2>ADVERTENCIA</h2>
-</div>
-
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-	<li><a href="/understanding-commotions-warning-label#anonymity">No puede esconder tu identidad</a></li>
-	<li><a href="/understanding-commotions-warning-label#internet">No previene el monitoreo del tráfico de internet</a></li>
-	<li><a href="/understanding-commotions-warning-label#monitoring">No provee fuerte seguridad contra el monitoreo sobre el enmallado</a></li>
-	<li><a href="/understanding-commotions-warning-label#jamming">Puede atorarse con interferencias de radio/datos</a></li>
-</ul>
-<a href="/understanding-commotions-warning-label">Para Mayor Información Da Click Aquí</a></div>
-</div>
-
 <p>Commotion Router es una distribución de OpenWRT Linux que soporta los routers inalámbricos listados abajo por vendedor. Si no estás seguro que archivo descargar, checa la lista completa de <a href="/docs/supported-devices">dispositivos que actualmente soportamos</a>.</p>
 
 <p>Para instrucciones sobre obtener la configuración de Commotion en tu router, ve las instrucciones de instalación, ligadas a cada una de las secciones del fabricante abajo. Después de la instalación, checa las páginas de Commotion <a href="/docs/cck/installing-configuring/configure-commotion/">de Configuración</a>

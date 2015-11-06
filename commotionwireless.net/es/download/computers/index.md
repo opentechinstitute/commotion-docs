@@ -7,22 +7,7 @@ changed: 2013-12-31
 post_author: critzo
 lang: es
 ---
-<div class="warning-label">
-<div class="warning-top">
-<h2>ADVERTENCIA</h2>
-</div>
 
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-        <li><a href="/understanding-commotions-warning-label#anonymity">No puede esconder tu identidad</a></li>
-        <li><a href="/understanding-commotions-warning-label#internet">No previene el monitoreo del tráfico de internet</a></li>
-        <li><a href="/understanding-commotions-warning-label#monitoring">No provee fuerte seguridad contra el monitoreo sobre el enmallado</a></li>
-        <li><a href="/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
-</ul>
-<a href="/understanding-commotions-warning-label">Para Mayor Información Da Click Aquí</a></div>
-</div>
 <h2>Cliente Commotion</h2>
 <p>El equipo de desarrollo de Commotion ha rediseñado la hoja de ruta para un cruce-compilado/cruce-de-plataforma del Cliente Commotion. El desarrollo activo del <a href="https://github.com/opentechinstitute/commotion-client">Cliente Commotion </a> está en proceso.</p>
 
