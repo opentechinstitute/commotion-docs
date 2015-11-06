@@ -9,8 +9,12 @@ lang: es
 ---
   <h2>Commotion OpenBTS</h2>
 
-<p><strong>¡Advertencia: esto es completamente experimental y no ha sido probado!</strong> Esto es solo para uso de desarrollo únicamente.</p>
-
+<div class="alert alert-warning">
+<h3>¡Advertencia!</h3>
+<p>
+ ¡Esto es completamente experimental y no ha sido probado! Esto es solo para uso de desarrollo únicamente.
+ </p>
+</div>
 <p>Commotion-OpenBTS está empaquetado como un Linux live distro personalizado que puedes correr desde un flashdrive de USB o CD.</p>
 
 <p><strong>Debes tener hardware GSM compatible para poder usarlo</strong>. Ve el archivo <a href="https://github.com/opentechinstitute/commotion-openbts/blob/master/README">LEEME</a> para más información.</p>
@@ -25,7 +29,7 @@ lang: es
 
 <h3>Construcciones Inestables:</h3>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
 	<thead>
 		<tr>
 			<th>File</th>

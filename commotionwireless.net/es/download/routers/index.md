@@ -16,16 +16,14 @@ si necesitas ayuda en configurar el hardware. Si te estas actualizando de versio
 
 <p>El lanzamiento actual de Commotion es <strong>v1.1 "Grumpy Cat"</strong></p>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 
-<table style="width:600px; ">
+<table class="table table-bordered table-responsive">
 <tr><td><h3 id="ubiquiti-airmax">Ubiquiti AirMax Routers</h3></td>
 <td style="align:right; vertical-align:bottom; padding-bottom:1em;"><a href="/docs/cck/installing-configuring/install-ubiquiti-router/">Installation Instructions</a></td>
 </tr>
 </table>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
   <thead>
     <tr>
 	<th scope="col">Router</th>
@@ -82,15 +80,15 @@ si necesitas ayuda en configurar el hardware. Si te estas actualizando de versio
     </tr>
   </tbody>
 </table>
-<p style="font-size:small;">Lanzado Octubre 10, 2014</p>
+<p class="small">Lanzado Octubre 10, 2014</p>
 
-<table style="width:600px; ">
+<table class="table table-bordered table-responsive">
 <tr><td><h3 id="ubiquiti-unifi">Puntos de Acceso Ubiquiti UniFi</h3></td>
 <td style="align:right; vertical-align:bottom; padding-bottom:1em;"><a href="/docs/cck/installing-configuring/install-unifi-router/">Instrucciones de Instalación</a></td>
 </tr>
 </table>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
   <thead>
     <tr>
 	<th scope="col">Router</th>
@@ -132,15 +130,15 @@ si necesitas ayuda en configurar el hardware. Si te estas actualizando de versio
     </tr>
   </tbody>
 </table>
-<p style="font-size:small;">Released October 10th, 2014</p>
+<p class="small">Released October 10th, 2014</p>
 
-<table style="width:600px; ">
+<table class="table table-bordered table-responsive">
 <tr><td><h3 id="tplink">TP-Link WDR Series Routers</h3></td>
 <td style="align:right; vertical-align:bottom; padding-bottom:1em;"><a href="/docs/cck/installing-configuring/install-tplink-router/">Instrucciones de Instalación</a></td>
 </tr>
 </table>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
    <thead>
       <tr>
          <th scope="col">Router</th>
@@ -182,15 +180,15 @@ si necesitas ayuda en configurar el hardware. Si te estas actualizando de versio
       </tr>
   </tbody>
 </table>
-<p style="font-size:small;">Released October 10th, 2014</p>
+<p class="small">Released October 10th, 2014</p>
 
-<table style="width:600px; ">
+<table class="table table-bordered table-responsive">
 <tr><td><h3 id="mikrotik">Mikrotik Routerboards</h3></td>
 <td style="align:right; vertical-align:bottom; padding-bottom:1em;"><a href="/docs/cck/installing-configuring/install-mikrotik-router/">Instrucciones de Instalación</a></td>
 </tr>
 </table>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
    <thead>
       <tr>
          <th scope="col">Router</th>
@@ -223,7 +221,7 @@ si necesitas ayuda en configurar el hardware. Si te estas actualizando de versio
       </tr>
   </tbody>
 </table>
-<p style="font-size:small;">Lanzado Octubre 13, 2014</p>
+<p class="small">Lanzado Octubre 13, 2014</p>
 
 <p><br/>¿No puedes ver tu dispositivo listado abajo? Checa la <a href="https://wiki.commotionwireless.net/doku.php/development_resources/router/hardware_in_testing">página wiki router hardware "en prueba"</a> para una lista completa de los dispositivos que están siendo probados con Commotion OpenWRT.</p>
 
