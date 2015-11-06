@@ -21,17 +21,17 @@ Network applications
 Many of the applications we use today are , which get and send information on behalf of the application to another computer on a network. For example,
 if you check your email using a web browser, that application is a network application since it retrieves information about the emails in your inbox from another computer. That computer is called a server, and is responsible for "serving" information to your personal device or computer. A web server is simply a server that provides information needed to display a website, while an email server is a server that sends and receives email information. A network application that requests information from a server is also referred to as a .
 
-![Application server and client model](/files/CCK_Networking_Basics_Client_server_diagram.png)
+<img alt="Application server and client model" src="/files/CCK_Networking_Basics_Client_server_diagram.png" class="img-responsive">
 
 Network applications communicate with a server, but that server does not have to be physically connected to the Internet. Sometimes the server is just connected to a local network, such as a mesh network. Running applications on a local server within your networkallows you and your community to have tools and services just for you. Many applications do not need access to the Internet to work, which means that the applications running on a local server would be useable whether your network has Internet access or not!
 
-<img title="Using an application on a local server" src="/files/GuidesHowtos_LocalApps_local.png" style="width:100%" />
+<img title="Using an application on a local server" src="/files/GuidesHowtos_LocalApps_local.png"  class="img-responsive" />
 *Using an application on a local server*
 
-<img title="Using an application on the internet" src="/files/GuidesHowtos_LocalApps_internet.png" style="width:100%" />
+<img title="Using an application on the internet" src="/files/GuidesHowtos_LocalApps_internet.png"  class="img-responsive" />
 *Using an application on the internet*
 
-<img title="Traffic for internet applications can traverse unnecessarily large geographic distances" src="/files/GuidesHowtos_LocalApps_geo.png" style="width:100%" />
+<img title="Traffic for internet applications can traverse unnecessarily large geographic distances" src="/files/GuidesHowtos_LocalApps_geo.png"  class="img-responsive" />
 *Traffic for internet applications can traverse unnecessarily large geographic distances*
 
 In the same way that the mesh network allows multiple people to share network resources, running a local application server makes it possible to share information without going out to the InternetApplicationsdigital signatures cryptographic keys have special mathematical properties, the signatures they generate can actually guarantee that the message the signature is attached to was created by no one other than the holder of those cryptographic keys. This is a very useful way to prove that messages sent by a node were not forged or tampered with in transit.
@@ -45,7 +45,7 @@ Welcome Page
 ------------
 You can also access the apps portal through the welcome page, if it is turned on. When you connect to the access point of a node on the mesh network which has the welcome page turned on, you can open your web browser and go to any non-HTTPS website (for example ). You will then be automatically redirected to the splash page:
 
-![Commotion Welcome Page](/files/GuidesHowtos_LocalApps_WelcomePage.png)
+<img alt="Commotion Welcome Page" src="/files/GuidesHowtos_LocalApps_WelcomePage.png"  class="img-responsive">
 
 By clicking on the **** icon, you will be redirected to the apps portal.
 
@@ -66,9 +66,9 @@ Once you have an application server setup and want to let the rest of the networ
 6. You can pick from one of the default application icons, or enter a URL for a custom icon to use (again, make sure the URL is reachable from other nodes on the mesh).
 7. Finally, click ****.
 
-![Adding a local application](/files/GuidesHowtos_LocalApps_AddApp1.png)
+<img alt="Adding a local application" src="/files/GuidesHowtos_LocalApps_AddApp1.png" class="img-responsive">
 
-![Adding a local application](/files/GuidesHowtos_LocalApps_AddApp2.png)
+<img alt="Adding a local application" src="/files/GuidesHowtos_LocalApps_AddApp2.png" class="img-responsive">
 
 The application is now registered with the local nodebanneds available.
 

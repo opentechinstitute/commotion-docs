@@ -10,7 +10,7 @@ post_author: andygunn
 lang: es
 ---
 
-<p><img src="/files/GuidesHowtos_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img src="/files/GuidesHowtos_intro_graphic.png" class="img-responsive" /></p>
 
 <p>Abajo hay algunos documentos de “inicio rápido”, para conseguir que ejecutes Commotion rápidamente. Para organización comunitaria, aprendizaje y planeación de actividades, ve todo el <a href="/docs/cck">Kit de Construcción Commotion</a>.</p>
 

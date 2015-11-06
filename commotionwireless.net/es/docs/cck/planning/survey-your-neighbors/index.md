@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" src="/files/survey_your_neighbors_support001.png" /></p>
+  <p><img alt="" src="/files/survey_your_neighbors_support001.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -254,7 +254,7 @@ Por favor marque todo lo que usted tiene. A) Chimenea; B) Antena de televisión;
 
 <p>Una vez escogidos sus primeros sitios, usa la información de contacto de las encuestas para realizar las citas.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__260 img__view_mode__media_original attr__format__media_original" style="width:510px;" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" width="500px"/></p>
+<p><img alt="" class="img-responsive" src="/files/survey_your_neighbors_support002.png" typeof="foaf:Image" /></p>
 </section>
 
 <section class="related-information" id="section-related-information">
