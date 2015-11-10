@@ -29,11 +29,11 @@ lang: fr
 	<li><strong>Mesh Network Name</strong> (SSID)<br />
 	(<em>Inline definition:</em> Choose a name that is 5-12 characters. The name can include numbers, letters &amp; special characters. Must be the same among multiple nodes.)<br />
 	(<em>Pop-up tooltip:</em> The public name of a wireless network. SSID is an acronym for Service Set Identifier.)<br />
-	<img alt="SSID / mesh network name " src="/files/mesh_network_name.png" style="border-style:solid; border-width:1px; height:163px; margin-bottom:15px; margin-top:15px; width:552px" /></li>
+	<img alt="SSID / mesh network name " src="/files/mesh_network_name.png" class="img-responsive" style="border-style:solid; border-width:1px; margin-bottom:15px; margin-top:15px;" /></li>
 	<li><strong>Node Name</strong><br />
 	(<em>Inline definition:</em> Unique name that is 5-12 characters. You can use numbers, letters &amp; special characters.)<br />
 	(<em>Pop-up tooltip:</em> Each device connected to the mesh network has a unique name. This name helps you identify your device.)<br />
-	<img alt="node name" src="/files/node_name.png" style="border-style:solid; border-width:1px; height:198px; margin-bottom:15px; margin-top:15px; width:552px" /></li>
+	<img alt="node name" src="/files/node_name.png" class="img-responsive" style="border-style:solid; border-width:1px; margin-bottom:15px; margin-top:15px;" /></li>
 	<li><strong>Channel</strong><br />
 	(<em>Inline definition:</em> Every node on the network must have the same channel.)<br />
 	(<em>Pop-up tooltip:</em> The 2.4 GHz Wi-Fi signal range is divided into 11 smaller channels in the U.S. You can choose different channels to avoid wireless interference.)</li>
@@ -41,7 +41,7 @@ lang: fr
 	(<em>Pop-up tooltip: </em>An individual device on a mesh network.)</li>
 	<li><strong>Client</strong><br />
 	(<em>Pop-up tooltip:</em><em> </em>A Wi-Fi device that temporarily connects to the mesh network without using Commotion software.)<br />
-	<img alt="" src="/files/client.png" style="border-style:solid; border-width:1px; height:139px; margin-bottom:15px; margin-top:15px; width:596px" /></li>
+	<img alt="" src="/files/client.png" class="img-responsive" style="border-style:solid; border-width:1px; margin-bottom:15px; margin-top:15px;" /></li>
 	<li><strong>Join a mesh network</strong></li>
 	<li><strong>Create a mesh network</strong></li>
 	<li><strong>Looking for networks...</strong></li>
@@ -65,7 +65,7 @@ lang: fr
 
 <p>When a user takes an action that could affect their security, privacy or anonymity, they should see a simple warning message that invites them to learn more by linking to external documentation. Here's an example warning that could pop-up after a user changes the node name. It should include a "Don't warn me again" checkbox to disable this warning for the future. The Commotion website should offer details about potential risks and vulnerabilities related to using the tools in common scenarios.</p>
 
-<p><img alt="" src="/files/security_0.png" style="height:392px; margin-bottom:0px; margin-top:0px; width:293px" /></p>
+<p><img alt="" src="/files/security_0.png" class="img-responsive" style="margin-bottom:0px; margin-top:0px;" /></p>
 
 <p><strong>Security</strong></p>
 
@@ -96,8 +96,8 @@ Commotion documentation should clearly discuss any issues of privacy and data re
 	<li><strong>Quit</strong> (Ends all mesh networking processes and closes the application)</li>
 </ol>
 
-<p><img alt="" src="/files/HIG_24.png" style="border-style:solid; border-width:1px; height:159px; margin-bottom:15px; margin-top:15px; width:419px" /><br />
-<img alt="" src="/files/HIG_25b.png" style="border-style:solid; border-width:1px; height:113px; margin-bottom:5px; margin-top:5px; width:419px" /></p>
+<p><img alt="" src="/files/HIG_24.png" class="img-responsive" style="border-style:solid; border-width:1px; margin-bottom:15px; margin-top:15px;" /><br />
+<img alt="" src="/files/HIG_25b.png" class="img-responsive" style="border-style:solid; border-width:1px; margin-bottom:5px; margin-top:5px;" /></p>
 
 <p>&nbsp;</p>
  

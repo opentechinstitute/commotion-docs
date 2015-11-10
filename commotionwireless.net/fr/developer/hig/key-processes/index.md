@@ -55,7 +55,7 @@ lang: fr
 
 <p>The log area should include a history of key network activities and the date and time they occurred. The log should follow the common language guidelines discussed earlier in this guide. An example is below:</p>
 
-<table border="0" cellpadding="10" cellspacing="0" style="width:400px">
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td>Today</td>
@@ -97,7 +97,4 @@ lang: fr
 
 <p>When a client joins a mesh network without using mesh software, a standard splash screen should appear when the user first opens a web browser. Here’s an example.</p>
 
-<p><img alt="" src="/files/join%20as%20a%20client.png" /></p>
-
-<p>&nbsp;</p>
- 
+<p><img alt="" src="/files/join%20as%20a%20client.png" class="img-responsive" /></p>

@@ -27,12 +27,3 @@ lang: fr
 <p><a href="/files/HIG%20graphics_0.zip">Human Interface Guidelines graphics</a> [ZIP, 9.15MB]</p>
 
 <p><a href="/files/Get%20Started%20%3A%20Involved%20Graphics.zip">Get Started / Get Involved graphics</a> [ZIP, 1.65MB]</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
- 
