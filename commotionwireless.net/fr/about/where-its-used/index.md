@@ -8,11 +8,11 @@ changed: 2013-12-18
 post_author: gerety
 lang: fr
 ---
-  <p class="bigger">The Commotion project has pilot networks in Detroit, Red Hook and has built event&nbsp;networks at conferences such as&nbsp;the <a href="http://amc.alliedmedia.org/">Allied Media Conference</a>,&nbsp;<a href="http://conference.freepress.net/">National Conference for Media Reform</a>, and <a href="http://wirelesssummit.org">International Summit for Community Wireless Networks</a>.</p>
+  <p class="lead">The Commotion project has pilot networks in Detroit, Red Hook and has built event&nbsp;networks at conferences such as&nbsp;the <a href="http://amc.alliedmedia.org/">Allied Media Conference</a>,&nbsp;<a href="http://conference.freepress.net/">National Conference for Media Reform</a>, and <a href="http://wirelesssummit.org">International Summit for Community Wireless Networks</a>.</p>
 
 <h3>International Training in Sayada, Tunisia</h3>
 
-<p><img align="left" src="http://ubuntu.nizarus.tn/var/resizes/MeshSayada/WeekEnd-1/MeshSayada-1-122.JPG?m=1386588086" style="margin: 0px 20px;" width="200" />Open Technology Institute held a series of workshops on Commotion Wireless technology in Sayada, Tunisia in December 2013.</p>
+<p><img align="pull-left img-responsive" src="http://ubuntu.nizarus.tn/var/resizes/MeshSayada/WeekEnd-1/MeshSayada-1-122.JPG?m=1386588086" style="margin: 0px 20px;" width="200" />Open Technology Institute held a series of workshops on Commotion Wireless technology in Sayada, Tunisia in December 2013.</p>
 
 <p>Learn More:</p>
 
@@ -23,7 +23,7 @@ lang: fr
 
 <h3>International Training in India</h3>
 
-<p><img align="left" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_two.png" style="margin: 0px 20px;" width="200" /> The Open Technology Institute traveled to Dharamshala, India in June 2013 for the first international Commotion Wireless workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.</p>
+<p><img class="pull-left img-responsive" src="http://oti.newamerica.net/sites/newamerica.net/files/articles/blog_post_two.png" style="margin: 0px 20px;" width="200" /> The Open Technology Institute traveled to Dharamshala, India in June 2013 for the first international Commotion Wireless workshop. Working with our local hosting partner AirJaldi, we convened over a dozen community technologists from across India and Nepal in the town nestled in the foothills of the Himalayas to get their feedback on OTI’s Commotion mesh technology. The workshop was an opportunity to strengthen not only the recent Developer Release 1.1 of the software, but also a global network of technology designers, implementers, and users who see users and communities as the prime source of innovation in information and communications technology.</p>
 
 <p>Learn More:</p>
 
@@ -32,9 +32,9 @@ lang: fr
 	<li><a href="https://plus.google.com/photos/113632566131475824062/albums/5891649779649829441">Photos</a></li>
 </ul>
 
-<h3 class="bigger">Detroit</h3>
+<h3 class="lead">Detroit</h3>
 
-<p><img align="left" src="/files/detroit.jpg" style="margin: 0px 20px;" width="200" /> Open Technology Institute (OTI) is actively working on a 20 node test network in the Cass Corridor section of Detroit, Michigan.</p>
+<p><img class="pull-left img-responsive" src="/files/detroit.jpg" style="margin: 0px 20px;" width="200" /> Open Technology Institute (OTI) is actively working on a 20 node test network in the Cass Corridor section of Detroit, Michigan.</p>
 
 <p>Additionally, OTI is working with local organizations to develop a training program for wireless engineering and installation, which will make use of the network as an open air classroom. The prototype Commotion network connects low-income apartment buildings, community centers, churches and businesses in the Cass Corridor, with ties to similar networks in the North Corktown and 48217 neighborhoods.</p>
 
@@ -49,7 +49,7 @@ lang: fr
 
 <h3>Red Hook, Brooklyn</h3>
 
-<p><img align="left" src="/files/redhook.jpg" style="margin: 0px 20px;" width="200" /></p>
+<p><img class="pull-left img-responsive" src="/files/redhook.jpg" style="margin: 0px 20px;" width="200" /></p>
 
 <p>Red Hook Initiative WiFi is a collaboratively designed mesh network. It provides Internet access to the Red Hook section of Brooklyn, NY, and serves as a platform for developing local applications and services. Red Hook Initiative has built the network in partnership with the Open Technology Institute, putting human-centered design and community engagement at the core of the project. The community expanded the network significantly following a natural disaster in Fall 2012.</p>
 
@@ -64,7 +64,7 @@ lang: fr
 
 <h3>Allied Media Conference</h3>
 
-<p><img align="left" src="/files/magicnet_0.png" style="margin: 0px 20px;" width="200" /> Since 1999, the Allied Media Conference (AMC) has gathered an array of community organizers, activists, technologists, artists, educators, policy wonks and others to collaboratively design and explore media-based strategies for transformative social movements. The 2012 and 2013 conferences provided an opportunity to test Commotion in an indoor conference setting with hundreds of simultaneous users.</p>
+<p><img class="pull-left img-responsive" src="/files/magicnet_0.png" style="margin: 0px 20px;" width="200" /> Since 1999, the Allied Media Conference (AMC) has gathered an array of community organizers, activists, technologists, artists, educators, policy wonks and others to collaboratively design and explore media-based strategies for transformative social movements. The 2012 and 2013 conferences provided an opportunity to test Commotion in an indoor conference setting with hundreds of simultaneous users.</p>
 
 <p>Seeking to expand the connective and interactive potential of the conference, the Open Technology Institute works with conference organizers from Allied Media Projects to install a wireless mesh network, providing conference attendees with improved Internet access and a suite of collaborative local applications and resources. The mesh network, MagicNet, successfully provides network access and interactive tools to hundreds of attendees over four days throughout the conference facilities.</p>
 

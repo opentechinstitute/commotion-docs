@@ -10,11 +10,11 @@ lang: fr
 ---
   <p>Commotion is a free,&nbsp;open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized mesh networks. Commotion provides a way for you to share your Internet connection with the people around you, but it&nbsp;is not a replacement for your Internet connection. Read more about how Commotion works on our <a href="/about/faq">Frequently Asked Questions</a> page.</p>
 
-<p><img alt="Mesh Networking Across Devices" src="/files/housesMesh_0.png" style="height:124px; width:419px" /></p>
+<p><img alt="Mesh Networking Across Devices" src="/files/housesMesh_0.png" class="img-responsive" /></p>
 
 <p>Wireless mesh networks allow devices to connect directly to each other without going through a centralized point. Mesh networks are self-healing and can grow organically. They also allow for easy sharing of services over the network, such as Internet and applications.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__547 img__view_mode__media_large attr__format__media_large" height="176" src="/files/styles/large/public/testMesh_1.png?itok=bhNg-QkK" typeof="foaf:Image" width="419" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/testMesh_1.png?itok=bhNg-QkK" typeof="foaf:Image" width="419" /></p>
 
 <h2>We aim to:</h2>
 
@@ -34,5 +34,5 @@ lang: fr
 <hr />
 <p>Commotion is led by the <a href="http://oti.newamerica.net" target="_blank">Open Technology Institute</a>.</p>
 
-<p><a class="img" href="http://oti.newamerica.net"><img alt="Open Technology Institute logo" src="/files/OTI-Institute-CMYK%20%5BConverted%5D-01.png" style="height:90px; width:300px" title="Open Technology Institute logo" /></a></p>
+<p><a class="img" href="http://oti.newamerica.net"><img alt="Open Technology Institute logo" src="/files/OTI-Institute-CMYK%20%5BConverted%5D-01.png" class="img-responsive" title="Open Technology Institute logo" /></a></p>
  
