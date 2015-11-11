@@ -11,7 +11,7 @@ changed: 2014-01-13
 post_author: critzo
 lang: fr
 ---
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_title.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_title.png" class="img-responsive" class="img-responsive" /></p>
 
 <h2 id="section-introduction">Introduction</h2>
 
@@ -33,13 +33,13 @@ lang: fr
 
 <p>Téléchargez l'image « Factory » de Commotion correspondant à votre matériel :<br><a href="/download/openwrt">https://commotionwireless.net/download/openwrt</a></p>
 
-<p><a href="/download/openwrt"><img alt="" src="/files/styles/large/public/install_on_ubiquiti_download_0.png" /></a></p>
+<p><a href="/download/openwrt"><img alt="" src="/files/styles/large/public/install_on_ubiquiti_download_0.png" class="img-responsive" class="img-responsive" /></a></p>
 
 <p class="tip">Sauvegardez le fichier dans un endroit facilement accessible, par exemple le bureau ou le dossier Téléchargements. </p>
 
 <h2 id="prepare-the-hardware">Installer le matériel</h2>
 
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_equipment_setup_1.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_equipment_setup_1.png" class="img-responsive" class="img-responsive" /></p>
 
 <p><strong>Attention: Ne branchez pas le port étiqueté comme PoE à votre ordinateur ! Cela peut endommager votre ordinateur.</strong></p>
 
@@ -56,7 +56,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_changeip_0.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_changeip_0.png" class="img-responsive" class="img-responsive" /></p>
 </td>
 <td>
 	<p>1. Déconnectez le Wi-Fi de votre ordinateur.</p>
@@ -70,7 +70,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_admin.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_admin.png" class="img-responsive" class="img-responsive" /></p>
 </td>
 <td>
 <p>1. Ouvrez votre navigateur web et tapez http://192.168.1.20 dans la barre d'adresse. Ceci est l'adresse IP du routeur. L'interface web d'Ubiquiti AirOS doit se charger. </p>
@@ -80,7 +80,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_login_1.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_login_1.png" class="img-responsive" class="img-responsive" /></p>
 </td>
 <td>
 <p>2. Accédez à l'interface :<br>Nom d'utilisateur : ubnt<br>Mot de passe : ubnt</p>
@@ -90,7 +90,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_browse_0.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_browse_0.png" class="img-responsive" class="img-responsive" /></p>
 <p>3. Allez dans l'onglet « System ». Dans la section « Firmware Update », cliquez sur « Browse » et sélectionnez le fichier Commotion que vous avez téléchargé pour votre routeur. </p>
 </td>
 </tr>
@@ -98,7 +98,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_upload_0.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_upload_0.png" class="img-responsive" /></p>
 <p>4. Cliquez sur « Upload » et attendez la prochaine invite.</p>
 </td>
 </tr>
@@ -106,7 +106,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_update.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_update.png" class="img-responsive" /></p>
 <p>5. Cliquez sur « Update ». L'appareil va installer le logiciel. À ce stade, le premier et le dernier témoin lumineux sous le triangle s'allumeront, et puis tous les témoins lumineux, sauf le témoin d'alimentation, s'éteindront. </p>
 </td>
 </tr>
@@ -114,7 +114,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_reboot_4.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_reboot_4.png" class="img-responsive" /></p>
 </td>
 <td>
 <p>6. Quand les témoins lumineux s'éteignent, l'appareil redémarre. Attendez quelques minutes jusqu'à ce que le témoin d'alimentation et le voyant sous le triangle tiennent une lumière verte ferme.</p>
@@ -124,7 +124,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_commotion_0.png" /></p>
+<p><img alt="" src="/files/styles/large/public/install_on_ubiquiti_commotion_0.png" class="img-responsive" /></p>
 </td>
 <td>
 <p>7. Saisissez http://192.168.1.20 encore une fois dans votre navigateur web. Si vous voyez l’écran de Commotion, cela signifie que vous avez réussi à installer votre routeur sans fil de Commotion. Félicitations ! </p>

@@ -25,7 +25,7 @@ lang: fr
 <section id="materials-and-supplies-needed">
 <h3>Matériel</h3>
 
-<p><img alt="" src="/files/styles/large/public/intro_to_mesh_presentation.png" /></p>
+<p><img alt="" src="/files/styles/large/public/intro_to_mesh_presentation.png" class="img-responsive" /></p>
 
 <p>Version imprimée de <strong><a href="/files/cck_name_that_network.pdf">Name that Network</a> </strong>(facultatif)</p>
 </section>
@@ -36,12 +36,12 @@ lang: fr
 
 <h3>Les réseaux peuvent avoir une structure maillée ou hiérarchisée. </h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
-<p class="rtecenter"><img alt="" src="/files/styles/large/public/learn_about_mesh_hier_dots.png" />La structure hiérarchisée /<br>
+<p class="rtecenter"><img alt="" src="/files/styles/large/public/learn_about_mesh_hier_dots.png" class="img-responsive" />La structure hiérarchisée /<br>
 Le réseau en étoile</p>
-<p class="rtecenter"><img alt="" src="/files/styles/large/public/learn_about_mesh_mesh_dots.png" />Le réseau maillé</p>
+<p class="rtecenter"><img alt="" src="/files/styles/large/public/learn_about_mesh_mesh_dots.png" class="img-responsive" />Le réseau maillé</p>
 </td>
 <td>
 <p>Un réseau est un ensemble d'appareils connectés les uns aux autres, transférant des informations ou des messages d'un point à un autre. </p>
@@ -52,10 +52,10 @@ Le réseau en étoile</p>
 </table>
 <h3>Le mode de transfert des réseaux maillés diffère de celui des réseaux non maillés. </h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
-<p><img alt="" src="/files/styles/large/public/learn_about_mesh_hier_route.png" /></p>
+<p><img alt="" src="/files/styles/large/public/learn_about_mesh_hier_route.png" class="img-responsive" /></p>
 <p><img alt="" src="/files/styles/large/public/learn_about_mesh_mesh_route.png"></p>
 </td>
 <td>
@@ -65,10 +65,10 @@ Le réseau en étoile</p>
 </table>
 <h3>Les routeurs sont des appareils qui déterminent la manière dont l'information se déplace tout au long d'un réseau. </h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
-<p><img alt="" src="/files/styles/large/public/learn_about_mesh_router_laptops.png" /></p>
+<p><img alt="" src="/files/styles/large/public/learn_about_mesh_router_laptops.png" class="img-responsive" /></p>
 </td>
 <td>
 <p>Les points d'accès standards, tels que ceux que avez chez vous, parlent aux ordinateurs ou aux smartphones mais ne peuvent pas parler facilement aux autres routeurs. </p>
@@ -77,7 +77,7 @@ Le réseau en étoile</p>
 </table>
 <h3>Les routeurs dédiés aux réseaux maillés peuvent parler les uns aux autres, de façon dynamique, ce qui leur permet d'orienter, fluidement, le trafic au niveau du réseau. </h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
 <p><img alt="" src="/files/styles/large/public/learn_about_mesh_simple_routers.png"></p>
@@ -90,27 +90,27 @@ Le réseau en étoile</p>
 </table>
 <h3>N'importe quel appareil du réseau maillé peut servir de plate-forme ou de point central dans le réseau - Le réseau peut également ne pas disposer de point central. </h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
-<p><img alt="" src="/files/styles/large/public/learn_about_mesh_complex_routers.png" /></p>
+<p><img alt="" src="/files/styles/large/public/learn_about_mesh_complex_routers.png" class="img-responsive" /></p>
 <p>Plus il existe d'appareils dans le réseau maillé, plus ce dernier devient flexible. N'importe quel appareil du réseau maillé peut servir de plate-forme ou de point central dans le réseau - Le réseau peut également ne pas disposer de point central. </p>
 </td>
 </tr>
 </table>
 <h3>Tout appareil du réseau peut servir de marge pour le réseau, lui permettant d'étendre sa porte et de développer de nouvelles connexions.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
-<p><img alt="" src="/files/styles/large/public/learn_about_mesh_complex_routers2.png" /></p>
+<p><img alt="" src="/files/styles/large/public/learn_about_mesh_complex_routers2.png" class="img-responsive" /></p>
 <p>Un réseau maillé dynamique, contrairement à un réseau traditionnel ''statique'', s'adapte constamment aux nouvelles conditions. Il ajuste automatiquement ses trajectoires pour intégrer de nouveaux nœuds qui se joignent au réseau et dispose de la flexibilité nécessaire pour réorienter les informations lorsqu'un nœud quitte le réseau. </p>
 </td>
 </tr>
 </table>
 <h3>Les réseaux maillés sont être renforcés et élargis à mesure que la base des utilisateurs s'agrandit. </h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 <tr style="border:hidden;">
 <td>
 <p><img alt="" src="/files/styles/large/public/learn_about_mesh_complex_routers3.png"/></p>

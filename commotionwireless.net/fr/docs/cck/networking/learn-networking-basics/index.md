@@ -12,7 +12,7 @@ post_author: critzo
 lang: fr
 ---
 <section id="introduction">
-<p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" /></p>
+<p><img alt="Learn Networking Basics graphic" src="/files/CCK_Networking_Basics_intro_graphic.png" class="img-responsive" /></p>
 
 <h2>Introduction</h2>
 
@@ -39,7 +39,7 @@ lang: fr
 
 <p>In the example below, two computers are connected together with an Ethernet cable. These computers are able to see each other and communicate over the cable. The client computer asks for a website from the server computer. The website is delivered from the server, and displayed on the client’s web browser.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__626 img__view_mode__media_original attr__format__media_original" height="197" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Client_server_diagram.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Most requests and content delivery on networks are similar to, or are based on, a client to server relationship. On a network, the server can be located almost anywhere, and if the client has the address, it can access the content on the server.</p>
 
@@ -67,7 +67,7 @@ server: radio station</em></p>
 
 <p>Below we can see <strong>192.168.1 Street</strong>. On it are three houses:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__627 img__view_mode__media_original attr__format__media_original" height="189" src="/files/CCK_Networking_Basics_IP_address_street.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_street.png" typeof="foaf:Image" width="510" /></p>
 
 <p>The complete addresses for each of these houses is: 192.168.1.<strong>20</strong>, 192.168.1.<strong>21</strong>, and 192.168.1.<strong>22</strong>.</p>
 
@@ -75,11 +75,11 @@ server: radio station</em></p>
 
 <p>Here we can see an example—a street with two buildings with <strong>public IP addresses</strong>—representing computers with addresses that are visible to the entire Internet. These buildings might be anywhere in the world, but their addresses are complete, so we know exactly where they are and can send messages to them.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__628 img__view_mode__media_original attr__format__media_original" height="218" src="/files/CCK_Networking_Basics_IP_address_public.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_public.png" typeof="foaf:Image" width="510" /></p>
 
 <p>To see an example of how public and private IP addresses are commonly used, let’s take another look at <strong>192.168.1 Street</strong>. We have a new building on the street. That building has a public IP address, and a private IP address. There is also a fence that blocks the rest of the Internet from seeing and passing messages to addresses on the street.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class=img-responsive" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
 
 <p>The postal building controls messages that travel between the Internet and the street, keeping track of messages that leave the street, and directs return messages to the right house. On the street, it has the address <strong>192.168.1.1</strong>, and on the Internet it has the address <strong>74.10.10.50</strong>.</p>
 
@@ -107,13 +107,13 @@ and write down the IP address it reports: ____________________
 
 <p>An example of how a hub works is shown below. Computer <strong>A</strong> wants to send a message to computer <strong>B</strong>. It sends the message through the Ethernet cable to the hub, then the hub repeats the message to all of the connected computers.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__630 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_hub.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Network_hub.png" typeof="foaf:Image" width="510" /></p>
 
 <p>A network using a hub can slow down if many computers are sending messages, since they may try and send messages at the same time and confuse the hub. To help with this problem, networks began to use another device called a <strong>switch</strong>. Instead of repeating all messages that come in, a switch only sends the message to the intended destination. This eliminates the unnecessary repetition of the hub.</p>
 
 <p>Using a switch, computer <strong>A</strong> sends a message to computer <strong>B</strong>—the other computers do not see the message. Those computers can send other messages at the same time without interfering.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__631 img__view_mode__media_original attr__format__media_original" height="344" src="/files/CCK_Networking_Basics_Network_switch.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_Network_switch.png" typeof="foaf:Image" width="510" /></p>
 
 <p>Switches do have a limitation though—they only know about the addresses of equipment that is plugged directly into them. So, you can only send messages to a small number of devices—however many ports the switch has! If you need to send a message to a computer on another network, it will need to be sent through a router, which we discuss next.</p>
 </section>
@@ -123,7 +123,7 @@ and write down the IP address it reports: ____________________
 
 <p><strong>Routers</strong> do the majority of the hard work on a network - they make the decisions about all the messages that travel on the network, and whether to pass messages to and from outside networks. There are three main functions:</p>
 
-<table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__632 img__view_mode__media_original attr__format__media_original" src="/files/CCK_Networking_Basics_router_icons_1.png" style="width: 200px; height: 189px;" typeof="foaf:Image" /></td>
@@ -154,7 +154,7 @@ and write down the IP address it reports: ____________________
 
 <p>Let us take another look at 192.168.1 Street, and the postal service building we included when it had a public address for the entire street. As it turns out, that postal service building is acting as a <strong>Router</strong>.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__629 img__view_mode__media_original attr__format__media_original" height="190" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/CCK_Networking_Basics_IP_address_private.png" typeof="foaf:Image" width="510" /></p>
 
 <p>In this case, the postal service building is routing messages between the rest of the Internet using its public address and the street with private addresses.</p>
 </section>

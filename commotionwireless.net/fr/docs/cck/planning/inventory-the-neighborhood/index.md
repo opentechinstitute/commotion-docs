@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: fr
 ---
-<p><img alt="" src="/files/styles/large/public/inventory_the_neighborhood_title.png"></p>
+<p><img alt="" src="/files/styles/large/public/inventory_the_neighborhood_title.png" class="img-responsive"></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -32,11 +32,11 @@ lang: fr
 <section id="materials-and-supplies-needed">
 <h3>MATERIEL + FOURNITURE REQUISE</h3>
 
-<p><a href="/files/SiteWorksheet.pdf"><img alt="" src="/files/styles/large/public/document_worksheet_2.png"></a></p>
+<p><a href="/files/SiteWorksheet.pdf"><img alt="" src="/files/styles/large/public/document_worksheet_2.png" class="img-responsive"></a></p>
 
 <p>Exemplaires des fiches <strong><a href="/files/SiteWorksheet.pdf">d'inventaire des sites</a></strong>, que vous utiliserez  pour collecter les informations concernant les emplacements susceptibles de constituer de bons sites. Il vous faudra une fiche pour chaque emplacement.</p>
 
-<p><a href="/files/NeighborhoodInventorySpreadsheet.pdf"><img alt="" src="/files/styles/large/public/document_spreadsheet_3.png"></a></p>
+<p><a href="/files/NeighborhoodInventorySpreadsheet.pdf"><img alt="" src="/files/styles/large/public/document_spreadsheet_3.png" class="img-responsive"></a></p>
 
 <p><strong><a href="/files/NeighborhoodInventorySpreadsheet.pdf">Fiche d'inventaire de voisinage</a></strong> : vous pouvez vous en servir pour organiser, stocker et exploiter les informations collectées dans votre entourage. Vous pouvez concevoir votre propre fiche ou vous inspirer de modèles déjà existants. </p>
 
@@ -59,11 +59,11 @@ lang: fr
 
 <p>L'identification des sites potentiels repose sur l'évaluation des différents aspects de chaque site : </p>
 
-<table>
+<table class="table table-responsive">
 <tbody>
 <tr>
 <td align="center" valign="middle" width="110px;">
-<img alt="" src="/files/styles/large/public/organizer.png"><br><strong>L'organisation</strong>
+<img alt="" src="/files/styles/large/public/organizer.png" class="img-responsive"><br><strong>L'organisation</strong>
 </td>
 	<td valign="middle">
 <strong>Evaluation des opportunités et difficultés d'ordre social :</strong>
@@ -78,7 +78,7 @@ lang: fr
 </tr>
 <tr>
 <td align="center" valign="middle">
-<img alt="" src="/files/styles/large/public/handyperson.png"><br><strong>Les personnes compétentes</strong>
+<img alt="" src="/files/styles/large/public/handyperson.png" class="img-responsive"><br><strong>Les personnes compétentes</strong>
 </td>
 	<td valign="middle">
 <strong>Evaluation des options de fixation et de raccordement à l'électricité :</strong>
@@ -92,7 +92,7 @@ lang: fr
 </tr>
 <tr>
 <td align="center">
-<img alt="" src="/files/styles/large/public/techie.png"><br><strong>La technologie</strong>
+<img alt="" src="/files/styles/large/public/techie.png" class="img-responsive"><br><strong>La technologie</strong>
 </td>
 	<td valign="middle">
 <strong>Evaluation du potentiel de connectivité sans fil : </strong>

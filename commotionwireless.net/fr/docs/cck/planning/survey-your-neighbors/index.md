@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: fr
 ---
-  <p><img alt="" src="/files/survey_your_neighbors_support001.png" /></p>
+  <p><img alt="" src="/files/survey_your_neighbors_support001.png" class="img-responsive" /></p>
 
 <h2 id="section-introduction">Introduction</h2>
 
@@ -188,11 +188,11 @@ lang: fr
 
 <p>Veuillez distribuer le sondage à l'aide de votre diagramme ou dépliant de sensibilisation pour assurer une bonne compréhension de la raison pour laquelle vous recueillez ces renseignements, ainsi que de la façon dont vous comptez les utiliser. Si vous n'avez pas l'intention de recueillir les résultats du sondage sur place, n'oubliez surtout pas de donner des instructions sur la manière dont ils pourront le retourner une fois complété.</p>
 
-<p><img alt="" src="/files/survey_your_neighbors_support004.png"></p>
+<p><img alt="" src="/files/survey_your_neighbors_support004.png" class="img-responsive"></p>
 
 <p class="tip">Il est recommandé de vous créer un "scénario" que vous utiliserez pour vous présenter et présenter le projet. Ceci vous aidera à expliquer pourquoi vous posez des questions et facilitera votre tâche. Par exemple, vous pourriez dire: "Bonjour, mon nom est___. J'habite sur la rue  ____ et je désire contribuer à la création d'un réseau sans fil communautaire, pour aider les gens du quartier à accéder à Internet. Pourrais-je vous poser quelques questions au sujet de votre expérience sur Internet et avec les ordinateurs de ce quartier? "</p>
 
-<p><img alt="" src="/files/survey_your_neighbors_support002.png"></p>
+<p><img alt="" src="/files/survey_your_neighbors_support002.png" class="img-responsive"></p>
 
 <h3>6. ANALYSEZ LES DONNEES</h3>
 
@@ -235,7 +235,7 @@ lang: fr
 </ul>
 <p>Une fois vos premiers sites choisis, utilisez les coordonnées que l'on trouve dans les sondages pour prendre les rendez-vous d'installations.</p>
 
-<p><img alt="" src="/files/survey_your_neighbors_support003.png"></p>
+<p><img alt="" src="/files/survey_your_neighbors_support003.png" class="img-responsive"></p>
 
 <h2 id="section-related-information">Renseignements Connexes</h2>
 

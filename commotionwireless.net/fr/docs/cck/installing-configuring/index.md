@@ -10,7 +10,8 @@ changed: 2014-08-20
 post_author: critzo
 lang: fr
 ---
-<div class="cck-section-page">
-{% include docs_cck_installing_menu.html %}
-</div>
- 
+<p><img src="/files/CCK_CommonConfigs_Intro.png" class="img-responsive"><p>
+<section>
+<h2>Installing and Configuring</h2>
+{% include cck/installing-configuring-modules.html %}
+</section>

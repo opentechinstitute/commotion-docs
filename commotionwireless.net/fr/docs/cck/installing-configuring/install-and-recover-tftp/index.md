@@ -11,7 +11,7 @@ changed: 2014-01-13
 post_author: critzo
 lang: fr
 ---
-<p><img alt="" src="/files/install_with_TFTP_support003_0.png" ></p>
+<p><img alt="" src="/files/install_with_TFTP_support003_0.png" class="img-responsive"></p>
 
 <h2 id="section-introduction">Introduction</h2>
 
@@ -31,7 +31,7 @@ lang: fr
 
 <p>Ce guide devrait fonctionner avec n'importe quelle version de Microsoft Windows à partir de Windows XP. Si vous n'êtes pas sûr de la version de Windows que vous avez, cliquez sur le menu Démarrer et tapez ``` winver ``` dans le menu Exécuter ou dans la boîte de recherche. Les réponses les plus probables sont Windows XP, Windows Vista ou Windows 7</p>
 
-<p><img alt="" src="/files/install_with_TFTP_support001.png" /></p>
+<p><img alt="" src="/files/install_with_TFTP_support001.png" class="img-responsive"/></p>
 
 <h3>PREPARER VOTRE ORDINATEUR POUR TFTP</h3>
 
@@ -45,29 +45,29 @@ lang: fr
 
 <p>4. En maintenant le bouton de réinitialisation enfoncé, regarder les lumières sur le devant de l'appareil. Les lumières sous le triangle feront une danse spéciale:</p>
 
-<p><img alt="" src="/files/router_dance01.png" /></p>
+<p><img alt="" src="/files/router_dance01.png" class="img-responsive"/></p>
 
 <p>1. Les deux led au milieu, une orange et une verte, vont s'allumer en continu, puis s'éteidre</p>
 
-<p><img alt="" src="/files/router_dance02.png" /></p>
+<p><img alt="" src="/files/router_dance02.png" class="img-responsive"/></p>
 
 <p>2.  Les led de gauche à droite vont s'allumer dans l'ordre: rouge, orange, vert, et vert à nouveau.</p>
 
-<p><img alt="" src="/files/router_dance03.png" /></p>
+<p><img alt="" src="/files/router_dance03.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance04.png" /></p>
+<p><img alt="" src="/files/router_dance04.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance05.png" /></p>
+<p><img alt="" src="/files/router_dance05.png" class="img-responsive"/></p>
 
 <p>3. les 1er et 3ème vont s'allumer, puis la 2ème et 4ème, encore et encore.</p>
 
-<p><img alt="" src="/files/router_dance06.png" /></p>
+<p><img alt="" src="/files/router_dance06.png" class="img-responsive" /></p>
 
-<p><img alt="" src="/files/router_dance07.png" /></p>
+<p><img alt="" src="/files/router_dance07.png" class="img-responsive"/></p>
 
 <p>Lorsque cela se produit, l'appareil est en mode TFTP. Vous pouvez relâcher le bouton de réinitialisation à ce moment. Si 30 secondes à une minute passent et les lumières ne coopèrent pas, vous devrez peut-être essayer de nouveau. Débranchez le câble Ethernet et recommencer le processus.</p>
 
-<p><img alt="" src="/files/router_dance08.png" /></p>
+<p><img alt="" src="/files/router_dance08.png" class="img-responsive"/></p>
 
 <p>A noter que le mode de récupération est activé uniquement pendant un court laps de temps. Si le routeur n'accepte pas le logiciel, vous devrez redémarrer le processus du bouton de réinitialisation. En général, vous devrez redémarrer si le périphérique a été en mode de récupération pendant plus de trois minutes.</p>
 
@@ -83,7 +83,7 @@ lang: fr
 
 <p>TFTP2 est un client TFTP très simple qui inclut uniquement les paramètres nécessaires pour installer le logiciel. Vous pouvez télécharger TFTP2 sur notre site pour développeurs et l'installer.</p>
 
-<p><img alt="" src="/files/TFTP2_1_0.png" /></p>
+<p><img alt="" src="/files/TFTP2_1_0.png" class="img-responsive"/></p>
 
 <ol>
 <li>Entrez 192.168.1.20, l'adresse IP du routeur, dans le champ "Serveur".</li>
@@ -98,11 +98,11 @@ lang: fr
 
 <p><strong>Windows XP</strong></p>
 
-<p><img alt="" src="/files/WinXP-Run-CMD_0.png" /></p>
+<p><img alt="" src="/files/WinXP-Run-CMD_0.png" class="img-responsive"/></p>
 
 <p>Cette version de Windows possède un client TFTP intégré. Vous aurez juste besoin d'aller  à votre invite de commande en cliquant sur le menu Démarrer, sélectionner  Exécuter et taper  <code> cmd </code></p>
 
-<p><img alt="" src="/files/16-XP_command_prompt_0.png" /></p>
+<p><img alt="" src="/files/16-XP_command_prompt_0.png" class="img-responsive"/></p>
 
 <p>Vous devrez obtenir une fenêtre intitulée <code> "C: \ WINDOWS \ system32 \ cmd.exe" </code>, ou similaire.</p>
 
@@ -150,7 +150,7 @@ L'image de Commotion pour notre matériel, tel que mentionné dans le document <
 
 <p>A partir de là, vous pouvez utiliser les instructions de Windows XP ci-dessus, puisque tout devrait fonctionner à l'identique une fois que le client est installé.</p>
 
-<p><img alt="" src="/files/install_with_TFTP_support002.png" /></p>
+<p><img alt="" src="/files/install_with_TFTP_support002.png" class="img-responsive"/></p>
 
 <h2 id="instructions-for-mac-osx">Instructions pour Mac OSX</h2>
 
@@ -180,29 +180,29 @@ Passerelle: <code>192.168.1.1 </code></p>
 
 <p>4. En maintenant le bouton de réinitialisation enfoncé, regarder les lumières sur le devant de l'appareil. Les lumières sous le triangle feront une danse spéciale:</p>
 
-<p><img alt="" src="/files/install_with_TFTP_support001.png" /></p>
+<p><img alt="" src="/files/install_with_TFTP_support001.png" class="img-responsive"/></p>
 
 <p>1. Les deux led au milieu, une orange et une verte, vont s'allumer en continu, puis s'éteidre</p>
 
-<p><img alt="" src="/files/router_dance02.png" /></p>
+<p><img alt="" src="/files/router_dance02.png" class="img-responsive" /></p>
 
 <p>2.  Les led de gauche à droite vont s'allumer dans l'ordre: rouge, orange, vert, et vert à nouveau.</p>
 
-<p><img alt="" src="/files/router_dance03.png" /></p>
+<p><img alt="" src="/files/router_dance03.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance04.png" /></p>
+<p><img alt="" src="/files/router_dance04.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance05.png" /></p>
+<p><img alt="" src="/files/router_dance05.png" class="img-responsive"/></p>
 
 <p>3. les 1er et 3ème vont s'allumer, puis la 2ème et 4ème, encore et encore.</p>
 
-<p><img alt="" src="/files/router_dance06.png" /></p>
+<p><img alt="" src="/files/router_dance06.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance07.png" /></p>
+<p><img alt="" src="/files/router_dance07.png" class="img-responsive"/></p>
 
 <p>Lorsque cela se produit, l'appareil est en mode TFTP. Vous pouvez relâcher le bouton de réinitialisation à ce moment. Si 30 secondes à une minute passent et les lumières ne coopèrent pas, vous devrez peut-être essayer de nouveau. Débranchez le câble Ethernet et recommencer le processus.</p>
 
-<p><img alt="" src="/files/router_dance08.png" /></p>
+<p><img alt="" src="/files/router_dance08.png" class="img-responsive"/></p>
 
 <p>A noter que le mode de récupération est activé uniquement pendant un court laps de temps. Si le routeur n'accepte pas le logiciel, vous devrez redémarrer le processus du bouton de réinitialisation. En général, vous devrez redémarrer si le périphérique a été en mode de récupération pendant plus de trois minutes.</p>
 
@@ -220,7 +220,7 @@ Passerelle: <code>192.168.1.1 </code></p>
 
 <p>Une fois que vous avez installé MacTFTP client, assurez-vous que l'adresse IP de votre ordinateur est configurée correctement, comme mentionné ci-dessus dans la section Préparer votre ordinateur pour TFTP. Ensuite, préparez votre routeur et ouvrez le client MacTFTP.</p>
 
-<p><img alt="" src="/files/MacTFTP_1_0.png" /></p>
+<p><img alt="" src="/files/MacTFTP_1_0.png" class="img-responsive"/></p>
 
 <ol>
 <li>Assurez-vous que le bouton "Envoyer" est mis en évidence.</li>
@@ -235,11 +235,11 @@ Passerelle: <code>192.168.1.1 </code></p>
 
 <p>Toutes les versions de Macintosh OSX devraient avoir un client TFTP installé. Il est accessible depuis le programme Terminal, qui est une interface en mode texte pour le système OSX. Vous pouvez trouver ce programme en naviguant, depuis le dossier Applications, dans le dossier Utilitaires.</p>
 
-<p><img alt="" src="/files/OSX_screengrab_2_0.png" /></p>
+<p><img alt="" src="/files/OSX_screengrab_2_0.png" class="img-responsive"/></p>
 
 <p>Lancer alors le programme intitulé "Terminal", il devrait ouvrir une interface de ligne de commande intitulé "Terminal - bash", ou quelque chose similaire.</p>
 
-<p><img alt="" src="/files/OSX_screengrab_3_1.png" /></p>
+<p><img alt="" src="/files/OSX_screengrab_3_1.png" class="img-responsive"/></p>
 
 <p>La fenêtre peut être différente, en fonction de la version de Mac OS X que vous utilisez. Vous devriez voir une invite de commande qui ressemble à ceci:</p>
 
@@ -249,7 +249,7 @@ Passerelle: <code>192.168.1.1 </code></p>
 
 <p>Cela peut ressembler à <strong> cd Bureau </strong> ou <strong> cd Téléchargements </strong> - ou quelque chose d'autre. Si vous n'êtes pas sûr, vous pouvez utiliser l'outil Recherche  pour accéder au fichier, puis frappez <code> commande I </code>. La boîte de dialogue "Get Info" devrait apparaître, où vous pouvez trouver le chemin d'accès complet dans l'onglet Général, intitulée "Où:". Vous pouvez ensuite taper ce chemin dans le terminal après la commande <code>cd  </code>. Pour vérifier que les fichiers sont dans le répertoire courant, vous pouvez taper ls, qui devrait afficher une liste des fichiers.</p>
 
-<p><img alt="" src="/files/OSX_screengrab_4-1.png" /></p>
+<p><img alt="" src="/files/OSX_screengrab_4-1.png" class="img-responsive"/></p>
 
 <p>Une fois que vous êtes dans le bon répertoire, vous pouvez exécuter le client TFTP. Pour ce faire, il suffit de taper <code> tftp </code> à l'invite et appuyez sur Entrée. Votre ligne de commande doit devenir comme suit:</p>
 
@@ -323,7 +323,7 @@ Passerelle: <code>192.168.1.1 </code></p>
 
 <p>Si vous avez besoin d'aide pour assigner une adresse IP static à votre ordinateur Linux, consultez ce guide.</p>
 
-<p><img alt="" src="/files/install_with_TFTP_support001.png" /></p>
+<p><img alt="" src="/files/install_with_TFTP_support001.png" class="img-responsive"/></p>
 
 <h3>PREPARER LE ROUTEUR POUR LE MODE DE RECUPERATION</h3>
 
@@ -337,29 +337,29 @@ Passerelle: <code>192.168.1.1 </code></p>
 
 <p>4. En maintenant le bouton de réinitialisation enfoncé, regarder les lumières sur le devant de l'appareil. Les lumières sous le triangle feront une danse spéciale:</p>
 
-<p><img alt="" src="/files/router_dance01.png" /></p>
+<p><img alt="" src="/files/router_dance01.png" class="img-responsive"/></p>
 
 <p>1. Les deux led au milieu, une orange et une verte, vont s'allumer en continu, puis s'éteidre</p>
 
-<p><img alt="" src="/files/router_dance02.png" /></p>
+<p><img alt="" src="/files/router_dance02.png" class="img-responsive"/></p>
 
 <p>2.  Les led de gauche à droite vont s'allumer dans l'ordre: rouge, orange, vert, et vert à nouveau.</p>
 
-<p><img alt="" src="/files/router_dance03.png" /></p>
+<p><img alt="" src="/files/router_dance03.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance04.png" /></p>
+<p><img alt="" src="/files/router_dance04.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance05.png" /></p>
+<p><img alt="" src="/files/router_dance05.png" class="img-responsive"/></p>
 
 <p>3. les 1er et 3ème vont s'allumer, puis la 2ème et 4ème, encore et encore.</p>
 
-<p><img alt="" src="/files/router_dance06.png" /></p>
+<p><img alt="" src="/files/router_dance06.png" class="img-responsive"/></p>
 
-<p><img alt="" src="/files/router_dance07.png" /></p>
+<p><img alt="" src="/files/router_dance07.png" class="img-responsive"/></p>
 
 <p>Lorsque cela se produit, l'appareil est en mode TFTP. Vous pouvez relâcher le bouton de réinitialisation à ce moment. Si 30 secondes à une minute passent et les lumières ne coopèrent pas, vous devrez peut-être essayer de nouveau. Débranchez le câble Ethernet et recommencer le processus.</p>
 
-<p><img alt="" src="/files/router_dance08.png" /></p>
+<p><img alt="" src="/files/router_dance08.png" class="img-responsive"/></p>
 
 <p>A noter que le mode de récupération est activé uniquement pendant un court laps de temps. Si le routeur n'accepte pas le logiciel, vous devrez redémarrer le processus du bouton de réinitialisation. En général, vous devrez redémarrer si le périphérique a été en mode de récupération pendant plus de trois minutes.</p>
 

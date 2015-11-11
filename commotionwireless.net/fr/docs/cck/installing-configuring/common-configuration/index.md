@@ -11,7 +11,7 @@ changed: 2014-01-12
 post_author: critzo
 lang: fr
 ---
-  <p><img alt="" src="/files/CCK_Common_Configs_Intro_0_0.png" /></p>
+  <p><img alt="" src="/files/CCK_Common_Configs_Intro_0_0.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -38,7 +38,7 @@ lang: fr
 <ul>
 <li><strong>(1)</strong> représente un nœud sans fil omnidirectionnel.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_OmniWireless_0_0.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_OmniWireless_0_0.png" class="img-responsive" /></p>
 
 <p><strong>Étapes de configuration :</strong></p>
 
@@ -69,7 +69,7 @@ lang: fr
 	<li>
 <strong>(3)</strong> représente le câble Ethernet reliant les deux appareils.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_EthernetMesh1_0.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_EthernetMesh1_0.png" class="img-responsive" /></p>
 
 <p><strong>Étapes de configuration :</strong></p>
 
@@ -85,7 +85,7 @@ lang: fr
 	<li>Enregistrez et appliquez ces paramètres.</li>
 	<li>Répétez ces étapes avec le deuxième nœud. Assurez-vous de configurer une adresse IP différente de celle configurée ci-dessus dans le même sous-réseau. Dans l'exemple donné, vous pourriez mettre l'adresse à <strong>172.16.100.2</strong>.</li>
 </ol>
-<p><img alt="" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_EthernetMesh2_0.png" class="img-responsive" /></p>
 </section>
 <section id="commotion-node-connected-to-a-home-or-business-router">
 <h2>Nœud Commotion relié à un routeur domestique ou professionnel</h2>
@@ -102,7 +102,7 @@ lang: fr
 	<li>
 <strong>(2)</strong> représente le dispositif sans fil d'intérieur utilisé par les clients pour se connecter.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_CommotionToRouterWAN_0.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_CommotionToRouterWAN_0.png" class="img-responsive" /></p>
 
 <p><strong>Ce scénario devrait fonctionner sans configuration supplémentaire.</strong></p>
 
@@ -125,7 +125,7 @@ lang: fr
 	<li>
 <strong>(4)</strong> représente la connexion à Internet.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_CommotionGateway_0.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_CommotionGateway_0.png" class="img-responsive" /></p>
 
 <p><strong>Ce scénario devrait fonctionner sans configuration supplémentaire.</strong></p>
 
@@ -148,7 +148,7 @@ lang: fr
 	<li>
 <strong>(5)</strong> représente un point d'accès intérieur (facultatif) permettant aux utilisateurs de relier les ordinateurs portables, les téléphones ou d'autres appareils.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_CommotionManyNodes.png" class="img-responsive" /></p>
 
 <p><strong>Cela devrait fonctionner automatiquement sans configuration supplémentaire.</strong></p>
 
@@ -179,7 +179,7 @@ lang: fr
 	<li>
 <strong>(4)</strong> représente un point d'accès intérieur permettant aux utilisateurs de relier les ordinateurs portables, les téléphones ou d'autres appareils.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_CommotionClientAP.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_CommotionClientAP.png" class="img-responsive" /></p>
 
 <p><strong>Étapes de configuration pour les dispositifs Commotion :</strong></p>
 
@@ -218,14 +218,14 @@ lang: fr
 	<li>
 <strong>(3)</strong> représente la connexion à Internet que vous voulez partager.</li>
 </ul>
-<p><img alt="" src="/files/CCK_CommonConfigs_WirelessGateway.png" /></p>
+<p><img alt="" src="/files/CCK_CommonConfigs_WirelessGateway.png" class="img-responsive" /></p>
 
 <p>Il n'existe actuellement aucune instruction pour cette configuration et <strong>il n'est pas certain qu'elle va fonctionner</strong>.</p>
 </section>
 <section id="meshing-laptops-smartphones-and-routers">
 <h2>Mailler les ordinateurs portables, les smartphones et les routeurs </h2>
 
-<p><img alt="" src="/files/CCK_Common_Configs_Laptop_Phone_Router.png" /></p>
+<p><img alt="" src="/files/CCK_Common_Configs_Laptop_Phone_Router.png" class="img-responsive" /></p>
 
 <p><strong>Étapes de configuration :</strong></p>
 
