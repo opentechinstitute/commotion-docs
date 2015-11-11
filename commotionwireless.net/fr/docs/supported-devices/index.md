@@ -17,7 +17,7 @@ lang: fr
 
 <h3>Routers</h3>
 
-<table class="files list" style="width:960px" summary="Commotion supported routers by manufacturer">
+<table class="table table-responsive" summary="Commotion supported routers by manufacturer">
 	<thead>
 		<tr>
 			<th scope="col">Manufacturer</th>
@@ -68,7 +68,7 @@ lang: fr
 <div id="phones" style="width:100%;">
 <h3>Cell phones</h3>
 
-<table class="files list" style="width:960px" summary="Commotion supported cell phones by mobile device type">
+<table class="table table-responsive" summary="Commotion supported cell phones by mobile device type">
 	<thead>
 		<tr>
 			<th scope="col">Mobile Device Type</th>
@@ -127,10 +127,10 @@ lang: fr
 </table>
 </div>
 
-<div id="computers" style="width:100%;">
+<div id="computers" style="100%">
 <h3>Computers</h3>
 
-<table class="files list" style="width:960px" summary="Commotion supported desktop and laptop supported computers by operating system">
+<table class="table table-responsive" summary="Commotion supported desktop and laptop supported computers by operating system">
 	<thead>
 		<tr>
 			<th scope="col">Operating System</th>
@@ -154,10 +154,10 @@ lang: fr
 </table>
 </div>
 
-<div id="cellular" style="width: 100%;">
+<div id="cellular">
 <h3>Cellular networks</h3>
 
-<table class="files list" style="width:960px" summary="Commotion supported open cellular network devices">
+<table class="table table-responsive" summary="Commotion supported open cellular network devices">
 	<thead>
 		<tr>
 			<th scope="col">Operating System</th>
