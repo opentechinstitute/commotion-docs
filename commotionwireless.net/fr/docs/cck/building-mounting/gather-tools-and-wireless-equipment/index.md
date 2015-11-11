@@ -3,440 +3,150 @@ layout: default
 title: Gather Tools and Wireless Equipment
 site_section: docs
 sub_section: [cck,cck-building]
-pdf: cck/building-mounting/1-Gather_Tools_and_Wireless_Equipment.pdf
-pdf-all: true
-categories: 
+pdf: cck/building-mounting/Gather_Tools_and_Wireless_Equipment.pdf
+categories:
 created: 2013-09-27
-changed: 2013-11-22
-post_author: critzo
+changed: 2015-08-11
+post_author: Andy Gunn
 lang: fr
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__375 img__view_mode__media_original attr__format__media_original" height="330" src="/files/gather_tools_and_equipment_support_001.png" typeof="foaf:Image" width="510" /></p>
 
-<section id="section-introduction">
-<h2>Introduction</h2>
+<img src="/files/gather_tools_and_equipment_support.png" class="img-responsive" alt="Line art of miscellaneous tools">
 
-<p>In this document you will find a list of suggested tools and equipment for wireless installations. It includes many common hand and power tools that you or someone you know may already have, so do not feel that you have to go and purchase all of these! Some items are also listed as optional — these may make some installations easier, but are not required. There is also a list of some wireless routers and mounting kits, but you should pick one based on the specific installation you are performing.</p>
+## Introduction
 
-<p>How to use this document: Read through the material and determine if you need to go purchase any tools, hardware or equipment. This should take less than an hour. Finding some of the items may take some more time. We have included specific part numbers for some harder-to-find items, but keep in mind items are occasionally discontinued or renumbered.</p>
+In this document you will find a list of suggested tools and equipment for wireless installations. It includes many common hand and power tools that you or someone you know may already have, so do not feel that you have to go and purchase all of these! Some items are also listed as optional — these may make some installations easier, but are not required. There is also a list of some wireless routers and mounting kits, but you should pick one based on the specific installation you are performing.
 
-<p>This document should be considered a companion to <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>. There are many references in those documents to tools and equipment in this module.</p>
+How to use this document: Read through the material and determine if you need to go purchase any tools, hardware or equipment. This should take less than an hour. Finding some of the items may take some more time. We have included specific part numbers for some harder-to-find items, but keep in mind items are occasionally discontinued or renumbered.
 
-<p><strong>Time required: less than 1 hour.</strong></p>
-</section>
+This document should be considered a companion to  [Prep and Install Rooftop Nodes](/docs/cck/building-mounting/prep-install-rooftop-nodes), [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts), and [Learn Rooftop Basics](/docs/cck/building-mounting/learn-rooftop-basics). There are many references in those documents to tools and equipment in this module.
 
-<section id="section-tool-bag">
-<h2>Tool Bag</h2>
+**Time required: less than 1 hour.**
 
-<p>Everything below is recommended for your tool bag, but items with an asterisk* are optional — you may not need them for your specific installation.</p>
 
-<p>All prices are listed in US Dollars (USD).</p>
+## Tool Bag
 
-<table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__291 img__view_mode__media_original attr__format__media_original" height="100" src="/files/tool_bag.png" typeof="foaf:Image" width="100" /></td>
-			<td>Tool Bag</td>
-			<td>Any 18” tool bag should be large enough</td>
-			<td>$45</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__691 img__view_mode__media_original attr__format__media_original" height="84" src="/files/first_aid_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>First Aid Kit</td>
-			<td>Any compact, portable first aid kit</td>
-			<td>$30</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__426 img__view_mode__media_original attr__format__media_original" height="60" src="/files/RJ45_crimper.png" typeof="foaf:Image" width="100" /></td>
-			<td>RJ-45 Crimper</td>
-			<td>EZ-RJPRO HD from Platinum Tools</td>
-			<td>$70</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__290 img__view_mode__media_original attr__format__media_original" src="/files/screwdriver_6_in_1.png" style="width: 100px; height: 60px;" typeof="foaf:Image" /></td>
-			<td>6-in-1 Screwdriver</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__294 img__view_mode__media_original attr__format__media_original" height="60" src="/files/box_wrench_8_inch.png" typeof="foaf:Image" width="100" /></td>
-			<td>8” Adjustible Box wrench</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__431 img__view_mode__media_original attr__format__media_original" height="60" src="/files/utility_knife.png" typeof="foaf:Image" width="100" /></td>
-			<td>Utility knife (box cutter)</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__296 img__view_mode__media_original attr__format__media_original" height="85" src="/files/edge_cutters.png" typeof="foaf:Image" width="100" /></td>
-			<td>Edge cutters</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__297 img__view_mode__media_original attr__format__media_original" height="60" src="/files/measuring_tape.png" typeof="foaf:Image" width="100" /></td>
-			<td>Measuring tape</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__298 img__view_mode__media_original attr__format__media_original" height="60" src="/files/glasses_eye_protection.png" typeof="foaf:Image" width="100" /></td>
-			<td>Eye protection glasses</td>
-			<td>&nbsp;</td>
-			<td>$5</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__299 img__view_mode__media_original attr__format__media_original" height="60" src="/files/ear_plugs.png" typeof="foaf:Image" width="100" /></td>
-			<td>Ear plugs</td>
-			<td>&nbsp;</td>
-			<td>$5</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__300 img__view_mode__media_original attr__format__media_original" height="55" src="/files/flashlight.png" typeof="foaf:Image" width="100" /></td>
-			<td>Flashlight or headlamp</td>
-			<td>&nbsp;</td>
-			<td>$15</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__301 img__view_mode__media_original attr__format__media_original" height="60" src="/files/cable_stripper.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cable stripper*</td>
-			<td>CAT5 cable jacket stripper, part # 15015</td>
-			<td>$14</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__690 img__view_mode__media_original attr__format__media_original" height="71" src="/files/pliers_side_cutting_box_1.png" typeof="foaf:Image" width="100" /></td>
-			<td>8” Side-cutting box pliers*</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="60" src="/files/pliers_needle_nose.png" typeof="foaf:Image" width="100" /></td>
-			<td>8” Needle-nose<br />
-			pliers*</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__692 img__view_mode__media_original attr__format__media_original" height="70" src="/files/level_magnetic.png" typeof="foaf:Image" width="100" /></td>
-			<td>Small magnetic level*</td>
-			<td>&nbsp;</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__305 img__view_mode__media_original attr__format__media_original" height="80" src="/files/staple_gun.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cable tacker<br />
-			staple gun*</td>
-			<td>Arrow Fastener T59 Wiring Tacker</td>
-			<td>$40</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal for hand tools:</td>
-			<td>$329</td>
-		</tr>
-	</tfoot>
-</table>
-</section>
+Everything below is recommended for your tool bag, but items with an asterisk* are optional — you may not need them for your specific installation.
 
-<section id="section-drilling-tools">
-<h2>Drilling Tools</h2>
+All prices are listed in US Dollars (USD).
 
-<p>Often cables must be run through masonry or brick walls, and mounting hardware must be installed on outdoor masonry walls.<strong> Items with an asterisk* are optional</strong>.</p>
+Item | &nbsp; | Detail | Price
+---- | ------ | ------ | -----
+![Tool bag](/files/tool_bag.png "Tool bag") | Tool Bag | Any 18” tool bag should be large enough | $45
+![First aid kit](/files/first_aid_kit.png "First aid kit") | First Aid Kit | Any compact, portable first aid kit | $30
+![Ethernet crimper](/files/RJ45_crimper.png "Ethernet crimper") | RJ-45 Crimper | EZ-RJPRO HD from Platinum Tools | $75
+![Screwdriver](/files/screwdriver_6_in_1.png "Screwdriver") | 6-in-1 Screwdriver | &nbsp; | $10
+![Wrench](/files/box_wrench_8_inch.png "Wrench") | 8” Adjustible Box wrench | &nbsp; | $10
+![Utility knife](/files/utility_knife.png "Utility knife") | Utility knife (box cutter) | &nbsp; | $5
+![Edge cutters](/files/edge_cutters.png "Edge cutters") | Edge cutters | &nbsp; | $10
+![Measuring tape](/files/measuring_tape.png "Measuring tape") | Measuring tape | &nbsp; | $10
+![Eye protection](/files/glasses_eye_protection.png "Eye protection") | Eye protection glasses | &nbsp; |$5
+![Ear plugs](/files/ear_plugs.png "Ear plugs") | Ear plugs | &nbsp; | $2
+![Flashlight](/files/flashlight.png "Flashlight") | Flashlight or headlamp | &nbsp; | $15
+![Cable stripper](/files/cable_stripper.png "Cable stripper") | Cable stripper* | CAT5 cable jacket stripper, part # 15015 | $14
+![Wire strippers](/files/wire_strippers.png "Wire strippers") | Wire Strippers* | &nbsp; | $10
+![Needle nose pliers](/files/pliers_needle_nose.png "Needle nose pliers") | Needle-nose pliers* | &nbsp; | $10
+![Magnetic level](/files/level_magnetic.png "Magnetic level") | Small magnetic level* | &nbsp; | $10
+![Staple gun](/files/staple_gun.png "Staple gun") | Cable tacker staple gun* | Arrow Fastener T59 Wiring Tacker | $40
+&nbsp;|&nbsp;| Subtotal for hand tools: | $301
 
-<table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__307 img__view_mode__media_original attr__format__media_original" height="80" src="/files/drill_hammer_corded.png" typeof="foaf:Image" width="100" /></td>
-			<td>Hammer drill (corded)</td>
-			<td>Less expensive option - standard corded drill</td>
-			<td>$70</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src="/files/drill_bits_masonry.png" typeof="foaf:Image" width="100" /></td>
-			<td>Masonry drill bits</td>
-			<td>For concrete, brick or stone (Note: not SDS bits)</td>
-			<td>$20</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__309 img__view_mode__media_original attr__format__media_original" height="60" src="/files/drill_bits_regular.png" typeof="foaf:Image" width="100" /></td>
-			<td>Regular drill bits</td>
-			<td>Any set of wood / metal drill bits are fine</td>
-			<td>$15</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__310 img__view_mode__media_original attr__format__media_original" height="60" src="/files/driver_bits_heavy_duty.png" typeof="foaf:Image" width="100" /></td>
-			<td>Heavy-duty driver bits</td>
-			<td>Standard flathead and Phillips driver bits</td>
-			<td>$5</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__311 img__view_mode__media_original attr__format__media_original" height="80" src="/files/drill_hammer_cordless.png" typeof="foaf:Image" width="100" /></td>
-			<td>Hammer drill (cordless)*</td>
-			<td>More expensive - 18V cordless or equiv.</td>
-			<td>$200</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="55" src="/files/drill_bits_masonry.png" typeof="foaf:Image" width="100" /></td>
-			<td>12” or longer masonry bit*</td>
-			<td>½” bit for thick walls - rated for concrete, brick or stone (Note: not SDS bits)</td>
-			<td>$10</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal for drilling tools:</td>
-			<td>$320</td>
-		</tr>
-	</tfoot>
-</table>
-</section>
 
-<section id="section-consumables">
-<h2>Consumables</h2>
+## Drilling Tools
 
-<p>These items are used to attach or fasten equipment or cabling in place. You will use them up as time goes on, and will need to purchase more.</p>
+Often cables must be run through masonry or brick walls, and mounting hardware must be installed on outdoor masonry walls. **Items with an asterisk* are optional**.
 
-<table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__318 img__view_mode__media_original attr__format__media_original" height="70" src="/files/screws_masonry.png" typeof="foaf:Image" width="100" /></td>
-			<td>Masonry screws</td>
-			<td>Box of 75 for $21. Note that you will drop and lose many screws</td>
-			<td>$0.30</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__319 img__view_mode__media_original attr__format__media_original" height="70" src="/files/clamps_hose.png" typeof="foaf:Image" width="100" /></td>
-			<td>2” Hose clamps</td>
-			<td>To attach router to mast</td>
-			<td>$5</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__320 img__view_mode__media_original attr__format__media_original" height="70" src="/files/zip_ties.png" typeof="foaf:Image" width="100" /></td>
-			<td>Zip ties</td>
-			<td>Set of 6” and 12” UV-rated ties</td>
-			<td>$25</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__321 img__view_mode__media_original attr__format__media_original" height="62" src="/files/staples_cable_tacker.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cable tacker staples</td>
-			<td>Arrow Fastener 591189 - 5/16” insulated staples</td>
-			<td>$8</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal for consumables:</td>
-			<td>$50</td>
-		</tr>
-	</tfoot>
-</table>
+Item | &nbsp; | Detail | Price
+---- | ------ | ------ | -----
+![Corded hammer drill](/files/drill_hammer_corded.png "Hammer drill with cord") | Hammer drill (corded) | Standard corded drill with "hammer" option. Less expensive than cordless. | $70
+![Masonry drill bits](/files/drill_bits_masonry.png "Masonry drill bits") | Masonry drill bits | For concrete, brick or stone (Note: not SDS bits) | $20
+![Drill bits](/files/drill_bits_regular.png "Drill bits") | Regular drill bits | Any set of wood and metal drill bits. | $15
+![Driver bits](/files/driver_bits_heavy_duty.png "Driver bits") | Heavy-duty driver bits | Standard flathead and Phillips driver bits. | $5
+![Cordless hammer drill](/files/drill_hammer_cordless.png "Cordless hammer drill") | Hammer drill (cordless)* | 18V cordless or higher power recommended. More expensive option. | $200
+![Masonry drill bits](/files/drill_bits_masonry.png "Masonry drill bits - long") | 12” or longer masonry bit* | ½” bit for thick walls - rated for concrete, brick or stone (Note: not SDS bits) | $10
+&nbsp;|&nbsp;| Subtotal for drilling tools: | $320
 
-<p><strong>Total for Hand and Drilling Tools: $675</strong></p>
-</section>
 
-<section id="section-wireless-equipment">
-<h2>Wireless Equipment</h2>
+## Consumables
 
-<p>The section below details different types of wireless equipment and the mounting hardware you can use to attach it to the roof of a building. The diagram below shows how all the various elements go together, but for determining what equipment and mounts are best for a specific home or building, please see <a href="/docs/cck/planning/inventory-the-neighborhood">Inventory the Neighborhood</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>.</p>
+These items are used to attach or fasten equipment or cabling in place. You will use them up as time goes on, and will need to purchase more.
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__376 img__view_mode__media_original attr__format__media_original" height="454" src="/files/wireless_node.png" typeof="foaf:Image" width="510" /></p>
+Item | &nbsp; | Detail | Price
+---- | ------ | ------ | -----
+![Masonry screws](/files/screws_masonry.png "Masonry screws") | Masonry screws | Get a box of 50 for about $15 to $20 - plan on losing some screws. | $20
+![Hose clamps](/files/clamps_hose.png "2" hose clamps") | 2” Hose clamps | To attach routers to masts | $5
+![Zip ties](/files/zip_ties.png "Zip ties") | Zip ties | Sets of 6” and 12” UV-rated ties. | $25
+![Cable tacker staples](/files/staples_cable_tacker.png "Cable tacker staples") | Cable tacker staples | Arrow Fastener 591189 - 5/16” insulated staples | $8
+&nbsp;|&nbsp;| Subtotal for consumables: | $50
 
-<p><strong>1. WIRELESS NODE</strong></p>
+*Tip: Zip ties used outdoors should be UV rated, meaning they should be black in color. UV rated zip ties will prevent the plastic from breaking down in the sun.*
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__377 img__view_mode__media_original attr__format__media_original" height="454" src="/files/roof_mount.png" typeof="foaf:Image" width="510" /></p>
 
-<p><strong>2. ROOF MOUNT.</strong> For specific hardware, consult the <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a> module.</p>
+## Wireless Equipment
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__378 img__view_mode__media_original attr__format__media_original" height="370" src="/files/ethernet_cable.png" typeof="foaf:Image" width="510" /></p>
+The section below details different types of wireless equipment and the mounting hardware you can use to attach it to the roof of a building. The diagram below shows how all the various elements go together, but for determining what equipment and mounts are best for a specific home or building, please see [Plan Wireless Sites](/docs/cck/building-mounting/plan-wireless-sites/), [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts), and [Learn Rooftop Basics](/docs/cck/building-mounting/learn-rooftop-basics).
 
-<p><strong>3. ETHERNET CABLE.</strong> Spool of 1000 feet is around $150. A single install may use only 50-100 feet of a spool.</p>
+**1. Wireless Router (Node):**
+![Wireless node](/files/wireless_node.png "Wireless router")
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__379 img__view_mode__media_original attr__format__media_original" height="333" src="/files/poe.png" typeof="foaf:Image" width="510" /></p>
+**2. Roof mount:**
+![Roof mount](/files/roof_mount.png "Roof mounting hardware")
+For specific hardware, consult the [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts) document.
 
-<p><strong>4. POE (POWER OVER ETHERNET).</strong> Comes with wireless node.</p>
+**3. Ethernet Cable:**
+![Ethernet Cable](/files/ethernet_cable.png "Ethernet Cable")
+A spool of 1000 feet is around $150. A single install may use 50 to 100 feet of cable.
+*Tip: Ethernet cable should be outdoor rated to prevent it from breaking down when exposed to the elements.*
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__380 img__view_mode__media_original attr__format__media_original" height="300" src="/files/indoor_router.png" typeof="foaf:Image" width="510" /></p>
+**4. PoE (Power over Ethernet) Adapter:**
+![Power over Ethernet](/files/poe.png "Power over Ethernet adapter")
+This should come with an outdoor wireless router.
 
-<p><strong>5. INDOOR ROUTER</strong> (Optional) This item is provided by the community member.</p>
+**5. Indoor Router (optional):**
+![Indoor router](/files/indoor_router.png "Indoor router")
+This provides indoor wireless coverage. Some buildings or homes may have these already.
 
-<p>For a standard installation, select one of the Ubiquiti routers per site. Add an indoor router to extend coverage inside the building. Estimate the number of feet of cabling to connect the routers to each other and the Ubiquiti router to the power source, with two RJ-45 ends per cable (plus some extra, just in case).</p>
+For a standard installation, select one of the Ubiquiti routers per site. Add an indoor router to extend coverage inside the building. Estimate the number of feet of cabling to connect the routers to each other and the Ubiquiti router to the power source, with two RJ-45 ends per cable (plus some extra, just in case).
 
-<p class="tip">There are two possible ways to connect this router to the Internet:<br />
-<br />
-If the Commotion node is plugged in to the router's LAN (inside network) port, and there is a modem or connection to the Internet plugged in to the WAN port, an Internet connection will be provided to the neighborhood mesh.<br />
-<br />
-If the Commotion node is plugged in to the router's WAN (Internet) port, the connection to the Internet will be provided by the neighborhood mesh. This requires your neighbors to be donating one or more connections to the mesh. If there is no connection to the Internet, you can use the network as a local "Intranet" or local network.</p>
+*Tip: There are two possible ways to connect this router to the Internet:
 
-<table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" src="/files/router_short_range_omnidirectional.png" style="width: 100px; height: 90px;" typeof="foaf:Image" /></td>
-			<td>Short range, omnidirectional router</td>
-			<td>Ubiquiti PicoStation</td>
-			<td>$45</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="120" src="/files/router_medium_range_directional.png" typeof="foaf:Image" width="100" /></td>
-			<td>Medium range, directional router</td>
-			<td>Ubiquiti NanoStation</td>
-			<td>$30</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="100" src="/files/router_long_range_high_power_antenna.png" typeof="foaf:Image" width="100" /></td>
-			<td>Long range, high power router with antenna options</td>
-			<td>Ubiquiti Rocket + Antenna</td>
-			<td>$70</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="100" src="/files/RJ45_ends.png" typeof="foaf:Image" width="100" /></td>
-			<td>RJ-45 Ends</td>
-			<td>CAT5/5e 100-piece jar, $60,<br />
-			part # 202003J</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="72" src="/files/ethernet_cable_spool.png" typeof="foaf:Image" width="100" /></td>
-			<td>Spool of Ethernet cable</td>
-			<td>Outdoor CAT5e, Ubiquiti TC-PRO, (spool of 1000 feet)</td>
-			<td>$65</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="80" src="/files/router_basic_indoor.png" typeof="foaf:Image" width="100" /></td>
-			<td>Basic indoor router</td>
-			<td>Linksys WRT54GL</td>
-			<td>$50</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal, per building:</td>
-			<td>$80-$140</td>
-		</tr>
-	</tfoot>
-</table>
-</section>
+1. If the Commotion node is plugged in to the router's LAN (inside network) port, and there is a modem or connection to the Internet plugged in to the WAN port, an Internet connection will be provided to the neighborhood mesh.
 
-<section id="section-mounting-hardware">
-<h2>Mounting Hardware</h2>
+2. If the Commotion node is plugged in to the router's WAN (Internet) port, the connection to the Internet will be provided by the neighborhood mesh. This requires your neighbors to be donating one or more connections to the mesh. If there is no connection to the Internet, you can use the network as a local "Intranet" or local network.*
 
-<p>Typically you will need one mast, two hose clamps, and one mounting kit per building that has exterior equipment. For more information on specific types of mounts, please see <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>.</p>
+Item | &nbsp; | Detail | Price
+---- | ------ | ------ | -----
+![Short range Omni](/files/router_short_range_omni.png "Short range Omni") | Short range, omnidirectional router | Ubiquiti Rocket M2 or M5 with generic dipole antennas | $100
+![Medium range directional](/files/router_medium_range_directional.png "Medium range directional")  | Medium range, directional router | Ubiquiti NanoStation M2 or M5 | $90
+![High power router](/files/router_antenna_options.png "High power router") | Long range, high power router with antenna options | Ubiquiti Rocket M2 or M5 with high-power omnidirectional antennas or very focused dish antennas | $250+
+![RJ45 connectors](/files/RJ45_ends.png "RJ45 connectors") | RJ-45 Ends | Shielded CAT5e or CAT6 connectors - Ubiquiti TC-CON-100 | $55
+![Ethernet cable](/files/ethernet_cable_spool.png "Ethernet cable") | Spool of Ethernet cable | Outdoor rated CAT5e, 1000 feet. Ubiquiti TC-PRO. | $150
+![Indoor router](/files/router_basic_indoor.png "Indoor router") | Basic indoor router | TP-Link WDR3600 or WR842ND | $50
+&nbsp;|&nbsp;| Subtotal, per installation: | $100-$300
 
-<table>
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>&nbsp;</th>
-			<th>Detail</th>
-			<th>Price</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__331 img__view_mode__media_original attr__format__media_original" height="90" src="/files/steel_mast.png" typeof="foaf:Image" width="100" /></td>
-			<td>5’ steel mast</td>
-			<td>Radio Shack - Antennacraft 5’ 18-gauge mast</td>
-			<td>$14</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__332 img__view_mode__media_original attr__format__media_original" height="130" src="/files/chimney_mount_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>Chimney mount kit</td>
-			<td>Winegard CM-2012 kit (Wraps around chimney.)</td>
-			<td>$25</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__333 img__view_mode__media_original attr__format__media_original" height="80" src="/files/wall_mount_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>Wall mount kit</td>
-			<td>Channel Master CM-9034 (Requires drilling holes and using masonry screws.)</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__334 img__view_mode__media_original attr__format__media_original" height="63" src="/files/eaves_mounting_kit.png" typeof="foaf:Image" width="100" /></td>
-			<td>Eaves mounting kit</td>
-			<td>Winegard SW-0012 (For the edge of a roof.)</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__335 img__view_mode__media_original attr__format__media_original" height="120" src="/files/non_penatrating_mount.png" typeof="foaf:Image" width="100" /></td>
-			<td>Non-penetrating mount</td>
-			<td>VMP FRM-125 (For flat roofs.)</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__336 img__view_mode__media_original attr__format__media_original" height="35" src="/files/rubber_mat.png" typeof="foaf:Image" width="100" /></td>
-			<td>Rubber mat</td>
-			<td>NPRMAT8 (To protect roofs under non-penetrating mount.)</td>
-			<td>$10</td>
-		</tr>
-		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__337 img__view_mode__media_original attr__format__media_original" height="60" src="/files/cinder_block.png" typeof="foaf:Image" width="100" /></td>
-			<td>Cinder blocks</td>
-			<td>Required as ballast for non-penetrating mount.</td>
-			<td>$10</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3" rowspan="1">Subtotal, per building:</td>
-			<td>$30-$120</td>
-		</tr>
-	</tfoot>
-</table>
-</section>
 
-<section id="section-definitions">
-<h2>Definitions</h2>
+## Mounting Hardware
 
-<dl>
-	<dt>PoE</dt>
-	<dd>Power over Ethernet. Systems which pass electrical power along with data on Ethernet cabling.</dd>
-	<dt>LAN</dt>
-	<dd>Local Area Network. In this case, a computer network covering a small local area, such as a home or office with Ethernet cables or wireless signals.</dd>
-	<dt>WAN</dt>
-	<dd>Wide Area Network. In this case, this signifies the connection to the global Internet.</dd>
-</dl>
-</section>
+Typically you will need one mast, two hose clamps, and one mounting kit per building that has exterior equipment. For more information on specific types of mounts, please see [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts).
 
-<section class="related-information" id="section-related-information">
-<h2>Related Information</h2>
+Item | &nbsp; | Detail | Price
+---- | ------ | ------ | -----
+![Steel mast](/files/steel_mast.png "Steel mast") | 5’ steel mast | Radio Shack - Antennacraft 5’ 18-gauge mast | $15
+![Chimney mount kit](/files/chimney_mount_kit.png "Chimney mount kit") | Chimney mount kit | Winegard CM-2012 kit (Wraps around chimney - no drilling.) | $20
+![Wall mount kit](/files/wall_mount_kit.png "Wall mount kit") | Wall mount kit | Channel Master CM-9034 (Requires drilling holes and using masonry screws.) | $20
+![Eaves mounting kit](/files/eaves_mounting_kit.png "Eaves mount kit") | Eaves mounting kit | Winegard SW-0012 (For the edge of a peaked roof.) | $30
+![Non-pen roof mount](/files/non_penatrating_mount.png "Non-pen roof mount") | Non-penetrating mount | VMP FRM-125 (For flat roofs only.) | $105
+![Rubber mat](/files/rubber_mat.png "Rubber mat") | Rubber mat | NPRMAT8 - protects roofs under non-penetrating mount. | $10
+![Concrete block](/files/cinder_block.png "Concrete blocks") | Concrete blocks | Required as ballast for non-penetrating mount. | $10
+&nbsp;|&nbsp;| Subtotal, per installation: | $35-$125
 
-<p>To calculate the cost of your installation, use this spreadsheet: "Gather Tools and Equipment Spreadsheet." You can either print the spreadsheet out or use it on your computer.</p>
 
-<p>This module should be considered a companion to <a href="/docs/cck/building-mounting/prep-install-rooftop-nodes">Prep and Install Rooftop Nodes</a>, <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Learn about Rooftop Mounts</a>, and <a href="/docs/cck/building-mounting/learn-rooftop-basics">Learn Rooftop Basics</a>.</p>
-</section>
- 
+## Definitions
+
+**PoE** : Power over Ethernet. Systems which pass electrical power along with data on Ethernet cabling.
+**LAN** : Local Area Network. In this case, a computer network covering a small local area, such as a home or office with Ethernet cables or wireless signals.
+**WAN** : Wide Area Network. In this case, this signifies the connection to the global Internet.
+
+
+## Related Information
+
+This module should be considered a companion to [Plan Wireless Sites](/docs/cck/building-mounting/plan-wireless-sites/), [Prep and Install Rooftop Nodes](/docs/cck/building-mounting/prep-install-rooftop-nodes), [Learn about Rooftop Mounts](/docs/cck/building-mounting/learn-about-rooftop-mounts), and [Learn Rooftop Basics](/docs/cck/building-mounting/learn-rooftop-basics).

@@ -10,7 +10,11 @@ changed: 2014-08-20
 post_author: critzo
 lang: fr
 ---
-<div class="cck-section-page">
-{% include docs_cck_building_menu.html %}
-</div>
+
+<p><img src="/files/prep_install_finish_support008.png" class="img-responsive"><p>
+<section>
+<h2>Building and Mounting</h2>
+{% include cck/building-mounting-modules.html %}
+</section>
+
  
