@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: es
 ---
-<p><img alt="Inventory the Neighborhood graphic" src="/files/styles/large/public/inventory_the_neighborhood_title.png" /></p>
+<p><img alt="Inventory the Neighborhood graphic" class="img-responsive" src="/files/styles/large/public/inventory_the_neighborhood_title.png" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -31,11 +31,12 @@ lang: es
 
 <section id="materials-and-supplies-needed">
 <h3>MATERIALES + SUMINISTROS NECESARIOS</h3>
-<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="Site Worksheet" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" /></a></p>
+
+<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="Site Worksheet" class="img-responsive" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" /></a></p>
 
 <p>Impresiones de las <strong><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Hojas de Trabajo</a></strong> puedes llevarlas al vecindario contigo para recolectar información acerca de lugares que podrías ser buenos sitios de instalación. Necesitarás una para cada ubicación.</p>
 
-<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="Hojas de Trabajo para Inventario de Vecindario" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" /></a></p>
+<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="Hojas de Trabajo para Inventario de Vecindario" class="img-responsive" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" /></a></p>
 
 <p><strong><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"> Hojas de Trabajo para Inventario de Vecindario </a></strong> puedes usarlas para organizar, almacenar y usar la información que recopilaste en el vecindario. Puedes copiar este ejemplo de hoja de trabajo o puedes hacer una propia.</p>
 
@@ -59,7 +60,7 @@ lang: es
 
 <p>Cuando se identifican los sitios potenciales para la red, cada uno de estos roles evalúa diferentes aspectos de cada sitio: </p>
 
-<table>
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td align="center" valign="middle" width="110px;"><img alt="Organizer" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;"/><br />

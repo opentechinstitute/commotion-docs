@@ -11,7 +11,7 @@ changed: 2013-12-23
 post_author: critzo
 lang: es
 ---
- <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
+ <p><img alt="" class="img-responsive" src="/files/troubleshooting_node_hosts_top.png" typeof="foaf:Image" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -50,7 +50,7 @@ lang: es
 
 <p><b>Comienza la solución de problemas al hacerte estas preguntas&nbsp;y al ir&nbsp;a la primera sección donde tu respuesta sea "no":</b></p>
 
-<table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__637 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_power_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
@@ -86,11 +86,11 @@ lang: es
 
 <section id="no-power">
 <h2>Problemas de poder: Si el router no está prendido</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__512 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" />
 
 <p>&nbsp;</p>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 	<tbody>
 		<tr>
 			<td>
@@ -130,16 +130,16 @@ lang: es
 
 <h3>Power: Checked</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
 <strong>En este punto, sabes que el suministro de energía para el router está bien. Muévete a la siguiente sección de solución de problemas.</strong></p>
 </section>
 
 <section id="no-visible-ap">
 <h2>No hay Puntos de Acceso Visibles: Si no puedes ver el Punto de Acceso</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__514 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 	<tbody>
 		<tr>
 			<td colspan="2">
@@ -172,16 +172,16 @@ lang: es
 
 <h3>AP Visibilidad: Revisada</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
 <strong>El punto de acceso es visible.</strong></p>
 </section>
 
 <section id="cant-connect-ap">
 <h2>No puedes conectar el Punto de Acceso: Tu dispositivo no está sosteniendo una conexión</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__516 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 	<tbody>
 		<tr>
 			<td colspan="2">
@@ -229,7 +229,10 @@ lang: es
 
 <h3>Punto de Acceso asociado con el Cliente: Revisado</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__713 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
+<p>
+<img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
 <strong>El dispositivo cliente está conectado al Punto de Acceso.</strong></p>
 </section>
 
@@ -259,7 +262,7 @@ lang: es
 
 <h3>Página de Bienvenida: Revisada</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__521 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
 <strong>La página de bienvenida aparece en el dispositivo cliente.</strong></p>
 </section>
 <!--
@@ -301,3 +304,4 @@ lang: es
 <h2>Recursos Externos</h2>
 Recomendamos leer el Capítulo 15 de <a href="http://wndw.net/">Redes Inalámbricas en el Mundo en Desarrollo</a>, sobre mantenimiento y solución de problemas.****************
 Wireless Networking in the Developing World</a>, on maintenance and troubleshooting.</section>
+-->

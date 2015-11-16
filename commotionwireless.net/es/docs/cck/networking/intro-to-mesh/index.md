@@ -28,7 +28,7 @@ ion</h2>
 <section id="materials-and-supplies-needed">
 <h3>Materiales</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__678 img__view_mode__media_large attr__format__media_large" height="226" src="/files/styles/large/public/intro_to_mesh_presentation.png?itok=GLXiZJfZ" typeof="foaf:Image" width="294" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/intro_to_mesh_presentation.png?itok=GLXiZJfZ" typeof="foaf:Image" /></p>
 
 <p>Impresiones de <strong><a href="/files/cck/networking/2.1-Name_That_Network.pdf">Name that Network</a>&nbsp;</strong>(optional)</p>
 </section>
@@ -40,7 +40,7 @@ ion</h2>
 
 <h3>La redes pueden tener estructuras jerárquicas o mesh.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
@@ -62,7 +62,7 @@ ion</h2>
 
 <h3>Las redes mesh se enrutan de forma diferente que las redes que no están enmalladas.********************* Mesh networks route differently than non-mesh networks.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
@@ -79,7 +79,7 @@ ion</h2>
 
 <h3>Los routers son dispositivos que determinan como se mueve la información a través de la red.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
@@ -94,7 +94,7 @@ ion</h2>
 
 <h3>Los routers que permiten el enmallado puede hablarse los unos a los otros dinámicamente, permitiéndoles enrutar flexiblemente el tráfico dentro de la red.************ Mesh-enabled routers can dynamically talk to each other, allowing them to flexibly route traffic within the network.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
@@ -117,7 +117,7 @@ ion</h2>
 
 <h3>Cualquier dispositivo mesh puede formar el borde de la red, siendo capaz de extender su alcance y formar nuevas conexiones.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr style="border:hidden;">
 			<td>
@@ -131,7 +131,7 @@ ion</h2>
 
 <h3>Las redes mesh se fortalecen y expanden a medida que la base de usuarios crece.</h3>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width: 500px;">
+<table class="table table-responsive">
 	<tbody>
 		<tr style="border:hidden;">
 			<td>

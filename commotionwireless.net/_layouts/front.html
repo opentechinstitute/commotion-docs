@@ -6,18 +6,30 @@ Notes:
 Mainly exists to prevent language/contact sidebar from squeezing category tiles
 -->
 
-{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+{% include header.html title=page.title subtitle=page.tagline %}
 
-<section id="main_content" class="inner home-width">
+<section id="main_content" class="container" role="main">
 
-<div class="content">
-{{ content }}
-</div>
-<div class="nav">
-<div id="sidemenu">
-{% include sub-sections-menu.html %}
-</div>
-</div>
+    <div class="content">
+        {{ content }}
+    </div>
+    <!-- 
+        This grid should be a simple sidenav include.
+        _tile styles conflict with twbs.
+            -->
+    <div class="grid">
+        <div id="sidemenu" class="grid-row">
+            <div class="grid-cell">
+                <p><a href="/report">Report a bug</a></p>
+            </div>
+            <div class="grid-cell">
+                <p><a href="/contact">Send us feedback</a></p>
+            </div>
+            <div class="grid-cell">
+                <p><a href="/docs/localization">Help us translate</a></p>
+            </div>
+        </div>
+    </div>
 
 </section>
 

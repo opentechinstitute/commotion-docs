@@ -12,8 +12,7 @@ post_author: Andy Gunn
 lang: es
 ---
 
-
-![Intro graphic](/files/Guidelines-intro-graphic.png)
+<img src="/files/Guidelines-intro-graphic.png" alt="intro graphic" class="img-responsive">
 
 ### Lecciones aprendidas de redes socias
 
@@ -27,36 +26,36 @@ Si estás revisando estas guías en grupo, o en un taller, puedes descargar un [
 
 Commotion y muchos firmwares***** mesh inalámbricos puede “dividir” las funciones wireless del router para que creen un link mesh un un Punto de Acceso al mismo tiempo. Esto puede simplificar la red, ya que no necesitas muchas piezas de equipo, pero causa problemas de rendimiento.
 
-![Mesh y Punto de Acceso combinados](/files/Mesh-AP-node-combined-functions.png)
+<img alt="Mesh y Punto de Acceso combinados" src="/files/Mesh-AP-node-combined-functions.png" class="img-responsive">
 
 
 Este diseño puede causar problemas por dos razones:
 
 **Problema 1:** Realizar varias tareas a la vez es difícil. La división de tiempo entre las señales del Punto de Acceso y las señales mesh es difícil porque el router sólo puede transmitir o recibir una señal a la vez -- tiene que alternar estas funciones. Esto reduce el tiempo disponible para hacer alguna de las funciones a la mitad, lo que reduce el rendimiento.
-![Mesh y Punto de Acceso combinados – problema de división del tiempo](/files/Mesh-AP-node-time-split-problem.png)
+<img alt="Mesh y Punto de Acceso combinados – problema de división del tiempo" src="/files/Mesh-AP-node-time-split-problem.png" class="img-responsive">
 
 
 **Problema 2:** Cuando algunas personas están gritando, y otros están susurrando, se hace difícil escuchar los murmuradores. Las señales de laptops y teléfonos inteligentes son mucho más débiles que las señales del router. Los routers exteriores utilizados para enmallar por lo general tienen una energía inalámbrica mucho más alta que los teléfonos inteligentes y laptops. Esto permite que las señales que viajen más, y hace que sea más fácil para los routers vecinos escucharlas. Las señales de los dispositivos de las personas no son tan fuertes – así que los routers tienen que escuchar con mayor cuidad, lo que toma más tiempo. Esto hace que el problema de división del tiempo sea peor.
-![Mesh y Punto de Acceso combinados – problema de cercanía-lejanía](/files/Mesh-AP-node-near-far-problem.png)
+<img alt="Mesh y Punto de Acceso combinados – problema de cercanía-lejanía" src="/files/Mesh-AP-node-near-far-problem.png" class="img-responsive">
 
 
 ### Solución
 Hay varias soluciones a este problema, la mayoría de las cuales implican un equipo adicional. En general, sólo tienes que tener los routers del techo o al aire libre que realizan funciones mesh solamente, y luego conectar los puntos de acceso adicionales para conectar a la gente.
-![Mesh y Punto de Acceso como dispositivos separados](/files/Mesh-AP-node-separate-devices.png)
+<img alt="Mesh y Punto de Acceso como dispositivos separados" src="/files/Mesh-AP-node-separate-devices.png" class="img-responsive">
 
 
 Hay varias maneras de dividir la función entre dispositivos:
 
 **Solución 1:** Usa routers separados para Puntos de Acceso. Estos pueden ser de muy bajo costo, como el TP-Link WR841ND, y no necesitan ejecutar Commotion – solo necesitan proveer un “puente” para la red mesh. Estos deberían ser conectados con cables Ethernet a una red mesh. Pueden también ser colocados afuera para proveer acceso en áreas públicas.
-![Mesh y Punto de Acceso separados - multi-dispositivos](/files/Mesh-AP-node-multi-device-solution.png)
+<img alt="Mesh y Punto de Acceso separados - multi-dispositivos" src="/files/Mesh-AP-node-multi-device-solution.png" class="img-responsive">
 
 
 **Solución 2:** Usa routers de banda dual. Hay dos bandas Wi-Fi - 2.4GHz y 5GHz. Puedes separar el mesh y las funciones de Punto de Acceso para cada banda, permitiendo que el router realice ambas funciones simultáneamente. La mayoría de los routers son de una sola banda, así que esto requiere algo de creatividad al montar routers internos de banda dual en cajas a prueba de agua en el exterior. Un ejemplo de un router de banda dual que soporta funciones mesh es el TP-Link WDR3600.
-![Mesh y Punto de Acceso separados – solución de multi-banda](/files/Mesh-AP-node-dual-band-solution.png)
+<img alt="Mesh y Punto de Acceso separados – solución de multi-banda" src="/files/Mesh-AP-node-dual-band-solution.png" class="img-responsive">
 
 
 ** Solución 3:** Usa routers multi-radio. Algunos routers de alta tecnología, como el MikroTik RB433 tienen múltiples tarjetas de radio. Los enlaces mesh y Puntos de Acceso pueden estar en canales separados y trabajar simultáneamente. Estos routers son más caros y pueden ser más complicados para configurar.
-![Mesh y Punto de Acceso separados - solución de multi-radio](/files/Mesh-AP-node-dual-radio-solution.png)
+<img alt="Mesh y Punto de Acceso separados - solución de multi-radio" src="/files/Mesh-AP-node-dual-radio-solution.png" class="img-responsive">
 
 
 ### Compensación
@@ -68,17 +67,17 @@ El rendimiento se puede aumentar mediante el uso más routers o routers más car
 ### Problema
 
 En una red mesh, cada eslabón, o "salto" entre los routers reducirá el ancho de banda a la mitad. Esto sucede porque los enlaces inalámbricos sólo pueden hacer una cosa a la vez - transmitir o recibir. En una "cadena" larga de enlaces mesh, esto se traduce en una conexión muy lenta de extremo a extremo.
-![Saltos Mesh – demasiados saltos](/files/Mesh-hops-many-hops.png)
+<img alt="Saltos Mesh – demasiados saltos" src="/files/Mesh-hops-many-hops.png" class="img-responsive">
 
 
 Esto ocurre por dos razones:
 
 **Problema 1:** Cada salto en la red quita la mitad del ancho de banda. El rendimiento disminuirá rápidamente debido a esto. Esto será más evidente en los "bordes" de la red  - las áreas a varios saltos de distancia de los recursos a los que las personas están intentando acceder, como puertas de entrada a Internet o un servidor local.
-![Saltos Mesh - problema de ancho de banda](/files/Mesh-hops-bandwidth-over-hops-problem.png)
+<img alt="Saltos Mesh - problema de ancho de banda" src="/files/Mesh-hops-bandwidth-over-hops-problem.png" class="img-responsive">
 
 
 **Problema 2:** Muchos saltos aumentan la latencia.****** Many hops increases the latency.******* La latencia******* es la palabra usada en redes para los retrasos, y cuando este número aumenta, ciertas aplicaciones - tales como transmisión de audio o vídeo y voz sobre IP - comenzarán a tener problemas graves, como deserción y tartamudeo. Esto puede hacer a estas aplicaciones totalmente inutilizables.
-![Saltos Mesh – problema de latencia******](/files/Mesh-hops-latency-over-hops-problem.png)
+<img alt="Saltos Mesh – problema de latencia******" src="/files/Mesh-hops-latency-over-hops-problem.png" class="img-responsive">
 
 **ms siginifica milisegundos – o una milésima de segundo. No es mucho, ¡pero suma!*
 
@@ -86,21 +85,21 @@ Esto ocurre por dos razones:
 ### Solución
 
 Hay maneras de mantener el número de saltos bajos en una red. La planificación extra y el diseño antes de que la red este construida puede ayudar a minimizar el problema. Se pueden agregar enlaces adicionales para crear un "puente" entre las partes distantes de la red después.
-![Saltos Mesh – manejando soluciones de saltos](/files/Mesh-hops-fewer-hops.png)
+<img alt="Saltos Mesh – manejando soluciones de saltos" src="/files/Mesh-hops-fewer-hops.png" class="img-responsive">
 
 
 Hay diferentes maneras de disminuir el número de saltos en una red:
 
 **Solución 1:** Planea desde el principio para los enlaces troncales de alto rendimiento. Los nodos Mesh en los tejados y torres principales deben tener una excelente comunicación entre sí para permitir "red central" sólida. Esto mantiene el rendimiento de la red más alto a medida que crece. Esto también requiere que los recursos tales como las conexiones a Internet, o la colocación de servidores que alojan aplicaciones, se planifique con antelación y se coloque cerca del "centro" de la red.
-![Saltos Mesh – pre-planificando con saltos en mente](/files/Mesh-hops-pre-planning-solution.png)
+<img alt="Saltos Mesh – pre-planificando con saltos en mente" src="/files/Mesh-hops-pre-planning-solution.png" class="img-responsive">
 
 
 **Solución 2:** Crea grupos de redes pequeñas. Los grupos de routers mesh pueden servir a edificios cercanos, y tener sólo unos saltos entre todos los vecinos. Estos grupos se pueden unir con punto-a-punto, o enlaces punto-a-multipunto regresando a un punto central. Esto puede requerir un edificio muy alto o torre que actue como el punto central.
-![Saltos Mesh -solución creando grupos](/files/Mesh-hops-cluster-solution.png)
+<img alt="Saltos Mesh -solución creando grupos" src="/files/Mesh-hops-cluster-solution.png" class="img-responsive">
 
 
 **Solución 3:** Crea accesos directos en la red. Si hay algunas partes de la malla que han crecido lejos de los recursos que la gente quiere usar, uno o más enlaces punto-a-punto podrían utilizarse para acortar la distancia. Esto requiere de enlaces dedicados y alguna configuración adicional, pero puede proporcionar un "atajo" rápida en la red y mejorar el rendimiento.
-![Saltos Mesh – creando soluciones de accesos directos](/files/Mesh-hops-PtP-bridge-solution.png)
+<img alt="Saltos Mesh – creando soluciones de accesos directos" src="/files/Mesh-hops-PtP-bridge-solution.png" class="img-responsive">
 
 
 ### Compensación
@@ -113,27 +112,27 @@ Usar más equipo para crear un puente entre las partes de la malla y acortar el 
 ### Problema
 
 Los routers Wi-Fi de bajo coste a menudo sólo tienen una sola antena, lo que limita el rendimiento a una sola corriente de datos a la vez. Si utilizas estos routers Wi-Fi para la "columna vertebral" de la red en el techo, en una red de la comunidad, habrá un límite bajo para el nivel de rendimiento.
-![Hardware mesh – una sola transmisión](/files/Mesh-hardware-SISO-network.png)
+<img alt="Hardware mesh – una sola transmisión" src="/files/Mesh-hardware-SISO-network.png" class="img-responsive">
 
 
 Usar routers Wi-Fi con una sola antena tiene dos efectos:
 
 **Problema 1:** El máximo ancho de banda disponible será de aproximadamente 65 Mbps (Megabits por segundo) para dispositivos Wi-Fi modernos que soportan mesh. Mientras esto pueda parecer muy rápido, ten en cuenta que sobre varios saltos de red, esta banda ancha disminuirá muy rápidamente.
-![Hardware mesh – problema de límite de banda ancha](/files/Mesh-hardware-bandwidth-limit-problem.png)
+<img alt="Hardware mesh – problema de límite de banda ancha" src="/files/Mesh-hardware-bandwidth-limit-problem.png" class="img-responsive">
 
 
 **Problema 2:** Los equipos Wi-Fi puede recibir interferencias de reflejos de la señal que llegan a la antena, al mismo tiempo que la señal principal. Esto puede causar la pérdida de datos y reducir el rendimiento del enlace entre los routers mesh, ya que los datos tendrán que ser transmitido de nuevo (¡en lugar de nuevos datos!).
-![Hardware mesh – problema multipath*******](/files/Mesh-hardware-multipath-problem.png)
+<img alt="Hardware mesh – problema multipath*******" src="/files/Mesh-hardware-multipath-problem.png" class="img-responsive">
 
 
 ### Solución
 
 Siempre habrá alguna interferencia y disminuciones en el rendimiento a medida que una red de la comunidad crece, pero utilizar el hardware de mayor rendimiento posible puede reducir el impacto. Si bien puede ser un poco más caro, los routers Wi-Fi MIMO (de entrada múltiple, salida múltiple - que sólo significa múltiples flujos de datos) son más resistentes a las interferencias, y tienen un mayor rendimiento.
-![Hardware mesh – dispositivos de transmisiones múltiples](/files/Mesh-hardware-MIMO-network.png)
+<img alt="Hardware mesh – dispositivos de transmisiones múltiples" src="/files/Mesh-hardware-MIMO-network.png" class="img-responsive">
 
 
 **Solución 1:** Siempre usa routers MIMO. Hay muchos modelos de routers Wi-Fi existentes y es difícil saber cuales son MIMO. Los valores de resistencia en la caja o en el sitio web pueden no ser claros. Muchos fabricantes usan la terminología N300, N450, N750 y así sucesivamente para designar la velocidad del dispositivo. N300 significa 300 Megabits de resistencia, pero puede ser engañoso. Si es un dispositivo de ancho de banda-dual (2.4GHz y 5GHz), los fabricantes agregan resistencia de cada banda junta para el número “N” - N750 sería 300 Megabits en la banda de 2.4GHz, y 450 Megabits en la banda de 5GHz. La manera más fácil de saber si un router soporta MIMO es ver si es 802.11n compatible y tiene dos o más antenas. Para una lista completa de equipo MIMO soportado por Commotion, ve la barra lateral.
-![Hardware mesh – usa equipo MIMO](/files/Mesh-hardware-MIMO-equipment.png)
+<img alt="Hardware mesh – usa equipo MIMO" src="/files/Mesh-hardware-MIMO-equipment.png" class="img-responsive">
 
 Algunos routers que soportan niveles de datos MIMO*********** Some routers that support MIMO data rates:
 * Modelos de exterior Ubiquiti NanoStation M, NanoBridge M, Rocket M, UniFi AP, y UniFi AP
@@ -142,7 +141,7 @@ Algunos routers que soportan niveles de datos MIMO*********** Some routers that 
 
 
 **Solución 2:** Usa antenas de polaridad dual. Algunos equipos MIMO designados para usos exteriores pueden poner las transmisiones de datos en diferentes orientaciones. Algunas de las transmisiones de datos puede salir en una dirección “arriba y abajo”, mientras que otros pueden salir en una dirección “de un lado a otro”. Esto ayuda a los routers a que eviten la interferencia que viene de muchas señales moviéndose en la misma dirección – todas las de arriba y abajo por ejemplo. Solo algunas antenas de router pueden hacer esto – por ejemplo las antenas (de todo alrededor) de los routers Ubiquiti Rocket M omnidirectional y  NanoStation M directional. **********Use dual-polarity antennas. Some MIMO equipment designed for outdoor use can put the streams of data in different orientations. Some of the data streams would come out in an “up and down” direction, while the other would come out in a “side to side” direction. This helps the routers avoid interference that comes from many signals moving in the same way - all up and down, for instance. Only some router antennas can do this - for instance the Ubiquiti Rocket M omnidirectional (all around) antennas, and the NanoStation M directional routers.************
-![Hardware mesh – equipo de polaridad dual](/files/Mesh-hardware-dual-polarity-equipment.png)
+<img alt="Hardware mesh – equipo de polaridad dual" src="/files/Mesh-hardware-dual-polarity-equipment.png" class="img-responsive">
 
 
 ### Compensación
@@ -154,7 +153,7 @@ Usar equipo MIMO puede generar un costo adicional – especialmente cuando usas 
 ### Problema
 
 Las redes comunitarias tienen recursos que las personas quieren usar, tales como conexiones a Internet y servidores de aplicaciones locales. Estos deben conectarse a un router antes de que puedan ser utilizados en toda la red. Si el recurso está conectado únicamente a un solo router, se crea un cuello de botella y las conexiones se hacen lentas para todo el mundo.
-![Mesh hubs – cuellos de botella de la red](/files/Mesh-hubs-single-router-bottleneck.png)
+<img alt="Mesh hubs – cuellos de botella de la red" src="/files/Mesh-hubs-single-router-bottleneck.png" class="img-responsive">
 
 Cualquier router único sólo puede manejar ciertas conexiones. Esto es cierto tanto con conexiones mesh y conexiones de punto de acceso, como se discute en una guía anterior. El principio es cierto aquí también - cuando hay muchas conexiones y peticiones a un único servidor o conexión a Internet, el router puede sobrecargarse.
 
@@ -162,10 +161,10 @@ Cualquier router único sólo puede manejar ciertas conexiones. Esto es cierto t
 ### Solución
 Considera agregar routers adicionales. Si un solo router está sobrecargado o no tiene suficiente ancho de banda para manejar todas las conexiones a un servidor o puerta de enlace a Internet, entonces puedes agregar más routers al sitio. Si utilizas routers con antenas direccionales, entonces secciones de la red se enrutarán a través de un router y otro, y compartirán el número de conexiones. Esto puede tener efectos adicionales para ayudar a disminuir el número de saltos en la red, y segmentar la red en grupos más pequeños, como se explica en las guías
  anteriores.
-![Mesh hubs – sitios con muchos routers](/files/Mesh-hubs-multi-router-hubs.png)
+ <img alt="Mesh hubs – sitios con muchos routers" src="/files/Mesh-hubs-multi-router-hubs.png" class="img-responsive">
 
 Usa routers de múltiples direcciones en sitios centrales. Muchos tipos de redes usan este método para proveer servicio a áreas mayores – compañías de teléfonos móviles ponen múltiples antenas en una torre, que están conectadas a radios especiales que conectan tu teléfono móvil. Esta solución funciona mejor cuando tienes un edificio alto o una torre que está localizada centralmente en tu comunidad. Los routers con antenas direccionales pueden llegar más lejos, y se enfoca en menos conexiones de router-a-router, acelerando el acceso a los recursos de la red.
-![Mesh hubs – torres con múltiples routers](/files/Mesh-hubs-multi-router-towers.png)
+<img alt="Mesh hubs – torres con múltiples routers" src="/files/Mesh-hubs-multi-router-towers.png" class="img-responsive">
 
 
 ### Compensación
@@ -178,25 +177,25 @@ Mayor rendimiento con los routers adicionales viene con gastos adicional de tene
 ### Problema
 
 Cuando hay muchos dispositivos inalámbricos en el mismo canal, pueden empezar a interferir unos con otros. Las redes mesh tienen ese problema, porque las redes mesh inalámbricas se basan en todos los routers que comparten el mismo canal. Si hay algunos routers con muchas, muchas conexiones inalámbricas de sitios cercanos, entonces se pueden sobrecargar.
-![Segmentos Mesh – demasiados routers en un solo canal](/files/Mesh-segments-too-many-single-channel.png)
+<img alt="Segmentos Mesh – demasiados routers en un solo canal" src="/files/Mesh-segments-too-many-single-channel.png" class="img-responsive">
 
 
 Los routers se pueden sobrecargar con demasiadas señales. Este problema está relacionado con lo que sucede cuando se tiene un solo router proporcionando los enlaces mesh y un Punto de Acceso – está tratando de hacer demasiadas cosas. Cuando hay muchas, muchas conexiones, el router se puede sobrecargar y frenar al tratar de hacer tantas conexiones. Esto empeora a medida que las redes se vuelven más y más densas, y muchos routers tratan de hablar al mismo tiempo. Si dos routers que no pueden oír entre sí tratan de hablar con uno tercero que puede oírlos a ambos, tendrá que resolver dos señales interferentes.
-![Segmentos Mesh – problema de sobrecarga de router](/files/Mesh-segments-hidden-node-problem.png)
+<img alt="Segmentos Mesh – problema de sobrecarga de router" src="/files/Mesh-segments-hidden-node-problem.png" class="img-responsive">
 
 
 
 ### Solución
 Crear  grupos de redes de mesh en canales separados puede reducir el número de conexiones en una malla. Crea redes mesh más pequeñas que tienen un menor número de routers, por lo que el número de señales disminuye, y reduce la cantidad de interferencia inalámbrica.
-![Segmentos Mesh – dividir en múltiples canales](/files/Mesh-segments-split-multiple-channels.png)
+<img alt="Segmentos Mesh – dividir en múltiples canales" src="/files/Mesh-segments-split-multiple-channels.png" class="img-responsive">
 
 
 **Solución 1:** Crea redes mesh más pequeñas en canales separados. Esto requiere varios sitios en el borde o bordes de las dos redes para tener dos routers - cada uno configurado para el canal inalámbrico diferente. Estos routers están entonces conectados por un puente junto con un cable Ethernet para un enlace de banda ancha alta entre las dos sub-redes.
-![Segmentos Mesh – Solución de puente Ethernet](/files/Mesh-segments-separate-channel-Ethernet-bridge-solution.png)
+<img alt="Segmentos Mesh – Solución de puente Ethernet" src="/files/Mesh-segments-separate-channel-Ethernet-bridge-solution.png" class="img-responsive">
 
 
 **Solución 2:** Crea centrales de routers, usa múltiples canales. Cuando creas centrales para más ancho de banda para puertas de entrada a Internet o servidores de aplicaciones, puedes dividir la red en segmentos en canales separados. Esto puede resolver los problemas de interferencia en el edificio o la torre que tiene múltiples routers – ya que la interferencia inalámbrica incrementa cuando los routers están muy cerca.
-![Segmentos Mesh – solución de centrales](/files/Mesh-segments-separate-channel-hub-solution.png)
+<img alt="Segmentos Mesh – solución de centrales" src="/files/Mesh-segments-separate-channel-hub-solution.png" class="img-responsive">
 
 
 ### Compensación

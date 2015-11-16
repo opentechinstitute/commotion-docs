@@ -21,17 +21,17 @@ Network applications
 Many of the applications we use today are “network applications”, which get and send information on behalf of the application to another computer on a network. For example, 
 if you check your email using a web browser, that “webmail” application is a network application since it retrieves information about the emails in your inbox from another computer. That computer is called a server, and is responsible for "serving" information to your personal device or computer. A web server is simply a server that provides information needed to display a website, while an email server is a server that sends and receives email information. A network application that requests information from a server is also referred to as a “client”.
 
-![Application server and client model](/files/CCK_Networking_Basics_Client_server_diagram.png)
+<img src="/files/CCK_Networking_Basics_Client_server_diagram.png" class="img-responsive" alt="Application server and client model">
 
 Network applications communicate with a server, but that server does not have to be physically connected to the Internet. Sometimes the server is just connected to a local network, such as a mesh network. Running applications on a local server within your network—such as on a spare computer—allows you and your community to have tools and services just for you. Many applications do not need access to the Internet to work, which means that the applications running on a local server would be useable whether your network has Internet access or not!
 
-<img title="Using an application on a local server" src="/files/GuidesHowtos_LocalApps_local.png" style="width:100%" />
+<img title="Using an application on a local server" src="/files/GuidesHowtos_LocalApps_local.png" class="img-responsive" />
 *Using an application on a local server*
 
-<img title="Using an application on the internet" src="/files/GuidesHowtos_LocalApps_internet.png" style="width:100%" />
+<img title="Using an application on the internet" src="/files/GuidesHowtos_LocalApps_internet.png" class="img-responsive" />
 *Using an application on the internet*
 
-<img title="Traffic for internet applications can traverse unnecessarily large geographic distances" src="/files/GuidesHowtos_LocalApps_geo.png" style="width:100%" />
+<img title="Traffic for internet applications can traverse unnecessarily large geographic distances" src="/files/GuidesHowtos_LocalApps_geo.png" class="img-responsive" />
 *Traffic for internet applications can traverse unnecessarily large geographic distances*
 
 In the same way that the mesh network allows multiple people to share network resources, running a local application server makes it possible to share information without going out to the Internet—keeping local communications local and more efficient.
@@ -44,7 +44,7 @@ You can browse the local applications that are available on your network using t
 2. In your web browser, go to `http://thisnode/`
 3. Click on the **“Applications”** icon.
 
-![Commotion Local Applications Portal](/files/GuidesHowtos_LocalApps_AppsPortal.png)
+<img src="/files/GuidesHowtos_LocalApps_AppsPortal.png" class="img-responsive" alt="Commotion Local Applications Portal">
 
 Each application listed in the portal provides a name, description, icon, and an automatically generated plaid swatch representing the cryptographic identity of that application. This plaid swatch should be the same every time you visit the application portal; if it has changed, you might want to notify the administrator of the application.
 
@@ -60,7 +60,7 @@ Welcome Page
 ------------
 You can also access the apps portal through the welcome page, if it is turned on. When you connect to the access point of a node on the mesh network which has the welcome page turned on, you can open your web browser and go to any non-HTTPS website (for example “[http://www.democracynow.org](http://www.democracynow.org)”). You will then be automatically redirected to the splash page:
 
-![Commotion Welcome Page](/files/GuidesHowtos_LocalApps_WelcomePage.png)
+<img src="/files/GuidesHowtos_LocalApps_WelcomePage.png" class="img-responsive" alt="Commotion Welcome Page">
 
 By clicking on the **“Local Applications”** icon, you will be redirected to the apps portal.
 
@@ -86,15 +86,15 @@ Once you have an application server setup and want to let the rest of the networ
 6. You can pick from one of the default application icons, or enter a URL for a custom icon to use (again, make sure the URL is reachable from other nodes on the mesh).
 7. Finally, click **“Submit”**.
 
-![Adding a local application](/files/GuidesHowtos_LocalApps_AddApp1.png)
+<img src="/files/GuidesHowtos_LocalApps_AddApp1.png" class="img-responsive" alt="Adding a local application">
 
-![Adding a local application](/files/GuidesHowtos_LocalApps_AddApp2.png)
+<img src="/files/GuidesHowtos_LocalApps_AddApp2.png" class="img-responsive" alt="Adding a local application">
 
 The application is now registered with the local node’s application portal, and the announcement should begin spreading automatically to other nodes on the network. Depending on link quality between nodes on your network, the announcement may take some time to spread. Once the announcement has spread to other nodes, clients on those nodes will see your application in the apps portal and be able to connect to the app.
 
 As a node administrator, you can also edit or delete applications that are announced from your node by going to **Applications->List**. You will not be able to edit or delete applications that are announced from other nodes, however you can mark applications as “banned” so they will not show up on the applications portal on your particular node.
 
-![Commotion administrator application portal](/files/GuidesHowtos_LocalApps_AdminPortal.png)
+<img src="/files/GuidesHowtos_LocalApps_AdminPortal.png" class="img-responsive" alt="Commotion administrator application portal">
 
 Local application list
 ======================

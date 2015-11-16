@@ -10,7 +10,7 @@ post_author: critzo
 lang: es
 ---
 
-<p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" /></p>
+<p><img alt="Commotion Construction Kit promo image" src="/files/styles/large/public/CCK_general_intro.png" class="img-responsive" /></p>
 
 <p>El Kit de Construcción Commotion es un set de herramientas de documentación que el Instituto de Tecnología abierta ha usado en talleres alrededor del mundo y en casa. Es una guía para construir redes inalámbricas comunitarias.</p>
 

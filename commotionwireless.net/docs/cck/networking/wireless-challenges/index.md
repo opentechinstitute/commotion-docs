@@ -11,7 +11,8 @@ changed: 2014-04-15
 post_author: Andy Gunn
 lang: en
 ---
-![Wireless Challenges intro graphic](/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png "Intro graphic")
+
+<img src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png" alt="Wireless challenges intro graphic" class="img-responsive">
 
 ## Introduction
 

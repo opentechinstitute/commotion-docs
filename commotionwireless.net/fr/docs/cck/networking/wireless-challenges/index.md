@@ -11,7 +11,7 @@ changed: 2015-04-15
 post_author: Andy Gunn
 lang: fr
 ---
-<p><img alt="Wireless Challenges graphic" src="/files/CCK_Wireless_Challenges_intro_graphic.png" /></p>
+<p><img alt="Wireless Challenges graphic" src="/files/CCK_Wireless_Challenges_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -25,11 +25,11 @@ lang: fr
 <section id="materials-and-supplies-needed">
 <h4>MATERIEL + FOURNITURE REQUISE</h4>
 
-<p><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf">Présentation des défis inhérents aux réseaux sans fil</a> - En version polycopiée, ou en introduction à l'activité en groupe. <br><a href="/files/cck/networking/Difficultes_inherentes_aux_reseaux_sans_fil_presentation.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_presentation_download_FR.png" class="img-responsive"></a></p>
 
-<p><a href="/files/cck/networking/Scenarios_des_Problemes.pdf">Supports visuels : Scénario problème Feuilles</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Scenarios_des_Problemes.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Scenarios_des_Problemes.pdf">Supports visuels : Scénario problème Feuilles</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Scenarios_des_Problemes.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png" class="img-responsive"></a></p>
 
-<p><a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf">Supports visuels : Exemple solutions aux scénarios Problème</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png"></a></p>
+<p><a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf">Supports visuels : Exemple solutions aux scénarios Problème</a> -Imprimés sur du papier A4.<br><a href="/files/cck/networking/Exemple_des_Solutions_Classeur.pdf"><img alt="" src="/files/CCK_Wireless_Challenges_flashcard_download_FR.png" class="img-responsive"></a></p>
 
 <p>(Facultatif) Les schémas de routage contenus dans le module <a href="/fr/docs/cck/planning/design-your-network-every-network-tells-story">Concevoir votre réseau : chaque réseau raconte une histoire</a>.</p>
 
@@ -59,15 +59,15 @@ lang: fr
 
 <p><strong>La distance</strong>—En parcourant de longues distances, les signaux sans fil perdent en intensité, et ce quel que soit le type d'antenne utilisé. <br><img alt=""  src="/files/CCK_Wireless_Challenges_distance.png" ></p>
 
-<p><strong>La ligne de vision</strong>—Les signaux sans fil peuvent rencontrer des obstacles qui altèrent la connexion.  <br><img alt="" src="/files/CCK_Wireless_Challenges_line_of_sight.png"></p>
+<p><strong>La ligne de vision</strong>—Les signaux sans fil peuvent rencontrer des obstacles qui altèrent la connexion.  <br><img alt="" src="/files/CCK_Wireless_Challenges_line_of_sight.png" class="img-responsive"></p>
 
-<p><strong>Les obstacles</strong>—Les signaux sans fil perdent de leur intensité en croisant, sur leur trajectoire, des objets solides. <br><img alt="" src="/files/CCK_Wireless_Challenges_barriers.png"></p>
+<p><strong>Les obstacles</strong>—Les signaux sans fil perdent de leur intensité en croisant, sur leur trajectoire, des objets solides. <br><img alt="" src="/files/CCK_Wireless_Challenges_barriers.png" class="img-responsive"></p>
 
-<p><strong>Les interférences</strong>—Les routeurs trop bruyants ont du mal à écouter les autres routeurs. <br><img alt="" src="/files/CCK_Wireless_Challenges_wireless_interference.png"></p>
+<p><strong>Les interférences</strong>—Les routeurs trop bruyants ont du mal à écouter les autres routeurs. <br><img alt="" src="/files/CCK_Wireless_Challenges_wireless_interference.png" class="img-responsive"></p>
 
-<p><strong>Le climat</strong>—Les conditions climatiques peuvent perturber les signaux sans fil.<br><img alt=""  src="/files/CCK_Wireless_Challenges_weather.png"></p>
+<p><strong>Le climat</strong>—Les conditions climatiques peuvent perturber les signaux sans fil.<br><img alt=""  src="/files/CCK_Wireless_Challenges_weather.png" class="img-responsive"></p>
 
-<p><strong>Les problèmes liés à l'électricité</strong>—La stabilité de l'électricité est nécessaire au bon fonctionnement des routeurs. <br><img alt="" src="/files/CCK_Wireless_Challenges_power_issues.png"></p>
+<p><strong>Les problèmes liés à l'électricité</strong>—La stabilité de l'électricité est nécessaire au bon fonctionnement des routeurs. <br><img alt="" src="/files/CCK_Wireless_Challenges_power_issues.png" class="img-responsive"></p>
 </section>
 <section id="going-through-the-wireless-challenges">
 <h3>Les défis auxquels sont confrontés les réseaux sans fil</h3>
@@ -89,16 +89,16 @@ lang: fr
 
 <p>Pour traiter les difficultés que peuvent rencontrer les réseaux sans fil, il est nécessaire de savoir comment lire les connexions entre différents nœuds et comment établir votre propre connexion. </p>
 
-<p><strong>La qualité des liaisons sans fil</strong>—Les lignes illustrent l'intensité de la liaison entre deux nœuds, selon qu'elles soient continues ou pointillées. Une ligne verte continue est synonyme de forte intensité. Une ligne jaune pointillée veut dire que la liaison est acceptable. Une ligne pointillée rouge ou rose veut dire que la liaison est mauvaise ou qu'elle a été interrompue. <br><img alt="" src="/files/WirelessChallenges-Rules-signal-quality.png"></p>
+<p><strong>La qualité des liaisons sans fil</strong>—Les lignes illustrent l'intensité de la liaison entre deux nœuds, selon qu'elles soient continues ou pointillées. Une ligne verte continue est synonyme de forte intensité. Une ligne jaune pointillée veut dire que la liaison est acceptable. Une ligne pointillée rouge ou rose veut dire que la liaison est mauvaise ou qu'elle a été interrompue. <br><img alt="" src="/files/WirelessChallenges-Rules-signal-quality.png" class="img-responsive"></p>
 
 <p><strong>L'intensité du signal sans fil</strong>—Les routeurs sont dotés de différentes intensités d'écoute et d'émission. </p>
 
-<p><img alt="" src="/files/CCK_Wireless_Challenges_power_levels_rules_2_FR.png"><br>
+<p><img alt="" src="/files/CCK_Wireless_Challenges_power_levels_rules_2_FR.png" class="img-responsive"><br>
  </p>
 
-<p><strong>Des niveaux de puissance adéquats</strong>—Il est primordial de bien choisir son routeur, en fonction des puissances d'émission et d'écoute. Il est important d'utiliser un routeur qui soit à la fois peu gourmand en énergie et en mesure d'assurer une bonne liaison. Le recours à des routeurs à grande puissance d'émission peut donner lieu à des interférences. <br><img alt="" src="/files/CCK_Wireless_Challenges_power_levels_rules.png"></p>
+<p><strong>Des niveaux de puissance adéquats</strong>—Il est primordial de bien choisir son routeur, en fonction des puissances d'émission et d'écoute. Il est important d'utiliser un routeur qui soit à la fois peu gourmand en énergie et en mesure d'assurer une bonne liaison. Le recours à des routeurs à grande puissance d'émission peut donner lieu à des interférences. <br><img alt="" src="/files/CCK_Wireless_Challenges_power_levels_rules.png" class="img-responsive"></p>
 
-<p><strong>Les liaisons sur de longues distances</strong>—Certaines liaisons nécessitent des routeurs très puissants, pour plus de portée. <br><img alt="" src="/files/CCK_Wireless_Challenges_distance_rules.png"></p>
+<p><strong>Les liaisons sur de longues distances</strong>—Certaines liaisons nécessitent des routeurs très puissants, pour plus de portée. <br><img alt="" src="/files/CCK_Wireless_Challenges_distance_rules.png" class="img-responsive"></p>
 </section>
 <section id="section-definitions">
 <h3>Définitions</h3>

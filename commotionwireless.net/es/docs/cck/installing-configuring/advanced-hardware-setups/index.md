@@ -12,7 +12,7 @@ post_author: andygunn
 lang: es
 ---
 
-<img alt="Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro2.png" style="max-width:600px;" />
+<img alt="Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro2.png" class="img-responsive" />
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -40,7 +40,7 @@ lang: es
 <h2>Enmallando con Ethernet, con una puerta de entrada al Internet usando DHCP para asignaciones automáticas de direcciones IP</h2>
 
 <p>Si quieres proveer una conexión a una puerta de entrada a Internet en tu red mesh, ayuda usar varios nodos en la ubicación que hospedará tal conexión. Esto debería reducir los cuellos de botella que suelen ocurrir cuando solo un nodo está conectado a la puerta de entrada.</p>
-<p><img src="/files/CCK_CommonConfigs_05_Nodes_meshed_via_Ethernet_with_gateway.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_05_Nodes_meshed_via_Ethernet_with_gateway.png" class="img-responsive" /></p>
 
 <p>El diagrama abajo:</p>
 <ul class="rteindent1">
@@ -54,7 +54,7 @@ lang: es
 </ul>
 
 <p>El diagrama de abajo demuestra como se vería esto con el equipo instalado en un edificio:</p>
-<p><img src="/files/CCK_CommonConfigs_05_Nodes_meshed_via_Ethernet_with_gateway_building.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_05_Nodes_meshed_via_Ethernet_with_gateway_building.png" class="img-responsive" /></p>
 
 <p><strong>Pasos para Configurar:</strong></p>
 <p>Primero, asegura los nodos Commotion con vecinos inalámbricos.  Ejecuta el Asiste de Configuración en el primer arranque, con el mismo:</p>

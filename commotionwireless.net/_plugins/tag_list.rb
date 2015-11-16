@@ -15,7 +15,7 @@ module Jekyll
       tags.sort.each do |tag|
 	tag_url = tag.gsub(' ','-')
         posts_in_tag = context.registers[:site].tags[tag].size
-        html << "<li><a href='/blog/tag/#{tag_url}'>#{tag} (#{posts_in_tag})</a></li>\n"
+        html << "<li class='list-group-item'><a href='/blog/tag/#{tag_url}'>#{tag} <span class='badge pull-right'>#{posts_in_tag}</span></a></li>\n"
       end
       html
     end

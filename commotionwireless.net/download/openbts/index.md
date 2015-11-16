@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Download Commotion OpenBTS
 categories:
 created: 2013-06-28
@@ -7,24 +7,7 @@ changed: 2013-12-31
 post_author: grady
 lang: en
 ---
-  <h2>Commotion OpenBTS</h2>
-
-<div class="warning-label">
-<div class="warning-top">
-<h2>WARNING</h2>
-</div>
-
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
-</ul>
-<a href="https://commotionwireless.net/understanding-commotions-warning-label">For More Info Click Here</a></div>
-</div>
+<h2>Commotion OpenBTS</h2>
 
 <p><strong>Warning: this is completely experimental and has not been tested!</strong> It is for development use only.</p>
 
@@ -42,7 +25,7 @@ lang: en
 
 <h3>Unstable Builds:</h3>
 
-<table class="files list">
+<table class="table table-bordered">
 	<thead>
 		<tr>
 			<th>File</th>
@@ -61,4 +44,6 @@ lang: en
 	</tbody>
 </table>
 
-<p><a class="button" href="https://github.com/opentechinstitute/commotion-openbts" id="openbts-source-btn">Source Code</a></p>
+<p>
+	<button class="btn btn-default" href="https://github.com/opentechinstitute/commotion-openbts" id="openbts-source-btn">Source Code</button>
+</p>

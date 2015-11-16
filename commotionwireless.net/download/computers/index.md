@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Download Commotion for Desktop/Laptop Computers
 categories:
 created: 2013-07-06
@@ -7,22 +7,7 @@ changed: 2013-12-31
 post_author: critzo
 lang: en
 ---
-<div class="warning-label">
-<div class="warning-top">
-<h2>WARNING</h2>
-</div>
 
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-        <li><a href="/understanding-commotions-warning-label#anonymity">Cannot hide your identity</a></li>
-        <li><a href="/understanding-commotions-warning-label#internet">Does not prevent monitoring of internet traffic</a></li>
-        <li><a href="/understanding-commotions-warning-label#monitoring">Does not provide strong security against monitoring over the mesh</a></li>
-        <li><a href="/understanding-commotions-warning-label#jamming">Can be jammed with radio/data-interference</a></li>
-</ul>
-<a href="/understanding-commotions-warning-label">For More Info Click Here</a></div>
-</div>
 <h2>Commotion Client</h2>
 <p>The Commotion development team has redesigned the roadmap for a more general, cross-compiled/cross-platform Commotion Client. Active development of <a href="https://github.com/opentechinstitute/commotion-client">Commotion Client</a> is ongoing.</p>
 

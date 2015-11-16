@@ -13,9 +13,9 @@ lang: en
 ---
 
 
-![Intro graphic](/files/Guidelines-intro-graphic.png)
+<img src="/files/Guidelines-intro-graphic.png" class="img-responsive" alt="Intro graphic">
 
-### Lessons learned from partner networks
+## Lessons learned from partner networks
 
 There are many ways to design a community wireless network - but many options can lead to confusion! Fortunately, many community networks and Wireless Internet Service Providers (WISPs) have had many years of experience to learn from. The document below describes five guidelines to keep in mind when designing your network. In some cases, such as very small networks, you may be able to skip some of these guidelines. Otherwise, try and design with these in mind.
 

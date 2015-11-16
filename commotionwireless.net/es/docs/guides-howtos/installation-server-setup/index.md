@@ -54,7 +54,7 @@ lang: es
 
 <p>También, deberías deshabilitar que dnsmasq inicie cuando inicies tu computadora:</p>
 <pre>sudo update-rc.d -f dnsmasq remove</pre>
-<p><img src="/files/Install_MikroTik-dnsmasq_install_commands_combined.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-dnsmasq_install_commands_combined.png" class="img-responsive" /></p>
 
 <p>Después, configura dnsmaq para proveer solo los servicios necesitados para instalar Commotion. Estos son para proporcionar un servidor DHCP en el puerto Ethernet conectado, y habilitar el servicio TFTP/BootP para servir archivos a los routers.******************************Next, configure dnsmaq to provide only the services needed to install Commotion. These are to provide a DHCP server on the wired Ethernet port, and to enable the TFTP/BootP service to serve files to the routers.</p>
 

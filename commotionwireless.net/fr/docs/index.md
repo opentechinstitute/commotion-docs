@@ -14,7 +14,7 @@ lang: fr
 
 <p>Also, explore the <a href="/docs/cck">Commotion Construction Kit</a> for tips on community organizing, site preparation, software installation and more!</p>
 
-<div id="connect" style="width:100%;">
+<div id="connect">
 <h2>Connect with the Commotion community</h2>
 
 <p>Use our "<a href="/contact">Contact</a>" or "<a href="/report">Report a Bug</a>" forms on this website.</p>

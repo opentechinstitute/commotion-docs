@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Commotion viaja a India para el primer taller International 
 categories: [es]
 tags: [mesh,site visits,gource,git,visualization,troubleshooting,recommendations]
-=======
-﻿---
-layout: blog
-title: Commotion viaja a India para el primer taller International 
-categories: [mesh,site visits,gource,git,visualization,troubleshooting,recommendations]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2013-07-01
 changed: 2013-12-19
 post_author: Ryan Gerety

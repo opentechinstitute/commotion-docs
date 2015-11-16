@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: fr
 ---
-<p><img alt="" src="/files/styles/large/public/identify-neighborhood-skills-title.png" /></p>
+<p><img alt="" src="/files/styles/large/public/identify-neighborhood-skills-title.png" class="img-responsive" /></p>
 
 <h2 id="introduction">Introduction</h2>
 
@@ -26,7 +26,7 @@ lang: fr
 <p>Des stylos<br>Du papier</p>
 <h2 id="activity1">Activité 1: Les compétences en matière de réseaux</h2>
 
-<p><img alt="" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png"></p>
+<p><img alt="" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png" class="img-responsive"></p>
 
 <p>En groupe ou en plusieurs petits-sous groupes, dressez la liste des compétences qu'il va falloir dénicher pour la planification, le développement et le bon fonctionnement de votre réseau sans fil. Réfléchissez aux compétences nécessaires à l'exécution de certaines tâches, telles que la création de flyers, le flashage des routeurs, le choix du matériel de fixation, le raccordement de l'électricité jusqu'aux toits, l'acquisition des outils le recrutement des membres de la communauté qui désirent s'investir dans le projet. </p>
 
@@ -39,7 +39,7 @@ lang: fr
 <table>
 <tr>
 <td>
-<img alt="" src="/files/styles/large/public/organizer.png"><br />
+<img alt="" src="/files/styles/large/public/organizer.png" class="img-responsive"><br />
 <strong>L'organisation</strong>
 </td>
 <td>La sensibilisation<br />
@@ -47,13 +47,13 @@ Le recrutement de volontaires<br>L'organisation de réunions communautaires<br>L
 </tr>
 <tr>
 <td>
-<img alt="" src="/files/styles/large/public/handyperson.png"><br><strong>Les personnes compétentes</strong>
+<img alt="" src="/files/styles/large/public/handyperson.png" class="img-responsive"><br><strong>Les personnes compétentes</strong>
 </td>
 <td>Le matériel de fixation sur toitures ou dans les parcs<br>Le raccordement de l'électricité aux sites<br>Les fixations dédiées à d'autres utilisations<br>La formation en matière d'installation des fixations <br>L'acquisition et la gestion du matériel</td>
 </tr>
 <tr>
 <td>
-<img alt="" src="/files/styles/large/public/techie.png"><br><strong>La technologie</strong>
+<img alt="" src="/files/styles/large/public/techie.png" class="img-responsive"><br><strong>La technologie</strong>
 </td>
 <td valign="middle">L'installation du logiciel de maillage sur le routeur<br>La configuration des routeurs<br>La formation en matière d'installation et de configuration de routeurs<br>Le réglage des problèmes de réseautage<br>Le développement d'applications locales
 </td>
@@ -70,7 +70,7 @@ Le recrutement de volontaires<br>L'organisation de réunions communautaires<br>L
 
 <p>Pour cette activité, vous pouvez utiliser la liste ci-dessous ou vous référer à la liste des compétences développée pendant la séance de brainstorming.</p>
 
-<table>
+<table class="table table-responsive">
 <tr>
 <th class="rteleft" colspan="2">Inscrivez le profil de la personne ou de l'organisation répondant à cette exigence.</th>
 </tr>

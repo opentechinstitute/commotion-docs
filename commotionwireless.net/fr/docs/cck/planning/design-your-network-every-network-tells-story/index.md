@@ -11,7 +11,7 @@ changed: 2014-03-04
 post_author: critzo
 lang: fr
 ---
-  <p><img alt="" src="/files/design_your_network_intro.png" /></p>
+  <p><img alt="" src="/files/design_your_network_intro.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -49,14 +49,14 @@ lang: fr
 
 <p>Les réseaux sans fil sont construits avec des routeurs sans fil. Les routeurs peuvent parler, écouter ou répéter.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p class="tip">Les réseaux sans fil sont construits utilisant des routeurs sans fil. Rencontrez les routeurs que vous utiliserez pour ce jeu. Les routeurs peuvent parler, écouter et répéter. Ils ont tous la direction et la force, cela signifiant qu'ils peuvent émettre et recevoir vers des directions différentes et des distances différentes. La force d'émission varie beaucoup selon les conditions environnementales.</p>
 </section>
 <section id="low-power-omnidirectional">
 <h2>Routeur omnidirectionnel (toutes directions) à basse puissance</h2>
 
-<p><img alt="" src="/files/design_your_network_entas_support002.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support002.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Peut émettre et recevoir vers toutes les directions sur une courte distance</p>
 
@@ -67,7 +67,7 @@ lang: fr
 <section id="high-power-omnidirectional">
 <h2>Routeur omnidirectionnel (toutes directions) à grande puissance</h2>
 
-<p><img alt="" src="/files/design_your_network_entas_support003.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support003.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Peut émettre et recevoir dans toutes les directions sur une distance moyenne</p>
 
@@ -78,7 +78,7 @@ lang: fr
 <section id="high-power-sector">
 <h2>Routeur sectoriel (directionnel) à haute puissance</h2>
 
-<p><img alt="" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Peut émettre et recevoir à travers une zone semi-ciblée</p>
 
@@ -89,7 +89,7 @@ lang: fr
 <section id="high-power-focused">
 <h2>Routeur concentré (rayon étroit) à grande puissance</h2>
 
-<p><img alt="" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Peut émettre et recevoir dans une direction à travers une longue distance</p>
 
@@ -109,31 +109,31 @@ lang: fr
 
 <p>Lorsque que concevez votre carte, utilisez les directives suivantes pour le placement de routeur :</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007a.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007a.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>1. N'importe quel routeur peut se connecter à un autre routeur.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>2. Les routeurs omnidirectionnels peuvent se connecter à beaucoup de routeurs dans n'importe quelle direction.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>3. Les routeurs toutes directions haute puissance peuvent aller plus loin, mais pas autant que ceux de secteur ni que les routeurs concentrés.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>4. Les routeurs toutes directions basse puissance peuvent se connecter aux dispositifs voisins.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>5. Les routeurs concentrés peuvent se connecter à un autre routeur concentré tout droit face à lui, même à travers une longue distance.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>6. Les routeurs de secteur peuvent se connecter aux dispositifs multiples dans la même direction générale, à travers de courtes ou longues distances basées sur le dispositif partenaire.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>7. Deux ou plusieurs routeurs côté à côte (dans la même bâtiment) peuvent être connectés par un fil.</p>
 </section>
@@ -148,7 +148,7 @@ lang: fr
 
 <p>Assurez vous d'inclure :</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support008.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support008.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>"Les ancres de communauté" telles que églises, écoles, bibliothèques et centres de loisirs qui sont des lieux de rassemblement dans le voisinage, et qui pourraient pouvoir partager l'accès à Internet.</p>
 
@@ -156,11 +156,11 @@ lang: fr
 
 <p>Les maisons des gens qui sont des alliés ou des figures importantes dans le voisinage, particulièrement ceux qui seraient intéressés de donner de l'espace sur leur toit ou leur fenêtre pour le projet sans fil.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Éléments majeurs tels que rivières, autoroutes, parcs, ponts, etc.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Pensez à qui dans le voisinage a besoin d'accès et a accès aux services Internet. Où sont-ils localisés avec quelle relation de l'un à l'autre ?</p>
 
@@ -170,15 +170,15 @@ lang: fr
 
 <p>5. Dans le monde réel, chaque connexion est une possibilité. Bien que que dessiner ces cartes est un exercice collaboratif de planification, il est important de se rappeler certaines des astuces suivants :</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support014.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support014.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Dessinez une ligne pointillée pour noter un une connexion sans fil. Dessinez une ligne continue pour noter une connexion câblée.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Ligne de vue : en connectant des noeuds de voisinage, la ligne de vue est essentielle. Les bâtiments, arbres robustes et autres caractéristiques environnementales peuvent entraver les signaux sans fil ce qui peut aboutir à des connexions incertaines ou non fonctionnelles.</p>
 
-<p><img alt="" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Interférence sans fil : si vous avez trop de signaux sans fil dans une zone, ils risquent d'interférer les uns avec les autres.</p>
 
@@ -196,18 +196,18 @@ lang: fr
 
 <p>Connecte-t-il l'école au centre de récréation puis à l'église, afin de renforcer le réseau d'organisation qui existe déjà ?</p>
 
-<p><img alt="" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" width="444"></p>
+<p><img alt="" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" class="img-responsive"></p>
 
-<p><img alt="" src="/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" width="444"></p>
+<p><img alt="" src="/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" class="img-responsive"></p>
 
 <p>Ci-dessus, les premiers diagrammes collaboratifs créés lors de la Allied Media Conference durant l'été 2011.</p>
 </section>
 <section id="cut-out">
 <h2>Coupez les routeurs pour créer vos pièces de jeu</h2>
 
-<p><img alt="" src="/files/design_your_network_entas_support_cut.png" typeof="foaf:Image" width="510"></p>
+<p><img alt="" src="/files/design_your_network_entas_support_cut.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p><a href="/files/cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf"><img alt="" src="/files/CCK_download_icon2.png" typeof="foaf:Image" width="363"></a></p>
+<p><a href="/files/cck/planning/1-Design_Your_Network_Every_Network_Tells_a_Story_FR.pdf"><img alt="" src="/files/CCK_download_icon2.png" typeof="foaf:Image" class="img-responsive"></a></p>
 </section>
 <section id="section-definitions">
 <h2>Définitions</h2>

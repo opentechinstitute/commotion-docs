@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: es
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__464 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" typeof="foaf:Image" /></p>
 
 <h2>Identifica Habilidades del Vecindario</h2>
 
@@ -35,7 +35,7 @@ Papel</p>
 <section id="activity">
 <h3>Actividad 1: Habilidades de Red</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__466 img__view_mode__media_large attr__format__media_large" height="352" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png?itok=KeGkBmMA" typeof="foaf:Image" width="480" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png?itok=KeGkBmMA" typeof="foaf:Image" /></p>
 
 <p>Como grupo o en pequeños grupos, escribe una lista de habilidades que serán necesarias para planificar, construir y mantener su red inalámbrica. Piensen en las habilidades necesarias para realizar tareas tales como hacer volantes, flashing routers,******* montar hardware, conectar electricidad para los tejados, comprar equipos, y la búsqueda de otros miembros de la comunidad que deseen participar.</p>
 
@@ -47,7 +47,7 @@ Papel</p>
 
 <p>En lugar de tratar de hacer todo solo, lo mejor es involucrar a varias personas con diferentes conjuntos de habilidades. A continuación se presentan tres tipos comunes de contribuyentes y ejemplos de las habilidades que contribuyen a una red de comunitaria saludable:</p>
 
-<table>
+<table class="table table-responsive">
 	<tbody>
 		<tr>
 			<td align="center" valign="middle" width="180px;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
@@ -92,7 +92,7 @@ Papel</p>
 
 <p>Para esta actividad pueden utilizar la lista de abajo o utilicen la lista de las habilidades que desarrollaron en la sesión de lluvia de ideas.</p>
 
-<table width="100%">
+<table class="table table-responsive">
 	<thead>
 		<tr>
 			<th class="rteleft" colspan="2">Llenen el tipo de persona, organización o individuo específico con dicha habilidad.</th>

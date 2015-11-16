@@ -11,7 +11,7 @@ changed: 2014-09-2
 post_author: georgia
 lang: en
 ---
-<p><img alt="Local Applications Overview Graphic" src="/files/CCK_LocalApps_overview.png" width="400"></p>
+<p><img alt="Local Applications Overview Graphic" src="/files/CCK_LocalApps_overview.png" class="img-responsive" width="400"></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -81,7 +81,7 @@ lang: en
 <p>To figure out what types of application your community needs, check out the module on <strong>Determining Community Needs</strong> (Coming Soon). To explore applications that other communities use, check out the list of applications on the Commotion Wiki -- <a href="https://wiki.commotionwireless.net/doku.php/development_resources/application_server/start">Possible Local Applications</a></p>
 
 <p>
-	<img alt="Example Network Diagram - Map" src="/files/CCK_LocalApps_ServerLocateExample.jpg" width="300">
+	<img alt="Example Network Diagram - Map" src="/files/CCK_LocalApps_ServerLocateExample.jpg" class="img-responsive" width="300">
 	<em>Example Map of a local network to assess where to place a local server.</em>
 </p>
 

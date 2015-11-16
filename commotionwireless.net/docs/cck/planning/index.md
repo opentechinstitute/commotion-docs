@@ -11,7 +11,7 @@ post_author: critzo
 lang: en
 ---
 
-<p><img src="/files/get_the_word_out_flyer_design_support001.png"><p>
+<p><img src="/files/get_the_word_out_flyer_design_support001.png" class="img-responsive"><p>
 
 <section>
 <h2>Planning</h2>

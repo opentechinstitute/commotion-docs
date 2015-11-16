@@ -11,7 +11,7 @@ post_author: sifrwahid
 lang: es
 ---
 
-<p><img src="/files/get-started-starting-network.png" alt="starting a network graphic" /></p>
+<p><img src="/files/get-started-starting-network.png" class="img-responsive" alt="starting a network graphic" /></p>
 
 <section>
 <h2>Introducción</h2>
@@ -31,19 +31,19 @@ lang: es
 
 <h3>Una red puede distribuir y compartir acceso al Internet de una puerta de entrada.</h3>
 
-<p><img src="/files/cck/about-community-wireless/one-gateway.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/one-gateway.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 <h3>O, de múltiples puertas de entrada.</h3>
 
-<p><img src="/files/cck/about-community-wireless/multi-gateways.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/multi-gateways.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 <h3>Una red puede distribuir aplicaciones locales de un servidor local.</h3>
 
-<p><img src="/files/cck/about-community-wireless/one-server.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/one-server.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 <h3>O, de múltiples servidores.</h3>
 
-<p><img src="/files/cck/about-community-wireless/multi-servers.png" style="background-color:white; padding:10px;"></p>
+<p><img src="/files/cck/about-community-wireless/multi-servers.png" class="img-responsive" style="background-color:white; padding:10px;"></p>
 
 </section>
 

@@ -35,6 +35,10 @@ The three core branches of commotion-docs are "test", "staging" and "master", wh
 ## Contribute Using Feature Branches
 Use standard feature branches for updates to test and staging. Create a sub-branch from "staging" if you're working on a content change, and from "test" if you're working on a template or CSS.
 
+### Styling Pages
+
+The Commotion site uses [Bootstrap](http://getbootstrap.com/) as a stylesheet base and [SASS](http://sass-lang.com/) for customization. Most common styles are already available as css classes, and are documented at [http://getbootstrap.com]. Commotion-specific styles are stored as modules in the `/_sass` directory. New SASS modules must be added to `/css/Main.scss` in order to be built when the site is published.
+
 ## Testing Updates, Pull Requests from Feature branch to Staging/Test
 The best way to preview feature branch changes is to preview the site using a local Jekyll installation as described above. When your work is ready, push your feature branch to github and create a pull request for staging or test. 
 

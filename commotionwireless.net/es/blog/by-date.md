@@ -1,8 +1,6 @@
 ---
 title: "Commotion Wireless Blog Index"
 layout: blog-index
-lang: en
+lang: es
 ---
-<div class="blog-index">
 {% include posts-by-date.html %}
-</div>

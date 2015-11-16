@@ -1,0 +1,98 @@
+// Custom grid of square tiles.
+// Cell and row styles overlap with Bootstrap,
+// but as of v3.3.5, Bootstrap does not have easy, responsive, square cells.
+
+.grid {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: separate;
+    border-spacing: 1.5em;
+    
+    &:after {
+        content: "";
+        clear: both;
+    }  
+}
+
+.grid-row {
+    display: table-row;
+}
+
+.element {
+   display: table-cell;
+   width: 30%;
+   float: left;
+   min-width:150px;
+   padding: 10px 20px;
+   overflow: hidden;
+}
+
+.grid-cell {
+    display: table-cell;
+    min-width: 150px;
+    width: 31%;
+    border: thin solid $gray-light;
+    background-color: $gray-lighter;
+    text-align: center;
+    padding: 15px;
+    
+    &:hover {
+        background-color: white;
+    }
+}
+
+img.grid-icon { 
+  background-color: inherit !important; 
+  max-height:100px;
+  vertical-align: middle;
+}
+
+.grid-gallery {
+    height: 245px;
+    padding: 0;
+}
+
+.grid-gallery .figure img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $gray-lighter;
+}
+
+.grid-gallery a,
+.grid-gallery a:link {
+    border-bottom: none;
+}
+
+.grid-gallery .figure {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+
+.grid-gallery .figure .caption {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255,255,255,.9);
+    padding: 5px;
+}
+
+@media screen and (max-width: $screen-sm) {
+    .grid { border-spacing: 0; }
+    .grid-row {  display: block; }
+    .grid-cell, .grid-gallery { width: 100%; float: left;}
+}
+
+@media screen and (min-device-width: $screen-xs-min) and (max-device-width: $screen-xs) {
+    .grid {     border-spacing: 0; }
+    .grid-row {  display: block; }
+    .grid-cell, .grid-gallery { width: 100%; float: left; }
+}

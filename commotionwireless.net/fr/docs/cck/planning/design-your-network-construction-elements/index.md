@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: fr
 ---
-<p><img alt="" src="/files/construction_elements_intro_0.png" /></p>
+<p><img alt="" src="/files/construction_elements_intro_0.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <p>Ces éléments de construction simples peuvent vous aider à faire des dépliants et des diagrammes pour votre réseau. Si vous êtes sur un ordinateur, vous pouvez copier et coller des éléments dans votre espace de travail. Les éléments fonctionnent également très bien avec des ciseaux et de la colle.</p>
@@ -31,7 +31,7 @@ lang: fr
 <section id="buildings">
 <h2>Graphiques</h2>
 
-<p><img alt="" src="/files/construction_graphics_sample.png" /></p>
+<p><img alt="" src="/files/construction_graphics_sample.png" class="img-responsive" /></p>
 </section>
 <section id="extras">
 <p><a href="/files/construction_elements_CCK_0.pdf">Télécharger une collection complète des éléments graphiques que vous pouvez utiliser dans vos dépliants et diagrammes (au format PDF).</a></p>

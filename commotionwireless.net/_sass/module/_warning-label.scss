@@ -1,0 +1,27 @@
+@import "bootstrap/mixins/alerts";
+
+$alert-warning-label-bg: $warning-label-orange;
+$alert-warning-label-border: black;
+$alert-warning-label-text: black;
+
+.alert-warning-label {
+	@include alert-variant($alert-warning-label-bg, $alert-warning-label-border, $alert-warning-label-text);
+}
+
+.warning-bottom {
+	@extend .alert;
+	border-top: 5px solid black;
+	
+	li {
+		margin: 10px auto;
+	}
+}
+
+.warning-label {
+	border: 5px solid black;
+	margin: 2% auto;
+	
+	.alert-warning-label {
+		margin-bottom: 0;
+	}
+}

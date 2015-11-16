@@ -1,0 +1,73 @@
+---
+# Jekyll needs empty frontmatter to generate main.css 
+---
+// Collection of all SCSS files used in the site
+// HIG and OTI variables
+// Location: /_sass
+@import "base/bootstrap-variable-overrides";
+@import "base/hig-variables";
+@import "base/site-type";
+@import "layout/body";
+@import "layout/footer";
+@import "layout/headers";
+@import "module/color-bar";
+@import "module/navbar-main";
+@import "module/sidemenu";
+@import "module/tile";
+@import "module/warning-label";
+@import "theme/commotion-colors";
+
+// Vendor bootstrap core variables and mixins
+// Location: /_assets/bower_components/bootstrap-sass
+// @import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Vendor bootstrap modules -- Disable unused
+// Location: /_assets/bower_components/bootstrap-sass
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/glyphicons";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+// Components
+@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+// @import "bootstrap/button-groups";
+// @import "bootstrap/input-groups";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+// @import "bootstrap/breadcrumbs";
+// @import "bootstrap/pagination";
+// @import "bootstrap/pager";
+@import "bootstrap/labels";
+@import "bootstrap/badges";
+// @import "bootstrap/jumbotron";
+// @import "bootstrap/thumbnails";
+@import "bootstrap/alerts";
+// @import "bootstrap/progress-bars";
+// @import "bootstrap/media";
+@import "bootstrap/list-group";
+// @import "bootstrap/panels";
+// @import "bootstrap/responsive-embed";
+// @import "bootstrap/wells";
+@import "bootstrap/close";
+
+// Components w/ JavaScript
+// @import "bootstrap/modals";
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popovers";
+// @import "bootstrap/carousel";
+
+// Utility classes
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";

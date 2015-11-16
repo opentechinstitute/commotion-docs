@@ -18,7 +18,7 @@ lang: en
 
 <h3 id="routers">Routers</h3>
 
-<table class="files list" summary="Commotion supported routers by manufacturer">
+<table class="table table-bordered" summary="Commotion supported routers by manufacturer">
 	<thead>
 		<tr>
 			<th scope="col">Manufacturer</th>
@@ -77,7 +77,7 @@ lang: en
 
 <h3 id="phones">Cell phones</h3>
 
-<table class="files list" summary="Commotion supported cell phones by mobile device type">
+<table class="table table-bordered" summary="Commotion supported cell phones by mobile device type">
 	<thead>
 		<tr>
 			<th scope="col">Mobile Device Type</th>
@@ -137,7 +137,7 @@ lang: en
 
 <h3 id="computers">Computers</h3>
 
-<table class="files list" summary="Commotion supported desktop and laptop supported computers by operating system">
+<table class="table table-bordered" summary="Commotion supported desktop and laptop supported computers by operating system">
 	<thead>
 		<tr>
 			<th scope="col">Operating System</th>
@@ -162,7 +162,7 @@ lang: en
 
 <h3 id="cellular">Cellular networks</h3>
 
-<table class="files list" summary="Commotion supported open cellular network devices">
+<table class="table table-bordered" summary="Commotion supported open cellular network devices">
 	<thead>
 		<tr>
 			<th scope="col">Operating System</th>

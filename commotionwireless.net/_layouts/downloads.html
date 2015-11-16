@@ -1,13 +1,13 @@
 
 
 
-{% include header.html width="home-width" title=page.title subtitle=page.tagline %}
+{% include header.html title=page.title subtitle=page.tagline %}
 
-<section id="main_content" class="inner home-width">
+<section id="main_content" class="container">
 
 <div class="content">
-{% include verifying-downloads.html %} 
-
+{% include {{page.lang}}/verifying-downloads.html %}
+{% include {{page.lang}}/warning-label.html %}
 {{ content }}
 </div>
 

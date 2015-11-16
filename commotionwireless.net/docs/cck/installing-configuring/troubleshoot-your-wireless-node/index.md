@@ -11,7 +11,7 @@ changed: 2013-12-23
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__648 img__view_mode__media_large attr__format__media_large" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
+  <p><img alt="" class="img-responsive" src="/files/troubleshooting_node_hosts_top.png" style="width: 510px; height: 325px;" typeof="foaf:Image" /></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -53,29 +53,29 @@ lang: en
 <table border="0" cellpadding="1" cellspacing="1" style="width: 510px;">
 	<tbody>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__637 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_power_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_power_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><a href="#no-power">Is the router powered on?</a></p>
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__638 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_visibleap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><a href="#no-visible-ap">Can you see the access point on your client device?</a></p>
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__639 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_associateap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_question.png" style="width: 100px; height: 89px; margin: 21px 10px;" typeof="foaf:Image" /></td>
 			<td><a href="#cant-connect-ap">Can you connect to the access point with your client device?</a></td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__640 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_splashed_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_splashed_question.png" style="width: 100px; height: 95px; margin: 15px 10px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><a href="#no-splash-page">Are you not seeing the splash page after associating with the access point?</a></p>
 			</td>
 		</tr>
 		<!--<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__641 img__view_mode__media_original attr__format__media_original" src="/files/Troubleshooting_internet_question.png" style="width: 100px; height: 94px; margin: 16px 10px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_internet_question.png" style="width: 100px; height: 94px; margin: 16px 10px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><a href="#no-internet">Are you getting the splash page, but still cannot connect to the Internet?</a></p>
 			</td>
@@ -86,7 +86,7 @@ lang: en
 
 <section id="no-power">
 <h2>Power Issues: If the router is not on</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__512 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right; margin: 20px 10px;" typeof="foaf:Image" />
 
 <p>&nbsp;</p>
 
@@ -94,7 +94,7 @@ lang: en
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__714 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/troubleshooting_checkPOE.png?itok=XFS1ormf" style="width: 240px; height: 185px;" typeof="foaf:Image" /></p>
+			<p><img alt="" class="img-responsive" src="/files/styles/large/public/troubleshooting_checkPOE.png?itok=XFS1ormf" style="width: 240px; height: 185px;" typeof="foaf:Image" /></p>
 			</td>
 			<td>
 			<p><strong>Does the Power over Ethernet (PoE) adapter have power?</strong></p>
@@ -104,7 +104,7 @@ lang: en
 		</tr>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__524 img__view_mode__media_large attr__format__media_large" height="262" src="/files/troubleshoot_checkoutlet.png" typeof="foaf:Image" width="237" /></p>
+			<p><img alt="" class="img-responsive" height="262" src="/files/troubleshoot_checkoutlet.png" typeof="foaf:Image" width="237" /></p>
 			</td>
 			<td>
 			<p><strong>Does the outlet work?</strong></p>
@@ -117,7 +117,7 @@ lang: en
 		<tr>
 			<td colspan="2">
 			<p><strong>Check the cables.</strong><br />
-			<img alt="" class="media-image attr__typeof__foaf:Image img__fid__525 img__view_mode__media_large attr__format__media_large" height="290" src="/files/troubleshoot_checkcables.png" typeof="foaf:Image" width="480" /><br />
+			<img alt="" class="img-responsive" height="290" src="/files/troubleshoot_checkcables.png" typeof="foaf:Image" width="480" /><br />
 			If the PoE adapter has power but the router does not, it may be a problem with the Ethernet cable between the PoE and the router. Try a different Ethernet cable.</p>
 
 			<p>Check to be sure all cables are securely plugged-in, between the PoE adapter and router, between the PoE adapter’s LAN port and switch or Gateway modem (if applicable), and between the PoE adapter and electric outlet.</p>
@@ -125,7 +125,7 @@ lang: en
 		</tr>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__526 img__view_mode__media_large attr__format__media_large" height="480" src="/files/troubleshoot_routerpower.png" typeof="foaf:Image" width="195" /></p>
+			<p><img alt="" class="img-responsive" height="480" src="/files/troubleshoot_routerpower.png" typeof="foaf:Image" width="195" /></p>
 			</td>
 			<td>
 			<p><strong>If the router still does not have power…</strong></p>
@@ -138,13 +138,13 @@ lang: en
 
 <h3>Power: Checked</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><br />
 <strong>At this point, you know the electricity supply for the router is good. Move on to the next troubleshooting section.</strong></p>
 </section>
 
 <section id="no-visible-ap">
 <h2>No visible Access Point: If you cannot see the AP</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__514 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_no_0.png" style="width: 100px; height: 88px; float: right; margin: 12px 10px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -153,13 +153,13 @@ lang: en
 			<td colspan="2">
 			<p><strong>Are you near enough to the access point?</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__527 img__view_mode__media_large attr__format__media_large" height="110" src="/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" height="110" src="/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
 
 			<p>Make sure you are close enough to the AP for it to be visible to your wireless device. Also, check if any environmental conditions around the node are blocking the signal.</p>
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__528 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_Hidden_AP.png" style="width: 250px; height: 91px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_CCK_Hidden_AP.png" style="width: 250px; height: 91px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><strong>Is the access point hidden?</strong></p>
 
@@ -170,7 +170,7 @@ lang: en
 			<td colspan="2">
 			<p><strong>Is the AP enabled on the node?</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__738 img__view_mode__media_large attr__format__media_large" height="213" src="/files/styles/large/public/adv_network_wifi.png?itok=fZX0pK5a" typeof="foaf:Image" width="480" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__530 img__view_mode__media_large attr__format__media_large" height="169" src="/files/Troubleshoot_enable_ap.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" height="213" src="/files/styles/large/public/adv_network_wifi.png?itok=fZX0pK5a" typeof="foaf:Image" width="480" /><img alt="" class="img-responsive" height="169" src="/files/Troubleshoot_enable_ap.png" typeof="foaf:Image" width="480" /></p>
 
 			<p>In the admin interface, go to <strong>Advanced -&gt; Network -&gt; WiFi</strong>&nbsp;and make sure the “Master” access point is enabled. If you change this setting, you may need to reboot your node.</p>
 			</td>
@@ -180,13 +180,13 @@ lang: en
 
 <h3>AP Visibility: Checked</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><br />
 <strong>The AP is visible.</strong></p>
 </section>
 
 <section id="cant-connect-ap">
 <h2>Cannot connect to the Access Point: Your device isn't holding a connection</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__516 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" />
+<img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_no.png" style="width: 100px; height: 88px; float: right; margin: 5px;" typeof="foaf:Image" />
 <p>&nbsp;</p>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -195,13 +195,13 @@ lang: en
 			<td colspan="2">
 			<p><strong>Are you too far from the access point?</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__527 img__view_mode__media_large attr__format__media_large" height="110" src="/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" height="110" src="/files/troubleshooting_ap_distance.png" typeof="foaf:Image" width="480" /></p>
 
 			<p>Because nodes often have more signal strength than your client device, you may be able to see a strong signal on your client device, but your client device may not be powerful enough to communicate with the node from a distance.</p>
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__531 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshoot_device_powercycle.png" style="width: 175px; height: 300px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshoot_device_powercycle.png" style="width: 175px; height: 300px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><strong>Restart wireless and/or your device.</strong></p>
 
@@ -209,7 +209,7 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__532 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_Connect_AP.png" style="width: 240px; height: 65px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_CCK_Connect_AP.png" style="width: 240px; height: 65px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><strong>Make sure you are trying to connect to the AP, not to the ad-hoc (mesh) signal.</strong></p>
 
@@ -217,7 +217,7 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__533 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_Secure_AP.png" style="width: 240px; height: 122px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_CCK_Secure_AP.png" style="width: 240px; height: 122px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><strong>If the AP is secure, make sure you have the right network key, or password, for it.</strong></p>
 
@@ -225,7 +225,7 @@ lang: en
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__534 img__view_mode__media_large attr__format__media_large" height="109" src="/files/Wireless_Interference_problem.png" typeof="foaf:Image" width="240" /></td>
+			<td><img alt="" class="img-responsive" height="109" src="/files/Wireless_Interference_problem.png" typeof="foaf:Image" width="240" /></td>
 			<td>
 			<p><strong>Are there too many routers in the room?</strong></p>
 
@@ -237,14 +237,14 @@ lang: en
 
 <h3>AP Associated with Client: Checked</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__713 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/styles/large/public/Troubleshooting_visibleap_yes_0.png?itok=Nir2QWp-" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><br />
 <strong>The client device is connected to the AP.</strong></p>
 </section>
 
 <section id="no-splash-page">
 <h2>No Welcome Page: If you are on the AP but aren’t directed to the landing page</h2>
-<img alt="" class="media-image attr__typeof__foaf:Image img__fid__518 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_no.png" style="width: 100px; height: 91px; float: right; margin: 19px 10px;" typeof="foaf:Image" />
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__519 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshoot_notsplashed.png" style="width: 510px; height: 169px;" typeof="foaf:Image" /></p>
+<img alt="" class="img-responsive" src="/files/Troubleshooting_splashed_no.png" style="width: 100px; height: 91px; float: right; margin: 19px 10px;" typeof="foaf:Image" />
+<p><img alt="" class="img-responsive" src="/files/Troubleshoot_notsplashed.png" style="width: 510px; height: 169px;" typeof="foaf:Image" /></p>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -252,7 +252,7 @@ lang: en
 			<td colspan="2">
 			<p><strong>Check the status of the network.</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__537 img__view_mode__media_large attr__format__media_large" height="138" src="/files/Troubleshooting_CCK_Broken_Mesh_Link.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" height="138" src="/files/Troubleshooting_CCK_Broken_Mesh_Link.png" typeof="foaf:Image" width="480" /></p>
 
 			<p>If you are associated with an AP and you know there is an upstream Internet Gateway in the mesh, but you cannot get online, there may be a broken mesh link. Make sure that all the nodes are meshing properly to the Gateway. You can check the node’s host net announcements (HNAs) list to see if any nodes on the network are providing a gateway.</p>
 			</td>
@@ -261,13 +261,13 @@ lang: en
 			<td colspan="2">
 			<p><strong>Check for a Gateway.</strong></p>
 
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__538 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_HNAs.png" typeof="foaf:Image" width="480" /></p>
+			<p><img alt="" class="img-responsive" src="/files/Troubleshooting_CCK_HNAs.png" typeof="foaf:Image" width="480" /></p>
 
 			<p>To see the list of host net announcements in the Commotion admin interface, go to <strong>Advanced -> Status -> OLSR</strong> and then <strong>click on the HNA tab</strong>. This lists any non-mesh subnets attached to the mesh network, such as client networks and gateways to the internet. If the node has an announced network entry of 0.0.0.0 anywhere in this list, then it knows there is a Gateway to the Internet somewhere in the network. If the node does not have a 0.0.0.0 entry in the list, then it does not see a route to the Internet. Check the mesh network connections to make sure that all routers are meshing properly, and that the signal links are strong enough between nodes.</p>
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" class="media-image attr__typeof__foaf:Image img__fid__539 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_CCK_plug_Ethernet_modem.png" style="width: 210px; height: 109px;" typeof="foaf:Image" /></td>
+			<td><img alt="" class="img-responsive" src="/files/Troubleshooting_CCK_plug_Ethernet_modem.png" style="width: 210px; height: 109px;" typeof="foaf:Image" /></td>
 			<td>
 			<p><strong>If you still cannot access the Internet, plug an Ethernet cable directly into the Gateway modem.</strong></p>
 
@@ -279,7 +279,7 @@ lang: en
 
 <h3>Welcome Page: Checked</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__513 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__515 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__517 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="media-image attr__typeof__foaf:Image img__fid__521 img__view_mode__media_large attr__format__media_large" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
+<p><img alt="" class="img-responsive" src="/files/Troubleshooting_power_yes_0.png" style="width: 97px; height: 94px; margin: 16px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_visibleap_yes.png" style="width: 98px; height: 98px; margin: 12px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_associateap_yes.png" style="width: 97px; height: 92px; margin: 18px 13px;" typeof="foaf:Image" /><img alt="" class="img-responsive" src="/files/Troubleshooting_splashed_yes.png" style="width: 96px; height: 90px; margin: 20px 14px;" typeof="foaf:Image" /><br />
 <strong>The welcome page comes up on the client device.</strong></p>
 </section>
 <!--
@@ -312,7 +312,7 @@ lang: en
 	<tbody>
 		<tr>
 			<td>
-			<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__540 img__view_mode__media_large attr__format__media_large" height="100" src="/files/bug.png" typeof="foaf:Image" width="82" /></p>
+			<p><img alt="" class="img-responsive" height="100" src="/files/bug.png" typeof="foaf:Image" width="82" /></p>
 
 			<p><a href="https://commotionwireless.net/report">https://commotionwireless.net/report</a></p>
 			</td>

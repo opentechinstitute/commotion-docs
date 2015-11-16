@@ -12,7 +12,7 @@ post_author: critzo
 lang: es
 ---
 
-<p><img alt="Configure Commotion graphic" src="/files/CCK_Configure_intro_graphic.png" /></p>
+<p><img alt="Configure Commotion graphic" src="/files/CCK_Configure_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -100,26 +100,26 @@ A printed or off-line copy of the node <a href="/files/CCK_ConfigureRouters_Hand
 <p>¡No compartas las contraseñas o información con nadie, a menos que confíes en ellos con la red!</p>
 
 <p><strong>1.</strong> Ejecuta el Asistente de Configuración Commotion dando clic en la imágen etiquetada <strong>Asiste de COnfiguración</strong>:</p>
-<p><img src="/files/CCK-Configure_setup_wizard1.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard1.png" class="img-responsive" /></p>
 <p class="tip">&nbsp; Al dar clic en el botón de Avanzado se deshabilitará el Asistente de Configuración Commotion para permitir configurar tu nodo manualmente.</p>
 
 <p><strong>2.</strong> Usa la información que reuniste o decidiste llenar en los campos del Asistente de Configuración de Commotion. El Asistente de Configuración tiene cuatro páginas requeridas y una página opcional. Los valores que entres se guardarán mientras navegas entre las páginas, y se aplican a la página de Confirmación de la Configuración.</p>
 
 <p><strong>Asistente de Configuración, página 1 – configuraciones del Nodo</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard2.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard2.png" class="img-responsive" /></p>
 <p>Ingresa el Nombre del Nodo y la Contraseña de Administración.</p>
 
 <p><strong>Asistente de Configuración, página 2 – Configuraciones de la Red</strong><p>
-<p><img src="/files/CCK-Configure_setup_wizard3.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard3.png" class="img-responsive" /></p>
 <p>Ingresa el Nombre de la Red Mesh y selecciona el canal. Si tu red mesh debe encritpar el tráfico entre los dispositivos mesh, elije la caja apropiada e ingresa la  Contraseña Mesh Encriptada************** Mesh Encryption Password.</p>
 
 <p><strong> Asistente de Configuración, página 3 – Red inalámbrica</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard4.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard4.png" class="img-responsive" /></p>
 <p>Si lo deseas, configura un Punto de Acceso, para proveer acceso inalámbrico a la red a través de este nodo. Ingresa el Nombre del Punto de Acceso y proporciona una Contraseña que las personas necesitarían para conectarse.</p>
 <p><strong>Nota:</strong> Si configuras un Punto de Acceso al nodo, <strong>must</strong> usa el mismo canal como la red Mesh.</p>
 
 <p><strong> Asistente de Configuración, página 4 – Configuración completa</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard5.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard5.png" class="img-responsive" /></p>
 <p>Ahora has completado todos los pasos requeridos para configurar tu nodo mesh.</p>
 
 <ul>
@@ -130,9 +130,9 @@ A printed or off-line copy of the node <a href="/files/CCK_ConfigureRouters_Hand
 <p>Opcional, si quieres configurar opciones adicionales de como se comporta el puerto conectado WAN (Ethernet), ve a las opciones de <a href="#Advanced-Commotion-mesh-settings">Configuraciones Avanzadas</a> debajo.</p>
 
 <p><strong>Asistente de Configuración – Confirma las configuraciones</strong></p>
-<p><img src="/files/CCK-Configure_setup_wizard6.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard6.png" class="img-responsive" /></p>
 <p>Revisa las configuraciones, luego navega hacia abajo y da clic en *********** Skim through the settings, then scroll down and hit <strong>Guardar y Aplicar</strong>:</p>
-<p><img src="/files/CCK-Configure_setup_wizard7.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_setup_wizard7.png" class="img-responsive" /></p>
 
 <p><strong>3.</strong> Cuando termines con el Asistente de Configuración Commotion, el nodo se reiniciara. Esto tomará algunos minutos - sé paciente.<strong> </strong>Cuando el nodo comience de nuevo, automáticamente se conectará a otros nodos mesh en el área con información  correspondiente de los links mesh. **************When the node starts up again, it will automatically connect to other mesh nodes in the area with matching mesh link information.
 </section>
@@ -151,7 +151,7 @@ Al entender porqué tuviste esta advertencia, ahora puedes aceptar el certificad
 
 <p>Se te alentará a tener un nombre de usuario y contraseña. El nombre de usuario de administración es siempre “raíz” - ingrésalo si es necesario. Tu configuras la contraseña de administrador durante el uso del Asistente de Configuración Commotion, ingrésalo y presiona el botón de “Inicio de Sesión”.</p>
 
-<p><img src="/files/CCK-Configure_administrator_login.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_administrator_login.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 </section>
@@ -187,11 +187,11 @@ Al entender porqué tuviste esta advertencia, ahora puedes aceptar el certificad
 	<li>Navega a <strong>Configuraciones Básicas -> Seguridad -> Contraseñas</strong>.</li>
 	<li>Ingresa la contraseña de Administración existente en el campo arriba de la página etiquetada "Contraseña Actual".</li>
 </ol>
-<p><img src="/files/CCK-Configure_current_administrator_password.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_current_administrator_password.png" class="img-responsive" /></p>
 <ol start="3">
 	<li>Bajo la sección de “Contraseña de Administración”, ingresa la nueva contraseña en ambos campos “Contraseña” y “Confirmación”.</li>
 </ol>
-<p><img src="/files/CCK-Configure_administrator_password.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK-Configure_administrator_password.png" class="img-responsive" /></p>
 <ol start="4">
 	<li>Desplázate al fondo de la página y haz clic en “Guardar &amp; Aplicar”.</li>
 	<li>Espera que el sistema se actualice. Esto puede tomar hasta dos minutos, ¡sé paciente!</li>
@@ -212,7 +212,7 @@ Changing the Hostname</h3>
 	<li>Espera a que el sistema se actualice.</li>
 </ol>
 
-<p><img src="/files/basic_config1_0.png" style="max-width:600px;" /></p>
+<p><img src="/files/basic_config1_0.png" class="img-responsive" /></p>
 <p>&nbsp;</p>
 
 <h3 id="mesh-settings">Cambiando las configuraciones mesh</h3>
@@ -306,7 +306,7 @@ Changing the Hostname</h3>
 
 <p><strong>&nbsp;Esto puede causar que el nodo se vuelva inestable. Reiniciar el dispositivo después de cambiar esta función debería ayudar a prevenir problemas.</strong></p>
 
-<p><img src="/files/network_wireless_settings1.1.png" style="max-width:600px;" /></p>
+<p><img src="/files/network_wireless_settings1.1.png" class="img-responsive" /></p>
 
 <h3 id="splash-page">Cambiando la Página de Información de la Página de Bienvenida</h3>
 
@@ -346,7 +346,7 @@ Changing the Hostname</h3>
 	<li>Espera a que el sistema se actualice.</li>
 </ol>
 
-<p><img src="/files/client_controls1.png" style="max-width:600px;" /></p>
+<p><img src="/files/client_controls1.png" class="img-responsive" /></p>
 
 <h3 id="bandwidth-qos">Configurando los Límites de la Banda Ancha y las configuraciones de la Calidad del Servicio</h3>
 
@@ -407,7 +407,7 @@ Changing the Hostname</h3>
 	<li>Espera a que el sistema se actualice.</li>
 </ol>
 
-<p><img src="/files/styles/large/public/adv_upgrade1.png" style="max-width:600px;" /></p>
+<p><img src="/files/styles/large/public/adv_upgrade1.png" class="img-responsive" /></p>
 </section>
 
 <section id="Advanced-Commotion-mesh-settings">
@@ -417,7 +417,7 @@ Changing the Hostname</h3>
 
 <p>En el menú <strong>Configuraciones Básicas,</strong> bajo <strong>COnfiguraciones de Red -> Interfaces de Red Adicionales</strong>, hay opciones adicionales para configurar como se comporta una interfaz WAN (el puerto Ethernet que está normalmente conectada a un router o switch con una conexión al Internet). En muchos dispositivos, tales Puntos de Acceso dedicados o dispositivos de cleintes como series Ubiquiti PicoStation o NanoStation, puede haber solo un puerto Ethernet. En dispositivos con múltiples puertos switch, esto configurará solo el puerto WAN.</p>
 
-<p class="cck-content-container"><img src="/files/CCK-Configure_additional_network_interfaces.png" style="max-width:600px;" />
+<p class="cck-content-container"><img src="/files/CCK-Configure_additional_network_interfaces.png" class="img-responsive" />
 
 <ul>
 	<li>Si quieres que Commotion auto-configure tu conexión cableada, selecciona <em>Configura la Puerta de Acceso en el arranque automáticamente</em></li>
@@ -442,7 +442,7 @@ Changing the Hostname</h3>
     <li>Ve a <strong>Advanzado -> Red -> Firewall</strong>.</li>
     <li>En la parte de arriba de la página, da clic en “Reglas de Tráfico" tab.</li>
 </ol>
-<p><img src="/files/CCK_ConfigureRouters_Firewall1.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK_ConfigureRouters_Firewall1.png" class="img-responsive" /></p>
 <ol class="rteindent1" start="4">
     <li>Bajo la sección "Abre los puertos en el router", encontrarás los siguientes valores:</li>
     <ol type="a">
@@ -452,13 +452,13 @@ Changing the Hostname</h3>
     </ol>
     <li>Da clic en el botón de "Agregar" al lado de los campos que acabas de llenar.</li>
 </ol>
-<p><img src="/files/CCK_ConfigureRouters_Firewall2.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_ConfigureRouters_Firewall2.png" class="img-responsive" /></p>
 <ol class="rteindent1" start="6">
     <li>Da clic en “Guardar & Aplicar” al fondo de la página.</li>
 </ol>
 
 <p>Después de dar clic en “Guardar & Aplicar”, los cambios se harán y verás la nueva entrada en las reglas del Firewall:
-<p><img src="/files/CCK_ConfigureRouters_Firewall3.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_ConfigureRouters_Firewall3.png" class="img-responsive" /></p>
 
 <p>El nodo con esta configuración debería ahora permitir el acceso al panel de Administración de cualquier computadora conectada al puerto WAN (Ethernet).</p>
 <p>&nbsp;</p>
@@ -479,7 +479,7 @@ Changing the Hostname</h3>
 
 <p>Esta es una prueba manual que puedes usar para explorar cualquier interfaz de administrador de nodo Commotion.*************** This is a short hands-on test you can use to explore any Commotion node’s administrator interface. Completar esta prueba no se requiere para configurar un nodo en la red, pero puede ayudarte a encontrar información importante que los administradores de red necesitan para mantener la red funcionando apropiadamente. Si estás configurando varios nodos con otras personas, todos pueden explorar estos detalles si corren su nodo a través de esta prueba, y llenan las respuestas.</p>
 
-<p><a href="/files/cck/installing-configuring/2.1-CCK-Installing-ConfigureRouters_Hands-on.pdf"><img  src="/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" style="width: 371px; height: 480px;" typeof="foaf:Image" /></a></p>
+<p><a href="/files/cck/installing-configuring/2.1-CCK-Installing-ConfigureRouters_Hands-on.pdf"><img  src="/files/styles/large/public/CCK_ConfigureRouters_handson.png?itok=EyeqjNQ_" class="img-responsive" typeof="foaf:Image" /></a></p>
 </section>
 
 <section id="Record-important-information">
@@ -487,7 +487,7 @@ Changing the Hostname</h3>
 
 <p>Mientras checas y cambias estas configuraciones, asegúrate de registrar de forma segura la información. Puedes usar esa hoja de trabajo si te es útil.</p>
 
-<p><a href="/files/cck/installing-configuring/2.2-CCK-Installing-ConfigureRouters_worksheet.pdf"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__593 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" width="371" /></a></p>
+<p><a href="/files/cck/installing-configuring/2.2-CCK-Installing-ConfigureRouters_worksheet.pdf"><img alt="" class="img-responsive" src="/files/styles/large/public/CCK_ConfigureRouters_Installworksheet.png?itok=HBI0JETU" typeof="foaf:Image" /></a></p>
 </section>
 
 <section id="section-definitions">

@@ -11,7 +11,7 @@ changed: 2013-12-23
 post_author: critzo
 lang: fr
 ---
-  <p><img alt="" src="/files/troubleshooting_node_hosts_top.png" /></p>
+  <p><img alt="" src="/files/troubleshooting_node_hosts_top.png" class="img-responsive" /></p>
 <section id="introduction">
 <h2>Introduction</h2>
 
@@ -49,29 +49,29 @@ lang: fr
 
 <table>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_power_question.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_power_question.png" class="img-responsive" /></td>
 <td>
 <p><a href="#no-power">Est-ce que le router est allumé ?</a></p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_visibleap_question.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_visibleap_question.png" class="img-responsive" /></td>
 <td>
 <p><a href="#no-visible-ap">Pouvez vous voir le point d'accès depuis votre dispositif de client ?</a></p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_associateap_question.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_associateap_question.png" class="img-responsive" /></td>
 <td><a href="#cant-connect-ap">Pouvez-vous vous connecter au point d'accès avec votre dispositif de client ?</a></td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_splashed_question.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_splashed_question.png" class="img-responsive" /></td>
 <td>
 <p><a href="#no-splash-page">Est-ce que vous ne voyez pas la page d'éclaboussement après l'association au point d'accès ?</a></p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_internet_question.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_internet_question.png" class="img-responsive" /></td>
 <td>
 <p><a href="#no-internet">Obtenez-vous la page d'éclaboussement, mais ne pouvez toujours pas vous connecter à Internet ?</a></p>
 </td>
@@ -80,13 +80,13 @@ lang: fr
 </section>
 <section id="no-power">
 <h2>Questions d'alimentation : si le routeur n'est pas branché</h2>
-<img alt="" src="/files/Troubleshooting_power_no_0.png" style="width: 100px; height: 90px; float: right;" />
+<img alt="" src="/files/Troubleshooting_power_no_0.png" class="img-responsive" style="width: 100px; height: 90px; float: right;" />
 <p> </p>
 
 <table>
 <tr>
 <td>
-<p><img alt="" src="/files/troubleshooting_checkPOE.png" /></p>
+<p><img alt="" src="/files/troubleshooting_checkPOE.png" class="img-responsive" /></p>
 </td>
 <td>
 <p><strong>Est-ce que l'adaptateur d'alimentation via Ethernet (PoE) a l'alimentation ?</strong></p>
@@ -95,7 +95,7 @@ lang: fr
 </tr>
 <tr>
 <td>
-<p><img alt="" src="/files/troubleshoot_checkoutlet.png" /></p>
+<p><img alt="" src="/files/troubleshoot_checkoutlet.png" class="img-responsive" /></p>
 </td>
 <td>
 <p><strong>La sortie marche-t-elle ?</strong></p>
@@ -105,13 +105,13 @@ lang: fr
 </tr>
 <tr>
 <td colspan="2">
-<p><strong>Vérifiez les câbles.</strong><br><img alt="" src="/files/troubleshoot_checkcables.png" /><br>Si l'adaptateur PoE est alimenté mais que le routeur ne l'est pas, cela peut être un problème avec le câble Ethernet entre le PoE et le routeur. Essayez un câble Ethernet différent.</p>
+<p><strong>Vérifiez les câbles.</strong><br><img alt="" src="/files/troubleshoot_checkcables.png" class="img-responsive" /><br>Si l'adaptateur PoE est alimenté mais que le routeur ne l'est pas, cela peut être un problème avec le câble Ethernet entre le PoE et le routeur. Essayez un câble Ethernet différent.</p>
 <p>Assurez-vous que tous les câbles sont branchés avec soin, entre l'adaptateur PoE et le routeur, entre le port de réseau local de l'adaptateur PoE et le commutateur ou la passerelle modem (si cas échéant) et entre l'adaptateur PoE et la prise électrique.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p><img alt="" src="/files/troubleshoot_routerpower.png" /></p>
+<p><img alt="" src="/files/troubleshoot_routerpower.png" class="img-responsive" /></p>
 </td>
 <td>
 <p><strong>Si le router n'a toujours pas d'alimentation électrique…</strong></p>
@@ -120,23 +120,23 @@ lang: fr
 </tr>
 </table>
 <h3>Alimentation : vérifiée</h3>
-<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" style="width: 100px; heigh: 90px;" /><br>
+<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" class="img-responsive" style="width: 100px; heigh: 90px;" /><br>
 <strong>À ce point, vous savez que l'approvisionnement en électricité pour le routeur est bon. Avancez à la prochaine section de diagnostic de pannes.</strong></p>
 </section>
 <section id="no-visible-ap">
 <h2>Pas de point d'accès visible : si vous ne pouvez pas voir l'AP</h2>
-<img alt="" src="/files/Troubleshooting_visibleap_no_0.png" style="float: right; width: 100px; height: 88px;" />
+<img alt="" src="/files/Troubleshooting_visibleap_no_0.png" class="img-responsive" style="float: right; width: 100px; height: 88px;" />
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 <tr>
 <td colspan="2">
 <p><strong>Êtes-vous assez près du point d'accès ?</strong></p>
-<p><img alt="" src="/files/troubleshooting_ap_distance.png" /></p>
+<p><img alt="" src="/files/troubleshooting_ap_distance.png" class="img-responsive" /></p>
 <p>Assurez-vous que vous êtes assez proches de l'AP afin qu'il puisse être visible à votre dispositif sans fil. D'autre part, cherchez si il y a de quelconques conditions environnementales qui bloquent le signal autour du noeud.</p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_CCK_Hidden_AP.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_CCK_Hidden_AP.png" class="img-responsive" /></td>
 <td>
 <p><strong>Le point d'accès est-il caché ?</strong></p>
 <p>Si vous savez qu'il y a un AP et vous êtes près du routeur, mais que vous ne pouvez pas toujours voir l'AP sur votre dispositif de client, l'administrateur de réseau peut avoir mis l'AP comme invisible. Essayez d'entrer manuellement le nom de l'AP dans le gestionnaire de réseau de votre dispositif de client.</p>
@@ -145,51 +145,51 @@ lang: fr
 <tr>
 <td colspan="2">
 <p><strong>Est-ce que l'AP est activé sur le noeud ?</strong></p>
-<p><img alt="" src="/files/Troubleshoot_wifi_menu.png" /><img alt="" src="/files/Troubleshoot_enable_ap.png" /></p>
+<p><img alt="" src="/files/Troubleshoot_wifi_menu.png" class="img-responsive" /><img alt="" src="/files/Troubleshoot_enable_ap.png" class="img-responsive" /></p>
 <p>Dans l'interface d'administration, allez à <strong>Réseau -&gt; WiFi</strong> et assurez-vous que le point d'accès "Maître" est activé. Si vous changez ce réglage, vous devrez redémarrer votre noeud.</p>
 </td>
 </tr>
 </table>
 <h3>Visibilité de l'AP : vérifiée</h3>
 
-<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" style="width:98px;height:98px;" /><img alt="" src="/files/Troubleshooting_visibleap_yes.png" style="width:98px;height:98px;" /><br>
+<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" class="img-responsive" style="width:98px;height:98px;" /><img alt="" src="/files/Troubleshooting_visibleap_yes.png" class="img-responsive" style="width:98px;height:98px;" /><br>
 <strong>L'AP est visible.</strong></p>
 </section>
 <section id="cant-connect-ap">
 <h2>Ne peut pas connecter au point d'accès : votre dispositif ne tient pas de connexion</h2>
-<img alt="" src="/files/Troubleshooting_associateap_no.png" style="float:right; width:100px;height:88px;" />
+<img alt="" src="/files/Troubleshooting_associateap_no.png" class="img-responsive" style="float:right; width:100px;height:88px;" />
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 <tr>
 <td colspan="2">
 <p><strong>Êtes-vous trop loin du point d'accès ?</strong></p>
-<p><img alt="" src="/files/troubleshooting_ap_distance.png" /></p>
+<p><img alt="" src="/files/troubleshooting_ap_distance.png" class="img-responsive" /></p>
 <p>Parce que les noeuds ont souvent davantage de force de signal que votre dispositif de client, vous pouvez voir un signal fort sur votre dispositif de client, mais votre dispositif de client peut ne pas être assez puissant pour communiquer avec le noeud à cette distance.</p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshoot_device_powercycle.png" /></td>
+<td><img alt="" src="/files/Troubleshoot_device_powercycle.png" class="img-responsive" /></td>
 <td>
 <p><strong>Redémarrez le sans-fil et/ou votre dispositif.</strong></p>
 <p>Si vous ne pouvez toujours pas vous connecter, essayez d'éteindre puis rallumer la radio WiFi sur votre dispositif de client ou de redémarrer le dispositif.</p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_CCK_Connect_AP.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_CCK_Connect_AP.png" class="img-responsive" /></td>
 <td>
 <p><strong>Assurez-vous que vous essayez de vous connecter à l'AP, pas au signal ad-hoc (mesh).</strong></p>
 <p>D'habitude la différence entre les deux sortes de signaux est indiquée par leur icône sur le gestionnaire de réseau de votre dispositif de client.</p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_CCK_Secure_AP.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_CCK_Secure_AP.png" class="img-responsive" /></td>
 <td>
 <p><strong>Si l'AP est sécurisé, assurez-vous que vous avez la bonne clé de réseau, ou le bon mot de passe, pour lui.</strong></p>
 <p>Ceci diffère habituellement du mot de passe d'administrateur root.</p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Wireless_Interference_problem.png" /></td>
+<td><img alt="" src="/files/Wireless_Interference_problem.png" class="img-responsive" /></td>
 <td>
 <p><strong>Est-ce qu'il trop de routeurs dans la pièce ?</strong></p>
 <p>Il pourrait y avoir trop d'interférences sur le même canal WiFi. Pour réduire l'interférence, essayez d'enlever quelques routeurs, espacer les routeurs plus loin à part, ou couper l'alimentation de certains des routeurs.</p>
@@ -198,29 +198,29 @@ lang: fr
 </table>
 <h3>AP associé avec client : vérifié</h3>
 
-<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" style="width:97px; height:94px;" /><img alt="" src="/files/Troubleshooting_visibleap_yes.png"  style="width:97px; height:94px;" /><img alt="" src="/files/Troubleshooting_associateap_yes.png"  style="width:97px; height:94px;" /><br><strong>Le dispositif de client est connecté à l'AP.</strong></p>
+<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" class="img-responsive" style="width:97px; height:94px;" /><img alt="" src="/files/Troubleshooting_visibleap_yes.png" class="img-responsive"  style="width:97px; height:94px;" /><img alt="" src="/files/Troubleshooting_associateap_yes.png" class="img-responsive"  style="width:97px; height:94px;" /><br><strong>Le dispositif de client est connecté à l'AP.</strong></p>
 </section>
 <section id="no-splash-page">
 <h2>Pas de page d'éclaboussement : si vous êtes sur l'AP, mais que n'êtes pas dirigés à la page d'atterrissage</h2>
-<img alt="" src="/files/Troubleshooting_splashed_no.png" style="float:right; width:97px; height:94px;" /><p><img alt="" src="/files/Troubleshoot_notsplashed.png" style="width:75%;" /></p>
+<img alt="" src="/files/Troubleshooting_splashed_no.png" class="img-responsive" style="float:right; width:97px; height:94px;" /><p><img alt="" src="/files/Troubleshoot_notsplashed.png" class="img-responsive" style="width:75%;" /></p>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 <tr>
 <td colspan="2">
 <p><strong>Vérifiez le statut du réseau.</strong></p>
-<p><img alt="" src="/files/Troubleshooting_CCK_Broken_Mesh_Link.png" /></p>
+<p><img alt="" src="/files/Troubleshooting_CCK_Broken_Mesh_Link.png" class="img-responsive" /></p>
 <p>Si vous êtes associé avec une AP et que vous savez qu'il y a une passerelle internet en amont dans la maille (mesh), mais que vous ne pouvez pas aller en ligne, il peut y avoir un lien de maille cassé. Assurez-vous que tous les noeuds maillent correctement à la passerelle. Vous pouvez vérifier la liste de parcours du noeud pour voir si il se connecte aux autres noeuds.</p>
 </td>
 </tr>
 <tr>
 <td colspan="2">
 <p><strong>Vérifier pour une passerelle.</strong></p>
-<p><img alt="" src="/files/olsr_routes.png" /></p>
+<p><img alt="" src="/files/olsr_routes.png" class="img-responsive" /></p>
 <p>Pour voir la liste de parcours dans l'interface d'administration de Commotion, allez à fort <strong>Statut -&gt; OLSR</strong>, cliquez ensuite "Parcours" (routes). Cela liste n'importe quel parcours que le noeud a dans sa table. Si le noeud a une entrée de réseau annoncée de 0.0.0.0 n'importe où dans cette table, alors il sait qu'il y a une passerelle vers Internet quelque part dans le réseau. Si le noeud n'a pas de parcours 0.0.0.0 dans la table, alors il ne voit pas de parcours vers Internet. Vérifiez les connexions de réseau de maille pour vous assurer que tous les routeurs sont maillés correctement et que les liens de signal entre des noeuds sont assez forts.</p>
 </td>
 </tr>
 <tr>
-<td><img alt="" src="/files/Troubleshooting_CCK_plug_Ethernet_modem.png" /></td>
+<td><img alt="" src="/files/Troubleshooting_CCK_plug_Ethernet_modem.png" class="img-responsive" /></td>
 <td>
 <p><strong>Si vous ne pouvez pas toujours pas avoir accès à Internet, branchez un câble Ethernet directement dans la passerelle modem.</strong></p>
 <p>Si vous pouvez accéder à Internet de cette façon, alors le problème est avec le noeud Commotion. Si vous ne pouvez pas avoir accès à Internet de cette façon, alors il y a un problème avec la connexion à Internet, ce qui est au-delà du périmètre de ce guide.</p>
@@ -229,20 +229,20 @@ lang: fr
 </table>
 <h3>Page d'éclaboussement : vérifiée</h3>
 
-<p><img alt="" src="/files/Troubleshooting_power_yes_0.png"  style="width:97px; height:94px;" />
-<img alt="" src="/files/Troubleshooting_visibleap_yes.png" style="width:97px; height:94px;" />
-<img alt="" src="/files/Troubleshooting_associateap_yes.png" style="width:97px; height:94px;" />
-<img alt="" src="/files/Troubleshooting_splashed_yes.png" style="width:97px; height:94px;" /><br>
+<p><img alt="" src="/files/Troubleshooting_power_yes_0.png" class="img-responsive"  style="width:97px; height:94px;" />
+<img alt="" src="/files/Troubleshooting_visibleap_yes.png" class="img-responsive" style="width:97px; height:94px;" />
+<img alt="" src="/files/Troubleshooting_associateap_yes.png" class="img-responsive" style="width:97px; height:94px;" />
+<img alt="" src="/files/Troubleshooting_splashed_yes.png" class="img-responsive" style="width:97px; height:94px;" /><br>
 <strong>La page d'éclaboussement se présente sur le dispositif client.</strong></p>
 </section>
 <section id="no-internet">
 <h2>Éclaboussé, mais pas d'Internet : si la page portail se présente, mais vous ne pouvez pas arriver à Internet</h2>
-<img alt="" src="/files/Troubleshooting_internet_no.png" style="width:97px; height:94px; float:right;" />
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<img alt="" src="/files/Troubleshooting_internet_no.png" class="img-responsive" style="width:97px; height:94px; float:right;" />
+<table class="table table-bordered table-responsive">
 <tr>
 <td colspan="2">
 <p><strong>Si vous êtes dirigés vers la page d'atterrissage, mais ne pouvez toujours pas aller vers l'Internet après avoir cliqué sur le lien, alors il y a vraisemblablement un problème avec la passerelle vers Internet.</strong></p>
-<p><img alt="" src="/files/splash.png" /></p>
+<p><img alt="" src="/files/splash.png" class="img-responsive" /></p>
 </td>
 </tr>
 <tr>
@@ -257,10 +257,10 @@ lang: fr
 <section id="bug-report">
 <h2>Rapportez un bog</h2>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<table class="table table-bordered table-responsive">
 <tr>
 <td>
-<p><img alt="" src="/files/bug.png" /></p>
+<p><img alt="" src="/files/bug.png" class="img-responsive" /></p>
 <p><a href="/report">https://commotionwireless.net/report</a></p>
 </td>
 <td>

@@ -50,7 +50,7 @@ lang: fr
 
 <p>Depending on the application, you may include animations that show progress in between states, as shown below.</p>
 
-<h2><img alt="" src="/files/feedback.png" style="margin-bottom:5px; margin-top:5px; width:871px" /></h2>
+<h2><img alt="" src="/files/feedback.png" class="img-responsive" /></h2>
 
 <h2>Status bar and notifications</h2>
 
@@ -58,7 +58,7 @@ lang: fr
 
 <p>On mobile phones and desktop applications, a notification should always be present when a device is connected to a mesh network. When the notification is tapped, the Commotion application should reopen. On Android, this is considered an “ongoing notification” indicating a significant process that continues until the user ends it. It is appropriate to also include an icon in the left side of the status bar when the notification is present. This distinct icon shows how many nodes the device is connected to.</p>
 
-<p><img alt="" src="/files/status%20bar%20and%20notifications.png" style="width:841px" /></p>
+<p><img alt="" src="/files/status%20bar%20and%20notifications.png" class="img-responsive" /></p>
 
 <h2>Screen size and orientation</h2>
 

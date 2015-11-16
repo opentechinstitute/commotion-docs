@@ -19,7 +19,7 @@ lang: es
 
 <p>¡Consigue ayuda! Pregunta en tu comunidad y ve si hay algún profesional que trabaje en techos, cables de Televisión o instaladores de teléfonos, u otras personas que tengan más experiencia. Hay dos tipos de techos básicos: <strong>planos</strong> y <strong>de dos aguas</strong>. Los techos planos son a menudo más fáciles de trabajar, y los más seguros. Los techos de dos aguas tienen mucha inclinación, en algunos casos una inclinación casi abrupta. Nosotros aconsejamos trabajar solo en techos con una leve inclinación. En las fotos abajo los techos en la parte de arriba son los más seguros, mientras que los de las dos filas de abajo son techos que tienden a ser difíciles y peligrosos.</p>
 
-<p><img alt="Examples of roof pitches" class="media-image attr__typeof__foaf:Image img__fid__238 img__view_mode__media_large attr__format__media_large" height="235" src="/files/styles/large/public/Example_of_Roof_Pitches_small_0.jpg?itok=ZBeh1EI-" typeof="foaf:Image" width="480" /></p>
+<p><img alt="Examples of roof pitches" class="img-responsive" src="/files/styles/large/public/Example_of_Roof_Pitches_small_0.jpg?itok=ZBeh1EI-" typeof="foaf:Image" /></p>
 
 <p>Con cualquier tipo de techo, hay variedades de cobertura de techos y aislantes de los cuales hay que tener cuidado. Todos ellos protegen el techo para hacerlo resistente al agua. La regla más importante cuando instales algo en el techo: <strong>nunca caves agujeros en la superficie misma del techo</strong>. Aún si los agujeros están sellados apropiadamente, eventualmente gotearán y traerán problemas a la larga.</p>
 
@@ -29,7 +29,7 @@ lang: es
 
 <h3>Montaje Ancla</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__239 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/anchor.png?itok=SRs3k49g" style="width: 52px; height: 154px; float: right; margin: 10px;" typeof="foaf:Image" />El típico montaje ancla esta hecho de dos piezas en forma de V de metal, que puedes amarrar a tu chimenea con tornillos o anclas. Los kits a veces están disponibles en Radio Shack, o en línea:</p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/anchor.png?itok=SRs3k49g" style="float: right;" typeof="foaf:Image" />El típico montaje ancla esta hecho de dos piezas en forma de V de metal, que puedes amarrar a tu chimenea con tornillos o anclas. Los kits a veces están disponibles en Radio Shack, o en línea:</p>
 
 <ul>
 	<li>http://bit.ly/vbkbOD</li>
@@ -40,7 +40,7 @@ lang: es
 
 <h3>Montaje amarrado</h3>
 
-<p><img alt="Strap mount" class="media-image attr__typeof__foaf:Image img__fid__240 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/strap.png?itok=pEUVVWIV" style="width: 109px; height: 156px; float: right; margin: 10px;" typeof="foaf:Image" />Los montajes amarrados usan ataduras de acero amarradas alrededor de la chimenea, que son apretadas con una llave para asegurarlas a un poste. Usualmente las puedes pedir en línea:</p>
+<p><img alt="Strap mount" class="img-responsive" src="/files/styles/large/public/strap.png?itok=pEUVVWIV" style=" float: right;" typeof="foaf:Image" />Los montajes amarrados usan ataduras de acero amarradas alrededor de la chimenea, que son apretadas con una llave para asegurarlas a un poste. Usualmente las puedes pedir en línea:</p>
 
 <ul>
 	<li>http://www.starkelectronic.com/cmwalmt.htm</li>
@@ -48,11 +48,11 @@ lang: es
 
 <h3>Ataduras a las cornisas</h3>
 
-<p><img alt="Eaves mount image" class="media-image attr__typeof__foaf:Image img__fid__242 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/eaves.png?itok=YtnsKHIX" style="width: 191px; height: 97px; margin: 10px; float: right;" typeof="foaf:Image" />Estos se colocan al final de un techo inclinado, donde otros métodos no funcionan. No se recomienda para mástiles largos, hasta 4 o 5 pies debería funcionar.</p>
+<p><img alt="Eaves mount image" class="img-responsive" src="/files/styles/large/public/eaves.png?itok=YtnsKHIX" style="float: right;" typeof="foaf:Image" />Estos se colocan al final de un techo inclinado, donde otros métodos no funcionan. No se recomienda para mástiles largos, hasta 4 o 5 pies debería funcionar.</p>
 
 <h3>Anexos que no penetran</h3>
 
-<p><img alt="Non-penetrating mount image" class="media-image attr__typeof__foaf:Image img__fid__243 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/non-pen.png?itok=FXbcl6rD" style="width: 96px; height: 165px; margin: 10px; float: right;" typeof="foaf:Image" />Este tipo de método de montaje usa peso para asegurar el mástil a el techo – no se requiere atornillar o perforaciones. Este es generalmente el método preferido si no tienes chimenea o tubo en donde montar, pero puedes usarlo aún si tienes dichas cosas disponibles. Hay muchas fuentes disponibles ahora que la televisión satelital es tan popular, pero algunas buenas fuentes son:</p>
+<p><img alt="Non-penetrating mount image" class="img-responsive" src="/files/styles/large/public/non-pen.png?itok=FXbcl6rD" style="float: right;" typeof="foaf:Image" />Este tipo de método de montaje usa peso para asegurar el mástil a el techo – no se requiere atornillar o perforaciones. Este es generalmente el método preferido si no tienes chimenea o tubo en donde montar, pero puedes usarlo aún si tienes dichas cosas disponibles. Hay muchas fuentes disponibles ahora que la televisión satelital es tan popular, pero algunas buenas fuentes son:</p>
 
 <ul>
 	<li>http://www.aisatellite.com/products.htm</li>

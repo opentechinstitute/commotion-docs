@@ -1,5 +1,5 @@
 ---
-layout: cck
+layout: default
 title: MikroTik Installation Server Setup
 site_section: docs
 sub_section: [guides]
@@ -54,7 +54,7 @@ lang: en
 
 <p>Also, you should disable dnsmasq from starting when you boot up your computer:</p>
 <pre>sudo update-rc.d -f dnsmasq remove</pre>
-<p><img src="/files/Install_MikroTik-dnsmasq_install_commands_combined.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-dnsmasq_install_commands_combined.png" class="img-responsive" /></p>
 
 <p>Next, configure dnsmaq to provide only the services needed to install Commotion. These are to provide a DHCP server on the wired Ethernet port, and to enable the TFTP/BootP service to serve files to the routers.</p>
 
@@ -130,7 +130,7 @@ sudo cp ~/location_of_file/openwrt-ar71xx-nand-vmlinux-initramfs-lzma.elf /var/l
 
 <p>Also, you should disable lighttpd from starting when you boot up your computer:</p>
 <p><pre>sudo update-rc.d -f lighttpd remove</pre></p>
-<p><img src="/files/Install_MikroTik-lighttpd_install_commands_combined.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-lighttpd_install_commands_combined.png" class="img-responsive" /></p>
 
 <p>Lighttpd's default web pages and files are hosted at /var/www. You will copy the installation files into /var/www with the commands:</p>
 <p><pre>

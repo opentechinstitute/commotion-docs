@@ -12,7 +12,7 @@ post_author: andygunn
 lang: es
 ---
 
-<p><img alt="Install on a router graphic" src="/files/CCK-Install_TP-Link_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img alt="Install on a router graphic" src="/files/CCK-Install_TP-Link_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -48,7 +48,7 @@ ownload Commotion image for your hardware:<br />
 
 <p>Asegúrate que el número del modelo router TP-Link y la versión coincidan exactamente. Por ejemplo, esta imagen Commotion para el WR842ND V1 no trabajará en el WR842ND <strong>V2</strong>!</p>
 
-<p><img src="/files/CCK-Install_TP-Link_download_screenshot.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_download_screenshot.png" class="img-responsive" /></p>
 
 <p>&nbsp;</p>
 
@@ -58,7 +58,7 @@ ownload Commotion image for your hardware:<br />
 <section id="setup-the-hardware">
 <h2>Configura Hardware</h2>
 
-<p><img src="/files/CCK-Install_TP-Link_prepare_hardware.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_prepare_hardware.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
    <li>Desempaca el router TP-Link y atornilla las antenas exteriores (si tu unidad las tiene).</li>
@@ -71,25 +71,25 @@ ownload Commotion image for your hardware:<br />
 <h2>Carga el Software</h2>
 
 <p>1. Abre tu navegador web y persiona <a href="http://192.168.0.1">http://192.168.0.1</a> en la barra de direcciones. Esto es la IP del router. Un promt para la contraseña del administrador debería aparecer. **************************A prompt for an administrator password should appear.</p>
-<p><img src="/files/CCK-Install_TP-Link_admin_login1.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_admin_login1.png" class="img-responsive" /></p>
 
 <p>2. Ingresa a la Interfaz:<br />
 <strong>Nombre de usuario: admin<br />
 Contraseña: admin</strong></p>
 
-<p><img src="/files/CCK-Install_TP-Link_admin_login2.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_admin_login2.png" class="img-responsive" /></p>
 
 <p>3. Navega al menú de Herramientas de Sistema y da clic en el submenú “Actualizar Firmware”.</p>
-<p><img src="/files/CCK-Install_TP-Link_firmware_menu.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_firmware_menu.png" class="img-responsive" /></p>
 
 <p>4. Da clic en el botón y selecciona la imagen apropiada Commotion para tu router TP-Link. ¡Asegúrate que el número de modelo y la versión del router sean iguales!</p>
-<p><img src="/files/CCK-Install_TP-Link_firmware_upload1.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_firmware_upload1.png" class="img-responsive" /></p>
 
 <p>5. Haz clic en el botón, y selecciona confirmar cuando el router te lo pregunte.</p>
-<p><img src="/files/CCK-Install_TP-Link_firmware_upload2.png" style="max-width:700px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_firmware_upload2.png" class="img-responsive" /></p>
 
 <p>6. El router se reiniciará. Espera unos minutos, y luego ve a http://thisnode en tu navegador Web. Si ves la pantalla Commotion, ¡felicidades! ¡Ahora sabes que tienes un router Commotion Wireless!</p>
-<p><img src="/files/CCK-Install_TP-Link_Commotion_thisnode.png" style="max-width:400px;" /></p>
+<p><img src="/files/CCK-Install_TP-Link_Commotion_thisnode.png" class="img-responsive" /></p>
 
 <p>&nbsp;</p>
 

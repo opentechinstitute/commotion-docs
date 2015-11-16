@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Commotion DR2 notas de lanzamiento
 categories: [es]
 tags: [release]
-=======
-﻿---
-layout: blog
-title: Commotion DR2 notas de lanzamiento
-categories: [release]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2013-09-19
 changed: 2013-09-19
 post_author: Josh King

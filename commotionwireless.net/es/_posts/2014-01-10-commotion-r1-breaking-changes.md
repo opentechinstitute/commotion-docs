@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 ---
 layout: blog
 title: Cambios de última hora de Commotion R1
 categories: [es]
 tags: [R1,upgrade]
-=======
-﻿---
-layout: blog
-title: Cambios de última hora de Commotion R1
-categories: [R1,upgrade]
->>>>>>> 05c14056a25140e6b0b71d926bb8f6da3947366a
 created: 2014-01-10
 changed: 2014-01-10
 post_author: Dan Staples

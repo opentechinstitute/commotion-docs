@@ -14,7 +14,7 @@ Las redes inalámbricas comunitarias "mesh" conectan digitalmente a las comunida
 
 Las redes comunitarias están construidas por una coalición de instituciones anclas comunitarias, organizaciones basadas en la comunidad, representantes municipales, e individuos trabajando juntos para planear, diseñar y desplegar una red. Las tareas de propiedad y administración se distribuyen entre la comunidad. Los Administradores Digitales son miembros de la comunidad que se encargan de la red.
 
-<img class="threefourths-width" src="/files/get-started-starting-network.png" alt="starting a network graphic" />
+<img class="img-responsive" src="/files/get-started-starting-network.png" alt="starting a network graphic" />
 
 <h3>PASOS SUGERIDOS PARA LA CONSTRUCCIÓN DE UNA RED</h3>
 <ol>
@@ -42,7 +42,7 @@ Las redes comunitarias están construidas por una coalición de instituciones an
 <h2>Conectate con Otros</h2>
 
 <p>La creación de redes de mesh comienza con la gente. Trabaja con tu comunidad para determinar las necesidades de comunicación, intereses y voluntad de participar y ayudar. Comienza con conversaciones o reuniones acerca de cómo tu grupo podría usar redes de mesh. Para obtener ayuda, consulte los módulos de<a href="/docs/cck/planning"><em>Planeando</em>disponibes</a> en el <a href="/docs/cck">Kit de Construcción Commotion</a>. También te alentamos a que <a href="/about/faq">leas nuestras preguntas frecuentes.</a><br />
-<img src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" /></p>
+<img src="/files/styles/large/public/title_image.png?itok=uhJC0pqH" class="img-responsive" /></p>
 
 <h2>Conéctate con la comunidad Commotion</h2>
 

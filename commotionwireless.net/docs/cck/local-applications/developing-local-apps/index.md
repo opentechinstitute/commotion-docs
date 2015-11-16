@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__464 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/identify-neighborhood-skills-title.png?itok=HerLfvUb" style="width: 510px; height: 330px;" typeof="foaf:Image" /></p>
 
 <h2>Identify Neighborhood Skills</h2>
 
@@ -35,7 +35,7 @@ Paper</p>
 <section id="activity">
 <h3>Activity 1: Network Skills</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__466 img__view_mode__media_large attr__format__media_large" height="352" src="/files/styles/large/public/identify-neighborhood-skills-listskills.png?itok=KeGkBmMA" typeof="foaf:Image" width="480" /></p>
+<p><img alt="" class="img-responsive" typeof="foaf:Image" width="480" /></p>
 
 <p>As a group or within small groups, write a list of skills that will be necessary to plan, build and maintain your wireless network. Think about the skills needed to do tasks such as making flyers, flashing routers, mounting hardware, connecting electricity to rooftops, buying equipment, and finding other community members that would like to be involved.</p>
 
@@ -50,7 +50,7 @@ Paper</p>
 <table>
 	<tbody>
 		<tr>
-			<td align="center" valign="middle" width="180px;"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__461 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center" valign="middle" width="180px;"><img alt="" class="img-responsive" src="/files/styles/large/public/organizer.png?itok=Vm1gcwxT" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
 			<strong>Organizer</strong></td>
 			<td valign="middle">Outreach<br />
 			Working with and recruiting volunteers<br />
@@ -60,7 +60,7 @@ Paper</p>
 			Budgeting and finance</td>
 		</tr>
 		<tr>
-			<td align="center" valign="middle"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__462 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center" valign="middle"><img alt="" class="img-responsive" src="/files/styles/large/public/handyperson.png?itok=7buWNbL7" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
 			<strong>Handy-Person</strong></td>
 			<td valign="middle">Mounting hardware on rooftops or in parks<br />
 			Connecting electricity to the sites<br />
@@ -69,7 +69,7 @@ Paper</p>
 			Purchasing and managing equipment</td>
 		</tr>
 		<tr>
-			<td align="center"><img alt="" class="media-image attr__typeof__foaf:Image img__fid__463 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
+			<td align="center"><img alt="" class="img-responsive" src="/files/styles/large/public/techie.png?itok=3KVrQi1O" style="width: 100px; height: 89px;" typeof="foaf:Image" /><br />
 			<strong>Techie</strong></td>
 			<td valign="middle">Installing mesh software on routers<br />
 			Configuring routers<br />
@@ -168,12 +168,4 @@ Paper</p>
 
 <p>What skills does the group already have? What skills do you need to find? Identify a strategy for reaching out to each person, organization or group you have identified. Where would you find these skills? Who in your community might take on these roles?</p>
 </section>
-<!--
-<section id="section-definitions">
-<h3>Definitions</h3>
-</section>
 
-<section class="related-information" id="section-related-information">
-<h3>Related Information</h3>
-</section>
---> 

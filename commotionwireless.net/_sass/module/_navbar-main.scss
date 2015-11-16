@@ -1,0 +1,54 @@
+﻿.navbar-brand {
+    font-size: $font-size-base;
+}
+
+nav.navbar {
+    background: #2e2e2e url(/icons/pattern.png) repeat;
+    text-transform: uppercase;
+}
+
+// Align plain text with regular links
+.nav-plain-text {
+    color: $navbar-default-link-hover-color;
+}
+.nav-plain-text-inverse {
+    color: $navbar-inverse-link-hover-color;
+}
+
+.nav {
+    > li {
+        > .nav-plain-text {
+            // See _navs: nav > li > a
+            position: relative;
+            display: block;
+            padding: $nav-link-padding;
+            color: $navbar-inverse-link-color;
+        }
+    }
+}
+
+.navbar-nav {
+    > li > .nav-plain-text {
+        padding-top:    10px;
+        padding-bottom: 10px;
+        line-height: $line-height-computed;
+    }
+
+    @media (max-width: $grid-float-breakpoint-max) {
+        // Dropdowns get custom display when collapsed
+        > li > .nav-plain-text {
+            line-height: $line-height-computed;
+        }
+    }
+
+    // Uncollapse the nav
+    @media (min-width: $grid-float-breakpoint) {
+        > li {
+            > .nav-plain-text {
+                padding-top:    $navbar-padding-vertical;
+                padding-bottom: $navbar-padding-vertical;
+            }
+        }
+    }
+}
+

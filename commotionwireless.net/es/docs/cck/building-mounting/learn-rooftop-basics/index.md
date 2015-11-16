@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__352 img__view_mode__media_original attr__format__media_original" height="388" src="/files/learn_rooftop_basics_support001_0.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" src="/files/learn_rooftop_basics_support001_0.png" typeof="foaf:Image" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -28,7 +28,7 @@ lang: es
 <section id="general-rules">
 <h2>Reglas Generales</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__264 img__view_mode__media_original attr__format__media_original" height="314" src="/files/learn_rooftop_basics_support002_003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__264 img__view_mode__media_original attr__format__media_original" height="314" src="/files/learn_rooftop_basics_support002_003.png" typeof="foaf:Image" /></p>
 
 <ul>
 	<li>Nunca, jamás trabajes solo.</li>
@@ -46,7 +46,7 @@ lang: es
 <section id="using-power-tools">
 <h2>Usando Herramientas Eléctricas</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__265 img__view_mode__media_original attr__format__media_original" height="325" src="/files/learn_rooftop_basics_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__265 img__view_mode__media_original attr__format__media_original" height="325" src="/files/learn_rooftop_basics_support004.png" typeof="foaf:Image" /></p>
 
 <ul>
 	<li>Antes de comenzar a taladrar, evalúa que tan profundo taladrar basado en el largo de los tornillos y pernos, y el grueso de las paredes y las herramientas de montaje.</li>
@@ -58,7 +58,7 @@ lang: es
 <section id="working-on-roofs">
 <h2>Trabajando en los techos</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__266 img__view_mode__media_original attr__format__media_original" height="427" src="/files/learn_rooftop_basics_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__266 img__view_mode__media_original attr__format__media_original" height="427" src="/files/learn_rooftop_basics_support005.png" typeof="foaf:Image" /></p>
 
 <ul>
 	<li>Familiarízate con el techo antes de que lo subas. Para saber a qué te estás enfrentando y estés preparado, puedes dibujar un plan o mapa para usarlo de referencia.</li>
@@ -71,7 +71,7 @@ lang: es
 <section id="cable-installation">
 <h2>Instalación del Cable</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__267 img__view_mode__media_original attr__format__media_original" height="323" src="/files/learn_rooftop_basics_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learn_rooftop_basics_support006.png" typeof="foaf:Image" /></p>
 
 <p>Cuando instales un cable entre el nodo inalámbrico externo y la fuente de poder interna, mantener las cosas limpias y en orden será bien apreciado por el dueño del edificio, y llevará a menos problemas en el futuro. Para usar el cable apropiadamente, sigue estos pasos:</p>
 
@@ -81,13 +81,13 @@ lang: es
 	<li>Jala cable fuera del carrete conforme te muevas del nodo y el montaje a donde el cable entrará al edificio.</li>
 </ul>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__268 img__view_mode__media_original attr__format__media_original" height="294" src="/files/learn_rooftop_basics_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learn_rooftop_basics_support007.png" typeof="foaf:Image" /></p>
 
 <p class="tip"> *************Deberías dejar un “nudo de goteo” justo antes del agujero donde el cable entra al edificio.********************* You should leave a "drip loop" right before the hole where the cable enters the building.********** ¡Esto va a prevenir que el agua corra junto al cable y entre!</p>
 </section>
 
 <section id="cable-installation">
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__269 img__view_mode__media_original attr__format__media_original" height="286" src="/files/learn_rooftop_basics_support008.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/learn_rooftop_basics_support008.png" typeof="foaf:Image" /></p>
 <p class="tip"> Cuando corras cables, ten cuidado de no deformarlos con sujetadores – sujetadores de cremallera instalados muy apretado o gramas incorrectas pueden dañar el cableado. Sé consiente del radio para doblar el cable – doblar mucho los cables puede causarles daño. Si corres un cable a través de la pared, usa arandela y refuerza el cable cuando lo corras a través de un borde, por ejemplo al reforzarlo con múltiples capas de cinta eléctrica o algo similar. Si estás instalando en el exterior o puntos altos como techos, la mejor práctica es usar cables y conectores protegidos, así como un pararrayos</p>
 
 <ul>

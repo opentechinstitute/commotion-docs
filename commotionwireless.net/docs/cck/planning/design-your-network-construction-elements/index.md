@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: en
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__356 img__view_mode__media_original attr__format__media_original" height="315" src="/files/construction_elements_intro_0.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" height="315" src="/files/construction_elements_intro_0.png" typeof="foaf:Image" width="510" /></p>
 
 <section id="introduction">
 <p>These simple construction elements can help you make flyers and diagrams for your network. If you're on a computer, you can copy and paste the elements into your workspace. The elements also work fine with scissors and glue.</p>
@@ -32,7 +32,7 @@ lang: en
 <section id="buildings">
 <h2>Graphics</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__357 img__view_mode__media_original attr__format__media_original" height="315" src="/files/construction_graphics_sample.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" height="315" src="/files/construction_graphics_sample.png" typeof="foaf:Image" width="510" /></p>
 </section>
 
 <section id="extras">

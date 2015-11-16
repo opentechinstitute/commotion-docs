@@ -11,7 +11,7 @@ changed: 2013-11-27
 post_author: critzo
 lang: en
 ---
-<p><img alt="Inventory the Neighborhood graphic" src="/files/styles/large/public/inventory_the_neighborhood_title.png" /></p>
+<p><img alt="Inventory the Neighborhood graphic" src="/files/styles/large/public/inventory_the_neighborhood_title.png" class="img-responsive" ></p>
 
 <section id="introduction">
 <h2>Introduction</h2>
@@ -32,11 +32,11 @@ lang: en
 <section id="materials-and-supplies-needed">
 <h3>MATERIALS + SUPPLIES NEEDED</h3>
 
-<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="Site Worksheet" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" /></a></p>
+<p><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf"><img alt="Site Worksheet" src="/files/styles/large/public/document_worksheet_2.png?itok=ujRdiFhh" class="img-responsive"></a></p>
 
 <p>Printouts of the <strong><a href="/files/cck/planning/5.2-CCK-Planning-SiteWorksheet.pdf">Site Worksheets</a></strong> you can take with you into the neighborhood to collect information about places that might make good installation sites. You will need one for each location.</p>
 
-<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="Neighborhood Inventory Spreadsheet" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" /></a></p>
+<p><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf"><img alt="Neighborhood Inventory Spreadsheet" src="/files/styles/large/public/document_spreadsheet_3.png?itok=Tod7AI5r" class="img-responsive"></a></p>
 
 <p><strong><a href="/files/cck/planning/5.1-CCK-Planning-NeighborhoodInventorySpreadsheet.pdf">Neighborhood Inventory Spreadsheet</a></strong> you can use to organize, store, and use the information you gathered out in the neighborhood. You can copy this example spreadsheet or make your own.</p>
 

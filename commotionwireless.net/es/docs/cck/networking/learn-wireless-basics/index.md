@@ -12,7 +12,7 @@ post_author: Andy Gunn
 lang: es
 ---
 <section id="introduction">
-<p><img alt="Learn Wireless Basics graphic" src="/files/CCK_WirelessBasics_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img alt="Learn Wireless Basics graphic" src="/files/CCK_WirelessBasics_intro_graphic.png" class="img-responsive" /></p>
 
 <h2>Introducción</h2>
 
@@ -40,7 +40,7 @@ Leer y trabajar con <a href="/docs/cck/learn-networking-basics/">Aprende lo Bás
 <h2>¿Qué es una señal inalámbrica?</h2>
 
 <p>
-<img alt="Signals" src="/files/CCK_WirelessBasics_Signals.png" style="max-width:510px;" />
+<img alt="Signals" src="/files/CCK_WirelessBasics_Signals.png" class="img-responsive" />
 </p>
 <p>
 Las señales inalámbricas son importantes porque pueden transferir información -- audio, video, nuestras voces, datos -- sin el uso de los cables, lo cuál las hace muy útiles.
@@ -58,7 +58,7 @@ Para más información sobre como trabajan las señales electromagnéticas, revi
 <p>Hay muchos, muchos tipos de tecnologías inalámbricas. Puedes estar familiarizado con las señales de radio AM y FM, Televisión,  Teléfonos celulares, Wi-Fi, señales de satélites como GPS y televisión, radios de dos ondas, y Bluetooth. Estas son algunas de las señales más compunes, ¿pero que las hace diferentes?
 </p>
 
-<table style="max-width:600px">
+<table class="table table-responsive">
 	<tr>
 		<td><img alt="Radio" src="/files/CCK_WirelessBasics_wireless_icon_radio.png" width="100" /></td>
 		<td><img alt="TV" src="/files/CCK_WirelessBasics_wireless_icon_tv.png" width="100" /></td>
@@ -85,7 +85,7 @@ En primer lugar, las señales inalámbricas ocupan un espectro, o amplia gama, d
 A continuación podemos ver el lapso de frecuencias que se utilizan habitualmente en las comunicaciones. Los transmisores de radiodifusión de AM, FM y Televisión usan frecuencias inferiores a 1000 Mhz, El Wi-Fi utiliza dos bandas de frecuencias más altas – 2.4 y 5 GHz. Los teléfonos celulares utilizan muchas frecuencias diferentes.
 </p>
 <p>
-<img alt="Wireless spectrum" src="/files/CCK_WirelessBasics_Channels_spectrum.png" style="max-width:700px;" />
+<img alt="Wireless spectrum" src="/files/CCK_WirelessBasics_Channels_spectrum.png" class="img-responsive" />
 </p>
 <p>
 <ol class="rteindent1">
@@ -113,29 +113,29 @@ Además de tener diferentes frecuencias, las señales inalámbricas pueden ser d
 </p>
 <p>
 <strong>Ejemplo uno: radio AM.</strong> La A en AM viene de Amplitud – la energía o fuerza de la señal, operando en una sola frecuencia. Una onda sin modular AM puede verse como:<br/>
-<img alt="Unmodulated wave" src="/files/CCK_WirelessBasics_Wave1.png" style="max-width:600px;" />
+<img alt="Unmodulated wave" src="/files/CCK_WirelessBasics_Wave1.png" class="img-responsive" />
 </p>
 <p>
 Y una onda de radio AM modulada tiene ondas de energía (amplitud) más alta y más baja indicando frecuencias de audio más altas y bajas en la señal:<br/>
-<img alt="Amplitude modulated wave" src="/files/CCK_WirelessBasics_Wave2.png" style="max-width:600px;" />
+<img alt="Amplitude modulated wave" src="/files/CCK_WirelessBasics_Wave2.png" class="img-responsive" />
 </p>
 <p>
 De izquierda a derecha, tenemos la onda normal, sin modular, luego la onda de baja amplitud (representando puntos bajos en ondas de audio), luego la onda de amplitud más alta (representando las crestas o puntos altos en las ondas de audio).
 </p>
 <p>
 Una versión más detallada de una señal AM está abajo:<br/>
-<img alt="Detailed AM wave" src="/files/CCK_WirelessBasics_Wave3.png" style="max-width:600px;" />
+<img alt="Detailed AM wave" src="/files/CCK_WirelessBasics_Wave3.png" class="img-responsive" />
 </p>
 <p>
 La señal de audio es la onda en la parte de arriba, con la onda de Amplitud Modulada correspondiente debajo.
 </p>
 <p>
 <strong>Ejemplo dos: radio FM.</strong> La F en FM viene de Frecuencia – definida por que tan rápido la onda vibra por segundo. Una onda FM sin modular puede verse como:<br/>
-<img alt="Unmodulated wave" src="/files/CCK_WirelessBasics_Wave1.png" style="max-width:600px;" />
+<img alt="Unmodulated wave" src="/files/CCK_WirelessBasics_Wave1.png" class="img-responsive" />
 </p>
 <p>
 Una onda de radio FM modulada tienen frecuencias más altas y bajas indicando frecuencias de audio en la señal más altas y bajas:<br/>
-<img alt="Frequency modulated wave" src="/files/CCK_WirelessBasics_Wave4.png" style="max-width:600px;" />
+<img alt="Frequency modulated wave" src="/files/CCK_WirelessBasics_Wave4.png" class="img-responsive" />
 </p>
 <p>
 De izquierda a derecha, tenemos la onda sin modular normal, luego la onda de frecuencia más baja (representando amplitudes de audio más bajas), luego la onda de frecuencia más alta (representando amplitudes de audio más altas).
@@ -150,7 +150,7 @@ El tipo de modulación que varias tecnologías usan para comunicarse puede ser m
 Los dispositivos en tu vida diaria utilizan muchos tipos de señales inalámbricas. Mira la tabla de abajo para ver las distintas frecuencias y tipos de modulación que cada uno utiliza:
 </p>
 <p>
-<table>
+<table class="table table-responsive">
 	<tr>
 		<td>
 		<strong>Tecnología o dispositivo</strong>
@@ -236,7 +236,7 @@ Cuando un dispositivo envía una señal inalámbrica, se llama un transmisor. Cu
 <strong>Actividad rápida:</strong> ¿Qué dispositivos que posees o usas frecuentemente, son transmisores, receptores o transmisores-receptores**********? Rellena algunos ejemplos abajo de cada tipo:
 </p>
 <p>
-<table style="max-width:600px;text-align:center;border:1px solid black;">
+<table class="table table-responsive table-bordered">
 	<tr>
 		<td style="border:1px solid black;">
 		<strong>Transmisor</strong>
@@ -303,7 +303,7 @@ Cada banda de frecuencia usada en el Wi-Fi se divide en múltiples “canales”
 Para la banda de 2.4GHz, hay 14 canales en total. Desafortunadamente, estos canales se traslapan, así que no tienen que preocuparse de recoger canales no estándares como en la banda de 2.4GHz. ************************For the 2.4GHz band, there are 14 channels total. Unfortunately, these channels overlap, so they arent have to worry about picking non-standard channels like in the 2.4GHz band.
 </p>
 <p>
-<img alt="5GHz channels" src="/files/CCK_WirelessBasics_Channels5.png" style="max-width:600px;" />
+<img alt="5GHz channels" src="/files/CCK_WirelessBasics_Channels5.png" class="img-responsive" />
 </p>
 <p>
 Hay muchos más canales disponibles en la banda de 5GHz, así que debería ser más fácil seleccionar un canal en esta banda que no funcione como redes mesh inalámbricas. El mejor lugar para checar lo que se permite ene le área es en línea. Los links se proporcionan en <a href="#section-external-resources">Recursos Externos</a> al final de este documento.
@@ -329,7 +329,7 @@ Los fabricantes usualmente no publican información acerca de los rangos de los 
 	<li>A <strong>milliwatt</strong> es una milésima (que escucha al poder más quieto para ser capaz de recibir cualquier señal, ya sea debido a que la señal sea muy débil o que otras señales estén interfiriendo, y los routers se deconectarían. Abajo podemos ver que los dos routers se han desconectado, como ahí no ha tenido que haber mucha planeación para conectarse con múltiples vecinos o edificios. Si hay suficiente señal entre los nodos, deberían conectarse. ***************************is one thousandth (thatlisten powerquietert be able to receive any signal, either due to the signal being too weak or other signals interfering, and the routers will disconnect. Below we can see the two routers have disconnected, as there isnt have to do as much planning to connect with multiple neighbors or buildings. If there is enough signal between nodes, they should connect.
 </p>
 <p>
-<img alt="Omnidireccional crea conexiones en todas las direcciones" src="/files/CCK_WirelessBasics_Omni_close.png" style="max-width:300px;" />
+<img alt="Omnidireccional crea conexiones en todas las direcciones" src="/files/CCK_WirelessBasics_Omni_close.png" class="img-responsive" />
 </p>
 <p>
 La fuerza en todas las direcciones de estas antenas viene con la desventaja de transmitir una señal más débil. Ya que la señal viaja en todas direcciones, se distribuye y se vuelve más débil con la distancia muy rápido. Si los nodos o clientes están muy lejos, podrían no conectarse bien.
@@ -341,7 +341,7 @@ La fuerza en todas las direcciones de estas antenas viene con la desventaja de t
 También, si solo hay nodos o clientes en una dirección del router, entonces las señales que van a la dirección opuesta se desperdician:
 </p>
 <p>
-<img alt="Las omni antenas pueden desperdiciar energía en direcciones sin receptores" src="/files/CCK_WirelessBasics_Omni_one_side.png" style="max-width:300px;" />
+<img alt="Las omni antenas pueden desperdiciar energía en direcciones sin receptores" src="/files/CCK_WirelessBasics_Omni_one_side.png" class="img-responsive" />
 </p>
 
 <h3>Antenas Direccionales</h3>
@@ -349,7 +349,7 @@ También, si solo hay nodos o clientes en una dirección del router, entonces la
 El siguiente tipo de antena se conoce como direccional--envía una señal de un modo más enfocado. Hay dos tipos principales de antenas direccionales:
 </p>
 <p>
-<table style="text-align:center;">
+<table class="table table-responsive" style="text-align:center;">
 	<tr>
 		<td>
 		<strong>Antena de Sector</strong><br/>
@@ -372,7 +372,7 @@ El siguiente tipo de antena se conoce como direccional--envía una señal de un 
 Usando antenas direccionales tiene el beneficio de incrementar la distancia con la que una señal viaja en una dirección, mientras que la reduce en todas las otras direcciones. Ya que la señal va toda a un lugar, el poder que sería enviado en todas las direcciones con los nodos omnidireccionales está ahora enfocado, incrementando el poder en esa dirección.
 </p>
 <p>
-<img alt="Las antenas direccionales envían las señales más lejos" src="/files/CCK_WirelessBasics_Directional_distance.png" style="max-width:350px;" />
+<img alt="Las antenas direccionales envían las señales más lejos" src="/files/CCK_WirelessBasics_Directional_distance.png" class="img-responsive" />
 </p>
 <p>
 También puede disminuir la interferencia recibida en el nodo. Hay un menor número de señales que llegan a la antena, ya que el nodo sólo está escuchando a las señales de la dirección en la que está apuntando. ********Ya wonsidesendsWt.******It wonsidesendsWt already.****** Los conceptos de redes son importantes cuando se están manejando redes inalámbricas.</p>

@@ -11,7 +11,7 @@ changed: 2014-09-2
 post_author: georgia
 lang: es
 ---
-<p><img alt="Local Applications Overview Graphic" src="/files/CCK_LocalApps_overview.png" width="400"></p>
+<p><img alt="Local Applications Overview Graphic" src="/files/CCK_LocalApps_overview.png" class="img-responsive"></p>
 
 <section id="introduction">
 <h2>Introducción</h2>

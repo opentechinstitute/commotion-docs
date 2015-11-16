@@ -11,7 +11,7 @@ changed: 2013-10-07
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__325 img__view_mode__media_original attr__format__media_original" height="250" src="/files/get_the_word_out_flyer_design_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" src="/files/get_the_word_out_flyer_design_support001.png" typeof="foaf:Image" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -42,7 +42,7 @@ lang: es
 
 <h3>ARREGLA LOS ELEMENTOS PARA HACER UN DIAGRAMA</h3>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__326 img__view_mode__media_original attr__format__media_original" height="600" src="/files/get_the_word_out_flyer_design_support002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/get_the_word_out_flyer_design_support002.png" typeof="foaf:Image" /></p>
 
 <ol>
 	<li>Decide si quieres hacer un boceto de tu vecindario o usar piezas del módulo "Diseña tu Red: Elementos de Construcción". Si estás usando el de Elementos de Construcción, recorta los que reconozcas de tu vecindario y cualquier otra pieza que quieras usar.</li>
@@ -61,19 +61,19 @@ lang: es
 <section id="sample-outreach-diagrams">
 <h2>Ejemplos de Diagramas de Participación</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__327 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic001.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/get_the_word_out_flyer_design_infographic001.png" typeof="foaf:Image" /></p>
 
 <p>Puedes mostrar conexiones potenciales entre algunos edificios. La flecha nota una conexión al Internet.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__328 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/get_the_word_out_flyer_design_infographic002.png" typeof="foaf:Image" /></p>
 
 <p>Puedes representar todo una red de vecindario.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__329 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/get_the_word_out_flyer_design_infographic003.png" typeof="foaf:Image" /></p>
 
 <p>Puedes mostrar solo una sección de la red del vecindario.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__330 img__view_mode__media_original attr__format__media_original" height="400" src="/files/get_the_word_out_flyer_design_infographic004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/get_the_word_out_flyer_design_infographic004.png" typeof="foaf:Image" /></p>
 
 <p>Puedes mostrar como los edificios cercanos pueden compartir acceso a Internet con una ocupación del centro del pueblo. *************You can show how nearby buildings can share Internet access with an occupation of the town square.</p>
 </section>
@@ -125,7 +125,7 @@ lang: es
 <section id="example-flyer">
 <h2>Ejemplo de Volante</h2>
 
-<p><a href="/files/cck/planning/4.1-CCK-Planning-flyer_design_support.pdf"><img alt="Descarga un ejemplo de volante" src="/files/CCK_download_icon.png" /></a></p>
+<p><a href="/files/cck/planning/4.1-CCK-Planning-flyer_design_support.pdf"><img alt="Descarga un ejemplo de volante" src="/files/CCK_download_icon.png" class="img-responsive" /></a></p>
 
 <p class="tip">Estos diagramas no son acerca de los detalles técnicos. Por ahora, no importa qué equipo estás utilizando — concéntrate en hacer que la idea se entienda para que las personas que son nuevas en el proyecto pueden entender los fundamentos de lo que estás proponiendo.</p>
 </section>

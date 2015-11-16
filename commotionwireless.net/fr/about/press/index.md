@@ -29,8 +29,6 @@ lang: fr
 
 <p><strong>Commotion Development Visualization</strong></p>
 
-<div style="float:right;">&nbsp;</div>
-
 <p>Commotion is being developed on multiple platforms and through a variety of interacting packages on each platform. The video below visualizes the development process over time. The core Commotion project is at the center, with sub-projects exploding out over time as development ebbs and flows. Branches and leaves represent files and code being added to sub-projects like Android, Tidepools, Linux, and OpenWRT. <a href="/blog/commotion-development-progress-visualized">Read the full blog post.</a><br />
 <a href="http://vimeo.com/70121378">Commotion Development Progress</a> from <a href="http://vimeo.com/user19473297">OTI Web Team</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 

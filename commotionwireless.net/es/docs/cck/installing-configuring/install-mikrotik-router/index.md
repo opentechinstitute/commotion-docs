@@ -12,7 +12,7 @@ post_author: andygunn
 lang: es
 ---
 
-<p><img alt="Instala en un gráfico de router" src="/files/Install_MikroTik_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img alt="Instala en un gráfico de router" src="/files/Install_MikroTik_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -58,7 +58,7 @@ lang: es
 <section id="setup-the-hardware">
 <h2>Configura el Hardware</h2>
 
-<p><img src="/files/Install_MikroTik_prepare_hardware.png" style="max-width:600px;" /></p>
+<p><img src="/files/Install_MikroTik_prepare_hardware.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
    <li>Desempaca el router MikroTik e instala las antenas externas (si la unidad las tiene).</li>
@@ -74,16 +74,16 @@ lang: es
 <p><pre>sudo minicom -s</pre></p>
 
 <p>Se te presentará un menú de configuración:</p>
-<p><img src="/files/Install_MikroTik-minicom_menu.png" style="max-width:510px" /></p>
+<p><img src="/files/Install_MikroTik-minicom_menu.png" class="img-responsive" /></p>
 
 <p>Usa las teclas de flechas para moverte abajo al menú y presiona enter. Aquí puedes cambiar el puerto serial a la dirección que el adaptador USB-a-Serial usa. Escribe y cambia /dev/xxx a <strong>/dev/ttyUSB0</strong> (para la mayoría de los adaptadores USB-A-Serial). Presiona enter, y luego cambia el rango de bits. Escribe de nuevo y selecciona el rango 115,200 bps, y deja el flujo de control a 8 bits, sin paridad, 1 stop bit (8N1)******************** and leave the flow control to 8 bits, no parity, 1 stop bit (8N1).********** Presiona enter y sal al menú previo. Presiona enter de nuevo y regresa al menú anterior.</p>
-<p><img src="/files/Install_MikroTik-minicom_serial_port_menu.png" style="max-width:510px" /></p>
+<p><img src="/files/Install_MikroTik-minicom_serial_port_menu.png" class="img-responsive" /></p>
 
 <p>En este punto podemos guardar las configuraciones. Navega hacia abajo y presiona enter. Esto guardará tus cambios y configurará los ajustes por defecto para el programa.</p>
-<p><img src="/files/Install_MikroTik-minicom_save_as_default.png" style="max-width:510px" /></p>
+<p><img src="/files/Install_MikroTik-minicom_save_as_default.png" class="img-responsive" /></p>
 
 <p>Desplázate hacia abajo y presiona enter. Serás movido al programa minicom, que estará esperando entradas del puerto serial. <strong>Deja esta ventana terminal abierta</strong> para estar lista para los siguientes pasos.</p>
-<p><img src="/files/Install_MikroTik-minicom_running.png" style="max-width:510px" /></p>
+<p><img src="/files/Install_MikroTik-minicom_running.png" class="img-responsive" /></p>
 
 </section>
 
@@ -91,18 +91,18 @@ lang: es
 <h2>Carga la memoria del software</h2>
 
 <p>If you havens boot process.****************</p>
-<p><img src="/files/Install_MikroTik-minicom_RouterBoot_init.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_RouterBoot_init.png" class="img-responsive" /></p>
 
 <p>Rápidamente presiona cualquier tecla en tu teclado para entrar  al router presiona una tecla ahora, permite que el menu bootloader termine. Tu computadora debería dar un lease DHCP, reconocer su dirección MAC y el dispositivo arrancará el archivo en el que está hospedado: **********************************Quickly hit any key on your keyboard to enter the routert hit a key this time, let the bootloader menu time out. Your computer should give the device a DHCP lease, recognize its MAC address and the device will boot from the file hosted in:</p>
 <p><pre>/var/lib/tftproot/</pre></p>
 <p>Esto ocurrirá muy rápido, luego el software del router Commotion comenzará a ejecutarse.</p>
-<p><img src="/files/Install_MikroTik-minicom_RouterBoot_loading_image.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_RouterBoot_loading_image.png" class="img-responsive" /></p>
 
 <p>Un gran número de mensajes se imprimirá en la pantalla como arranques Commotion. Cuando la pantalla deje de actualizarse por algún tiempo, o veas el mensaje en la pantalla terminal serial, Commotion ha arrancado completamente. Presiona ********************A large number of messages will print to the screen as Commotion boots. When the screen stops updating for a while, or you see the message on the serial terminal screen, Commotion has fully booted. Hit <strong>Enter</strong>.</p>
-<p><img src="/files/Install_MikroTik-minicom_Commotion_booted.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_Commotion_booted.png" class="img-responsive" /></p>
 
 <p>Verás el siguiente banner Commotion, si todo salió bien:</p>
-<p><img src="/files/Install_MikroTik-minicom_Commotion_banner.png" style="max-width:510px;" /></p>
+<p><img src="/files/Install_MikroTik-minicom_Commotion_banner.png" class="img-responsive" /></p>
 
 <p>Si no inicia de la red, revisa de nuevo tu configuración en:
 <p><pre>/etc/dnsmasq.conf</pre></p>

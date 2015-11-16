@@ -1,0 +1,42 @@
+// Prevent body link styles from stomping twbs nav styles
+#main_content_wrap {
+    a,
+    a:visited,
+    a:link {
+        border-bottom: 2px solid $commotion-yellow;
+        color: inherit;
+        font-weight:bold;
+        text-decoration: none;
+    
+        &:hover {
+        border-bottom: 2px solid $commotion-pink;
+        }
+    }
+    
+    a.simple,
+    a.simple:link {
+        border-bottom: none;
+        font-weight: 500;
+        
+        &:hover {
+            font-weight: 800;
+        }
+    }
+}
+
+#main_content {
+    margin-top: $line-height-computed;
+    margin-bottom: $line-height-computed;
+}
+
+.issue-button {
+    border: thin solid $gray-light;
+    background-color: $gray-lighter;
+    text-align: center;
+    padding: 15px;
+    margin: 12px 0px;
+    
+    &:hover {
+        background-color: white;
+    }
+}

@@ -2,86 +2,83 @@
 <!-- if there is no definition we assume it is 2nd category -->
 
 {% if page.definition != null %}
-  {% assign definition = page.definition %}
+{% assign definition = page.definition %}
 {% else %}
-  {% assign definition = page.categories[1] %}
+{% assign definition = page.categories[1] %}
 {% endif %}
 
 {% assign data = site.data[definition] %}
 
 {% if data == null %}
-   {% assign data = site.data[default_collection] %}
+{% assign data = site.data[default_collection] %}
 {% endif %}
 
 
-{% include header.html width="guide-width" title = data.title subtitle = page.title %}
+{% include header.html title = data.title subtitle = page.title %}
 
-<section id="main_content" class="inner guide-width">
+<section id="main_content" class="container">
+  <div class="row">
     <!-- Actual Content -->
-    <div class="left-side">
-      <div class="collection-content" >
-	{{ content }}
-      </div>
+    <div class="collection-content col-md-9" >
+    {{ content }}
     </div>
-    
+
     <!-- Right Side Menu -->
-    <div class="right-side">
+    <div class="col-md-3">
       <div class="nav">
-	<div id="sidemenu">
-	  <ul>
-	    <li style="background-color:{{site.data.colors.lightblack}};padding:10px 10px;font-weight:600;color:{{site.data.colors.white}}">Content</li>
+        <div id="sidemenu">
+          <ul>
+            <li style="background-color:{{site.data.colors.lightblack}};padding:10px 10px;font-weight:600;color:{{site.data.colors.white}}">Content</li>
 
-	    <!-- thisection is defined as the final category of the page -->
-	    {% assign thissection = page.categories | last %} 
+            <!-- thisection is defined as the final category of the page -->
+            {% assign thissection = page.categories | last %}
 
-	    {% for node in data.sections %}
-	    {% if node.id == thissection or node.id == null %}
-	      <li class="highlight"><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
-	      <ul>
-	      {% for post in site.categories[thissection] reversed %}
- 	      {% if post.categories contains page.categories[1] %}
-                {% if post.redirect %}{% assign url = post.redirect %} {% else %} {% assign url=post.url %}{% endif %}
-	        {% if post.title == page.title %} {% assign highlight = "highlight" %} {% else %} {% assign highlight = "" %} {% endif %}
-	         <li class="{{highlight}}"><a href="{{url}}">{{post.title}}</a></li>
-	     {% endif %}
-	    {% endfor %}
-	    </ul>
-	   {% else %}
-	      <li class=""><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
-	   {% endif %}
-	   {% endfor %}
-	  </ul>
-	</div>
+            {% for node in data.sections %}
+            {% if node.id == thissection or node.id == null %}
+            <li class="highlight"><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
+            <ul>
+            {% for post in site.categories[thissection] reversed %}
+            {% if post.categories contains page.categories[1] %}
+            {% if post.redirect %}{% assign url = post.redirect %} {% else %} {% assign url=post.url %}{% endif %}
+            {% if post.title == page.title %} {% assign highlight = "highlight" %} {% else %} {% assign highlight = "" %} {% endif %}
+            <li class="{{highlight}}"><a href="{{url}}">{{post.title}}</a></li>
+            {% endif %}
+            {% endfor %}
+            </ul>
+            {% else %}
+            <li class=""><a href="{{site.baseurl}}/{{data.baseurl}}/index.html#{{node.id}}">{{node.title}}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
 
       <!-- DOWNLOAD -->
       {% if page.pdf %}
       <div class="cck-download-pdf">
-	<a href="/files/{{page.pdf}}"><img src="{{site.baseurl}}/files/CCK_pdf.png" alt="Download File"></a>
+        <a href="/files/{{page.pdf}}"><img src="{{site.baseurl}}/files/CCK_pdf.png" alt="Download File"></a>
       </div>
       <span class="cck-download"><a href="/files/{{page.pdf}}">Download PDF</a></span>
       {% endif %}
 
       {% if page.files %}
-        {% for file in page.files %}
-          <div class="cck-download-pdf">
-	    <a href="{{file[1]}}"><img src="{{site.baseurl}}/files/CCK_file.png" alt="Download File"></a>
-	  </div>
-	  <span class="cck-download"><a href="{{file[1]}}">Download {{file[0]}}</a></span>
-	{% endfor %}
+      {% for file in page.files %}
+      <div class="cck-download-pdf">
+        <a href="{{file[1]}}"><img src="{{site.baseurl}}/files/CCK_file.png" alt="Download File"></a>
+      </div>
+      <span class="cck-download"><a href="{{file[1]}}">Download {{file[0]}}</a></span>
+      {% endfor %}
       {% endif %}
-    <!-- END DOWNLOAD -->
+      <!-- END DOWNLOAD -->
 
       <div class="issue-button">
-	<a href="https://github.com/opentechinstitute/commotion-docs/issues/new?title={{page.url}}">Submit a Comment</a>
+        <a href="https://github.com/opentechinstitute/commotion-docs/issues/new?title={{page.url}}">Submit a Comment</a>
       </div>
 
       <div class="issue-button">
         <a href="https://github.com/opentechinstitute/commotion-docs/edit/staging/commotionwireless.net/{{page.path}}">Edit this page</a>
       </div>
-
     </div>
-    
+  </div>
 </section>
 {% include footer.html %}
-

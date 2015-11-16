@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Descarga Commotion OpenWRT - Ubiquiti
 categories:
 created: 2013-06-28
@@ -13,7 +13,7 @@ lang: es
 
 <h3>Construcciones Estables:</h3>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
 	<thead>
 		<tr>
 			<th>File</th>

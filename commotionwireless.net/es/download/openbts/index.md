@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: downloads
 title: Descarga Commotion OpenBTS
 categories:
 created: 2013-06-28
@@ -9,25 +9,12 @@ lang: es
 ---
   <h2>Commotion OpenBTS</h2>
 
-<div class="warning-label">
-<div class="warning-top">
-<h2>ADVERTENCIA</h2>
+<div class="alert alert-warning">
+<h3>¡Advertencia!</h3>
+<p>
+ ¡Esto es completamente experimental y no ha sido probado! Esto es solo para uso de desarrollo únicamente.
+ </p>
 </div>
-
-<div class="warning-bottom">
-<h2>Commotion</h2>
-
-<ul>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#anonymity">No puede esconder tu identidad</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#internet">No previene el monitoreo del tráfico de internet</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#monitoring">No provee fuerte seguridad contra el monitoreo sobre el enmallado</a></li>
-	<li><a href="http://commotionwireless.net/understanding-commotions-warning-label#jamming">Puede atorarse con interferencias de radio/datos</a></li>
-</ul>
-<a href="https://commotionwireless.net/understanding-commotions-warning-label">Para Mayor Información Da Click Aquí</a></div>
-</div>
-
-<p><strong>¡Advertencia: esto es completamente experimental y no ha sido probado!</strong> Esto es solo para uso de desarrollo únicamente.</p>
-
 <p>Commotion-OpenBTS está empaquetado como un Linux live distro personalizado que puedes correr desde un flashdrive de USB o CD.</p>
 
 <p><strong>Debes tener hardware GSM compatible para poder usarlo</strong>. Ve el archivo <a href="https://github.com/opentechinstitute/commotion-openbts/blob/master/README">LEEME</a> para más información.</p>
@@ -42,7 +29,7 @@ lang: es
 
 <h3>Construcciones Inestables:</h3>
 
-<table class="files list">
+<table class="table table-bordered table-responsive">
 	<thead>
 		<tr>
 			<th>File</th>

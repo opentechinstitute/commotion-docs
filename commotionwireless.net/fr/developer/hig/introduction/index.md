@@ -19,9 +19,9 @@ lang: fr
 
 <p>Thanks for being a part of the Commotion project. Together, we’ll build software tools that offer an outstanding user interface, are credible, easy-to-use, and flexible enough to evolve around the world but maintain a core set of functions and standards.</p>
 
-<p><img src="/files/browserscreen.png" /></p>
+<p><img src="/files/browserscreen.png" class="img-responsive" /></p>
 
-<p><img src="/files/introduction_androidintroscreens.png" /></p>
+<p><img src="/files/introduction_androidintroscreens.png" class="img-responsive" /></p>
 
 <p>Screenshots for Android 4.0 are used throughout this guide.</p>
 

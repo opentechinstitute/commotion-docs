@@ -10,7 +10,7 @@ post_author: Andy Gunn
 lang: es
 ---
 
-![Routers Intro Graphic](/files/Recommended_Hardware_Intro.png)
+<img alt="Routers Intro Graphic" src="/files/Recommended_Hardware_Intro.png" class="img-responsive">
 
 Cuando se está eligiendo el hardware apropiado para tu red, hay algunos roles diferentes que los routers pueden jugar en la red. Trabaja con [Cada Red Cuenta una Historia](/docs/cck/planning/design-your-network-every-network-tells-story/) y <strong>Tipos de Redes Inalámbricas</strong> (coming soon!).
 

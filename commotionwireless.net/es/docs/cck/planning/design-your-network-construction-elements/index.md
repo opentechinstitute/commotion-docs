@@ -11,7 +11,7 @@ changed: 2013-09-28
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__356 img__view_mode__media_original attr__format__media_original" height="315" src="/files/construction_elements_intro_0.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive"  src="/files/construction_elements_intro_0.png" typeof="foaf:Image"  /></p>
 
 <section id="introduction">
 <p>Estos elementos simples de construcción pueden ayudarte a hacer volantes y diagramas para tu red. Si estás en una computadora, puedes copiar y pegar los elementos en tu espacio de trabajo. Estos elementos también funcionan bien con tijeras y pegamento.</p>
@@ -32,7 +32,7 @@ lang: es
 <section id="buildings">
 <h2>Gráficos</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__357 img__view_mode__media_original attr__format__media_original" height="315" src="/files/construction_graphics_sample.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive"  src="/files/construction_graphics_sample.png" typeof="foaf:Image"  /></p>
 </section>
 
 <section id="extras">

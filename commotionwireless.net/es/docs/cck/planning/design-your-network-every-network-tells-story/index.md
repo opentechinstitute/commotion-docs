@@ -11,7 +11,7 @@ changed: 2014-03-04
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__355 img__view_mode__media_original attr__format__media_original" height="419" src="/files/design_your_network_intro.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" src="/files/design_your_network_intro.png" typeof="foaf:Image" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -52,7 +52,7 @@ lang: es
 
 <p>Las redes inalámbricas se construyen con los routers inalámbricos. Los routers pueden hablar, escuchar o repetir.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__252 img__view_mode__media_original attr__format__media_original" height="450" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image"   /></p>
 
 <p class="tip">Las redes inalámbricas se construyen utilizando routers inalámbricos. Conoce a los routers que vas a utilizar para este juego. Los routers pueden hablar, escuchar y repetir. Todos ellos tienen dirección y la fuerza, lo que significa que pueden transmitir y recibir en direcciones diferentes y a diferentes distancias. La fuerza de transmisión varía mucho dependiendo de las condiciones ambientales.</p>
 </section>
@@ -60,7 +60,7 @@ lang: es
 <section id="low-power-omnidirectional">
 <h2>Router omnidireccional de baja potencia (En todas direcciones)</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__254 img__view_mode__media_original attr__format__media_original" height="359" src="/files/design_your_network_entas_support002.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support002.png" typeof="foaf:Image"   /></p>
 
 <p>Puede transmitir y recibir en todas las direcciones en una distancia corta</p>
 
@@ -72,7 +72,7 @@ lang: es
 <section id="high-power-omnidirectional">
 <h2>Router de Alto Poder Omnidireccional (En todas direcciones)</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__302 img__view_mode__media_original attr__format__media_original" height="440" src="/files/design_your_network_entas_support003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support003.png" typeof="foaf:Image"   /></p>
 
 <p>Puede transmitir y recibir en todas las direcciones en una distancia media</p>
 
@@ -84,7 +84,7 @@ lang: es
 <section id="high-power-sector">
 <h2>Router de Sector de Alto Poder (Direccional)</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="604" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__303 img__view_mode__media_original attr__format__media_original" height="604" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image"   /></p>
 
 <p>Puede transmitir y recibir a través de áreas semi-enfocadas</p>
 
@@ -96,7 +96,7 @@ lang: es
 <section id="high-power-focused">
 <h2>Router de Alto Poder Enfocado (Transmisión Estrecha)</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__304 img__view_mode__media_original attr__format__media_original" height="338" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image"   /></p>
 
 <p>Puede transmitir y recibir en una dirección a través de una distancia larga</p>
 
@@ -108,7 +108,7 @@ lang: es
 <section id="wireless-connection">
 <h2>Conexión Inalámbrica</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__305 img__view_mode__media_original attr__format__media_original" height="360" src="/files/design_your_network_entas_support006.png" typeof="foaf:Image" width="360" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support006.png" typeof="foaf:Image" width="360" /></p>
 
 <p>Puede conectar los routers ya sea con cables o de forma inalámbrica.</p>
 </section>
@@ -118,31 +118,31 @@ lang: es
 
 <p>Al diseñar tu mapa, utiliza las siguientes guías para la colocación del router:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__306 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007a.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007a.png" typeof="foaf:Image"   /></p>
 
 <p>1. Cualquier router puede conectarse a cualquier otro router.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__307 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image"   /></p>
 
 <p>2. Los routers omnidireccionales pueden conectarse a muchos routers en cualquier dirección.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__308 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image"   /></p>
 
 <p>3. Los routers de alta potencia en todas direcciones puede ir más allá, pero no tan lejos como los routers de sector o focalizados.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__309 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image"   /></p>
 
 <p>4. Los routers de bajo poder en todas direcciones se pueden conectar a dispositivos cercanos.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__310 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image"   /></p>
 
 <p>5. Los routers enfocados se pueden conectar a otro router enfocado directo enfrente de él, o incluso a través de una distancia larga.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__311 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image"   /></p>
 
 <p>6. Los routers de sector se pueden conectar en múltiples dispositivos en la misma dirección general a través de distancias cortas o largas basados en dispositivos asociados.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__312 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image"   /></p>
 
 <p>7. Dos o más routers, justo al lado del otro (en el mismo edificio) se pueden conectar con un cable.</p>
 </section>
@@ -158,19 +158,19 @@ lang: es
 
 <p>Asegúrate de incluir:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__313 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support008.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support008.png" typeof="foaf:Image"   /></p>
 
 <p>"Anclas comunitarias" como iglesias, escuelas, bibliotecas y centros de recreación que sean lugares de reunión en el vecindario, y que puedan ser capaces de compartir el acceso a Internet.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__314 img__view_mode__media_large attr__format__media_large" src="/files/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support009.png" typeof="foaf:Image" /></p>
 
 <p>Casas de personas que son aliadas o figuras importantes en el vecindario, en especial los que estarían interesados en donar techo o espacio de la ventanas para el proyecto inalámbrico.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__315 img__view_mode__media_original attr__format__media_original" height="300" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image"   /></p>
 
 <p>Características principales como ríos, carreteras, parques, puentes, etc.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__316 img__view_mode__media_original attr__format__media_original" height="450" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image"   /></p>
 
 <p>Piensa en quién en el barrio necesita acceso y tiene acceso a los servicios de Internet. ¿Dónde se encuentran con respecto a lo otro??</p>
 
@@ -180,15 +180,15 @@ lang: es
 
 <p>5. En el mundo real, cada conexión es un tal vez. Mientras que dibujar estos mapas es un ejercicio de planificación colaborativo, es importante recordar algunos de los siguientes consejos:</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__317 img__view_mode__media_original attr__format__media_original" height="350" src="/files/design_your_network_entas_support014.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support014.png" typeof="foaf:Image"   /></p>
 
 <p>Dibuja una línea de puntos para señalar una conexión inalámbrica. Dibuja una línea continua para señalar una conexión por cable.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__318 img__view_mode__media_original attr__format__media_original" height="450" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image"   /></p>
 
 <p>Línea de vista: al conectar nodos en el vecindario, la línea de visión es esencial. Los edificios, árboles robustos y otras características ambientales pueden obstruir las señales inalámbricas que pueden resultar en conexiones poco fiables o no funcionales.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__319 img__view_mode__media_original attr__format__media_original" height="529" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image"   /></p>
 
 <p>Interferencia Inalámbrica: Si tienes muchas señales inalámbricas dentro de un área, pueden interferir una con la otra.</p>
 
@@ -206,9 +206,9 @@ lang: es
 
 <p>¿Conecta a la escuela, al centro de recreación, a la iglesia, para fortalecer la  organización de la red que ya existe?</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__542 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" width="444" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" /></p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__541 img__view_mode__media_large attr__format__media_large" height="480" src="/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" width="444" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/6032622200_06eab39a85_0.jpg?itok=3FMxDQQT" typeof="foaf:Image" /></p>
 
 <p>Arriba, los primeros diagramas de colaboración creados en la Conferencia Allied Media Conference en el verano de 2011.</p>
 </section>

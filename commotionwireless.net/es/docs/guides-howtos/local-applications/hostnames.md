@@ -10,7 +10,7 @@ post_author: Dan Staples
 lang: es
 ---
 
-<img style="float:right;height:150px;width:150px;margin:0 0 10px 10px" src="/files/commotion-logo-.png" />
+<img class="img-responsive" src="/files/commotion-logo-.png" />
 
 A veces, en lugar de usar un portal de aplicaciones locales, puede que quieras solo conectarte a una aplicación local usando un nombre bien conocido. Justo como escribirías el nombre de tu sitio web favorito (por ejemplo "democracynow.org") en la barra de direcciones de tu navegador para visitar ese sitio web, puedes asignar nombres fáciles-de-recordar (llamados "hostnames"**********) a servidores de aplicaciones locales en tu red mesh.
 

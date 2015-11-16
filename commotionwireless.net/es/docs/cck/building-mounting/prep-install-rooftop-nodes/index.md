@@ -11,7 +11,7 @@ changed: 2013-10-01
 post_author: critzo
 lang: es
 ---
-  <p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__338 img__view_mode__media_original attr__format__media_original" height="388" src="/files/prep_install_finish_support001.png" typeof="foaf:Image" width="510" /></p>
+  <p><img alt="" class="img-responsive" src="/files/prep_install_finish_support001.png" typeof="foaf:Image" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -50,7 +50,7 @@ lang: es
 <section id="wireless-node-preparation">
 <h2>Preparación del Nodo Inalámbrico</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__339 img__view_mode__media_original attr__format__media_original" height="256" src="/files/prep_install_finish_support002_003.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support002_003.png" typeof="foaf:Image" /></p>
 
 <p>Esta guía tiene la intención de proveer algunos pasos fáciles-de-seguir para tu instalación de equipo inalámbrico. Es especialmente útil para llevar registro de las tareas el día que planees trabajar, pero te recomendamos leerlo antes para estar lo mejor preparado.</p>
 
@@ -66,7 +66,7 @@ lang: es
 
 <p>Para encontrar las direcciones IP MESH: en la interfaz de administrador de Commotion, navega a Status&gt;OLSR, luego da clic en "Interfaces" y guarda el número que comienza con 5. Se ve como 5.x.y.z, donde x, y, y z son números.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__340 img__view_mode__media_original attr__format__media_original" height="332" src="/files/prep_install_finish_nodetag.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_nodetag.png" typeof="foaf:Image" /></p>
 
 <p class="tip">Puedes escribir el nombre del nodo en la caja con un marcador permanente un una etiqueta impresa si tienes como hacer etiquetas.</p>
 </section>
@@ -76,11 +76,12 @@ lang: es
 
 <p>Es buena idea visitar el sitio donde planeas instalar tu nuevo nodo wireless días antes o una semana antes de la propia instalación. Esto perimte que haya más tiempo para prepararse y adquirir cualquier equipo o hardware faltante.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__341 img__view_mode__media_original attr__format__media_original" height="365" src="/files/prep_install_finish_support004.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support004.png" typeof="foaf:Image" /></p>
 
-<p>1. Haz algunas evaluaciones del sitio. Usando las guías y ejemplos en  <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventaría al Vecindario</a> para evaluar los edificios y sitios para instalaciones inalámbricas. El documento incluye una serie de preguntas y cosas que buscar, y es un buen lugar donde empezar.</p>
+<p>1. Haz algunas evaluaciones del sitio. Usando las guías y ejemplos en  <a href="/docs/cck/planning/inventory-the-neighborhood/">Inventaría al Vecindario
+</a> para evaluar los edificios y sitios para instalaciones inalámbricas. El documento incluye una serie de preguntas y cosas que buscar, y es un buen lugar donde empezar.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__342 img__view_mode__media_original attr__format__media_original" height="313" src="/files/prep_install_finish_support005.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support005.png" typeof="foaf:Image" /></p>
 
 <p>2. Elige la mejor ubicación para el montaje en el techo basado en la visibilidad de otros techos. Toma en cuenta que las señales inalámbricas funcionan mejor cuando hay una linea clara de vista entre los nodos. También decide que tipo de montaje instalarás. EL módulo <a href="/docs/cck/building-mounting/learn-about-rooftop-mounts">Aprende de Montajes en los Techos</a> te puede ayudar a decidir.</p>
 
@@ -88,13 +89,13 @@ lang: es
 
 <p>4. Identifica donde se conectará el adaptador de Poder sobre Ethernet (Power over Ethernet, PoE).</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__343 img__view_mode__media_original attr__format__media_original" height="168" src="/files/prep_install_finish_support005_a.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support005_a.png" typeof="foaf:Image" /></p>
 
 <p>4a. Si el nodo esta montando en un recinto o en interiores, intenta encontrar una ubicación accesible que lo mantenga fuera de la interacción diaria.</p>
 
 <p>4b. Si el dueño del edificio o el anfitrión del nodo quiere donar ancho de banda para hacer que el nodo sea una puerta a Internet, coloca el adaptador PoE donde pueda ser conectado al router del anfitrión fácilmente.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__344 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support007.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support007.png" typeof="foaf:Image" /></p>
 
 <p>5. Adquiere el hardware de montaje apropiado.</p>
 
@@ -102,7 +103,7 @@ lang: es
 
 <p>Revisa que tengas todo el hardware necesario para el montaje, como las anclas de concreto, pernos, abrazaderas, etc.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__345 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support006.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support006.png" typeof="foaf:Image" /></p>
 
 <p>6. Verifica que la bolsa de herramientas tenga todo lo que necesitas para montar el hardware y el sitio de instalación.</p>
 </section>
@@ -110,7 +111,7 @@ lang: es
 <section id="wireless-node-installation">
 <h2>Instalación de Nodo Inalámbrico</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__346 img__view_mode__media_original attr__format__media_original" height="288" src="/files/prep_install_finish_support008.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support008.png" typeof="foaf:Image" /></p>
 
 <p>¡Día de Instalación! Ahora podrás subir al techo e instalar el nuevo equipo para tu red comunitaria – pero asegúrate de trabajar de un modo seguro y responsable. Te recomendamos ir al módulo <a href="/docs/cck/building-mounting/learn-rooftop-basics">Aprende lo básico de los techos</a> y revisar las guías de seguridad en el techo antes de comenzar tu instalación.</p>
 
@@ -126,7 +127,7 @@ lang: es
 
 <p>2. Pon el nodo inalámbrico al mástil montado. Usa abrazaderas metálicas o ataduras de plástico de uso rudo o para exteriores si es posible. Esto evitará que el nodo inalámbrico se resbale o se enrede en el mástil.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__347 img__view_mode__media_original attr__format__media_original" height="359" src="/files/prep_install_finish_support009.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support009.png" typeof="foaf:Image" /></p>
 
 <p>Si es posible, coloca las luces del indicador en el nodo hacia la calle o hacia el piso, para que sean visibles sin tener que subir al techo. Esto ayudará a la solución de problemas en el futuro.</p>
 
@@ -148,7 +149,7 @@ lang: es
 <section id="clean-up">
 <h2>Limpiar, Preparar y la Post-Instalación</h2>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__348 img__view_mode__media_original attr__format__media_original" height="428" src="/files/prep_install_finish_support010.png" typeof="foaf:Image" width="510" /></p>
+<p><img alt="" class="img-responsive" src="/files/prep_install_finish_support010.png" typeof="foaf:Image" /></p>
 
 <p>Ninguna instalación está terminada a menos que dejes el lugar viéndose mejor que cuando llegaste. ¡Nunca dejes un desastre! Asegúrate de no haber dejado ningún agujero sin sellar en el exterior del edificio por donde pueda entrar agua.</p>
 

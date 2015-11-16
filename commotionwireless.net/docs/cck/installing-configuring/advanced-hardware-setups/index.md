@@ -10,7 +10,7 @@ post_author: andygunn
 lang: en
 ---
 
-![Common Configurations graphic](/files/CCK_CommonConfigs_Intro2.png)
+<img alt="Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro2.png" class="img-responsive" />
 
 ## Introduction
 

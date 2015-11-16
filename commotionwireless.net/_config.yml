@@ -19,3 +19,9 @@ permalink: /:categories/blog/:year/:month/:day/:title
 tag_dir: /blog/tag
 # paginate: 10
 # paginate_path: "blog/page-:num"
+
+sass:
+    load_paths:
+        - assets/bower_components/bootstrap-sass/assets/stylesheets
+        - _sass
+

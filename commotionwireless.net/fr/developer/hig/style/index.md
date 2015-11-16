@@ -23,11 +23,11 @@ lang: fr
 
 <p>Since a mesh network is flexible and can change shape, so can the logo. The main difference between the digital and print version of the mid logo is that the digital version has a slight drop shadow. This helps it to stand out more on a screen. Otherwise they are exactly the same.</p>
 
-<p><img alt="" src="http://commotion-kb-062512.jackpine.theworkdept.com/sites/commotion-kb-062512.jackpine.theworkdept.com/files/HIG_53.png" /></p>
+<p><img alt="" src="http://commotion-kb-062512.jackpine.theworkdept.com/sites/commotion-kb-062512.jackpine.theworkdept.com/files/HIG_53.png" class="img-responsive" /></p>
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="/files/HIG_54.png" /></p>
+<p><img alt="" src="/files/HIG_54.png" class="img-responsive" /></p>
 
 <p><strong>Color</strong></p>
 
@@ -35,7 +35,7 @@ lang: fr
 
 <p>The secondary colors will be applied depending on the needs of the various user interfaces and the utility of the network.</p>
 
-<p><img alt="" class="media-image attr__typeof__foaf:Image img__fid__251 img__view_mode__media_large attr__format__media_large" src="/files/styles/large/public/color_0.png?itok=eUHJg4SJ" style="width: 379px; height: 480px;" typeof="foaf:Image" /></p>
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/color_0.png?itok=eUHJg4SJ" typeof="foaf:Image" /></p>
 
 <p>&nbsp;</p>
 
@@ -49,7 +49,7 @@ lang: fr
 
 <p>Body copy should also be about 1/3 of the size of the heading and in black. To make the text easier to read, allow for some extra line spacing.</p>
 
-<p><img alt="" src="/files/HIG_57.png" style="margin-bottom:10px; margin-top:10px" /></p>
+<p><img alt="" src="/files/HIG_57.png" class="img-responsive" style="margin-bottom:10px; margin-top:10px" /></p>
 
 <h2>Graphic components</h2>
 
@@ -63,17 +63,17 @@ lang: fr
 
 <p>For illustrations that are more complex than a simple node and line, we recommend using a thick black outline and adding shading and color using the outlined palette and blocks of color and dot patterns of various sizes and colors.</p>
 
-<p><img alt="" src="/files/HIG_58b.png" /></p>
+<p><img alt="" src="/files/HIG_58b.png" class="img-responsive" /></p>
 
 <p><strong>Standard Icons</strong></p>
 
 <p>We recommend using the following seven standard icons throughout Commotion to represent common processes and menus. You should use these icons whenever practical. This icon set may evolve over time as Commotion and its community grows.</p>
 
-<p><img alt="" src="/files/icons.png" /></p>
+<p><img alt="" src="/files/icons.png" class="img-responsive" /></p>
 
 <p>If a certain platform's guidlines recomend native icon use or you are unable to use custom elements, use your platform's native iconography instead. For example, the <strong>Create a network</strong> and <strong>Join a network</strong> icons could replaced with native icons if needed:</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/files/androidicon1.png" />&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/files/androidicon2.png" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/files/androidicon1.png" class="img-responsive" />&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/files/androidicon2.png" class="img-responsive" /></p>
 
 <h2>Visual language</h2>
 
@@ -88,13 +88,13 @@ lang: fr
 	<li><strong>Success and Failure Language</strong> describes the most recent successful or failed process completed by the software. For example, after creating a new network, Commotion would tell the user, “You've successfully created XYZ network! Other people can join by choosing XYZ as their network name."</li>
 </ol>
 
-<p><img alt="" src="/files/visual_language.png" style="margin-bottom:15px; margin-top:15px" /></p>
+<p><img alt="" src="/files/visual_language.png" class="img-responsive" style="margin-bottom:15px; margin-top:15px" /></p>
 
-<p><img alt="" src="/files/HIG_599Ab.png" /></p>
+<p><img alt="" src="/files/HIG_599Ab.png" class="img-responsive" /></p>
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="/files/HIG_599Bb.png" /></p>
+<p><img alt="" src="/files/HIG_599Bb.png" class="img-responsive" /></p>
 
 <p>With the exception of learning language, these messages should be clearly displayed within the application and give the user the option to close or collapse the message. The messages should not disappear based on an arbitrary timeout.</p>
 

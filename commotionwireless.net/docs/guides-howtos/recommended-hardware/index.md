@@ -10,7 +10,7 @@ post_author: Andy Gunn
 lang: en
 ---
 
-![Routers Intro Graphic](/files/Recommended_Hardware_Intro.png)
+<img src="/files/Recommended_Hardware_Intro.png" alt="Routers intro graphic" class="img-responsive">
 
 When choosing the appropriate hardware for your network, there are a few different roles the routers can play in the network. Work through [Every Network Tells a Story](/docs/cck/planning/design-your-network-every-network-tells-story/) and <strong>Types of Wireless Networks</strong> (coming soon!).
 

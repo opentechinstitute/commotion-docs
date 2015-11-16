@@ -12,7 +12,7 @@ post_author: andygunn
 lang: es
 ---
 
-<p><img src="/files/CCK-Install_on_UniFi_Router_intro_graphic.png" style="max-width:600px; "/></p>
+<p><img src="/files/CCK-Install_on_UniFi_Router_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="section-introduction">
 <h2>Introducción</h2>
@@ -44,7 +44,7 @@ lang: es
 <p>Descarga la imagen Commotion para tu hardware (ya sea UniFi AP, o UniFi AP Outdoors):<br />
 <a href="/download/routers">https://commotionwireless.net/download/routers</a></p>
 
-<p><img src="/files/styles/large/public/downloadsR1.png" style="max-width:510px;" /></p>
+<p><img src="/files/styles/large/public/downloadsR1.png" class="img-responsive"  /></p>
 
 <p class="tip">Guarda el archivo en algún lugar al que puedas acceder fácilmente. Un buen lugar para guardar el archivo es en tu Escritorio, o en tu directorio de Descargas .</p>
 </section>
@@ -52,7 +52,7 @@ lang: es
 <section id="prepare-the-hardware">
 <h2>Configura el Hardware</h2>
 
-<p><img src="/files/CCK-Install_on_UniFi_router_prepare_hardware.png" style="max-width: 510px;" /></p>
+<p><img src="/files/CCK-Install_on_UniFi_router_prepare_hardware.png" class="img-responsive"  /></p>
 
 <p><strong>¡Advertencia! ¡Es muy importante que no portes el POE etiquetado en tu computadora! Podrías dañar tu computadora ******************** Warning! It is very important that you do not port labeled POE into your computer! You could damage your computer.</strong></p>
 

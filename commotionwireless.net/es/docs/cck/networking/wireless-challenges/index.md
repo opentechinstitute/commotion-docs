@@ -11,7 +11,7 @@ changed: 2014-08-04
 post_author: critzo
 lang: es
 ---
-<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png" /></p>
+<p><img alt="Wireless Challenges graphic" src="/files/styles/large/public/CCK_Wireless_Challenges_intro_graphic.png" class="img-responsive" /></p>
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -26,10 +26,10 @@ lang: es
 <section id="materials-and-supplies-needed">
 <h3>MATERIALES + SUMINISTOS NECESARIOS</h3>
 <p><a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Presentation.pdf">Presentación de Retos Inalámbricos </a> - Impresa como un folleto o introducción para una actividad de grupo.<br />
-<a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Presentation.pdf"><img height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png" width="510" /></a></p>
+<a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Presentation.pdf"><img height="392" src="/files/styles/large/public/CCK_Wireless_Challenges_presentation_download.png"  /></a></p>
 
 <p><a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf">Tarjetas de Memoria de Problemas y Soluciones </a> - impreso en papel de 8 por 11 pulgadas.<br />
-<a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png" width="480" /></a></p>
+<a href="/files/cck/networking/3-CCK-Networking-Wireless_Challenges_Scenarios_Problems_and_Solutions.pdf"><img height="328" src="/files/styles/large/public/CCK_Wireless_Challenges_flashcard_download.png"  /></a></p>
 
 <p>(Opcional) Gráficos de router del paquete <a href="/docs/cck/planning/design-your-network-every-network-tells-story">Diseña tu Red: Cada Red Cuenta una Historia </a>.</p>
 
@@ -60,22 +60,22 @@ lang: es
 <p>Cada escenario presenta un reto o problema específico que aparece cuando se trabaja con equipo inalámbrico, están categorizadas de la siguiente forma:</p>
 
 <p><strong>Distancia</strong>¿Las señales inalámbricas pierden poder mientras más lejos tengan que viajar, no importa el tipo de antena.<br />
-<img alt="" class="media-image" height="288" src="/files/styles/large/public/CCK_Wireless_Challenges_distance.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_distance.png"  /></p>
 
 <p><strong>Línea de Visión</strong>¿Las señales inalámbricas pueden encontrarse con barreras totales, previniendo conexiones.<br />
-<img alt="" class="media-image" height="241" src="/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_line_of_sight.png"  /></p>
 
 <p><strong>Barreras</strong>¿Las señales inalámbricas pierden fuerza de señal si atraviesan objetos sólidos. <br />
-<img alt="" class="media-image" height="266" src="/files/styles/large/public/CCK_Wireless_Challenges_barriers.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_barriers.png"  /></p>
 
 <p><strong>Interferencia</strong>Los routers pueden ser muy ruidosos, volviendo imposible que puedan escucharse mutuamente.<br />
-<img alt="" class="media-image" height="237" src="/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_wireless_interference.png"  /></p>
 
 <p><strong>Clima</strong>�Las condiciones climatológicas pueden interrumpir las señales inalámbricas.<br />
-<img alt="" class="media-image" height="471" src="/files/styles/large/public/CCK_Wireless_Challenges_weather.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_weather.png"  /></p>
 
 <p><strong>Problemas de corriente eléctrica </strong>�Los routers necesitan una corriente eléctrica estable para funcionar correctamente.<br />
-<img alt="" class="media-image" height="330" src="/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_power_issues.png"  /></p>
 </section>
 
 <section id="going-through-the-wireless-challenges">
@@ -101,18 +101,18 @@ lang: es
 <p>Cuando revises los Retos Inalámbricos, hay algunas reglas sobre cómo leer las conexiones entre nodos y cómo elaborar tus propias conexiones.</p>
 
 <p><strong>Calidad del Vínculo Inalámbrico </strong>�Las líneas continuas y discontinuas muestras la fuerza del vínculo entre dos nodos. Una línea continua verde representa muy buena calidad, una línea discontinua amarilla representa una calidad buena, y una línea punteada rosa o roja significa que el vínculo está roto o es de mala calidad.<br />
-<img alt="" class="media-image" height="249" src="/files/CCK_Wireless_Challenges_signal_quality_rules.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/CCK_Wireless_Challenges_signal_quality_rules.png"  /></p>
 
 <p><strong>Fuerza de la Señal Inalámbrica </strong>�Los routers tienen diferentes poderes de envío y recepción de señales.</p>
 
-<p><img alt="" class="media-image" height="295" src="/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2.png" width="480" /><br />
+<p><img alt="" class="img-responsive" src="/files/styles/large/public/CCK_Wireless_Challenges_power_levels_rules_2.png"  /><br />
 &nbsp;</p>
 
 <p><strong>Niveles apropiados de potencia </strong>�Debido a las diferentes potencias de envío y recepción, escoge los routers cuidadosamente. Es importante que uses el router con la potencia más baja para crear un buen vínculo. Usar routers que tienen mucha potencia de envío pueden causar interferencia. <br />
-<img alt="" class="media-image" height="468" src="/files/CCK_Wireless_Challenges_power_levels_rules.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/CCK_Wireless_Challenges_power_levels_rules.png"  /></p>
 
 <p><strong>Vínculos de larga distancia </strong>�Algunos vínculos necesitan routers con mayor potencia para poder alcanzar mayores distancias. <br />
-<img alt="" class="media-image" height="242" src="/files/CCK_Wireless_Challenges_distance_rules.png" width="510" /></p>
+<img alt="" class="img-responsive" src="/files/CCK_Wireless_Challenges_distance_rules.png"  /></p>
 </section>
 
 <section id="section-definitions">

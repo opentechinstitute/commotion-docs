@@ -12,7 +12,7 @@ post_author: Andy Gunn
 lang: en
 ---
 <section id="introduction">
-<p><img alt="Learn Wireless Basics graphic" src="/files/CCK_WirelessBasics_intro_graphic.png" style="max-width:600px;" /></p>
+<p><img alt="Learn Wireless Basics graphic" src="/files/CCK_WirelessBasics_intro_graphic.png" class="img-responsive" /></p>
 
 <h2>Introduction</h2>
 
@@ -40,7 +40,7 @@ Reading and working through <a href="/docs/cck/learn-networking-basics/">Learn N
 <h2>What is a wireless signal?</h2>
 
 <p>
-<img alt="Signals" src="/files/CCK_WirelessBasics_Signals.png" style="max-width:510px;" />
+<img alt="Signals" src="/files/CCK_WirelessBasics_Signals.png" class="img-responsive" />
 </p>
 <p>
 Wireless signals are important because they can transfer information -- audio, video, our voices, data -- without the use of wires, and that makes them very useful.
@@ -384,15 +384,15 @@ Wireless transmitter power is only one half of the connection. The Wi-Fi receive
 </p>
 <p>
 Below we have an example of two routers in relatively close range. They have a good connection because the signal strength between them is strong. <br/>
-<img alt="Wi-Fi routers - close" src="/files/CCK_WirelessBasics_RX_distance_close.png" style="max-width:400px;" />
+<img alt="Wi-Fi routers - close" src="/files/CCK_WirelessBasics_RX_distance_close.png" class="img-responsive" />
 </p>
 <p>
 As a receiver moves away from a wireless router, the signal it hears will get “quieter” -- in other words, the power it receives will go down. Below, we can see the same routers, but with more distance between them. In this case, the routers have a weaker connection because the signal is near the limit of what the routers can hear. The speed between the routers will be less.<br/>
-<img alt="Wi-Fi routers - mid-range" src="/files/CCK_WirelessBasics_RX_distance_mid.png" style="max-width:400px;" />
+<img alt="Wi-Fi routers - mid-range" src="/files/CCK_WirelessBasics_RX_distance_mid.png" class="img-responsive" />
 </p>
 <p>
 If the router moves too far away from the transmitter, it won’t be able to receive any signal, either due to the signal being too weak or other signals interfering, and the routers will disconnect. Below we can see the two routers have disconnected, as there isn’t enough signal.<br/>
-<img alt="Wi-Fi routers - far away" src="/files/CCK_WirelessBasics_RX_distance_far.png" style="max-width:510px;" />
+<img alt="Wi-Fi routers - far away" src="/files/CCK_WirelessBasics_RX_distance_far.png" class="img-responsive" />
 </p>
 <p>
 The optimal signal range for outdoor wireless equipment is between -40dBm and -60dBm. This will ensure the connection can maintain the highest bandwidth possible.
@@ -422,7 +422,7 @@ Using omnidirectional antennas has the benefit of creating connections in any di
 The all-direction strength of these antennas comes with the drawback of transmitting a weaker signal. Since the signal is going in all directions, it spreads out and gets weaker with distance very fast. If nodes or clients are far away, they may not connect well.
 </p>
 <p>
-<img alt="Omni antennas can't reach as far" src="/files/CCK_WirelessBasics_Omni_far.png" style="max-width:450px;" />
+<img alt="Omni antennas can't reach as far" src="/files/CCK_WirelessBasics_Omni_far.png" class="img-responsive" />
 </p>
 <p>
 Also, if there are only nodes or clients in one direction of the router, then the signals going in the opposite direction are wasted:
@@ -459,25 +459,25 @@ The next type of antenna is known as directional--it sends out a signal in a mor
 Using directional antennas has the benefit of increasing the distance a signal will travel in one direction, while reducing it in all other directions. Since the signal is all going one way, the power that would be sent out in all directions with omnidirectional nodes is now focused, increasing the power in that direction.
 </p>
 <p>
-<img alt="Directional antennas send signal farther" src="/files/CCK_WirelessBasics_Directional_distance.png" style="max-width:350px;" />
+<img alt="Directional antennas send signal farther" src="/files/CCK_WirelessBasics_Directional_distance.png" class="img-responsive" />
 </p>
 <p>
 It can also decrease the interference received at the node. There are fewer signals coming in to the antenna, since the node is only listening to signals from the direction it is pointing. It won’t hear signals behind it or to the sides as well or at all. This reduces the signals it needs to sort out, and allows it to focus on other signals more, increasing the quality of those connections.
 </p>
 <p>
-<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_rejection.png" style="max-width:350px;" />
+<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_rejection.png" class="img-responsive" />
 </p>
 <p>
 However, directional antennas also have the drawback of requiring more planning to create links in your neighborhood. Since you are defining and limiting the areas where wireless signals go, you need to think about how those signals cover your neighborhood. If there are areas that are then left out, how will those areas be included in the network?
 </p>
 <p>
-<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_planning.png" style="max-width:400px;" />
+<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_planning.png" class="img-responsive" />
 </p>
 <p>
 Also, the node has a very powerful signal in a single direction. If omnidirectional units, or lower power units such as laptops, are connecting to the node, they may not connect properly. The laptop will hear the node very well, but the directional node may not hear the laptop. This will create the situation where it looks like there is a strong signal, but you cannot connect.
 </p>
 <p>
-<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_asymmetry.png" style="max-width:450px;" />
+<img alt="Directional antennas can't receive what they can't see" src="/files/CCK_WirelessBasics_Directional_asymmetry.png" class="img-responsive" />
 </p>
 <p>
 <strong>Quick Activity:</strong> What are the best uses for the different kinds of antennas?

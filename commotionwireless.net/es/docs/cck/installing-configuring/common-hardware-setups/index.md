@@ -12,7 +12,7 @@ post_author: andygunn
 lang: es
 ---
 
-<img alt="Commotion Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro.png" style="max-width:600px;" />
+<img alt="Commotion Common Configurations graphic" src="/files/CCK_CommonConfigs_Intro.png" class="img-responsive" />
 
 <section id="introduction">
 <h2>Introducción</h2>
@@ -38,7 +38,7 @@ lang: es
 
 <p>La configuración más común para los nodos inalámbricos está hecho de los nodos mismos, los links mesh entre los nodos, y cualquier usuario conectado a la red. Involucra dos o más nodos inalámbricos, instalados con el software Commotion. Los nodos en el ejemplo abajo son un surtido de nodos omnidireccionales, pero el tipo específico no importa siempre y cuando estén dentro del rango inalámbrico de uno y otro.</p>
 
-<p><img src="/files/CCK_CommonConfigs_01_Nodes_meshed_wirelessly_building.png" style="max-width:800px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_01_Nodes_meshed_wirelessly_building.png" class="img-responsive" /></p>
 
 <p>El diagrama de abajo:</p>
 <ul class="rteindent1">
@@ -63,7 +63,7 @@ lang: es
 <h2>Uno o más nodos conectados a una puerta de acceso</h2>
 
 <p>La mayoría de las redes está diseñada para proveer servicios, ¡con una conexión al Internet global siendo el más popular! Commotion está diseñado para compartir servicios a través de toda la red mesh por defecto, e intentará detectar una conexión con puerta de acceso al Internet cuando un nodo arranque. Si el nodo inalámbrico recibe una dirección IP via DHCP en el puerto conectado de Ethernet, se  configurará para si mismo una puerta de acceso.</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_building.png" style="max-width:800px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_building.png" class="img-responsive" /></p>
 
 <p>El diagrama abajo:</p>
 <ul class="rteindent1">
@@ -84,7 +84,7 @@ lang: es
 </ul>
 
 <p>El cable del del puerto del módem LAN debería correr al puerto WAN en el nodo Commotion. En la mayoría de los routers, habrá un solo puerto en el suministro de energía PoE de la unidad. En routers con múltiples puertos, el puerto WAN será típicamente etiquetado, y es a menudo de un color diferente – usualmente azul. Estos ejemplos se muestran abajo:</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_ports.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_ports.png" class="img-responsive" /></p>
 
 <p><strong>Pasos para Configurar:</strong></p>
 <p>Los nodos Commotion deberían enmallarse inalámbricamente después de ejecutar el Asistente de Configuración en el primer arranque, siempre y cuando los nodos estén configurados con el mismo</p>
@@ -97,7 +97,7 @@ lang: es
 <p>El primer nodo Commotion conectado al módem debería recibir una dirección IP y configurarse a sí mismo como una puerta de acceso. Anunciará esto en la red por defecto, siempre y cuando el “Anuncia tu puerta de acceso al mesh” esté checado en el menú de <strong>Redes de Interfaz Adicionales</strong>. En este punto, el usuario conectándose con la laptop en el nodo mesh puede acceder a Internet.</p>
 
 <p>Después de correr el Asistente de Configuración, puedes configurar el nodo a un nodo de “puerta de acceso únicamente”:</p>
-<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_screenshot.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_02_Nodes_with_gateway_screenshot.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
     <li>En el panel de administración, navega a el menú de
@@ -112,7 +112,7 @@ lang: es
 <h2>Nodo conectado a una servicio local de aplicaciones</h2>
 
 <p>Tienes un servidor web hospedando un blog comunitario en tu computadora, y quieres compartirlo con la red del vecindario. Conecta la computadora al nodo mesh usando el puerto de Ethernet cableado. La laptop recibirá una dirección IP en la red, y puedes usar el portal de aplicaciones Commotion vía la página splash en todos los nodos.</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server.png" class="img-responsive" /></p>
 
 <p>En el diagrama abajo:</p>
 <ul>
@@ -123,7 +123,7 @@ lang: es
 </ul>
 
 <p>El cable correrá de los puertos LAN de los nodos Commotion. En la mayoría de los routers exteriores, habrá un solo puerto en el suministro de energía POE. En routers con múltiples puertos, los puertos LAN serán típicamente etiquetados, y están en diferentes colores – usualmente amarillo. Estos ejemplos se muestran abajo:</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_ports.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_ports.png" class="img-responsive" /></p>
 
 <p><strong>Pasos para configurar:</strong></p>
 <p>Los nodos Commotion deberían enmallarse inalámbricamente después de ejecutar el Asistente de Configuración en el primer arranque, siempre y cuando los nodos estén configurados con el mismo:</p>
@@ -135,7 +135,7 @@ Las contraseñas deben coincidir através de la red. Puedes también inhabilitar
 </ul>
 
 <p>El nodo Commotion debería proveer una dirección IP a la computadora conectada. Para asegurarte que esto sea siempre el caso, puedes configurar el nodo al modo “solo servidor DHCP”:</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" class="img-responsive" /></p>
 
 <ol class="rteindent1">
     <li>En el panel de administración, navega al menú de <strong>Configuración Básica -> Configuraciones de Redes -> Interfaces de Redes Adicionales</strong>.</li>
@@ -149,7 +149,7 @@ In the “Gateway Configuration” pull-down menu, select “This device should 
 <h2>Nodo conectado a un AP o un router externo</h2>
 
 <p>Si no hay conexión a Internet dentro del edificio, puedes conectarte a la red mesh del techo para proveer acceso. Conecta un Punto de Acceso interno o router con un AP al puerto Ethernet conectado del nodo Commotion en el techo. El nodo proveerá a cualquier usuario conectándose al Punto de Acceso con dispositivos inalámbricos como teléfonos inteligentes, y laptops con direcciones IP en la red. Estos routers y Puntos de Acceso que no son de Commotion pueden agregar cobertura inalámbrica a las áreas que no están cubiertas por los nodos mesh exteriores. Al conectar estos Puntos de Acceso, los usuarios pueden acceder a los servicios y puertas de acceso que están en la red mesh. Ya que Commotion no es compatible con todos los routers, este método te permite usar los routers y Puntos de Acceso que podrías ya tener.</p>
-<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP.png" class="img-responsive" /></p>
 
 <p>En el diagrama abajo:</p>
 <ul>
@@ -160,7 +160,7 @@ In the “Gateway Configuration” pull-down menu, select “This device should 
 </ul>
 
 <p>EL diagrama de abajo demuestra como se vería esto con el equipo instalado en el edificio:</p>
-<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP_building.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_04_Nodes_with_AP_building.png" class="img-responsive" /></p>
 
 <p><strong>Pasos para configurar:</strong></p>
 <p>Los nodos Commotion deberían enmallarse inalámbricamente después de ejecutar el Asistente de Configuración en el primer arranque, siempre y cuando los nodos estén configurados con el mismo:</p>
@@ -171,7 +171,7 @@ In the “Gateway Configuration” pull-down menu, select “This device should 
 </ul>
 
 <p>Asegúrate que el puerto LAN del nodo Commotion esté conectado al puerto “WAN” del Punto de Acceso o router. El puerto WAN es el puerto de conexión “de recepción”, a donde conectas un módem para el acceso a Internet. El nodo Commotion debería proveer una dirección IP al Punto de Acceso y cualquier otro usuario para conectarse. Para asegurarse que esto siempre sea el caso, después de ejecutar el Asistente de Configuración,  puedes configurar el nodo al modo “solo servidor DHCP”:</p>
-<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" style="max-width:600px;" /></p>
+<p><img src="/files/CCK_CommonConfigs_03_Nodes_with_server_screenshot.png" class="img-responsive" /></p>
 <ol class="rteindent1">
     <li>En el panel de Administración, navega al menú de <strong>Configuración Básica-> Configuraciones de Red -> Interfaces de Redes Adicionales</strong>.</li>
     <li>En el menú que se arrastra de la “Configuración de Puerta de Acceso”, selecciona “Este dispositivo debería SIEMPRE proveer DHCP leases a los clientes”.*********************************
