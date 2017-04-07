@@ -25,7 +25,13 @@
                 <div class="commotion-purple">&nbsp;</div>
             </div>
             <!-- Main navbar -->
-            {% include menu-navbar-main.html %}
+            {% if page.lang == 'en' %}
+                {% include menu-navbar-main_en.html %} 
+            {% elsif page.lang == 'es' %}
+                {% include menu-navbar-main_es.html %}
+            {% elsif page.lang == 'fr' %}
+                {% include menu-navbar-main_fr.html %}
+            {% endif %}
         </nav>
 
         <div class="container">
