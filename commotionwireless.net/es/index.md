@@ -25,12 +25,12 @@ grid:
    url: /docs
    image: /icons/workshop-agenda.svg
  - organizers:
-   title: For Organizers
+   title: Para Organizadores
    text:
    url: /docs/cck
    image: /icons/facilitation.svg
  - developers:
-   title: For Developers
+   title: Para Desarrolladores
    text:
    url: /developer/resources
    image: /icons/Developer.svg
