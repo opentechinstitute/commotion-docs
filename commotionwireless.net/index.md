@@ -44,9 +44,9 @@ grid:
 <div class="grid home-width">
   <div class="grid-row">
     {% for cell in page.grid %}
-    <div class="grid-cell">
-      <a href="{{site.baseurl}}{{cell.url}}" class="simple"><img src="{{site.baseurl}}{{cell.image}}" class="grid-icon"></a>
-      <h2 class="h4"><a href="{{site.baseurl}}{{cell.url}}" class="simple">{{cell.title}}</a></h2>
+    <div class="grid-cell" style="cursor: pointer;" onclick="window.location='{{site.baseurl}}{% if page.lang != "en" %}/{page.lang}{{cell.url}}{% else %}{{cell.url}}{% endif %}';">
+      <img src="{{site.baseurl}}{{cell.image}}" class="grid-icon">
+      <h2 class="h4">{{cell.title}}</h2>
       <h3 class="h5 small">{{cell.text}}</h3>
     </div>
     {% if forloop.last == false %}
