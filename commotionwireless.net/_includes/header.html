@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Community Technology Field Guide: (Re)Building Technology">
+    <meta name="description" content="Commotion is a free, open-source communication tool that uses wireless devices to create decentralized mesh networks. Commotion provides a way for you to share your Internet connection with the people around you, but it is not a replacement for your Internet connection.">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/main.css">
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -25,7 +25,13 @@
                 <div class="commotion-purple">&nbsp;</div>
             </div>
             <!-- Main navbar -->
-            {% include menu-navbar-main.html %}
+            {% if page.lang == 'en' %}
+                {% include en/menu-navbar-main_en.html %} 
+            {% elsif page.lang == 'es' %}
+                {% include es/menu-navbar-main_es.html %}
+            {% elsif page.lang == 'fr' %}
+                {% include fr/menu-navbar-main_fr.html %}
+            {% endif %}
         </nav>
 
         <div class="container">

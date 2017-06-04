@@ -1,5 +1,5 @@
 ---
-layout: doxygen
+layout: default
 title: API Reference - commotiond
 site_section: developers
 categories: 

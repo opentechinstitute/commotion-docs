@@ -1,0 +1,15 @@
+<div id="subsection-menu">
+    <h3 class="heading"><a href="/{% if page.lang != 'en' %}{{ page.lang }}/{% endif %}docs" class="simple">Documentación</a></h3>
+    <ul class="nav nav-stacked">
+        <li {% if page.url contains '/es/es/docs/get-started' %} class="active" {% endif %}><a href="/es/docs/get-started">Empezar</a></li>
+        <li {% if page.url contains '/es/docs/get-involved' %} class="active" {% endif %}><a href="/es/docs/get-involved">Involucrarse</a></li>
+        <li {% if page.url contains '/es/docs/supported-devices' %} class="active" {% endif %}><a href="/es/docs/supported-devices">Dispositivos soportados</a></li>
+        <li {% if page.url contains '/es/docs/guides-howtos' %} class="active" {% endif %}><a href="/es/docs/guides-howtos">Guías y procedimientos</a></li>
+        <li {% if page.url contains '/es/docs/cck' %} class="active" {% endif %}><a href="/es/docs/cck">Kit de Construcción de Commoción</a>
+        {% if page.sub_section contains 'cck' %}
+        {% include es/docs_cck_mainmenu_es.html %}
+        {% endif %}
+        </li>
+        <li {% if page.url contains '/es/docs/localization' %} class="active" {% endif %}><a href="/es/docs/localization">Localización de Commotion</a></li>
+    </ul>
+</div>

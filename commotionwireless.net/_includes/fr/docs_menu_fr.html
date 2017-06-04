@@ -1,0 +1,15 @@
+<div id="subsection-menu">
+    <h3 class="heading">Documentation<a href="/fr/docs" class="simple"></a></h3>
+    <ul class="nav nav-stacked">
+        <li {% if page.url contains '/fr/docs/get-started' %} class="active" {% endif %}><a href="/fr/docs/get-started">Commencer</a></li>
+        <li {% if page.url contains '/fr/docs/get-involved' %} class="active" {% endif %}><a href="/fr/docs/get-involved">Impliquez-vous</a></li>
+        <li {% if page.url contains '/fr/docs/supported-devices' %} class="active" {% endif %}><a href="/fr/docs/supported-devices">Périphériques pris en charge</a></li>
+        <li {% if page.url contains '/fr/docs/guides-howtos' %} class="active" {% endif %}><a href="/fr/docs/guides-howtos">Guides et astuces</a></li>
+        <li {% if page.url contains '/fr/docs/cck' %} class="active" {% endif %}><a href="/fr/docs/cck">Commotion Construction Kit</a>
+        {% if page.sub_section contains 'cck' %}
+        {% include fr/docs_cck_mainmenu_fr.html %}
+        {% endif %}
+        </li>
+        <li {% if page.url contains '/fr/docs/localization' %} class="active" {% endif %}><a href="/fr/docs/localization">Traduction de Commotion</a></li>
+    </ul>
+</div>

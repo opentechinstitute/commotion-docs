@@ -1,0 +1,79 @@
+<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{site.baseurl}}/{{page.lang}}/">{{site.title}}</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Sur</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about">À propos de Commotion</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about/contributors">Commotion Contributeurs</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about/guiding-principles">Des principes directeurs</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about/where-its-used">Où il est utilisé</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about/press">Presse</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about/license-privacy">Licence &amp; confidentialité</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/about/funding">Financement</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/jobs">Emplois</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/contact">Contact</a></li>
+                </ul>
+            </li>
+            <li><a href="{{site.baseurl}}/{{page.lang}}/blog">Blog</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs">Documentation</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/get-started">Commencer</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/get-involved">Être impliqué</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/supported-devices">Périphériques compatibles</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/guides-howtos">Guides &amp; Mode d'emploi</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck">Kit de construction de Commotion</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/localization">Localisation de Commotion</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Télécharger</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/download">Télécharger</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/download/routers">Routeurs</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/download/android">Téléphones</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/download/computers">Des ordinateurs</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/download/verify-signatures">Vérification des téléchargements</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Pour les organisateurs</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck">Introduction</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck/planning">Planification</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck/installing-configuring">Installation + Configuration</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck/building-mounting">Bâtiment + montage</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck/networking">Réseau sans fil + Réseau</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/docs/cck/local-applications">Applications locales</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Pour les développeurs</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/developer/resources">Pour les développeurs</a></li>
+                    <li><a href="https://github.com/opentechinstitute">Code source</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/developer/api">Référence de l'API</a></li>
+                    <li><a href="https://wiki.commotionwireless.net">Wiki</a></li>
+                    <li><a href="https://github.com/issues?q=is:issue+user:opentechinstitute+is:open">Suivi du problème</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/developer/hig/introduction">Guide de l'interface humaine</a></li>
+                    <li><a href="{{site.baseurl}}/{{page.lang}}/jobs">Demandes de propositions</a></li>
+                </ul>
+            </li>
+        </ul>
+        {% include language-switcher-navbar.html %}
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->

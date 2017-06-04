@@ -1,0 +1,27 @@
+<ul class="submenu nav">
+  <li {% if page.url contains '/es/docs/cck/planning' %} class="active" {% endif %}><a href="/es/docs/cck/planning">Planificación</a>
+{% if page.sub_section contains 'cck-planning' %}
+{% include es/docs_cck_planning_menu_es.html %}
+{% endif %}
+  </li>
+  <li {% if page.url contains '/es/docs/cck/installing-configuring' %} class="active" {% endif %}><a href="/es/docs/cck/installing-configuring">Instalando + Configurando</a>
+{% if page.sub_section contains 'cck-installing' %}
+{% include es/docs_cck_installing_menu_es.html %}
+{% endif %}
+  </li>
+  <li {% if page.url contains '/es/docs/cck/building-mounting' %} class="active" {% endif %}><a href="/es/docs/cck/building-mounting">Construcción + Montaje</a>
+{% if page.sub_section contains 'cck-building' %}
+{% include es/docs_cck_building_menu_es.html %}
+{% endif %}
+  </li>
+  <li {% if page.url contains '/es/docs/cck/networking' %} class="active" {% endif %}><a href="/es/docs/cck/networking">Redes inalámbricas</a>
+{% if page.sub_section contains 'cck-networking' %}
+{% include es/docs_cck_networking_menu_es.html %}
+{% endif %}
+</li>
+  <li {% if page.url contains '/es/docs/cck/local-applications' %} class="active" {% endif %}><a href="/es/docs/cck/local-applications">Aplicaciones locales</a>
+{% if page.sub_section contains 'cck-localapps' %}
+{% include es/docs_cck_localapps_menu_es.html %}
+{% endif %}
+</li>
+</ul>

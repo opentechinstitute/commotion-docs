@@ -1,5 +1,5 @@
 ---
-layout: doxygen
+layout: default
 title: API Reference - commotion-client
 site_section: developers
 categories: 
@@ -8,7 +8,7 @@ changed: 2014-06-06 13:22:04.584366
 post_author: Commotion
 lang: en
 ---
-##Commotion Client (UNSTABLE)
+## Commotion Client (UNSTABLE)
 
 The Commotion Wireless desktop/laptop client.
 
@@ -16,7 +16,7 @@ To allow desktop clients to create, connect to, and configure Commotion wireless
 
 This repository is in active development. **IT DOES NOT WORK!** Please look at the roadmap below to see where the project is currently at.  
 
-###FUTURE Features:
+### FUTURE Features:
 
   * A graphical user interface with:
 	* A "setup wizard" for quickly creating/connecting to a Commotion mesh.
@@ -33,16 +33,16 @@ This repository is in active development. **IT DOES NOT WORK!** Please look at t
   * Full string translation & internationalization support
   * Built in accessability support
   
-###Requirements: ( To run )
+### Requirements: ( To run )
 
   * Python 3 or higher
 
-###Requirements: ( To build from source )
+### Requirements: ( To build from source )
 
   * Python 3.3 or higher
   * cx_freeze (See: build/README.md for instructions)
 		
-###Current Roadmap:
+### Current Roadmap:
 
 #### Version 1.0
 

@@ -1,22 +1,22 @@
 <div id="subsection-menu">
 <h3 class="heading"><a href="/developer/resources" class="simple">For Developers</a></h3>
-<ul>
+<ul class="nav nav-stacked">
 <li {% if page.url contains '/developer/resources' %} class="active" {% endif %}><a href="/developer/resources/">Developer Resources</a>
 {% if page.url contains '/developer/resources' %}
-{% include developers_resources_menu.html %}
+{% include en/developers_resources_menu_en.html %}
 {% endif %}
 </li>
-<li><a href="https://github.com/opentechinstitute">Source Code</a></li>
+<li><a href="https://github.com/search?q=org%3Aopentechinstitute+commotion">Source Code</a></li>
 <li><a {% if page.url contains '/developer/api' %} class="active" {% endif %} href="/developer/api/">API Reference</a>
 {% if page.url contains '/developer/api' %}
-{% include developers_api_menu.html %}
+{% include en/developers_api_menu_en.html %}
 {% endif %}
 </li>
 <li><a href="https://wiki.commotionwireless.net/">Wiki</a></li>
 <li><a href="https://github.com/search?q=opentechinstitute&state=open&type=Issues&utf8=%E2%9C%93">Issue tracker</a></li>
 <li {% if page.url contains '/developer/hig' %} class="active" {% endif %} ><a href="/developer/hig/introduction">Human Interface Guidelines</a>
 {% if page.sub_section contains 'hig' %}
-{% include developers_hig_menu.html %}
+{% include en/developers_hig_menu_en.html %}
 {% endif %}
 <li><a href="/jobs">Requests for Proposals</a></li>
 </li>

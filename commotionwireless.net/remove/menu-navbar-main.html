@@ -1,0 +1,79 @@
+<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{site.baseurl}}/">{{site.title}}</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/about">About Commotion</a></li>
+                    <li><a href="{{site.baseurl}}/about/contributors">Commotion Contributors</a></li>
+                    <li><a href="{{site.baseurl}}/about/guiding-principles">Guiding Principles</a></li>
+                    <li><a href="{{site.baseurl}}/about/where-its-used">Where It's Used</a></li>
+                    <li><a href="{{site.baseurl}}/about/press">Press</a></li>
+                    <li><a href="{{site.baseurl}}/about/license-privacy">License &amp; Privacy</a></li>
+                    <li><a href="{{site.baseurl}}/about/funding">Funding</a></li>
+                    <li><a href="{{site.baseurl}}/jobs">Jobs</a></li>
+                    <li><a href="{{site.baseurl}}/contact">Contact</a></li>
+                </ul>
+            </li>
+            <li><a href="{{site.baseurl}}/blog">Blog</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/docs">Documentation</a></li>
+                    <li><a href="{{site.baseurl}}/docs/get-started">Get Started</a></li>
+                    <li><a href="{{site.baseurl}}/docs/get-involved">Get Involved</a></li>
+                    <li><a href="{{site.baseurl}}/docs/supported-devices">Supported Devices</a></li>
+                    <li><a href="{{site.baseurl}}/docs/guides-howtos">Guides &amp; How-Tos</a></li>
+                    <li><a href="{{site.baseurl}}/docs/cck">Commotion Construction Kit</a></li>
+                    <li><a href="{{site.baseurl}}/docs/localization">Commotion Localization</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Download</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/download">Download</a></li>
+                    <li><a href="{{site.baseurl}}/download/routers">Routers</a></li>
+                    <li><a href="{{site.baseurl}}/download/android">Phones</a></li>
+                    <li><a href="{{site.baseurl}}/download/computers">Computers</a></li>
+                    <li><a href="{{site.baseurl}}/download/verify-signatures">Verifying Downloads</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> For Organizers</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/docs/cck">Introduction</a></li>
+                    <li><a href="{{site.baseurl}}/docs/cck/planning">Planning</a></li>
+                    <li><a href="{{site.baseurl}}/docs/cck/installing-configuring">Installing + Configuring</a></li>
+                    <li><a href="{{site.baseurl}}/docs/cck/building-mounting">Building + Mounting</a></li>
+                    <li><a href="{{site.baseurl}}/docs/cck/networking">Wireless + Networking</a></li>
+                    <li><a href="{{site.baseurl}}/docs/cck/local-applications">Local Applications</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> For Developers</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/developer/resources">Developer Resources</a></li>
+                    <li><a href="https://github.com/search?q=org%3Aopentechinstitute+commotion">Source Code</a></li>
+                    <li><a href="{{site.baseurl}}/developer/api">API Reference</a></li>
+                    <li><a href="https://wiki.commotionwireless.net">Wiki</a></li>
+                    <li><a href="https://github.com/issues?q=is:issue+user:opentechinstitute+is:open">Issue Tracker</a></li>
+                    <li><a href="{{site.baseurl}}/developer/hig/introduction">Human Interface Guide</a></li>
+                    <li><a href="{{site.baseurl}}/jobs">Requests for Proposals</a></li>
+                </ul>
+            </li>
+        </ul>
+        {% include language-switcher-navbar.html %}
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
