@@ -11,5 +11,5 @@ post_author: critzo
 lang: fr
 ---
 <div class="cck-section-page">
-{% include docs_cck_planning_menu.html %} 
+{% include fr/docs_cck_planning_menu_fr.html %} 
 </div>

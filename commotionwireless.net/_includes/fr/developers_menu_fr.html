@@ -1,0 +1,24 @@
+<div id="subsection-menu">
+<h3 class="heading"><a href="/fr/developer/resources" class="simple">Pour les développeurs</a></h3>
+<ul class="nav nav-stacked">
+<li {% if page.url contains '/fr/developer/resources' %} class="active" {% endif %}><a href="/fr/developer/resources/">Ressources pour les développeurs</a>
+{% if page.url contains '/fr/developer/resources' %}
+{% include fr/developers_resources_menu_fr.html %}
+{% endif %}
+</li>
+<li><a href="https://github.com/search?q=org%3Aopentechinstitute+commotion">Code source</a></li>
+<li><a {% if page.url contains '/fr/developer/api' %} class="active" {% endif %} href="/fr/developer/api/">Référence de l'API</a>
+{% if page.url contains '/fr/developer/api' %}
+{% include fr/developers_api_menu_fr.html %}
+{% endif %}
+</li>
+<li><a href="https://wiki.commotionwireless.net/">Wiki</a></li>
+<li><a href="https://github.com/search?q=org%3Aopentechinstitute+commotion+&type=Issues">Issue tracker</a></li>
+<li {% if page.url contains '/fr/developer/hig' %} class="active" {% endif %} ><a href="/fr/developer/hig/introduction">Lignes directrices sur l'interface humaine</a>
+{% if page.sub_section contains 'hig' %}
+{% include fr/developers_hig_menu_fr.html %}
+{% endif %}
+<li><a href="/jobs">Demandes de propositions</a></li>
+</li>
+</ul>
+</div>
