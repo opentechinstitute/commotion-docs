@@ -17,18 +17,18 @@ lang: fr
 <h2>Introduction</h2>
 <p>Quand vous planifiez un réseau sans fil, vous devez penser aux détails d'ingénierie (comment créer des lignes-de-vue pour que les ondes hertziennes voyagent) et en même temps à la dynamique sociale (comment faire travailler ensemble des voisins).</p>
 
-<p>Dans la construction de réseaux, il est aussi important de former la technologie afin qu'elle s'adapte aux relations humaines plutôt que de devoir adapter nos relations à la technologie. Cela signifie de faire en sorte que les liens sans fil entre les routeurs suivent les relations sociales existantes, ou en formant de nouvelles relations sociales dans le processus de construire le réseau.</p>
+<p>Dans la construction de réseaux, il est aussi important de penser la technologie afin qu'elle s'adapte aux relations humaines plutôt que de devoir adapter nos relations à la technologie. Cela signifie faire en sorte que les liens sans fil entre les routeurs suivent les relations sociales existantes. De nouvelles relations sociales peuvent également naître par le processus de construction du réseau.</p>
 
-<p>Ce jeu vous aidera à utiliser les histoires déjà existantes dans votre voisinage, ville, ou ville pour concevoir un réseau sans fil qui raconte une histoire des gens qui vivent et travaillent là. Il vous aidera aussi à devenir familier avec des types différents de routeurs que vous pouvez utiliser pour construire votre réseau.</p>
+<p>Ce jeu vous aidera à utiliser les histoires déjà existantes dans votre voisinage, village, ou ville pour concevoir un réseau sans fil qui raconte une histoire des gens qui y vivent et y travaillent. Il vous aidera aussi à devenir familier avec des types différents de routeurs que vous pouvez utiliser pour construire votre réseau.</p>
 
 <p><strong>Temps requis : 1-2 heures.</strong></p>
 
-<p>Dans la construction de réseaux, nous voulons former la technologie pour quelle s'adapte à nos relations plutôt que de devoir former nos relations à s'adapter à la technologie.</p>
+<p>Dans la construction de réseaux, nous voulons penser la technologie pour quelle s'adapte à nos relations plutôt que de devoir adapter nos relations à la technologie.</p>
 </section>
 <section id="materials-and-supplies-needed">
 <h3>MATÉRIELS + FOURNITURES NÉCESSAIRES</h3>
 
-<p>Grandes (~18" x 24") pièces de papier pour dessiner et coller dessus.</p>
+<p>Grandes (~18" x 24") feuilles de papier pour dessiner et coller dessus.</p>
 
 <p>Une surface sur laquelle travailler (de préférence une table afin que les gens ayant des défis de mobilité puissent participer confortablement).</p>
 
@@ -38,20 +38,20 @@ lang: fr
 
 <p>Bâtons de colle</p>
 
-<p>Graphisme de routeur depuis ce paquet</p>
+<p>Visuels de routeur depuis cet kit</p>
 
 <p>Accès à une photocopieuse (facultatif)</p>
 
 <p>Une copie imprimée du module "Design your Network: Construction Elements" (facultatif)</p>
 </section>
 <section id="every-network-tells-a-story">
-<h2>Chaque réseau raconte un morceau du jeu d'histoire</h2>
+<h2>Chaque réseau raconte une histoire, pièces de jeu</h2>
 
 <p>Les réseaux sans fil sont construits avec des routeurs sans fil. Les routeurs peuvent parler, écouter ou répéter.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support001.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p class="tip">Les réseaux sans fil sont construits utilisant des routeurs sans fil. Rencontrez les routeurs que vous utiliserez pour ce jeu. Les routeurs peuvent parler, écouter et répéter. Ils ont tous la direction et la force, cela signifiant qu'ils peuvent émettre et recevoir vers des directions différentes et des distances différentes. La force d'émission varie beaucoup selon les conditions environnementales.</p>
+<p class="tip">Les réseaux sans fil sont construits en utilisant des routeurs sans fil. Découvrons les routeurs que vous utiliserez pour ce jeu. Les routeurs peuvent parler, écouter et répéter. Ils sont caractérisés par une directionalité et une puissance, cela signifiant qu'ils peuvent émettre et recevoir vers des directions différentes et des distances différentes. La puissance d'émission varie beaucoup selon les conditions environnementales.</p>
 </section>
 <section id="low-power-omnidirectional">
 <h2>Routeur omnidirectionnel (toutes directions) à basse puissance</h2>
@@ -76,7 +76,7 @@ lang: fr
 <p><strong>Distance estimée :</strong> 10-300 mètres</p>
 </section>
 <section id="high-power-sector">
-<h2>Routeur sectoriel (directionnel) à haute puissance</h2>
+<h2>Routeur sectoriel (rayon large) à haute puissance</h2>
 
 <p><img alt="" src="/files/design_your_network_entas_support004.png" typeof="foaf:Image" class="img-responsive"></p>
 
@@ -87,7 +87,7 @@ lang: fr
 <p><strong>Distance estimée : </strong>100-2000 mètres</p>
 </section>
 <section id="high-power-focused">
-<h2>Routeur concentré (rayon étroit) à grande puissance</h2>
+<h2>Routeur directionnel (rayon étroit) à grande puissance</h2>
 
 <p><img alt="" src="/files/design_your_network_entas_support005.png" typeof="foaf:Image" class="img-responsive"></p>
 
@@ -102,7 +102,7 @@ lang: fr
 
 <p><img alt="" src="/files/design_your_network_entas_support006.png" typeof="foaf:Image" width="360"></p>
 
-<p>Vous pouvez connecter des routeurs avec des fils ou sans fil.</p>
+<p>Vous pouvez connecter des routeurs avec des cables ou sans fil.</p>
 </section>
 <section id="rules">
 <h2>Règles</h2>
@@ -115,34 +115,34 @@ lang: fr
 
 <p><img alt="" src="/files/design_your_network_entas_support007b.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>2. Les routeurs omnidirectionnels peuvent se connecter à beaucoup de routeurs dans n'importe quelle direction.</p>
+<p>2. Les routeurs omnidirectionnels peuvent se connecter à de nombreux routeurs dans n'importe quelle direction.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support007c.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>3. Les routeurs toutes directions haute puissance peuvent aller plus loin, mais pas autant que ceux de secteur ni que les routeurs concentrés.</p>
+<p>3. Les routeurs omnidirectionnels haute puissance peuvent aller plus loin, mais pas autant que les sectoriels ni que les routeurs directionnels.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support007d.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>4. Les routeurs toutes directions basse puissance peuvent se connecter aux dispositifs voisins.</p>
+<p>4. Les routeurs omnidirectionnels basse puissance peuvent se connecter aux dispositifs voisins.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support007e.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>5. Les routeurs concentrés peuvent se connecter à un autre routeur concentré tout droit face à lui, même à travers une longue distance.</p>
+<p>5. Les routeurs directionnels peuvent se connecter à un autre routeur directionnel tout droit face à lui, même à longue distance.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support007f.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>6. Les routeurs de secteur peuvent se connecter aux dispositifs multiples dans la même direction générale, à travers de courtes ou longues distances basées sur le dispositif partenaire.</p>
+<p>6. Les routeurs sectoriels peuvent se connecter à plusieurs routeurs dans la même direction générale (même "cône" de vision), à travers de courtes ou longues distances, en fonction du routeurs distant.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support007g.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>7. Deux ou plusieurs routeurs côté à côte (dans la même bâtiment) peuvent être connectés par un fil.</p>
+<p>7. Deux ou plusieurs routeurs côté à côte (dans la même bâtiment) peuvent être connectés par un câble.</p>
 </section>
 <section id="how-to-play">
 <h2>Comment jouer le jeu</h2>
 
 <p>1. Votre groupe devrait avoir 3-5 joueurs qui sont familiers avec le voisinage. Réunissez vos fournitures.</p>
 
-<p>2. Faire un dessin de votre voisinage. Dessinez des points de repère majeurs et des rues de votre voisinage sur le grand papier, ou coupez des éléments depuis le module "Concevez votre Réseau : Éléments de Construction" et les collez-les dessus. Tout le monde dans le groupe devrait contribuer.</p>
+<p>2. Faire un dessin de votre voisinage. Dessinez des points de repère majeurs et des rues de votre voisinage sur la grande feuille, ou coupez des éléments depuis le module "Concevez votre Réseau : Éléments de Construction" et les collez-les dessus. Tout le monde dans le groupe devrait participer.</p>
 
 <p>3. Tandis que vous déplacez les éléments pour créer votre carte, commencer à discuter de quelle est "l'histoire" qui est racontée par la conception de réseau. Pourquoi l'autoroute est-elle importante ? Qu'est-ce qui arrive dans les immeubles d'habitation ? Qui sont les leaders de la communauté ?</p>
 
@@ -154,7 +154,7 @@ lang: fr
 
 <p><img alt="" src="/files/design_your_network_entas_support009.png" style="width: 480px; height: 282px;" typeof="foaf:Image"></p>
 
-<p>Les maisons des gens qui sont des alliés ou des figures importantes dans le voisinage, particulièrement ceux qui seraient intéressés de donner de l'espace sur leur toit ou leur fenêtre pour le projet sans fil.</p>
+<p>Les maisons des gens qui sont des alliés ou des figures importantes dans le voisinage, particulièrement ceux qui seraient pourraient permettre l'accès à l'espace sur leur toit ou leur fenêtre pour le projet sans fil.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support010.png" typeof="foaf:Image" class="img-responsive"></p>
 
@@ -162,9 +162,9 @@ lang: fr
 
 <p><img alt="" src="/files/design_your_network_entas_support011.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>Pensez à qui dans le voisinage a besoin d'accès et a accès aux services Internet. Où sont-ils localisés avec quelle relation de l'un à l'autre ?</p>
+<p>Pensez à qui dans le voisinage a besoin d'accès Internet et qui a déjà accès. Où sont-ils localisés avec quelle relation de l'un à l'autre ?</p>
 
-<p class="tip">Demandez à vous et à vos voisins : qu'est-ce qui est spécial concernant notre voisinage ? Où les histoires arrivent-elles ?</p>
+<p class="tip">Demandez à vous et à vos voisins : qu'est-ce qui est particulier concernant notre voisinage ? Où les histoires se déroulent-elles ?</p>
 
 <p>4. Maintenant dessinez vos connexions sans fil avec les marqueurs. Quand vous dessinez vos liens, pensez aux relations sociales qui existent ou qui pourraient être construites.</p>
 
@@ -176,7 +176,7 @@ lang: fr
 
 <p><img alt="" src="/files/design_your_network_entas_support012.png" typeof="foaf:Image" class="img-responsive"></p>
 
-<p>Ligne de vue : en connectant des noeuds de voisinage, la ligne de vue est essentielle. Les bâtiments, arbres robustes et autres caractéristiques environnementales peuvent entraver les signaux sans fil ce qui peut aboutir à des connexions incertaines ou non fonctionnelles.</p>
+<p>Ligne de vue : en connectant des noeuds de voisinage, la ligne de vue est essentielle. Les bâtiments, arbres de grande taille et autres éleéments de l'environnement peuvent entraver les signaux sans fil ce qui peut aboutir à des connexions instables ou non fonctionnelles.</p>
 
 <p><img alt="" src="/files/design_your_network_entas_support013.png" typeof="foaf:Image" class="img-responsive"></p>
 
@@ -194,7 +194,7 @@ lang: fr
 
 <p>Par exemple, est-ce que le réseau rassemble deux parties d'un voisinage qui ont été séparées par une rivière ou une autoroute ?</p>
 
-<p>Connecte-t-il l'école au centre de récréation puis à l'église, afin de renforcer le réseau d'organisation qui existe déjà ?</p>
+<p>Connecte-t-il l'école au centre de loisirs puis à l'église, afin de renforcer le réseau humain qui existe déjà ?</p>
 
 <p><img alt="" src="/files/styles/large/public/6032082057_66d0f306d4_0.jpg?itok=9Fn5CxNn" typeof="foaf:Image" class="img-responsive"></p>
 
@@ -203,7 +203,7 @@ lang: fr
 <p>Ci-dessus, les premiers diagrammes collaboratifs créés lors de la Allied Media Conference durant l'été 2011.</p>
 </section>
 <section id="cut-out">
-<h2>Coupez les routeurs pour créer vos pièces de jeu</h2>
+<h2>Découpez les routeurs pour créer vos pièces de jeu</h2>
 
 <p><img alt="" src="/files/design_your_network_entas_support_cut.png" typeof="foaf:Image" class="img-responsive"></p>
 
